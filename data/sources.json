@@ -1,0 +1,56 @@
+{
+  "categories": {
+    "overall": {
+      "label": "Overall AI Developments",
+      "type": "rss",
+      "sources": [
+        { "id": "src_001", "name": "MIT Technology Review - AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "active": true }
+      ]
+    },
+    "hardware": {
+      "label": "AI Hardware",
+      "type": "rss",
+      "sources": [
+        { "id": "src_010", "name": "AnandTech", "url": "https://www.anandtech.com/rss/", "active": true }
+      ]
+    },
+    "governance": {
+      "label": "AI Governance",
+      "type": "rss",
+      "sources": [
+        { "id": "src_020", "name": "OECD.AI News", "url": "https://oecd.ai/en/feed", "active": true }
+      ]
+    },
+    "tools": {
+      "label": "AI Tools & Applications",
+      "type": "rss",
+      "sources": [
+        { "id": "src_030", "name": "The Verge - AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "active": true }
+      ]
+    },
+    "military": {
+      "label": "AI in Military",
+      "type": "rss",
+      "sources": [
+        { "id": "src_040", "name": "Defense One - Tech", "url": "https://www.defenseone.com/rss/technology/", "active": true }
+      ]
+    },
+    "x_feed": {
+      "label": "X / Twitter Feed",
+      "type": "x_api",
+      "sources": [
+        { "id": "src_050", "name": "OpenAI", "handle": "OpenAI", "active": true },
+        { "id": "src_051", "name": "AnthropicAI", "handle": "AnthropicAI", "active": true },
+        { "id": "src_052", "name": "GoogleDeepMind", "handle": "GoogleDeepMind", "active": true }
+      ]
+    },
+    "papers": {
+      "label": "Research Papers",
+      "type": "arxiv",
+      "sources": [
+        { "id": "src_060", "name": "arXiv cs.AI", "query": "cat:cs.AI", "active": true },
+        { "id": "src_061", "name": "arXiv cs.CL", "query": "cat:cs.CL", "active": true }
+      ]
+    }
+  }
+}

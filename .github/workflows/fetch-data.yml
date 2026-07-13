@@ -1,0 +1,44 @@
+name: Fetch AI Developments Data
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC. Adjust as needed.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}   # allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch RSS sources
+        run: python scripts/fetch_rss.py
+
+      - name: Fetch arXiv papers
+        run: python scripts/fetch_arxiv.py
+
+      - name: Fetch X feed
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python scripts/fetch_x.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "ai-dashboard-bot"
+          git config user.email "actions@github.com"
+          git add data/articles/*.json
+          git diff --quiet --cached || git commit -m "Scheduled data refresh"
+          git push

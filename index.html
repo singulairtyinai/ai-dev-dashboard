@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Developments Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="mission-bar">
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
+      <h1>AI Developments Dashboard</h1>
+      <div class="subtitle">Monitoring station · 7 channels</div>
+    </div>
+  </div>
+  <div class="mission-clock">
+    <span class="label">Last sync</span>
+    <span id="last-sync">—</span>
+  </div>
+</div>
+
+<div class="grid" id="channel-grid">
+  <!-- channels injected by dashboard.js -->
+</div>
+
+<div class="mission-footer">
+  <span>Data refreshed on schedule via GitHub Actions</span>
+  <a href="control-panel.html">Control panel →</a>
+</div>
+
+<script src="assets/js/dashboard.js"></script>
+</body>
+</html>

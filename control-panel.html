@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control Panel — AI Developments Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Gate: shown until password + GitHub token are provided -->
+<div class="auth-gate" id="auth-gate">
+  <div class="auth-card">
+    <h2>Control Panel</h2>
+    <p>Restricted access · session only</p>
+
+    <div class="field">
+      <label for="pw">Password</label>
+      <input type="password" id="pw" autocomplete="off">
+    </div>
+    <div class="field">
+      <label for="pat">GitHub token (fine-grained PAT, repo write scope)</label>
+      <input type="password" id="pat" autocomplete="off">
+    </div>
+    <button class="btn" onclick="attemptLogin()">Enter</button>
+    <div class="error-msg" id="auth-error"></div>
+  </div>
+</div>
+
+<!-- Main panel: hidden until unlocked -->
+<div class="mission-bar" id="panel-header" style="display:none;">
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
+      <h1>Control Panel</h1>
+      <div class="subtitle">Manage sources · AI Developments Dashboard</div>
+    </div>
+  </div>
+  <button class="btn secondary" style="width:auto;padding:8px 14px;" onclick="location.href='index.html'">← Dashboard</button>
+</div>
+
+<div class="panel-main" id="panel-main" style="display:none;">
+  <div id="categories"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/control-panel.js"></script>
+</body>
+</html>
