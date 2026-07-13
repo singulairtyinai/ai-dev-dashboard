@@ -21,7 +21,7 @@ const CONFIG = {
   repo: 'ai-dev-dashboard',
   branch: 'main',
   sourcesPath: 'data/sources.json',
-  // Generate with: echo -n "yourpassword" | shasum -a 256
+  // Generate with: echo -n "78601" | shasum -a 256
   passwordHashSHA256: '74b32ca264cfe68cc3b26692bed7b42280c0f30927792ecfd032520f2c9587d9',
 };
 // ------------------------------------------------------------
