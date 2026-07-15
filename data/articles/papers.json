@@ -1,7 +1,169 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-14T20:21:04.820088+00:00",
+  "last_updated": "2026-07-15T06:29:24.747694+00:00",
   "items": [
+    {
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "url": "https://arxiv.org/abs/2607.13034v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:59:31+00:00"
+    },
+    {
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "url": "https://arxiv.org/abs/2607.13028v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:59:02+00:00"
+    },
+    {
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "url": "https://arxiv.org/abs/2607.13027v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:58:57+00:00"
+    },
+    {
+      "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+      "url": "https://arxiv.org/abs/2607.13013v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:53:22+00:00"
+    },
+    {
+      "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+      "url": "https://arxiv.org/abs/2607.13007v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:51:15+00:00"
+    },
+    {
+      "title": "Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation",
+      "url": "https://arxiv.org/abs/2607.12986v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:29:28+00:00"
+    },
+    {
+      "title": "Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs",
+      "url": "https://arxiv.org/abs/2607.12985v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:28:25+00:00"
+    },
+    {
+      "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+      "url": "https://arxiv.org/abs/2607.12982v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T17:24:57+00:00"
+    },
+    {
+      "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+      "url": "https://arxiv.org/abs/2607.12963v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T17:01:12+00:00"
+    },
+    {
+      "title": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models",
+      "url": "https://arxiv.org/abs/2607.12962v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T16:59:42+00:00"
+    },
+    {
+      "title": "ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark",
+      "url": "https://arxiv.org/abs/2607.12946v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T16:28:40+00:00"
+    },
+    {
+      "title": "Knowledge- and Gradient-Guided Reinforcement Learning for Parametrized Action Markov Decision Processes",
+      "url": "https://arxiv.org/abs/2607.12924v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T15:57:25+00:00"
+    },
+    {
+      "title": "Real-time fall detection based on vision for low-power edge platforms",
+      "url": "https://arxiv.org/abs/2607.12909v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T15:43:41+00:00"
+    },
+    {
+      "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+      "url": "https://arxiv.org/abs/2607.12893v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T15:33:44+00:00"
+    },
+    {
+      "title": "UR-VC: Unsupervised Robotic Value Correction for Time-Derived Progress Proxies",
+      "url": "https://arxiv.org/abs/2607.12892v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T15:33:33+00:00"
+    },
+    {
+      "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
+      "url": "https://arxiv.org/abs/2607.12886v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-14T15:32:07+00:00"
+    },
+    {
+      "title": "LLM Judges Can Be Too Generous When There Is No Reference Answer",
+      "url": "https://arxiv.org/abs/2607.12885v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T15:31:33+00:00"
+    },
+    {
+      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+      "url": "https://arxiv.org/abs/2607.12884v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T15:30:37+00:00"
+    },
+    {
+      "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+      "url": "https://arxiv.org/abs/2607.12835v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:52:42+00:00"
+    },
+    {
+      "title": "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling",
+      "url": "https://arxiv.org/abs/2607.12831v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:48:53+00:00"
+    },
+    {
+      "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+      "url": "https://arxiv.org/abs/2607.12829v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:48:06+00:00"
+    },
+    {
+      "title": "The One-Word Census: Answer-Choice Conformity Across 44 Language Models",
+      "url": "https://arxiv.org/abs/2607.12796v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:12:05+00:00"
+    },
+    {
+      "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
+      "url": "https://arxiv.org/abs/2607.12790v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:02:50+00:00"
+    },
+    {
+      "title": "Do We Really Need Multimodal Emotion Language Models Larger Than 1B Parameters?",
+      "url": "https://arxiv.org/abs/2607.12787v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T14:01:29+00:00"
+    },
+    {
+      "title": "Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.12771v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T13:44:51+00:00"
+    },
+    {
+      "title": "Tracing Agentic Failure from the Flow of Success",
+      "url": "https://arxiv.org/abs/2607.12747v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T13:16:14+00:00"
+    },
+    {
+      "title": "Epistemic Stance Flexibility Probing: Measuring Prompt-Conditioned Register Shift in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.12739v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-14T13:10:30+00:00"
+    },
     {
       "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
       "url": "https://arxiv.org/abs/2607.11881v1",
@@ -79,168 +241,6 @@
       "url": "https://arxiv.org/abs/2607.11798v1",
       "source": "arXiv cs.AI",
       "published": "2026-07-13T16:50:03+00:00"
-    },
-    {
-      "title": "Forgetting Our Way to Shared Meaning: Effects of Forgetting on Conceptual Alignment in a Non-Partnership Coordination Game",
-      "url": "https://arxiv.org/abs/2607.11787v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T16:37:17+00:00"
-    },
-    {
-      "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
-      "url": "https://arxiv.org/abs/2607.11783v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T16:36:59+00:00"
-    },
-    {
-      "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
-      "url": "https://arxiv.org/abs/2607.11771v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-13T16:28:45+00:00"
-    },
-    {
-      "title": "From Expressivity to Sample Complexity: Narrow Teachers for Transformers via C-RASP",
-      "url": "https://arxiv.org/abs/2607.11760v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T16:22:36+00:00"
-    },
-    {
-      "title": "Playful AI in Professional Email: A Field Experiment on Tone and Recipient Engagement",
-      "url": "https://arxiv.org/abs/2607.11749v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-13T16:06:23+00:00"
-    },
-    {
-      "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
-      "url": "https://arxiv.org/abs/2607.11736v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:59:25+00:00"
-    },
-    {
-      "title": "Time-Lag-Aware Deep Reinforcement Learning for Flexible Job-Shop Scheduling in PPVC Module Factories",
-      "url": "https://arxiv.org/abs/2607.11725v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-13T15:50:00+00:00"
-    },
-    {
-      "title": "STEP: Career-Path Recommendation via Temporal and Educational Trajectory Modeling",
-      "url": "https://arxiv.org/abs/2607.11722v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:48:01+00:00"
-    },
-    {
-      "title": "Active Offline-to-Online Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.11720v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-13T15:46:11+00:00"
-    },
-    {
-      "title": "JobHop v2: A Large-Scale Career Trajectory Dataset from Unstructured Resumes",
-      "url": "https://arxiv.org/abs/2607.11715v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:42:06+00:00"
-    },
-    {
-      "title": "Production and Perception in LLMs: A Token Probability Approach",
-      "url": "https://arxiv.org/abs/2607.11703v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:33:45+00:00"
-    },
-    {
-      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
-      "url": "https://arxiv.org/abs/2607.11683v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:20:51+00:00"
-    },
-    {
-      "title": "Losing My Composure: Predicting Compositionality Over Time",
-      "url": "https://arxiv.org/abs/2607.11667v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T15:11:58+00:00"
-    },
-    {
-      "title": "Reproducing human biases in route choice using large language models: Toward scalable behavioral modeling",
-      "url": "https://arxiv.org/abs/2607.11632v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-13T14:48:23+00:00"
-    },
-    {
-      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
-      "url": "https://arxiv.org/abs/2607.09662v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:59:45+00:00"
-    },
-    {
-      "title": "Scalable Visual Pretraining for Language Intelligence",
-      "url": "https://arxiv.org/abs/2607.09657v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:57:03+00:00"
-    },
-    {
-      "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
-      "url": "https://arxiv.org/abs/2607.09654v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:53:37+00:00"
-    },
-    {
-      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
-      "url": "https://arxiv.org/abs/2607.09653v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:52:29+00:00"
-    },
-    {
-      "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
-      "url": "https://arxiv.org/abs/2607.09649v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:47:38+00:00"
-    },
-    {
-      "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
-      "url": "https://arxiv.org/abs/2607.09641v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:39:00+00:00"
-    },
-    {
-      "title": "Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory",
-      "url": "https://arxiv.org/abs/2607.09632v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:28:26+00:00"
-    },
-    {
-      "title": "4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception",
-      "url": "https://arxiv.org/abs/2607.09629v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:26:19+00:00"
-    },
-    {
-      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
-      "url": "https://arxiv.org/abs/2607.09623v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T17:22:49+00:00"
-    },
-    {
-      "title": "Toward Real-Time Sentence-Level Sign Language Translation",
-      "url": "https://arxiv.org/abs/2607.09611v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-10T17:11:03+00:00"
-    },
-    {
-      "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
-      "url": "https://arxiv.org/abs/2607.09600v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T16:54:52+00:00"
-    },
-    {
-      "title": "Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR",
-      "url": "https://arxiv.org/abs/2607.09598v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-10T16:54:38+00:00"
-    },
-    {
-      "title": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers",
-      "url": "https://arxiv.org/abs/2607.09590v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-10T16:42:17+00:00"
     }
   ]
 }
