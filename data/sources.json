@@ -32,16 +32,18 @@
       "label": "AI in Military",
       "type": "rss",
       "sources": [
-        { "id": "src_040", "name": "Defense One - Tech", "url": "https://www.defenseone.com/rss/technology/", "active": true }
+        { "id": "src_040", "name": "Defense One - Tech", "url": "https://www.defenseone.com/rss/technology/", "active": true },
+         { "id": "src_041", "name": "Lockheed Martin - News", "url": "https://news.lockheedmartin.com/rss", "active": true },
+        { "id": "src_042", "name": "Booz Allen Hamilton - Newsroom", "url": "https://newsroom.boozallen.com/press-releases/rss", "active": true }
       ]
     },
     "x_feed": {
       "label": "X / Twitter Feed",
       "type": "x_api",
       "sources": [
-        { "id": "src_050", "name": "OpenAI", "handle": "OpenAI", "active": true },
-        { "id": "src_051", "name": "AnthropicAI", "handle": "AnthropicAI", "active": true },
-        { "id": "src_052", "name": "GoogleDeepMind", "handle": "GoogleDeepMind", "active": true }
+        { "id": "src_050", "name": "OpenAI", "handle": "@OpenAI", "active": true },
+        { "id": "src_051", "name": "AnthropicAI", "handle": "@AnthropicAI", "active": true },
+        { "id": "src_052", "name": "GoogleDeepMind", "handle": "@GoogleDeepMind", "active": true }
       ]
     },
     "papers": {
