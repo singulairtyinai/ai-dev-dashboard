@@ -1,5 +1,202 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-13T10:38:58.036775+00:00",
-  "items": []
+  "last_updated": "2026-07-22T08:39:26.032079+00:00",
+  "items": [
+    {
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.19345v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:59:21+00:00",
+      "preview": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify\u2026"
+    },
+    {
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2607.19344v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:59:12+00:00",
+      "preview": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved\u2026"
+    },
+    {
+      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+      "url": "https://arxiv.org/abs/2607.19338v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:56:49+00:00",
+      "preview": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as\u2026"
+    },
+    {
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "url": "https://arxiv.org/abs/2607.19336v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:55:10+00:00",
+      "preview": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale\u2026"
+    },
+    {
+      "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
+      "url": "https://arxiv.org/abs/2607.19333v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:53:36+00:00",
+      "preview": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational\u2026"
+    },
+    {
+      "title": "ISO: An RLVR-Native Optimization Stack",
+      "url": "https://arxiv.org/abs/2607.19331v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:51:36+00:00",
+      "preview": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly\u2026"
+    },
+    {
+      "title": "Associative Emotional Learning in Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2607.19327v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:49:19+00:00",
+      "preview": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light\u2026"
+    },
+    {
+      "title": "Selective State-Space Adaptation and Retrieval for Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2607.19326v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T17:47:57+00:00",
+      "preview": "Low-rank adaptation introduces a static learned update applied identically to every input. The update provides task-level adaptation but does not explicitly represent token-level or instance-level state variation. A\u2026"
+    },
+    {
+      "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
+      "url": "https://arxiv.org/abs/2607.19322v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T17:42:50+00:00",
+      "preview": "Evaluating the factuality of long-form generations has focused predominantly on precision, measuring whether the claims a model makes are correct. The dominant decompose-search-verify pipeline catches incorrect claims\u2026"
+    },
+    {
+      "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
+      "url": "https://arxiv.org/abs/2607.19321v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:41:12+00:00",
+      "preview": "As AI agents begin to automate AI R&D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the\u2026"
+    },
+    {
+      "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
+      "url": "https://arxiv.org/abs/2607.19317v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T17:34:12+00:00",
+      "preview": "Circuit analysis can support not only model explanation but also downstream interventions such as pruning, editing, steering, and selective fine-tuning. However, conducting such analyses currently requires stitching\u2026"
+    },
+    {
+      "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+      "url": "https://arxiv.org/abs/2607.19313v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:28:40+00:00",
+      "preview": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives\u2026"
+    },
+    {
+      "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+      "url": "https://arxiv.org/abs/2607.19306v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:18:46+00:00",
+      "preview": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat\u2026"
+    },
+    {
+      "title": "Riemannian Deep Learning:Modules, Networks, and Geometries",
+      "url": "https://arxiv.org/abs/2607.19305v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:17:35+00:00",
+      "preview": "Deep neural networks on manifold-valued representations have attracted growing interest, but many basic components remain tied to specific manifolds, rely on Euclidean approximations, or require costly and numerically\u2026"
+    },
+    {
+      "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+      "url": "https://arxiv.org/abs/2607.19300v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:11:02+00:00",
+      "preview": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an\u2026"
+    },
+    {
+      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+      "url": "https://arxiv.org/abs/2607.19297v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:07:13+00:00",
+      "preview": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework\u2026"
+    },
+    {
+      "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
+      "url": "https://arxiv.org/abs/2607.19292v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T17:02:37+00:00",
+      "preview": "Current AI safety discourse still focuses disproportionately on visible failures, including obvious harms, dramatic misuse, and hypothetical catastrophic scenarios. That focus is incomplete. In deployed systems, many of\u2026"
+    },
+    {
+      "title": "GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models",
+      "url": "https://arxiv.org/abs/2607.19270v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-21T16:41:59+00:00",
+      "preview": "The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is\u2026"
+    },
+    {
+      "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19257v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T16:31:35+00:00",
+      "preview": "Practitioners make three prompt-design decisions with almost no controlled evidence behind them: how to format instructions and context (markdown, plain text, prose, or tabular), how many simultaneous instructions a\u2026"
+    },
+    {
+      "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+      "url": "https://arxiv.org/abs/2607.19243v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T16:15:05+00:00",
+      "preview": "Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their internal knowledge representations remain disproportionately biased toward high-resource languages. This leads to cross-lingual\u2026"
+    },
+    {
+      "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+      "url": "https://arxiv.org/abs/2607.19235v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T16:05:49+00:00",
+      "preview": "Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially\u2026"
+    },
+    {
+      "title": "Selection Shapes the Boundary: A Preregistered Replication of Monotonicity and Label Agreement in Unselected NLI Populations",
+      "url": "https://arxiv.org/abs/2607.19231v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T16:03:05+00:00",
+      "preview": "Prior work on human label variation (HLV) in natural language inference (NLI) has often relied on re-annotation resources that select items by disagreement level. An earlier study (arXiv:2607.15870) found that\u2026"
+    },
+    {
+      "title": "The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation",
+      "url": "https://arxiv.org/abs/2607.19226v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:57:36+00:00",
+      "preview": "Reinforcement learning with verifiable rewards (RLVR) has been established as a viable paradigm for the post-training of Large Language Models (LLMs), including downstream tasks, such as Neural Machine Translation\u2026"
+    },
+    {
+      "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+      "url": "https://arxiv.org/abs/2607.19223v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:52:50+00:00",
+      "preview": "Speculative decoding, in which a lightweight draft model first generates a draft sequence that is then verified in parallel by the target model, has become a prevalent paradigm for accelerating large language model\u2026"
+    },
+    {
+      "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
+      "url": "https://arxiv.org/abs/2607.19219v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:49:02+00:00",
+      "preview": "Large language models (LLMs) have been widely applied to automated essay scoring (AES) and automated feedback generation (AFG). However, existing studies rely primarily on prompt engineering or supervised fine-tuning,\u2026"
+    },
+    {
+      "title": "MIRA-Ev:A Benchmark for Granular Evidence Detection and Relational Reasoning in Clinical Exams",
+      "url": "https://arxiv.org/abs/2607.19201v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:34:44+00:00",
+      "preview": "Clinical NLP evaluation remains dominated by multiple-choice question answering (MCQA), which scores only final-answer accuracy and cannot detect when a model reaches the correct diagnosis while grounding it in\u2026"
+    },
+    {
+      "title": "Reasoning Before Translation: Enhancing Legal Machine Translation with Structured Reasoning",
+      "url": "https://arxiv.org/abs/2607.19181v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:15:56+00:00",
+      "preview": "Neural machine translation (NMT) in the legal domain is a linguistically and conceptually demanding task, primarily due to the complexity of legal language and the high level of precision it requires. The recent\u2026"
+    },
+    {
+      "title": "Automated Extraction of Techno-Economic Data from 76,000 Energy System Studies",
+      "url": "https://arxiv.org/abs/2607.19178v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-21T15:14:32+00:00",
+      "preview": "Energy system models guide societally important decisions, but their credibility rests on quantitative assumptions that are difficult to source and audit. Meta-analyses can improve transparency and modeling practices,\u2026"
+    }
+  ]
 }
