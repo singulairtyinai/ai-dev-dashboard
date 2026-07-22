@@ -15,16 +15,9 @@
 // a private repo you access via `git`/GitHub's own UI instead of a public
 // control panel. This setup is a convenience layer, not a security boundary.
 
-// ---- CONFIG: fill these in after you create your repo ----
-const CONFIG = {
-  owner: 'singulairtyinai',
-  repo: 'ai-dev-dashboard',
-  branch: 'main',
-  sourcesPath: 'data/sources.json',
-  // Generate with: echo -n "78601" | shasum -a 256
-  passwordHashSHA256: '74b32ca264cfe68cc3b26692bed7b42280c0f30927792ecfd032520f2c9587d9',
-};
-// ------------------------------------------------------------
+// Config now lives in assets/js/site-config.js (SITE_CONFIG), shared with dashboard.js.
+// Load order: control-panel.html includes site-config.js before this file.
+const CONFIG = SITE_CONFIG;
 
 let githubToken = null;
 let sourcesCache = null;

@@ -3,7 +3,7 @@ import urllib.request
 import urllib.parse
 import feedparser
 from datetime import datetime, timezone
-from utils import load_sources, save_items
+from utils import load_sources, save_items, clean_summary
 
 ARXIV_API = "http://export.arxiv.org/api/query"
 
@@ -41,6 +41,7 @@ def run():
                     "url": entry.get("link", ""),
                     "source": src["name"],
                     "published": published,
+                    "preview": clean_summary(entry.get("summary", ""), max_len=220),
                 })
         except Exception as e:
             print(f"[papers] failed to fetch {src['name']}: {e}")

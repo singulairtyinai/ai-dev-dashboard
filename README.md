@@ -31,16 +31,19 @@ API Basic tier you've already decided to use.
 2. In the repo: Settings → Secrets and variables → Actions → New repository
    secret. Name it `X_BEARER_TOKEN`, paste the token.
 
-## 3. Configure the control panel
+## 3. Configure the site
 
-Open `assets/js/control-panel.js` and fill in the `CONFIG` block:
+Open `assets/js/site-config.js` and fill in the shared config — this one file
+is used by both `dashboard.js` (for the manual refresh button) and
+`control-panel.js` (for source editing):
 
 ```js
-const CONFIG = {
+const SITE_CONFIG = {
   owner: 'YOUR_GITHUB_USERNAME',
   repo: 'ai-dev-dashboard',
   branch: 'main',
   sourcesPath: 'data/sources.json',
+  workflowFile: 'fetch-data.yml',
   passwordHashSHA256: 'REPLACE_WITH_YOUR_PASSWORD_HASH',
 };
 ```
@@ -92,7 +95,36 @@ schedule). Check that `data/articles/*.json` files get updated and committed.
 ## 6. Adjust the schedule
 
 Edit the cron expression in `.github/workflows/fetch-data.yml` — it currently
-runs daily at 06:00 UTC.
+runs every 2 hours. Free-tier scheduled GitHub Actions runs aren't guaranteed
+to the minute and can lag under load.
+
+## Dashboard features
+
+- **Search** — the search box filters items across all channels by title,
+  preview text, and source name as you type.
+- **Category chips** — click a chip to hide/show that channel without
+  reloading; state resets on page refresh (not persisted).
+- **Expandable cards** — items with preview text (RSS descriptions, arXiv
+  abstracts, full X post text) expand on click to show it.
+- **Sparklines** — each channel header shows a mini trend line built from
+  `data/history/<category>.json`, which the fetch pipeline appends to on
+  every run (last ~60 points, roughly 5 days at a 2-hour cadence).
+- **Trending keywords** — computed client-side from the currently loaded
+  item titles (simple word-frequency, no LLM); click a keyword to filter.
+- **Governance signal map** — plots governance items by country on a
+  stylized grid using a small built-in coordinate table
+  (`COUNTRY_COORDS` in `dashboard.js`). Only appears if at least one
+  governance item has a resolvable `country` field — set this per-source
+  in `data/sources.json` (see the `governance` category for examples).
+  This is an equirectangular approximation for visual signal, not a
+  precise map.
+- **Manual refresh** — the "Refresh now" button on the dashboard triggers
+  the fetch workflow immediately via the GitHub API. It asks for a
+  GitHub token the same way the control panel does (fine-grained,
+  **Actions: write** scope this time, not Contents) — session-only,
+  never stored on disk. Since the dashboard is public, anyone can click
+  the button, but without a valid token with write access to your repo's
+  Actions, nothing happens — so this is safe to leave live.
 
 ## Local development
 

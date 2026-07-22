@@ -18,7 +18,9 @@
       "label": "AI Governance",
       "type": "rss",
       "sources": [
-        { "id": "src_020", "name": "OECD.AI News", "url": "https://oecd.ai/en/feed", "active": true }
+        { "id": "src_020", "name": "OECD.AI News", "url": "https://oecd.ai/en/feed", "active": true, "country": "France" },
+        { "id": "src_021", "name": "EU Digital Strategy - AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "European Union" },
+        { "id": "src_022", "name": "NIST AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "United States" }
       ]
     },
     "tools": {
@@ -33,7 +35,7 @@
       "type": "rss",
       "sources": [
         { "id": "src_040", "name": "Defense One - Tech", "url": "https://www.defenseone.com/rss/technology/", "active": true },
-         { "id": "src_041", "name": "Lockheed Martin - News", "url": "https://news.lockheedmartin.com/rss", "active": true },
+        { "id": "src_041", "name": "Lockheed Martin - News", "url": "https://news.lockheedmartin.com/rss", "active": true },
         { "id": "src_042", "name": "Booz Allen Hamilton - Newsroom", "url": "https://newsroom.boozallen.com/press-releases/rss", "active": true }
       ]
     },
@@ -41,9 +43,9 @@
       "label": "X / Twitter Feed",
       "type": "x_api",
       "sources": [
-        { "id": "src_050", "name": "OpenAI", "handle": "@OpenAI", "active": true },
-        { "id": "src_051", "name": "AnthropicAI", "handle": "@AnthropicAI", "active": true },
-        { "id": "src_052", "name": "GoogleDeepMind", "handle": "@GoogleDeepMind", "active": true }
+        { "id": "src_050", "name": "OpenAI", "handle": "OpenAI", "active": true },
+        { "id": "src_051", "name": "AnthropicAI", "handle": "AnthropicAI", "active": true },
+        { "id": "src_052", "name": "GoogleDeepMind", "handle": "GoogleDeepMind", "active": true }
       ]
     },
     "papers": {

@@ -57,10 +57,11 @@ def run():
                 continue
             for tweet in get_recent_tweets(user_id):
                 new_items.append({
-                    "title": tweet["text"][:180],
+                    "title": tweet["text"][:100] + ("…" if len(tweet["text"]) > 100 else ""),
                     "url": f"https://x.com/{src['handle']}/status/{tweet['id']}",
                     "source": src["name"],
                     "published": tweet.get("created_at"),
+                    "preview": tweet["text"],
                 })
         except Exception as e:
             print(f"[x_feed] failed to fetch {src['name']}: {e}")

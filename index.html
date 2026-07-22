@@ -18,14 +18,32 @@
       <div class="subtitle">Monitoring station · 7 channels</div>
     </div>
   </div>
-  <div class="mission-clock">
-    <span class="label">Last sync</span>
-    <span id="last-sync">—</span>
+  <div class="mission-bar-right">
+    <div class="mission-clock">
+      <span class="label">Last sync</span>
+      <span id="last-sync">—</span>
+    </div>
+    <button class="btn secondary refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh now</button>
   </div>
 </div>
 
+<div class="toolbar">
+  <input type="text" id="search-input" class="search-input" placeholder="Search all channels…" oninput="applyFilters()">
+  <div class="chip-row" id="chip-row"><!-- category toggle chips injected here --></div>
+</div>
+
+<div class="keyword-strip" id="keyword-strip"><!-- trending keywords injected here --></div>
+
 <div class="grid" id="channel-grid">
   <!-- channels injected by dashboard.js -->
+</div>
+
+<div class="map-section" id="map-section" style="display:none;">
+  <div class="map-header">
+    <h2>Governance Signal Map</h2>
+    <span class="channel-meta">Recent governance activity by country/region</span>
+  </div>
+  <div id="map-container"></div>
 </div>
 
 <div class="mission-footer">
@@ -33,6 +51,9 @@
   <a href="control-panel.html">Control panel →</a>
 </div>
 
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/site-config.js"></script>
 <script src="assets/js/dashboard.js"></script>
 </body>
 </html>
