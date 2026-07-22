@@ -6,5 +6,5 @@ const SITE_CONFIG = {
   branch: 'main',
   sourcesPath: 'data/sources.json',
   workflowFile: 'fetch-data.yml',
-  passwordHashSHA256: '74b32ca264cfe68cc3b26692bed7b42280c0f30927792ecfd032520f2c9587d9',
+  passwordHashSHA256: '16536042773ea09b9d2f9db48cec3c8cbd81b143975edaab3f47a18ded589c2c',
 };
