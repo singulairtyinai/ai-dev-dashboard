@@ -1,7 +1,7 @@
 // Shared config — fill in after creating your repo.
 // Used by dashboard.js (manual refresh button) and control-panel.js (source editing).
 const SITE_CONFIG = {
-  owner: 'YOUR_GITHUB_USERNAME',
+  owner: 'singulairtyinai',
   repo: 'ai-dev-dashboard',
   branch: 'main',
   sourcesPath: 'data/sources.json',
