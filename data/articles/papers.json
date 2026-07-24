@@ -1,7 +1,196 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-23T23:15:57.199468+00:00",
+  "last_updated": "2026-07-24T09:11:34.078765+00:00",
   "items": [
+    {
+      "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+      "url": "https://arxiv.org/abs/2607.21595v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:59:59+00:00",
+      "preview": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this\u2026"
+    },
+    {
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "url": "https://arxiv.org/abs/2607.21580v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:56:30+00:00",
+      "preview": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice,\u2026"
+    },
+    {
+      "title": "Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\\geq 4$",
+      "url": "https://arxiv.org/abs/2607.21579v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:56:05+00:00",
+      "preview": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is whether BB\u2026"
+    },
+    {
+      "title": "Synthetic data generation framework for quality control automation in gravure printing",
+      "url": "https://arxiv.org/abs/2607.21577v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:55:21+00:00",
+      "preview": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards\u2026"
+    },
+    {
+      "title": "Surprisal Theory is Tautological (without Rational Grounding)",
+      "url": "https://arxiv.org/abs/2607.21574v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T17:54:37+00:00",
+      "preview": "Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without further constraint:\u2026"
+    },
+    {
+      "title": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
+      "url": "https://arxiv.org/abs/2607.21573v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:52:01+00:00",
+      "preview": "Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, existing\u2026"
+    },
+    {
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "url": "https://arxiv.org/abs/2607.21570v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T17:50:28+00:00",
+      "preview": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical\u2026"
+    },
+    {
+      "title": "Unsupervised Consensus-Based Anomaly Detection for Spatiotemporal Malaria Incidence in Ghana",
+      "url": "https://arxiv.org/abs/2607.21559v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:40:51+00:00",
+      "preview": "A consensus anomaly detection framework was applied to monthly malaria surveillance data from Ghana (2014-2023) to identify atypical transmission patterns. Anomalies were highly structured in space and time. Ashanti and\u2026"
+    },
+    {
+      "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning",
+      "url": "https://arxiv.org/abs/2607.21558v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:40:07+00:00",
+      "preview": "Building socially calibrated large language models, which can learn from others without simply yielding to them, requires more than reducing sycophancy as a one-dimensional failure mode. Models must distinguish when to\u2026"
+    },
+    {
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "url": "https://arxiv.org/abs/2607.21557v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:38:30+00:00",
+      "preview": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make\u2026"
+    },
+    {
+      "title": "Visual Contrastive Self-Distillation",
+      "url": "https://arxiv.org/abs/2607.21556v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:37:37+00:00",
+      "preview": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the\u2026"
+    },
+    {
+      "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+      "url": "https://arxiv.org/abs/2607.21552v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:35:56+00:00",
+      "preview": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined\u2026"
+    },
+    {
+      "title": "The Boundaries of Automation: A Theory of Persistent Human Participation",
+      "url": "https://arxiv.org/abs/2607.21547v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:33:43+00:00",
+      "preview": "The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Implicit in this pursuit is the assumption that humans remain in the\u2026"
+    },
+    {
+      "title": "DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages",
+      "url": "https://arxiv.org/abs/2607.21540v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T17:25:08+00:00",
+      "preview": "We present DONDO, a family of open, permissively licensed automatic speech recognition (ASR) base models for African languages, built on the w2v-BERT 2.0 self-supervised speech encoder. DONDO comprises twenty-one\u2026"
+    },
+    {
+      "title": "Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context",
+      "url": "https://arxiv.org/abs/2607.21535v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T17:21:44+00:00",
+      "preview": "Speculative decoding accelerates autoregressive generation by having a cheap draft propose tokens that a target verifies in parallel. Frontier models increasingly ship a built-in Multi-Token-Prediction (MTP/NEXTN) draft\u2026"
+    },
+    {
+      "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+      "url": "https://arxiv.org/abs/2607.21530v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:15:53+00:00",
+      "preview": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often\u2026"
+    },
+    {
+      "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
+      "url": "https://arxiv.org/abs/2607.21529v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:15:30+00:00",
+      "preview": "Test-Time Tuning (TTT) on pretrained diffusion models has emerged as a powerful paradigm for video editing. However, there exists a foundational mismatch between the distribution-mapping nature of generative models and\u2026"
+    },
+    {
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "url": "https://arxiv.org/abs/2607.21522v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:04:36+00:00",
+      "preview": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort\u2026"
+    },
+    {
+      "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+      "url": "https://arxiv.org/abs/2607.21518v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-23T17:02:11+00:00",
+      "preview": "Even a current high-capability LLM can appear safer when shown a dangerous objective directly than when other agents transform and relay its direction. Using OpenAI's gpt-5.6-sol model alias, we test 25 pre-specified\u2026"
+    },
+    {
+      "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+      "url": "https://arxiv.org/abs/2607.21498v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T16:47:39+00:00",
+      "preview": "A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen \u00abThis is not a course.\u2026"
+    },
+    {
+      "title": "What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations",
+      "url": "https://arxiv.org/abs/2607.21491v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T16:34:14+00:00",
+      "preview": "Do independently trained language models come to represent the same thing in the same way? We answer for code, extending a recently introduced concept-circuit extraction method to a 2x2 design -- Python and Rust crossed\u2026"
+    },
+    {
+      "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+      "url": "https://arxiv.org/abs/2607.21482v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T16:23:42+00:00",
+      "preview": "Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models. Their adoption in research using personal data is constrained by\u2026"
+    },
+    {
+      "title": "Error Certificates for KV-Cache Eviction via Randomized Design",
+      "url": "https://arxiv.org/abs/2607.21475v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T16:16:59+00:00",
+      "preview": "Deterministic KV-cache eviction keeps the top-$k$ tokens under an importance score and deletes the rest. We prove that this design cannot know what it destroyed: evicted values can be altered so that everything the\u2026"
+    },
+    {
+      "title": "RUMBA: Russian User Memory Benchmark",
+      "url": "https://arxiv.org/abs/2607.21447v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T15:52:31+00:00",
+      "preview": "The ability to handle long-term memory in LLMs is becoming increasingly critical, yet existing benchmarks remain English-centric and rely on aggregate retrieval metrics, failing to capture interactions between\u2026"
+    },
+    {
+      "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+      "url": "https://arxiv.org/abs/2607.21445v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T15:52:00+00:00",
+      "preview": "Quiz rooms, trivia nights, and quiz shows challenge human knowledge across a wide range of topics, from canonical facts to everyday culture. In this paper, we examine whether large language models (LLMs) can perform\u2026"
+    },
+    {
+      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
+      "url": "https://arxiv.org/abs/2607.21433v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T15:37:04+00:00",
+      "preview": "Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B exhibit a bimodal convergence pattern: generations either terminate within a token budget (converged) or exhaust it without reaching a conclusion\u2026"
+    },
+    {
+      "title": "An Evaluation Framework for Structured Audio Captions Validated by Controlled Perturbations",
+      "url": "https://arxiv.org/abs/2607.21424v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-23T15:26:52+00:00",
+      "preview": "Recent advancements in automated audio captioning (AAC) have shifted from monolithic sentence generation toward structured formats that explicitly disentangle distinct acoustic and semantic properties. However,\u2026"
+    },
     {
       "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
       "url": "https://arxiv.org/abs/2607.20410v1",
@@ -92,195 +281,6 @@
       "source": "arXiv cs.CL",
       "published": "2026-07-22T15:48:39+00:00",
       "preview": "Fine-tuning has been widely used to adapt large language models (LLMs) for domain-specific tasks. Parameter efficient fine-tuning (PEFT) methods such as low-rank adaptation (LoRA) are frequently used to reduce\u2026"
-    },
-    {
-      "title": "Don't Trust the Label: License Laundering in AI Supply Chains",
-      "url": "https://arxiv.org/abs/2607.20300v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:48:04+00:00",
-      "preview": "AI artifacts move through a multi-platform supply chain, spanning datasets and models on Hugging Face and applications on GitHub. While each artifact carries a license whose obligations should propagate through\u2026"
-    },
-    {
-      "title": "Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments",
-      "url": "https://arxiv.org/abs/2607.20289v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:36:11+00:00",
-      "preview": "We consider a task planning scenario in which robots sharing a persistent environment are assigned tasks one at a time from a held-out sequence. Standard task planners, lacking foresight of future tasks and\u2026"
-    },
-    {
-      "title": "Sound Probabilistic Safety Bounds for Large Language Models",
-      "url": "https://arxiv.org/abs/2607.20286v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:31:28+00:00",
-      "preview": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence\u2026"
-    },
-    {
-      "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
-      "url": "https://arxiv.org/abs/2607.20274v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:25:05+00:00",
-      "preview": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared structure. Whether this\u2026"
-    },
-    {
-      "title": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study",
-      "url": "https://arxiv.org/abs/2607.20270v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T15:22:14+00:00",
-      "preview": "Large language models are increasingly evaluated through the values they endorse, but such evaluations presuppose that models can identify the value expressed in a concrete situation. We study this prerequisite as\u2026"
-    },
-    {
-      "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
-      "url": "https://arxiv.org/abs/2607.20268v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:20:53+00:00",
-      "preview": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction. Furthermore, standard single-stream prompting\u2026"
-    },
-    {
-      "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
-      "url": "https://arxiv.org/abs/2607.20265v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:19:23+00:00",
-      "preview": "Large-scale pretrained language models such as T5 and BERT have demonstrated strong capabilities for generating structured knowledge. However, their performance depends on how closely the prompting strategy matches the\u2026"
-    },
-    {
-      "title": "The Ethics of Autonomous AI Agents for Offensive Security",
-      "url": "https://arxiv.org/abs/2607.20255v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T15:13:15+00:00",
-      "preview": "LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit\u2026"
-    },
-    {
-      "title": "Exposure is Optional: Learning Unlike Coordination in Language Models",
-      "url": "https://arxiv.org/abs/2607.20251v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T15:11:11+00:00",
-      "preview": "Coordination, a fundamental linguistic structure, remains a subject of intense debate, and its exact nature continues to elude theoretical linguistics. A common view holds that only same-category constituents can be\u2026"
-    },
-    {
-      "title": "On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens",
-      "url": "https://arxiv.org/abs/2607.20241v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T15:01:10+00:00",
-      "preview": "Culturally loaded translation poses unique challenges for machine translation (MT), as meanings are deeply embedded in socio-cultural contexts beyond surface linguistic forms. Although large language models (LLMs) have\u2026"
-    },
-    {
-      "title": "HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering",
-      "url": "https://arxiv.org/abs/2607.20219v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T14:37:25+00:00",
-      "preview": "Large language models (LLMs) can generate fluent Arabic answers, yet factual errors remain difficult to detect, localize, explain, and verify. Existing hallucination benchmarks often provide response-level labels, with\u2026"
-    },
-    {
-      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.19345v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:59:21+00:00",
-      "preview": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify\u2026"
-    },
-    {
-      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-      "url": "https://arxiv.org/abs/2607.19344v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:59:12+00:00",
-      "preview": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved\u2026"
-    },
-    {
-      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
-      "url": "https://arxiv.org/abs/2607.19338v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:56:49+00:00",
-      "preview": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as\u2026"
-    },
-    {
-      "title": "Agents in the Wild: Where Research Meets Deployment",
-      "url": "https://arxiv.org/abs/2607.19336v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:55:10+00:00",
-      "preview": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale\u2026"
-    },
-    {
-      "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
-      "url": "https://arxiv.org/abs/2607.19333v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:53:36+00:00",
-      "preview": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational\u2026"
-    },
-    {
-      "title": "ISO: An RLVR-Native Optimization Stack",
-      "url": "https://arxiv.org/abs/2607.19331v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:51:36+00:00",
-      "preview": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly\u2026"
-    },
-    {
-      "title": "Associative Emotional Learning in Convolutional Neural Networks",
-      "url": "https://arxiv.org/abs/2607.19327v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:49:19+00:00",
-      "preview": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light\u2026"
-    },
-    {
-      "title": "Selective State-Space Adaptation and Retrieval for Language Model Reasoning",
-      "url": "https://arxiv.org/abs/2607.19326v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-21T17:47:57+00:00",
-      "preview": "Low-rank adaptation introduces a static learned update applied identically to every input. The update provides task-level adaptation but does not explicitly represent token-level or instance-level state variation. A\u2026"
-    },
-    {
-      "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
-      "url": "https://arxiv.org/abs/2607.19322v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-21T17:42:50+00:00",
-      "preview": "Evaluating the factuality of long-form generations has focused predominantly on precision, measuring whether the claims a model makes are correct. The dominant decompose-search-verify pipeline catches incorrect claims\u2026"
-    },
-    {
-      "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
-      "url": "https://arxiv.org/abs/2607.19321v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:41:12+00:00",
-      "preview": "As AI agents begin to automate AI R&D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the\u2026"
-    },
-    {
-      "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
-      "url": "https://arxiv.org/abs/2607.19317v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-21T17:34:12+00:00",
-      "preview": "Circuit analysis can support not only model explanation but also downstream interventions such as pruning, editing, steering, and selective fine-tuning. However, conducting such analyses currently requires stitching\u2026"
-    },
-    {
-      "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
-      "url": "https://arxiv.org/abs/2607.19313v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:28:40+00:00",
-      "preview": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives\u2026"
-    },
-    {
-      "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
-      "url": "https://arxiv.org/abs/2607.19306v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:18:46+00:00",
-      "preview": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat\u2026"
-    },
-    {
-      "title": "Riemannian Deep Learning:Modules, Networks, and Geometries",
-      "url": "https://arxiv.org/abs/2607.19305v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:17:35+00:00",
-      "preview": "Deep neural networks on manifold-valued representations have attracted growing interest, but many basic components remain tied to specific manifolds, rely on Euclidean approximations, or require costly and numerically\u2026"
-    },
-    {
-      "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
-      "url": "https://arxiv.org/abs/2607.19300v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:11:02+00:00",
-      "preview": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an\u2026"
-    },
-    {
-      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
-      "url": "https://arxiv.org/abs/2607.19297v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-21T17:07:13+00:00",
-      "preview": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework\u2026"
     }
   ]
 }
