@@ -1,7 +1,210 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-26T20:16:30.974720+00:00",
+  "last_updated": "2026-07-27T10:55:20.745302+00:00",
   "items": [
+    {
+      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+      "url": "https://arxiv.org/abs/2607.22534v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:59:51+00:00",
+      "preview": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception\u2026"
+    },
+    {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "url": "https://arxiv.org/abs/2607.22529v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T17:59:22+00:00",
+      "preview": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification\u2026"
+    },
+    {
+      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "url": "https://arxiv.org/abs/2607.22525v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:56:38+00:00",
+      "preview": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building\u2026"
+    },
+    {
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "url": "https://arxiv.org/abs/2607.22520v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:50:03+00:00",
+      "preview": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing\u2026"
+    },
+    {
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+      "url": "https://arxiv.org/abs/2607.22516v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:39:14+00:00",
+      "preview": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships\u2026"
+    },
+    {
+      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+      "url": "https://arxiv.org/abs/2607.22513v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:32:43+00:00",
+      "preview": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok,\u2026"
+    },
+    {
+      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.22511v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:32:35+00:00",
+      "preview": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM)\u2026"
+    },
+    {
+      "title": "\\k{appa}-LoRA: Condition Numbers Reveal Which LoRA Matrices Worth Updating",
+      "url": "https://arxiv.org/abs/2607.22489v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T17:00:40+00:00",
+      "preview": "Low-Rank Adaptation (LoRA) has become a widely adopted technique for efficient neural network fine-tuning, decomposing model updates into low-rank matrices. However, LoRA remains computationally costly because it\u2026"
+    },
+    {
+      "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+      "url": "https://arxiv.org/abs/2607.22471v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:39:06+00:00",
+      "preview": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only\u2026"
+    },
+    {
+      "title": "Learning to Prepare Molecular Ground States with Transformer Models",
+      "url": "https://arxiv.org/abs/2607.22468v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:32:40+00:00",
+      "preview": "Quantum state preparation is a key component of many quantum algorithms. Performing this step efficiently is essential for realizing practical quantum advantage in quantum chemistry applications. Iterative algorithms\u2026"
+    },
+    {
+      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+      "url": "https://arxiv.org/abs/2607.22465v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:29:06+00:00",
+      "preview": "Routing to select large language models (LLMs) with different cost-quality trade-offs has become a fundamental deployment feature of enterprise AI. Existing routers, primarily make independent routing decisions for each\u2026"
+    },
+    {
+      "title": "Beyond Perspectives: A Trio-Ethnography of Interpretation Evolution in LLM-Supported Programming Education",
+      "url": "https://arxiv.org/abs/2607.22463v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:28:14+00:00",
+      "preview": "Generative AI is reshaping programming education, yet educators often infer students' AI-supported learning from classroom observations alone. This experience report presents a trio-ethnography involving two computing\u2026"
+    },
+    {
+      "title": "Phylogenetic signal in marine mammal and bird vocalizations captured by audio foundation models: the limited benefit of domain-specific pretraining",
+      "url": "https://arxiv.org/abs/2607.22458v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:19:04+00:00",
+      "preview": "Do learned audio embeddings encode structure that nobody told them to encode? We probe four large pretrained audio models (AST, CLAP, BEATs-bio and BirdNET) with a downstream task none of them saw during training:\u2026"
+    },
+    {
+      "title": "grapheme-kit: Grapheme-Level Metrics and Text Processing for Multilingual NLP",
+      "url": "https://arxiv.org/abs/2607.22456v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T16:14:37+00:00",
+      "preview": "Existing lexical distance, similarity, and evaluation metrics operate on Unicode code points, which can misrepresent errors in writing systems where a single grapheme is represented by multiple Unicode code points. We\u2026"
+    },
+    {
+      "title": "Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture",
+      "url": "https://arxiv.org/abs/2607.22445v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:08:03+00:00",
+      "preview": "Enterprise AI agents are typically granted static credential sets at configuration time, holding every tool the role might need for every task they perform. This persistent over-privilege expands the attack surface. We\u2026"
+    },
+    {
+      "title": "Hyperball May Not Be a Free Lunch",
+      "url": "https://arxiv.org/abs/2607.22444v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T16:06:38+00:00",
+      "preview": "For scale-invariant deep networks, Hyperball-style optimizers have shown strong performance in large-scale training by fixing the norms of matrix-valued parameters and normalizing updates. However, the source of their\u2026"
+    },
+    {
+      "title": "Robot Learning to Communicate through Projected Visual Abstractions",
+      "url": "https://arxiv.org/abs/2607.22434v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-24T15:52:36+00:00",
+      "preview": "Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Yet robots remain largely confined to expressing themselves through their physical morphology. Enabling\u2026"
+    },
+    {
+      "title": "A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books",
+      "url": "https://arxiv.org/abs/2607.22376v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T15:03:36+00:00",
+      "preview": "Most endangered languages lack the parallel data required for machine translation, despite the existence of descriptive grammar books. We introduce a pipeline that uses large language models to extract grammatical\u2026"
+    },
+    {
+      "title": "Cross-Tokenizer On-Policy Distillation via Byte-Prefix Marginalization",
+      "url": "https://arxiv.org/abs/2607.22334v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T14:12:54+00:00",
+      "preview": "Open-weight language models from different families exhibit complementary capabilities, motivating their consolidation into a compact student through on-policy distillation (OPD). However, full-vocabulary OPD typically\u2026"
+    },
+    {
+      "title": "Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging",
+      "url": "https://arxiv.org/abs/2607.22300v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T13:44:50+00:00",
+      "preview": "We present a systematic study of healthcare-domain cross-lingual transfer to address the scarcity of biomedical NMT resources for Arabic-script languages. We use Arabic and Persian as higher-resource pivots to improve\u2026"
+    },
+    {
+      "title": "Why Large Language Models and Humans Converge and Diverge in Evaluating Creativity",
+      "url": "https://arxiv.org/abs/2607.22218v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T11:37:19+00:00",
+      "preview": "Despite the growing use of large language models (LLMs) as creativity evaluators, evidence of their alignment with human evaluations remains mixed, raising the question of when and why their judgments converge with or\u2026"
+    },
+    {
+      "title": "From Isolated Tasks to Structured Capabilities: A Multilayer Taxonomy for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.22182v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T10:49:50+00:00",
+      "preview": "Large language model (LLM) evaluation spans diverse tasks and benchmarks, yet evidence remains organized around tasks rather than the capabilities they probe. This fragmentation limits cross-study comparison, obscures\u2026"
+    },
+    {
+      "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents",
+      "url": "https://arxiv.org/abs/2607.22165v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T10:11:24+00:00",
+      "preview": "LLM-based database agents show promise, but differing task scopes, testbeds, and metrics hinder comparison. We identify four gaps between evaluation and production operations: live-environment fidelity (multi-turn\u2026"
+    },
+    {
+      "title": "Dynamic Commonsense Coordination for Empathetic Response Generation",
+      "url": "https://arxiv.org/abs/2607.22136v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T09:30:57+00:00",
+      "preview": "Empathetic Response Generation (ERG) requires models to recognize users' emotions and generate empathetic responses. Commonsense knowledge has been shown to support such reasoning, yet existing approaches typically\u2026"
+    },
+    {
+      "title": "MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond",
+      "url": "https://arxiv.org/abs/2607.22100v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T08:52:44+00:00",
+      "preview": "Lightweight projectors are an established way to connect pre-trained speech encoders with large language models (LLMs), mapping acoustic features into token-level embeddings for tasks like ASR and spoken question\u2026"
+    },
+    {
+      "title": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Mode",
+      "url": "https://arxiv.org/abs/2607.22083v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T08:33:26+00:00",
+      "preview": "We present Nanbeige4.2-3B, a compact general agentic model with 3B non-embedding parameters. It delivers strong performance across code-agent, office-agent, and complex tool-use tasks while maintaining highly\u2026"
+    },
+    {
+      "title": "FSE: Continual Learning for Named Entity Recognition by Fast-Slow Experts",
+      "url": "https://arxiv.org/abs/2607.22075v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T08:20:01+00:00",
+      "preview": "Continual Learning for Named Entity Recognition (CLNER) enable models to incrementally learn new entity types without forgetting previously acquired ones. However, existing methods suffer from catastrophic forgetting\u2026"
+    },
+    {
+      "title": "Benchmarking Fine-tuning and Retrieval Strategies for a Multimodal Language Model on the NRC Reactor Operator Licensing Examination",
+      "url": "https://arxiv.org/abs/2607.22067v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T08:10:21+00:00",
+      "preview": "The integration of large language models (LLMs) into the nuclear power industry requires outputs grounded in domain-specific knowledge. This study evaluates a 31-billion-parameter open-weight multimodal model (Gemma 4\u2026"
+    },
+    {
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "url": "https://arxiv.org/abs/2607.22043v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-24T07:13:52+00:00",
+      "preview": "Although large language models (LLMs) exhibit remarkable reasoning capabilities, their reliance on text-only pre-training restricts the perception of the multimodal physical world. Native multimodal pre-training avoids\u2026"
+    },
     {
       "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
       "url": "https://arxiv.org/abs/2607.21595v1",
@@ -78,209 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-23T17:37:37+00:00",
       "preview": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the\u2026"
-    },
-    {
-      "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
-      "url": "https://arxiv.org/abs/2607.21552v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:35:56+00:00",
-      "preview": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined\u2026"
-    },
-    {
-      "title": "The Boundaries of Automation: A Theory of Persistent Human Participation",
-      "url": "https://arxiv.org/abs/2607.21547v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:33:43+00:00",
-      "preview": "The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Implicit in this pursuit is the assumption that humans remain in the\u2026"
-    },
-    {
-      "title": "DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages",
-      "url": "https://arxiv.org/abs/2607.21540v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T17:25:08+00:00",
-      "preview": "We present DONDO, a family of open, permissively licensed automatic speech recognition (ASR) base models for African languages, built on the w2v-BERT 2.0 self-supervised speech encoder. DONDO comprises twenty-one\u2026"
-    },
-    {
-      "title": "Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context",
-      "url": "https://arxiv.org/abs/2607.21535v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T17:21:44+00:00",
-      "preview": "Speculative decoding accelerates autoregressive generation by having a cheap draft propose tokens that a target verifies in parallel. Frontier models increasingly ship a built-in Multi-Token-Prediction (MTP/NEXTN) draft\u2026"
-    },
-    {
-      "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
-      "url": "https://arxiv.org/abs/2607.21530v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:15:53+00:00",
-      "preview": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often\u2026"
-    },
-    {
-      "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
-      "url": "https://arxiv.org/abs/2607.21529v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:15:30+00:00",
-      "preview": "Test-Time Tuning (TTT) on pretrained diffusion models has emerged as a powerful paradigm for video editing. However, there exists a foundational mismatch between the distribution-mapping nature of generative models and\u2026"
-    },
-    {
-      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-      "url": "https://arxiv.org/abs/2607.21522v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:04:36+00:00",
-      "preview": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort\u2026"
-    },
-    {
-      "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
-      "url": "https://arxiv.org/abs/2607.21518v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-23T17:02:11+00:00",
-      "preview": "Even a current high-capability LLM can appear safer when shown a dangerous objective directly than when other agents transform and relay its direction. Using OpenAI's gpt-5.6-sol model alias, we test 25 pre-specified\u2026"
-    },
-    {
-      "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
-      "url": "https://arxiv.org/abs/2607.21498v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T16:47:39+00:00",
-      "preview": "A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen \u00abThis is not a course.\u2026"
-    },
-    {
-      "title": "What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations",
-      "url": "https://arxiv.org/abs/2607.21491v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T16:34:14+00:00",
-      "preview": "Do independently trained language models come to represent the same thing in the same way? We answer for code, extending a recently introduced concept-circuit extraction method to a 2x2 design -- Python and Rust crossed\u2026"
-    },
-    {
-      "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
-      "url": "https://arxiv.org/abs/2607.21482v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T16:23:42+00:00",
-      "preview": "Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models. Their adoption in research using personal data is constrained by\u2026"
-    },
-    {
-      "title": "Error Certificates for KV-Cache Eviction via Randomized Design",
-      "url": "https://arxiv.org/abs/2607.21475v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T16:16:59+00:00",
-      "preview": "Deterministic KV-cache eviction keeps the top-$k$ tokens under an importance score and deletes the rest. We prove that this design cannot know what it destroyed: evicted values can be altered so that everything the\u2026"
-    },
-    {
-      "title": "RUMBA: Russian User Memory Benchmark",
-      "url": "https://arxiv.org/abs/2607.21447v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T15:52:31+00:00",
-      "preview": "The ability to handle long-term memory in LLMs is becoming increasingly critical, yet existing benchmarks remain English-centric and rely on aggregate retrieval metrics, failing to capture interactions between\u2026"
-    },
-    {
-      "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
-      "url": "https://arxiv.org/abs/2607.21445v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T15:52:00+00:00",
-      "preview": "Quiz rooms, trivia nights, and quiz shows challenge human knowledge across a wide range of topics, from canonical facts to everyday culture. In this paper, we examine whether large language models (LLMs) can perform\u2026"
-    },
-    {
-      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
-      "url": "https://arxiv.org/abs/2607.21433v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T15:37:04+00:00",
-      "preview": "Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B exhibit a bimodal convergence pattern: generations either terminate within a token budget (converged) or exhaust it without reaching a conclusion\u2026"
-    },
-    {
-      "title": "An Evaluation Framework for Structured Audio Captions Validated by Controlled Perturbations",
-      "url": "https://arxiv.org/abs/2607.21424v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-23T15:26:52+00:00",
-      "preview": "Recent advancements in automated audio captioning (AAC) have shifted from monolithic sentence generation toward structured formats that explicitly disentangle distinct acoustic and semantic properties. However,\u2026"
-    },
-    {
-      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
-      "url": "https://arxiv.org/abs/2607.20410v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T17:49:37+00:00",
-      "preview": "Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka that have their\u2026"
-    },
-    {
-      "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
-      "url": "https://arxiv.org/abs/2607.20402v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T17:38:39+00:00",
-      "preview": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied\u2026"
-    },
-    {
-      "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
-      "url": "https://arxiv.org/abs/2607.20385v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T17:13:25+00:00",
-      "preview": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises\u2026"
-    },
-    {
-      "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
-      "url": "https://arxiv.org/abs/2607.20382v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T17:11:52+00:00",
-      "preview": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state\u2026"
-    },
-    {
-      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
-      "url": "https://arxiv.org/abs/2607.20379v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T17:10:23+00:00",
-      "preview": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to\u2026"
-    },
-    {
-      "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
-      "url": "https://arxiv.org/abs/2607.20372v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T17:02:34+00:00",
-      "preview": "Humans distill experience into reusable abstractions, e.g., strategies and cautionary reminders, and apply them to gradually solve problems more effectively. We study whether Large Language Models (LLMs) can similarly\u2026"
-    },
-    {
-      "title": "Test-Time Training for Modality Order Consistency in Vision-Language Models",
-      "url": "https://arxiv.org/abs/2607.20351v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T16:37:02+00:00",
-      "preview": "We find that vision-language models are sensitive to a specific semantically irrelevant change: the order in which the image and question are presented. Across three models and three benchmarks, image first prompting\u2026"
-    },
-    {
-      "title": "Generative AI floods and dilutes the market for books",
-      "url": "https://arxiv.org/abs/2607.20349v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T16:33:20+00:00",
-      "preview": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that\u2026"
-    },
-    {
-      "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
-      "url": "https://arxiv.org/abs/2607.20345v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T16:30:51+00:00",
-      "preview": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and\u2026"
-    },
-    {
-      "title": "Understanding Generative AI-mediated User Engagement with Academic Library Resources",
-      "url": "https://arxiv.org/abs/2607.20328v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T16:14:38+00:00",
-      "preview": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in\u2026"
-    },
-    {
-      "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
-      "url": "https://arxiv.org/abs/2607.20327v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T16:14:26+00:00",
-      "preview": "Large language models (LLMs) provide strong reasoning capabilities but are expensive to serve at scale, whereas small language models (SLMs) are cheaper but less reliable on difficult problems. We introduce PyroDash, a\u2026"
-    },
-    {
-      "title": "Toward Reliable RGB-D Semantic Segmentation: Handling Missing Modalities via Condition Dropout",
-      "url": "https://arxiv.org/abs/2607.20326v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-22T16:12:27+00:00",
-      "preview": "RGB-D semantic segmentation has achieved remarkable progress, yet most models assume that RGB and depth are always available. In practice, failures or occlusions of surveillance sensors often remove one modality.\u2026"
-    },
-    {
-      "title": "The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability",
-      "url": "https://arxiv.org/abs/2607.20301v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-22T15:48:39+00:00",
-      "preview": "Fine-tuning has been widely used to adapt large language models (LLMs) for domain-specific tasks. Parameter efficient fine-tuning (PEFT) methods such as low-rank adaptation (LoRA) are frequently used to reduce\u2026"
     }
   ]
 }
