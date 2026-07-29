@@ -1,7 +1,203 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-28T20:37:08.439123+00:00",
+  "last_updated": "2026-07-29T08:03:25.414123+00:00",
   "items": [
+    {
+      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.26057v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:59:46+00:00",
+      "preview": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on\u2026"
+    },
+    {
+      "title": "$\u03c0\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+      "url": "https://arxiv.org/abs/2607.26055v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:59:31+00:00",
+      "preview": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving\u2026"
+    },
+    {
+      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
+      "url": "https://arxiv.org/abs/2607.26041v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:49:51+00:00",
+      "preview": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates whether a model can\u2026"
+    },
+    {
+      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
+      "url": "https://arxiv.org/abs/2607.26034v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:44:03+00:00",
+      "preview": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial intelligence (AI),\u2026"
+    },
+    {
+      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+      "url": "https://arxiv.org/abs/2607.26023v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:35:26+00:00",
+      "preview": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities, making multimodal\u2026"
+    },
+    {
+      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+      "url": "https://arxiv.org/abs/2607.26017v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T17:28:21+00:00",
+      "preview": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental\u2026"
+    },
+    {
+      "title": "MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator with Inverse-Designed Coherent Crossbar",
+      "url": "https://arxiv.org/abs/2607.26016v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:27:49+00:00",
+      "preview": "Recently, photonic transformer accelerators (PTAs) have successfully achieved significant speedup and energy efficiency improvements over electronic accelerators for expediting Transformer inference. However,\u2026"
+    },
+    {
+      "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
+      "url": "https://arxiv.org/abs/2607.26015v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T17:27:47+00:00",
+      "preview": "Syntactic convergence (the tendency of speakers to adapt in language towards the grammatical profiles of their interlocutors) is a well-documented feature of human dialogue widely considered to operate below conscious\u2026"
+    },
+    {
+      "title": "Pictura: Perspective-View Self-Play at Scale for Driving",
+      "url": "https://arxiv.org/abs/2607.26005v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:20:39+00:00",
+      "preview": "Self-play in simulation produces robust driving policies at scale. Demonstrations of such behavior have been made using privileged vectorized observations such as exact poses and velocities, even for occluded agents.\u2026"
+    },
+    {
+      "title": "Empirical Evaluation of Out-Of-Distribution Performance of Tabular Foundation Models",
+      "url": "https://arxiv.org/abs/2607.26000v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:16:01+00:00",
+      "preview": "Tabular Foundation Models (TFMs) have emerged as novel approaches for tabular predictive tasks, demonstrating competitive predictive performance to ensemble tree-based models. Most TFMs are trained and evaluated on\u2026"
+    },
+    {
+      "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
+      "url": "https://arxiv.org/abs/2607.25995v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:12:12+00:00",
+      "preview": "Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration\u2026"
+    },
+    {
+      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+      "url": "https://arxiv.org/abs/2607.25992v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T17:08:56+00:00",
+      "preview": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems\u2026"
+    },
+    {
+      "title": "Reinforcement Learning for Code Optimization",
+      "url": "https://arxiv.org/abs/2607.25970v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T16:52:31+00:00",
+      "preview": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add\u2026"
+    },
+    {
+      "title": "Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition",
+      "url": "https://arxiv.org/abs/2607.25961v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T16:44:38+00:00",
+      "preview": "Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health behaviour change. Recognition of A/H at the video level is difficult, since the signal arises from\u2026"
+    },
+    {
+      "title": "Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2607.25959v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T16:43:56+00:00",
+      "preview": "Wikipedia and Wikidata are widely used for information access, LLM pre-training, and retrieval-augmented generation. Their knowledge is deeply connected but scattered across text, tables, and knowledge graphs. This\u2026"
+    },
+    {
+      "title": "Large Language Model for Operations Research Formulation Selection in Multi-Warehouse Inventory Allocation",
+      "url": "https://arxiv.org/abs/2607.25956v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T16:41:54+00:00",
+      "preview": "Multi-warehouse inventory allocation is typically formulated as a mixed-integer programming (MIP) problem, yet no single formulation consistently matches heterogeneous instance-level regimes induced by demand\u2026"
+    },
+    {
+      "title": "Polistemics: Evaluating LLMs as Information Mediators in Politics & Elections",
+      "url": "https://arxiv.org/abs/2607.25953v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T16:40:18+00:00",
+      "preview": "As LLMs increasingly mediate the political information citizens rely on, there is still no standardized way to assess whether they do so responsibly. We introduce Polistemics, a theory-grounded benchmark for evaluating\u2026"
+    },
+    {
+      "title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+      "url": "https://arxiv.org/abs/2607.25948v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-28T16:34:23+00:00",
+      "preview": "Any-to-any models predict any modality from any combination of others within a single network, a formulation used in multimodal vision and vision-language models, and increasingly in scientific domains such as ecology\u2026"
+    },
+    {
+      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+      "url": "https://arxiv.org/abs/2607.25947v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T16:33:41+00:00",
+      "preview": "Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown\u2026"
+    },
+    {
+      "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
+      "url": "https://arxiv.org/abs/2607.25933v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T16:19:03+00:00",
+      "preview": "Clinical diagnostic evaluation should not only assess whether models can provide correct diagnoses, but also reflect the realities of clinical practice, including progressive disclosure of multimodal information,\u2026"
+    },
+    {
+      "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.25907v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T16:01:48+00:00",
+      "preview": "Activation steering controls model behavior by editing internal activations at inference time. We study its input-side dual: optimizing a fluent prompt so that a chosen internal latent is driven toward zero, with no\u2026"
+    },
+    {
+      "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2607.25886v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T15:46:41+00:00",
+      "preview": "Recursive self-improvement requires turning evidence of model failures into better models. Data-centric post-training research entails diagnosing capability gaps, designing and validating training-data strategies, and\u2026"
+    },
+    {
+      "title": "AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology II: Project Planning and Proposal Evaluation",
+      "url": "https://arxiv.org/abs/2607.25881v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T15:43:01+00:00",
+      "preview": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in\u2026"
+    },
+    {
+      "title": "Stemma: Induced Decision Regions Reveal LLM Provenance",
+      "url": "https://arxiv.org/abs/2607.25880v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T15:42:53+00:00",
+      "preview": "LLM provenance testing asks whether a suspect LLM belongs to the same lineage as a source. Existing black-box methods largely infer this relationship from response-level characteristics, but these characteristics may\u2026"
+    },
+    {
+      "title": "Shieldstral",
+      "url": "https://arxiv.org/abs/2607.25857v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T15:27:53+00:00",
+      "preview": "We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety classifier that matches or outperforms models nearly 7$\\times$ its size on text safety benchmarks and sets a new state of the art on multimodal\u2026"
+    },
+    {
+      "title": "AngelSpec: Towards Real-World High Performance Inference with Speculative Decoding",
+      "url": "https://arxiv.org/abs/2607.25852v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T15:25:05+00:00",
+      "preview": "Speculative decoding accelerates large language model inference without changing the target distribution, but no single drafting structure performs best across real-world workloads. Autoregressive multi-token prediction\u2026"
+    },
+    {
+      "title": "Evaluation of Adversarial Robustness in Arabic Language Models",
+      "url": "https://arxiv.org/abs/2607.25814v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T14:58:28+00:00",
+      "preview": "The emergence of the recent outstanding capabilities of Arabic Language Models has opened doors for exposing their vulnerabilities. One of the major security risks associated with such Natural Language Processing models\u2026"
+    },
+    {
+      "title": "WorkSurface-Bench: Benchmarking Enterprise Agents on Multi-Surface Knowledge Routing",
+      "url": "https://arxiv.org/abs/2607.25765v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-28T14:19:59+00:00",
+      "preview": "Enterprise agents often need to integrate heterogeneous knowledge sources: documents for narrative facts, tables for computation, and dependency graphs for file relationships. Existing benchmarks typically evaluate\u2026"
+    },
     {
       "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
       "url": "https://arxiv.org/abs/2607.24743v1",
@@ -85,202 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-27T17:01:30+00:00",
       "preview": "Scientific user facilities accumulate decades of operational knowledge that no single search index covers: electronic logbooks, technical documents, internal wikis, operations chat messages, maintenance records, and\u2026"
-    },
-    {
-      "title": "Kimi K3: Open Frontier Intelligence",
-      "url": "https://arxiv.org/abs/2607.24653v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T16:49:54+00:00",
-      "preview": "We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 104 billion activated parameters, native vision capabilities, and a 1-million-token context window. Kimi K3 is built on Kimi Delta Attention and\u2026"
-    },
-    {
-      "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
-      "url": "https://arxiv.org/abs/2607.24651v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T16:49:36+00:00",
-      "preview": "Reliable visual document understanding requires a model to attribute each answer to the evidence regions that support it. Recent benchmarks and systems express this step through a coordinate interface: the model outputs\u2026"
-    },
-    {
-      "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
-      "url": "https://arxiv.org/abs/2607.24649v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T16:47:27+00:00",
-      "preview": "Large language models are increasingly used as social simulators, including as synthetic survey respondents. Most evaluations ask whether simulated outcomes resemble human outcomes. We argue that this is necessary but\u2026"
-    },
-    {
-      "title": "Efficiency Matters in Autonomous Research",
-      "url": "https://arxiv.org/abs/2607.24647v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T16:46:33+00:00",
-      "preview": "AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper,\u2026"
-    },
-    {
-      "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
-      "url": "https://arxiv.org/abs/2607.24645v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T16:45:08+00:00",
-      "preview": "The wide-scale use of sparse autoencoders (SAEs) as interpretability tools is limited by inconsistent links between SAE features and model behavior. Features with clear activation descriptions may have weak or\u2026"
-    },
-    {
-      "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
-      "url": "https://arxiv.org/abs/2607.24625v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T16:19:45+00:00",
-      "preview": "Autonomous LLM agents processing mixed-confidentiality data face severe security risks from prompt injection attacks and reasoning errors. While dynamic Information Flow Control (IFC) provides structural security\u2026"
-    },
-    {
-      "title": "Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair",
-      "url": "https://arxiv.org/abs/2607.24604v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T16:05:23+00:00",
-      "preview": "Generate--test--revise loops are common in coding agents, but repetition alone provides no reliability guarantee. We study the gap between finding a correct patch and retaining, verifying, and submitting it. A sealed\u2026"
-    },
-    {
-      "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
-      "url": "https://arxiv.org/abs/2607.24593v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T15:58:07+00:00",
-      "preview": "Token-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k\u2026"
-    },
-    {
-      "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
-      "url": "https://arxiv.org/abs/2607.24586v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T15:52:33+00:00",
-      "preview": "Large Language Models can produce fluent text that is false, unsupported by the available evidence, or inconsistent with information that appears to be internally represented by the model. We study hallucination\u2026"
-    },
-    {
-      "title": "From Data to Device: ELMOD An Efficient German-First 2.7B Language Model for Mobile Inference",
-      "url": "https://arxiv.org/abs/2607.24585v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T15:51:41+00:00",
-      "preview": "We present ELMOD - Efficient Language Model for On-Device Deployment - a compact (2.7B) German language model designed for efficient inference on resource-constrained hardware. ELMOD was trained on a limited\u2026"
-    },
-    {
-      "title": "From transcription to semantic corpus analysis: unsupervised learning of sentence representations for ancient languages",
-      "url": "https://arxiv.org/abs/2607.24542v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T15:20:13+00:00",
-      "preview": "Automatic Text Recognition (ATR) now supplies digital humanities with large volumes of unstructured, heterogeneous, and often noisy text in ancient languages. Downstream semantic analysestext reuse identification,\u2026"
-    },
-    {
-      "title": "Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets",
-      "url": "https://arxiv.org/abs/2607.24515v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T14:54:01+00:00",
-      "preview": "The challenge of Machine Translation for low resource languages such as Tamil is primarily caused by the restricted amount of parallel data for these languages, as well as their substantial amount of domain variation\u2026"
-    },
-    {
-      "title": "SINT-Flow: Schema Integration using Large Language Model Workflows",
-      "url": "https://arxiv.org/abs/2607.24492v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T14:28:17+00:00",
-      "preview": "The goal of schema integration is, given a set of input schemata or tables, to derive a global, unified schema that is able to represent the concepts, attributes, and relationships of all input tables in a coherent\u2026"
-    },
-    {
-      "title": "What do Reward Models Memorize?",
-      "url": "https://arxiv.org/abs/2607.24484v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T14:20:59+00:00",
-      "preview": "This paper studies what discriminatively trained reward models (RMs) memorize by measuring counterfactual memorization on two human preference datasets. We show that RMs 1) misallocate memorization to easy, high margin\u2026"
-    },
-    {
-      "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
-      "url": "https://arxiv.org/abs/2607.22534v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:59:51+00:00",
-      "preview": "Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge. Most existing motion perception\u2026"
-    },
-    {
-      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
-      "url": "https://arxiv.org/abs/2607.22529v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-24T17:59:22+00:00",
-      "preview": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification\u2026"
-    },
-    {
-      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-      "url": "https://arxiv.org/abs/2607.22525v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:56:38+00:00",
-      "preview": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building\u2026"
-    },
-    {
-      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
-      "url": "https://arxiv.org/abs/2607.22520v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:50:03+00:00",
-      "preview": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing\u2026"
-    },
-    {
-      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
-      "url": "https://arxiv.org/abs/2607.22516v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:39:14+00:00",
-      "preview": "A central design principle in modern machine learning and artificial intelligence is to align a model's inductive bias with the structure of its input data. For matrix-valued inputs, relevant matrix-level relationships\u2026"
-    },
-    {
-      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
-      "url": "https://arxiv.org/abs/2607.22513v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:32:43+00:00",
-      "preview": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok,\u2026"
-    },
-    {
-      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
-      "url": "https://arxiv.org/abs/2607.22511v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:32:35+00:00",
-      "preview": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM)\u2026"
-    },
-    {
-      "title": "\\k{appa}-LoRA: Condition Numbers Reveal Which LoRA Matrices Worth Updating",
-      "url": "https://arxiv.org/abs/2607.22489v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T17:00:40+00:00",
-      "preview": "Low-Rank Adaptation (LoRA) has become a widely adopted technique for efficient neural network fine-tuning, decomposing model updates into low-rank matrices. However, LoRA remains computationally costly because it\u2026"
-    },
-    {
-      "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
-      "url": "https://arxiv.org/abs/2607.22471v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T16:39:06+00:00",
-      "preview": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only\u2026"
-    },
-    {
-      "title": "Learning to Prepare Molecular Ground States with Transformer Models",
-      "url": "https://arxiv.org/abs/2607.22468v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T16:32:40+00:00",
-      "preview": "Quantum state preparation is a key component of many quantum algorithms. Performing this step efficiently is essential for realizing practical quantum advantage in quantum chemistry applications. Iterative algorithms\u2026"
-    },
-    {
-      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
-      "url": "https://arxiv.org/abs/2607.22465v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T16:29:06+00:00",
-      "preview": "Routing to select large language models (LLMs) with different cost-quality trade-offs has become a fundamental deployment feature of enterprise AI. Existing routers, primarily make independent routing decisions for each\u2026"
-    },
-    {
-      "title": "Beyond Perspectives: A Trio-Ethnography of Interpretation Evolution in LLM-Supported Programming Education",
-      "url": "https://arxiv.org/abs/2607.22463v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T16:28:14+00:00",
-      "preview": "Generative AI is reshaping programming education, yet educators often infer students' AI-supported learning from classroom observations alone. This experience report presents a trio-ethnography involving two computing\u2026"
-    },
-    {
-      "title": "Phylogenetic signal in marine mammal and bird vocalizations captured by audio foundation models: the limited benefit of domain-specific pretraining",
-      "url": "https://arxiv.org/abs/2607.22458v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-24T16:19:04+00:00",
-      "preview": "Do learned audio embeddings encode structure that nobody told them to encode? We probe four large pretrained audio models (AST, CLAP, BEATs-bio and BirdNET) with a downstream task none of them saw during training:\u2026"
-    },
-    {
-      "title": "grapheme-kit: Grapheme-Level Metrics and Text Processing for Multilingual NLP",
-      "url": "https://arxiv.org/abs/2607.22456v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-24T16:14:37+00:00",
-      "preview": "Existing lexical distance, similarity, and evaluation metrics operate on Unicode code points, which can misrepresent errors in writing systems where a single grapheme is represented by multiple Unicode code points. We\u2026"
     }
   ]
 }
