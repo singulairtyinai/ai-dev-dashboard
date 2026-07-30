@@ -1,7 +1,189 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-29T20:15:54.280598+00:00",
+  "last_updated": "2026-07-30T07:41:42.840448+00:00",
   "items": [
+    {
+      "title": "Mental World Modeling",
+      "url": "https://arxiv.org/abs/2607.27201v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T17:59:39+00:00",
+      "preview": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden\u2026"
+    },
+    {
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "url": "https://arxiv.org/abs/2607.27191v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:57:19+00:00",
+      "preview": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable\u2026"
+    },
+    {
+      "title": "APEX-Accounting",
+      "url": "https://arxiv.org/abs/2607.27189v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:56:49+00:00",
+      "preview": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting\u2026"
+    },
+    {
+      "title": "Pangram 4 Technical Report",
+      "url": "https://arxiv.org/abs/2607.27183v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T17:53:01+00:00",
+      "preview": "We present Pangram 4, the latest deep-learning-based AI-text classification model from Pangram Labs. We achieve an AUROC of 0.9916 with a false positive rate of 0.0041% and a false negative rate of 0.3396%. In addition\u2026"
+    },
+    {
+      "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
+      "url": "https://arxiv.org/abs/2607.27179v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:51:32+00:00",
+      "preview": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication\u2026"
+    },
+    {
+      "title": "DenseOn with the LateOn: Fully Open Dense and Late-Interaction Models for Multilingual, Long-Context, and Code Search",
+      "url": "https://arxiv.org/abs/2607.27178v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T17:50:51+00:00",
+      "preview": "State-of-the-art retrieval models increasingly rely on closed training data, creating a reproducibility gap. We present an open end-to-end recipe for training retrieval models and study how English supervision transfers\u2026"
+    },
+    {
+      "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+      "url": "https://arxiv.org/abs/2607.27177v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:50:39+00:00",
+      "preview": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the\u2026"
+    },
+    {
+      "title": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
+      "url": "https://arxiv.org/abs/2607.27172v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:46:35+00:00",
+      "preview": "Traditional search systems are optimized to retrieve items that strictly match a query, often prioritizing precision over recall. In e-commerce marketplaces and particularly grocery, this paradigm is limiting, as user\u2026"
+    },
+    {
+      "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+      "url": "https://arxiv.org/abs/2607.27167v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T17:42:47+00:00",
+      "preview": "LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify\u2026"
+    },
+    {
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "url": "https://arxiv.org/abs/2607.27155v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:33:47+00:00",
+      "preview": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at\u2026"
+    },
+    {
+      "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+      "url": "https://arxiv.org/abs/2607.27154v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:32:57+00:00",
+      "preview": "CT vision-language foundation models have demonstrated promising performance across downstream tasks, but are typically trained with whole-volume representations that dilute fine-grained anatomical signals. Fine-grained\u2026"
+    },
+    {
+      "title": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+      "url": "https://arxiv.org/abs/2607.27146v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T17:23:02+00:00",
+      "preview": "Coding agents have made substantial progress on software engineering tasks that modify existing codebases, including bug fixing and feature implementation. However, constructing a complete program from scratch remains a\u2026"
+    },
+    {
+      "title": "Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention for Imbalanced High-Stakes Decision Support: A Multi-Domain Benchmark",
+      "url": "https://arxiv.org/abs/2607.27143v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:15:33+00:00",
+      "preview": "High-stakes decision systems in credit scoring, fraud detection, healthcare, and industrial safety require reliable uncertainty quantification under severe class imbalance and asymmetric error costs. Standard marginal\u2026"
+    },
+    {
+      "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+      "url": "https://arxiv.org/abs/2607.27138v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:09:48+00:00",
+      "preview": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but\u2026"
+    },
+    {
+      "title": "Linguistic Monoculture in LLM-Assisted Language Use",
+      "url": "https://arxiv.org/abs/2607.27134v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T17:04:36+00:00",
+      "preview": "Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although such assistance can improve clarity and help authors meet institutional\u2026"
+    },
+    {
+      "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
+      "url": "https://arxiv.org/abs/2607.27130v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T16:58:10+00:00",
+      "preview": "Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously\u2026"
+    },
+    {
+      "title": "MMAC: A Massive Multi-dimensional Benchmark for Audio Captioning",
+      "url": "https://arxiv.org/abs/2607.27109v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T16:38:08+00:00",
+      "preview": "With the development of audio large language models (AudioLLMs), audio captioning needs to move from brief descriptions toward open-ended and fine-grained free-form descriptions. Existing evaluations often focus on\u2026"
+    },
+    {
+      "title": "SciFigQual-Bench: A Benchmark for Scientific Figure Quality Assessment with Full-Manuscript Context",
+      "url": "https://arxiv.org/abs/2607.27084v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T16:07:44+00:00",
+      "preview": "Scientific images are the core elements of presenting experimental conclusions, elaborating system architecture, and supporting comparative arguments in scientific papers. However, existing image quality assessment\u2026"
+    },
+    {
+      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "url": "https://arxiv.org/abs/2607.27083v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T16:07:37+00:00",
+      "preview": "As LLM agents increasingly depend on diverse external services such as search engines, databases, and connectors, agent harnesses face a fundamental tool-selection challenge: acquiring too few tools leaves the task\u2026"
+    },
+    {
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "url": "https://arxiv.org/abs/2607.27081v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-29T16:07:19+00:00",
+      "preview": "Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models\u2026"
+    },
+    {
+      "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
+      "url": "https://arxiv.org/abs/2607.27056v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T15:47:40+00:00",
+      "preview": "Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions stored in agent memory, but\u2026"
+    },
+    {
+      "title": "Evaluating Regional Bias in LLMs From Abstract Stereotype to Concrete Social Decision-Making",
+      "url": "https://arxiv.org/abs/2607.27022v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T15:20:36+00:00",
+      "preview": "Regional bias in large language models (LLMs) may shape both perceptions of regional groups and decisions about individuals from different regions. Yet existing studies often examine these manifestations separately,\u2026"
+    },
+    {
+      "title": "AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents",
+      "url": "https://arxiv.org/abs/2607.26998v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T14:56:31+00:00",
+      "preview": "Large language model (LLM) agents automate penetration testing through an observation-action loop, selecting actions based on observations returned by tools. This dependence allows defenders to inject deceptive\u2026"
+    },
+    {
+      "title": "OptimismBench: Forecasting Bias and the Alignment Effect in Language Model Judgment",
+      "url": "https://arxiv.org/abs/2607.26981v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T14:38:55+00:00",
+      "preview": "Large language models are increasingly used as decision aids whose probability judgments shape downstream choices. Whether those judgments carry a systematic directional tilt has been hard to detect: calibration metrics\u2026"
+    },
+    {
+      "title": "TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning",
+      "url": "https://arxiv.org/abs/2607.26977v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T14:35:29+00:00",
+      "preview": "Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must exist and be bookable,\u2026"
+    },
+    {
+      "title": "Generation or Judgement? A Paradigm Perspective on LLM-Based Emotion-Cause Pair Extraction in Conversation",
+      "url": "https://arxiv.org/abs/2607.26967v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-29T14:28:55+00:00",
+      "preview": "Emotion-cause pair extraction in conversation (ECPEC) identifies utterance pairs in which one utterance causes an emotion expressed in another. Recent LLM-based approaches formulate ECPEC at markedly different\u2026"
+    },
     {
       "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
       "url": "https://arxiv.org/abs/2607.26057v1",
@@ -99,188 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-28T16:44:38+00:00",
       "preview": "Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health behaviour change. Recognition of A/H at the video level is difficult, since the signal arises from\u2026"
-    },
-    {
-      "title": "Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2607.25959v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T16:43:56+00:00",
-      "preview": "Wikipedia and Wikidata are widely used for information access, LLM pre-training, and retrieval-augmented generation. Their knowledge is deeply connected but scattered across text, tables, and knowledge graphs. This\u2026"
-    },
-    {
-      "title": "Large Language Model for Operations Research Formulation Selection in Multi-Warehouse Inventory Allocation",
-      "url": "https://arxiv.org/abs/2607.25956v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T16:41:54+00:00",
-      "preview": "Multi-warehouse inventory allocation is typically formulated as a mixed-integer programming (MIP) problem, yet no single formulation consistently matches heterogeneous instance-level regimes induced by demand\u2026"
-    },
-    {
-      "title": "Polistemics: Evaluating LLMs as Information Mediators in Politics & Elections",
-      "url": "https://arxiv.org/abs/2607.25953v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T16:40:18+00:00",
-      "preview": "As LLMs increasingly mediate the political information citizens rely on, there is still no standardized way to assess whether they do so responsibly. We introduce Polistemics, a theory-grounded benchmark for evaluating\u2026"
-    },
-    {
-      "title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
-      "url": "https://arxiv.org/abs/2607.25948v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T16:34:23+00:00",
-      "preview": "Any-to-any models predict any modality from any combination of others within a single network, a formulation used in multimodal vision and vision-language models, and increasingly in scientific domains such as ecology\u2026"
-    },
-    {
-      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
-      "url": "https://arxiv.org/abs/2607.25947v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T16:33:41+00:00",
-      "preview": "Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown\u2026"
-    },
-    {
-      "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
-      "url": "https://arxiv.org/abs/2607.25933v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T16:19:03+00:00",
-      "preview": "Clinical diagnostic evaluation should not only assess whether models can provide correct diagnoses, but also reflect the realities of clinical practice, including progressive disclosure of multimodal information,\u2026"
-    },
-    {
-      "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
-      "url": "https://arxiv.org/abs/2607.25907v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T16:01:48+00:00",
-      "preview": "Activation steering controls model behavior by editing internal activations at inference time. We study its input-side dual: optimizing a fluent prompt so that a chosen internal latent is driven toward zero, with no\u2026"
-    },
-    {
-      "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2607.25886v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T15:46:41+00:00",
-      "preview": "Recursive self-improvement requires turning evidence of model failures into better models. Data-centric post-training research entails diagnosing capability gaps, designing and validating training-data strategies, and\u2026"
-    },
-    {
-      "title": "AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology II: Project Planning and Proposal Evaluation",
-      "url": "https://arxiv.org/abs/2607.25881v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T15:43:01+00:00",
-      "preview": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in\u2026"
-    },
-    {
-      "title": "Stemma: Induced Decision Regions Reveal LLM Provenance",
-      "url": "https://arxiv.org/abs/2607.25880v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T15:42:53+00:00",
-      "preview": "LLM provenance testing asks whether a suspect LLM belongs to the same lineage as a source. Existing black-box methods largely infer this relationship from response-level characteristics, but these characteristics may\u2026"
-    },
-    {
-      "title": "Shieldstral",
-      "url": "https://arxiv.org/abs/2607.25857v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T15:27:53+00:00",
-      "preview": "We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety classifier that matches or outperforms models nearly 7$\\times$ its size on text safety benchmarks and sets a new state of the art on multimodal\u2026"
-    },
-    {
-      "title": "AngelSpec: Towards Real-World High Performance Inference with Speculative Decoding",
-      "url": "https://arxiv.org/abs/2607.25852v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T15:25:05+00:00",
-      "preview": "Speculative decoding accelerates large language model inference without changing the target distribution, but no single drafting structure performs best across real-world workloads. Autoregressive multi-token prediction\u2026"
-    },
-    {
-      "title": "Evaluation of Adversarial Robustness in Arabic Language Models",
-      "url": "https://arxiv.org/abs/2607.25814v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T14:58:28+00:00",
-      "preview": "The emergence of the recent outstanding capabilities of Arabic Language Models has opened doors for exposing their vulnerabilities. One of the major security risks associated with such Natural Language Processing models\u2026"
-    },
-    {
-      "title": "WorkSurface-Bench: Benchmarking Enterprise Agents on Multi-Surface Knowledge Routing",
-      "url": "https://arxiv.org/abs/2607.25765v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T14:19:59+00:00",
-      "preview": "Enterprise agents often need to integrate heterogeneous knowledge sources: documents for narrative facts, tables for computation, and dependency graphs for file relationships. Existing benchmarks typically evaluate\u2026"
-    },
-    {
-      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
-      "url": "https://arxiv.org/abs/2607.24743v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:59:49+00:00",
-      "preview": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from\u2026"
-    },
-    {
-      "title": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
-      "url": "https://arxiv.org/abs/2607.24731v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:57:02+00:00",
-      "preview": "On-policy distillation (OPD) adapts diffusion models by querying a teacher along trajectories generated by the current student, but how it should behave under classifier-free guidance (CFG), a default component of\u2026"
-    },
-    {
-      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
-      "url": "https://arxiv.org/abs/2607.24730v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:57:02+00:00",
-      "preview": "Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired\u2026"
-    },
-    {
-      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-      "url": "https://arxiv.org/abs/2607.24720v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:55:03+00:00",
-      "preview": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult\u2026"
-    },
-    {
-      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
-      "url": "https://arxiv.org/abs/2607.24717v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:54:12+00:00",
-      "preview": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it\u2026"
-    },
-    {
-      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
-      "url": "https://arxiv.org/abs/2607.24714v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:51:18+00:00",
-      "preview": "Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a single frontier large\u2026"
-    },
-    {
-      "title": "ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams",
-      "url": "https://arxiv.org/abs/2607.24707v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:46:43+00:00",
-      "preview": "Entity-Relationship Diagrams (ERDs) are central to conceptual database design, yet they are typically available only as rendered images rather than machine-readable schemas, limiting AI-assisted database engineering. We\u2026"
-    },
-    {
-      "title": "Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines",
-      "url": "https://arxiv.org/abs/2607.24692v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:34:09+00:00",
-      "preview": "Inference systems increasingly combine a fast path that returns predictions within the application's latency deadline together with a higher-accuracy slow path that runs higher-compute methods on stronger, remote\u2026"
-    },
-    {
-      "title": "Beyond Scale and Generation: Understanding Language Model-based Entity Matching",
-      "url": "https://arxiv.org/abs/2607.24688v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-27T17:29:18+00:00",
-      "preview": "Entity matching identifies records that refer to the same real-world entity. Language models can be adapted to this task through bi-encoder, cross-encoder, and generative matcher architectures. However, prior studies\u2026"
-    },
-    {
-      "title": "Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification",
-      "url": "https://arxiv.org/abs/2607.24683v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:23:30+00:00",
-      "preview": "Multi-modal classification leverages complementary information across diverse data sources to enhance predictive performance. However, real-world scenarios subject to operational constraints, such as sensor failures or\u2026"
-    },
-    {
-      "title": "Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating",
-      "url": "https://arxiv.org/abs/2607.24667v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:08:27+00:00",
-      "preview": "A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the\u2026"
-    },
-    {
-      "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
-      "url": "https://arxiv.org/abs/2607.24663v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-27T17:01:30+00:00",
-      "preview": "Scientific user facilities accumulate decades of operational knowledge that no single search index covers: electronic logbooks, technical documents, internal wikis, operations chat messages, maintenance records, and\u2026"
     }
   ]
 }
