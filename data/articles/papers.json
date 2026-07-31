@@ -1,7 +1,182 @@
 {
   "category": "papers",
-  "last_updated": "2026-07-30T23:37:06.436161+00:00",
+  "last_updated": "2026-07-31T10:05:30.304744+00:00",
   "items": [
+    {
+      "title": "Learning to Trace Seiberg Dualities",
+      "url": "https://arxiv.org/abs/2607.28628v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:59:56+00:00",
+      "preview": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two\u2026"
+    },
+    {
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "url": "https://arxiv.org/abs/2607.28627v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:59:56+00:00",
+      "preview": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We\u2026"
+    },
+    {
+      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+      "url": "https://arxiv.org/abs/2607.28623v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:59:35+00:00",
+      "preview": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as\u2026"
+    },
+    {
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "url": "https://arxiv.org/abs/2607.28618v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:59:11+00:00",
+      "preview": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and\u2026"
+    },
+    {
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:58:58+00:00",
+      "preview": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or\u2026"
+    },
+    {
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "url": "https://arxiv.org/abs/2607.28609v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:57:41+00:00",
+      "preview": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA\u2026"
+    },
+    {
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "url": "https://arxiv.org/abs/2607.28607v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T17:57:10+00:00",
+      "preview": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that\u2026"
+    },
+    {
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "url": "https://arxiv.org/abs/2607.28591v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T17:44:31+00:00",
+      "preview": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and\u2026"
+    },
+    {
+      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.28590v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T17:43:46+00:00",
+      "preview": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-mixed, combining\u2026"
+    },
+    {
+      "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+      "url": "https://arxiv.org/abs/2607.28587v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:42:44+00:00",
+      "preview": "SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting\u2026"
+    },
+    {
+      "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2607.28580v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:40:05+00:00",
+      "preview": "While Multimodal Retrieval-Augmented Generation (MM-RAG) has shown promising results, it still struggles with complex multi-hop reasoning tasks. Existing methods primarily focus on independent instance-level matching,\u2026"
+    },
+    {
+      "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
+      "url": "https://arxiv.org/abs/2607.28576v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:38:23+00:00",
+      "preview": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a\u2026"
+    },
+    {
+      "title": "Algorithms for Structured Elections under Thiele Voting Rules",
+      "url": "https://arxiv.org/abs/2607.28575v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:37:14+00:00",
+      "preview": "We study the computational complexity of winner determination problems in approval-based committee elections under Thiele voting rules. These form a class of rules parameterized by a fixed weight vector that specifies\u2026"
+    },
+    {
+      "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
+      "url": "https://arxiv.org/abs/2607.28573v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:36:36+00:00",
+      "preview": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains\u2026"
+    },
+    {
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2607.28568v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T17:34:01+00:00",
+      "preview": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We\u2026"
+    },
+    {
+      "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+      "url": "https://arxiv.org/abs/2607.28553v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:21:58+00:00",
+      "preview": "Predicting the 3D structures of atomic systems is fundamental to advancing material science and drug discovery. While flow-matching models (, FlowDPO) have recently shown promise in this domain, their performance relies\u2026"
+    },
+    {
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "url": "https://arxiv.org/abs/2607.28545v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:14:07+00:00",
+      "preview": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing\u2026"
+    },
+    {
+      "title": "AI systems and the reproduction of (standard) language ideologies in World Englishes",
+      "url": "https://arxiv.org/abs/2607.28528v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T17:01:58+00:00",
+      "preview": "The rapid growth of large language models (LLMs) has resurrected age-old questions in sociolinguistics and world Englishes, such as who decides what counts as legitimate English, whose English is suspect etc. This paper\u2026"
+    },
+    {
+      "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.28527v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:01:27+00:00",
+      "preview": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically\u2026"
+    },
+    {
+      "title": "What to Remove, What to Preserve: Dual-Ambiguity Rectification for All-in-One Image Restoration",
+      "url": "https://arxiv.org/abs/2607.28526v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-30T17:01:24+00:00",
+      "preview": "All-in-one image restoration aims to handle diverse degradations within a unified framework. Existing methods commonly encode heterogeneous degradation conditions in a shared latent space, where degradation-related cues\u2026"
+    },
+    {
+      "title": "Creative Transformation in Literary Texts: Modelling Change Across Representational Levels",
+      "url": "https://arxiv.org/abs/2607.28513v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T16:51:33+00:00",
+      "preview": "Creativity is often framed as the production of novelty, yet many cultural works emerge through transformation of earlier artifacts and not through isolated invention. Drawing on theories of imitation by Gabriel Tarde\u2026"
+    },
+    {
+      "title": "Generative AI and linguistic diversity in academic writing and publishing: Perspectives from World Englishes",
+      "url": "https://arxiv.org/abs/2607.28505v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T16:46:29+00:00",
+      "preview": "The rise of generative artificial intelligence (GenAI) in academic writing and publishing (AWP) raises questions about linguistic inclusivity and the legitimacy of diverse Englishes in global scholarly communication.\u2026"
+    },
+    {
+      "title": "TCA-SIR: Learning Target-Conditioned Abstractions for Scientific Inspiration Retrieval",
+      "url": "https://arxiv.org/abs/2607.28498v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T16:43:03+00:00",
+      "preview": "Scientific hypothesis generation for AI for Science typically involves Scientific Inspiration Retrieval (SIR) followed by hypothesis composition. Existing SIR methods rank papers by topical similarity and do not\u2026"
+    },
+    {
+      "title": "Beyond Sentiment: Structured Information Extraction from Financial News",
+      "url": "https://arxiv.org/abs/2607.28496v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T16:41:55+00:00",
+      "preview": "Financial sentiment analysis has become a standard component in news-driven stock prediction, yet it reduces rich, multi-dimensional news articles to a single polarity score. We hypothesize that financial news encodes\u2026"
+    },
+    {
+      "title": "Stage-Replay Divergence Follows the KV Cache: Fixed-Prefix Precision Controls and Bidirectional Cache Transplantation",
+      "url": "https://arxiv.org/abs/2607.28495v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-07-30T16:41:40+00:00",
+      "preview": "Stage-replay diagnostics reconstruct intermediate token prefixes and treat fresh-prefill continuation as continuation from the decoder state that originally reached the prefix. We audit that assumption at a whole\u2026"
+    },
     {
       "title": "Mental World Modeling",
       "url": "https://arxiv.org/abs/2607.27201v1",
@@ -106,181 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-29T17:04:36+00:00",
       "preview": "Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although such assistance can improve clarity and help authors meet institutional\u2026"
-    },
-    {
-      "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
-      "url": "https://arxiv.org/abs/2607.27130v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-29T16:58:10+00:00",
-      "preview": "Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously\u2026"
-    },
-    {
-      "title": "MMAC: A Massive Multi-dimensional Benchmark for Audio Captioning",
-      "url": "https://arxiv.org/abs/2607.27109v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-29T16:38:08+00:00",
-      "preview": "With the development of audio large language models (AudioLLMs), audio captioning needs to move from brief descriptions toward open-ended and fine-grained free-form descriptions. Existing evaluations often focus on\u2026"
-    },
-    {
-      "title": "SciFigQual-Bench: A Benchmark for Scientific Figure Quality Assessment with Full-Manuscript Context",
-      "url": "https://arxiv.org/abs/2607.27084v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-29T16:07:44+00:00",
-      "preview": "Scientific images are the core elements of presenting experimental conclusions, elaborating system architecture, and supporting comparative arguments in scientific papers. However, existing image quality assessment\u2026"
-    },
-    {
-      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
-      "url": "https://arxiv.org/abs/2607.27083v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-29T16:07:37+00:00",
-      "preview": "As LLM agents increasingly depend on diverse external services such as search engines, databases, and connectors, agent harnesses face a fundamental tool-selection challenge: acquiring too few tools leaves the task\u2026"
-    },
-    {
-      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
-      "url": "https://arxiv.org/abs/2607.27081v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-29T16:07:19+00:00",
-      "preview": "Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models\u2026"
-    },
-    {
-      "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
-      "url": "https://arxiv.org/abs/2607.27056v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T15:47:40+00:00",
-      "preview": "Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions stored in agent memory, but\u2026"
-    },
-    {
-      "title": "Evaluating Regional Bias in LLMs From Abstract Stereotype to Concrete Social Decision-Making",
-      "url": "https://arxiv.org/abs/2607.27022v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T15:20:36+00:00",
-      "preview": "Regional bias in large language models (LLMs) may shape both perceptions of regional groups and decisions about individuals from different regions. Yet existing studies often examine these manifestations separately,\u2026"
-    },
-    {
-      "title": "AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents",
-      "url": "https://arxiv.org/abs/2607.26998v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T14:56:31+00:00",
-      "preview": "Large language model (LLM) agents automate penetration testing through an observation-action loop, selecting actions based on observations returned by tools. This dependence allows defenders to inject deceptive\u2026"
-    },
-    {
-      "title": "OptimismBench: Forecasting Bias and the Alignment Effect in Language Model Judgment",
-      "url": "https://arxiv.org/abs/2607.26981v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T14:38:55+00:00",
-      "preview": "Large language models are increasingly used as decision aids whose probability judgments shape downstream choices. Whether those judgments carry a systematic directional tilt has been hard to detect: calibration metrics\u2026"
-    },
-    {
-      "title": "TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning",
-      "url": "https://arxiv.org/abs/2607.26977v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T14:35:29+00:00",
-      "preview": "Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must exist and be bookable,\u2026"
-    },
-    {
-      "title": "Generation or Judgement? A Paradigm Perspective on LLM-Based Emotion-Cause Pair Extraction in Conversation",
-      "url": "https://arxiv.org/abs/2607.26967v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-29T14:28:55+00:00",
-      "preview": "Emotion-cause pair extraction in conversation (ECPEC) identifies utterance pairs in which one utterance causes an emotion expressed in another. Recent LLM-based approaches formulate ECPEC at markedly different\u2026"
-    },
-    {
-      "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
-      "url": "https://arxiv.org/abs/2607.26057v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:59:46+00:00",
-      "preview": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on\u2026"
-    },
-    {
-      "title": "$\u03c0\\mathbf{R}^2$: Reactive Real-time Flow Policies",
-      "url": "https://arxiv.org/abs/2607.26055v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:59:31+00:00",
-      "preview": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving\u2026"
-    },
-    {
-      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
-      "url": "https://arxiv.org/abs/2607.26041v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:49:51+00:00",
-      "preview": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates whether a model can\u2026"
-    },
-    {
-      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
-      "url": "https://arxiv.org/abs/2607.26034v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:44:03+00:00",
-      "preview": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial intelligence (AI),\u2026"
-    },
-    {
-      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
-      "url": "https://arxiv.org/abs/2607.26023v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:35:26+00:00",
-      "preview": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities, making multimodal\u2026"
-    },
-    {
-      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
-      "url": "https://arxiv.org/abs/2607.26017v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T17:28:21+00:00",
-      "preview": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental\u2026"
-    },
-    {
-      "title": "MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator with Inverse-Designed Coherent Crossbar",
-      "url": "https://arxiv.org/abs/2607.26016v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:27:49+00:00",
-      "preview": "Recently, photonic transformer accelerators (PTAs) have successfully achieved significant speedup and energy efficiency improvements over electronic accelerators for expediting Transformer inference. However,\u2026"
-    },
-    {
-      "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
-      "url": "https://arxiv.org/abs/2607.26015v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-07-28T17:27:47+00:00",
-      "preview": "Syntactic convergence (the tendency of speakers to adapt in language towards the grammatical profiles of their interlocutors) is a well-documented feature of human dialogue widely considered to operate below conscious\u2026"
-    },
-    {
-      "title": "Pictura: Perspective-View Self-Play at Scale for Driving",
-      "url": "https://arxiv.org/abs/2607.26005v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:20:39+00:00",
-      "preview": "Self-play in simulation produces robust driving policies at scale. Demonstrations of such behavior have been made using privileged vectorized observations such as exact poses and velocities, even for occluded agents.\u2026"
-    },
-    {
-      "title": "Empirical Evaluation of Out-Of-Distribution Performance of Tabular Foundation Models",
-      "url": "https://arxiv.org/abs/2607.26000v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:16:01+00:00",
-      "preview": "Tabular Foundation Models (TFMs) have emerged as novel approaches for tabular predictive tasks, demonstrating competitive predictive performance to ensemble tree-based models. Most TFMs are trained and evaluated on\u2026"
-    },
-    {
-      "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
-      "url": "https://arxiv.org/abs/2607.25995v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:12:12+00:00",
-      "preview": "Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration\u2026"
-    },
-    {
-      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
-      "url": "https://arxiv.org/abs/2607.25992v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T17:08:56+00:00",
-      "preview": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems\u2026"
-    },
-    {
-      "title": "Reinforcement Learning for Code Optimization",
-      "url": "https://arxiv.org/abs/2607.25970v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T16:52:31+00:00",
-      "preview": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add\u2026"
-    },
-    {
-      "title": "Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition",
-      "url": "https://arxiv.org/abs/2607.25961v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-28T16:44:38+00:00",
-      "preview": "Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health behaviour change. Recognition of A/H at the video level is difficult, since the signal arises from\u2026"
     }
   ]
 }
