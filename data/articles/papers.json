@@ -1,7 +1,182 @@
 {
   "category": "papers",
-  "last_updated": "2026-08-07T00:52:12.448466+00:00",
+  "last_updated": "2026-08-07T04:24:56.497192+00:00",
   "items": [
+    {
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.06377v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:59:58+00:00",
+      "preview": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a\u2026"
+    },
+    {
+      "title": "The Bitter Lesson of Tool Calling",
+      "url": "https://arxiv.org/abs/2608.06370v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:58:32+00:00",
+      "preview": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize\u2026"
+    },
+    {
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "url": "https://arxiv.org/abs/2608.06366v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:57:37+00:00",
+      "preview": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an\u2026"
+    },
+    {
+      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+      "url": "https://arxiv.org/abs/2608.06364v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:57:28+00:00",
+      "preview": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty.\u2026"
+    },
+    {
+      "title": "An Optimal Agnostic PAC Algorithm",
+      "url": "https://arxiv.org/abs/2608.06363v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:57:25+00:00",
+      "preview": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\\u2026"
+    },
+    {
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "url": "https://arxiv.org/abs/2608.06362v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:57:11+00:00",
+      "preview": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations\u2026"
+    },
+    {
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "url": "https://arxiv.org/abs/2608.06361v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:57:06+00:00",
+      "preview": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer\u2026"
+    },
+    {
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "url": "https://arxiv.org/abs/2608.06353v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:53:24+00:00",
+      "preview": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation\u2026"
+    },
+    {
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "url": "https://arxiv.org/abs/2608.06352v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:53:18+00:00",
+      "preview": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task\u2026"
+    },
+    {
+      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+      "url": "https://arxiv.org/abs/2608.06351v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:53:10+00:00",
+      "preview": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept\u2026"
+    },
+    {
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "url": "https://arxiv.org/abs/2608.06347v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:52:06+00:00",
+      "preview": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a\u2026"
+    },
+    {
+      "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+      "url": "https://arxiv.org/abs/2608.06346v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:51:20+00:00",
+      "preview": "LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a\u2026"
+    },
+    {
+      "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+      "url": "https://arxiv.org/abs/2608.06331v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:40:26+00:00",
+      "preview": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how\u2026"
+    },
+    {
+      "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+      "url": "https://arxiv.org/abs/2608.06329v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:39:21+00:00",
+      "preview": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or\u2026"
+    },
+    {
+      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+      "url": "https://arxiv.org/abs/2608.06312v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:27:23+00:00",
+      "preview": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T\u2026"
+    },
+    {
+      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+      "url": "https://arxiv.org/abs/2608.06311v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:26:01+00:00",
+      "preview": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices\u2026"
+    },
+    {
+      "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+      "url": "https://arxiv.org/abs/2608.06310v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:24:36+00:00",
+      "preview": "Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not\u2026"
+    },
+    {
+      "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+      "url": "https://arxiv.org/abs/2608.06305v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:23:13+00:00",
+      "preview": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents\u2026"
+    },
+    {
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "url": "https://arxiv.org/abs/2608.06301v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:21:05+00:00",
+      "preview": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding\u2026"
+    },
+    {
+      "title": "Bias Analysis of L2 Speaking Assessment Systems Using Concept Activation Vectors",
+      "url": "https://arxiv.org/abs/2608.06300v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-06T17:20:58+00:00",
+      "preview": "Automatic speaking assessment systems are increasingly deployed in high-stakes settings to mark second language (L2) learners' speaking tests, making it critical to show that their scores depend on speaking proficiency\u2026"
+    },
+    {
+      "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+      "url": "https://arxiv.org/abs/2608.06292v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T17:16:28+00:00",
+      "preview": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate\u2026"
+    },
+    {
+      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+      "url": "https://arxiv.org/abs/2608.06171v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T15:37:04+00:00",
+      "preview": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and\u2026"
+    },
+    {
+      "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+      "url": "https://arxiv.org/abs/2608.06167v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T15:33:30+00:00",
+      "preview": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a\u2026"
+    },
+    {
+      "title": "Decolonizing Linguistic Policies in Automated Speech Recognition: A Framework for Cross-Culturally Competent Speech AI",
+      "url": "https://arxiv.org/abs/2608.06141v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T15:10:29+00:00",
+      "preview": "This paper focuses on automatic speech recognition (ASR) and ASR-mediated voice interfaces that shape access to public services, healthcare, and education. We argue that persistent failures for low-resource, Indigenous,\u2026"
+    },
+    {
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "url": "https://arxiv.org/abs/2608.06123v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-06T14:54:30+00:00",
+      "preview": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single\u2026"
+    },
     {
       "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
       "url": "https://arxiv.org/abs/2608.05148v1",
@@ -106,181 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-05T17:32:43+00:00",
       "preview": "Agents for long term reasoning require a memory that can be efficiently and effectively updated over time, as new facts and external feedback continue to arrive. Recently, graph memory has been adopted to offer\u2026"
-    },
-    {
-      "title": "Item Response Theory for AI Safety",
-      "url": "https://arxiv.org/abs/2608.05086v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-05T17:25:27+00:00",
-      "preview": "Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another,\u2026"
-    },
-    {
-      "title": "Capability-Gated Planning: Cost-to-Goal Discovery and the Limits of Myopic Experiment Selection",
-      "url": "https://arxiv.org/abs/2608.05085v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-05T17:25:17+00:00",
-      "preview": "Systems that automate scientific discovery must repeatedly decide which experiment to run, which hypothesis to test, which tool to build, and when to stop. Many systems make these decisions by maximizing a myopic score\u2026"
-    },
-    {
-      "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
-      "url": "https://arxiv.org/abs/2608.05080v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T17:22:02+00:00",
-      "preview": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of rollouts to every task and trajectory\u2026"
-    },
-    {
-      "title": "MultiPathFormer: Towards a Foundation Model for Multipath Wireless Propagation",
-      "url": "https://arxiv.org/abs/2608.05076v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-05T17:20:16+00:00",
-      "preview": "Recent advances in machine learning have enabled training of wireless foundation models, which aim to support tasks such as channel estimation, beam prediction, and localization based on wireless signals. Existing\u2026"
-    },
-    {
-      "title": "German parties shifted towards intuition-based rhetoric after the far right's parliamentary breakthrough",
-      "url": "https://arxiv.org/abs/2608.05075v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T17:19:12+00:00",
-      "preview": "The spread of misinformation is widely perceived as a threat to democratic deliberation, yet how political elites' rhetorical commitments to truth shift alongside the rise of populist actors remains poorly understood.\u2026"
-    },
-    {
-      "title": "VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection",
-      "url": "https://arxiv.org/abs/2608.05069v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-05T17:12:39+00:00",
-      "preview": "Video Anomaly Detection (VAD) is inherently challenging due to the scarcity of anomalies and the large visual variability in surveillance footage, including changes in lighting, viewpoint, and human appearance. To\u2026"
-    },
-    {
-      "title": "Provable Limits and Certified Deferral for Verbalized Uncertainty in Small Language Models",
-      "url": "https://arxiv.org/abs/2608.05064v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T17:11:04+00:00",
-      "preview": "Small open-weight language models increasingly run in private, offline, and cost-sensitive settings, where the key deployment question is not only what a model answers but when it should defer to a human. We study\u2026"
-    },
-    {
-      "title": "The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations",
-      "url": "https://arxiv.org/abs/2608.05050v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T16:59:49+00:00",
-      "preview": "Against the backdrop of violence in police interactions with the U.S. public, we explore how deferentially police officers speak to virtual characters depicted as Black adult males in vir- tual reality (VR) simulations.\u2026"
-    },
-    {
-      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
-      "url": "https://arxiv.org/abs/2608.05045v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T16:55:59+00:00",
-      "preview": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the fine-tuning-as-a-service (FTaaS) paradigm or rely on downstream users to follow\u2026"
-    },
-    {
-      "title": "Language Models Generalize to Human-like Word Order Preferences",
-      "url": "https://arxiv.org/abs/2608.05028v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T16:33:46+00:00",
-      "preview": "A central question in language acquisition is whether linguistic biases can emerge from general learning mechanisms operating over underdetermined input. Artificial Language Learning (ALL) studies have shown that human\u2026"
-    },
-    {
-      "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
-      "url": "https://arxiv.org/abs/2608.05004v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T16:11:08+00:00",
-      "preview": "Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including \"delusional spirals\" in which concerning human and LLM behaviors reinforce\u2026"
-    },
-    {
-      "title": "Protoreasoning in Tiny Transformers",
-      "url": "https://arxiv.org/abs/2608.04980v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-05T15:51:36+00:00",
-      "preview": "We show that tiny transformers can profitably employ a simple form of Chain of Thought, which we call protoreasoning, allowing us to study step-by-step reasoning on ~1M-parameter models and opening up opportunities for\u2026"
-    },
-    {
-      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
-      "url": "https://arxiv.org/abs/2608.04010v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:59:58+00:00",
-      "preview": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly,\u2026"
-    },
-    {
-      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
-      "url": "https://arxiv.org/abs/2608.04009v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:59:56+00:00",
-      "preview": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how\u2026"
-    },
-    {
-      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
-      "url": "https://arxiv.org/abs/2608.04008v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:59:55+00:00",
-      "preview": "Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend itself against\u2026"
-    },
-    {
-      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
-      "url": "https://arxiv.org/abs/2608.04007v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:59:21+00:00",
-      "preview": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained\u2026"
-    },
-    {
-      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
-      "url": "https://arxiv.org/abs/2608.04003v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:58:05+00:00",
-      "preview": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task\u2026"
-    },
-    {
-      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
-      "url": "https://arxiv.org/abs/2608.04001v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:57:20+00:00",
-      "preview": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a\u2026"
-    },
-    {
-      "title": "Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation",
-      "url": "https://arxiv.org/abs/2608.03999v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:56:49+00:00",
-      "preview": "Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. We fix pretrained\u2026"
-    },
-    {
-      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
-      "url": "https://arxiv.org/abs/2608.03994v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:54:01+00:00",
-      "preview": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected\u2026"
-    },
-    {
-      "title": "string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms",
-      "url": "https://arxiv.org/abs/2608.03984v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-04T17:48:15+00:00",
-      "preview": "We present string2string Studio, an interactive in-browser platform for string-to-string analysis across natural language processing, computational biology, and the digital humanities. The system integrates six main\u2026"
-    },
-    {
-      "title": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?",
-      "url": "https://arxiv.org/abs/2608.03983v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:47:25+00:00",
-      "preview": "Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from\u2026"
-    },
-    {
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-      "url": "https://arxiv.org/abs/2608.03979v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:45:16+00:00",
-      "preview": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration.\u2026"
-    },
-    {
-      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
-      "url": "https://arxiv.org/abs/2608.03972v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:40:08+00:00",
-      "preview": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However,\u2026"
-    },
-    {
-      "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
-      "url": "https://arxiv.org/abs/2608.03970v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-04T17:38:06+00:00",
-      "preview": "Human input reaches language models by typing or speaking, and each channel leaves a distinct signature: orthographic noise for keyboards; for voice, disfluency from conventional transcription and restructuring from\u2026"
     }
   ]
 }
