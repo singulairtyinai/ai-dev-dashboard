@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-08-10T07:38:07.149632+00:00",
+  "last_updated": "2026-08-10T09:18:54.324544+00:00",
   "items": [
     {
       "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
@@ -29,6 +29,13 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-07T17:47:39+00:00",
       "preview": "The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate\u2026"
+    },
+    {
+      "title": "An Analysis of Architectural and Operational Dynamics of Phishkits in the Wild",
+      "url": "https://arxiv.org/abs/2608.07451v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T17:45:40+00:00",
+      "preview": "Phishing attacks have always been a favored vector for adversaries to defraud users, bypass modern defense mechanisms, and penetrate critical systems. Among all the elements contributing to the creation and deployment\u2026"
     },
     {
       "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
@@ -178,109 +185,102 @@
       "preview": "The recent advances in neural language models have also spurred much work in computational psycholinguistics, asking whether neural LMs are also promising models of human language processing. However, work has been\u2026"
     },
     {
-      "title": "Learning When to Trust via Selective Context Preference Optimization",
-      "url": "https://arxiv.org/abs/2608.06377v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:59:58+00:00",
-      "preview": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a\u2026"
+      "title": "\"Operator, can you hear me?\" A Faithful Line into the UNISOC Baseband",
+      "url": "https://arxiv.org/abs/2608.07143v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T12:02:44+00:00",
+      "preview": "Baseband processors are reachable over the radio at all times. Their most security-relevant logic runs deep inside protocol state machines: the control-plane handlers that gate registration, authentication, and session\u2026"
     },
     {
-      "title": "The Bitter Lesson of Tool Calling",
-      "url": "https://arxiv.org/abs/2608.06370v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-06T17:58:32+00:00",
-      "preview": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize\u2026"
+      "title": "SoK: Cryptographic Key Recovery for Cryptoasset Custody and Financial Technologies",
+      "url": "https://arxiv.org/abs/2608.07104v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T11:00:33+00:00",
+      "preview": "Cryptoasset systems often bind cryptographic key control to financial control: losing a wallet seed, custody share, hardware device, or smart-account credential can remove spend authority, while compromised recovery can\u2026"
     },
     {
-      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
-      "url": "https://arxiv.org/abs/2608.06366v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:57:37+00:00",
-      "preview": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an\u2026"
+      "title": "Soft Redaction of Image Provenance via Zero-Knowledge Proofs",
+      "url": "https://arxiv.org/abs/2608.07063v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T10:13:13+00:00",
+      "preview": "Content provenance standards, such as C2PA, are increasingly used to attach signed records of origin, editing history, and rights to digital images. However, provenance transparency can conflict with privacy --\u2026"
     },
     {
-      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
-      "url": "https://arxiv.org/abs/2608.06364v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:57:28+00:00",
-      "preview": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty.\u2026"
+      "title": "Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering",
+      "url": "https://arxiv.org/abs/2608.07038v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T09:48:25+00:00",
+      "preview": "Human-Oriented Binary Reverse Engineering (HOBRE) aims to transform decompiled pseudocode into a more human-friendly representation, thereby reducing the cognitive burden of reverse analysis and improving efficiency.\u2026"
     },
     {
-      "title": "An Optimal Agnostic PAC Algorithm",
-      "url": "https://arxiv.org/abs/2608.06363v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:57:25+00:00",
-      "preview": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\\u2026"
+      "title": "Effects of parental controls in the context of Digital Forensics",
+      "url": "https://arxiv.org/abs/2608.07016v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T09:25:35+00:00",
+      "preview": "Parental control systems are designed to protect minors online, but can inadvertently obstruct digital forensic investigations. When enabled, these systems restrict administrative privileges, disable debugging options,\u2026"
     },
     {
-      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
-      "url": "https://arxiv.org/abs/2608.06362v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:57:11+00:00",
-      "preview": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations\u2026"
+      "title": "HarnessSafe: Evaluating Safety Across Persistent Carriers in Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.06984v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T09:03:49+00:00",
+      "preview": "Modern agent harnesses persist state across tasks and sessions through persistent carriers like memory, skills, tools, and shared artifacts. However, this capability creates delayed safety risks: attacker-influenced\u2026"
     },
     {
-      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
-      "url": "https://arxiv.org/abs/2608.06361v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:57:06+00:00",
-      "preview": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer\u2026"
+      "title": "Statistical Analysis of Executability and Program Equivalence in Decompilation for IoT Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2608.06960v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T08:36:35+00:00",
+      "preview": "Internet of Things (IoT) devices handle sensitive privacy-related information such as user audio, video, and authentication data, making it essential to detect vulnerabilities in their firmware. Decompilation, a key\u2026"
     },
     {
-      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
-      "url": "https://arxiv.org/abs/2608.06353v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:53:24+00:00",
-      "preview": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation\u2026"
+      "title": "Casting the Net! Revisiting MasterFace Impersonation Attacks",
+      "url": "https://arxiv.org/abs/2608.06952v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T08:28:03+00:00",
+      "preview": "Impersonation is a fundamental security threat in face recognition systems (FRSs). While the security of FRSs has been challenged by various attack vectors, under realistic adversarial capabilities, e.g., a limited\u2026"
     },
     {
-      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
-      "url": "https://arxiv.org/abs/2608.06352v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-06T17:53:18+00:00",
-      "preview": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task\u2026"
+      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "url": "https://arxiv.org/abs/2608.06947v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T08:23:26+00:00",
+      "preview": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasingly susceptible to poisoning attacks, in which adversarial documents are injected to manipulate\u2026"
     },
     {
-      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
-      "url": "https://arxiv.org/abs/2608.06351v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:53:10+00:00",
-      "preview": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept\u2026"
+      "title": "Rigid-Covert GNSS Spoofing of UAV Swarms: A Structural Blind Spot, Its Detection Limit, and Absolute-Anchor Defenses",
+      "url": "https://arxiv.org/abs/2608.06885v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T07:15:55+00:00",
+      "preview": "Cooperative UAV-swarm defenses commonly cross-check GNSS positions against measured inter-drone geometry. We show that this relative-geometry channel has a structural blind spot: a common, slowly varying translation (a\u2026"
     },
     {
-      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
-      "url": "https://arxiv.org/abs/2608.06347v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-06T17:52:06+00:00",
-      "preview": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a\u2026"
+      "title": "SynChain: Inducing Computer-Use Agent Systems to Construct Their Own Attack Chains",
+      "url": "https://arxiv.org/abs/2608.06862v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T06:39:51+00:00",
+      "preview": "Computer-use agents~(CUAs) have transformed large language models into persistent execution systems capable of generating, storing, and reusing artifacts like skills and memory entries. However, existing security\u2026"
     },
     {
-      "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
-      "url": "https://arxiv.org/abs/2608.06346v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:51:20+00:00",
-      "preview": "LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a\u2026"
+      "title": "Understanding and Improving Model Editing for Secure Code Generation",
+      "url": "https://arxiv.org/abs/2608.06848v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T06:16:38+00:00",
+      "preview": "Large language models (LLMs) are widely used for code generation, yet they can reproduce vulnerable implementations learned from insecure training patterns. Prior work has mainly explored inference-time hardening, which\u2026"
     },
     {
-      "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
-      "url": "https://arxiv.org/abs/2608.06331v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:40:26+00:00",
-      "preview": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how\u2026"
+      "title": "MIFA: An MILP-based Framework for Improving Differential Fault Attacks",
+      "url": "https://arxiv.org/abs/2608.06837v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T05:57:41+00:00",
+      "preview": "At ASIACRYPT 2021, Baksi et al. introduced DEFAULT, a block cipher designed to algorithmically resist Differential Fault Attack (DFA), claiming 64-bit DFA security regardless of the number of injected faults. At\u2026"
     },
     {
-      "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
-      "url": "https://arxiv.org/abs/2608.06329v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-06T17:39:21+00:00",
-      "preview": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or\u2026"
-    },
-    {
-      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
-      "url": "https://arxiv.org/abs/2608.06312v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-06T17:27:23+00:00",
-      "preview": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T\u2026"
+      "title": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+      "url": "https://arxiv.org/abs/2608.06830v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-08-07T05:39:27+00:00",
+      "preview": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions. Yet, this growing\u2026"
     }
   ]
 }
