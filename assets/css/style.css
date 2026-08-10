@@ -23,7 +23,7 @@
   --c-governance: #8E9EDB;
   --c-tools: #D98E73;
   --c-military: #E1614B;
-  --c-xfeed: #6FC2E0;
+  --c-jobs-economy: #6FC2E0;
   --c-papers: #A6C36F;
 
   /* Type */
@@ -196,6 +196,44 @@ button.btn.secondary.refresh-btn.is-loading {
   border-color: transparent;
 }
 .chip.is-off { opacity: 0.4; }
+
+/* ---------- Date range tabs ---------- */
+
+.date-tab-row {
+  display: flex;
+  gap: 4px;
+  border: 1px solid var(--hairline);
+  padding: 3px;
+  background: var(--bg-panel);
+}
+
+.date-tab {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 5px 11px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.date-tab:hover { color: var(--text-primary); }
+.date-tab.active {
+  background: var(--amber);
+  color: #1A1200;
+  font-weight: 600;
+}
+
+.range-empty-note {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 10px 0;
+  text-align: center;
+}
+.channel.is-range-empty .range-empty-note { display: block; }
 
 /* ---------- Trending keyword strip ---------- */
 
