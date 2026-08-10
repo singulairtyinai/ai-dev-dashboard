@@ -8,7 +8,7 @@ const CATEGORY_META = {
   governance: { color: 'var(--c-governance)' },
   tools:      { color: 'var(--c-tools)' },
   military:   { color: 'var(--c-military)' },
-  x_feed:     { color: 'var(--c-xfeed)' },
+  jobs_economy: { color: 'var(--c-jobs-economy)' },
   papers:     { color: 'var(--c-papers)' },
 };
 
@@ -27,7 +27,7 @@ const STOPWORDS = new Set(['the','a','an','of','to','in','on','for','and','or','
   'at','by','with','from','as','it','its','this','that','be','has','have','will','new',
   'says','after','over','into','how','why','what','ai','vs','amid','than','their','not']);
 
-let STATE = { channels: {}, activeChips: new Set(), searchQuery: '' };
+let STATE = { channels: {}, activeChips: new Set(), searchQuery: '', dateRangeDays: 0 };
 
 async function loadJSON(path) {
   const res = await fetch(path + '?_=' + Date.now());
@@ -87,7 +87,7 @@ function renderSparkline(history, color) {
 function renderItem(item) {
   const hasPreview = !!item.preview;
   return `
-    <li data-title="${escapeHtml((item.title + ' ' + (item.preview||'') + ' ' + (item.source||'')).toLowerCase())}">
+    <li data-title="${escapeHtml((item.title + ' ' + (item.preview||'') + ' ' + (item.source||'')).toLowerCase())}" data-published="${escapeHtml(item.published || '')}">
       <div class="item-title-row" ${hasPreview ? `onclick="toggleExpand(this)"` : ''}>
         <a class="item-title" href="${item.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(item.title)}</a>
         <span class="item-meta">${escapeHtml(item.source || '')} · ${timeAgo(item.published)}</span>
@@ -104,7 +104,7 @@ function renderChannel(catKey, label, data, history) {
   const meta = CATEGORY_META[catKey] || { color: 'var(--amber)' };
   const colorVarName = meta.color.replace('var(', '').replace(')', '');
   const colorResolved = getComputedStyle(document.documentElement).getPropertyValue(colorVarName) || '#F2B155';
-  const items = (data.items || []).slice(0, 8);
+  const items = (data.items || []).slice(0, 40);
   const isActive = items.length > 0;
 
   const itemsHtml = items.map(item => renderItem(item)).join('');
@@ -126,6 +126,7 @@ function renderChannel(catKey, label, data, history) {
       </div>
       ${renderSparkline(history, colorResolved.trim() || '#F2B155')}
       <ul class="item-list">${itemsHtml}</ul>
+      <div class="range-empty-note">No items in this time range.</div>
       ${emptyHtml}
     </div>`;
 }
@@ -161,9 +162,20 @@ function toggleChip(key) {
   applyFilters();
 }
 
+function setDateRange(days, btnEl) {
+  STATE.dateRangeDays = days;
+  document.querySelectorAll('.date-tab').forEach(b => {
+    const active = b === btnEl;
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  applyFilters();
+}
+
 function applyFilters() {
   const query = document.getElementById('search-input').value.trim().toLowerCase();
   STATE.searchQuery = query;
+  const cutoff = STATE.dateRangeDays > 0 ? Date.now() - STATE.dateRangeDays * 86400000 : null;
 
   document.querySelectorAll('.channel').forEach(chEl => {
     const catKey = chEl.dataset.cat;
@@ -172,12 +184,27 @@ function applyFilters() {
     const allLis = chEl.querySelectorAll('.item-list li');
 
     allLis.forEach(li => {
-      const matches = !query || (li.dataset.title || '').includes(query);
+      const matchesSearch = !query || (li.dataset.title || '').includes(query);
+      let inRange = true;
+      if (cutoff !== null) {
+        const publishedStr = li.dataset.published;
+        // Items with no known publish date are excluded once a specific
+        // range is selected, since we can't confirm they fall within it.
+        if (!publishedStr) {
+          inRange = false;
+        } else {
+          const publishedMs = new Date(publishedStr).getTime();
+          inRange = !isNaN(publishedMs) && publishedMs >= cutoff;
+        }
+      }
+      const matches = matchesSearch && inRange;
       li.classList.toggle('is-filtered-out', !matches);
       if (matches) visibleItemCount++;
     });
 
     const hiddenBySearch = !!query && visibleItemCount === 0 && allLis.length > 0;
+    const rangeEmpty = cutoff !== null && visibleItemCount === 0 && allLis.length > 0 && !hiddenBySearch;
+    chEl.classList.toggle('is-range-empty', rangeEmpty);
     chEl.classList.toggle('is-hidden', hiddenByChip || hiddenBySearch);
   });
 }
