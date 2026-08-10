@@ -30,11 +30,6 @@ jobs:
       - name: Fetch arXiv papers
         run: python scripts/fetch_arxiv.py
 
-      - name: Fetch X feed
-        env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python scripts/fetch_x.py
-
       - name: Commit updated data
         run: |
           git config user.name "ai-dashboard-bot"
