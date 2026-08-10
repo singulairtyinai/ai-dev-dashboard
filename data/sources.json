@@ -4,14 +4,22 @@
       "label": "Overall AI Developments",
       "type": "rss",
       "sources": [
-        { "id": "src_001", "name": "MIT Technology Review - AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "active": true }
+        { "id": "src_001", "name": "MIT Technology Review - AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "active": true },
+        { "id": "src_002", "name": "Wired - AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "active": true },
+        { "id": "src_003", "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "active": true },
+        { "id": "src_004", "name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/", "active": true },
+        { "id": "src_005", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "active": true },
+        { "id": "src_006", "name": "Reuters - Technology (AI coverage via topic)", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "Reuters discontinued its public RSS feeds; no verified feed URL found" }
       ]
     },
     "hardware": {
       "label": "AI Hardware",
       "type": "rss",
       "sources": [
-        { "id": "src_010", "name": "AnandTech", "url": "https://www.anandtech.com/rss/", "active": true }
+        { "id": "src_010", "name": "AnandTech", "url": "https://www.anandtech.com/rss/", "active": true },
+        { "id": "src_011", "name": "IEEE Spectrum - Semiconductors", "url": "https://spectrum.ieee.org/feeds/topic/semiconductors.rss", "active": true },
+        { "id": "src_012", "name": "SemiAnalysis", "url": "https://www.semianalysis.com/feed", "active": true },
+        { "id": "src_013", "name": "Tom's Hardware - AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "No confirmed tag-specific RSS URL found; verify before enabling" }
       ]
     },
     "governance": {
@@ -20,14 +28,20 @@
       "sources": [
         { "id": "src_020", "name": "OECD.AI News", "url": "https://oecd.ai/en/feed", "active": true, "country": "France" },
         { "id": "src_021", "name": "EU Digital Strategy - AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "European Union" },
-        { "id": "src_022", "name": "NIST AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "United States" }
+        { "id": "src_022", "name": "NIST AI", "url": "https://www.nist.gov/news-events/information%20technology/rss.xml", "active": true, "country": "United States", "note": "IT-topic feed (broadest reliable NIST feed covering AI); no AI-specific feed exists" },
+        { "id": "src_023", "name": "UK DSIT", "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom", "active": true, "country": "United Kingdom", "note": "GOV.UK standard .atom feed convention" },
+        { "id": "src_024", "name": "Carnegie Endowment - Technology & International Affairs", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "United States" },
+        { "id": "src_025", "name": "UN ODA - OEWG (Cyber/AI processes)", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "country": "International" }
       ]
     },
     "tools": {
       "label": "AI Tools & Applications",
       "type": "rss",
       "sources": [
-        { "id": "src_030", "name": "The Verge - AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "active": true }
+        { "id": "src_030", "name": "The Verge - AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "active": true },
+        { "id": "src_031", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "active": true },
+        { "id": "src_032", "name": "Anthropic News", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "Anthropic discontinued its public RSS feed; news page has no <link rel=\"alternate\"> pointer as of mid-2026 - email/manual check only" },
+        { "id": "src_033", "name": "Product Hunt - AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false }
       ]
     },
     "military": {
@@ -36,7 +50,11 @@
       "sources": [
         { "id": "src_040", "name": "Defense One - Tech", "url": "https://www.defenseone.com/rss/technology/", "active": true },
         { "id": "src_041", "name": "Lockheed Martin - News", "url": "https://news.lockheedmartin.com/rss", "active": true },
-        { "id": "src_042", "name": "Booz Allen Hamilton - Newsroom", "url": "https://newsroom.boozallen.com/press-releases/rss", "active": true }
+        { "id": "src_042", "name": "Booz Allen Hamilton - Newsroom", "url": "https://newsroom.boozallen.com/press-releases/rss", "active": true },
+        { "id": "src_043", "name": "DARPA - News", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "DARPA references an RSS feed for News but exact URL not confirmed live; verify at darpa.mil/news before enabling" },
+        { "id": "src_044", "name": "US DoD - News", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "Legacy defenselink.mil RSS URLs are archived/dead; current defense.gov feed URL not confirmed live" },
+        { "id": "src_045", "name": "Breaking Defense - AI", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "No confirmed tag-specific RSS URL found; verify before enabling" },
+        { "id": "src_046", "name": "NATO - AI Strategy", "url": "REPLACE_WITH_VERIFIED_FEED_URL", "active": false, "note": "NATO topic pages do not appear to publish RSS; monitor page directly" }
       ]
     },
     "x_feed": {
@@ -45,7 +63,12 @@
       "sources": [
         { "id": "src_050", "name": "OpenAI", "handle": "OpenAI", "active": true },
         { "id": "src_051", "name": "AnthropicAI", "handle": "AnthropicAI", "active": true },
-        { "id": "src_052", "name": "GoogleDeepMind", "handle": "GoogleDeepMind", "active": true }
+        { "id": "src_052", "name": "GoogleDeepMind", "handle": "GoogleDeepMind", "active": true },
+        { "id": "src_053", "name": "NVIDIA", "handle": "NVIDIA", "active": true },
+        { "id": "src_054", "name": "MistralAI", "handle": "MistralAI", "active": true },
+        { "id": "src_055", "name": "xAI", "handle": "xai", "active": true },
+        { "id": "src_056", "name": "OECD AI", "handle": "OECD_AI", "active": true },
+        { "id": "src_057", "name": "NIST", "handle": "NIST", "active": true }
       ]
     },
     "papers": {
@@ -53,7 +76,8 @@
       "type": "arxiv",
       "sources": [
         { "id": "src_060", "name": "arXiv cs.AI", "query": "cat:cs.AI", "active": true },
-        { "id": "src_061", "name": "arXiv cs.CL", "query": "cat:cs.CL", "active": true }
+        { "id": "src_061", "name": "arXiv cs.CL", "query": "cat:cs.CL", "active": true },
+        { "id": "src_062", "name": "arXiv cs.CR (Security, incl. AI/cyber)", "query": "cat:cs.CR", "active": true }
       ]
     }
   }
