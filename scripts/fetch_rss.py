@@ -35,6 +35,17 @@ def run():
                     new_items.append(parse_entry(entry, src["name"], src.get("country")))
             except Exception as e:
                 print(f"[{cat_key}] failed to fetch {src['name']}: {e}")
+
+        # Sort newest-first across all sources in this category. Without this,
+        # items were appended source-by-source (all of source A, then all of
+        # source B, ...), so a global slice/date-range filter downstream could
+        # cut off genuinely newer items from a later source while keeping
+        # older ones from an earlier source. Items with no parsed publish
+        # date are pushed to the end rather than dropped.
+        new_items.sort(
+            key=lambda item: item["published"] or "",
+            reverse=True,
+        )
         save_items(cat_key, new_items)
 
 
