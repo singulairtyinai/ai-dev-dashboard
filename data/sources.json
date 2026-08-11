@@ -45,8 +45,46 @@
           "id": "src_007",
           "name": "AI Frontiers - Technology & Research",
           "url": "https://ai-frontiers.org/topic/technology-and-research",
-          "active": false,
-          "note": "No topic-specific RSS on this Webflow site. Site-wide Substack feed: https://newsletter.ai-frontiers.org/feed (not topic-filtered)."
+          "active": true,
+          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
+          "fetch_type": "scrape"
+        },
+        {
+          "id": "src_008",
+          "name": "Transformer (transformernews.ai)",
+          "url": "https://www.transformernews.ai/feed",
+          "active": true
+        },
+        {
+          "id": "src_009",
+          "name": "ControlAI News",
+          "url": "https://controlai.news/feed",
+          "active": true
+        },
+        {
+          "id": "src_014",
+          "name": "AI Frontiers Newsletter (Substack)",
+          "url": "https://newsletter.ai-frontiers.org/feed",
+          "active": true,
+          "note": "Site-wide feed (all AI Frontiers content), not topic-filtered \u2014 complements the topic-specific scraped sources already in this file."
+        },
+        {
+          "id": "src_015",
+          "name": "Jonas Freund's Substack",
+          "url": "https://jonasfreund.substack.com/feed",
+          "active": true
+        },
+        {
+          "id": "src_016",
+          "name": "AI Safety Newsletter (CAIS)",
+          "url": "https://newsletter.safe.ai/feed",
+          "active": true
+        },
+        {
+          "id": "src_017",
+          "name": "Right Around the Perimeter",
+          "url": "https://rightaroundtheperimeter.substack.com/feed",
+          "active": true
         }
       ]
     },
@@ -133,8 +171,9 @@
           "id": "src_026",
           "name": "AI Frontiers - Policy & Regulation",
           "url": "https://ai-frontiers.org/topic/policy-and-regulation",
-          "active": false,
-          "note": "No topic-specific RSS on this Webflow site. Site-wide Substack feed: https://newsletter.ai-frontiers.org/feed (not topic-filtered)."
+          "active": true,
+          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
+          "fetch_type": "scrape"
         }
       ]
     },
@@ -194,50 +233,48 @@
         {
           "id": "src_043",
           "name": "DARPA - News",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "DARPA references an RSS feed for News but exact URL not confirmed live; verify at darpa.mil/news before enabling"
+          "url": "https://www.darpa.mil/rss.xml",
+          "active": true
         },
         {
           "id": "src_044",
-          "name": "US DoD - News",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "Legacy defenselink.mil RSS URLs are archived/dead; current defense.gov feed URL not confirmed live"
+          "name": "Dept of War (formerly DoD) - News",
+          "url": "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=10",
+          "active": true
         },
         {
           "id": "src_045",
           "name": "Breaking Defense - AI",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "No confirmed tag-specific RSS URL found; verify before enabling"
+          "url": "https://breakingdefense.com/full-rss-feed/",
+          "active": true
         },
         {
           "id": "src_046",
           "name": "NATO - AI Strategy",
           "url": "REPLACE_WITH_VERIFIED_FEED_URL",
           "active": false,
-          "note": "NATO topic pages do not appear to publish RSS; monitor page directly"
+          "note": "Confirmed dead: NATO's official RSS feeds (nato.int/cps/.../RSS.htm and rssFeed.xml) return 403 Forbidden as of Aug 2026 (logged on Wikidata as deprecated). NATO also states nato.int is mid-rebuild. No working feed found \u2014 would need the scrape engine or manual checks."
         },
         {
           "id": "src_047",
           "name": "AI Frontiers - Security",
           "url": "https://ai-frontiers.org/topic/security",
-          "active": false,
-          "note": "No topic-specific RSS on this Webflow site. Site-wide Substack feed: https://newsletter.ai-frontiers.org/feed (not topic-filtered)."
+          "active": true,
+          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
+          "fetch_type": "scrape"
         }
       ]
     },
-    "jobs_economy": {
-      "label": "Jobs and Economy",
+    "agentic_ai": {
+      "label": "Agentic AI Updates",
       "type": "rss",
       "sources": [
         {
-          "id": "src_070",
-          "name": "AI Frontiers - Jobs & Economy",
-          "url": "https://ai-frontiers.org/topic/jobs-and-economy",
+          "id": "src_080",
+          "name": "Substack search: \"agentic AI\"",
+          "url": "https://substack.com/search/agentic%20AI?utm_source=global-search",
           "active": false,
-          "note": "No topic-specific RSS on this Webflow site. Site-wide Substack feed: https://newsletter.ai-frontiers.org/feed (not topic-filtered)."
+          "note": "Not a real source to fetch \u2014 this is a live Substack search results page, not a publication. It has no stable feed (results shift with Substack's ranking algorithm) and isn't a page any RSS/scrape convention applies to. Left inactive; consider swapping in a specific named agentic-AI newsletter instead, or treat this as a manual link to browse periodically."
         }
       ]
     },
