@@ -9,6 +9,7 @@ const CATEGORY_META = {
   tools:      { color: 'var(--c-tools)' },
   military:   { color: 'var(--c-military)' },
   jobs_economy: { color: 'var(--c-jobs-economy)' },
+  agentic_ai: { color: 'var(--c-agentic-ai)' },
   papers:     { color: 'var(--c-papers)' },
 };
 
