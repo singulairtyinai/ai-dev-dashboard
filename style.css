@@ -1,0 +1,92 @@
+/* KPI Metrics Bar */
+.kpi-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.kpi-title { font-size: 0.85rem; color: #888; }
+.kpi-value { font-size: 1.4rem; font-weight: bold; margin: 6px 0; }
+.kpi-subtext { font-size: 0.75rem; color: #aaa; }
+
+/* Executive Summary Box */
+.executive-summary-box {
+  background: rgba(64, 120, 255, 0.1);
+  border-left: 4px solid #4078ff;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+/* Controls & Filtering */
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.search-wrapper input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+  width: 280px;
+}
+
+.filter-group select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+  margin-left: 6px;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+.impact-badge.high { background: #e63946; color: #fff; }
+.impact-badge.medium { background: #f4a261; color: #000; }
+.impact-badge.low { background: #2a9d8f; color: #fff; }
+
+/* Governance Region Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+
+.modal-content {
+  background: #1e1e24;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px; right: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
