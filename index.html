@@ -1,116 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Developments Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- FontAwesome for visual status indicators -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Developments Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header class="dashboard-header">
-    <div class="header-main">
+<div class="mission-bar">
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
       <h1>AI Developments Dashboard</h1>
-      <div class="subtitle">Monitoring station · 8 active channels</div>
-    </div>
-    <div class="header-meta">
-      <span class="meta-label">Last sync:</span>
-      <span id="last-sync-time" class="meta-value">—</span>
-    </div>
-  </header>
-
-  <!-- 1. Executive Summary & KPI Section -->
-  <section class="kpi-section">
-    <div class="kpi-card">
-      <div class="kpi-title">Active Governance Signals</div>
-      <div class="kpi-value" id="kpi-signals-count">12</div>
-      <div class="kpi-subtext">Across 6 major regions</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-title">High-Impact Shift</div>
-      <div class="kpi-value status-alert" id="kpi-top-topic">EU AI Act / Risk Rules</div>
-      <div class="kpi-subtext">3 new regulatory updates</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-title">Top Trending Domain</div>
-      <div class="kpi-value" id="kpi-top-domain">Frontier Safety</div>
-      <div class="kpi-subtext">+40% weekly activity velocity</div>
-    </div>
-  </section>
-
-  <!-- Executive AI Summary Banner -->
-  <div class="executive-summary-box">
-    <div class="summary-header">
-      <i class="fa-solid fa-wand-magic-sparkles"></i> <strong>Weekly Executive TL;DR Summary</strong>
-    </div>
-    <p id="executive-summary-text">
-      Global AI governance activity accelerated this week as regional bodies updated safety frameworks for frontier model deployment. Key focus areas centered on systemic risk thresholds, compute reporting, and open-weight model evaluations.
-    </p>
-  </div>
-
-  <!-- 2. Interactive Search & Taxonomy Filters -->
-  <section class="filter-controls">
-    <div class="search-wrapper">
-      <i class="fa-solid fa-magnifying-glass search-icon"></i>
-      <input type="text" id="search-input" placeholder="Search signals, policy papers, or models..." oninput="applyFilters()" />
-    </div>
-
-    <div class="filter-group">
-      <label for="domain-filter">Domain:</label>
-      <select id="domain-filter" onchange="applyFilters()">
-        <option value="all">All Domains</option>
-        <option value="Governance">Governance & Policy</option>
-        <option value="Frontier">Frontier Models</option>
-        <option value="Safety">Safety & Ethics</option>
-        <option value="OpenSource">Open Source</option>
-      </select>
-
-      <label for="impact-filter">Impact:</label>
-      <select id="impact-filter" onchange="applyFilters()">
-        <option value="all">All Levels</option>
-        <option value="High">High Impact</option>
-        <option value="Medium">Medium Impact</option>
-        <option value="Low">Low / Informational</option>
-      </select>
-    </div>
-  </section>
-
-  <!-- Main Grid Content -->
-  <main class="dashboard-grid" id="signals-container">
-    <!-- Signals & feed cards dynamically render here -->
-  </main>
-
-  <!-- 3. Governance Signal Map Section -->
-  <section class="governance-map-section">
-    <div class="section-header">
-      <h2>Governance Signal Map</h2>
-      <span>Click any region to inspect active regulatory stance and recent policy updates</span>
-    </div>
-    
-    <div class="region-chips">
-      <button class="region-btn" onclick="openGovernanceModal('EU')">European Union (Strict/Risk-based)</button>
-      <button class="region-btn" onclick="openGovernanceModal('US')">United States (Executive/Standards)</button>
-      <button class="region-btn" onclick="openGovernanceModal('UK')">United Kingdom (Sectoral/Agile)</button>
-    </div>
-  </section>
-
-  <!-- Modal Overlay for Regional Detail -->
-  <div id="governance-modal" class="modal-overlay" onclick="closeGovernanceModal(event)">
-    <div class="modal-content">
-      <span class="close-btn" onclick="closeModal()">&times;</span>
-      <h2 id="modal-region-title">Region Details</h2>
-      <div id="modal-region-body">Loading...</div>
+      <div class="subtitle">Monitoring station · 8 channels</div>
     </div>
   </div>
+  <div class="mission-bar-right">
+    <div class="mission-clock">
+      <span class="label">Last sync</span>
+      <span id="last-sync">—</span>
+    </div>
+    <button class="btn secondary refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh now</button>
+  </div>
+</div>
 
-  <footer class="dashboard-footer">
-    <span>Data refreshed on schedule via GitHub Actions</span>
-    <a href="control-panel.html">Control panel →</a>
-  </footer>
+<div class="toolbar">
+  <input type="text" id="search-input" class="search-input" placeholder="Search all channels…" oninput="applyFilters()">
+  <div class="chip-row" id="chip-row"><!-- category toggle chips injected here --></div>
+  <div class="date-tab-row" id="date-tab-row" role="tablist" aria-label="Time range">
+    <button class="date-tab" data-range="1" role="tab" aria-selected="false" onclick="setDateRange(1, this)">24h</button>
+    <button class="date-tab" data-range="7" role="tab" aria-selected="false" onclick="setDateRange(7, this)">7 days</button>
+    <button class="date-tab" data-range="30" role="tab" aria-selected="false" onclick="setDateRange(30, this)">30 days</button>
+    <button class="date-tab active" data-range="0" role="tab" aria-selected="true" onclick="setDateRange(0, this)">All</button>
+  </div>
+</div>
 
-  <script src="app.js"></script>
+<div class="keyword-strip" id="keyword-strip"><!-- trending keywords injected here --></div>
+
+<div class="grid" id="channel-grid">
+  <!-- channels injected by dashboard.js -->
+</div>
+
+<div class="map-section" id="map-section" style="display:none;">
+  <div class="map-header">
+    <h2>Governance Signal Map</h2>
+    <span class="channel-meta">Recent governance activity by country/region</span>
+  </div>
+  <div id="map-container"></div>
+</div>
+
+<div class="mission-footer">
+  <span>Data refreshed on schedule via GitHub Actions</span>
+  <a href="control-panel.html">Control panel →</a>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/site-config.js"></script>
+<script src="assets/js/dashboard.js"></script>
 </body>
 </html>
