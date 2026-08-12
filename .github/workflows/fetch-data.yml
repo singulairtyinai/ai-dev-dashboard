@@ -27,6 +27,9 @@ jobs:
       - name: Fetch RSS sources
         run: python scripts/fetch_rss.py
 
+      - name: Fetch scraped sources (no RSS available)
+        run: python scripts/fetch_scrape.py
+
       - name: Fetch arXiv papers
         run: python scripts/fetch_arxiv.py
 
