@@ -28,7 +28,54 @@ const STOPWORDS = new Set(['the','a','an','of','to','in','on','for','and','or','
   'at','by','with','from','as','it','its','this','that','be','has','have','will','new',
   'says','after','over','into','how','why','what','ai','vs','amid','than','their','not']);
 
-let STATE = { channels: {}, activeChips: new Set(), searchQuery: '', dateRangeDays: 0 };
+// Keywords matching this dashboard owner's actual diplomatic portfolio
+// (IAEA / COPUOS / cyber & AI governance). Items whose title or preview
+// contain any of these get a small relevance badge so they don't get
+// buried among generic AI news. Case-insensitive substring match.
+const PORTFOLIO_KEYWORDS = [
+  'IAEA', 'COPUOS', 'OEWG', 'UNODA', 'non-proliferation', 'nonproliferation',
+  'arms control', 'disarmament', 'cybersecurity', 'cyber security',
+  'lethal autonomous weapon', 'LAWS', 'autonomous weapons', 'nuclear',
+  'Pakistan', 'strategic stability', 'IHL', 'international humanitarian law',
+];
+
+function matchPortfolioKeywords(text) {
+  const lower = (text || '').toLowerCase();
+  return PORTFOLIO_KEYWORDS.filter(kw => lower.includes(kw.toLowerCase()));
+}
+
+// Heuristic source-type classification, computed client-side from the
+// item's URL/source name — not authoritative, just a rough signal to help
+// scan faster. Order matters: more specific checks first.
+function classifySourceType(item) {
+  const url = (item.url || '').toLowerCase();
+  const source = (item.source || '').toLowerCase();
+  if (/\.(gov|mil|int)(\/|$)/.test(url) || /\bnato\b|\bunoda\b|\boecd\b/.test(source)) {
+    return { label: 'Official', cls: 'official' };
+  }
+  if (url.includes('arxiv.org')) {
+    return { label: 'Preprint', cls: 'preprint' };
+  }
+  if (url.includes('substack.com') || source.includes('newsletter')) {
+    return { label: 'Newsletter', cls: 'newsletter' };
+  }
+  return { label: 'News', cls: 'news' };
+}
+
+const GLOSSARY_TERMS = [
+  ['Frontier model', 'A model at or near the current capability ceiling of publicly known AI systems.'],
+  ['Compute', 'Shorthand for the processing power (chips, FLOPs) used to train or run a model — often used as a proxy for capability or a regulatory threshold.'],
+  ['OEWG', 'Open-Ended Working Group — a UN format for multilateral negotiation open to all member states, used for cyber and other issues.'],
+  ['COPUOS', 'UN Committee on the Peaceful Uses of Outer Space.'],
+  ['IAEA', 'International Atomic Energy Agency.'],
+  ['Non-proliferation', 'Policy area concerned with preventing the spread of weapons (traditionally nuclear; increasingly discussed for AI-enabled weapons).'],
+  ['LAWS', 'Lethal Autonomous Weapons Systems.'],
+  ['IHL', 'International Humanitarian Law — the law governing conduct in armed conflict.'],
+  ['Systemic risk', 'In EU AI Act usage: risk from a general-purpose model significant enough to affect the wider economy, public health, or safety.'],
+  ['AI Act', 'Shorthand for the EU\'s Artificial Intelligence Act, the first comprehensive AI-specific regulatory framework.'],
+];
+
+let STATE = { channels: {}, activeChips: new Set(), searchQuery: '', dateRangeDays: 0, countryFilter: null };
 
 async function loadJSON(path) {
   const res = await fetch(path + '?_=' + Date.now());
@@ -87,11 +134,17 @@ function renderSparkline(history, color) {
 
 function renderItem(item) {
   const hasPreview = !!item.preview;
+  const relevanceMatches = matchPortfolioKeywords((item.title || '') + ' ' + (item.preview || ''));
+  const relevanceBadge = relevanceMatches.length
+    ? `<span class="relevance-badge" title="Matches: ${escapeHtml(relevanceMatches.join(', '))}">&#9733; Relevant</span>`
+    : '';
+  const srcType = classifySourceType(item);
+  const sourceTypeBadge = `<span class="source-type-badge type-${srcType.cls}" title="Heuristic classification, not authoritative">${srcType.label}</span>`;
   return `
-    <li data-title="${escapeHtml((item.title + ' ' + (item.preview||'') + ' ' + (item.source||'')).toLowerCase())}" data-published="${escapeHtml(item.published || '')}">
+    <li data-title="${escapeHtml((item.title + ' ' + (item.preview||'') + ' ' + (item.source||'')).toLowerCase())}" data-published="${escapeHtml(item.published || '')}" data-country="${escapeHtml((item.country || '').toLowerCase())}">
       <div class="item-title-row" ${hasPreview ? `onclick="toggleExpand(this)"` : ''}>
         <a class="item-title" href="${item.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(item.title)}</a>
-        <span class="item-meta">${escapeHtml(item.source || '')} · ${timeAgo(item.published)}</span>
+        <span class="item-meta">${relevanceBadge}${sourceTypeBadge}${escapeHtml(item.source || '')} · ${timeAgo(item.published)}</span>
       </div>
       ${hasPreview ? `<div class="item-preview">${escapeHtml(item.preview)}</div>` : ''}
     </li>`;
@@ -99,6 +152,151 @@ function renderItem(item) {
 
 function toggleExpand(rowEl) {
   rowEl.parentElement.classList.toggle('is-expanded');
+}
+
+function renderKPIs() {
+  const now = Date.now();
+  const sevenDaysAgo = now - 7 * 86400000;
+  let totalSignals7D = 0;
+  const activeCountries = new Set();
+  const freq = {};
+
+  for (const ch of Object.values(STATE.channels)) {
+    for (const item of (ch.data.items || [])) {
+      const t = item.published ? new Date(item.published).getTime() : NaN;
+      if (!isNaN(t) && t >= sevenDaysAgo) {
+        totalSignals7D++;
+        const words = (item.title || '').toLowerCase().match(/[a-z0-9][a-z0-9\-]{2,}/g) || [];
+        for (const w of words) {
+          if (STOPWORDS.has(w)) continue;
+          freq[w] = (freq[w] || 0) + 1;
+        }
+      }
+      if (item.country) activeCountries.add(item.country.toLowerCase());
+    }
+  }
+
+  const topEntity = Object.entries(freq).sort((a, b) => b[1] - a[1])[0];
+
+  const kpis = [
+    { label: 'Total Signals (7D)', value: totalSignals7D },
+    { label: 'Active Policy Regions', value: activeCountries.size },
+    { label: 'Top Trending Entity', value: topEntity ? topEntity[0] : '—' },
+  ];
+
+  document.getElementById('kpi-row').innerHTML = kpis.map(k =>
+    `<div class="kpi-card"><div class="kpi-value">${escapeHtml(String(k.value))}</div><div class="kpi-label">${escapeHtml(k.label)}</div></div>`
+  ).join('');
+}
+
+function toggleGlossary() {
+  const panel = document.getElementById('glossary-panel');
+  const isOpen = panel.style.display !== 'none';
+  if (!isOpen) {
+    document.getElementById('glossary-body').innerHTML = GLOSSARY_TERMS.map(([term, def]) =>
+      `<div class="glossary-item"><strong>${escapeHtml(term)}</strong><span>${escapeHtml(def)}</span></div>`
+    ).join('');
+  }
+  panel.style.display = isOpen ? 'none' : 'block';
+}
+
+function clearAllFilters() {
+  document.getElementById('search-input').value = '';
+  STATE.activeChips.clear();
+  STATE.countryFilter = null;
+  STATE.dateRangeDays = 0;
+  document.querySelectorAll('.date-tab').forEach(b => {
+    const isAll = b.dataset.range === '0';
+    b.classList.toggle('active', isAll);
+    b.setAttribute('aria-selected', isAll ? 'true' : 'false');
+  });
+  renderChips();
+  renderGovernanceMap();
+  renderCountryTimeline(null);
+  applyFilters();
+}
+
+function toggleExportMenu() {
+  const menu = document.getElementById('export-menu');
+  menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+}
+
+function collectVisibleItems() {
+  const results = [];
+  document.querySelectorAll('.channel:not(.is-hidden)').forEach(chEl => {
+    const channelLabel = chEl.querySelector('.channel-title h2')?.textContent || chEl.dataset.cat;
+    chEl.querySelectorAll('.item-list li:not(.is-filtered-out)').forEach(li => {
+      const link = li.querySelector('.item-title');
+      const metaText = li.querySelector('.item-meta')?.textContent || '';
+      if (!link) return;
+      results.push({
+        channel: channelLabel,
+        title: link.textContent,
+        url: link.getAttribute('href'),
+        meta: metaText.trim(),
+      });
+    });
+  });
+  return results;
+}
+
+function downloadBlob(content, filename, mimeType) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function exportView(format) {
+  const items = collectVisibleItems();
+  toggleExportMenu();
+  const stamp = new Date().toISOString().slice(0, 10);
+
+  if (format === 'json') {
+    downloadBlob(JSON.stringify(items, null, 2), `ai-dashboard-${stamp}.json`, 'application/json');
+  } else if (format === 'csv') {
+    const header = 'Channel,Title,URL,Meta\n';
+    const rows = items.map(i => [i.channel, i.title, i.url, i.meta]
+      .map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+    downloadBlob(header + rows, `ai-dashboard-${stamp}.csv`, 'text/csv');
+  } else {
+    let md = `# AI Developments Dashboard — export (${stamp})\n\n`;
+    let currentChannel = null;
+    for (const item of items) {
+      if (item.channel !== currentChannel) {
+        currentChannel = item.channel;
+        md += `\n## ${currentChannel}\n\n`;
+      }
+      md += `- [${item.title}](${item.url}) — ${item.meta}\n`;
+    }
+    downloadBlob(md, `ai-dashboard-${stamp}.md`, 'text/markdown');
+  }
+}
+
+function renderCountryTimeline(country) {
+  const el = document.getElementById('country-timeline');
+  if (!country) { el.innerHTML = ''; return; }
+  const gov = STATE.channels['governance'];
+  if (!gov) { el.innerHTML = ''; return; }
+  const items = (gov.data.items || [])
+    .filter(i => (i.country || '').toLowerCase() === country.toLowerCase())
+    .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
+    .slice(0, 10);
+
+  if (items.length === 0) {
+    el.innerHTML = `<div class="empty-state">No recent governance items for ${escapeHtml(country)}.</div>`;
+    return;
+  }
+
+  el.innerHTML = `<h3>${escapeHtml(country)} — recent timeline</h3><ul class="timeline-list">` +
+    items.map(i => `<li><span class="timeline-date">${timeAgo(i.published)}</span>
+      <a href="${i.url}" target="_blank" rel="noopener">${escapeHtml(i.title)}</a></li>`).join('') +
+    `</ul>`;
 }
 
 function renderChannel(catKey, label, data, history) {
@@ -177,6 +375,7 @@ function applyFilters() {
   const query = document.getElementById('search-input').value.trim().toLowerCase();
   STATE.searchQuery = query;
   const cutoff = STATE.dateRangeDays > 0 ? Date.now() - STATE.dateRangeDays * 86400000 : null;
+  const countryFilter = STATE.countryFilter ? STATE.countryFilter.toLowerCase() : null;
 
   document.querySelectorAll('.channel').forEach(chEl => {
     const catKey = chEl.dataset.cat;
@@ -198,7 +397,14 @@ function applyFilters() {
           inRange = !isNaN(publishedMs) && publishedMs >= cutoff;
         }
       }
-      const matches = matchesSearch && inRange;
+      // Country filter (from clicking a governance map marker) only
+      // applies within the governance channel — other channels don't
+      // carry country data and shouldn't be affected by it.
+      let countryOk = true;
+      if (countryFilter && catKey === 'governance') {
+        countryOk = (li.dataset.country || '') === countryFilter;
+      }
+      const matches = matchesSearch && inRange && countryOk;
       li.classList.toggle('is-filtered-out', !matches);
       if (matches) visibleItemCount++;
     });
@@ -270,15 +476,41 @@ function renderGovernanceMap() {
     const [lat, lon] = COUNTRY_COORDS[country];
     const [x, y] = project(lat, lon, w, h);
     const r = 4 + (count / maxCount) * 10;
+    const isSelected = STATE.countryFilter && STATE.countryFilter.toLowerCase() === country;
+    const safeCountry = country.replace(/'/g, "");
     markers += `
-      <g class="map-marker">
-        <circle cx="${x}" cy="${y}" r="${r}"/>
+      <g class="map-marker ${isSelected ? 'is-selected' : ''}" onclick="filterByCountry('${safeCountry}')">
+        <circle cx="${x}" cy="${y}" r="${r}" ${isSelected ? 'stroke="var(--amber)" stroke-width="2"' : ''}/>
         <text x="${x + r + 4}" y="${y + 3}">${escapeHtml(country)} · ${count}</text>
       </g>`;
   }
 
   document.getElementById('map-container').innerHTML =
     `<svg viewBox="0 0 ${w} ${h}">${gridLines}${markers}</svg>`;
+  updateMapFilterIndicator();
+}
+
+function filterByCountry(country) {
+  const normalized = country.toLowerCase();
+  // Clicking the already-selected country clears the filter (toggle).
+  STATE.countryFilter = (STATE.countryFilter && STATE.countryFilter.toLowerCase() === normalized)
+    ? null
+    : country;
+  renderGovernanceMap();
+  renderCountryTimeline(STATE.countryFilter);
+  applyFilters();
+  if (STATE.countryFilter) {
+    const govChannel = document.querySelector('.channel[data-cat="governance"]');
+    if (govChannel) govChannel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function updateMapFilterIndicator() {
+  const el = document.getElementById('map-active-filter');
+  if (!el) return;
+  el.innerHTML = STATE.countryFilter
+    ? `Filtering governance channel: <strong>${escapeHtml(STATE.countryFilter)}</strong> <button class="clear-filter-btn" onclick="filterByCountry('${STATE.countryFilter.replace(/'/g, "")}')">&times; clear</button>`
+    : '';
 }
 
 async function triggerRefresh() {
@@ -341,6 +573,7 @@ async function init() {
     renderChips();
     renderKeywordStrip();
     renderGovernanceMap();
+    renderKPIs();
     document.getElementById('last-sync').textContent = mostRecentSync ? timeAgo(mostRecentSync) : 'never';
   } catch (err) {
     grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;padding:60px;">
