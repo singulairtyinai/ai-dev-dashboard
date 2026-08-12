@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-08-12T04:07:41.141277+00:00",
+  "last_updated": "2026-08-12T07:22:39.884031+00:00",
   "items": [
     {
       "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
@@ -15,6 +15,13 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-11T17:57:34+00:00",
       "preview": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats\u2026"
+    },
+    {
+      "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+      "url": "https://arxiv.org/abs/2608.11197v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T17:55:59+00:00",
+      "preview": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model\u2026"
     },
     {
       "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
@@ -52,6 +59,13 @@
       "preview": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-wide transition from\u2026"
     },
     {
+      "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
+      "url": "https://arxiv.org/abs/2608.11167v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T17:28:52+00:00",
+      "preview": "Existing Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However, this image-level\u2026"
+    },
+    {
       "title": "On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization",
       "url": "https://arxiv.org/abs/2608.11155v1",
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
@@ -73,6 +87,13 @@
       "preview": "Homomorphic Encryption (HE) is a privacy-preserving encryption paradigm that enables computation directly on encrypted data without requiring decryption. In this paper, we study errors in fully homomorphic encryption\u2026"
     },
     {
+      "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
+      "url": "https://arxiv.org/abs/2608.11146v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T17:05:26+00:00",
+      "preview": "Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a\u2026"
+    },
+    {
       "title": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
       "url": "https://arxiv.org/abs/2608.11138v1",
       "source": "arXiv cs.AI",
@@ -92,6 +113,13 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-11T16:22:47+00:00",
       "preview": "Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional\u2026"
+    },
+    {
+      "title": "Actions Speak Louder than Words: Measuring Cross-Lingual Policy Retention in Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2608.11110v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T16:18:34+00:00",
+      "preview": "When a tool-using agent is given the same task in a different language, does it still take the same steps? Multilingual evaluation rarely asks: it compares final answers and discards the actions. Yet those actions are\u2026"
     },
     {
       "title": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
@@ -134,6 +162,55 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-11T15:22:58+00:00",
       "preview": "The application of computer vision in agriculture has shown significant potential for improving crop monitoring and precision farming. However, many existing approaches rely on controlled datasets that do not adequately\u2026"
+    },
+    {
+      "title": "Multiclass Sentiment Analysis for Identifying Political Viewpoints",
+      "url": "https://arxiv.org/abs/2608.11049v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:21:23+00:00",
+      "preview": "The rapid growth of social media has created vast amounts of political discourse, which provides valuable opportunities to analyze public opinions and identify different political perspectives. Sentiment Analysis (SA)\u2026"
+    },
+    {
+      "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
+      "url": "https://arxiv.org/abs/2608.11045v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:18:07+00:00",
+      "preview": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization\u2026"
+    },
+    {
+      "title": "TEAMMix: Taxonomy Enrichment Augmentation and Minority-augmented Mixing Strategy for LLM-enhanced Weak-Supervised Hierarchical Text Classification",
+      "url": "https://arxiv.org/abs/2608.11044v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:16:59+00:00",
+      "preview": "Hierarchical Text Classification (HTC), as a critical text mining task, faces challenges such as complex label hierarchies and class imbalance. Existing methods based on large language models (LLMs) struggle to be\u2026"
+    },
+    {
+      "title": "myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR",
+      "url": "https://arxiv.org/abs/2608.11036v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:12:42+00:00",
+      "preview": "Although Whisper models benefit from large-scale multilingual pre-training, their performance on Burmese medical speech remains limited. This work presents a Burmese medical speech recognition framework built on a\u2026"
+    },
+    {
+      "title": "Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching",
+      "url": "https://arxiv.org/abs/2608.11030v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:08:42+00:00",
+      "preview": "Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. However, due to the complex structure of patent documents, dense technical terminology, and\u2026"
+    },
+    {
+      "title": "Mapping and Measuring the Behavioral Evolution of Large Language Models",
+      "url": "https://arxiv.org/abs/2608.11027v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:07:28+00:00",
+      "preview": "Benchmark leaderboards summarize how well a language model performs, but not how its behavior relates to that of other models or changes across generations. We characterize the output behavior of 32 models from six\u2026"
+    },
+    {
+      "title": "Data Attribution of Emergent Misalignment with Persona Features",
+      "url": "https://arxiv.org/abs/2608.11025v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-11T15:05:24+00:00",
+      "preview": "Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains. A leading mechanistic account attributes EM to persona features: latent\u2026"
     },
     {
       "title": "Once Poisoned, Arbitrarily Controlled: A Programmable Backdoor in VLMs",
@@ -204,83 +281,6 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-08-10T22:20:26+00:00",
       "preview": "Streaming language-model output creates a release-timing problem: complete-response moderation acts after streamed text has escaped, whereas repeated semantic classification of partial text can be costly and unstable.\u2026"
-    },
-    {
-      "title": "Generating Attacks for LLMs with GFlowNets",
-      "url": "https://arxiv.org/abs/2608.10171v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-10T19:39:10+00:00",
-      "preview": "The rapid advancement of Large Language Models (LLMs) has facilitated their ubiquitous integration into various domains, leading to widespread adoption. However, this escalating trend has introduced significant security\u2026"
-    },
-    {
-      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
-      "url": "https://arxiv.org/abs/2608.09930v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:59:51+00:00",
-      "preview": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they\u2026"
-    },
-    {
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "url": "https://arxiv.org/abs/2608.09928v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:59:30+00:00",
-      "preview": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc\u2026"
-    },
-    {
-      "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
-      "url": "https://arxiv.org/abs/2608.09925v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:59:05+00:00",
-      "preview": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English\u2026"
-    },
-    {
-      "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
-      "url": "https://arxiv.org/abs/2608.09921v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:57:49+00:00",
-      "preview": "Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced.\u2026"
-    },
-    {
-      "title": "Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation",
-      "url": "https://arxiv.org/abs/2608.09914v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-10T17:56:03+00:00",
-      "preview": "Hardware assurance relies on scanning electron microscopy (SEM) to verify nanoscale structures, but assembling the large, high-quality datasets required for automated analysis is impeded by time-intensive acquisition\u2026"
-    },
-    {
-      "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
-      "url": "https://arxiv.org/abs/2608.09902v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:48:45+00:00",
-      "preview": "We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters of Dark Souls: Remastered as game-playing agent benchmarks through a Gymnasium-style interface. DSLE\u2026"
-    },
-    {
-      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-      "url": "https://arxiv.org/abs/2608.09900v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-10T17:47:24+00:00",
-      "preview": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world\u2026"
-    },
-    {
-      "title": "Consilience for Verifier-Free Test-Time Scaling",
-      "url": "https://arxiv.org/abs/2608.09898v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-10T17:45:44+00:00",
-      "preview": "Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or\u2026"
-    },
-    {
-      "title": "Fusion Training for Mathematical Generalization in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.09893v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:41:19+00:00",
-      "preview": "Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form reasoning by unifying a non-thinking mode and a thinking mode within a single model. However, its training\u2026"
-    },
-    {
-      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
-      "url": "https://arxiv.org/abs/2608.09888v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-10T17:39:16+00:00",
-      "preview": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a\u2026"
     }
   ]
 }
