@@ -24,8 +24,11 @@
       <span id="last-sync">—</span>
     </div>
     <button class="btn secondary refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh now</button>
+    <button class="btn secondary" id="glossary-btn" onclick="toggleGlossary()">? Glossary</button>
   </div>
 </div>
+
+<div class="kpi-row" id="kpi-row"><!-- KPI cards injected here --></div>
 
 <div class="toolbar">
   <input type="text" id="search-input" class="search-input" placeholder="Search all channels…" oninput="applyFilters()">
@@ -35,6 +38,15 @@
     <button class="date-tab" data-range="7" role="tab" aria-selected="false" onclick="setDateRange(7, this)">7 days</button>
     <button class="date-tab" data-range="30" role="tab" aria-selected="false" onclick="setDateRange(30, this)">30 days</button>
     <button class="date-tab active" data-range="0" role="tab" aria-selected="true" onclick="setDateRange(0, this)">All</button>
+  </div>
+  <button class="btn secondary toolbar-btn" onclick="clearAllFilters()">Clear filters</button>
+  <div class="export-wrap">
+    <button class="btn secondary toolbar-btn" onclick="toggleExportMenu()">Export view ▾</button>
+    <div class="export-menu" id="export-menu" style="display:none;">
+      <button onclick="exportView('markdown')">Markdown</button>
+      <button onclick="exportView('json')">JSON</button>
+      <button onclick="exportView('csv')">CSV</button>
+    </div>
   </div>
 </div>
 
@@ -49,7 +61,17 @@
     <h2>Governance Signal Map</h2>
     <span class="channel-meta">Recent governance activity by country/region</span>
   </div>
+  <div class="map-active-filter" id="map-active-filter"></div>
   <div id="map-container"></div>
+  <div class="country-timeline" id="country-timeline"></div>
+</div>
+
+<div class="glossary-panel" id="glossary-panel" style="display:none;">
+  <div class="glossary-header">
+    <h2>Glossary</h2>
+    <button class="btn secondary" onclick="toggleGlossary()">Close ✕</button>
+  </div>
+  <div class="glossary-body" id="glossary-body"><!-- injected --></div>
 </div>
 
 <div class="mission-footer">
