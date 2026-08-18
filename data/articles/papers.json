@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-08-18T02:54:15.614849+00:00",
+  "last_updated": "2026-08-18T04:33:21.655789+00:00",
   "items": [
     {
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
@@ -122,6 +122,20 @@
       "preview": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the\u2026"
     },
     {
+      "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+      "url": "https://arxiv.org/abs/2608.16798v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T16:53:03+00:00",
+      "preview": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely\u2026"
+    },
+    {
+      "title": "Neurosymbolic Embodied Agents",
+      "url": "https://arxiv.org/abs/2608.16794v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T16:50:59+00:00",
+      "preview": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a\u2026"
+    },
+    {
       "title": "Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching",
       "url": "https://arxiv.org/abs/2608.16791v1",
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
@@ -141,6 +155,69 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-08-17T16:18:15+00:00",
       "preview": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by\u2026"
+    },
+    {
+      "title": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+      "url": "https://arxiv.org/abs/2608.16707v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T15:25:18+00:00",
+      "preview": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually\u2026"
+    },
+    {
+      "title": "Closing the Affective Loop: Multimodal Speaker-Listener Emotion-Dynamics-Aware Empathetic Social Robots",
+      "url": "https://arxiv.org/abs/2608.16686v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T15:08:38+00:00",
+      "preview": "Empathetic social robots should respond not only to what users say, but also to how their emotions dynamically evolve during interaction. However, existing empathetic dialogue systems are often text-centered and\u2026"
+    },
+    {
+      "title": "Does the LM Head Create a Harmful Gradient Bottleneck? A Causal Test",
+      "url": "https://arxiv.org/abs/2608.16671v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:59:59+00:00",
+      "preview": "The language-model head maps a hidden state of width D to a vocabulary of size V, so its transpose can return at most D independent directions to the Transformer. Godey and Artzi argue that this severe projection is a\u2026"
+    },
+    {
+      "title": "PCA-guided Activation Scaling for Monotonic Bidirectional Control over LLM Sycophancy",
+      "url": "https://arxiv.org/abs/2608.16650v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:48:49+00:00",
+      "preview": "Large language models (LLMs) exhibit sycophancy, a tendency to agree with user beliefs regardless of factual accuracy. This can reinforce misconceptions, but eliminating it entirely risks over-correction against valid\u2026"
+    },
+    {
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "url": "https://arxiv.org/abs/2608.16647v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:46:53+00:00",
+      "preview": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a\u2026"
+    },
+    {
+      "title": "Reconstruction: A Blind Benchmark for Recovering Research Ideas from Pre-Publication Bibliographies",
+      "url": "https://arxiv.org/abs/2608.16645v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:44:30+00:00",
+      "preview": "Can a language model recover the true research idea of a published paper when given only that paper's pre-publication bibliography? We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed\u2026"
+    },
+    {
+      "title": "Toward Better Assessment of LLMs' Performance in Clinical Error Detection",
+      "url": "https://arxiv.org/abs/2608.16643v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:41:53+00:00",
+      "preview": "Automated detection of errors in clinical documentation is a promising application of large language models (LLMs), yet decisions to deploy such models rest on benchmarks that evaluate each clinical note in isolation.\u2026"
+    },
+    {
+      "title": "When Do Explanations Help In-Context Learning? A Comparative Study of Natural Language Explanation Types and Faithfulness",
+      "url": "https://arxiv.org/abs/2608.16627v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:30:03+00:00",
+      "preview": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL). However, it remains unclear how different types of\u2026"
+    },
+    {
+      "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+      "url": "https://arxiv.org/abs/2608.16620v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-17T14:21:03+00:00",
+      "preview": "Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tuning on a compact\u2026"
     },
     {
       "title": "Rigorous Statements and Proofs of the Lemmas in Simon's Algorithm for the Dihedral Coset Problem and Their Underlying Hypothesis",
@@ -204,83 +281,6 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-08-17T11:00:05+00:00",
       "preview": "Process variables (PVs) provide the process evidence needed for process-aware security monitoring in industrial cyber-physical systems (CPSs). However, existing supervisory infrastructures expose only the subset of PV\u2026"
-    },
-    {
-      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
-      "url": "https://arxiv.org/abs/2608.16393v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-17T10:43:07+00:00",
-      "preview": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560\u2026"
-    },
-    {
-      "title": "A Cognitively Motivated Multidimensional Framework for Evaluating Metaphor Explanations",
-      "url": "https://arxiv.org/abs/2608.15828v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T16:02:19+00:00",
-      "preview": "Current evaluation of metaphor explanations relies mainly on holistic quality ratings, revealing little about how explanation quality is structured or where human judgments agree and diverge. We introduce a cognitively\u2026"
-    },
-    {
-      "title": "QuantumPhaseNet: A Gauge-Covariant Geometric and Quantum-Spectral Theory of Semantic Concept Hierarchies with Prototype Validation of a Classical Quantum-Inspired Model",
-      "url": "https://arxiv.org/abs/2608.15820v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T15:52:50+00:00",
-      "preview": "We present QuantumPhaseNet, a gauge-covariant geometric and quantum-spectral extension of Transformer representations. Context-dependent semantic states are modeled as complex amplitudes; a covariant phase rate induces\u2026"
-    },
-    {
-      "title": "Hallucination Span Detection with Input-Side Evidence Alignment",
-      "url": "https://arxiv.org/abs/2608.15804v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T15:30:29+00:00",
-      "preview": "Hallucinations remain a major obstacle to the reliable use of large language models (LLMs) in conditional text generation. Existing methods primarily assess the factuality of an entire generated text, providing limited\u2026"
-    },
-    {
-      "title": "Using the Mimi codec for metalinguistic representations",
-      "url": "https://arxiv.org/abs/2608.15799v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T15:25:23+00:00",
-      "preview": "In this paper, we focus on the dictionary of 2048 tokens used in Mimi semantic token codebook, the neural codec of the Moshi language model. We show that the ABX experiment carried out with Mimi fails to capture the\u2026"
-    },
-    {
-      "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
-      "url": "https://arxiv.org/abs/2608.15797v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T15:23:25+00:00",
-      "preview": "KV-cache eviction caps the memory cost of long reasoning traces but is inherently lossy because the model decodes from a partial view of its history. Under aggressive budgets, this not only lowers accuracy but can also\u2026"
-    },
-    {
-      "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
-      "url": "https://arxiv.org/abs/2608.15787v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T15:07:17+00:00",
-      "preview": "Two Mixture-of-Experts (MoE) forward passes can share every weight yet route the same token through different experts. This creates a possible blind spot in same-weight self-distillation, where a\u2026"
-    },
-    {
-      "title": "TaoLive Digital Avatar Agent Technical Report: Training Agents to Evolve with Their Harness",
-      "url": "https://arxiv.org/abs/2608.15763v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T14:32:56+00:00",
-      "preview": "AI-powered digital-avatar streamers in live e-commerce must answer product questions, engage viewers, and execute changing business strategies in real time. This requires low latency, factual and effective replies, and\u2026"
-    },
-    {
-      "title": "Propaganda Forensics: Recovering the Generation Pipeline of an AI-Driven Influence Campaign",
-      "url": "https://arxiv.org/abs/2608.15746v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T13:53:30+00:00",
-      "preview": "We present a forensic analysis of the generation pipeline behind a recent AI-driven influence campaign. We introduce PROPAGIA, a corpus of 2,646 propagandist French articles from the Storm-1516/CopyCop campaign\u2026"
-    },
-    {
-      "title": "Beyond Single Object: Learning 3D Relations with Large Language Models",
-      "url": "https://arxiv.org/abs/2608.15710v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T12:29:10+00:00",
-      "preview": "We address a fundamental gap in 3D-LLMs: existing models focus on single-object/scene description, struggling with detailed, inter-object comparison. We propose a framework for detailed object-level reasoning across\u2026"
-    },
-    {
-      "title": "BERTopic-Virality Prioritisation: A Scalable Framework for Thematic and Comparative Analysis of COVID-19 and Monkeypox Misinformation on Twitter",
-      "url": "https://arxiv.org/abs/2608.15691v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-16T11:42:37+00:00",
-      "preview": "Health misinformation circulating during pandemics can gain traction rapidly, creating harmful narratives that compete with public health guidance. Most topic-modelling pipelines treat engagement as an external outcome,\u2026"
     }
   ]
 }
