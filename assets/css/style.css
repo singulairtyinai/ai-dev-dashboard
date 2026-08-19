@@ -415,6 +415,35 @@ button.btn.secondary.refresh-btn.is-loading {
 }
 .channel.is-range-empty .range-empty-note { display: block; }
 
+.summary-box {
+  background: var(--bg-panel-raised);
+  border: 1px solid var(--hairline);
+  border-left: 2px solid var(--amber);
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+.summary-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  cursor: help;
+}
+.summary-bullets {
+  margin: 0;
+  padding: 0 0 0 14px;
+  list-style: disc;
+}
+.summary-bullets li {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+.summary-bullets li:last-child { margin-bottom: 0; }
+
 /* ---------- Trending keyword strip ---------- */
 
 .keyword-strip {
