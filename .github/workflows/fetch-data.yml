@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   fetch:
@@ -33,10 +34,15 @@ jobs:
       - name: Fetch arXiv papers
         run: python scripts/fetch_arxiv.py
 
+      - name: Generate daily summaries
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/summarize.py
+
       - name: Commit updated data
         run: |
           git config user.name "ai-dashboard-bot"
           git config user.email "actions@github.com"
-          git add data/articles/*.json
+          git add data/articles/*.json data/summaries/*.json
           git diff --quiet --cached || git commit -m "Scheduled data refresh"
           git push
