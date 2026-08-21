@@ -1,7 +1,112 @@
 {
   "category": "papers",
-  "last_updated": "2026-08-20T22:25:30.052222+00:00",
+  "last_updated": "2026-08-21T01:12:27.495003+00:00",
   "items": [
+    {
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "url": "https://arxiv.org/abs/2608.20210v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T16:09:43+00:00",
+      "preview": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the\u2026"
+    },
+    {
+      "title": "ContractScrub: A benchmark for final review of legal contracts",
+      "url": "https://arxiv.org/abs/2608.20204v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T16:01:42+00:00",
+      "preview": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for\u2026"
+    },
+    {
+      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "url": "https://arxiv.org/abs/2608.20202v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T16:00:17+00:00",
+      "preview": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly\u2026"
+    },
+    {
+      "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+      "url": "https://arxiv.org/abs/2608.20169v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T15:24:54+00:00",
+      "preview": "We present a novel approach to efficient LLM agent harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling\u2026"
+    },
+    {
+      "title": "FormalTCS: Benchmarking End-to-End Frontier Formal Theoretical Computer Science Research of Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20153v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T15:13:41+00:00",
+      "preview": "Large language models (LLMs) have shown growing potential for automated theoretical computer science (TCS) research, yet existing benchmarks remain far from realistic research settings. We introduce \\ourbenchmark, an\u2026"
+    },
+    {
+      "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.20129v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T14:56:15+00:00",
+      "preview": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety\u2026"
+    },
+    {
+      "title": "When Text and Numbers Disagree: Evidence Arbitration in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20116v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T14:48:30+00:00",
+      "preview": "Large language models (LLMs) are increasingly used in settings where textual summaries, numerical observations, and external tool outputs may provide conflicting evidence. We study how LLMs arbitrate between such\u2026"
+    },
+    {
+      "title": "OenoBench: A Wine-Domain Benchmark for Knowledge-Grounded Evaluation of Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20106v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T14:37:22+00:00",
+      "preview": "We introduce OenoBench, a wine-domain knowledge benchmark of 3,266 multiple-choice questions across six pillars (regions, grape varieties, viticulture, winemaking, producers, business) and four difficulty tiers. The\u2026"
+    },
+    {
+      "title": "Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design",
+      "url": "https://arxiv.org/abs/2608.20099v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T14:32:01+00:00",
+      "preview": "LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. Recent work on automatic topology design,\u2026"
+    },
+    {
+      "title": "SABET-QA: Temporal Knowledge Graph Question Answering",
+      "url": "https://arxiv.org/abs/2608.20083v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T14:16:35+00:00",
+      "preview": "Question Answering over Temporal Knowledge Graphs (TKGQA) requires reasoning over time-sensitive facts, yet existing embedding-based methods struggle with multi-step queries due to single-pass reasoning pipelines. We\u2026"
+    },
+    {
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2608.20061v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T13:57:43+00:00",
+      "preview": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme\u2026"
+    },
+    {
+      "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+      "url": "https://arxiv.org/abs/2608.20047v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T13:48:12+00:00",
+      "preview": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes\u2026"
+    },
+    {
+      "title": "HealMed: Multilingual Evaluation of Large Language Models in Medicine",
+      "url": "https://arxiv.org/abs/2608.19981v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T12:52:09+00:00",
+      "preview": "We present HealMed, an expert-reviewed benchmark for multilingual evaluation of large language models in medicine. HealMed contains 1,000 examples in each of nine languages, drawn from nine datasets and covering three\u2026"
+    },
+    {
+      "title": "Robust Incomplete Multimodal Sentiment Analysis via Iterative Proxy Correction",
+      "url": "https://arxiv.org/abs/2608.19971v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T12:45:38+00:00",
+      "preview": "Multimodal sentiment analysis aims to infer affective states by integrating language, visual, and acoustic cues. However, real-world multimodal inputs are often incomplete or corrupted, which can weaken cross-modal\u2026"
+    },
+    {
+      "title": "Natural Language Code Retrieval for 1C:Enterprise: An Open Benchmark and Efficient Bi-Encoder",
+      "url": "https://arxiv.org/abs/2608.19957v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-08-20T12:24:53+00:00",
+      "preview": "Natural language code retrieval is a rapidly evolving task in computer science. However, the 1C:Enterprise ecosystem combines Russian syntax with highly domain-specific terminology, for which open datasets and\u2026"
+    },
     {
       "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
       "url": "https://arxiv.org/abs/2608.19197v1",
@@ -176,111 +281,6 @@
       "source": "arXiv cs.CL",
       "published": "2026-08-19T16:17:39+00:00",
       "preview": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that\u2026"
-    },
-    {
-      "title": "Malformer: A Multi-Modal Malware Detector Using Transformers",
-      "url": "https://arxiv.org/abs/2608.19052v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T15:46:28+00:00",
-      "preview": "Traditional malware detection systems that rely on a single representation of malware often fail to identify novel threats. These representations of malware binaries, also known as modalities, do not provide the models\u2026"
-    },
-    {
-      "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
-      "url": "https://arxiv.org/abs/2608.19029v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T15:24:18+00:00",
-      "preview": "Accurate and responsible medical question answering (QA) is important in healthcare, where complex cases require factual knowledge and nuanced reasoning. Existing medical QA systems, typically based on single-agent\u2026"
-    },
-    {
-      "title": "Institutional Books - Enriched Text: A customizable multilingual open-source pipeline for denoising, deduplicating, and annotating OCR text at scale",
-      "url": "https://arxiv.org/abs/2608.19026v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T15:20:54+00:00",
-      "preview": "Released in 2025, Institutional Books: Harvard Library (IB-HL) is a collection of 983,004 volumes (242B o200k_base tokens), originally digitized through Harvard Library's participation in the Google Books Library\u2026"
-    },
-    {
-      "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
-      "url": "https://arxiv.org/abs/2608.19011v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T15:11:43+00:00",
-      "preview": "Mechanisms for dynamically converting cyber threat intelligence (CTI) into actionable detection capabilities are necessary due to the rapid evolution of Advanced Persistent Threats (APTs). Sigma rules are an essential\u2026"
-    },
-    {
-      "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
-      "url": "https://arxiv.org/abs/2608.19009v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T15:10:00+00:00",
-      "preview": "Large language models (LLMs) are increasingly paired with verifiers (step checkers, self-consistency filters, tool-based fact checkers, formal proof assistants) that claim to detect the model's errors. Yet the\u2026"
-    },
-    {
-      "title": "Introducing the Privacy-HSD Trade-off: Hate Speech Detection, but not at the Cost of Privacy",
-      "url": "https://arxiv.org/abs/2608.19006v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T15:07:42+00:00",
-      "preview": "Hate speech is a real and timely threat that affects a large portion of online users, especially youth and minority groups. While building reliable and robust automatic hate speech detection (HSD) systems is paramount,\u2026"
-    },
-    {
-      "title": "Structure, Association, and Decision Value: Representation-Based Difficulty Estimation for Adaptive Inference in African-Language NLI",
-      "url": "https://arxiv.org/abs/2608.19003v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T15:03:51+00:00",
-      "preview": "We ask whether internal representation statistics can provide useful example-level difficulty signals for adaptive inference in multilingual African NLP, and find that they cannot in this setting. Studying natural\u2026"
-    },
-    {
-      "title": "A 12-Step Process for Industrial Internet of Things (IIoT) Forensics",
-      "url": "https://arxiv.org/abs/2608.18991v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T14:57:28+00:00",
-      "preview": "The increasing deployment of the Industrial Internet of Things (IIoT) in critical infrastructure sectors like manufacturing, healthcare, and transportation has shown new challenges for Digital Forensics (DF).\u2026"
-    },
-    {
-      "title": "DeepWeaver: Bridging the Evidence Synthesis Gap in Open-Ended Question Answering",
-      "url": "https://arxiv.org/abs/2608.18988v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T14:53:53+00:00",
-      "preview": "Retrieve-then-generate pipelines are commonly used to produce deep-research answers for open-ended questions, but retrieval alone is insufficient: LLMs must organize noisy and fragmented evidence into comprehensive,\u2026"
-    },
-    {
-      "title": "Catastrophic Learning: A New Attack Vector on Continual Learning Networks",
-      "url": "https://arxiv.org/abs/2608.18976v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T14:43:14+00:00",
-      "preview": "Continual Learning (CL) enables deep learning models to iteratively learn from a stream of data without forgetting prior knowledge. Existing adversarial research on CL primarily aims to re-enable catastrophic\u2026"
-    },
-    {
-      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
-      "url": "https://arxiv.org/abs/2608.18972v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-19T14:41:12+00:00",
-      "preview": "Historical newspapers are an abundant record of public life, but their dense, irregular and sometimes noisy layouts make computational access to these materials both challenging and limited. We present the Institutional\u2026"
-    },
-    {
-      "title": "Who Can Make the Action Happen? An Authority-Decomposition Framework for High-Risk Automated Systems",
-      "url": "https://arxiv.org/abs/2608.18965v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T14:30:58+00:00",
-      "preview": "High-risk automated systems distribute control across services, credentials, protected components, and lifecycle mechanisms. Labels such as authorized, approved, privileged, or protected therefore do not answer a basic\u2026"
-    },
-    {
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "https://arxiv.org/abs/2608.18876v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T12:56:00+00:00",
-      "preview": "Static Application Security Testing (SAST) tools are widely used in both industry and academia. Such tools often make design choices that sacrifice detection to achieve higher performance, i.e., increased precision,\u2026"
-    },
-    {
-      "title": "Copy-Protection with Correlated Challenges: Point Functions and More via Decisional Coset Monogamy",
-      "url": "https://arxiv.org/abs/2608.18841v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T12:02:38+00:00",
-      "preview": "Copy-protection encodes a functionality in a reusable quantum state that cannot be split into two states (freeloader adversaries) which remain simultaneously useful. Prior plain-model results handle only independently\u2026"
-    },
-    {
-      "title": "Decisive Margins in Differentially Private Voting",
-      "url": "https://arxiv.org/abs/2608.18772v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-19T10:29:19+00:00",
-      "preview": "Differential privacy protects individual voting records by injecting randomness into the published outcome, but this noise can lead to erroneous results when an election is close. We study how precise central\u2026"
     }
   ]
 }
