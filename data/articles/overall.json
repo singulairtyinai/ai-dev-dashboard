@@ -1,7 +1,14 @@
 {
   "category": "overall",
-  "last_updated": "2026-08-26T19:46:26.818209+00:00",
+  "last_updated": "2026-08-26T22:43:49.343170+00:00",
   "items": [
+    {
+      "title": "Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal MoE With a 1M-Token Context",
+      "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/",
+      "source": "MarkTechPost",
+      "published": "2026-08-26T21:33:23+00:00",
+      "preview": "Z.ai has released GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series \u2014 a 320B-total / 18B-active MoE with a 1,048,576-token context window,\u2026"
+    },
     {
       "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
       "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
@@ -99,6 +106,13 @@
       "source": "OpenAI News",
       "published": "2026-08-26T00:00:00+00:00",
       "preview": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster."
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "OpenAI News",
+      "published": "2026-08-26T00:00:00+00:00",
+      "preview": "OpenAI shares findings from the Hugging Face security incident and the steps we\u2019re taking to strengthen AI model security, monitoring, and alignment."
     },
     {
       "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
@@ -267,20 +281,6 @@
       "source": "MarkTechPost",
       "published": "2026-08-23T10:44:59+00:00",
       "preview": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An\u2026"
-    },
-    {
-      "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
-      "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
-      "source": "MarkTechPost",
-      "published": "2026-08-23T07:51:22+00:00",
-      "preview": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configuring layout analysis, DocTR OCR, and table extraction,\u2026"
-    },
-    {
-      "title": "Vercel Introduces \u2018Is Agentic\u2019, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora\u2019s 100+ Checks",
-      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
-      "source": "MarkTechPost",
-      "published": "2026-08-23T07:37:14+00:00",
-      "preview": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. The post Vercel Introduces &#8216;Is\u2026"
     }
   ]
 }
