@@ -1,7 +1,21 @@
 {
   "category": "overall",
-  "last_updated": "2026-08-26T22:43:49.343170+00:00",
+  "last_updated": "2026-08-27T07:25:13.204797+00:00",
   "items": [
+    {
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+      "source": "Wired - AI",
+      "published": "2026-08-27T06:00:00+00:00",
+      "preview": "The UK\u2019s energy regulator is using a variety of tricks to keep speculative data center projects from plugging into the power grid. The country\u2019s AI ambitions\u2026"
+    },
+    {
+      "title": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+      "url": "https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/",
+      "source": "MarkTechPost",
+      "published": "2026-08-27T04:13:44+00:00",
+      "preview": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a CGM trace into a slow physiological stream and a transient\u2026"
+    },
     {
       "title": "Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal MoE With a 1M-Token Context",
       "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/",
@@ -267,20 +281,6 @@
       "source": "MarkTechPost",
       "published": "2026-08-24T03:32:30+00:00",
       "preview": "In this tutorial, we explore a LabPlot-inspired scientific data analysis workflow in Python while preserving the structure and terminology of LabPlot\u2019s aspect\u2026"
-    },
-    {
-      "title": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
-      "url": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
-      "source": "MarkTechPost",
-      "published": "2026-08-23T17:51:56+00:00",
-      "preview": "Harvey's first post-trained model nearly doubles LAB task completion, but only one benchmark number survives independent verification today The post Harvey\u2026"
-    },
-    {
-      "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
-      "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
-      "source": "MarkTechPost",
-      "published": "2026-08-23T10:44:59+00:00",
-      "preview": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An\u2026"
     }
   ]
 }
