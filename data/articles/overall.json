@@ -1,7 +1,49 @@
 {
   "category": "overall",
-  "last_updated": "2026-08-28T04:02:40.340201+00:00",
+  "last_updated": "2026-08-28T18:13:28.539593+00:00",
   "items": [
+    {
+      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "source": "MarkTechPost",
+      "published": "2026-08-28T17:28:47+00:00",
+      "preview": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the\u2026"
+    },
+    {
+      "title": "Think people hate AI now? Wait until it takes their jobs",
+      "url": "https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs",
+      "source": "Transformer (transformernews.ai)",
+      "published": "2026-08-28T15:03:28+00:00",
+      "preview": "Transformer Weekly: Anthropic&#8217;s $100b IPO raise, frontier self-regulation EO and Hugging Face hack investigation"
+    },
+    {
+      "title": "AI Has Human Doctors Asking: What\u2019s Left for Us?",
+      "url": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
+      "source": "Wired - AI",
+      "published": "2026-08-28T15:00:00+00:00",
+      "preview": "A recent paper argues that AI is often better at doctoring than doctors. Guess who isn't thrilled."
+    },
+    {
+      "title": "He Scraped All of Their Art for AI. Now He\u2019s Collaborating on a Tool to Help Them",
+      "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
+      "source": "Wired - AI",
+      "published": "2026-08-28T11:00:00+00:00",
+      "preview": "The art portfolio platform Cara, designed for creators who don\u2019t want their work used to train AI, has been under assault by trolls seizing and publishing its\u2026"
+    },
+    {
+      "title": "Inside Meta\u2019s Push to Put Robots to Work in Data Centers",
+      "url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/",
+      "source": "Wired - AI",
+      "published": "2026-08-28T10:56:22+00:00",
+      "preview": "The company is testing robots that can swap cables, reset servers, and take on other tasks performed by technicians, fueling concerns among some workers that\u2026"
+    },
+    {
+      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+      "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+      "source": "MarkTechPost",
+      "published": "2026-08-28T05:00:38+00:00",
+      "preview": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers\u2026"
+    },
     {
       "title": "A Judge Has Blocked the Pentagon\u2019s Attempt to Blacklist Anthropic",
       "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
@@ -10,11 +52,25 @@
       "preview": "A federal judge has called the Department of Defense\u2019s designation of Anthropic as a national security supply-chain risk \u201cillegal and baseless.\u201d"
     },
     {
+      "title": "Supporting Thailand\u2019s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI News",
+      "published": "2026-08-28T02:00:00+00:00",
+      "preview": "OpenAI and Thailand\u2019s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+    },
+    {
       "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
       "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
       "source": "Wired - AI",
       "published": "2026-08-27T21:08:34+00:00",
       "preview": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration."
+    },
+    {
+      "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
+      "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
+      "source": "MarkTechPost",
+      "published": "2026-08-27T20:05:49+00:00",
+      "preview": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, bounding\u2026"
     },
     {
       "title": "OpenAI\u2019s Rogue AI Swarm Grew to Over 1,000 Agents",
@@ -225,62 +281,6 @@
       "source": "OpenAI News",
       "published": "2026-08-26T00:00:00+00:00",
       "preview": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster."
-    },
-    {
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI News",
-      "published": "2026-08-26T00:00:00+00:00",
-      "preview": "OpenAI shares findings from the Hugging Face security incident and the steps we\u2019re taking to strengthen AI model security, monitoring, and alignment."
-    },
-    {
-      "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
-      "url": "https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together/",
-      "source": "MarkTechPost",
-      "published": "2026-08-25T23:48:08+00:00",
-      "preview": "Model cards report quality under server-class, full-precision conditions. Those numbers rarely predict how the same model behaves on a phone. This week, Liquid\u2026"
-    },
-    {
-      "title": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
-      "url": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/",
-      "source": "MarkTechPost",
-      "published": "2026-08-25T19:12:19+00:00",
-      "preview": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into one system running on NVIDIA DGX Spark. The post\u2026"
-    },
-    {
-      "title": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/",
-      "source": "MarkTechPost",
-      "published": "2026-08-25T17:25:36+00:00",
-      "preview": "Training and serving frontier models is now a networking problem as much as a compute problem. Collective operations like all-reduce and all-to-all synchronize\u2026"
-    },
-    {
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "source": "Google AI Blog",
-      "published": "2026-08-25T16:00:00+00:00",
-      "preview": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background"
-    },
-    {
-      "title": "We\u2019re sleepwalking into an AI surveillance dystopia",
-      "url": "https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare",
-      "source": "Transformer (transformernews.ai)",
-      "published": "2026-08-25T15:00:39+00:00",
-      "preview": "The technology needed for industrial-scale observation exists &#8212; and is already in widespread use"
-    },
-    {
-      "title": "It Should Be Harder to Apply for a Job. No, Really",
-      "url": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
-      "source": "Wired - AI",
-      "published": "2026-08-25T09:30:00+00:00",
-      "preview": "Thanks to a dwindling supply of open roles, \u201cone-click\u201d applications, and the rise of artificial intelligence, it\u2019s easier than ever to apply for a job. We\u2019re\u2026"
-    },
-    {
-      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
-      "url": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
-      "source": "Wired - AI",
-      "published": "2026-08-25T09:15:00+00:00",
-      "preview": "\u201cIt never crossed my mind that they would be so bold as to sell our private data for AI,\u201d says one former Spirit Airlines flight attendant."
     }
   ]
 }
