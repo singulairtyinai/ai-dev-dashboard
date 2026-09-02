@@ -1,7 +1,56 @@
 {
   "category": "overall",
-  "last_updated": "2026-09-02T14:05:50.491642+00:00",
+  "last_updated": "2026-09-02T19:13:42.790209+00:00",
   "items": [
+    {
+      "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+      "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+      "source": "Wired - AI",
+      "published": "2026-09-02T18:41:02+00:00",
+      "preview": "The US government wrote a letter in support of OpenAI\u2019s argument that training AI on others' intellectual property is fair use."
+    },
+    {
+      "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+      "url": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+      "source": "Wired - AI",
+      "published": "2026-09-02T18:20:00+00:00",
+      "preview": "A startup called Mostik has a wild new approach to combining the capabilities of AI models."
+    },
+    {
+      "title": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+      "url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
+      "source": "MarkTechPost",
+      "published": "2026-09-02T18:05:52+00:00",
+      "preview": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with\u2026"
+    },
+    {
+      "title": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+      "url": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/",
+      "source": "MarkTechPost",
+      "published": "2026-09-02T17:20:24+00:00",
+      "preview": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety\u2026"
+    },
+    {
+      "title": "The Logical End Point of AI Job Interviews Is Two Bots Talking to Each Other",
+      "url": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
+      "source": "Wired - AI",
+      "published": "2026-09-02T15:51:46+00:00",
+      "preview": "Christopher was sick of being ghosted by AI recruiters. So he unleashed ChatGPT on his robot interviewer."
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI Blog",
+      "published": "2026-09-02T15:40:00+00:00",
+      "preview": "Introducing Fairwind Program"
+    },
+    {
+      "title": "Facilitating AI integration with simplicity at scale",
+      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+      "source": "MIT Technology Review - AI",
+      "published": "2026-09-02T14:00:00+00:00",
+      "preview": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific\u2026"
+    },
     {
       "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
       "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
@@ -232,55 +281,6 @@
       "source": "MarkTechPost",
       "published": "2026-08-29T14:30:44+00:00",
       "preview": "We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: scene\u2026"
-    },
-    {
-      "title": "The Cybersecurity Apocalypse Is Coming in \u2018Months,\u2019 AI Giants Warn",
-      "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-      "source": "Wired - AI",
-      "published": "2026-08-29T10:30:00+00:00",
-      "preview": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you\u2019ll never guess what \u201cMrChildPorn\u201d was arrested for."
-    },
-    {
-      "title": "How to Run a Chatbot on Your Own Computer",
-      "url": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
-      "source": "Wired - AI",
-      "published": "2026-08-29T10:00:00+00:00",
-      "preview": "Installing a large language model on your personal computer gives you a handy digital assistant that won\u2019t compromise your data privacy."
-    },
-    {
-      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-      "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
-      "source": "MarkTechPost",
-      "published": "2026-08-29T05:25:16+00:00",
-      "preview": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck \u2014 a 25 cm bipedal robot where every movement is a neural policy\u2026"
-    },
-    {
-      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-      "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
-      "source": "MarkTechPost",
-      "published": "2026-08-28T19:12:21+00:00",
-      "preview": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. The post\u2026"
-    },
-    {
-      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-      "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
-      "source": "MarkTechPost",
-      "published": "2026-08-28T17:28:47+00:00",
-      "preview": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the\u2026"
-    },
-    {
-      "title": "Think people hate AI now? Wait until it takes their jobs",
-      "url": "https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs",
-      "source": "Transformer (transformernews.ai)",
-      "published": "2026-08-28T15:03:28+00:00",
-      "preview": "Transformer Weekly: Anthropic&#8217;s $100b IPO raise, frontier self-regulation EO and Hugging Face hack investigation"
-    },
-    {
-      "title": "AI Has Human Doctors Asking: What\u2019s Left for Us?",
-      "url": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
-      "source": "Wired - AI",
-      "published": "2026-08-28T15:00:00+00:00",
-      "preview": "A recent paper argues that AI is often better at doctoring than doctors. Guess who isn't thrilled."
     }
   ]
 }
