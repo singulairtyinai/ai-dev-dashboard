@@ -1,7 +1,161 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-01T22:23:25.527750+00:00",
+  "last_updated": "2026-09-02T03:00:28.350459+00:00",
   "items": [
+    {
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "url": "https://arxiv.org/abs/2609.01604v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:59:49+00:00",
+      "preview": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly\u2026"
+    },
+    {
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "url": "https://arxiv.org/abs/2609.01603v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:59:46+00:00",
+      "preview": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select\u2026"
+    },
+    {
+      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "url": "https://arxiv.org/abs/2609.01601v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:59:39+00:00",
+      "preview": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input\u2026"
+    },
+    {
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "url": "https://arxiv.org/abs/2609.01600v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:59:13+00:00",
+      "preview": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We\u2026"
+    },
+    {
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.01597v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:58:18+00:00",
+      "preview": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models.\u2026"
+    },
+    {
+      "title": "Mechanism Design for Alignment and Control",
+      "url": "https://arxiv.org/abs/2609.01595v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:57:50+00:00",
+      "preview": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must\u2026"
+    },
+    {
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "url": "https://arxiv.org/abs/2609.01591v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:55:10+00:00",
+      "preview": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real\u2026"
+    },
+    {
+      "title": "Designing Proactive Thought Partners for Writing",
+      "url": "https://arxiv.org/abs/2609.01588v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:54:32+00:00",
+      "preview": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing\u2026"
+    },
+    {
+      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "url": "https://arxiv.org/abs/2609.01587v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:53:41+00:00",
+      "preview": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how\u2026"
+    },
+    {
+      "title": "Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics",
+      "url": "https://arxiv.org/abs/2609.01575v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:40:29+00:00",
+      "preview": "Extracting structured fields from hundreds of millions of documents annually remains costly in regulated industries: bespoke OCR cascades cover only a fraction of workflows, privacy rules preclude external models, and\u2026"
+    },
+    {
+      "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
+      "url": "https://arxiv.org/abs/2609.01573v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:39:55+00:00",
+      "preview": "How to divide a fixed annotation budget between supervised fine-tuning (SFT) and reinforcement learning (RL) during LLM post-training remains an open problem. Existing work characterizes only broad trends (e.g., SFT\u2026"
+    },
+    {
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "url": "https://arxiv.org/abs/2609.01572v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:39:26+00:00",
+      "preview": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate\u2026"
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "url": "https://arxiv.org/abs/2609.01567v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:33:41+00:00",
+      "preview": "Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment\u2026"
+    },
+    {
+      "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
+      "url": "https://arxiv.org/abs/2609.01564v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:31:02+00:00",
+      "preview": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a\u2026"
+    },
+    {
+      "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
+      "url": "https://arxiv.org/abs/2609.01563v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:30:39+00:00",
+      "preview": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts, structures, and prioritizes risk\u2026"
+    },
+    {
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "url": "https://arxiv.org/abs/2609.01560v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:21:40+00:00",
+      "preview": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as\u2026"
+    },
+    {
+      "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
+      "url": "https://arxiv.org/abs/2609.01556v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:19:57+00:00",
+      "preview": "We evaluate embedding retrieval where surface form and meaning are pulled apart on purpose: retrieving items that share underlying structure but not wording, in two unrelated domains under one protocol, competition\u2026"
+    },
+    {
+      "title": "BS: Take the Hint - Interactive Multitracer PET/CT Lesion Segmentation with a Scribble-Conditioned ResEnc U-Net",
+      "url": "https://arxiv.org/abs/2609.01554v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:19:34+00:00",
+      "preview": "Automated lesion segmentation in whole-body PET/CT is complicated by the variety of physiological tracer uptake patterns and by the differing appearance of lesions across tracers. The autoPET/CT V challenge addresses\u2026"
+    },
+    {
+      "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
+      "url": "https://arxiv.org/abs/2609.01552v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:17:59+00:00",
+      "preview": "Scientific equation discovery has long been central to scientific progress, proceeding through iterative cycles of hypothesis generation, observational testing, and refinement under scientific constraints. As LLM\u2026"
+    },
+    {
+      "title": "A Mathematical Theory of Reusable Neural Bases for Network Compression",
+      "url": "https://arxiv.org/abs/2609.01550v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:16:21+00:00",
+      "preview": "As large AI models become increasingly prevalent across a wide range of applications, memory cost has become a critical bottleneck in both training and inference. To mitigate this issue, we introduce the Linear Reusable\u2026"
+    },
+    {
+      "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
+      "url": "https://arxiv.org/abs/2609.01548v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-01T17:15:22+00:00",
+      "preview": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communities, benchmarks remain scarce. Existing\u2026"
+    },
+    {
+      "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+      "url": "https://arxiv.org/abs/2609.01535v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T17:04:47+00:00",
+      "preview": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. In particular, we present an empirical\u2026"
+    },
     {
       "title": "Context-Aware Interleaved Batching for WhisperX",
       "url": "https://arxiv.org/abs/2608.31170v1",
@@ -127,160 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-08-31T16:51:50+00:00",
       "preview": "Outcome-based reinforcement learning provides verified feedback for language-model agents, but assigns trajectory-level advantage uniformly to all decisions, yielding coarse credit over long-horizon interactions.\u2026"
-    },
-    {
-      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
-      "url": "https://arxiv.org/abs/2608.31076v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:48:51+00:00",
-      "preview": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks\u2026"
-    },
-    {
-      "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
-      "url": "https://arxiv.org/abs/2608.31075v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:48:48+00:00",
-      "preview": "Recent advances in large reasoning models (LRMs) have shown that reinforcement learning with verifiable rewards (RLVR) can substantially improve reasoning in mathematics and code, where outcomes can be checked\u2026"
-    },
-    {
-      "title": "Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring",
-      "url": "https://arxiv.org/abs/2608.31074v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:47:29+00:00",
-      "preview": "We propose a lightweight two-stage framework for real-time video anomaly detection. The first stage employs YOLO v11n-pose to detect persons and extract seventeen skeletal keypoints in a single forward pass. The second\u2026"
-    },
-    {
-      "title": "A Model with No Head and Many Thoughts",
-      "url": "https://arxiv.org/abs/2608.31069v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:45:41+00:00",
-      "preview": "Large language models decode by projecting hidden states through a large vocabulary head at every step. This operation is computationally costly and forces all reasoning to be expressed in discrete tokens. We introduce\u2026"
-    },
-    {
-      "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
-      "url": "https://arxiv.org/abs/2608.31068v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:43:55+00:00",
-      "preview": "When a large language model fails a reasoning task, it is often assumed to lack the underlying capability. However, this conflates a genuine absence of reasoning with a late-stage output bottleneck. We observe a\u2026"
-    },
-    {
-      "title": "Every Token Leaves a Ripple in the Stream of Thought: Eliciting Model-Internal Token Saliency for Chain-of-Thought Compression",
-      "url": "https://arxiv.org/abs/2608.31066v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:41:14+00:00",
-      "preview": "Chain-of-thought (CoT) reasoning improves multi-step problem solving, but long reasoning traces inflate inference cost. Token-level CoT compression reduces this cost by pruning full reasoning chains into shorter traces\u2026"
-    },
-    {
-      "title": "The Exclusion Ratchet: False-Positive Suppression Accumulates and Persists in Detection Rule Repositories",
-      "url": "https://arxiv.org/abs/2608.31062v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T16:40:24+00:00",
-      "preview": "When a rule produces too many false alarms an analyst adds an exclusion, and the rule thereafter declines to alert in that circumstance. Each such decision is locally reasonable; what becomes of them collectively is not\u2026"
-    },
-    {
-      "title": "When Can We Work in Embedding Space? What Text Embeddings Preserve",
-      "url": "https://arxiv.org/abs/2608.31059v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:35:54+00:00",
-      "preview": "When do text embeddings work as inputs to empirical analysis? Their use rests on an assumption: that we can trade text for its low-dimensional embedding, and lose little in doing so. I make that assumption precise under\u2026"
-    },
-    {
-      "title": "Improving Information Extraction with Learned Queries",
-      "url": "https://arxiv.org/abs/2608.31058v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:35:31+00:00",
-      "preview": "When information extraction fails, a natural instinct is to improve the model doing it: for example, by scaling it up or refining its reasoning. In this paper, we show that another part of the pipeline matters at least\u2026"
-    },
-    {
-      "title": "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents",
-      "url": "https://arxiv.org/abs/2608.31057v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:34:51+00:00",
-      "preview": "Agent working memory is heterogeneous. Objects such as instructions, artifacts, tool outputs, and agent-generated state play different semantic roles and exhibit different size, retention, and representation profiles.\u2026"
-    },
-    {
-      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
-      "url": "https://arxiv.org/abs/2608.31046v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:22:10+00:00",
-      "preview": "On-policy distillation (OPD) offers dense token-level supervision as an alternative to the sparse outcome-level advantages of reinforcement learning with verifiable rewards (RLVR). However, the teacher scores\u2026"
-    },
-    {
-      "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
-      "url": "https://arxiv.org/abs/2608.31022v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:05:39+00:00",
-      "preview": "AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state\u2026"
-    },
-    {
-      "title": "DP-VOXLET: Provable Speaker Anonymization for Disentangled Speech Representations",
-      "url": "https://arxiv.org/abs/2608.30969v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T15:34:16+00:00",
-      "preview": "Systems for speaker anonymization obfuscate the speaker of an utterance, while maintaining its original semantic contents and prosody. Recent solutions for speaker anonymization rely on learned representations that\u2026"
-    },
-    {
-      "title": "The Fragility of Jailbreak Robustness Across Operational States",
-      "url": "https://arxiv.org/abs/2608.30748v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T13:14:47+00:00",
-      "preview": "Existing jailbreak evaluations typically characterize robustness using a single attack success rate (ASR) measured in a default configuration (the vanilla state). However, user-LLM interactions can induce diverse\u2026"
-    },
-    {
-      "title": "SingProbe Technical Report",
-      "url": "https://arxiv.org/abs/2608.30703v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T12:42:11+00:00",
-      "preview": "Runtime guardrails are essential for reliable large language model (LLM) deployment, yet existing approaches typically rely on independent, external models that introduce additional inference cost, delayed safety\u2026"
-    },
-    {
-      "title": "Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning",
-      "url": "https://arxiv.org/abs/2608.30686v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T12:26:01+00:00",
-      "preview": "Coding agents are increasingly used for software engineering tasks, including bootstrapping projects from third-party repositories whose integrity cannot be assumed. Prior work on repository poisoning largely focuses on\u2026"
-    },
-    {
-      "title": "Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection",
-      "url": "https://arxiv.org/abs/2608.30648v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T11:50:37+00:00",
-      "preview": "Zero-knowledge domain-specific language (ZK DSL) toolchains compile programs into constraint systems and generate witnesses for cryptographic proofs. Bugs in these toolchains can leave the enforced constraints weaker\u2026"
-    },
-    {
-      "title": "Towards Operator-Empowered Vulnerability Hotfixing for 5G Radio Access Networks",
-      "url": "https://arxiv.org/abs/2608.30615v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T11:26:12+00:00",
-      "preview": "Cellular protocol vulnerabilities can remain exploitable for months or years while standards bodies, vendors, and mobile network operators (MNOs) coordinate permanent fixes. We present Buckler, a framework that enables\u2026"
-    },
-    {
-      "title": "Authority-Inference Separation in Agentic Finance: First-Line Control, Blockchain Enforcement, and Replayable Assurance",
-      "url": "https://arxiv.org/abs/2608.30519v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T09:53:18+00:00",
-      "preview": "AI agents can select tools, counterparties, and transaction parameters, yet inference should not itself confer authority to execute a financial action. This study develops and evaluates Authority-Inference Separation\u2026"
-    },
-    {
-      "title": "Bounds on the Posterior-to-Prior Ratios for Inclusion Belief under Bounded Differential Privacy",
-      "url": "https://arxiv.org/abs/2608.30473v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T09:01:06+00:00",
-      "preview": "Differential privacy has become the standard for generating privacy-protected data releases. However, differential privacy does not translate intuitively to disclosure risk. In particular, it remains unclear how much an\u2026"
-    },
-    {
-      "title": "ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems",
-      "url": "https://arxiv.org/abs/2608.30441v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T08:32:22+00:00",
-      "preview": "Recently, large language model (LLM) agents, such as Codex, Claude Code, and OpenClaw, have become capable of planning and executing long-horizon tasks through repeated tool calls. This capability also creates new\u2026"
-    },
-    {
-      "title": "Why Are LLM Backdoor Defenses Fragmented? A Feature-Level Explanation with Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2608.30403v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T07:55:42+00:00",
-      "preview": "Backdoor attacks pose a serious threat to large language models (LLMs), but existing defenses remain fragmented, failing to pro?vide unified defense against both dirty-label and clean-label attacks. To investigate why\u2026"
     }
   ]
 }
