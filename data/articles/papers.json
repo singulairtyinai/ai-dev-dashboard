@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-02T03:00:28.350459+00:00",
+  "last_updated": "2026-09-02T08:24:17.038398+00:00",
   "items": [
     {
       "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
@@ -157,6 +157,111 @@
       "preview": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. In particular, we present an empirical\u2026"
     },
     {
+      "title": "Defense-as-Skill: Evolving Runtime Guard Skill for Skill-Augmented Agents",
+      "url": "https://arxiv.org/abs/2609.01487v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T16:19:31+00:00",
+      "preview": "Skill-augmented agents load reusable skills as persistent runtime context, improving task performance but also giving malicious skills a durable channel for steering future actions. Such skills may leak secrets, corrupt\u2026"
+    },
+    {
+      "title": "SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules",
+      "url": "https://arxiv.org/abs/2609.01469v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T16:04:35+00:00",
+      "preview": "Let $q$ range over primes congruent to $3$ modulo $4$. Let $\u03b6_q$ be a primitive $q$th root of unity, and put $K=\\mathbb{Q}(\u03b6_q)$, with ring of integers $\\mathcal{O}_K=\\mathbb{Z}[\u03b6_q]$. We prove that the decision version\u2026"
+    },
+    {
+      "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.01455v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T15:59:32+00:00",
+      "preview": "Benign fine-tuning severely weakens the safety alignment of large language models (LLMs), so we study why refusal behavior is so fragile. While prior work often attributes this failure to gradient conflict, we propose a\u2026"
+    },
+    {
+      "title": "Verifiable quantum advantage in extremely low depth",
+      "url": "https://arxiv.org/abs/2609.01448v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T15:54:34+00:00",
+      "preview": "We give a sampling problem that is solvable by shallow quantum circuits, hard for polynomial-time classical algorithms under lattice-based assumptions, and efficiently verifiable by a classical computer. The quantum\u2026"
+    },
+    {
+      "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades",
+      "url": "https://arxiv.org/abs/2609.01345v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T14:53:41+00:00",
+      "preview": "Inference cascades cut cost by answering most queries with a cheap model and escalating a hard tail to a frontier model that acts as verifier. A natural extension closes the loop: fine-tune the cheap student on the\u2026"
+    },
+    {
+      "title": "Hidden Services Protocol for Mixnets",
+      "url": "https://arxiv.org/abs/2609.01326v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T14:43:23+00:00",
+      "preview": "Mix networks (mixnets) provide network-level privacy by routing each communication packet through a sequence of intermediaries, called mixnodes, that randomly delay and cryptographically transform packets before\u2026"
+    },
+    {
+      "title": "Position: Privacy Is a Claim, Not a Property of Synthetic Data",
+      "url": "https://arxiv.org/abs/2609.01273v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T14:06:02+00:00",
+      "preview": "Synthetic data has become a common component of machine learning research. While widely adopted, its use in privacy-sensitive contexts has quietly shifted from a claim of residual inference risk under stated assumptions\u2026"
+    },
+    {
+      "title": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
+      "url": "https://arxiv.org/abs/2609.01249v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:46:31+00:00",
+      "preview": "Invisible watermarks are typically evaluated against predefined perturbations such as compression, blur, noise, cropping, and denoising. Public foundation image models expose a distinct threat: an attacker can submit a\u2026"
+    },
+    {
+      "title": "MutMem-V2: Cryptographically Authorized Mutation in Persistent Agent Memory Portable Verification and Reproducible Evidence",
+      "url": "https://arxiv.org/abs/2609.01235v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:34:44+00:00",
+      "preview": "MutMem V1 introduced retention-preserving, cryptographically authorized mutation for persistent agent memory but did not provide a complete portable verification contract or clean-install reproduction path. MutMem V2\u2026"
+    },
+    {
+      "title": "Position Matters: Feature Inversion Attacks in ViT Split Inference with Token Reduction and Shuffling",
+      "url": "https://arxiv.org/abs/2609.01232v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:32:30+00:00",
+      "preview": "Vision Transformers (ViTs) are increasingly used in split-inference systems, where edge devices transmit intermediate token representations to a remote cloud. In this setting, token reduction lowers computation and\u2026"
+    },
+    {
+      "title": "What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness",
+      "url": "https://arxiv.org/abs/2609.01222v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:26:21+00:00",
+      "preview": "Real-world, high-profile AI agent harnesses often rely on vendor-proprietary or opaque designs for context assembly, leaving the sources and underlying logic of assembled context poorly understood and the resulting\u2026"
+    },
+    {
+      "title": "Who Judges the Judges? A Chinese Safety QA Benchmark for Evaluating LLM Responses and Safety Judges",
+      "url": "https://arxiv.org/abs/2609.01210v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:15:01+00:00",
+      "preview": "Safety benchmarks for large language models often assess the risk of a user query, although the outcome of question answering depends on whether the response violates a policy. This distinction is critical in Chinese\u2026"
+    },
+    {
+      "title": "Identification of Compositional Risks in Data Protection Impact Assessments and Beyond",
+      "url": "https://arxiv.org/abs/2609.01201v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:08:18+00:00",
+      "preview": "When personal data is processed in a distributed manner by cooperating service providers, privacy risks may emerge solely from the choice of data processors included in the composition. For instance, different data\u2026"
+    },
+    {
+      "title": "Verification of $K$- and Infinite-Step Strong/Weak Anonymity Using Concurrent Compositions",
+      "url": "https://arxiv.org/abs/2609.01192v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:03:52+00:00",
+      "preview": "Anonymity is an information flow property that provides privacy protection in the sense of non-uniqueness of system information at certain moments with respect to observations. The notion of $K$-step anonymity in the\u2026"
+    },
+    {
+      "title": "Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion",
+      "url": "https://arxiv.org/abs/2609.01187v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-01T13:01:45+00:00",
+      "preview": "A single vulnerability in a widely used library can cascade through millions of dependent applications, yet more than half of vulnerability database entries contain missing or incorrect affected-library information.\u2026"
+    },
+    {
       "title": "Context-Aware Interleaved Batching for WhisperX",
       "url": "https://arxiv.org/abs/2608.31170v1",
       "source": "arXiv cs.CL",
@@ -176,111 +281,6 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-08-31T17:50:47+00:00",
       "preview": "We rethink the definition of privacy in multi-server, graph-replicated private information retrieval (PIR) systems, by introducing a novel setting where the user's privacy is governed by the servers' storage structure.\u2026"
-    },
-    {
-      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
-      "url": "https://arxiv.org/abs/2608.31142v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:48:24+00:00",
-      "preview": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, supply-chain risk, and\u2026"
-    },
-    {
-      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
-      "url": "https://arxiv.org/abs/2608.31139v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T17:44:54+00:00",
-      "preview": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a\u2026"
-    },
-    {
-      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
-      "url": "https://arxiv.org/abs/2608.31137v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:44:25+00:00",
-      "preview": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language Model (LLM)-based\u2026"
-    },
-    {
-      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "url": "https://arxiv.org/abs/2608.31128v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T17:40:43+00:00",
-      "preview": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise\u2026"
-    },
-    {
-      "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
-      "url": "https://arxiv.org/abs/2608.31119v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T17:31:18+00:00",
-      "preview": "Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted\u2026"
-    },
-    {
-      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
-      "url": "https://arxiv.org/abs/2608.31118v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:30:05+00:00",
-      "preview": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants\u2026"
-    },
-    {
-      "title": "Unconditional Certified Randomness without Structure",
-      "url": "https://arxiv.org/abs/2608.31112v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-08-31T17:17:49+00:00",
-      "preview": "We obtain a certified randomness protocol in the quantum random oracle model. The protocol is non-interactive and publicly verifiable with a classical verifier, and is based on Yamakawa and Zhandry's proof of\u2026"
-    },
-    {
-      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-      "url": "https://arxiv.org/abs/2608.31111v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T17:14:59+00:00",
-      "preview": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at research.\" Learners must interpret the goal, identify capability gaps, decide how to learn, and\u2026"
-    },
-    {
-      "title": "BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing",
-      "url": "https://arxiv.org/abs/2608.31105v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:10:59+00:00",
-      "preview": "Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate.\u2026"
-    },
-    {
-      "title": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
-      "url": "https://arxiv.org/abs/2608.31102v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:08:41+00:00",
-      "preview": "Industrial post-training is a brownfield regime. Teams inherit a deployed checkpoint and must land targeted improvements under fixed compute and mixture budgets without regressing the rest. The maintained artifact is\u2026"
-    },
-    {
-      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
-      "url": "https://arxiv.org/abs/2608.31100v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T17:05:41+00:00",
-      "preview": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them as fixed policies. It therefore remains\u2026"
-    },
-    {
-      "title": "Cross-Regional Grapevine Cold Hardiness Prediction via Learned Multimodal Latent Representations",
-      "url": "https://arxiv.org/abs/2608.31097v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T17:04:14+00:00",
-      "preview": "Accurate daily predictions of cold hardiness in woody plants are critical in regions where freezing temperatures can damage dormant buds and reduce seasonal yield. Existing biophysical, hybrid, and deep learning models\u2026"
-    },
-    {
-      "title": "The First Token Is a Clue: Verbalizing Multi-Token Concepts from the J-lens",
-      "url": "https://arxiv.org/abs/2608.31084v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-08-31T16:56:20+00:00",
-      "preview": "The Jacobian Lens (J-lens) is a recent tool for interpreting LLMs. It reads a hidden state as a ranked list of vocabulary tokens, leaving multi-token concepts without a representation of their own. The original J-lens\u2026"
-    },
-    {
-      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
-      "url": "https://arxiv.org/abs/2608.31082v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:53:45+00:00",
-      "preview": "Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex\u2026"
-    },
-    {
-      "title": "Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization",
-      "url": "https://arxiv.org/abs/2608.31077v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-08-31T16:51:50+00:00",
-      "preview": "Outcome-based reinforcement learning provides verified feedback for language-model agents, but assigns trajectory-level advantage uniformly to all decisions, yielding coarse credit over long-horizon interactions.\u2026"
     }
   ]
 }
