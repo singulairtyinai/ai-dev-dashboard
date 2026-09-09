@@ -1,7 +1,119 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-09T03:13:16.946060+00:00",
+  "last_updated": "2026-09-09T08:39:13.459514+00:00",
   "items": [
+    {
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "url": "https://arxiv.org/abs/2609.09158v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:59:55+00:00",
+      "preview": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments\u2026"
+    },
+    {
+      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "url": "https://arxiv.org/abs/2609.09157v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-08T17:59:53+00:00",
+      "preview": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish\u2026"
+    },
+    {
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "url": "https://arxiv.org/abs/2609.09156v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-08T17:59:50+00:00",
+      "preview": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult,\u2026"
+    },
+    {
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.09153v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:59:41+00:00",
+      "preview": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving\u2026"
+    },
+    {
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "url": "https://arxiv.org/abs/2609.09150v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-08T17:59:20+00:00",
+      "preview": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and\u2026"
+    },
+    {
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "url": "https://arxiv.org/abs/2609.09143v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-08T17:57:53+00:00",
+      "preview": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how\u2026"
+    },
+    {
+      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "url": "https://arxiv.org/abs/2609.09140v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:56:13+00:00",
+      "preview": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical\u2026"
+    },
+    {
+      "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+      "url": "https://arxiv.org/abs/2609.09137v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:55:28+00:00",
+      "preview": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a\u2026"
+    },
+    {
+      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "url": "https://arxiv.org/abs/2609.09135v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-08T17:54:13+00:00",
+      "preview": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs\u2026"
+    },
+    {
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "url": "https://arxiv.org/abs/2609.09134v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:53:49+00:00",
+      "preview": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models\u2026"
+    },
+    {
+      "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.09133v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:53:37+00:00",
+      "preview": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral\u2026"
+    },
+    {
+      "title": "A Generalization of Amari's Bayesian Duality",
+      "url": "https://arxiv.org/abs/2609.09126v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:51:08+00:00",
+      "preview": "Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a\u2026"
+    },
+    {
+      "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+      "url": "https://arxiv.org/abs/2609.09124v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:50:09+00:00",
+      "preview": "Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a\u2026"
+    },
+    {
+      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+      "url": "https://arxiv.org/abs/2609.09119v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:47:43+00:00",
+      "preview": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and\u2026"
+    },
+    {
+      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2609.09115v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:46:00+00:00",
+      "preview": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic\u2026"
+    },
+    {
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "url": "https://arxiv.org/abs/2609.09113v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-08T17:45:09+00:00",
+      "preview": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what\u2026"
+    },
     {
       "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
       "url": "https://arxiv.org/abs/2609.09094v1",
@@ -169,118 +281,6 @@
       "source": "arXiv cs.CL",
       "published": "2026-09-08T16:19:06+00:00",
       "preview": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which\u2026"
-    },
-    {
-      "title": "Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation",
-      "url": "https://arxiv.org/abs/2609.08943v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-08T16:04:20+00:00",
-      "preview": "Automatic fact-checking systems assess the veracity of claims given evidence from relevant documents. Large Language Models (LLMs) have demonstrated strong performance in fact-checking due to their general reasoning\u2026"
-    },
-    {
-      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
-      "url": "https://arxiv.org/abs/2609.08936v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-08T15:59:16+00:00",
-      "preview": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we\u2026"
-    },
-    {
-      "title": "When Models Defer to Wrong Answers: A Robustness Audit of Source-Attributed Cues in Multiple-Choice QA",
-      "url": "https://arxiv.org/abs/2609.08934v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-08T15:57:24+00:00",
-      "preview": "Language models often receive a question together with a claim about what another source answered. We audit whether such claims destabilize answers in multiple-choice question answering. For each item, we hold one wrong\u2026"
-    },
-    {
-      "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
-      "url": "https://arxiv.org/abs/2609.08919v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-08T15:48:11+00:00",
-      "preview": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how\u2026"
-    },
-    {
-      "title": "From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection",
-      "url": "https://arxiv.org/abs/2609.08899v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-08T15:38:57+00:00",
-      "preview": "Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per\u2026"
-    },
-    {
-      "title": "Towards Standardized Evaluation of GPU Memory Safety with GMSBench",
-      "url": "https://arxiv.org/abs/2609.08871v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T15:11:57+00:00",
-      "preview": "As GPUs become increasingly integral to high-performance computing and machine learning, ensuring memory safety in GPU programs has become crucial for reliable and secure execution. However, evaluating GPU memory safety\u2026"
-    },
-    {
-      "title": "A New Backscattering Dual-Polarized Rectenna for Wireless Power Transfer and IoT Applications",
-      "url": "https://arxiv.org/abs/2609.08833v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T14:53:58+00:00",
-      "preview": "This paper proposes an innovative dual-polarized backscattering rectenna that operates in two distinct modesenergy harvesting and backscattering modulation-driven by two-bit digital control signals. By utilizing two\u2026"
-    },
-    {
-      "title": "Measuring the Security of the Evolving Software Supply Chain: a Research Agenda",
-      "url": "https://arxiv.org/abs/2609.08810v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T14:37:06+00:00",
-      "preview": "Software supply chain security has become increasingly critical due to the widespread reliance on third-party dependencies and the growing attack surface of modern software ecosystems. However, existing quantitative,\u2026"
-    },
-    {
-      "title": "Evidence-Grounded Retrieval for Investigation Hunt Lead Generation from CTI Reports",
-      "url": "https://arxiv.org/abs/2609.08790v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T14:21:35+00:00",
-      "preview": "Threat hunting increasingly depends on converting unstructured knowledge (e.g., Cyber Threat Intelligence reports) into actionable hunt leads: concise, investigable hypotheses grounded in observable artifacts and\u2026"
-    },
-    {
-      "title": "Benchmark Scores Are Pipeline-Dependent: A Reliability Audit of Cybersecurity LLM Benchmarks",
-      "url": "https://arxiv.org/abs/2609.08765v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T14:01:22+00:00",
-      "preview": "Large language model (LLM) benchmarks are often treated as fixed datasets with stable scores, yet their outcomes depend on configurable evaluation pipelines. We audit eight cybersecurity benchmarks across 10\u2026"
-    },
-    {
-      "title": "ZK-Trace: Certified Collusion Tracing with Zero-Knowledge Credentials for Federated GNSS Interference Monitoring",
-      "url": "https://arxiv.org/abs/2609.08763v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T14:00:29+00:00",
-      "preview": "Federated global navigation satellite system (GNSS) monitoring distributes a proprietary classifier to partly trusted stations, any of which may leak its copy. ZK-Trace combines public identity marks, recipient-specific\u2026"
-    },
-    {
-      "title": "MemSentry: A Framework for Detecting Persistent Memory Poisoning in Agentic AI",
-      "url": "https://arxiv.org/abs/2609.08747v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T13:40:13+00:00",
-      "preview": "Agentic AI systems with persistent memory introduce a distinct attack surface known as memory poisoning, in which adversarially crafted content is stored in long-term memory and subsequently influences future agent\u2026"
-    },
-    {
-      "title": "Navigating the Latent Manifold: Proactive Concept Drift Adaptation for Resilient NIDS",
-      "url": "https://arxiv.org/abs/2609.08623v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T11:58:12+00:00",
-      "preview": "Network intrusion detection systems (NIDS) are critical for cybersecurity, safeguarding services and data from potential attacks. However, existing AI-based NIDS often assume static data distributions and fail to handle\u2026"
-    },
-    {
-      "title": "An Evidence Model for Agentic Processes: Evidence Claims, Trust Assumptions, and Policy Assessment",
-      "url": "https://arxiv.org/abs/2609.08481v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T09:25:28+00:00",
-      "preview": "Agentic AI systems increasingly exchange messages, invoke tools, request approvals, hold structured decision sessions, and modify shared artifacts. Logs and anchors can make selected records tamper-evident, but they can\u2026"
-    },
-    {
-      "title": "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning",
-      "url": "https://arxiv.org/abs/2609.08476v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T09:20:27+00:00",
-      "preview": "Secure Aggregation (SA) is widely regarded as a strong defense against model-update leakage in Federated Learning (FL), as it reveals only aggregate results while hiding individual updates. In Decentralized Federated\u2026"
-    },
-    {
-      "title": "Topological Fraud Detection in Latent Transaction Spaces",
-      "url": "https://arxiv.org/abs/2609.08445v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-08T08:50:29+00:00",
-      "preview": "Working entirely on topologically anonymized embeddings, we perform fraud detection using iterative rounds of unsupervised filtering followed by supervised sniping. The result is an ultra-low latency privacy--preserving\u2026"
     }
   ]
 }
