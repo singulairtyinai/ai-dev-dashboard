@@ -1,13 +1,62 @@
 {
   "category": "overall",
-  "last_updated": "2026-09-11T08:35:18.570326+00:00",
+  "last_updated": "2026-09-11T14:03:57.878055+00:00",
   "items": [
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "source": "Wired - AI",
+      "published": "2026-09-11T09:00:00+00:00",
+      "preview": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely \u201cspooking people\u201d inside big labs."
+    },
+    {
+      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+      "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
+      "source": "MarkTechPost",
+      "published": "2026-09-11T06:57:22+00:00",
+      "preview": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B\u2026"
+    },
+    {
+      "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+      "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
+      "source": "MarkTechPost",
+      "published": "2026-09-11T06:34:39+00:00",
+      "preview": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and\u2026"
+    },
+    {
+      "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
+      "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
+      "source": "MarkTechPost",
+      "published": "2026-09-11T06:01:25+00:00",
+      "preview": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then\u2026"
+    },
     {
       "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
       "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
       "source": "Wired - AI",
       "published": "2026-09-10T23:28:42+00:00",
       "preview": "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development."
+    },
+    {
+      "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+      "url": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
+      "source": "MarkTechPost",
+      "published": "2026-09-10T22:34:48+00:00",
+      "preview": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a\u2026"
+    },
+    {
+      "title": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
+      "url": "https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/",
+      "source": "MarkTechPost",
+      "published": "2026-09-10T21:57:06+00:00",
+      "preview": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying\u2026"
+    },
+    {
+      "title": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+      "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+      "source": "MarkTechPost",
+      "published": "2026-09-10T21:21:58+00:00",
+      "preview": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the\u2026"
     },
     {
       "title": "Is AI Actually Going to Kill Us All?",
@@ -232,55 +281,6 @@
       "source": "MarkTechPost",
       "published": "2026-09-08T19:51:54+00:00",
       "preview": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open-source NVlabs projects cover the two CUDA programming\u2026"
-    },
-    {
-      "title": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
-      "url": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
-      "source": "MarkTechPost",
-      "published": "2026-09-08T19:00:09+00:00",
-      "preview": "DeepMind's AlphaGenome Atlas maps every single-letter change in the human genome with 1 impact score per variant. The post Google DeepMind Releases AlphaGenome\u2026"
-    },
-    {
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "OpenAI News",
-      "published": "2026-09-08T17:00:00+00:00",
-      "preview": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
-    },
-    {
-      "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
-      "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
-      "source": "Wired - AI",
-      "published": "2026-09-08T16:42:05+00:00",
-      "preview": "A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety."
-    },
-    {
-      "title": "Distributing AGI\u2019s wealth worldwide is a very tricky problem",
-      "url": "https://www.transformernews.ai/p/distributing-agi-wealth-worldwide-difficult",
-      "source": "Transformer (transformernews.ai)",
-      "published": "2026-09-08T16:02:47+00:00",
-      "preview": "AGI could exacerbate global inequality. Avoiding that is a big policy challenge."
-    },
-    {
-      "title": "Everything you need to know about the \u2018rogue\u2019 AI incidents",
-      "url": "https://www.transformernews.ai/p/rogue-ai-incidents-timeline",
-      "source": "Transformer (transformernews.ai)",
-      "published": "2026-09-08T13:06:25+00:00",
-      "preview": "A spate of AIs breaking out and taking unintended actions raises serious questions about accountability, transparency, and companies&#8217; ability to control\u2026"
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "source": "OpenAI News",
-      "published": "2026-09-08T13:00:00+00:00",
-      "preview": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish\u2014and make growth more economical."
-    },
-    {
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "source": "OpenAI News",
-      "published": "2026-09-08T11:30:00+00:00",
-      "preview": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
     }
   ]
 }
