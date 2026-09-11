@@ -1,7 +1,112 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-10T22:15:50.721633+00:00",
+  "last_updated": "2026-09-11T03:08:59.034368+00:00",
   "items": [
+    {
+      "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
+      "url": "https://arxiv.org/abs/2609.11642v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:49:54+00:00",
+      "preview": "Neural audio codecs are a fundamental component of modern speech generation systems. While recent codecs achieve increasingly low bitrates, reducing frame rate remains challenging, as each token must preserve more\u2026"
+    },
+    {
+      "title": "LoaDiff: Conditional Generation of Electricity Consumption Time Series for Energy Analytics",
+      "url": "https://arxiv.org/abs/2609.11639v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:46:30+00:00",
+      "preview": "The energy transition is reshaping residential electricity consumption through the increasing adoption of distributed generation, electrified appliances, and demand-response programs. Understanding these evolving\u2026"
+    },
+    {
+      "title": "MAPLE: Memory-Augmented Planning with Language and Evolution",
+      "url": "https://arxiv.org/abs/2609.11636v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:44:50+00:00",
+      "preview": "Domain practitioners understand their business constraints but may lack operations-research expertise or dedicated support. LLM-based optimization agents translate natural-language requirements into models or solver\u2026"
+    },
+    {
+      "title": "Physics-Informed Neural Networks to Infer the Perpendicular Energy Conductivity in the Scrape-Off Layer of Stellarator Devices",
+      "url": "https://arxiv.org/abs/2609.11628v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:40:32+00:00",
+      "preview": "In this work, we develop an inverse Physics-Informed Neural Network (PINN) framework to infer the dependence of the scrape-off layer (SOL) perpendicular heat conductivity on plasma density and temperature,\u2026"
+    },
+    {
+      "title": "Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models",
+      "url": "https://arxiv.org/abs/2609.11615v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:30:52+00:00",
+      "preview": "This paper presents a novel approach for data-driven self-learning control of highly flexible, modular manufacturing systems. Specifically, we employ a novel framework for model-based reinforcement learning which\u2026"
+    },
+    {
+      "title": "Making Alternative Data Work: Context-Augmented LLMs for Financial Forecasting",
+      "url": "https://arxiv.org/abs/2609.11607v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:27:25+00:00",
+      "preview": "When forecasting a firm's future financial performance, alternative data - data collected from non-traditional sources such as consumer transactions, web traffic, and prediction markets - can provide timely signals\u2026"
+    },
+    {
+      "title": "Learn the Solid, Not the File: Canonical Inputs for Neural Networks on CAD Boundary Representations",
+      "url": "https://arxiv.org/abs/2609.11573v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:08:03+00:00",
+      "preview": "Boundary representation (B-rep) is the standard format used by modern CAD systems for parametric 3D models. It turns out, the exact same solid can be represented by different B-reps: for example, two engineers using\u2026"
+    },
+    {
+      "title": "Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)",
+      "url": "https://arxiv.org/abs/2609.11569v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T14:03:32+00:00",
+      "preview": "We present EXYGEN (EXplore Your Graphs ENgine), a framework for knowledge graph (KG) understanding that enables conversational access to KGs at scale. We address two questions in sequence. First, how effectively can\u2026"
+    },
+    {
+      "title": "A Comparative Evaluation of Pre-trained Convolutional Neural Networks for Melanoma Detection",
+      "url": "https://arxiv.org/abs/2609.11550v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:43:49+00:00",
+      "preview": "Early diagnosis of melanoma is critical for improving patient survival rates. However, accurately distinguishing melanoma from other skin lesions remains a significant clinical challenge due to the high visual\u2026"
+    },
+    {
+      "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+      "url": "https://arxiv.org/abs/2609.11542v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:40:13+00:00",
+      "preview": "Large language model (LLM) training is among the fastest-growing sources of electricity demand in modern data centers, and power availability is a primary bottleneck to continued AI infrastructure growth. Making the\u2026"
+    },
+    {
+      "title": "Prompt Revision as a Source of Cultural Bias in Text-to-Image Systems",
+      "url": "https://arxiv.org/abs/2609.11532v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:32:40+00:00",
+      "preview": "Commercial text-to-image systems silently revise user prompts before generating images, a step users typically cannot disable or even see. Yet, existing audits of cultural bias examine only the final images and treat\u2026"
+    },
+    {
+      "title": "Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless",
+      "url": "https://arxiv.org/abs/2609.11527v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:28:53+00:00",
+      "preview": "Reliable, low-latency perception is crucial for Formula Student Driverless vehicles, yet many existing pipelines rely on deep learning and multi-sensor fusion, often requiring GPU acceleration. This paper presents a\u2026"
+    },
+    {
+      "title": "Learning Interaction between Image and Layout Priors for Joint Image-Layout Generation in Design Templates",
+      "url": "https://arxiv.org/abs/2609.11519v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:22:23+00:00",
+      "preview": "In this paper, we address the problem of graphic design template creation, which generates a background image and a layout of foreground elements over the background to form a harmonious composition from an input text.\u2026"
+    },
+    {
+      "title": "Extending SMT Solving with Non-Ground Clause Learning",
+      "url": "https://arxiv.org/abs/2609.11509v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:17:14+00:00",
+      "preview": "Quantifier instantiation is currently the main approach to non-ground SMT solving: solvers generate ground instances and solve the resulting ground SMT problems with CDCL(T)-style reasoning. When a conflict is found,\u2026"
+    },
+    {
+      "title": "Structural priors for data-efficient language learning",
+      "url": "https://arxiv.org/abs/2609.11505v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-10T13:12:48+00:00",
+      "preview": "Efficient language learning requires methods to reduce the reliance on large data and computational resources. We investigate structural transfer: First training models on non-language data to induce useful priors for\u2026"
+    },
     {
       "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
       "url": "https://arxiv.org/abs/2609.10539v1",
@@ -176,111 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-09T15:44:32+00:00",
       "preview": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they\u2026"
-    },
-    {
-      "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
-      "url": "https://arxiv.org/abs/2609.10335v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-09T15:33:25+00:00",
-      "preview": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally handle visuo-linguistic inputs, they are\u2026"
-    },
-    {
-      "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
-      "url": "https://arxiv.org/abs/2609.10321v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-09T15:26:28+00:00",
-      "preview": "Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language distillation methods is typically constructed from\u2026"
-    },
-    {
-      "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
-      "url": "https://arxiv.org/abs/2609.10305v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-09T15:16:31+00:00",
-      "preview": "Language models under one million parameters matter for edge deployment, domain adaptation, and reproducible research, yet a two-layer LSTM or Transformer at embedding width d = 128 still spends roughly one third of its\u2026"
-    },
-    {
-      "title": "Learning Intrusion Response Strategies for OT Systems",
-      "url": "https://arxiv.org/abs/2609.10298v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T15:12:52+00:00",
-      "preview": "Cyberattacks against Operational Technology (OT) systems, which monitor and control industrial processes, pose an increasing threat to essential societal services. For this reason, developing automated intrusion\u2026"
-    },
-    {
-      "title": "The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding",
-      "url": "https://arxiv.org/abs/2609.10296v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-09T15:11:57+00:00",
-      "preview": "Non-invasive speech decoding remains constrained by the low signal-to-noise ratio of neural recordings, which makes fine-grained reconstruction of phonemes or individual words difficult. Motivated by neuroscientific\u2026"
-    },
-    {
-      "title": "An Empirical Analysis of ReDoS Vulnerabilities and ReDoS Detection Tools",
-      "url": "https://arxiv.org/abs/2609.10294v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T15:09:34+00:00",
-      "preview": "ReDoS vulnerabilities are a type of denial of service software weakness that occurs when a regex is used to validate user-supplied input. In some cases, the regex matching process can take exponential time, leading to a\u2026"
-    },
-    {
-      "title": "GANDR: Claim Auditing for Verifiable Legal Answer Generation",
-      "url": "https://arxiv.org/abs/2609.10293v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-09T15:08:09+00:00",
-      "preview": "In high-stakes domains such as legal practice, a language-model answer is only useful to the extent that a reader can verify each claim against the source the system cites. Current grounded-generation pipelines score\u2026"
-    },
-    {
-      "title": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
-      "url": "https://arxiv.org/abs/2609.10266v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-09T14:53:45+00:00",
-      "preview": "LLM serving systems already reuse KV caches, but only when the reused text sits at the very start of the prompt. Two growing workloads break this condition: a retrieval-augmented generation server assembles a different\u2026"
-    },
-    {
-      "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
-      "url": "https://arxiv.org/abs/2609.10264v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T14:53:17+00:00",
-      "preview": "Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering transparency and the ability to run inference without exposing user inputs to a service provider. However,\u2026"
-    },
-    {
-      "title": "Are Unreachable Nodes Truly Safe? Fully Eclipsing Monero's P2P Network!",
-      "url": "https://arxiv.org/abs/2609.10260v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T14:43:56+00:00",
-      "preview": "Eclipse attacks isolate a blockchain node by monopolizing its network connections. Existing attacks on Monero (NDSS'25), Bitcoin (USENIX'15/21, S&P'20) and Ethereum (WWW'26) implicitly assume that the adversary can\u2026"
-    },
-    {
-      "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
-      "url": "https://arxiv.org/abs/2609.10246v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T14:35:18+00:00",
-      "preview": "Once complex, creating and deploying a new cryptocurrency has become trivial. Coin launchpads now allow users to generate a new coin with merely a few clicks, at a minimal cost. Launchpad popularity has grown in tandem\u2026"
-    },
-    {
-      "title": "Sound Debloating of Redundant Checks in Zero-Knowledge Machine-Learning Circuits",
-      "url": "https://arxiv.org/abs/2609.10149v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T13:27:25+00:00",
-      "preview": "Zero-knowledge (ZK) proof systems for neural-network inference compile the model into a system of arithmetic constraints. Many of these constraints are redundant checks: range proofs, sign lookups, and bit\u2026"
-    },
-    {
-      "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
-      "url": "https://arxiv.org/abs/2609.10142v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T13:19:37+00:00",
-      "preview": "Large language models remain fragile against malicious fine-tuning, motivating training-time defenses against harmful persona drift. Preventative Steering injects undesirable-trait persona vectors during fine-tuning and\u2026"
-    },
-    {
-      "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
-      "url": "https://arxiv.org/abs/2609.10117v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T12:51:55+00:00",
-      "preview": "Trusted Execution Environments (TEEs) offer a promising mechanism for safeguarding the intellectual property of on-device Large Language Models (LLMs). To overcome the inherent computational bottlenecks of TEEs,\u2026"
-    },
-    {
-      "title": "Beyond Training: A Feasibility Taxonomy for Inference-Time AI Governance",
-      "url": "https://arxiv.org/abs/2609.10105v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-09T12:37:17+00:00",
-      "preview": "Compute governance today is a governance of training: the thresholds, reporting requirements, and frontier-AI regimes now in force attach to training compute and treat the trained model as the regulatory unit. That\u2026"
     }
   ]
 }
