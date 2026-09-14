@@ -1,7 +1,21 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-14T16:11:14.815694+00:00",
+  "last_updated": "2026-09-14T21:30:53.565220+00:00",
   "items": [
+    {
+      "title": "Type Diversity Enables Transformers to Generalise Compositionally",
+      "url": "https://arxiv.org/abs/2609.13144v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T17:59:07+00:00",
+      "preview": "Compositional generalisation has been divided into lexical and structural generalisation. Previous work has found that structural generalisation is harder than lexical for Transformers. We propose that this difference\u2026"
+    },
+    {
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "url": "https://arxiv.org/abs/2609.13141v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T17:58:06+00:00",
+      "preview": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods\u2026"
+    },
     {
       "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
       "url": "https://arxiv.org/abs/2609.13134v1",
@@ -22,6 +36,13 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-11T17:46:15+00:00",
       "preview": "Dance-to-music (D2M) generation aims to synthesize music that is rhythmically and stylistically aligned with dance videos. A key challenge arises from the semantic mismatch between sparse dance cues, such as rhythm and\u2026"
+    },
+    {
+      "title": "Continue, Adapt, or Yield: In-Turn Adaptation to Overlapping Speech in Full-Duplex Agents",
+      "url": "https://arxiv.org/abs/2609.13117v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T17:46:10+00:00",
+      "preview": "Full-duplex evaluation often emphasizes whether an agent keeps speaking or stops. That binary cannot express a third response humans use routinely: continuing to speak while incorporating what the listener just\u2026"
     },
     {
       "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
@@ -73,6 +94,13 @@
       "preview": "Clinical timelines support treatment-window analysis and leakage-free modeling, but discharge summaries often obscure chronology and structured EHR tables describe only part of the patient course. We present a\u2026"
     },
     {
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.13058v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T16:58:41+00:00",
+      "preview": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mixture-of-Experts (MoE) models have primarily focused on improving optimization stability and training\u2026"
+    },
+    {
       "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
       "url": "https://arxiv.org/abs/2609.13053v1",
       "source": "arXiv cs.AI",
@@ -85,6 +113,13 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-11T16:43:48+00:00",
       "preview": "Humans organize knowledge into a taxonomy of concepts with nested levels of abstraction and a \\emph{basic level} at which people recognize and name objects with the least cognitive effort. Cobweb is a classic cognitive\u2026"
+    },
+    {
+      "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
+      "url": "https://arxiv.org/abs/2609.13045v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T16:41:22+00:00",
+      "preview": "Speech-to-speech translation (S2ST) has advanced significantly with speech LLMs, offering the potential for joint optimization and preserving non-linguistic information. However, these models struggle with predicting\u2026"
     },
     {
       "title": "Unified CT and MRI Pancreas Segmentation for Label-Efficient Cross-Modality Subregion Transfer",
@@ -108,11 +143,60 @@
       "preview": "Symmetries play a central role in reducing the complexity of reinforcement learning problems, yet most existing approaches rely on fixed group actions or predefined state abstractions. Classical reinforcement learning\u2026"
     },
     {
+      "title": "Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models",
+      "url": "https://arxiv.org/abs/2609.13005v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T16:04:00+00:00",
+      "preview": "Large language models (LLMs) have achieved strong performance on a wide range of natural language tasks, and recent benchmarks suggest that they are increasingly adept at multi-hop reasoning. However, these benchmarks\u2026"
+    },
+    {
       "title": "IntentFuzz: A Protocol-Aware Fuzzer for Automated Invariant Violation Detection in Intent-Based Cross-Chain Bridges",
       "url": "https://arxiv.org/abs/2609.13004v1",
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-09-11T16:03:54+00:00",
       "preview": "Cross-chain bridges move value between blockchains. Intent-based bridges are a variant where a solver fulfills a user's declared outcome and an off-chain settlement layer later reconciles the fill against the deposit.\u2026"
+    },
+    {
+      "title": "Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage",
+      "url": "https://arxiv.org/abs/2609.13003v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T16:02:19+00:00",
+      "preview": "Binary-choice truth benchmarks ask models to choose between a correct and an incorrect answer, but if the two answers differ systematically in surface-level features, models can exceed chance without performing the\u2026"
+    },
+    {
+      "title": "Investigating Temporal Motion Features for Pose-to-Text Indian Sign Language Translation",
+      "url": "https://arxiv.org/abs/2609.12993v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T15:55:03+00:00",
+      "preview": "We investigate the effect of pretrained T5 model scale and explicit motion features on pose-to-text Indian Sign Language Translation (SLT) for the WSLP 2026 Shared Task. Pose sequences are projected into the embedding\u2026"
+    },
+    {
+      "title": "Fewer Words, Not Fewer Tokens: Measuring the Sanskrit Tokenization Penalty per Proposition",
+      "url": "https://arxiv.org/abs/2609.12960v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T15:19:48+00:00",
+      "preview": "Sanskrit fuses case, number, person and tense into word endings and chains clauses into compounds, so it is information-dense per word. Whether that density survives subword tokenization is a separate question, to be\u2026"
+    },
+    {
+      "title": "PA-CDM: Position-Aware Character Detection Matching for Evaluating Handwritten Mathematical Expression Recognition",
+      "url": "https://arxiv.org/abs/2609.12917v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T14:43:05+00:00",
+      "preview": "Handwritten mathematical expression recognition (HMER) is conventionally scored by exact-match rates and string-similarity metrics that are blind to where an error occurs: two predictions with identical token-error\u2026"
+    },
+    {
+      "title": "LLM-Enhanced Dual-Branch Learning for Large-Scale Multi-Label Text Classification",
+      "url": "https://arxiv.org/abs/2609.12915v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T14:42:16+00:00",
+      "preview": "Large-scale multi-label text classification assigns a small subset of relevant labels to each document from a vocabulary containing thousands or tens of thousands of candidate labels. Although pretrained language models\u2026"
+    },
+    {
+      "title": "Parameter-Efficient Retrievers for Polish and European Languages",
+      "url": "https://arxiv.org/abs/2609.12913v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T14:41:26+00:00",
+      "preview": "Dense retrieval systems increasingly rely on multi-billion-parameter language models, whose memory and computational requirements make large-scale indexing, frequent corpus updates, and low-latency serving costly. We\u2026"
     },
     {
       "title": "Shuffling is Not Enough: Breaking Permutation-Based Model Confidentiality in Hybrid FHE Inference",
@@ -127,6 +211,13 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-09-11T14:35:42+00:00",
       "preview": "Semantic watermarking schemes such as Tree-Ring hide a detectable pattern in the initial noise latent of a diffusion model. Recent work shows these watermarks are not only removable but forgeable: an attacker who never\u2026"
+    },
+    {
+      "title": "MedSNIP: Building and Benchmarking Snippet-Level Granularity for Medical Fact Verification",
+      "url": "https://arxiv.org/abs/2609.12884v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-11T14:08:44+00:00",
+      "preview": "A medical claim's correctness often depends not on the claim alone, but on the clinical structure around it. A claim may require a lab reference range, a causal or conditional link, or patient-specific details to be\u2026"
     },
     {
       "title": "A Graph-Based Approach for Mapping Kernel-Level Telemetry to MITRE ATT&CK",
@@ -190,97 +281,6 @@
       "source": "arXiv cs.CR (Security, incl. AI/cyber)",
       "published": "2026-09-11T08:35:43+00:00",
       "preview": "When an autonomous AI agent does something consequential, what can be proven about what it did? Agent-observability platforms capture traces, but a trace is mutable: alterable undetected, with no recipe for re-executing\u2026"
-    },
-    {
-      "title": "MicroHasTEE: Bare-Metal Haskell for Type-Level Peripheral Ownership on Armv8-M",
-      "url": "https://arxiv.org/abs/2609.12580v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-11T08:34:10+00:00",
-      "preview": "Arm TrustZone for Armv8-M isolates Secure and Non-secure software, but developers must still coordinate peripheral attribution, interrupt routing, initialization, and gateway interfaces across separately built firmware\u2026"
-    },
-    {
-      "title": "PIA-Bench: Towards Automated Privacy Impact Assessment with Large Language Models",
-      "url": "https://arxiv.org/abs/2609.12571v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-11T08:16:03+00:00",
-      "preview": "Privacy impact assessment (PIA) is a critical instrument for institutions to proactively identify privacy risks and develop mitigation strategies before system deployment. While mandated across regulatory and\u2026"
-    },
-    {
-      "title": "Omniscience for the Masses: New Threats in the Metaverse's Democratized World Creation",
-      "url": "https://arxiv.org/abs/2609.12554v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-11T08:00:18+00:00",
-      "preview": "Metaverse platforms increasingly derive their success from user-generated virtual worlds: self-contained social and interactive environments, which can be created by any ordinary user and scale to billions of visits.\u2026"
-    },
-    {
-      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-      "url": "https://arxiv.org/abs/2609.11923v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:58:14+00:00",
-      "preview": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small,\u2026"
-    },
-    {
-      "title": "General Quantification of Covariate and Concept Shifts",
-      "url": "https://arxiv.org/abs/2609.11918v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:57:52+00:00",
-      "preview": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper,\u2026"
-    },
-    {
-      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-      "url": "https://arxiv.org/abs/2609.11917v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-10T17:57:33+00:00",
-      "preview": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of\u2026"
-    },
-    {
-      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-      "url": "https://arxiv.org/abs/2609.11916v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:57:32+00:00",
-      "preview": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to\u2026"
-    },
-    {
-      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
-      "url": "https://arxiv.org/abs/2609.11915v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:57:28+00:00",
-      "preview": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix\u2026"
-    },
-    {
-      "title": "Distance generalization in transformers: why bother with positional encoding?",
-      "url": "https://arxiv.org/abs/2609.11913v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-10T17:57:19+00:00",
-      "preview": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance\u2026"
-    },
-    {
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "url": "https://arxiv.org/abs/2609.11911v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:56:41+00:00",
-      "preview": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely\u2026"
-    },
-    {
-      "title": "EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity",
-      "url": "https://arxiv.org/abs/2609.11901v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-10T17:54:55+00:00",
-      "preview": "EFI pairs (Brakerski, Canetti, and Qian, ITCS 2023) and one-way puzzles (Khurana and Tomer, STOC 2024) are the leading candidates for the minimal assumption of quantum cryptography. The first are efficiently preparable\u2026"
-    },
-    {
-      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-      "url": "https://arxiv.org/abs/2609.11900v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-10T17:54:32+00:00",
-      "preview": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these\u2026"
-    },
-    {
-      "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
-      "url": "https://arxiv.org/abs/2609.11892v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-10T17:50:35+00:00",
-      "preview": "As Speech Large Language Models (speech-LLMs) become increasingly multilingual, Arabic remains significantly underrepresented, highlighting the need for dedicated infrastructure to train and evaluate Arabic speech-LLMs.\u2026"
     }
   ]
 }
