@@ -1,7 +1,35 @@
 {
   "category": "overall",
-  "last_updated": "2026-09-16T20:54:03.179186+00:00",
+  "last_updated": "2026-09-17T00:06:11.835363+00:00",
   "items": [
+    {
+      "title": "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
+      "url": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/",
+      "source": "Wired - AI",
+      "published": "2026-09-16T22:07:24+00:00",
+      "preview": "The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without\u2026"
+    },
+    {
+      "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data",
+      "url": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
+      "source": "MarkTechPost",
+      "published": "2026-09-16T21:59:26+00:00",
+      "preview": "Paper2Agent, published in Nature, converts papers into validated MCP tools, scoring 91.2% on 300 questions across 74 papers. The post Stanford Researchers\u2026"
+    },
+    {
+      "title": "Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens",
+      "url": "https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens/",
+      "source": "MarkTechPost",
+      "published": "2026-09-16T21:19:32+00:00",
+      "preview": "GLiFormer Large scores 91.10 F1 on nested JSON, near GPT-5.6-luna's 91.96, while grounding every value in source spans. The post Knowledgator Releases\u2026"
+    },
+    {
+      "title": "Washington Won\u2019t Be Regulating AI Anytime Soon",
+      "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+      "source": "Wired - AI",
+      "published": "2026-09-16T21:00:00+00:00",
+      "preview": "Even with mounting concerns about AI models going rogue, legislation appears unlikely, and the White House is outright opposed to oversight."
+    },
     {
       "title": "I Trained a Fly\u2019s Brain to Generate WIRED Story Ideas",
       "url": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas/",
@@ -15,6 +43,13 @@
       "source": "ControlAI News",
       "published": "2026-09-16T18:21:01+00:00",
       "preview": "AIs have already gone rogue and hacked real organizations. Here are three common-sense stopgaps to address immediate threats. To avert the risk of human\u2026"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI News",
+      "published": "2026-09-16T17:00:00+00:00",
+      "preview": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
     },
     {
       "title": "Helping older adults use AI in everyday life",
@@ -246,41 +281,6 @@
       "source": "Wired - AI",
       "published": "2026-09-14T09:00:00+00:00",
       "preview": "While the publishing industry frets over how authors are using AI, many readers are taking things into their own hands."
-    },
-    {
-      "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
-      "url": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
-      "source": "MarkTechPost",
-      "published": "2026-09-14T08:04:27+00:00",
-      "preview": "NVIDIA has open-sourced OSMO, the Kubernetes-native workflow orchestrator it uses internally for Project GR00T, Isaac Lab, and Isaac Sim. OSMO lets robotics\u2026"
-    },
-    {
-      "title": "Anthropic\u2019s 3-Step \u2018Pace the Frontier\u2019 Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
-      "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
-      "source": "MarkTechPost",
-      "published": "2026-09-14T01:44:01+00:00",
-      "preview": "Dario Amodei published \"We Must Pace the Frontier,\" and Sam Altman, Elon Musk and Satya Nadella endorsed it within a day. The trigger was a July incident in\u2026"
-    },
-    {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "OpenAI News",
-      "published": "2026-09-14T00:00:00+00:00",
-      "preview": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
-    },
-    {
-      "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
-      "url": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/",
-      "source": "MarkTechPost",
-      "published": "2026-09-13T19:46:38+00:00",
-      "preview": "In this tutorial, we build an end-to-end hierarchical Neural Radiance Field (NeRF) using JAX, Flax, Optax, and the volume-rendering primitives provided by\u2026"
-    },
-    {
-      "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
-      "url": "https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/",
-      "source": "MarkTechPost",
-      "published": "2026-09-13T17:02:26+00:00",
-      "preview": "Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired with a recurrent decoder that carries its final hidden state\u2026"
     }
   ]
 }
