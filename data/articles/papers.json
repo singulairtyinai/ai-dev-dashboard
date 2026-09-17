@@ -1,7 +1,189 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-17T00:06:12.180092+00:00",
+  "last_updated": "2026-09-17T07:11:11.517443+00:00",
   "items": [
+    {
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "url": "https://arxiv.org/abs/2609.19145v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:59:45+00:00",
+      "preview": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and\u2026"
+    },
+    {
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "url": "https://arxiv.org/abs/2609.19144v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:59:35+00:00",
+      "preview": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates\u2026"
+    },
+    {
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "url": "https://arxiv.org/abs/2609.19143v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T17:59:30+00:00",
+      "preview": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but\u2026"
+    },
+    {
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "url": "https://arxiv.org/abs/2609.19137v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:56:44+00:00",
+      "preview": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in\u2026"
+    },
+    {
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "url": "https://arxiv.org/abs/2609.19134v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T17:55:47+00:00",
+      "preview": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge\u2026"
+    },
+    {
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "url": "https://arxiv.org/abs/2609.19128v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:50:42+00:00",
+      "preview": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that\u2026"
+    },
+    {
+      "title": "Affora: A Design System for Agent-Friendly Interfaces",
+      "url": "https://arxiv.org/abs/2609.19125v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:46:34+00:00",
+      "preview": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports both readers while\u2026"
+    },
+    {
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "url": "https://arxiv.org/abs/2609.19124v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:46:06+00:00",
+      "preview": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and mechanistic\u2026"
+    },
+    {
+      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
+      "url": "https://arxiv.org/abs/2609.19113v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T17:41:12+00:00",
+      "preview": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions.\u2026"
+    },
+    {
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+      "url": "https://arxiv.org/abs/2609.19104v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:34:43+00:00",
+      "preview": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies.\u2026"
+    },
+    {
+      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "url": "https://arxiv.org/abs/2609.19101v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T17:31:52+00:00",
+      "preview": "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented\u2026"
+    },
+    {
+      "title": "Prepared Or Unprepared? Evaluating Healthcare Workforce Readiness for Clinical Adoption of Artificial Intelligence in Nigeria",
+      "url": "https://arxiv.org/abs/2609.19096v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:30:48+00:00",
+      "preview": "Artificial intelligence (AI) is increasingly integrated into healthcare systems worldwide, yet its successful clinical adoption depends critically on workforce readiness, particularly in low- and middle-income countries\u2026"
+    },
+    {
+      "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+      "url": "https://arxiv.org/abs/2609.19093v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:28:51+00:00",
+      "preview": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in\u2026"
+    },
+    {
+      "title": "Securing quantum error correction against misleading advice from AI agents",
+      "url": "https://arxiv.org/abs/2609.19090v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:26:54+00:00",
+      "preview": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then\u2026"
+    },
+    {
+      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+      "url": "https://arxiv.org/abs/2609.19088v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:26:10+00:00",
+      "preview": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must\u2026"
+    },
+    {
+      "title": "Probabilistic Linear Explanations",
+      "url": "https://arxiv.org/abs/2609.19077v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:18:00+00:00",
+      "preview": "Formal explainability provides mathematically grounded justifications for individual predictions. However, abductive explanations often exceed human cognitive limits by involving too many features, while probabilistic\u2026"
+    },
+    {
+      "title": "Double descent is the principle of least action",
+      "url": "https://arxiv.org/abs/2609.19076v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:17:46+00:00",
+      "preview": "The test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon\u2026"
+    },
+    {
+      "title": "RLLBC-Lib: An Educational Code Library for Reinforcement Learning and Learning-Based Control",
+      "url": "https://arxiv.org/abs/2609.19074v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:15:59+00:00",
+      "preview": "Reinforcement learning (RL) is an exciting concept as well as a remarkable success story worth sharing. However, RL builds on rather complex interactions between different objects that play out over several cycles. Such\u2026"
+    },
+    {
+      "title": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs",
+      "url": "https://arxiv.org/abs/2609.18935v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T17:09:05+00:00",
+      "preview": "A game character should not have to reread its entire life before every conversation. For locally deployed language-model characters, however, revising a few memories can invalidate a long reusable prefix. The resulting\u2026"
+    },
+    {
+      "title": "Social Laws for Multi-agent Coordination in Stochastic Environments",
+      "url": "https://arxiv.org/abs/2609.18929v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-16T17:05:03+00:00",
+      "preview": "In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused\u2026"
+    },
+    {
+      "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
+      "url": "https://arxiv.org/abs/2609.18909v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T16:49:50+00:00",
+      "preview": "Agent benchmarks are substantially more costly to evaluate than conventional LLM benchmarks. Benchmark compression is therefore a natural solution, yet existing methods primarily model redundancy in task--model\u2026"
+    },
+    {
+      "title": "How Much is a Human Right Worth? ECtHR-NPD: A Benchmark for Predicting Non-Pecuniary Damage Awards",
+      "url": "https://arxiv.org/abs/2609.18908v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T16:49:48+00:00",
+      "preview": "Existing legal benchmarks cover diverse tasks, while continuous monetary remedies remain comparatively underexplored. We introduce ECtHR-NPD, to the best of our knowledge, the first benchmark for predicting\u2026"
+    },
+    {
+      "title": "Structured Claim-Level Discourse Representations for Dense Health Narratives",
+      "url": "https://arxiv.org/abs/2609.18905v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T16:43:11+00:00",
+      "preview": "Health discourse in social media videos often contains densely entangled claims spanning multiple thematic aspects, stances, evidential frames, and rhetorical functions within short conversational spans. Existing\u2026"
+    },
+    {
+      "title": "PersonaPath: Towards Knowledge-Centric Personalized Learning Path Planning",
+      "url": "https://arxiv.org/abs/2609.18861v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T16:00:46+00:00",
+      "preview": "Adaptive learning systems commonly formulate learning path planning as Exercise-Centric (EC) recommendation, where the next step is inferred from item-level interaction logs. Evaluating goal-oriented guidance\u2026"
+    },
+    {
+      "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+      "url": "https://arxiv.org/abs/2609.18860v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T16:00:36+00:00",
+      "preview": "When a large vision-language model misclassifies a harmful meme, the failure may reflect missing internal evidence or an inability to route represented evidence to its output. We distinguish these cases in Gemma-3 and\u2026"
+    },
+    {
+      "title": "EviGen: Predictive Evidence Scaffolding for Verifiable Clinical Rationale Generation",
+      "url": "https://arxiv.org/abs/2609.18852v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-16T15:55:41+00:00",
+      "preview": "Longitudinal electronic health records (EHRs) capture years of patient history across notes, codes, labs, and procedures, and contain evidence needed to reason about likely clinical outcomes. However, comprehensive\u2026"
+    },
     {
       "title": "Agentic Societies Need a Social Harness",
       "url": "https://arxiv.org/abs/2609.17527v1",
@@ -99,188 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-15T17:04:09+00:00",
       "preview": "Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches\u2026"
-    },
-    {
-      "title": "Evaluating Verified Autonomy in Quantum Engineering",
-      "url": "https://arxiv.org/abs/2609.17439v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T16:46:08+00:00",
-      "preview": "Reliable quantum engineering is essential for turning quantum phenomena into practical technologies. As quantum platforms grow in scale and complexity, their characterization and operation require increasing human\u2026"
-    },
-    {
-      "title": "Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM",
-      "url": "https://arxiv.org/abs/2609.17435v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T16:43:32+00:00",
-      "preview": "We submit M\u00e9TRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80%\u2026"
-    },
-    {
-      "title": "CareMirror: Bringing Caregiver Wellbeing into the Dementia Care Ecosystem",
-      "url": "https://arxiv.org/abs/2609.17434v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T16:43:17+00:00",
-      "preview": "Family caregivers of people living with dementia shoulder emotional and practical responsibilities, yet their own wellbeing often remains peripheral to dementia care. We built CareMirror, an envisioned caregiver\u2026"
-    },
-    {
-      "title": "Learning-Guided Planning in Large Dynamic Action Spaces: Budgeted Tree Search for One-to-Many Mobile Charging",
-      "url": "https://arxiv.org/abs/2609.17429v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T16:42:12+00:00",
-      "preview": "Many learned sequential decision systems map the current state directly to an action. That shortcut becomes brittle when candidate actions are numerous, geometrically structured, and rebuilt with the state. One-to-many\u2026"
-    },
-    {
-      "title": "SCHERI: Provably Secure Speculation Under the Constant-Time Policy for CHERI (Extended Version)",
-      "url": "https://arxiv.org/abs/2609.17399v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T16:33:45+00:00",
-      "preview": "Capability-based architectures such as CHERI provide strong support for the architectural isolation of software components. To additionally protect against microarchitectural leakage, software can be written in a\u2026"
-    },
-    {
-      "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
-      "url": "https://arxiv.org/abs/2609.17398v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T16:33:38+00:00",
-      "preview": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medical language, bridging a critical gap\u2026"
-    },
-    {
-      "title": "Closing the Loop: Bidirectional Fully Encrypted Protocols",
-      "url": "https://arxiv.org/abs/2609.17397v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T16:32:07+00:00",
-      "preview": "Fully encrypted protocols (FEPs) provide encrypted channels that make all protocol-generated bytes computationally indistinguishable from uniform random strings. Several previous works have explored security definitions\u2026"
-    },
-    {
-      "title": "Large Language Models Develop Belief State Geometry In-Context",
-      "url": "https://arxiv.org/abs/2609.17376v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T16:17:59+00:00",
-      "preview": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly understood. We consider such representations\u2026"
-    },
-    {
-      "title": "ECHO: A Matched-Contrast Benchmark for Context-Sensitive Turn-Taking in Full-Duplex Dialogue",
-      "url": "https://arxiv.org/abs/2609.17360v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T15:58:48+00:00",
-      "preview": "Full-duplex spoken dialogue systems must distinguish interruptions that require yielding the floor from backchannels that permit continued speaking. Existing benchmarks typically evaluate events independently and may\u2026"
-    },
-    {
-      "title": "RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems",
-      "url": "https://arxiv.org/abs/2609.17349v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T15:49:04+00:00",
-      "preview": "In embodied cyber-physical systems, active cyberattacks pose an immediate threat not just to data, but to physical integrity and human safety. While existing security approaches excel at detection, they lack the runtime\u2026"
-    },
-    {
-      "title": "Where Should a Document Live: Context, Representations, or Parameters?",
-      "url": "https://arxiv.org/abs/2609.17346v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T15:47:02+00:00",
-      "preview": "To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, encoded into the model's parameters, or\u2026"
-    },
-    {
-      "title": "Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs",
-      "url": "https://arxiv.org/abs/2609.17327v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T15:32:15+00:00",
-      "preview": "This paper describes our submission to the SHROOM-Visions shared task on detecting and classifying hallucinated character spans in vision-language model outputs across four languages. We employ several fine-tuned\u2026"
-    },
-    {
-      "title": "Towards Detecting AI-Assisted Responses in Online Surveys",
-      "url": "https://arxiv.org/abs/2609.17317v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T15:27:04+00:00",
-      "preview": "The use of LLMs to complete online surveys impacts the validity of survey-based research, but detecting such usage remains underexplored. We introduce an initial benchmark dataset, namely ASURRE, for AI-assisted survey\u2026"
-    },
-    {
-      "title": "Can We Stop The Ads? Taxonomy and Characterization of Smartphone Splash Ads and Existing Countermeasures",
-      "url": "https://arxiv.org/abs/2609.17316v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T15:24:14+00:00",
-      "preview": "Splash ads are full-screen advertisements that pop up and appear as the first interaction page when users start an app, often tricking users into unknowingly activating certain trigger mechanisms, such as moving the\u2026"
-    },
-    {
-      "title": "Zero-shot narrative detection in social messaging",
-      "url": "https://arxiv.org/abs/2609.17310v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T15:20:49+00:00",
-      "preview": "This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages. Our research hypothesis is that LLMs' extensive contextual knowledge allows\u2026"
-    },
-    {
-      "title": "GAUGE: A Formal Framework for Measuring Cryptographic Security under Heterogeneous Adversary Cost Models",
-      "url": "https://arxiv.org/abs/2609.17281v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T14:55:29+00:00",
-      "preview": "Standards bodies report cryptographic security as a single number of bits, but this value depends on the adversary cost model used to price time, memory, and quantum resources. Different conventions can therefore\u2026"
-    },
-    {
-      "title": "Towards Illusions Awareness in Cyber-Physical System's Design",
-      "url": "https://arxiv.org/abs/2609.17260v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T14:40:10+00:00",
-      "preview": "Cyber-Physical Systems (CPS) operate through a continuous sense-compute-act loop within an open context environment, making it impossible to anticipate all the situations the system will face. To cope with this\u2026"
-    },
-    {
-      "title": "SEMA-GUARD: Semantic and Graph-Based Vulnerability Detection in Assembly Code",
-      "url": "https://arxiv.org/abs/2609.17254v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T14:35:18+00:00",
-      "preview": "In cases where source code is not available, such as malware analysis, firmware analysis, and embedded systems analysis, vulnerability detection in compiled programs has gained importance. Current methods are heavily\u2026"
-    },
-    {
-      "title": "Cross-Domain Inference for Human Localization: Applying Wi-Fi RSSI Data to CSI-Trained Models",
-      "url": "https://arxiv.org/abs/2609.17204v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T13:56:26+00:00",
-      "preview": "Wi-Fi signal data can be used to compromise the privacy of individuals. While many existing approaches rely on Channel State Information (CSI), collecting this data on typical IoT devices often requires elevated\u2026"
-    },
-    {
-      "title": "Plug 'n' Pray: Agentic LLM-based Detection of Potential Log File Exposures in Third-Party Content Management System Plugins",
-      "url": "https://arxiv.org/abs/2609.17164v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T13:29:53+00:00",
-      "preview": "Content Management Systems (CMS), such as WordPress, power a large share of the web (~58%), and their extensibility through third-party plugins is a major source of their popularity as well as of their attack surface.\u2026"
-    },
-    {
-      "title": "Observational Indistinguishability and Integrity Blind Regions in Hybrid Quantum-Classical Workflows",
-      "url": "https://arxiv.org/abs/2609.17150v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T13:16:37+00:00",
-      "preview": "We present a claim-relative evidence/reference framework for hybrid quantum-classical workflow integrity. Observational indistinguishability yields structural blind regions, distinct from finite-batch statistical\u2026"
-    },
-    {
-      "title": "TasmScan: Continuation-Aware Taint Analysis for TVM Bytecode with Savelist Abstraction",
-      "url": "https://arxiv.org/abs/2609.16987v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T11:01:51+00:00",
-      "preview": "The Open Network (TON), with a peak market capitalization exceeding $20 billion and over 175 million activated on-chain addresses, relies on the TVM (TON Virtual Machine) to execute smart contracts. TVM uses first-class\u2026"
-    },
-    {
-      "title": "Cybersecurity in Power Grids: Standards and Research Challenges",
-      "url": "https://arxiv.org/abs/2609.16928v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T10:03:52+00:00",
-      "preview": "This paper examines Smart Grid cybersecurity, emphasizing the critical distinctions between IT and OT environments. It analyzes grid architecture, substation threats, and key international standards, specifically IEC\u2026"
-    },
-    {
-      "title": "ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation",
-      "url": "https://arxiv.org/abs/2609.16915v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T09:51:33+00:00",
-      "preview": "Generative large language models (LLMs) have achieved state-of-the-art performance on many real-world tasks such as code generation and question answering. These models predominantly rely on an autoregressive decoding\u2026"
-    },
-    {
-      "title": "OptiPrime: Optimizing Private Inference through Protocol-Hardware Co-design",
-      "url": "https://arxiv.org/abs/2609.16898v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T09:29:58+00:00",
-      "preview": "Private deep neural network (DNN) inference based on hybrid homomorphic encryption (HE) and multi-party computation (MPC) can protect user data with a formal guarantee, but at the cost of significant latency overhead\u2026"
-    },
-    {
-      "title": "What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking",
-      "url": "https://arxiv.org/abs/2609.16832v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T08:30:39+00:00",
-      "preview": "Local image watermarking embeds an invisible signal into selected image regions rather than spreading it across the entire image, enabling payload recovery from specific objects or regions without perceptibly altering\u2026"
     }
   ]
 }
