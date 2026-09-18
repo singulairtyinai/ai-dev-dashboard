@@ -1,7 +1,112 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-17T23:55:10.463641+00:00",
+  "last_updated": "2026-09-18T03:18:39.831489+00:00",
   "items": [
+    {
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:59:58+00:00",
+      "preview": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific\u2026"
+    },
+    {
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "url": "https://arxiv.org/abs/2609.20821v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:59:54+00:00",
+      "preview": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic\u2026"
+    },
+    {
+      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
+      "url": "https://arxiv.org/abs/2609.20808v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:58:25+00:00",
+      "preview": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in online speech draw on\u2026"
+    },
+    {
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:58:07+00:00",
+      "preview": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the\u2026"
+    },
+    {
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://arxiv.org/abs/2609.20800v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:55:57+00:00",
+      "preview": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling\u2026"
+    },
+    {
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20784v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:52:08+00:00",
+      "preview": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher\u2026"
+    },
+    {
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "url": "https://arxiv.org/abs/2609.20779v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:49:28+00:00",
+      "preview": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit\u2026"
+    },
+    {
+      "title": "dQwen3.5: Hybrid-Attention Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2609.20751v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:39:46+00:00",
+      "preview": "Adapting a pretrained autoregressive (AR) model is a cost-efficient route to a diffusion language model (DLM). While nearly all such adaptations start from a full-attention transformer, AR modeling has shifted toward\u2026"
+    },
+    {
+      "title": "On-Demand Attention: Language Models Know When to Recall",
+      "url": "https://arxiv.org/abs/2609.20734v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:24:48+00:00",
+      "preview": "Reasoning and agentic workloads increasingly demand efficient long-context inference. Yet full-attention decoding reads the growing history at every step, regardless of its benefit to the next prediction. We show that a\u2026"
+    },
+    {
+      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+      "url": "https://arxiv.org/abs/2609.20715v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:11:29+00:00",
+      "preview": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as\u2026"
+    },
+    {
+      "title": "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol",
+      "url": "https://arxiv.org/abs/2609.20712v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T17:09:58+00:00",
+      "preview": "This paper introduces and operationalizes summarization bias: a proposed systematic tendency of large language models (LLMs) to represent narrative meaning as an abstract summary label rather than as the reconstructable\u2026"
+    },
+    {
+      "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
+      "url": "https://arxiv.org/abs/2609.20684v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T16:53:47+00:00",
+      "preview": "Large language models are increasingly used in healthcare communication, yet most evaluations emphasize response quality while assuming that the user's concern has been interpreted correctly. We introduce HerHealthEval,\u2026"
+    },
+    {
+      "title": "PAA: The Probabilistic Allen Algebra: A Generative and Complete Probabilistic Extension of Allen's Interval Relations",
+      "url": "https://arxiv.org/abs/2609.20634v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T16:20:38+00:00",
+      "preview": "Allen's interval algebra is a qualitative calculus for temporal relations, but its thirteen base relations are crisp predicates over exact interval boundaries. This is inadequate for temporal information from language,\u2026"
+    },
+    {
+      "title": "UniPolicy: Unified Objective-Specific Policies for Generative Search Advertising",
+      "url": "https://arxiv.org/abs/2609.20630v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T16:17:00+00:00",
+      "preview": "Search advertising connects user intent with commercial content and plays a critical role in platform monetization. Recent systems typically align pretrained generative models with a single business reward, such as\u2026"
+    },
+    {
+      "title": "Chronicle: Cut-Point Replay for Regression Testing of LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20625v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-17T16:09:57+00:00",
+      "preview": "Large language model responses are non-deterministic, so failures in LLM agents are hard to reproduce: a failure depends on inference that is not bitwise reproducible, on tools that read changing state, and on a\u2026"
+    },
     {
       "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
       "url": "https://arxiv.org/abs/2609.19145v1",
@@ -176,111 +281,6 @@
       "source": "arXiv cs.CL",
       "published": "2026-09-16T16:00:36+00:00",
       "preview": "When a large vision-language model misclassifies a harmful meme, the failure may reflect missing internal evidence or an inability to route represented evidence to its output. We distinguish these cases in Gemma-3 and\u2026"
-    },
-    {
-      "title": "EviGen: Predictive Evidence Scaffolding for Verifiable Clinical Rationale Generation",
-      "url": "https://arxiv.org/abs/2609.18852v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T15:55:41+00:00",
-      "preview": "Longitudinal electronic health records (EHRs) capture years of patient history across notes, codes, labs, and procedures, and contain evidence needed to reason about likely clinical outcomes. However, comprehensive\u2026"
-    },
-    {
-      "title": "Agentic Societies Need a Social Harness",
-      "url": "https://arxiv.org/abs/2609.17527v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:57:27+00:00",
-      "preview": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic\u2026"
-    },
-    {
-      "title": "You Shall Not Pass into Ring-0! A User Privacy-Friendly Anti-Cheat Architecture for Personal Computers",
-      "url": "https://arxiv.org/abs/2609.17525v1",
-      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
-      "published": "2026-09-15T17:56:31+00:00",
-      "preview": "Kernel-level anti-cheats are effective against malicious player behavior in competitive video games, but raise significant user privacy concerns regarding installing unverifiable components at privileged modes (i.e.,\u2026"
-    },
-    {
-      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-      "url": "https://arxiv.org/abs/2609.17523v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:55:28+00:00",
-      "preview": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying\u2026"
-    },
-    {
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-      "url": "https://arxiv.org/abs/2609.17521v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:55:13+00:00",
-      "preview": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control\u2026"
-    },
-    {
-      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-      "url": "https://arxiv.org/abs/2609.17516v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:52:24+00:00",
-      "preview": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an\u2026"
-    },
-    {
-      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
-      "url": "https://arxiv.org/abs/2609.17515v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-15T17:51:48+00:00",
-      "preview": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool\u2026"
-    },
-    {
-      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
-      "url": "https://arxiv.org/abs/2609.17509v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:46:51+00:00",
-      "preview": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the\u2026"
-    },
-    {
-      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-      "url": "https://arxiv.org/abs/2609.17499v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:42:15+00:00",
-      "preview": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the\u2026"
-    },
-    {
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "url": "https://arxiv.org/abs/2609.17496v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:37:29+00:00",
-      "preview": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social\u2026"
-    },
-    {
-      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
-      "url": "https://arxiv.org/abs/2609.17488v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:30:02+00:00",
-      "preview": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is\u2026"
-    },
-    {
-      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
-      "url": "https://arxiv.org/abs/2609.17479v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:20:16+00:00",
-      "preview": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented\u2026"
-    },
-    {
-      "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
-      "url": "https://arxiv.org/abs/2609.17475v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:15:48+00:00",
-      "preview": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed\u2026"
-    },
-    {
-      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
-      "url": "https://arxiv.org/abs/2609.17474v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:15:40+00:00",
-      "preview": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge\u2026"
-    },
-    {
-      "title": "Decomposition Buys Integrity, Not Yield",
-      "url": "https://arxiv.org/abs/2609.17464v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-15T17:04:09+00:00",
-      "preview": "Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches\u2026"
     }
   ]
 }
