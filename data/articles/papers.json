@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-18T14:06:39.682151+00:00",
+  "last_updated": "2026-09-18T18:52:45.684730+00:00",
   "items": [
     {
       "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
@@ -15,6 +15,41 @@
       "source": "arXiv cs.CL",
       "published": "2026-09-17T17:59:54+00:00",
       "preview": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic\u2026"
+    },
+    {
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:59:53+00:00",
+      "preview": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many\u2026"
+    },
+    {
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "url": "https://arxiv.org/abs/2609.20817v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:59:40+00:00",
+      "preview": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation\u2026"
+    },
+    {
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:59:30+00:00",
+      "preview": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and\u2026"
+    },
+    {
+      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+      "url": "https://arxiv.org/abs/2609.20815v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:59:28+00:00",
+      "preview": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are\u2026"
+    },
+    {
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20812v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:59:04+00:00",
+      "preview": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to\u2026"
     },
     {
       "title": "Unifying Models of Intergroup Hostility in Online Discourse",
@@ -52,6 +87,41 @@
       "preview": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit\u2026"
     },
     {
+      "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+      "url": "https://arxiv.org/abs/2609.20776v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:48:07+00:00",
+      "preview": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may\u2026"
+    },
+    {
+      "title": "Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights",
+      "url": "https://arxiv.org/abs/2609.20768v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:46:03+00:00",
+      "preview": "Generative agents are increasingly used to select and narrate video highlights, but they typically operate over unstructured or frame-level representations. Their output is consequently difficult for a viewer to verify\u2026"
+    },
+    {
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "url": "https://arxiv.org/abs/2609.20758v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:42:29+00:00",
+      "preview": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests\u2026"
+    },
+    {
+      "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+      "url": "https://arxiv.org/abs/2609.20754v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:41:31+00:00",
+      "preview": "Effective troubleshooting agents in enterprise customer support depend on retrieving actionable guidance from similar historical cases, yet existing retrieval-augmented generation (RAG) systems treat support cases as\u2026"
+    },
+    {
+      "title": "Large Language Models as Falsifiers for Cyber-Physical Systems",
+      "url": "https://arxiv.org/abs/2609.20752v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:40:04+00:00",
+      "preview": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness\u2026"
+    },
+    {
       "title": "dQwen3.5: Hybrid-Attention Diffusion Language Models",
       "url": "https://arxiv.org/abs/2609.20751v1",
       "source": "arXiv cs.CL",
@@ -64,6 +134,13 @@
       "source": "arXiv cs.CL",
       "published": "2026-09-17T17:24:48+00:00",
       "preview": "Reasoning and agentic workloads increasingly demand efficient long-context inference. Yet full-attention decoding reads the growing history at every step, regardless of its benefit to the next prediction. We show that a\u2026"
+    },
+    {
+      "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+      "url": "https://arxiv.org/abs/2609.20732v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-17T17:22:43+00:00",
+      "preview": "Semantic cell annotation improves chunking interpretability for spreadsheets in LLM-driven RAG systems, aiding answer generation through enriched context rather than improved retrieval accuracy. We propose a novel\u2026"
     },
     {
       "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
@@ -204,83 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-16T17:26:54+00:00",
       "preview": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then\u2026"
-    },
-    {
-      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
-      "url": "https://arxiv.org/abs/2609.19088v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:26:10+00:00",
-      "preview": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must\u2026"
-    },
-    {
-      "title": "Probabilistic Linear Explanations",
-      "url": "https://arxiv.org/abs/2609.19077v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:18:00+00:00",
-      "preview": "Formal explainability provides mathematically grounded justifications for individual predictions. However, abductive explanations often exceed human cognitive limits by involving too many features, while probabilistic\u2026"
-    },
-    {
-      "title": "Double descent is the principle of least action",
-      "url": "https://arxiv.org/abs/2609.19076v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:17:46+00:00",
-      "preview": "The test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon\u2026"
-    },
-    {
-      "title": "RLLBC-Lib: An Educational Code Library for Reinforcement Learning and Learning-Based Control",
-      "url": "https://arxiv.org/abs/2609.19074v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:15:59+00:00",
-      "preview": "Reinforcement learning (RL) is an exciting concept as well as a remarkable success story worth sharing. However, RL builds on rather complex interactions between different objects that play out over several cycles. Such\u2026"
-    },
-    {
-      "title": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs",
-      "url": "https://arxiv.org/abs/2609.18935v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T17:09:05+00:00",
-      "preview": "A game character should not have to reread its entire life before every conversation. For locally deployed language-model characters, however, revising a few memories can invalidate a long reusable prefix. The resulting\u2026"
-    },
-    {
-      "title": "Social Laws for Multi-agent Coordination in Stochastic Environments",
-      "url": "https://arxiv.org/abs/2609.18929v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:05:03+00:00",
-      "preview": "In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused\u2026"
-    },
-    {
-      "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
-      "url": "https://arxiv.org/abs/2609.18909v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T16:49:50+00:00",
-      "preview": "Agent benchmarks are substantially more costly to evaluate than conventional LLM benchmarks. Benchmark compression is therefore a natural solution, yet existing methods primarily model redundancy in task--model\u2026"
-    },
-    {
-      "title": "How Much is a Human Right Worth? ECtHR-NPD: A Benchmark for Predicting Non-Pecuniary Damage Awards",
-      "url": "https://arxiv.org/abs/2609.18908v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T16:49:48+00:00",
-      "preview": "Existing legal benchmarks cover diverse tasks, while continuous monetary remedies remain comparatively underexplored. We introduce ECtHR-NPD, to the best of our knowledge, the first benchmark for predicting\u2026"
-    },
-    {
-      "title": "Structured Claim-Level Discourse Representations for Dense Health Narratives",
-      "url": "https://arxiv.org/abs/2609.18905v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T16:43:11+00:00",
-      "preview": "Health discourse in social media videos often contains densely entangled claims spanning multiple thematic aspects, stances, evidential frames, and rhetorical functions within short conversational spans. Existing\u2026"
-    },
-    {
-      "title": "PersonaPath: Towards Knowledge-Centric Personalized Learning Path Planning",
-      "url": "https://arxiv.org/abs/2609.18861v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T16:00:46+00:00",
-      "preview": "Adaptive learning systems commonly formulate learning path planning as Exercise-Centric (EC) recommendation, where the next step is inferred from item-level interaction logs. Evaluating goal-oriented guidance\u2026"
-    },
-    {
-      "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
-      "url": "https://arxiv.org/abs/2609.18860v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T16:00:36+00:00",
-      "preview": "When a large vision-language model misclassifies a harmful meme, the failure may reflect missing internal evidence or an inability to route represented evidence to its output. We distinguish these cases in Gemma-3 and\u2026"
     }
   ]
 }
