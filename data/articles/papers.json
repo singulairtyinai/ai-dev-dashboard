@@ -1,6 +1,6 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-19T17:00:27.203068+00:00",
+  "last_updated": "2026-09-19T20:04:57.345145+00:00",
   "items": [
     {
       "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
@@ -164,6 +164,13 @@
       "preview": "Large language models are increasingly used in healthcare communication, yet most evaluations emphasize response quality while assuming that the user's concern has been interpreted correctly. We introduce HerHealthEval,\u2026"
     },
     {
+      "title": "Multi-center Medical Data Mining with FL-Net - A One-stop Shop for Federated Learning",
+      "url": "https://arxiv.org/abs/2609.20650v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T16:28:45+00:00",
+      "preview": "Federated learning enables collaborative training without sharing patient-level data, but most studies remain simulations. Based on five requirements derived from the literature, we analyzed 14 FL frameworks and found\u2026"
+    },
+    {
       "title": "PAA: The Probabilistic Allen Algebra: A Generative and Complete Probabilistic Extension of Allen's Interval Relations",
       "url": "https://arxiv.org/abs/2609.20634v1",
       "source": "arXiv cs.CL",
@@ -185,102 +192,95 @@
       "preview": "Large language model responses are non-deterministic, so failures in LLM agents are hard to reproduce: a failure depends on inference that is not bitwise reproducible, on tools that read changing state, and on a\u2026"
     },
     {
-      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-      "url": "https://arxiv.org/abs/2609.19145v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:59:45+00:00",
-      "preview": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and\u2026"
+      "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+      "url": "https://arxiv.org/abs/2609.20614v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T15:59:45+00:00",
+      "preview": "Frontier AI models are rapidly gaining the ability to exploit vulnerabilities in complex pieces of software. The risk is not theoretical, as evidenced by recent sandbox escapes performed by frontier models at OpenAI and\u2026"
     },
     {
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://arxiv.org/abs/2609.19144v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:59:35+00:00",
-      "preview": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates\u2026"
+      "title": "Weather Data Spoofing Attacks on Rain-Adaptive Millimeter-Wave Frequency Selection in V2X Communication Networks",
+      "url": "https://arxiv.org/abs/2609.20601v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T15:49:11+00:00",
+      "preview": "Connected vehicles use millimeter-wave (mmWave) sidelinks for the data rates cooperative driving demands, and emerging designs select the carrier band from sensed rainfall. We show that this weather awareness is an\u2026"
     },
     {
-      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-      "url": "https://arxiv.org/abs/2609.19143v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T17:59:30+00:00",
-      "preview": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but\u2026"
+      "title": "Empirical Analysis of Randomness Quality in Differential Privacy Mechanisms",
+      "url": "https://arxiv.org/abs/2609.20561v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T15:26:27+00:00",
+      "preview": "Differential Privacy (DP) relies on carefully calibrated random noise to protect individual privacy in statistical analyses. While theoretical work has analyzed DP under weakened randomness assumptions, the practical\u2026"
     },
     {
-      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-      "url": "https://arxiv.org/abs/2609.19137v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:56:44+00:00",
-      "preview": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in\u2026"
+      "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
+      "url": "https://arxiv.org/abs/2609.20532v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T15:06:30+00:00",
+      "preview": "Wide adoption of machine learning has created growing policy and regulatory demand for protecting sensitive training data, with differential privacy (DP) emerging as a key mechanism. Yet a less-studied problem is how to\u2026"
     },
     {
-      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
-      "url": "https://arxiv.org/abs/2609.19134v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T17:55:47+00:00",
-      "preview": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge\u2026"
+      "title": "Worst-Case Hidden-Vehicle Trajectory Search in Spatiotemporal Occlusion Regions",
+      "url": "https://arxiv.org/abs/2609.20480v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T14:33:23+00:00",
+      "preview": "Occlusion creates fundamental uncertainty in autonomous driving. Existing methods often propagate frame-wise hypotheses or optimize ego behavior against prescribed hidden-agent predictions, leaving the worst\u2026"
     },
     {
-      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
-      "url": "https://arxiv.org/abs/2609.19128v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:50:42+00:00",
-      "preview": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that\u2026"
+      "title": "Fingerprinting Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20457v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T14:21:39+00:00",
+      "preview": "While multimodal large language models (MLLMs) enable a wide range of image-text reasoning tasks, recent incidents indicate that they are vulnerable to illicit deployment and unauthorized distillation. Existing\u2026"
     },
     {
-      "title": "Affora: A Design System for Agent-Friendly Interfaces",
-      "url": "https://arxiv.org/abs/2609.19125v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:46:34+00:00",
-      "preview": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports both readers while\u2026"
+      "title": "Compact Vision Models for Iris Presentation Attack Detection under Presentation Attack Instrument Shift and Environmental Degradation",
+      "url": "https://arxiv.org/abs/2609.20386v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T13:39:18+00:00",
+      "preview": "Iris presentation attack detection (PAD) is security-critical when a subsystem that appears reliable during development encounters presentation attack instruments (PAIs) or acquisition conditions absent from validation\u2026"
     },
     {
-      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
-      "url": "https://arxiv.org/abs/2609.19124v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:46:06+00:00",
-      "preview": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and mechanistic\u2026"
+      "title": "The More It Says, the More You Pay: A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
+      "url": "https://arxiv.org/abs/2609.20370v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T13:28:06+00:00",
+      "preview": "In pay-per-token LLM services, the more a model says, the more users pay. Dishonest providers can covertly manipulate generation to inflate output tokens while largely preserving task utility. We define such\u2026"
     },
     {
-      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
-      "url": "https://arxiv.org/abs/2609.19113v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T17:41:12+00:00",
-      "preview": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions.\u2026"
+      "title": "A Scalable Trust Discovery Architecture for the Internet of Agents",
+      "url": "https://arxiv.org/abs/2609.20095v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T11:55:29+00:00",
+      "preview": "The Internet of Agents is expected to enable large numbers of autonomous agents to discover, verify, and collaborate with each other across heterogeneous platforms. However, current agent protocols mainly address tool\u2026"
     },
     {
-      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
-      "url": "https://arxiv.org/abs/2609.19104v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:34:43+00:00",
-      "preview": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies.\u2026"
+      "title": "Competition, Collusion, and Corruption: The Spectrum of MEV Attacks on DAG-Based BFT Consensus Protocols",
+      "url": "https://arxiv.org/abs/2609.20069v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T11:23:00+00:00",
+      "preview": "Byzantine Fault-Tolerant (BFT) protocols guarantee safety and liveness despite the malicious failure of nodes. However, they do not prevent adversarial manipulation of transaction order, where the order a proposer\u2026"
     },
     {
-      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
-      "url": "https://arxiv.org/abs/2609.19101v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-16T17:31:52+00:00",
-      "preview": "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented\u2026"
+      "title": "XIR: A Framework for Interoperability across Cross-Chain Protocols Based on a Verifiable Intermediate Representation",
+      "url": "https://arxiv.org/abs/2609.20010v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T10:20:54+00:00",
+      "preview": "Cross-chain protocols enable applications to exchange messages across blockchains. Under point-to-point configurations, communication depends on a direct connection between the source and destination blockchains,\u2026"
     },
     {
-      "title": "Prepared Or Unprepared? Evaluating Healthcare Workforce Readiness for Clinical Adoption of Artificial Intelligence in Nigeria",
-      "url": "https://arxiv.org/abs/2609.19096v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:30:48+00:00",
-      "preview": "Artificial intelligence (AI) is increasingly integrated into healthcare systems worldwide, yet its successful clinical adoption depends critically on workforce readiness, particularly in low- and middle-income countries\u2026"
+      "title": "JANUS: Denial-of-Service Attack Against Beam Hopping in LEO Satellite Networks",
+      "url": "https://arxiv.org/abs/2609.19977v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T09:49:38+00:00",
+      "preview": "Low Earth orbit (LEO) satellite networks are increasingly used to provide global connectivity. However, each satellite has limited resources that need to be allocated according to demand, which varies geographically and\u2026"
     },
     {
-      "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
-      "url": "https://arxiv.org/abs/2609.19093v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:28:51+00:00",
-      "preview": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in\u2026"
-    },
-    {
-      "title": "Securing quantum error correction against misleading advice from AI agents",
-      "url": "https://arxiv.org/abs/2609.19090v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-16T17:26:54+00:00",
-      "preview": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then\u2026"
+      "title": "On the Leakage of Massey Secret Sharing Schemes under Linear Computations",
+      "url": "https://arxiv.org/abs/2609.19929v1",
+      "source": "arXiv cs.CR (Security, incl. AI/cyber)",
+      "published": "2026-09-17T09:08:13+00:00",
+      "preview": "Leakage attacks on secret sharing schemes exploit partial information about individual shares to recover the underlying secret. In coding theory, linear exact repair schemes (LERSs) enable the recovery of one codeword\u2026"
     }
   ]
 }
