@@ -1,7 +1,175 @@
 {
   "category": "papers",
-  "last_updated": "2026-09-22T00:36:00.675748+00:00",
+  "last_updated": "2026-09-22T07:20:24.380834+00:00",
   "items": [
+    {
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "url": "https://arxiv.org/abs/2609.25001v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:59:33+00:00",
+      "preview": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing\u2026"
+    },
+    {
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "url": "https://arxiv.org/abs/2609.24985v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:57:20+00:00",
+      "preview": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect\u2026"
+    },
+    {
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:57:06+00:00",
+      "preview": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a\u2026"
+    },
+    {
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://arxiv.org/abs/2609.24983v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:56:53+00:00",
+      "preview": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator\u2026"
+    },
+    {
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "url": "https://arxiv.org/abs/2609.24976v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:55:24+00:00",
+      "preview": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain\u2026"
+    },
+    {
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "url": "https://arxiv.org/abs/2609.24974v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:55:20+00:00",
+      "preview": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies\u2026"
+    },
+    {
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2609.24972v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:54:49+00:00",
+      "preview": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this\u2026"
+    },
+    {
+      "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+      "url": "https://arxiv.org/abs/2609.24971v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:54:35+00:00",
+      "preview": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question\u2026"
+    },
+    {
+      "title": "Rare Event Estimation via Iterative Unalignment",
+      "url": "https://arxiv.org/abs/2609.24969v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:53:38+00:00",
+      "preview": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events\u2026"
+    },
+    {
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "url": "https://arxiv.org/abs/2609.24967v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:52:48+00:00",
+      "preview": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two\u2026"
+    },
+    {
+      "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+      "url": "https://arxiv.org/abs/2609.24965v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:51:50+00:00",
+      "preview": "Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning\u2026"
+    },
+    {
+      "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks",
+      "url": "https://arxiv.org/abs/2609.24955v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:46:25+00:00",
+      "preview": "Visual instructions for physical tasks are typically authored in one context and followed in another, requiring users to translate demonstrated tools, materials, and spatial relationships into their own environment. We\u2026"
+    },
+    {
+      "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
+      "url": "https://arxiv.org/abs/2609.24942v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:39:51+00:00",
+      "preview": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for\u2026"
+    },
+    {
+      "title": "Linguistic Features for Interpretable Textual Entailment",
+      "url": "https://arxiv.org/abs/2609.24932v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:26:30+00:00",
+      "preview": "Despite the success of neural models in natural language processing, their black-box nature limits interpretability and conceals the linguistic phenomena underlying their predictions. We present SLITE, an explainable\u2026"
+    },
+    {
+      "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+      "url": "https://arxiv.org/abs/2609.24927v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:22:44+00:00",
+      "preview": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access\u2026"
+    },
+    {
+      "title": "BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction",
+      "url": "https://arxiv.org/abs/2609.24921v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:18:19+00:00",
+      "preview": "Scientific weak signals are early, low-visibility research directions that later become central to mature scientific topics, yet existing resources such as trend tracking, citation forecasting, and foresight reports\u2026"
+    },
+    {
+      "title": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+      "url": "https://arxiv.org/abs/2609.24911v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:14:09+00:00",
+      "preview": "Social simulation offers the social sciences an experimental instrument that the real world cannot supply, and generative agents have transformed it by acting as silicon samples that unite agent-based modeling with real\u2026"
+    },
+    {
+      "title": "Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.24906v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T17:09:58+00:00",
+      "preview": "Dormant tree pruning is labor-intensive yet essential for maintaining modern high-productivity fruit orchards. In this work, we focus on pruning of modern planar tree training systems - V-Trellis apples and UFO cherries\u2026"
+    },
+    {
+      "title": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification",
+      "url": "https://arxiv.org/abs/2609.24903v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:09:21+00:00",
+      "preview": "Tone languages constitute over 50-70% of the world's languages, but the vast majority are low-resource, lacking the large transcribed corpora needed for automatic tone classification. Existing datasets are typically\u2026"
+    },
+    {
+      "title": "Human-LLM Deliberation as Interactive Proof: Conditions for Verifiability Without Transparency",
+      "url": "https://arxiv.org/abs/2609.24895v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T17:00:15+00:00",
+      "preview": "When an LLM supplies an argument that a user could not readily construct, how can the user decide whether to accept its claim? Inspired by interactive proofs, we model human-LLM deliberation as an interaction between a\u2026"
+    },
+    {
+      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
+      "url": "https://arxiv.org/abs/2609.24894v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T16:59:06+00:00",
+      "preview": "Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch\u2026"
+    },
+    {
+      "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+      "url": "https://arxiv.org/abs/2609.24890v1",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T16:55:24+00:00",
+      "preview": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of\u2026"
+    },
+    {
+      "title": "The Copy Ceiling: An Input-Exposure Control for Ontology-Grounded Generation over Curated Corpora",
+      "url": "https://arxiv.org/abs/2609.24885v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T16:53:00+00:00",
+      "preview": "When a language model answers from a curated corpus via graph-based retrieval, a large grounding uplift does not establish reasoning over the retrieved structure: the context may already expose the gold answers. We\u2026"
+    },
+    {
+      "title": "Decomposing Error and Style in Automated Clinical Coding",
+      "url": "https://arxiv.org/abs/2609.24877v1",
+      "source": "arXiv cs.CL",
+      "published": "2026-09-21T16:47:07+00:00",
+      "preview": "In automated clinical coding, where the label space spans tens of thousands of diagnosis and procedure codes, models are currently evaluated against a single gold annotation, treating any deviation as error. But we find\u2026"
+    },
     {
       "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
       "url": "https://arxiv.org/abs/2609.22086v1",
@@ -113,174 +281,6 @@
       "source": "arXiv cs.AI",
       "published": "2026-09-18T16:22:31+00:00",
       "preview": "Electrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discrimination, forming the basis of ECG biometrics. Beyond authentication, this paradigm holds significant potential to secure\u2026"
-    },
-    {
-      "title": "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
-      "url": "https://arxiv.org/abs/2609.21942v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T15:56:52+00:00",
-      "preview": "A robot that fails at a task faces the first decision in corrective dialogue: act on its own diagnosis, consult another onboard sensor, or interrupt a person. Choosing well requires knowing how much the robot's sensors\u2026"
-    },
-    {
-      "title": "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
-      "url": "https://arxiv.org/abs/2609.21940v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T15:55:29+00:00",
-      "preview": "Long-term memory is essential for large language model (LLM) agents to maintain consistency and personalization over extended interactions. Existing memory systems typically rely on fixed granularities or static\u2026"
-    },
-    {
-      "title": "What Should We Ask Next? Retrieval-Aware Question Learning under Partial Evidence",
-      "url": "https://arxiv.org/abs/2609.21924v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T15:45:01+00:00",
-      "preview": "Interactive retrieval under partial evidence is a sequential information-acquisition problem: an agent must decide which question will create the most useful evidence for the next retrieval update. Existing systems\u2026"
-    },
-    {
-      "title": "Detecting Pretraining Data in Large Language Models from a Free-Energy Perspective",
-      "url": "https://arxiv.org/abs/2609.21888v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T15:16:51+00:00",
-      "preview": "Detecting pretraining data in large language models is challenging because high likelihood can reflect either training exposure or strong generalization. In the joint space of prediction loss and predictive entropy, a\u2026"
-    },
-    {
-      "title": "Benchmarking the Explanatory Quality of Open-Weight Vision-Language Models in Face Recognition",
-      "url": "https://arxiv.org/abs/2609.21879v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T15:06:02+00:00",
-      "preview": "Vision-Language Models (VLMs) have recently been proposed as promising tools for face recognition, as they can produce natural language explanations alongside similarity scores. This capability is considered appealing\u2026"
-    },
-    {
-      "title": "Neural Cellular Automata Learn General Features in their Hidden Channels",
-      "url": "https://arxiv.org/abs/2609.21870v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-18T14:58:18+00:00",
-      "preview": "Modern deep learning models achieve impressive generalization through over-parameterization, but this paradigm often struggles with overfitting and memorization in few-shot regimes. Neural Cellular Automata (NCAs) offer\u2026"
-    },
-    {
-      "title": "TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization",
-      "url": "https://arxiv.org/abs/2609.21859v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-18T14:53:34+00:00",
-      "preview": "Nearly 90% of drugs entering clinical development ultimately fail, despite billions of dollars in investment. Pharmaceutical companies therefore rely on clinical development planning (CDP) and probability of technical\u2026"
-    },
-    {
-      "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
-      "url": "https://arxiv.org/abs/2609.21857v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-18T14:52:26+00:00",
-      "preview": "LLMs are increasingly used in social simulations for socially interactive agents and robots, offering more flexibility than rule-based systems. However, even though they mimic human behaviour very well, there is a\u2026"
-    },
-    {
-      "title": "Reusing Latent Speech Representations for Query-Conditioned Topic Localization in Transcripts",
-      "url": "https://arxiv.org/abs/2609.21844v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-18T14:41:30+00:00",
-      "preview": "Long transcripts are costly inputs for downstream NLP systems and often contain irrelevant context. We study query-conditioned topic localization: predicting the sentence span in a transcript that best addresses a\u2026"
-    },
-    {
-      "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
-      "url": "https://arxiv.org/abs/2609.21827v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-18T14:28:28+00:00",
-      "preview": "Speculative decoding accelerates LLM inference by drafting multiple tokens in parallel, with tree-based methods further improving efficiency through hierarchical structures. Dynamic-tree methods such as EAGLE-3 perform\u2026"
-    },
-    {
-      "title": "CASCADE Against Jailbreaks: Combination Across Stages with Controlled Attack-Defense Evaluation",
-      "url": "https://arxiv.org/abs/2609.21793v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-18T14:06:00+00:00",
-      "preview": "Defenses against jailbreak attacks on Large Language Models (LLMs) operate at different pipeline stages, such as input modification or output guard, but it remains unclear which defenses to deploy at each stage and how\u2026"
-    },
-    {
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-      "url": "https://arxiv.org/abs/2609.20822v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:59:58+00:00",
-      "preview": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific\u2026"
-    },
-    {
-      "title": "Embedding Models Measure in Peculiar Ways",
-      "url": "https://arxiv.org/abs/2609.20821v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:59:54+00:00",
-      "preview": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic\u2026"
-    },
-    {
-      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
-      "url": "https://arxiv.org/abs/2609.20820v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:59:53+00:00",
-      "preview": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many\u2026"
-    },
-    {
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-      "url": "https://arxiv.org/abs/2609.20817v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:59:40+00:00",
-      "preview": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation\u2026"
-    },
-    {
-      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-      "url": "https://arxiv.org/abs/2609.20816v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:59:30+00:00",
-      "preview": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and\u2026"
-    },
-    {
-      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
-      "url": "https://arxiv.org/abs/2609.20815v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:59:28+00:00",
-      "preview": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are\u2026"
-    },
-    {
-      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-      "url": "https://arxiv.org/abs/2609.20812v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:59:04+00:00",
-      "preview": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to\u2026"
-    },
-    {
-      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
-      "url": "https://arxiv.org/abs/2609.20808v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:58:25+00:00",
-      "preview": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in online speech draw on\u2026"
-    },
-    {
-      "title": "An Empirical Study of Harness Design for Coding Agents",
-      "url": "https://arxiv.org/abs/2609.20804v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:58:07+00:00",
-      "preview": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the\u2026"
-    },
-    {
-      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
-      "url": "https://arxiv.org/abs/2609.20800v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:55:57+00:00",
-      "preview": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling\u2026"
-    },
-    {
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2609.20784v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:52:08+00:00",
-      "preview": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher\u2026"
-    },
-    {
-      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
-      "url": "https://arxiv.org/abs/2609.20779v1",
-      "source": "arXiv cs.CL",
-      "published": "2026-09-17T17:49:28+00:00",
-      "preview": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit\u2026"
-    },
-    {
-      "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
-      "url": "https://arxiv.org/abs/2609.20776v1",
-      "source": "arXiv cs.AI",
-      "published": "2026-09-17T17:48:07+00:00",
-      "preview": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may\u2026"
     }
   ]
 }
