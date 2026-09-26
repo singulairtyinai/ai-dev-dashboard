@@ -313,3 +313,6 @@ td .actions{display:flex;gap:6px;flex-wrap:wrap}
 .lib-edit{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1.4fr) minmax(0,1fr) auto;gap:8px;align-items:center;padding:8px 14px;border-top:1px solid var(--line-soft)}
 .lib-edit:first-child{border-top:0}
 @media (max-width:820px){.lib-edit{grid-template-columns:minmax(0,1fr)}}
+.cat-filter{padding:4px 14px 16px 64px;display:flex;flex-direction:column;gap:10px;border-top:1px dashed var(--line-soft)}
+.cat-filter textarea.inp{min-height:70px}
+@media (max-width:820px){.cat-filter{padding-left:14px}}

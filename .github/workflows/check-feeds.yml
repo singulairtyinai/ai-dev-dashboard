@@ -7,6 +7,8 @@ on:
       - 'scripts/check_feeds.py'
       - 'scripts/check_substack.py'
       - 'scripts/check_doc_sources.py'
+      - 'scripts/check_urls.py'
+      - 'scripts/candidates.txt'
       - '.github/workflows/check-feeds.yml'
 
 permissions:
@@ -21,6 +23,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
+      - name: Check candidate URLs
+        run: python scripts/check_urls.py
       - name: Check sources from the index document
         run: python scripts/check_doc_sources.py
       - name: Check substack workarounds

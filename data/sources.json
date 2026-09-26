@@ -73,7 +73,92 @@
       "key": "mil",
       "short": "Military",
       "name": "Military & Defense Applications",
-      "color": "#8F9C6B"
+      "color": "#8F9C6B",
+      "require": [
+        [
+          "AI",
+          "artificial intelligence",
+          "machine learning",
+          "LLM",
+          "large language model",
+          "generative",
+          "GenAI",
+          "chatbot",
+          "autonomous",
+          "autonomy",
+          "algorithm",
+          "computer vision",
+          "neural network",
+          "robot",
+          "swarm",
+          "human-machine",
+          "CDAO",
+          "Maven",
+          "Replicator",
+          "Anduril",
+          "Palantir",
+          "Shield AI",
+          "Scale AI",
+          "OpenAI",
+          "Anthropic",
+          "superintelligence",
+          "super intelligence",
+          "data-driven",
+          "decision support"
+        ],
+        [
+          "military",
+          "defense",
+          "defence",
+          "Pentagon",
+          "Department of War",
+          "DoD",
+          "army",
+          "navy",
+          "naval",
+          "air force",
+          "marine",
+          "Space Force",
+          "Space Command",
+          "CENTCOM",
+          "INDOPACOM",
+          "NATO",
+          "soldier",
+          "troops",
+          "warfare",
+          "warfighter",
+          "wartime",
+          "battlefield",
+          "combat",
+          "weapon",
+          "missile",
+          "drone",
+          "munition",
+          "lethal",
+          "targeting",
+          "deterrence",
+          "intelligence community",
+          "national security",
+          "DARPA",
+          "CDAO",
+          "Maven",
+          "Replicator",
+          "JADC2",
+          "command and control",
+          "C2",
+          "ISR",
+          "surveillance",
+          "reconnaissance",
+          "Anduril",
+          "Shield AI",
+          "Palantir",
+          "defense tech",
+          "conflict",
+          "strike",
+          "Ukraine",
+          "Gaza"
+        ]
+      ]
     },
     {
       "key": "tech",
@@ -681,10 +766,10 @@
     },
     {
       "id": "breaking-defense",
-      "name": "Breaking Defense",
+      "name": "Breaking Defense (AI)",
       "method": "feed",
-      "url": "https://breakingdefense.com/full-rss-feed/",
-      "home": "https://breakingdefense.com",
+      "url": "https://breakingdefense.com/tag/artificial-intelligence/feed/",
+      "home": "https://breakingdefense.com/tag/artificial-intelligence/",
       "cats": [
         "mil"
       ],
@@ -739,7 +824,7 @@
         "mil"
       ],
       "type": "Industry",
-      "active": true
+      "active": false
     },
     {
       "id": "booz-allen-newsroom",
@@ -751,6 +836,42 @@
         "mil"
       ],
       "type": "Industry",
+      "active": false
+    },
+    {
+      "id": "c4isrnet-ai",
+      "name": "C4ISRNET (AI)",
+      "method": "feed",
+      "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/category/artificial-intelligence/?outputType=xml",
+      "home": "https://www.c4isrnet.com/artificial-intelligence/",
+      "cats": [
+        "mil"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "defense-news-unmanned",
+      "name": "Defense News (Unmanned)",
+      "method": "feed",
+      "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/unmanned/?outputType=xml",
+      "home": "https://www.defensenews.com/unmanned/",
+      "cats": [
+        "mil"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "war-on-the-rocks",
+      "name": "War on the Rocks",
+      "method": "feed",
+      "url": "https://warontherocks.com/feed/",
+      "home": "https://warontherocks.com",
+      "cats": [
+        "mil"
+      ],
+      "type": "Think tank",
       "active": true
     },
     {
