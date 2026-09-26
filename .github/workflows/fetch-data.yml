@@ -2,13 +2,18 @@ name: Fetch AI Developments Data
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC. Adjust as needed.
+    # Every 2 hours. GitHub may start scheduled runs a few minutes late.
     - cron: '0 */2 * * *'
-  workflow_dispatch: {}   # allows manual trigger from the Actions tab
+  workflow_dispatch: {}   # "Refresh now" in the admin panel, or the Actions tab
 
 permissions:
   contents: write
   models: read
+
+# Shares a group with the email alert workflow so the two never push at the same time.
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -25,14 +30,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch RSS sources
-        run: python scripts/fetch_rss.py
-
-      - name: Fetch scraped sources (no RSS available)
-        run: python scripts/fetch_scrape.py
-
-      - name: Fetch arXiv papers
-        run: python scripts/fetch_arxiv.py
+      - name: Fetch all sources
+        run: python scripts/fetch_all.py
 
       - name: Generate daily summaries
         env:
@@ -43,6 +42,8 @@ jobs:
         run: |
           git config user.name "ai-dashboard-bot"
           git config user.email "actions@github.com"
-          git add data/articles/*.json data/summaries/*.json
-          git diff --quiet --cached || git commit -m "Scheduled data refresh"
-          git push
+          git add data/items.json data/watch.json data/health.json data/summaries.json
+          git diff --quiet --cached && exit 0
+          git commit -m "Scheduled data refresh"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

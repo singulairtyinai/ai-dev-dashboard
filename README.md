@@ -1,144 +1,98 @@
-# AI Developments Dashboard
+# AI Watchtower
 
-A public, auto-updating dashboard tracking AI developments across seven
-channels — overall developments, hardware, governance, tools & applications,
-military use, jobs & economy, and recent research papers — plus a
-password-gated control panel for managing sources.
+A dashboard for AI developments across ten categories: geopolitics, governance,
+security and risk, jobs and economy, peace and disarmament, military, research,
+hardware, models, and multilateral organizations. Sources are fetched every two
+hours, and an email digest goes out every 2.5 hours when something is new.
 
-**Stack:** static site (GitHub Pages) + GitHub Actions (scheduled fetch jobs)
-+ JSON files as the data store. No paid hosting required.
+**Stack:** static site on GitHub Pages, GitHub Actions for fetching and email,
+JSON files in `data/` as the data store. No server or paid hosting.
 
-## 1. Create the repo
+## Pages
 
-1. Create a new **public** GitHub repo, e.g. `ai-dev-dashboard`.
-2. Push everything in this folder to it:
-   ```
-   git init
-   git add .
-   git commit -m "Initial dashboard scaffold"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/ai-dev-dashboard.git
-   git push -u origin main
-   ```
-3. In repo Settings → Pages, set source to "Deploy from branch", branch
-   `main`, folder `/ (root)`. Your dashboard will be live at
-   `https://YOUR_USERNAME.github.io/ai-dev-dashboard/`.
+- **Briefing** – the top developments of the week, ranked by your focus
+  keywords, source type and recency; category tiles with 14-day trend lines;
+  changes on watched institution pages; the most active sources.
+- **Categories** – one feed per category, filterable by source type and source,
+  with a daily AI summary at the top. Items new since your last visit get an
+  amber dot.
+- **World** – countries and blocs mentioned in the news; select one for its
+  timeline.
+- **Library** – key reports, readings and trackers.
+- **Saved** – items you starred (kept in your browser).
+- **Admin** – manage sources, categories, focus keywords, email alerts and the
+  library.
 
-## 2. Configure the site
+Press `/` to search everything. In a feed, `j`/`k` move, `o` opens, `s` saves
+and `m` marks read or unread.
 
-Open `assets/js/site-config.js` and fill in the shared config — this one file
-is used by both `dashboard.js` (for the manual refresh button) and
-`control-panel.js` (for source editing):
+## How sources are read
 
-```js
-const SITE_CONFIG = {
-  owner: 'YOUR_GITHUB_USERNAME',
-  repo: 'ai-dev-dashboard',
-  branch: 'main',
-  sourcesPath: 'data/sources.json',
-  workflowFile: 'fetch-data.yml',
-  passwordHashSHA256: 'REPLACE_WITH_YOUR_PASSWORD_HASH',
-};
+Each source in `data/sources.json` has a `method`:
+
+| Method | Used for |
+|---|---|
+| `feed` | RSS/Atom feeds |
+| `substack` | `*.substack.com` newsletters, read through rss2json because Substack blocks GitHub's servers |
+| `scrape` | article listing pages without a feed (e.g. AI Frontiers topic pages) |
+| `arxiv` | arXiv search queries such as `cat:cs.AI` |
+| `watch` | pages with no feed: new headings and links are reported as changes |
+| `auto` | plain web addresses added in the admin panel: the next run finds a feed, or falls back to `watch` |
+
+`scripts/fetch_all.py` writes `data/items.json`, `data/watch.json` and
+`data/health.json` (status of every source, shown in Admin → Sources).
+`scripts/summarize.py` writes a daily summary per category to
+`data/summaries.json` using GitHub Models, with a simple extractive fallback.
+
+## Admin panel
+
+Open **Admin** in the sidebar (or `control-panel.html`, which redirects there).
+You need the admin password and a fine-grained GitHub token for this repository
+with:
+
+- **Contents: read and write** – to save changes to `data/sources.json`
+- **Actions: read and write** – for the "Refresh all sources now" and "Send
+  alert now" buttons
+
+The token is kept in the browser tab's session storage only. The password hash
+in `assets/js/site-config.js` is public, so the password only keeps casual
+visitors out; the token is what protects the repository.
+
+To change the password, put the SHA-256 of the new one in `site-config.js`:
+
+```
+echo -n "new-password" | shasum -a 256
 ```
 
-Generate your password hash locally (never send the plaintext password
-anywhere):
+## Email alerts
 
-```
-echo -n "your-chosen-password" | shasum -a 256
-```
+`.github/workflows/send-alerts.yml` runs every 2.5 hours (00:00, 02:30, 05:00 …
+UTC) and emails the items not included in an earlier email, grouped by
+category. Nothing is sent when nothing is new. Categories, "focus keywords
+only" and an on/off switch are in Admin → Email alerts.
 
-Copy the resulting hash into `passwordHashSHA256`.
+It sends through Gmail and needs three repository secrets (Settings → Secrets
+and variables → Actions):
 
-### Getting a GitHub token for the control panel
+| Secret | Value |
+|---|---|
+| `ALERT_EMAIL_TO` | the address that receives alerts |
+| `GMAIL_ADDRESS` | the Gmail account that sends them |
+| `GMAIL_APP_PASSWORD` | an app password for that account (Google Account → Security → 2-Step Verification → App passwords) |
 
-The control panel writes changes to `data/sources.json` via the GitHub API,
-authenticated with a **fine-grained Personal Access Token** you paste in each
-session (stored only in the browser's `sessionStorage`, cleared when the tab
-closes — never written to disk or committed):
+The recipient address is kept as a secret so it never appears in this public
+repository.
 
-1. GitHub → Settings → Developer settings → Personal access tokens →
-   Fine-grained tokens → Generate new token.
-2. Repository access: only this repo.
-3. Permissions: **Contents: Read and write**.
-4. Set an expiration (30–90 days is reasonable; regenerate when it lapses).
+## Checking new sources
 
-**Important — read this:** the password gate deters casual visitors, but
-since this is a static site, the password hash is visible to anyone who
-views the page source. The actual protection is the GitHub token: without a
-valid, repo-scoped token, no write can reach your repo. Don't treat the
-password as a real security boundary — treat the token as the boundary, and
-don't share it.
-
-## 3. Customize your sources
-
-Edit `data/sources.json` directly (via git or the GitHub web UI) to seed your
-initial source list, or add them through the control panel once it's live.
-Categories: `overall`, `hardware`, `governance`, `tools`, `military`,
-`jobs_economy`, `papers`. Each category has a `type` (`rss` or `arxiv`)
-that determines which fetch script handles it and what field the control
-panel asks for (feed URL or arXiv search query).
-
-## 4. Test the fetch pipeline
-
-Go to the Actions tab → "Fetch AI Developments Data" → Run workflow (this
-uses the `workflow_dispatch` trigger, so you don't have to wait for the daily
-schedule). Check that `data/articles/*.json` files get updated and committed.
-
-## 5. Adjust the schedule
-
-Edit the cron expression in `.github/workflows/fetch-data.yml` — it currently
-runs every 2 hours. Free-tier scheduled GitHub Actions runs aren't guaranteed
-to the minute and can lag under load.
-
-## Dashboard features
-
-- **Search** — the search box filters items across all channels by title,
-  preview text, and source name as you type.
-- **Date range tabs** — 24h / 7 days / 30 days / All, in the toolbar next to
-  search. Filters every channel's items client-side by `published` date;
-  items with no parsed publish date are excluded once a specific range
-  (not "All") is selected, since they can't be confirmed to fall within it.
-- **Category chips** — click a chip to hide/show that channel without
-  reloading; state resets on page refresh (not persisted).
-- **Expandable cards** — items with preview text (RSS descriptions, arXiv
-  abstracts) expand on click to show it.
-- **Sparklines** — each channel header shows a mini trend line built from
-  `data/history/<category>.json`, which the fetch pipeline appends to on
-  every run (last ~60 points, roughly 5 days at a 2-hour cadence).
-- **Trending keywords** — computed client-side from the currently loaded
-  item titles (simple word-frequency, no LLM); click a keyword to filter.
-- **Governance signal map** — plots governance items by country on a
-  stylized grid using a small built-in coordinate table
-  (`COUNTRY_COORDS` in `dashboard.js`). Only appears if at least one
-  governance item has a resolvable `country` field — set this per-source
-  in `data/sources.json` (see the `governance` category for examples).
-  This is an equirectangular approximation for visual signal, not a
-  precise map.
-- **Manual refresh** — the "Refresh now" button on the dashboard triggers
-  the fetch workflow immediately via the GitHub API. It asks for a
-  GitHub token the same way the control panel does (fine-grained,
-  **Actions: write** scope this time, not Contents) — session-only,
-  never stored on disk. Since the dashboard is public, anyone can click
-  the button, but without a valid token with write access to your repo's
-  Actions, nothing happens — so this is safe to leave live.
+`scripts/check_feeds.py`, `scripts/check_doc_sources.py` and
+`scripts/check_substack.py` test candidate sources from GitHub Actions (run
+"Check candidate feeds" in the Actions tab).
 
 ## Local development
 
 ```
 pip install -r requirements.txt
-python scripts/fetch_rss.py
-python scripts/fetch_arxiv.py
+python scripts/fetch_all.py
 python -m http.server 8000   # then open http://localhost:8000
 ```
-
-## Notes / known limitations
-
-- RSS feed URLs in `data/sources.json` are placeholders/examples — verify and
-  replace with the specific outlets you want per category.
-- Some sources (e.g. the AI Frontiers topic pages) don't publish RSS feeds
-  and are listed as `active: false` with a note until a scraper or
-  alternative feed is added — see `data/sources.json` for details.
-- No LLM summarization step yet (raw feed titles/links only) — can be added
-  as a later enhancement if you want summarized/filtered items instead of
-  raw titles.

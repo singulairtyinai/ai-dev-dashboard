@@ -2,86 +2,55 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Developments Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07080A">
+<title>AI Watchtower</title>
+<meta name="description" content="Monitor for AI developments across geopolitics, governance, security, military, research, hardware and more. Updated every 2 hours.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2307080A'/%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%23F2B84B' stroke-opacity='.5'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23F2B84B'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<div class="mission-bar">
-  <div class="brand">
-    <span class="dot"></span>
+<div class="shell">
+  <aside class="rail" id="rail" aria-label="Navigation">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><div><h1>AI Watchtower</h1><small>Developments monitor</small></div></div>
+    <nav class="nav" id="nav-main"></nav>
     <div>
-      <h1>AI Developments Dashboard</h1>
-      <div class="subtitle">Monitoring station · 8 channels</div>
+      <div class="nav-label">Categories</div>
+      <nav class="nav" id="nav-cats"></nav>
     </div>
-  </div>
-  <div class="mission-bar-right">
-    <div class="mission-clock">
-      <span class="label">Last sync</span>
-      <span id="last-sync">—</span>
+    <div class="rail-foot">
+      <div class="live"><i></i><span>Synced <span id="synced">…</span></span></div>
+      <div>Next fetch <span id="nextfetch">…</span></div>
+      <div id="src-count"></div>
     </div>
-    <button class="btn secondary refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh now</button>
-    <button class="btn secondary" id="glossary-btn" onclick="toggleGlossary()">? Glossary</button>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="menu-btn" id="menu-btn" aria-label="Open navigation"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <button class="search-btn" id="search-btn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Search headlines, sources, categories<kbd>/</kbd></button>
+      <span class="spacer"></span>
+      <div class="seg range" role="group" aria-label="Time range" id="range">
+        <button data-r="1">24h</button><button data-r="7">7d</button><button data-r="30">30d</button><button data-r="0">All</button>
+      </div>
+    </header>
+    <main class="view" id="view"><div class="loading">Loading the latest developments…</div></main>
   </div>
 </div>
 
-<div class="kpi-row" id="kpi-row"><!-- KPI cards injected here --></div>
-
-<div class="toolbar">
-  <input type="text" id="search-input" class="search-input" placeholder="Search all channels…" oninput="applyFilters()">
-  <div class="chip-row" id="chip-row"><!-- category toggle chips injected here --></div>
-  <div class="date-tab-row" id="date-tab-row" role="tablist" aria-label="Time range">
-    <button class="date-tab" data-range="1" role="tab" aria-selected="false" onclick="setDateRange(1, this)">24h</button>
-    <button class="date-tab" data-range="7" role="tab" aria-selected="false" onclick="setDateRange(7, this)">7 days</button>
-    <button class="date-tab" data-range="30" role="tab" aria-selected="false" onclick="setDateRange(30, this)">30 days</button>
-    <button class="date-tab active" data-range="0" role="tab" aria-selected="true" onclick="setDateRange(0, this)">All</button>
-  </div>
-  <button class="btn secondary toolbar-btn" onclick="clearAllFilters()">Clear filters</button>
-  <div class="export-wrap">
-    <button class="btn secondary toolbar-btn" onclick="toggleExportMenu()">Export view ▾</button>
-    <div class="export-menu" id="export-menu" style="display:none;">
-      <button onclick="exportView('markdown')">Markdown</button>
-      <button onclick="exportView('json')">JSON</button>
-      <button onclick="exportView('csv')">CSV</button>
-    </div>
-  </div>
+<div class="scrim" id="scrim"></div>
+<aside class="reader" id="reader" aria-label="Item details"></aside>
+<div class="palette" id="palette" role="dialog" aria-label="Search">
+  <input id="pal-input" placeholder="Search everything, or type a category or source…" autocomplete="off">
+  <div class="pal-list" id="pal-list"></div>
+  <div class="pal-foot"><span>↑↓ move</span><span>↵ open</span><span>esc close</span></div>
 </div>
-
-<div class="keyword-strip" id="keyword-strip"><!-- trending keywords injected here --></div>
-
-<div class="grid" id="channel-grid">
-  <!-- channels injected by dashboard.js -->
-</div>
-
-<div class="map-section" id="map-section" style="display:none;">
-  <div class="map-header">
-    <h2>Governance Signal Map</h2>
-    <span class="channel-meta">Recent governance activity by country/region</span>
-  </div>
-  <div class="map-active-filter" id="map-active-filter"></div>
-  <div id="map-container"></div>
-  <div class="country-timeline" id="country-timeline"></div>
-</div>
-
-<div class="glossary-panel" id="glossary-panel" style="display:none;">
-  <div class="glossary-header">
-    <h2>Glossary</h2>
-    <button class="btn secondary" onclick="toggleGlossary()">Close ✕</button>
-  </div>
-  <div class="glossary-body" id="glossary-body"><!-- injected --></div>
-</div>
-
-<div class="mission-footer">
-  <span>Data refreshed on schedule via GitHub Actions</span>
-  <a href="control-panel.html">Control panel →</a>
-</div>
-
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status"></div>
 
 <script src="assets/js/site-config.js"></script>
-<script src="assets/js/dashboard.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
