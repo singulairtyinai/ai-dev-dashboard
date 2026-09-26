@@ -250,7 +250,10 @@ def main():
 
     missing = [k for k in ("ALERT_EMAIL_TO", "GMAIL_ADDRESS", "GMAIL_APP_PASSWORD") if not os.environ.get(k)]
     if missing:
-        sys.exit(f"Missing secrets: {', '.join(missing)}. Add them in Settings → Secrets and variables → Actions.")
+        # Not an error: alerts simply aren't set up yet. Skip without failing
+        # the run (and without recording anything as sent).
+        print(f"::warning::Email alerts are not set up yet. Add these repository secrets: {', '.join(missing)}.")
+        return
 
     send(subject, text, html_body)
     save_state(new_seen, now)
