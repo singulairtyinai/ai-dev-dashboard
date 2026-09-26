@@ -93,8 +93,12 @@ def item(title, url, published, preview):
 
 def fetch_feed(src):
     feed = feedparser.parse(get(src["url"]).content)
+    if not feed.entries:
+        # Some sites answer a browser-like request with an HTML page but serve
+        # the feed to feed readers, so let feedparser fetch it itself.
+        feed = feedparser.parse(src["url"], agent="feedparser/6.0 +https://github.com/singulairtyinai/ai-dev-dashboard")
     if not feed.entries and feed.bozo:
-        raise ValueError(f"not a feed ({type(feed.bozo_exception).__name__})")
+        raise ValueError(f"not a readable feed ({type(feed.bozo_exception).__name__})")
     out = []
     for e in feed.entries[:PER_SOURCE_LIMIT * 2]:
         t = getattr(e, "published_parsed", None) or getattr(e, "updated_parsed", None)
@@ -177,7 +181,7 @@ def page_signature(url):
 def run_watch(src, prev):
     entries = page_signature(src["url"])
     if not entries:
-        raise ValueError("page loaded but no headings or links were found")
+        raise ValueError("page loaded but has no readable headings; it is probably built by JavaScript and can't be watched")
     digest = hashlib.sha1("\n".join(sorted(entries)).encode()).hexdigest()
     now = now_iso()
     state = dict(prev or {})
@@ -310,8 +314,12 @@ def main():
                     by_url[it["url"]].update(title=it["title"], preview=it["preview"] or by_url[it["url"]].get("preview", ""))
                     continue
                 it.update(id=item_id(it["url"]), source=src["id"], fetched=now, countries=tag_countries(src, it))
+                # Undated items get the fetch time. Event listings carry future
+                # dates; keep those as "event" and sort them by fetch time.
                 if not it["published"]:
                     it["published"] = now
+                elif it["published"] > (datetime.now(timezone.utc) + timedelta(hours=2)).isoformat():
+                    it["event"], it["published"] = it["published"], now
                 by_url[it["url"]] = it
                 added += 1
             status = "ok" if got else "warn"
