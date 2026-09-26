@@ -1,306 +1,1192 @@
 {
-  "categories": {
-    "overall": {
-      "label": "Overall AI Developments",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_001",
-          "name": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-          "active": true
-        },
-        {
-          "id": "src_002",
-          "name": "Wired - AI",
-          "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-          "active": true
-        },
-        {
-          "id": "src_003",
-          "name": "Google AI Blog",
-          "url": "https://blog.google/technology/ai/rss/",
-          "active": true
-        },
-        {
-          "id": "src_004",
-          "name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/feed/",
-          "active": true
-        },
-        {
-          "id": "src_005",
-          "name": "OpenAI News",
-          "url": "https://openai.com/news/rss.xml",
-          "active": true
-        },
-        {
-          "id": "src_006",
-          "name": "Reuters - Technology (AI coverage via topic)",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "Reuters discontinued its public RSS feeds; no verified feed URL found"
-        },
-        {
-          "id": "src_007",
-          "name": "AI Frontiers - Technology & Research",
-          "url": "https://ai-frontiers.org/topic/technology-and-research",
-          "active": true,
-          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
-          "fetch_type": "scrape"
-        },
-        {
-          "id": "src_008",
-          "name": "Transformer (transformernews.ai)",
-          "url": "https://www.transformernews.ai/feed",
-          "active": true
-        },
-        {
-          "id": "src_009",
-          "name": "ControlAI News",
-          "url": "https://controlai.news/feed",
-          "active": true
-        },
-        {
-          "id": "src_014",
-          "name": "AI Frontiers Newsletter (Substack)",
-          "url": "https://newsletter.ai-frontiers.org/feed",
-          "active": true,
-          "note": "Site-wide feed (all AI Frontiers content), not topic-filtered \u2014 complements the topic-specific scraped sources already in this file."
-        },
-        {
-          "id": "src_015",
-          "name": "Jonas Freund's Substack",
-          "url": "https://jonasfreund.substack.com/feed",
-          "active": true
-        },
-        {
-          "id": "src_016",
-          "name": "AI Safety Newsletter (CAIS)",
-          "url": "https://newsletter.safe.ai/feed",
-          "active": true
-        },
-        {
-          "id": "src_017",
-          "name": "Right Around the Perimeter",
-          "url": "https://rightaroundtheperimeter.substack.com/feed",
-          "active": true
-        }
-      ]
-    },
-    "hardware": {
-      "label": "AI Hardware",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_010",
-          "name": "AnandTech",
-          "url": "https://www.anandtech.com/rss/",
-          "active": true
-        },
-        {
-          "id": "src_011",
-          "name": "IEEE Spectrum - Semiconductors",
-          "url": "https://spectrum.ieee.org/feeds/topic/semiconductors.rss",
-          "active": true
-        },
-        {
-          "id": "src_012",
-          "name": "SemiAnalysis",
-          "url": "https://www.semianalysis.com/feed",
-          "active": true
-        },
-        {
-          "id": "src_013",
-          "name": "Tom's Hardware - AI",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "No confirmed tag-specific RSS URL found; verify before enabling"
-        }
-      ]
-    },
-    "governance": {
-      "label": "AI Governance",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_020",
-          "name": "OECD.AI News",
-          "url": "https://oecd.ai/en/feed",
-          "active": true,
-          "country": "France"
-        },
-        {
-          "id": "src_021",
-          "name": "EU Digital Strategy - AI",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "country": "European Union"
-        },
-        {
-          "id": "src_022",
-          "name": "NIST AI",
-          "url": "https://www.nist.gov/news-events/information%20technology/rss.xml",
-          "active": true,
-          "country": "United States",
-          "note": "IT-topic feed (broadest reliable NIST feed covering AI); no AI-specific feed exists"
-        },
-        {
-          "id": "src_023",
-          "name": "UK DSIT",
-          "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom",
-          "active": true,
-          "country": "United Kingdom",
-          "note": "GOV.UK standard .atom feed convention"
-        },
-        {
-          "id": "src_024",
-          "name": "Carnegie Endowment - Technology & International Affairs",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "country": "United States"
-        },
-        {
-          "id": "src_025",
-          "name": "UN ODA - OEWG (Cyber/AI processes)",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "country": "International"
-        },
-        {
-          "id": "src_026",
-          "name": "AI Frontiers - Policy & Regulation",
-          "url": "https://ai-frontiers.org/topic/policy-and-regulation",
-          "active": true,
-          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
-          "fetch_type": "scrape"
-        }
-      ]
-    },
-    "tools": {
-      "label": "AI Tools & Applications",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_030",
-          "name": "The Verge - AI",
-          "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-          "active": true
-        },
-        {
-          "id": "src_031",
-          "name": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/feed.xml",
-          "active": true
-        },
-        {
-          "id": "src_032",
-          "name": "Anthropic News",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "Anthropic discontinued its public RSS feed; news page has no <link rel=\"alternate\"> pointer as of mid-2026 - email/manual check only"
-        },
-        {
-          "id": "src_033",
-          "name": "Product Hunt - AI",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false
-        }
-      ]
-    },
-    "military": {
-      "label": "AI in Military",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_040",
-          "name": "Defense One - Tech",
-          "url": "https://www.defenseone.com/rss/technology/",
-          "active": true
-        },
-        {
-          "id": "src_041",
-          "name": "Lockheed Martin - News",
-          "url": "https://news.lockheedmartin.com/rss",
-          "active": true
-        },
-        {
-          "id": "src_042",
-          "name": "Booz Allen Hamilton - Newsroom",
-          "url": "https://newsroom.boozallen.com/press-releases/rss",
-          "active": true
-        },
-        {
-          "id": "src_043",
-          "name": "DARPA - News",
-          "url": "https://www.darpa.mil/rss.xml",
-          "active": true
-        },
-        {
-          "id": "src_044",
-          "name": "Dept of War (formerly DoD) - News",
-          "url": "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=10",
-          "active": true
-        },
-        {
-          "id": "src_045",
-          "name": "Breaking Defense - AI",
-          "url": "https://breakingdefense.com/full-rss-feed/",
-          "active": true
-        },
-        {
-          "id": "src_046",
-          "name": "NATO - AI Strategy",
-          "url": "REPLACE_WITH_VERIFIED_FEED_URL",
-          "active": false,
-          "note": "Confirmed dead: NATO's official RSS feeds (nato.int/cps/.../RSS.htm and rssFeed.xml) return 403 Forbidden as of Aug 2026 (logged on Wikidata as deprecated). NATO also states nato.int is mid-rebuild. No working feed found \u2014 would need the scrape engine or manual checks."
-        },
-        {
-          "id": "src_047",
-          "name": "AI Frontiers - Security",
-          "url": "https://ai-frontiers.org/topic/security",
-          "active": true,
-          "note": "Scraped via scripts/fetch_scrape.py (no RSS available). Verify after first run \u2014 Webflow-based, uses generic .w-dyn-item card detection; check the Action log for item counts.",
-          "fetch_type": "scrape"
-        }
-      ]
-    },
-    "agentic_ai": {
-      "label": "Agentic AI Updates",
-      "type": "rss",
-      "sources": [
-        {
-          "id": "src_080",
-          "name": "Substack search: \"agentic AI\"",
-          "url": "https://substack.com/search/agentic%20AI?utm_source=global-search",
-          "active": false,
-          "note": "Not a real source to fetch \u2014 this is a live Substack search results page, not a publication. It has no stable feed (results shift with Substack's ranking algorithm) and isn't a page any RSS/scrape convention applies to. Left inactive; consider swapping in a specific named agentic-AI newsletter instead, or treat this as a manual link to browse periodically."
-        }
-      ]
-    },
-    "papers": {
-      "label": "Research Papers",
-      "type": "arxiv",
-      "sources": [
-        {
-          "id": "src_060",
-          "name": "arXiv cs.AI",
-          "query": "cat:cs.AI",
-          "active": true
-        },
-        {
-          "id": "src_061",
-          "name": "arXiv cs.CL",
-          "query": "cat:cs.CL",
-          "active": true
-        },
-        {
-          "id": "src_062",
-          "name": "arXiv cs.CR (Security, incl. AI/cyber)",
-          "query": "cat:cs.CR",
-          "active": true
-        }
-      ]
+  "version": 2,
+  "settings": {
+    "focus_keywords": [
+      "IAEA",
+      "COPUOS",
+      "OEWG",
+      "UNODA",
+      "arms control",
+      "disarmament",
+      "non-proliferation",
+      "nuclear",
+      "cyber",
+      "autonomous weapons",
+      "LAWS",
+      "verification",
+      "export control",
+      "chip",
+      "Pakistan",
+      "strategic stability",
+      "superintelligence",
+      "biological weapons"
+    ],
+    "alerts": {
+      "enabled": true,
+      "categories": [
+        "geo",
+        "gov",
+        "risk",
+        "jobs",
+        "peace",
+        "mil",
+        "tech",
+        "hw",
+        "models",
+        "multi"
+      ],
+      "focus_only": false
     }
+  },
+  "categories": [
+    {
+      "key": "geo",
+      "short": "Geopolitics",
+      "name": "Geopolitics & Regional Competition",
+      "color": "#E0885A"
+    },
+    {
+      "key": "gov",
+      "short": "Governance",
+      "name": "Governance, Policy & Regulation",
+      "color": "#D9B45C"
+    },
+    {
+      "key": "risk",
+      "short": "Security & Risk",
+      "name": "AI Security & Risk Assessment",
+      "color": "#D2675F"
+    },
+    {
+      "key": "jobs",
+      "short": "Jobs & Economy",
+      "name": "Labor, Jobs & Economy",
+      "color": "#9DBA6A"
+    },
+    {
+      "key": "peace",
+      "short": "Disarmament",
+      "name": "Peace, Security & Disarmament",
+      "color": "#6FB3A8"
+    },
+    {
+      "key": "mil",
+      "short": "Military",
+      "name": "Military & Defense Applications",
+      "color": "#8F9C6B"
+    },
+    {
+      "key": "tech",
+      "short": "Research",
+      "name": "Technology, Research & Technical Blogs",
+      "color": "#7EA6D8"
+    },
+    {
+      "key": "hw",
+      "short": "Hardware",
+      "name": "Hardware & Semiconductor Supply Chain",
+      "color": "#B08AD6"
+    },
+    {
+      "key": "models",
+      "short": "Models",
+      "name": "AI Models & Trackers",
+      "color": "#6CC2D6"
+    },
+    {
+      "key": "multi",
+      "short": "Multilateral",
+      "name": "Multilateral & International Organizations",
+      "color": "#C7A2B8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "chinatalk",
+      "name": "ChinaTalk",
+      "method": "feed",
+      "url": "https://www.chinatalk.media/feed",
+      "home": "https://www.chinatalk.media",
+      "cats": [
+        "geo"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "axios-technology",
+      "name": "Axios Technology",
+      "method": "feed",
+      "url": "https://api.axios.com/feed/",
+      "home": "https://www.axios.com/technology",
+      "cats": [
+        "geo",
+        "models"
+      ],
+      "type": "News",
+      "active": true,
+      "filter": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic",
+        "Nvidia",
+        "chip",
+        "semiconductor",
+        "model",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "robot",
+        "automation",
+        "data center",
+        "superintelligence",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "carnegie-endowment-ai",
+      "name": "Carnegie Endowment (AI)",
+      "method": "watch",
+      "url": "https://carnegieendowment.org/topics/ai",
+      "home": "https://carnegieendowment.org/topics/ai",
+      "cats": [
+        "geo",
+        "gov"
+      ],
+      "type": "Think tank",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "belfer-center-tech-public-purpose",
+      "name": "Belfer Center (Tech & Public Purpose)",
+      "method": "watch",
+      "url": "https://www.belfercenter.org/technology-and-public-purpose",
+      "home": "https://www.belfercenter.org/technology-and-public-purpose",
+      "cats": [
+        "geo"
+      ],
+      "type": "Think tank",
+      "active": true
+    },
+    {
+      "id": "chatham-house-international-security",
+      "name": "Chatham House (International Security)",
+      "method": "watch",
+      "url": "https://www.chathamhouse.org/about-us/our-departments/international-security-programme",
+      "home": "https://www.chathamhouse.org/about-us/our-departments/international-security-programme",
+      "cats": [
+        "geo"
+      ],
+      "type": "Think tank",
+      "active": true,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "chinai-jeff-ding",
+      "name": "ChinAI (Jeff Ding)",
+      "method": "substack",
+      "url": "https://chinai.substack.com/feed",
+      "home": "https://chinai.substack.com",
+      "cats": [
+        "geo"
+      ],
+      "type": "Newsletter",
+      "active": true,
+      "country": "China"
+    },
+    {
+      "id": "choosing-victory-ryan-fedasiuk",
+      "name": "Choosing Victory (Ryan Fedasiuk)",
+      "method": "feed",
+      "url": "https://www.choosingvictory.com/feed",
+      "home": "https://www.choosingvictory.com",
+      "cats": [
+        "geo"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "threading-the-needle-anton-leicht",
+      "name": "Threading the Needle (Anton Leicht)",
+      "method": "feed",
+      "url": "https://writing.antonleicht.me/feed",
+      "home": "https://writing.antonleicht.me",
+      "cats": [
+        "geo",
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ai-policy-bulletin",
+      "name": "AI Policy Bulletin",
+      "method": "feed",
+      "url": "https://newsletter.aipolicybulletin.org/feed",
+      "home": "https://newsletter.aipolicybulletin.org",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "policy-gradients-fai",
+      "name": "Policy Gradients (FAI)",
+      "method": "feed",
+      "url": "https://policygradients.thefai.org/feed",
+      "home": "https://policygradients.thefai.org",
+      "cats": [
+        "gov",
+        "jobs"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "transformer",
+      "name": "Transformer",
+      "method": "feed",
+      "url": "https://www.transformernews.ai/feed",
+      "home": "https://www.transformernews.ai",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "fyi-this-week-aip",
+      "name": "FYI This Week (AIP)",
+      "method": "feed",
+      "url": "https://www.aip.org/fyi.rss",
+      "home": "https://www.aip.org/fyi",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ai-frontiers-policy-regulation",
+      "name": "AI Frontiers: Policy & Regulation",
+      "method": "scrape",
+      "url": "https://ai-frontiers.org/topic/policy-and-regulation",
+      "home": "https://ai-frontiers.org/topic/policy-and-regulation",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "oecd-ai-policy-observatory",
+      "name": "OECD.AI Policy Observatory",
+      "method": "watch",
+      "url": "https://oecd.ai",
+      "home": "https://oecd.ai",
+      "cats": [
+        "gov",
+        "multi"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "France"
+    },
+    {
+      "id": "eu-ai-act-portal",
+      "name": "EU AI Act Portal",
+      "method": "feed",
+      "url": "https://artificialintelligenceact.eu/feed/",
+      "home": "https://artificialintelligenceact.eu",
+      "cats": [
+        "gov"
+      ],
+      "type": "Tracker",
+      "active": true,
+      "country": "European Union"
+    },
+    {
+      "id": "iapp-ai-governance",
+      "name": "IAPP AI Governance",
+      "method": "watch",
+      "url": "https://iapp.org/resources/topics/artificial-intelligence-1/",
+      "home": "https://iapp.org/resources/topics/artificial-intelligence-1/",
+      "cats": [
+        "gov"
+      ],
+      "type": "Think tank",
+      "active": true
+    },
+    {
+      "id": "eff-updates",
+      "name": "EFF (Updates)",
+      "method": "feed",
+      "url": "https://www.eff.org/rss/updates.xml",
+      "home": "https://www.eff.org/ai",
+      "cats": [
+        "gov"
+      ],
+      "type": "Think tank",
+      "active": true,
+      "filter": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic",
+        "Nvidia",
+        "chip",
+        "semiconductor",
+        "model",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "robot",
+        "automation",
+        "data center",
+        "superintelligence",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "nist-information-technology",
+      "name": "NIST (Information Technology)",
+      "method": "feed",
+      "url": "https://www.nist.gov/news-events/information%20technology/rss.xml",
+      "home": "https://www.nist.gov/artificial-intelligence",
+      "cats": [
+        "gov",
+        "risk"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "uk-dsit",
+      "name": "UK DSIT",
+      "method": "feed",
+      "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom",
+      "home": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "cats": [
+        "gov"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "hyperdimensional-dean-ball",
+      "name": "Hyperdimensional (Dean Ball)",
+      "method": "feed",
+      "url": "https://www.hyperdimensional.co/feed",
+      "home": "https://www.hyperdimensional.co",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "getting-out-of-control-neil-chilson",
+      "name": "Getting Out of Control (Neil Chilson)",
+      "method": "substack",
+      "url": "https://outofcontrol.substack.com/feed",
+      "home": "https://outofcontrol.substack.com",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "appleseed-ai-kevin-frazier",
+      "name": "Appleseed AI (Kevin Frazier)",
+      "method": "substack",
+      "url": "https://appleseedai.substack.com/feed",
+      "home": "https://appleseedai.substack.com",
+      "cats": [
+        "gov",
+        "jobs"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "tech-policy-press-podcast",
+      "name": "Tech Policy Press (podcast)",
+      "method": "feed",
+      "url": "https://feeds.captivate.fm/techpolicypress/",
+      "home": "https://www.techpolicy.press",
+      "cats": [
+        "gov"
+      ],
+      "type": "Podcast",
+      "active": true
+    },
+    {
+      "id": "jonas-freund",
+      "name": "Jonas Freund",
+      "method": "substack",
+      "url": "https://jonasfreund.substack.com/feed",
+      "home": "https://jonasfreund.substack.com",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "right-around-the-perimeter",
+      "name": "Right Around the Perimeter",
+      "method": "substack",
+      "url": "https://rightaroundtheperimeter.substack.com/feed",
+      "home": "https://rightaroundtheperimeter.substack.com",
+      "cats": [
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "metr",
+      "name": "METR",
+      "method": "feed",
+      "url": "https://metr.org/feed.xml",
+      "home": "https://metr.org/blog/",
+      "cats": [
+        "risk",
+        "tech"
+      ],
+      "type": "Research",
+      "active": true
+    },
+    {
+      "id": "ai-safety-newsletter-cais",
+      "name": "AI Safety Newsletter (CAIS)",
+      "method": "feed",
+      "url": "https://newsletter.safe.ai/feed",
+      "home": "https://www.safe.ai",
+      "cats": [
+        "risk"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "uk-ai-security-institute",
+      "name": "UK AI Security Institute",
+      "method": "feed",
+      "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=ai-security-institute",
+      "home": "https://www.aisi.gov.uk",
+      "cats": [
+        "risk"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United Kingdom"
+    },
+    {
+      "id": "nist-caisi-formerly-aisi",
+      "name": "NIST CAISI (formerly AISI)",
+      "method": "watch",
+      "url": "https://www.nist.gov/caisi",
+      "home": "https://www.nist.gov/caisi",
+      "cats": [
+        "risk"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "controlai",
+      "name": "ControlAI",
+      "method": "feed",
+      "url": "https://controlai.news/feed",
+      "home": "https://controlai.news",
+      "cats": [
+        "risk"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "rising-tide-helen-toner",
+      "name": "Rising Tide (Helen Toner)",
+      "method": "substack",
+      "url": "https://helentoner.substack.com/feed",
+      "home": "https://helentoner.substack.com",
+      "cats": [
+        "risk",
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "miles-brundage",
+      "name": "Miles Brundage",
+      "method": "substack",
+      "url": "https://milesbrundage.substack.com/feed",
+      "home": "https://milesbrundage.substack.com",
+      "cats": [
+        "risk"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ai-futures-project",
+      "name": "AI Futures Project",
+      "method": "feed",
+      "url": "https://blog.aifutures.org/feed",
+      "home": "https://blog.aifutures.org",
+      "cats": [
+        "risk",
+        "models"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ai-frontiers-jobs-economy",
+      "name": "AI Frontiers: Jobs & Economy",
+      "method": "scrape",
+      "url": "https://ai-frontiers.org/topic/jobs-and-economy",
+      "home": "https://ai-frontiers.org/topic/jobs-and-economy",
+      "cats": [
+        "jobs"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ilo-employment-labour-markets",
+      "name": "ILO (Employment & Labour Markets)",
+      "method": "watch",
+      "url": "https://www.ilo.org/topics/employment-and-labour-markets",
+      "home": "https://www.ilo.org/topics/employment-and-labour-markets",
+      "cats": [
+        "jobs"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "mckinsey-global-institute",
+      "name": "McKinsey Global Institute",
+      "method": "watch",
+      "url": "https://www.mckinsey.com/mgi/our-research",
+      "home": "https://www.mckinsey.com/mgi/our-research",
+      "cats": [
+        "jobs"
+      ],
+      "type": "Think tank",
+      "active": true
+    },
+    {
+      "id": "ai-frontiers-security",
+      "name": "AI Frontiers: Security",
+      "method": "scrape",
+      "url": "https://ai-frontiers.org/topic/security",
+      "home": "https://ai-frontiers.org/topic/security",
+      "cats": [
+        "peace",
+        "mil"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "unoda-emerging-technologies",
+      "name": "UNODA (Emerging Technologies)",
+      "method": "watch",
+      "url": "https://disarmament.unoda.org/emerging-technologies/",
+      "home": "https://disarmament.unoda.org/emerging-technologies/",
+      "cats": [
+        "peace"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "sipri",
+      "name": "SIPRI",
+      "method": "feed",
+      "url": "https://www.sipri.org/rss/combined.xml",
+      "home": "https://www.sipri.org/research/armament-and-disarmament/emerging-military-and-security-technologies",
+      "cats": [
+        "peace"
+      ],
+      "type": "Think tank",
+      "active": true,
+      "country": "Sweden"
+    },
+    {
+      "id": "unidir",
+      "name": "UNIDIR",
+      "method": "feed",
+      "url": "https://unidir.org/feed/",
+      "home": "https://unidir.org/topics/artificial-intelligence/",
+      "cats": [
+        "peace",
+        "mil"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "cset",
+      "name": "CSET",
+      "method": "feed",
+      "url": "https://cset.georgetown.edu/feed/",
+      "home": "https://cset.georgetown.edu",
+      "cats": [
+        "mil",
+        "hw",
+        "geo"
+      ],
+      "type": "Think tank",
+      "active": true
+    },
+    {
+      "id": "nato-ccdcoe",
+      "name": "NATO CCDCOE",
+      "method": "watch",
+      "url": "https://ccdcoe.org",
+      "home": "https://ccdcoe.org",
+      "cats": [
+        "mil"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "Estonia"
+    },
+    {
+      "id": "cnas-defense",
+      "name": "CNAS (Defense)",
+      "method": "watch",
+      "url": "https://www.cnas.org/research/defense",
+      "home": "https://www.cnas.org/research/defense",
+      "cats": [
+        "mil"
+      ],
+      "type": "Think tank",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "breaking-defense",
+      "name": "Breaking Defense",
+      "method": "feed",
+      "url": "https://breakingdefense.com/full-rss-feed/",
+      "home": "https://breakingdefense.com",
+      "cats": [
+        "mil"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "defense-one-technology",
+      "name": "Defense One (Technology)",
+      "method": "feed",
+      "url": "https://www.defenseone.com/rss/technology/",
+      "home": "https://www.defenseone.com/technology/",
+      "cats": [
+        "mil"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "dept-of-war-news",
+      "name": "Dept of War News",
+      "method": "feed",
+      "url": "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=10",
+      "home": "https://www.war.gov/News/",
+      "cats": [
+        "mil"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "darpa-news",
+      "name": "DARPA News",
+      "method": "feed",
+      "url": "https://www.darpa.mil/rss.xml",
+      "home": "https://www.darpa.mil/news",
+      "cats": [
+        "mil"
+      ],
+      "type": "Official",
+      "active": true,
+      "country": "United States"
+    },
+    {
+      "id": "lockheed-martin-news",
+      "name": "Lockheed Martin News",
+      "method": "feed",
+      "url": "https://news.lockheedmartin.com/rss",
+      "home": "https://news.lockheedmartin.com",
+      "cats": [
+        "mil"
+      ],
+      "type": "Industry",
+      "active": true
+    },
+    {
+      "id": "booz-allen-newsroom",
+      "name": "Booz Allen Newsroom",
+      "method": "feed",
+      "url": "https://newsroom.boozallen.com/press-releases/rss",
+      "home": "https://newsroom.boozallen.com",
+      "cats": [
+        "mil"
+      ],
+      "type": "Industry",
+      "active": true
+    },
+    {
+      "id": "interconnects-nathan-lambert",
+      "name": "Interconnects (Nathan Lambert)",
+      "method": "feed",
+      "url": "https://www.interconnects.ai/feed",
+      "home": "https://www.interconnects.ai",
+      "cats": [
+        "tech"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "mit-technology-review-ai",
+      "name": "MIT Technology Review (AI)",
+      "method": "feed",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "home": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "cats": [
+        "tech"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "ai-frontiers-technology-research",
+      "name": "AI Frontiers: Technology & Research",
+      "method": "scrape",
+      "url": "https://ai-frontiers.org/topic/technology-and-research",
+      "home": "https://ai-frontiers.org/topic/technology-and-research",
+      "cats": [
+        "tech"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ai-frontiers-newsletter",
+      "name": "AI Frontiers Newsletter",
+      "method": "feed",
+      "url": "https://newsletter.ai-frontiers.org/feed",
+      "home": "https://ai-frontiers.org",
+      "cats": [
+        "tech",
+        "gov"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "hugging-face-papers",
+      "name": "Hugging Face Papers",
+      "method": "watch",
+      "url": "https://huggingface.co/papers",
+      "home": "https://huggingface.co/papers",
+      "cats": [
+        "tech"
+      ],
+      "type": "Tracker",
+      "active": true
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "method": "arxiv",
+      "url": "",
+      "home": "https://arxiv.org/list/cs.AI/recent",
+      "cats": [
+        "tech"
+      ],
+      "type": "Research",
+      "active": true,
+      "query": "cat:cs.AI"
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "arXiv cs.CL",
+      "method": "arxiv",
+      "url": "",
+      "home": "https://arxiv.org/list/cs.CL/recent",
+      "cats": [
+        "tech"
+      ],
+      "type": "Research",
+      "active": true,
+      "query": "cat:cs.CL"
+    },
+    {
+      "id": "arxiv-cs-cr",
+      "name": "arXiv cs.CR",
+      "method": "arxiv",
+      "url": "",
+      "home": "https://arxiv.org/list/cs.CR/recent",
+      "cats": [
+        "tech",
+        "risk"
+      ],
+      "type": "Research",
+      "active": true,
+      "query": "cat:cs.CR"
+    },
+    {
+      "id": "ai-as-normal-technology",
+      "name": "AI as Normal Technology",
+      "method": "feed",
+      "url": "https://www.normaltech.ai/feed",
+      "home": "https://www.normaltech.ai",
+      "cats": [
+        "tech",
+        "risk"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "second-thoughts-steve-newman",
+      "name": "Second Thoughts (Steve Newman)",
+      "method": "feed",
+      "url": "https://secondthoughts.ai/feed",
+      "home": "https://secondthoughts.ai",
+      "cats": [
+        "tech"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "marktechpost",
+      "name": "MarkTechPost",
+      "method": "feed",
+      "url": "https://www.marktechpost.com/feed/",
+      "home": "https://www.marktechpost.com",
+      "cats": [
+        "tech"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "wired-ai",
+      "name": "Wired (AI)",
+      "method": "feed",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "home": "https://www.wired.com/tag/ai/",
+      "cats": [
+        "tech"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "method": "feed",
+      "url": "https://newsletter.semianalysis.com/feed",
+      "home": "https://semianalysis.com",
+      "cats": [
+        "hw"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "ieee-spectrum-semiconductors",
+      "name": "IEEE Spectrum (Semiconductors)",
+      "method": "feed",
+      "url": "https://spectrum.ieee.org/feeds/topic/semiconductors.rss",
+      "home": "https://spectrum.ieee.org/semiconductors",
+      "cats": [
+        "hw"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "import-ai-jack-clark",
+      "name": "Import AI (Jack Clark)",
+      "method": "feed",
+      "url": "https://jack-clark.net/feed/",
+      "home": "https://jack-clark.net",
+      "cats": [
+        "models",
+        "tech"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "don-t-worry-about-the-vase-zvi",
+      "name": "Don't Worry About the Vase (Zvi)",
+      "method": "feed",
+      "url": "https://thezvi.wordpress.com/feed/",
+      "home": "https://thezvi.substack.com",
+      "cats": [
+        "models"
+      ],
+      "type": "Newsletter",
+      "active": true
+    },
+    {
+      "id": "lmarena",
+      "name": "LMArena",
+      "method": "watch",
+      "url": "https://lmarena.ai",
+      "home": "https://lmarena.ai",
+      "cats": [
+        "models"
+      ],
+      "type": "Tracker",
+      "active": true
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "method": "feed",
+      "url": "https://openai.com/news/rss.xml",
+      "home": "https://openai.com/news/",
+      "cats": [
+        "models"
+      ],
+      "type": "Lab",
+      "active": true
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "method": "feed",
+      "url": "https://blog.google/technology/ai/rss/",
+      "home": "https://blog.google/technology/ai/",
+      "cats": [
+        "models"
+      ],
+      "type": "Lab",
+      "active": true
+    },
+    {
+      "id": "hugging-face-blog",
+      "name": "Hugging Face Blog",
+      "method": "feed",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "home": "https://huggingface.co/blog",
+      "cats": [
+        "models",
+        "tech"
+      ],
+      "type": "Lab",
+      "active": true
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge (AI)",
+      "method": "feed",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "home": "https://www.theverge.com/ai-artificial-intelligence",
+      "cats": [
+        "models"
+      ],
+      "type": "News",
+      "active": true
+    },
+    {
+      "id": "un-tech-envoy-global-digital-compact",
+      "name": "UN Tech Envoy (Global Digital Compact)",
+      "method": "feed",
+      "url": "https://www.un.org/techenvoy/rss.xml",
+      "home": "https://www.un.org/techenvoy/global-digital-compact",
+      "cats": [
+        "multi"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "unesco-ai",
+      "name": "UNESCO (AI)",
+      "method": "watch",
+      "url": "https://www.unesco.org/en/artificial-intelligence",
+      "home": "https://www.unesco.org/en/artificial-intelligence",
+      "cats": [
+        "multi"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "itu-ai-for-good",
+      "name": "ITU AI for Good",
+      "method": "feed",
+      "url": "https://aiforgood.itu.int/feed/",
+      "home": "https://aiforgood.itu.int",
+      "cats": [
+        "multi"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "unoosa",
+      "name": "UNOOSA",
+      "method": "watch",
+      "url": "https://www.unoosa.org",
+      "home": "https://www.unoosa.org",
+      "cats": [
+        "multi"
+      ],
+      "type": "Official",
+      "active": true
+    },
+    {
+      "id": "secure-world-foundation",
+      "name": "Secure World Foundation",
+      "method": "watch",
+      "url": "https://swfound.org",
+      "home": "https://swfound.org",
+      "cats": [
+        "multi"
+      ],
+      "type": "Think tank",
+      "active": true
+    }
+  ],
+  "library": {
+    "readings": [
+      {
+        "title": "Stanford AI Index Report",
+        "meta": "Annual · Stanford HAI",
+        "desc": "Policy and technical trends across research, economy and governance.",
+        "url": "https://aiindex.stanford.edu/report/",
+        "next": "Spring each year"
+      },
+      {
+        "title": "State of AI Report",
+        "meta": "Annual · Air Street Capital",
+        "desc": "Technology, industry, politics and safety, with a geopolitics section.",
+        "url": "https://www.stateof.ai/",
+        "next": "October each year"
+      },
+      {
+        "title": "International AI Safety Report",
+        "meta": "Commissioned by the UK Government",
+        "desc": "Scientific assessment of risks from general-purpose AI.",
+        "url": "https://internationalaisafetyreport.org/",
+        "next": ""
+      },
+      {
+        "title": "Governing AI for Humanity",
+        "meta": "UN Secretary-General's High-Level Advisory Body on AI",
+        "desc": "Final report with recommendations for global AI governance.",
+        "url": "https://www.un.org/en/ai-advisory-body",
+        "next": ""
+      },
+      {
+        "title": "Artificial Intelligence",
+        "meta": "Our World in Data",
+        "desc": "Charts and data on AI capabilities, investment and adoption.",
+        "url": "https://ourworldindata.org/artificial-intelligence",
+        "next": ""
+      },
+      {
+        "title": "Trends in Artificial Intelligence",
+        "meta": "Epoch AI",
+        "desc": "Data on compute, training costs and model scaling.",
+        "url": "https://epoch.ai/trends",
+        "next": ""
+      },
+      {
+        "title": "The AI Policy Atlas & AI Policy Perspectives",
+        "meta": "Reference",
+        "desc": "",
+        "url": "",
+        "next": ""
+      },
+      {
+        "title": "AI Policy Guide: An Introduction for Policymakers",
+        "meta": "Mercatus Center",
+        "desc": "",
+        "url": "",
+        "next": ""
+      },
+      {
+        "title": "AI Governance and National Policy Syllabus",
+        "meta": "Georgetown University",
+        "desc": "",
+        "url": "",
+        "next": ""
+      },
+      {
+        "title": "AI as Social Technology",
+        "meta": "Henry Farrell",
+        "desc": "",
+        "url": "",
+        "next": ""
+      },
+      {
+        "title": "Taking Jaggedness Seriously",
+        "meta": "Helen Toner",
+        "desc": "",
+        "url": "",
+        "next": ""
+      },
+      {
+        "title": "Governing General-Purpose AI: Towards Comprehensive Governance",
+        "meta": "CSET / OpenAI frameworks",
+        "desc": "",
+        "url": "",
+        "next": ""
+      }
+    ],
+    "trackers": [
+      {
+        "title": "LMArena",
+        "desc": "Crowd-ranked chatbot leaderboard (formerly LMSYS Chatbot Arena)",
+        "url": "https://lmarena.ai"
+      },
+      {
+        "title": "Hugging Face Papers",
+        "desc": "Trending research papers, updated daily",
+        "url": "https://huggingface.co/papers"
+      },
+      {
+        "title": "Epoch AI Data Hub",
+        "desc": "Notable models, compute and hardware datasets",
+        "url": "https://epoch.ai/data"
+      },
+      {
+        "title": "OECD.AI Policy Observatory",
+        "desc": "National AI policies and strategies by country",
+        "url": "https://oecd.ai"
+      },
+      {
+        "title": "EU AI Act Explorer",
+        "desc": "Full text and implementation timeline",
+        "url": "https://artificialintelligenceact.eu"
+      }
+    ]
   }
 }

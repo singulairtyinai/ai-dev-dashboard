@@ -1,12 +1,14 @@
 """Email a digest of new items, grouped by category.
 
 Runs on a schedule (see .github/workflows/send-alerts.yml). Each run:
-  1. Loads every data/articles/<category>.json listed in data/sources.json.
+  1. Loads data/items.json and the categories and alert settings in
+     data/sources.json (editable in the dashboard's admin panel).
   2. Picks the items not included in a previous email (tracked by URL in
      data/alerts/state.json).
   3. If anything is new, sends one email with a section per updated category.
 
-Nothing is sent when no category has new items.
+Nothing is sent when no category has new items, or when alerts are switched
+off in the admin panel.
 
 Configuration comes from environment variables so that no address or
 password is ever committed to this public repo:
@@ -27,7 +29,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 
-from utils import DATA_DIR, load_existing, load_sources
+from utils import DATA_DIR, ITEMS_PATH, load_config, load_json
 
 STATE_PATH = os.path.join(DATA_DIR, "alerts", "state.json")
 DEFAULT_DASHBOARD = "https://singulairtyinai.github.io/ai-dev-dashboard/"
@@ -78,35 +80,54 @@ def time_label(published, now):
     return t.strftime("%d %b")
 
 
-def collect_new(categories, seen, first_run, now):
-    """Return [(category_label, [items])] for categories with unseen items,
-    plus every URL currently in the data files (to record as seen)."""
+def matches_focus(item, keywords):
+    text = f"{item.get('title', '')} {item.get('preview', '')}".lower()
+    return any(k.lower() in text for k in keywords)
+
+
+def collect_new(cfg, items, seen, first_run, now):
+    """Return [(category_name, [items])] for categories with unseen items,
+    plus every URL currently in the data (to record as seen)."""
+    alerts = cfg.get("settings", {}).get("alerts", {})
+    wanted = set(alerts.get("categories") or [c["key"] for c in cfg["categories"]])
+    focus = cfg.get("settings", {}).get("focus_keywords", [])
+    sources = {s["id"]: s for s in cfg["sources"]}
     seen_set = set(seen)
-    sections, all_urls = [], []
-    for key, cfg in categories.items():
-        items = load_existing(key).get("items", [])
-        new = []
-        for item in items:
-            url = item.get("url")
-            if not url:
+    all_urls, by_cat = [], {}
+    for item in items:
+        url = item.get("url")
+        src = sources.get(item.get("source"))
+        if not url or not src:
+            continue
+        all_urls.append(url)
+        if url in seen_set:
+            continue
+        if first_run:
+            t = parse_time(item.get("fetched") or item.get("published"))
+            if not t or now - t > FIRST_RUN_WINDOW:
                 continue
-            all_urls.append(url)
-            if url in seen_set:
-                continue
-            if first_run:
-                t = parse_time(item.get("published"))
-                if not t or now - t > FIRST_RUN_WINDOW:
-                    continue
-            new.append(item)
+        if alerts.get("focus_only") and not matches_focus(item, focus):
+            continue
+        item = dict(item, source=src["name"])
+        for key in src["cats"]:
+            if key in wanted:
+                by_cat.setdefault(key, []).append(item)
+    sections = []
+    for cat in cfg["categories"]:
+        new = by_cat.get(cat["key"])
         if new:
             new.sort(key=lambda i: i.get("published") or "", reverse=True)
-            sections.append((cfg.get("label", key), new))
+            sections.append((cat["name"], new))
     sections.sort(key=lambda s: len(s[1]), reverse=True)
     return sections, all_urls
 
 
+def unique_count(sections):
+    return len({i["url"] for _, items in sections for i in items})
+
+
 def build_subject(sections):
-    total = sum(len(items) for _, items in sections)
+    total = unique_count(sections)
     n = len(sections)
     return f"AI Watchtower: {total} new update{'s' * (total != 1)} in {n} categor{'ies' if n != 1 else 'y'}"
 
@@ -130,7 +151,7 @@ def build_text(sections, now, dashboard):
 
 def build_html(sections, now, dashboard):
     e = html.escape
-    total = sum(len(items) for _, items in sections)
+    total = unique_count(sections)
     summary = ", ".join(f"{e(label)} ({len(items)})" for label, items in sections)
     parts = []
     for label, items in sections:
@@ -172,7 +193,7 @@ def build_html(sections, now, dashboard):
 </td></tr>
 <tr><td style="padding:22px 24px 26px">
 <a href="{e(dashboard, quote=True)}" style="display:inline-block;background:#F2B84B;color:#1A1204;text-decoration:none;font-weight:700;font-size:14px;padding:10px 18px;border-radius:8px">Open the dashboard</a>
-<div style="color:#5A5F69;font-size:12px;margin-top:16px">Sent every 2.5 hours when there is something new. To stop these emails, disable the "Send email alerts" workflow in the repository's Actions tab.</div>
+<div style="color:#5A5F69;font-size:12px;margin-top:16px">Sent every 2.5 hours when there is something new. To pause them, switch alerts off in the dashboard's Admin → Email alerts.</div>
 </td></tr>
 </table></td></tr></table></body></html>"""
 
@@ -201,7 +222,12 @@ def main():
     first_run = state is None
     seen = state["seen_urls"] if state else []
 
-    sections, all_urls = collect_new(load_sources(), seen, first_run, now)
+    cfg = load_config()
+    if not cfg.get("settings", {}).get("alerts", {}).get("enabled", True):
+        print("Email alerts are switched off in the admin panel; nothing sent.")
+        return
+    items = load_json(ITEMS_PATH, {"items": []})["items"]
+    sections, all_urls = collect_new(cfg, items, seen, first_run, now)
     new_seen = seen + [u for u in dict.fromkeys(all_urls) if u not in set(seen)]
 
     if not sections:

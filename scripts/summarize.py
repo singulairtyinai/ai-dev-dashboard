@@ -1,184 +1,98 @@
-"""Generate a short "what happened today" summary per category.
+"""Write a short "what happened" summary per category to data/summaries.json.
 
-Primary path: GitHub Models (free tier, OpenAI-compatible API), authenticated
-with the GITHUB_TOKEN that's automatically available in every GitHub Actions
-run -- no new secret, no new signup, no billing. See:
-https://docs.github.com/en/github-models
+Primary path: GitHub Models (OpenAI-compatible API), authenticated with the
+GITHUB_TOKEN every Actions run gets (the workflow grants `models: read`).
+Fallback: a small extractive summarizer that ranks sentences from the last
+48 hours of titles and previews by word frequency.
 
-Fallback path: if the API call fails for ANY reason (rate limited, network
-error, no token available e.g. when running this locally, model refuses,
-malformed response, request timeout) -- a small local extractive summarizer
-runs instead. It picks the most representative sentences from the day's
-titles/previews using basic word-frequency scoring. Lower quality than an
-LLM summary, but it has zero external dependency and can never break from a
-third party changing their free-tier terms.
-
-Self-throttling: this only generates a NEW summary once per category per UTC
-calendar day, even though the workflow runs every 2 hours. If
-data/summaries/<category>.json already has today's date, it's skipped. This
-keeps usage well within GitHub Models' free-tier limits and avoids
-regenerating the same content 12x/day for no benefit.
+Each category is summarized at most once per UTC day.
 """
-import json
 import os
 import re
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
-from utils import DATA_DIR, load_sources, load_existing
+from utils import ITEMS_PATH, SUMMARIES_PATH, load_config, load_json, save_json
 
-SUMMARIES_DIR = os.path.join(DATA_DIR, "summaries")
+MODELS_URL = "https://models.github.ai/inference/chat/completions"
+MODEL = "openai/gpt-4o-mini"
+WINDOW = timedelta(hours=48)
 
-# GitHub Models: OpenAI-compatible endpoint, authenticated with GITHUB_TOKEN.
-GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
-GITHUB_MODELS_MODEL = "gpt-4o-mini"  # smaller/cheaper model = more headroom on free-tier limits
-REQUEST_TIMEOUT = 30
-
-STOPWORDS = set(['the','a','an','of','to','in','on','for','and','or','is','are',
-  'at','by','with','from','as','it','its','this','that','be','has','have','will','new',
-  'says','after','over','into','how','why','what','ai','vs','amid','than','their','not'])
+STOPWORDS = set("the a an of to in on for and or is are at by with from as it its this that be has have will new "
+                "says after over into how why what ai vs amid than their not".split())
 
 
-def today_str():
-    return datetime.now(timezone.utc).date().isoformat()
-
-
-def already_summarized_today(category):
-    path = os.path.join(SUMMARIES_DIR, f"{category}.json")
-    if not os.path.exists(path):
-        return False
-    try:
-        with open(path, "r") as f:
-            data = json.load(f)
-        return (data.get("generated_at") or "")[:10] == today_str()
-    except (json.JSONDecodeError, KeyError):
-        return False
-
-
-def build_source_text(items, max_items=25):
-    """Titles + preview blurbs for the most recent items, capped to keep the
-    request small (this is meant to be cheap, not exhaustive)."""
-    lines = []
-    for item in items[:max_items]:
-        title = item.get("title", "").strip()
-        preview = (item.get("preview") or "").strip()
-        if preview:
-            lines.append(f"- {title}: {preview}")
-        else:
-            lines.append(f"- {title}")
-    return "\n".join(lines)
-
-
-def summarize_via_github_models(category_label, source_text, token):
+def llm_bullets(label, lines, token):
     prompt = (
-        f"Here are today's items from the \"{category_label}\" section of an AI "
-        f"developments dashboard:\n\n{source_text}\n\n"
-        "Summarize the 3-5 developments that actually matter here, as short "
-        "bullet points. Be concrete and specific (name the actual model, "
-        "company, policy, or paper -- don't write vague generalities). If "
-        "the items don't have enough substance for 3 distinct points, write "
-        "fewer. Output ONLY the bullet points, one per line, starting each "
-        "with '- '. No preamble, no closing remarks."
+        f'Here are the latest items from the "{label}" section of an AI developments dashboard:\n\n'
+        + "\n".join(lines)
+        + "\n\nSummarize the 3-5 developments that matter most, as short bullet points. Be concrete: name the "
+        "model, company, country, policy or paper. If there is not enough substance for 3 points, write fewer. "
+        "Output only the bullet points, one per line, each starting with '- '."
     )
-    resp = requests.post(
-        GITHUB_MODELS_URL,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": GITHUB_MODELS_MODEL,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.3,
-            "max_tokens": 300,
-        },
-        timeout=REQUEST_TIMEOUT,
-    )
-    resp.raise_for_status()
-    content = resp.json()["choices"][0]["message"]["content"]
-    bullets = [
-        line.lstrip("- ").strip()
-        for line in content.strip().splitlines()
-        if line.strip().startswith("-")
-    ]
+    r = requests.post(MODELS_URL, timeout=40, headers={
+        "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "Content-Type": "application/json",
+    }, json={"model": MODEL, "messages": [{"role": "user", "content": prompt}], "temperature": 0.3, "max_tokens": 350})
+    r.raise_for_status()
+    text = r.json()["choices"][0]["message"]["content"]
+    bullets = [l.strip().lstrip("-•* ").strip() for l in text.splitlines() if l.strip().startswith(("-", "•", "*"))]
     if not bullets:
-        raise ValueError("Model response contained no bullet points")
+        raise ValueError("model returned no bullet points")
     return bullets
 
 
-def summarize_extractive(items, max_bullets=5):
-    """Zero-dependency fallback: score sentences from titles/previews by
-    word frequency (excluding stopwords) and return the top-scoring ones.
-    Not a real synthesis -- just surfaces the most-repeated, most salient
-    lines from what was actually fetched."""
-    sentences = []
-    freq = Counter()
-    for item in items:
-        for text in (item.get("title", ""), item.get("preview") or ""):
-            for sentence in re.split(r'(?<=[.!?])\s+', text):
-                sentence = sentence.strip()
-                if len(sentence) < 15:
+def extractive(items, n=4):
+    freq, sentences = Counter(), []
+    for it in items:
+        for text in (it["title"], it.get("preview") or ""):
+            for s in re.split(r"(?<=[.!?])\s+", text):
+                if len(s) < 25:
                     continue
-                sentences.append(sentence)
-                words = re.findall(r"[a-z0-9][a-z0-9\-]{2,}", sentence.lower())
-                for w in words:
-                    if w not in STOPWORDS:
-                        freq[w] += 1
+                sentences.append(s.strip())
+                freq.update(w for w in re.findall(r"[a-z0-9][a-z0-9\-]{2,}", s.lower()) if w not in STOPWORDS)
 
-    def score(sentence):
-        words = re.findall(r"[a-z0-9][a-z0-9\-]{2,}", sentence.lower())
+    def score(s):
+        words = re.findall(r"[a-z0-9][a-z0-9\-]{2,}", s.lower())
         return sum(freq[w] for w in words if w not in STOPWORDS) / max(len(words), 1)
 
-    ranked = sorted(set(sentences), key=score, reverse=True)
-    return ranked[:max_bullets]
+    return sorted(set(sentences), key=score, reverse=True)[:n]
 
 
-def run():
-    os.makedirs(SUMMARIES_DIR, exist_ok=True)
-    categories = load_sources()
+def main():
+    cfg = load_config()
+    src_cats = {s["id"]: s["cats"] for s in cfg["sources"]}
+    items = load_json(ITEMS_PATH, {"items": []})["items"]
+    out = load_json(SUMMARIES_PATH, {})
     token = os.environ.get("GITHUB_TOKEN")
+    now = datetime.now(timezone.utc)
+    today = now.date().isoformat()
+    cutoff = (now - WINDOW).isoformat()
 
-    for cat_key, cfg in categories.items():
-        if already_summarized_today(cat_key):
-            print(f"[{cat_key}] already summarized today, skipping")
+    for cat in cfg["categories"]:
+        key = cat["key"]
+        if (out.get(key, {}).get("generated_at") or "")[:10] == today:
+            print(f"[{key}] already summarized today")
             continue
-
-        existing = load_existing(cat_key)
-        items = existing.get("items", [])
-        if not items:
-            print(f"[{cat_key}] no items to summarize, skipping")
+        recent = [i for i in items if key in src_cats.get(i["source"], []) and (i["published"] or "") >= cutoff][:25]
+        if len(recent) < 2:
+            print(f"[{key}] not enough recent items")
             continue
-
-        source_text = build_source_text(items)
-        method = None
-        bullets = []
-
+        lines = [f"- {i['title']}" + (f": {i['preview']}" if i.get("preview") else "") for i in recent]
+        method, bullets = "extractive", []
         if token:
             try:
-                bullets = summarize_via_github_models(cfg["label"], source_text, token)
-                method = "llm"
+                bullets, method = llm_bullets(cat["name"], lines, token), "llm"
             except Exception as e:
-                print(f"[{cat_key}] GitHub Models summary failed ({e}), falling back to extractive")
-        else:
-            print(f"[{cat_key}] no GITHUB_TOKEN available, using extractive fallback")
-
+                print(f"[{key}] GitHub Models failed ({e}); using extractive summary")
         if not bullets:
-            bullets = summarize_extractive(items)
-            method = "extractive"
+            bullets = extractive(recent)
+        out[key] = {"generated_at": now.isoformat(timespec="seconds"), "method": method, "bullets": bullets, "based_on": len(recent)}
+        print(f"[{key}] {len(bullets)} bullets via {method}")
 
-        out = {
-            "category": cat_key,
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "method": method,
-            "bullets": bullets,
-        }
-        path = os.path.join(SUMMARIES_DIR, f"{cat_key}.json")
-        with open(path, "w") as f:
-            json.dump(out, f, indent=2)
-        print(f"[{cat_key}] wrote {len(bullets)} bullet(s) via {method}")
+    save_json(SUMMARIES_PATH, out)
 
 
 if __name__ == "__main__":
-    run()
+    main()
