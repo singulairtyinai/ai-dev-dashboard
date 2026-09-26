@@ -16,6 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 
 UA = "Mozilla/5.0 (compatible; ai-dev-dashboard-bot/1.0)"
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 TIMEOUT = 20
 
 CANDIDATES = [
@@ -80,6 +82,9 @@ def try_feed(url):
     """Return (feed, http_status) if url serves a parseable feed with entries."""
     try:
         resp = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
+        if resp.status_code == 403:
+            # Some hosts (notably *.substack.com) reject bot user agents.
+            resp = requests.get(url, headers={"User-Agent": BROWSER_UA}, timeout=TIMEOUT)
     except Exception as e:
         return None, f"error: {type(e).__name__}"
     if resp.status_code != 200:
@@ -115,7 +120,7 @@ def check(name, homepage, feeds):
         direct = feedparser.parse(url)
         now = datetime.now(timezone.utc)
         return {
-            "name": name, "ok": True, "feed": url,
+            "name": name, "ok": True, "feed": url, "browser_ua_needed": not bool(feedparser.parse(url, agent=UA).entries),
             "entries": len(feed.entries),
             "latest": latest[0].isoformat() if latest[0] else None,
             "age_days": round((now - latest[0]).total_seconds() / 86400, 1) if latest[0] else None,
@@ -126,8 +131,26 @@ def check(name, homepage, feeds):
     return {"name": name, "ok": False, "tried": tried}
 
 
+RETRY = [
+    ("Getting Out of Control (Neil Chilson)", "https://outofcontrol.substack.com/",
+     ["https://outofcontrol.substack.com/feed"]),
+    ("Rising Tide (Helen Toner)", "https://helentoner.substack.com/",
+     ["https://helentoner.substack.com/feed"]),
+    ("Miles's Substack (Miles Brundage)", "https://milesbrundage.substack.com/",
+     ["https://milesbrundage.substack.com/feed"]),
+    ("Appleseed AI (Kevin Frazier)", "https://appleseedai.substack.com/",
+     ["https://appleseedai.substack.com/feed"]),
+    ("ChinAI (Jeff Ding)", "https://chinai.substack.com/",
+     ["https://chinai.substack.com/feed"]),
+    ("Tech Policy Press (articles)", "https://www.techpolicy.press/",
+     ["https://www.techpolicy.press/rss/", "https://www.techpolicy.press/feed/",
+      "https://www.techpolicy.press/rss.xml", "https://techpolicy.press/rss/"]),
+]
+
+
 def main():
-    results = [check(*c) for c in CANDIDATES]
+    import sys
+    results = [check(*c) for c in (RETRY if "--retry" in sys.argv else CANDIDATES)]
     for r in results:
         if r["ok"]:
             print(f"OK   {r['name']:<42} {r['feed']}\n     latest {r['latest']} ({r['age_days']}d ago), "
