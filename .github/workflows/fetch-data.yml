@@ -10,6 +10,11 @@ permissions:
   contents: write
   models: read
 
+# Shares a group with the email alert workflow so the two never push at the same time.
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -44,5 +49,7 @@ jobs:
           git config user.name "ai-dashboard-bot"
           git config user.email "actions@github.com"
           git add data/articles/*.json data/summaries/*.json
-          git diff --quiet --cached || git commit -m "Scheduled data refresh"
-          git push
+          git diff --quiet --cached && exit 0
+          git commit -m "Scheduled data refresh"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
