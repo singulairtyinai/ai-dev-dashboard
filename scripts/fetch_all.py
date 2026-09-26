@@ -329,6 +329,13 @@ def main():
             print(f"ok   {src['name']}: {len(got)} items, {added} new")
         health[src["id"]] = h
 
+    # Future-dated items (event listings) sort by when we saw them instead.
+    soon = (datetime.now(timezone.utc) + timedelta(hours=2)).isoformat()
+    for it in by_url.values():
+        if (it.get("published") or "") > soon:
+            it.setdefault("event", it["published"])
+            it["published"] = it["fetched"] = min(it.get("fetched") or now, now)
+
     # Prune: per source keep the newest KEEP_PER_SOURCE, drop very old ones
     # (but always keep a few so quiet sources don't vanish).
     known_ids = {s["id"] for s in cfg["sources"]}
