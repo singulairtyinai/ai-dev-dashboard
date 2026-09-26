@@ -44,6 +44,15 @@ Each source in `data/sources.json` has a `method`:
 `scripts/summarize.py` writes a daily summary per category to
 `data/summaries.json` using GitHub Models, with a simple extractive fallback.
 
+## Category filters
+
+A category can require keywords, so general news from its sources is left
+out. Military, for example, only shows items that mention an AI term *and* a
+military term. Edit the lists in Admin → Categories → Filter. ALL-CAPS words
+(AI, LLM, CDAO) match exactly; other words also match longer forms (drone →
+drones). The filter applies to everything already fetched, the email alerts
+and the category summaries.
+
 ## Admin panel
 
 Open **Admin** in the sidebar (or `control-panel.html`, which redirects there).

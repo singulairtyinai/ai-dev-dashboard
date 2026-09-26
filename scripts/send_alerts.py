@@ -29,7 +29,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 
-from utils import DATA_DIR, ITEMS_PATH, load_config, load_json
+from utils import DATA_DIR, ITEMS_PATH, item_categories, load_config, load_json
 
 STATE_PATH = os.path.join(DATA_DIR, "alerts", "state.json")
 DEFAULT_DASHBOARD = "https://singulairtyinai.github.io/ai-dev-dashboard/"
@@ -108,8 +108,9 @@ def collect_new(cfg, items, seen, first_run, now):
                 continue
         if alerts.get("focus_only") and not matches_focus(item, focus):
             continue
+        cats = item_categories(cfg, src, item)
         item = dict(item, source=src["name"])
-        for key in src["cats"]:
+        for key in cats:
             if key in wanted:
                 by_cat.setdefault(key, []).append(item)
     sections = []

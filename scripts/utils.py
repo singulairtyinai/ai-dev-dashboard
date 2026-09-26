@@ -37,6 +37,41 @@ def save_json(path, data):
         f.write("\n")
 
 
+def mentions(text, words):
+    """True if text mentions any of the words.
+
+    ALL-CAPS words (AI, LLM, LAWS, CDAO) match as whole words with their case.
+    Other words match case-insensitively at the start of a word, so "drone"
+    matches "drones" and "war" matches "warfare" but not "software".
+    """
+    for w in words or []:
+        w = w.strip()
+        if not w:
+            continue
+        if w.isupper():
+            if re.search(rf"(?<![A-Za-z0-9]){re.escape(w)}(?![A-Za-z0-9])", text):
+                return True
+        elif re.search(rf"(?<![A-Za-z0-9]){re.escape(w)}", text, re.IGNORECASE):
+            return True
+    return False
+
+
+def category_allows(category, item):
+    """A category's "require" is a list of keyword groups; an item belongs in
+    the category only if it mentions at least one word from every group."""
+    groups = [g for g in category.get("require") or [] if g]
+    if not groups:
+        return True
+    text = f"{item.get('title', '')} {item.get('preview', '')}"
+    return all(mentions(text, g) for g in groups)
+
+
+def item_categories(cfg, source, item):
+    """Category keys an item appears in, after category filters."""
+    cats = {c["key"]: c for c in cfg["categories"]}
+    return [k for k in source.get("cats", []) if k in cats and category_allows(cats[k], item)]
+
+
 def clean_summary(raw_html, max_len=220):
     """Strip HTML tags from a feed summary and truncate for card previews."""
     if not raw_html:

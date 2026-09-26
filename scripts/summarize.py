@@ -15,7 +15,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from utils import ITEMS_PATH, SUMMARIES_PATH, load_config, load_json, save_json
+from utils import ITEMS_PATH, SUMMARIES_PATH, item_categories, load_config, load_json, save_json
 
 # Current GitHub Models endpoint first, then the older Azure-hosted one.
 ENDPOINTS = [
@@ -76,7 +76,8 @@ def extractive(items, n=4):
 
 def main():
     cfg = load_config()
-    src_cats = {s["id"]: s["cats"] for s in cfg["sources"]}
+    sources = {s["id"]: s for s in cfg["sources"]}
+    cats_of = {i["url"]: item_categories(cfg, sources[i["source"]], i) for i in load_json(ITEMS_PATH, {"items": []})["items"] if i.get("source") in sources}
     items = load_json(ITEMS_PATH, {"items": []})["items"]
     out = load_json(SUMMARIES_PATH, {})
     token = os.environ.get("GITHUB_TOKEN")
@@ -90,7 +91,7 @@ def main():
         if (prev.get("generated_at") or "")[:10] == today and prev.get("method") == "llm":
             print(f"[{key}] already summarized today")
             continue
-        recent = [i for i in items if key in src_cats.get(i["source"], []) and (i["published"] or "") >= cutoff][:25]
+        recent = [i for i in items if key in cats_of.get(i["url"], []) and (i["published"] or "") >= cutoff][:25]
         if len(recent) < 2:
             print(f"[{key}] not enough recent items")
             continue

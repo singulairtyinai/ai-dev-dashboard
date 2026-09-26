@@ -53,11 +53,31 @@ async function loadJSON(path, fallback) {
 const srcById = id => CFG.sources.find(s => s.id === id);
 const catBy = k => CFG.categories.find(c => c.key === k) || { key: k, short: k, name: k, color: '#8C9099' };
 
+// Same rule as scripts/utils.py: ALL-CAPS words match whole words with their
+// case; other words match case-insensitively at the start of a word.
+function mentions(text, words) {
+  return (words || []).some(w => {
+    w = String(w).trim(); if (!w) return false;
+    const e = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return w === w.toUpperCase() && /[A-Z]/.test(w)
+      ? new RegExp(`(?<![A-Za-z0-9])${e}(?![A-Za-z0-9])`).test(text)
+      : new RegExp(`(?<![A-Za-z0-9])${e}`, 'i').test(text);
+  });
+}
+// A category's "require" is a list of keyword groups; an item belongs in the
+// category only if it mentions a word from every group.
+function categoryAllows(cat, it) {
+  const groups = (cat.require || []).filter(g => g && g.length);
+  if (!groups.length) return true;
+  const text = it.title + ' ' + (it.preview || '');
+  return groups.every(g => mentions(text, g));
+}
+
 function hydrate(raw) {
   ITEMS = raw.map(it => {
     const s = srcById(it.source);
     if (!s || s.active === false) return null;
-    const cats = (s.cats || []).filter(k => CFG.categories.some(c => c.key === k));
+    const cats = (s.cats || []).filter(k => { const c = CFG.categories.find(c => c.key === k); return c && categoryAllows(c, it); });
     if (!cats.length) return null;
     const t = Date.parse(it.published) || Date.parse(it.fetched) || 0;
     const f = Date.parse(it.fetched) || t;
@@ -541,8 +561,13 @@ function renderAdmin() {
         <input type="color" value="${esc(c.color)}" data-color="${i}" aria-label="Colour for ${esc(c.short)}">
         <div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:8px"><input class="inp" value="${esc(c.name)}" data-rename="${i}" aria-label="Full name"><input class="inp" value="${esc(c.short)}" data-short="${i}" aria-label="Short name"></div>
         <span class="mono num" style="font-size:12px;color:var(--faint)">${D.sources.filter(s => (s.cats || []).includes(c.key)).length} sources</span>
-        <button class="btn small" data-delcat="${i}">Remove</button>
-      </div>`).join('')}
+        <div class="btn-row" style="flex-wrap:nowrap"><button class="btn small" data-catfilter="${i}">${(c.require || []).some(g => g.length) ? 'Filter on' : 'Filter'}</button><button class="btn small" data-delcat="${i}">Remove</button></div>
+      </div>${A.catFilter === i ? `<div class="cat-filter">
+        <p class="note">Only show items in ${esc(c.short)} that mention a word from <b>each</b> list. Leave both empty to show everything from this category's sources. ALL-CAPS words (AI, LLM) match exactly; others also match longer forms (drone → drones).</p>
+        <div class="field"><label>Must mention one of</label><textarea class="inp" data-req="${i}.0" rows="3">${esc(((c.require || [])[0] || []).join(', '))}</textarea></div>
+        <div class="field"><label>And one of</label><textarea class="inp" data-req="${i}.1" rows="3">${esc(((c.require || [])[1] || []).join(', '))}</textarea></div>
+        <p class="note">${(() => { const tmp = { ...c }; const n = RAW_ITEMS.filter(x => { const s = srcById(x.source); return s && (s.cats || []).includes(c.key); }); return `With these lists, ${n.filter(x => categoryAllows(tmp, x)).length} of ${n.length} stored items from this category's sources are shown.`; })()}</p>
+      </div>` : ''}`).join('')}
     </div>
     <form class="filters" id="cat-add" style="margin-top:14px"><input class="inp" id="cat-new" placeholder="New category name" style="max-width:320px" required><button class="btn primary" type="submit">Add category</button></form>
     <p class="note">Removing a category takes it off its sources. Sources left with no category stop appearing until you give them one.</p>`;
@@ -673,6 +698,7 @@ document.addEventListener('click', e => {
     D.settings.alerts.categories = (D.settings.alerts.categories || []).filter(k => k !== c.key);
     return touch(`Removed ${c.short}`);
   }
+  if (d.catfilter) { A.catFilter = A.catFilter === +d.catfilter ? null : +d.catfilter; return renderAdmin(); }
   if (d.delkw) { D.settings.focus_keywords.splice(+d.delkw, 1); return touch(); }
   if (d.ecat) { const al = D.settings.alerts; al.categories = (al.categories || []).includes(d.ecat) ? al.categories.filter(k => k !== d.ecat) : [...(al.categories || []), d.ecat]; return touch(); }
   if (d.dellib) { const [k, i] = d.dellib.split('.'); D.library[k].splice(+i, 1); return touch(); }
@@ -748,6 +774,14 @@ document.addEventListener('change', e => {
   if (t.dataset.rename !== undefined) { D.categories[+t.dataset.rename].name = t.value.trim() || D.categories[+t.dataset.rename].name; return touch(); }
   if (t.dataset.short !== undefined) { D.categories[+t.dataset.short].short = t.value.trim() || D.categories[+t.dataset.short].short; return touch(); }
   if (t.dataset.color !== undefined) { D.categories[+t.dataset.color].color = t.value; return touch(); }
+  if (t.dataset.req) {
+    const [i, g] = t.dataset.req.split('.').map(Number), c = D.categories[i];
+    const req = [...(c.require || [])]; while (req.length < 2) req.push([]);
+    req[g] = t.value.split(/[,\n]/).map(x => x.trim()).filter(Boolean);
+    const cleaned = req.filter(x => x.length);
+    if (cleaned.length) c.require = req; else delete c.require;
+    return touch();
+  }
   if (t.dataset.lib) { const [k, i, field] = t.dataset.lib.split('.'); D.library[k][+i][field] = t.value.trim(); return touch(); }
 });
 document.addEventListener('input', e => {

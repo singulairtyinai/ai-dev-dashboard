@@ -32,7 +32,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from utils import (HEALTH_PATH, ITEMS_PATH, WATCH_PATH, clean_summary, clean_title,
-                   load_config, load_json, now_iso, save_json)
+                   load_config, load_json, mentions, now_iso, save_json)
 
 UA = "Mozilla/5.0 (compatible; ai-dev-dashboard-bot/2.0; +https://github.com/singulairtyinai/ai-dev-dashboard)"
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -235,16 +235,7 @@ def resolve_auto(src, prev):
 
 def keep_item(src, it):
     words = src.get("filter")
-    if not words:
-        return True
-    text = f"{it['title']} {it['preview']}"
-    for w in words:
-        if len(w) <= 3:
-            if re.search(rf"\b{re.escape(w)}\b", text):
-                return True
-        elif w.lower() in text.lower():
-            return True
-    return False
+    return not words or mentions(f"{it['title']} {it['preview']}", words)
 
 
 def tag_countries(src, it):
