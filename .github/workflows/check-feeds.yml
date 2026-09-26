@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'scripts/check_feeds.py'
+      - 'scripts/check_substack.py'
       - '.github/workflows/check-feeds.yml'
 
 permissions:
@@ -19,4 +20,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: python scripts/check_feeds.py
+      - name: Check substack workarounds
+        run: python scripts/check_substack.py
+      - name: Check all candidate feeds
+        run: python scripts/check_feeds.py
