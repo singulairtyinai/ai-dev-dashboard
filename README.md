@@ -42,6 +42,7 @@ Each source in `data/sources.json` has a `method`:
 | `feed` | RSS/Atom feeds |
 | `substack` | `*.substack.com` newsletters, read through rss2json because Substack blocks GitHub's servers |
 | `scrape` | article listing pages without a feed (e.g. AI Frontiers topic pages) |
+| `links` | news pages without a feed whose article links share a path (Anthropic News, Artificial Analysis); set `link_prefix` |
 | `arxiv` | arXiv search queries such as `cat:cs.AI` |
 | `watch` | pages with no feed: new headings and links are reported as changes |
 | `auto` | plain web addresses added in the admin panel: the next run finds a feed, or falls back to `watch` |

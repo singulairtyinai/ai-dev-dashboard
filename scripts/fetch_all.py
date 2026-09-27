@@ -5,6 +5,9 @@ Each source has a "method":
   substack  *.substack.com feed read through rss2json (Substack blocks
             GitHub's servers)
   scrape    server-rendered article listing page (Webflow cards or <article>)
+  links     news page without a feed whose article links share a path, e.g.
+            anthropic.com/news/...: every link under "link_prefix" becomes an
+            item, with the date read from the link text
   arxiv     arXiv API query in "query"
   watch     page with no feed: its headings and links are compared with the
             previous run, and any new ones are reported as a change
@@ -155,6 +158,43 @@ def fetch_scrape(src):
     return out
 
 
+LABELS = re.compile(r"^(?:(?:Announcements?|Product|Policy|Science|Research|Alignment|Interpretability|"
+                    r"Societal Impacts|Economic Research|Event|Case Study|News|Company|Safety)\s+)+")
+
+
+def fetch_links(src):
+    """Items from article links on a news page (for sites with no feed)."""
+    page = src["url"]
+    prefix = src.get("link_prefix") or page.rstrip("/") + "/"
+    soup = BeautifulSoup(get(page).text, "html.parser")
+    out, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        url = urljoin(page, a["href"]).split("#")[0].split("?")[0]
+        if not url.startswith(prefix) or url.rstrip("/") == prefix.rstrip("/") or url in seen:
+            continue
+        text = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        if len(text) < 15:
+            continue
+        seen.add(url)
+        heading = a.find(["h1", "h2", "h3", "h4"])
+        title = heading.get_text(" ", strip=True) if heading else text
+        pub = None
+        m = DATE_RE.search(text)
+        if m:
+            try:
+                pub = datetime.strptime(f"{m.group(1)[:3]} {m.group(2)} {m.group(3)}", "%b %d %Y").replace(tzinfo=timezone.utc).isoformat()
+            except ValueError:
+                pass
+            if not heading:
+                title = (text[:m.start()] + " " + text[m.end():]).strip()
+        if not heading:
+            title = LABELS.sub("", title).strip(" -–|·")
+        paras = [p.get_text(" ", strip=True) for p in a.find_all("p")]
+        summary = max((p for p in paras if p != title), key=len, default="")
+        out.append(item(title, url, pub, summary))
+    return out[:30]
+
+
 def fetch_arxiv(src):
     params = {"search_query": src["query"], "sortBy": "submittedDate", "sortOrder": "descending", "max_results": 15}
     feed = feedparser.parse(get("https://export.arxiv.org/api/query?" + urlencode(params)).content)
@@ -250,7 +290,7 @@ def item_id(url):
     return hashlib.sha1(url.encode()).hexdigest()[:12]
 
 
-FETCHERS = {"feed": fetch_feed, "substack": fetch_substack, "scrape": fetch_scrape, "arxiv": fetch_arxiv}
+FETCHERS = {"feed": fetch_feed, "substack": fetch_substack, "scrape": fetch_scrape, "links": fetch_links, "arxiv": fetch_arxiv}
 
 
 def main():

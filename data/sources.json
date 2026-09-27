@@ -1135,6 +1135,32 @@
       "active": true
     },
     {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "method": "links",
+      "url": "https://www.anthropic.com/news",
+      "link_prefix": "https://www.anthropic.com/news/",
+      "home": "https://www.anthropic.com/news",
+      "cats": [
+        "models"
+      ],
+      "type": "Lab",
+      "active": true
+    },
+    {
+      "id": "artificial-analysis",
+      "name": "Artificial Analysis",
+      "method": "links",
+      "url": "https://artificialanalysis.ai/articles/",
+      "link_prefix": "https://artificialanalysis.ai/articles/",
+      "home": "https://artificialanalysis.ai/articles/",
+      "cats": [
+        "models"
+      ],
+      "type": "Research",
+      "active": true
+    },
+    {
       "id": "un-tech-envoy-global-digital-compact",
       "name": "UN Tech Envoy (Global Digital Compact)",
       "method": "feed",
