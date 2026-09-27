@@ -381,7 +381,7 @@ function palGo(n) { const r = palRes[n]; if (!r) return; closePalette(); r.go();
 /* ================= ADMIN ================= */
 const A = { authed: false, token: null, draft: null, sha: null, dirty: 0, tab: 'sources', q: '', f: 'all', editing: null, busy: false };
 const API = `https://api.github.com/repos/${SITE_CONFIG.owner}/${SITE_CONFIG.repo}`;
-const METHODS = { feed: 'Feed', substack: 'Substack (rss2json)', scrape: 'Scraper', arxiv: 'arXiv query', watch: 'Watch page', auto: 'Auto-detect' };
+const METHODS = { feed: 'Feed', substack: 'Substack (rss2json)', scrape: 'Scraper', links: 'Page links', arxiv: 'arXiv query', watch: 'Watch page', auto: 'Auto-detect' };
 const TYPES = ['Newsletter', 'News', 'Official', 'Think tank', 'Research', 'Tracker', 'Lab', 'Industry', 'Podcast'];
 
 async function sha256(text) {
