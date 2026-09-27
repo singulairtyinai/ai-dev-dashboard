@@ -192,6 +192,10 @@ def fetch_links(src):
         paras = [p.get_text(" ", strip=True) for p in a.find_all("p")]
         summary = max((p for p in paras if p != title), key=len, default="")
         out.append(item(title, url, pub, summary))
+    # On a dated listing, undated links are fixed promos (e.g. a policy page
+    # pinned to the news page), not new posts, so leave them out.
+    if any(i and i["published"] for i in out):
+        out = [i for i in out if i and i["published"]]
     return out[:30]
 
 
