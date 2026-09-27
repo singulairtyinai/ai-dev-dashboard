@@ -135,7 +135,7 @@ def fetch_scrape(src):
     soup = BeautifulSoup(get(src["url"]).text, "html.parser")
     cards = soup.select(".w-dyn-item") or soup.find_all("article")
     out, seen = [], set()
-    for card in cards[:30]:
+    for card in cards[:400]:
         link = card.find("a", href=True)
         if not link:
             continue
@@ -143,7 +143,9 @@ def fetch_scrape(src):
         if url in seen:
             continue
         seen.add(url)
-        heading = card.find(["h1", "h2", "h3"])
+        # Webflow CMS lists often label their fields (fs-list-field="title").
+        field = lambda name: card.find(attrs={"fs-list-field": name})
+        heading = field("title") or card.find(["h1", "h2", "h3"])
         title = heading.get_text(" ", strip=True) if heading else link.get_text(" ", strip=True)
         text = card.get_text(" ", strip=True)
         pub = None
@@ -153,7 +155,11 @@ def fetch_scrape(src):
                 pub = datetime.strptime(f"{m.group(1)[:3]} {m.group(2)} {m.group(3)}", "%b %d %Y").replace(tzinfo=timezone.utc).isoformat()
             except ValueError:
                 pass
-        summary = max((p.get_text(" ", strip=True) for p in card.find_all("p")), key=len, default="")
+        desc = field("description")
+        if desc:
+            summary = desc.get_text(" ", strip=True)
+        else:
+            summary = max((p.get_text(" ", strip=True) for p in card.find_all("p")), key=len, default="")
         out.append(item(title, url, pub, summary if summary != title else ""))
     return out
 
@@ -190,7 +196,7 @@ def fetch_links(src):
         if not heading:
             title = LABELS.sub("", title).strip(" -–|·")
         paras = [p.get_text(" ", strip=True) for p in a.find_all("p")]
-        summary = max((p for p in paras if p != title), key=len, default="")
+        summary = max((p for p in paras if p != title and not DATE_RE.fullmatch(p.strip())), key=len, default="")
         out.append(item(title, url, pub, summary))
     # On a dated listing, undated links are fixed promos (e.g. a policy page
     # pinned to the news page), not new posts, so leave them out.
@@ -342,9 +348,20 @@ def main():
             print(f"ok   {src['name']}: watched{' (changed)' if got.get('changed_at') == now else ''}")
         else:
             got = [i for i in got if keep_item(src, i)]
-            got.sort(key=lambda i: i["published"] or "", reverse=True)
+            # Pages without dates: the first visit records every article as
+            # already seen; later visits add only articles not seen before,
+            # dated when they first appear. This keeps an undated archive page
+            # from flooding the feed with old articles marked as new.
+            undated = [i for i in got if not i["published"]]
+            dated = sorted((i for i in got if i["published"]), key=lambda i: i["published"], reverse=True)
+            fresh_undated = []
+            if undated:
+                seen_urls = set(h.get("seen") or [])
+                if "seen" in h:
+                    fresh_undated = [i for i in undated if i["url"] not in seen_urls and i["url"] not in by_url]
+                h["seen"] = sorted(seen_urls | {i["url"] for i in undated})[-1000:]
             added = 0
-            for it in got[:PER_SOURCE_LIMIT]:
+            for it in dated[:PER_SOURCE_LIMIT] + fresh_undated:
                 if it["url"] in by_url:
                     by_url[it["url"]].update(title=it["title"], preview=it["preview"] or by_url[it["url"]].get("preview", ""))
                     continue

@@ -38,6 +38,15 @@ for line in open(PATH):
     if "|" not in line or line.startswith("#"):
         continue
     name, url = [x.strip() for x in line.split("|", 1)]
+    if name.startswith("CARD "):
+        from bs4 import BeautifulSoup
+        soup = BeautifulSoup(requests.get(url, headers={"User-Agent": UA}, timeout=25).text, "html.parser")
+        cards = soup.select(".w-dyn-item") or soup.find_all("article")
+        print(f"CARD {name[5:]}: {len(cards)} cards")
+        for c in cards[:2]:
+            print(c.prettify()[:3500])
+            print("-----")
+        continue
     if name.startswith("PAGE "):
         try:
             check_page(name[5:], url)
