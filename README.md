@@ -52,6 +52,20 @@ Each source in `data/sources.json` has a `method`:
 `scripts/summarize.py` writes a daily summary per category to
 `data/summaries.json` using GitHub Models, with a simple extractive fallback.
 
+## Daily brief
+
+Every morning a scheduled Claude session (a Routine on the owner's Claude Pro
+plan, not the API) writes `data/brief.json`: a headline, 3-8 key
+developments with links to the items they're based on, and a few bullets per
+category. It appears as "Today's brief" at the top of the Briefing and as the
+summary on category pages.
+
+`python scripts/brief_input.py` prints the last 24 hours of items (by
+publication date) for writing it, and
+`python scripts/brief_input.py --validate data/brief.json` checks the result
+before it's published. If no brief is written, the site falls back to the
+automatic summaries in `data/summaries.json`.
+
 ## Category filters
 
 A category can require keywords, so general news from its sources is left

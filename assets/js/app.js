@@ -2,7 +2,8 @@
 //
 // Reads data/sources.json (categories, sources, settings, library),
 // data/items.json (fetched items), data/watch.json (watched-page changes),
-// data/health.json (per-source status) and data/summaries.json.
+// data/health.json (per-source status), data/summaries.json and data/brief.json
+// (the daily brief written by a scheduled Claude session).
 //
 // The admin panel edits a copy of sources.json and commits it through the
 // GitHub API with a token the user pastes in. The token is kept in
@@ -34,7 +35,7 @@ if (!cutoff) {
   store.set('lastVisit', NOW);
 }
 
-let CFG = null, ITEMS = [], WATCH = {}, HEALTH = {}, SUMMARIES = {}, UPDATED = null;
+let CFG = null, ITEMS = [], WATCH = {}, HEALTH = {}, SUMMARIES = {}, BRIEF = null, UPDATED = null;
 let readIds = new Set(store.get('read', []));
 let starIds = new Set(store.get('stars', []));
 let state = { view: 'brief', cat: null, range: store.get('range', 0), type: 'All', src: null, country: null, sel: -1 };
@@ -126,10 +127,18 @@ const ICONS = {
 const ico = k => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">${ICONS[k]}</svg>`;
 const starSvg = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>';
 
+function plainError(e) {
+  e = String(e || '');
+  if (/403/.test(e)) return 'Site blocks automated access';
+  if (/404/.test(e)) return 'Page not found (link may have moved)';
+  if (/[Tt]imeout|timed out/.test(e)) return 'Site did not respond in time';
+  if (/JavaScript/.test(e)) return 'Page is built by JavaScript and can\'t be watched';
+  return 'Could not load the page';
+}
 function watchInfo(s) {
   const w = WATCH[s.id];
   const h = HEALTH[s.id];
-  if (h && h.status === 'error') return { cls: '', label: 'unreachable', what: h.error || 'Could not load the page' };
+  if (h && h.status === 'error') return { cls: '', label: 'unreachable', what: plainError(h.error), down: true };
   if (!w) return { cls: '', label: 'not checked yet', what: 'Checked on the next fetch' };
   if (w.changed_at) {
     const t = Date.parse(w.changed_at);
@@ -172,6 +181,19 @@ function whyTags(it) {
   const c = it.countries.slice(0, 2).map(k => `<span class="tag">${esc(k)}</span>`);
   return f.concat(c).join('');
 }
+const briefFresh = () => BRIEF && BRIEF.points?.length && NOW - Date.parse(BRIEF.generated_at) < 36 * H;
+function briefCard() {
+  if (!briefFresh()) return '';
+  const byId = id => RAW_ITEMS.find(i => i.id === id);
+  return `<article class="brief-card">
+    <div class="eyebrow">Today's brief · written by Claude ${esc(rel(Date.parse(BRIEF.generated_at)))}</div>
+    <h3>${esc(BRIEF.headline)}</h3>
+    <ol>${BRIEF.points.map(p => `<li>
+      <p>${esc(p.text)}</p>
+      <div class="brief-src">${(p.cats || []).map(k => catLabel(k)).join(' ')}${[...new Map((p.item_ids || []).map(byId).filter(Boolean).map(i => [i.source, i])).values()].slice(0, 3).map(i => `<button class="src-link" data-open="${esc(i.id)}" title="${esc(i.title)}">${esc(srcById(i.source)?.name || i.source)}</button>`).join('')}</div>
+    </li>`).join('')}</ol>
+  </article>`;
+}
 function renderBrief() {
   const pool = ITEMS.filter(i => NOW - i.t < 7 * DAY && i.t <= NOW + H);
   const perSource = {};
@@ -181,7 +203,7 @@ function renderBrief() {
   const newCats = new Set(newItems.flatMap(i => i.cats)).size;
   const date = new Date(NOW).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
   const watch = CFG.sources.filter(s => s.method === 'watch' && s.active !== false).map(s => ({ s, w: watchInfo(s) }))
-    .sort((a, b) => (b.w.t || 0) - (a.w.t || 0)).slice(0, 10);
+    .sort((a, b) => (a.w.down ? 1 : 0) - (b.w.down ? 1 : 0) || (b.w.t || 0) - (a.w.t || 0)).slice(0, 10);
   const srcCounts = {};
   ITEMS.filter(i => NOW - i.t < 7 * DAY).forEach(i => srcCounts[i.source] = (srcCounts[i.source] || 0) + 1);
   const pulse = Object.entries(srcCounts).sort((a, b) => b[1] - a[1]).slice(0, 7);
@@ -194,6 +216,7 @@ function renderBrief() {
     </div></div>
     <div class="brief-grid">
       <section>
+        ${briefCard()}
         <div class="section-title"><h3>Top developments</h3><span>last 7 days</span></div>
         <div class="top-list">${top.length ? top.map((it, n) => `
           <article class="top-item ${n === 0 ? 'lead' : ''}" data-id="${esc(it.id)}">
@@ -255,7 +278,8 @@ function renderCat() {
   list = list.filter(inRange).filter(i => state.type === 'All' || i.type === state.type).filter(i => !state.src || i.source === state.src);
   const watch = CFG.sources.filter(s => s.method === 'watch' && (s.cats || []).includes(c.key) && s.active !== false);
   const newN = ITEMS.filter(i => i.cats.includes(c.key) && isNew(i)).length;
-  const sum = SUMMARIES[c.key];
+  const fromBrief = briefFresh() && BRIEF.categories?.[c.key]?.length;
+  const sum = fromBrief ? { generated_at: BRIEF.generated_at, method: 'claude', bullets: BRIEF.categories[c.key] } : SUMMARIES[c.key];
   const sumFresh = sum && NOW - Date.parse(sum.generated_at) < 3 * DAY && sum.bullets?.length;
   $('#view').innerHTML = `
     <div class="view-head"><div>
@@ -263,7 +287,7 @@ function renderCat() {
       <h2>${esc(c.name)}</h2>
       <p class="lede">${newN ? `<strong>${newN} new</strong> · ` : ''}${srcs.length} sources with posts${watch.length ? ` · ${watch.length} watched ${watch.length === 1 ? 'page' : 'pages'}` : ''}</p>
     </div></div>
-    ${sumFresh ? `<div class="summary-box"><div class="eyebrow">${sum.method === 'llm' ? 'AI summary' : 'Key lines'} · ${rel(Date.parse(sum.generated_at))}</div><ul>${sum.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>` : ''}
+    ${sumFresh ? `<div class="summary-box"><div class="eyebrow">${sum.method === 'claude' ? 'Summary by Claude' : sum.method === 'llm' ? 'AI summary' : 'Key lines'} · ${rel(Date.parse(sum.generated_at))}</div><ul>${sum.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul></div>` : ''}
     ${watch.length ? `<div class="watch-strip">${watch.map(s => { const w = watchInfo(s); return `<a class="wpill" href="${esc(safeUrl(w.url || s.home || s.url))}" target="_blank" rel="noopener" title="${esc(w.what)}">${esc(s.name)}<span class="when ${w.cls}">${esc(w.label)}</span></a>`; }).join('')}</div>` : ''}
     ${types.length > 2 ? `<div class="filters" role="group" aria-label="Source type">${types.map(t => `<button class="chip" data-type="${esc(t)}" aria-pressed="${state.type === t}">${esc(t)}</button>`).join('')}</div>` : ''}
     ${srcs.length > 1 ? `<div class="src-row" role="group" aria-label="Source"><button class="chip" data-src="" aria-pressed="${!state.src}">All sources</button>${srcs.map(([id, name]) => `<button class="chip" data-src="${esc(id)}" aria-pressed="${state.src === id}">${esc(name)}</button>`).join('')}</div>` : ''}
@@ -866,9 +890,9 @@ async function startRefresh() {
     if (run.conclusion !== 'success') throw new Error('the fetch job failed on GitHub (' + run.conclusion + ')');
     setRefresh('loading new items…', true);
     const before = new Set(RAW_ITEMS.map(i => i.id));
-    const [items, watch, health, sums] = await Promise.all(['items', 'watch', 'health', 'summaries'].map(n => repoData(`data/${n}.json`, token).catch(() => null)));
+    const [items, watch, health, sums, brief] = await Promise.all(['items', 'watch', 'health', 'summaries', 'brief'].map(n => repoData(`data/${n}.json`, token).catch(() => null)));
     if (!items) throw new Error('could not read the new data');
-    applyData(items, watch, health, sums);
+    applyData(items, watch, health, sums, brief);
     const fresh = RAW_ITEMS.filter(i => !before.has(i.id)).length;
     setRefresh('', false);
     render();
@@ -894,22 +918,23 @@ document.addEventListener('click', e => {
 }, true);
 async function reloadPublished() {
   setRefresh('checking…', true);
-  const [items, watch, health, sums] = await Promise.all([
-    loadJSON('data/items.json', null), loadJSON('data/watch.json', null), loadJSON('data/health.json', null), loadJSON('data/summaries.json', null)]);
+  const [items, watch, health, sums, brief] = await Promise.all([
+    loadJSON('data/items.json', null), loadJSON('data/watch.json', null), loadJSON('data/health.json', null), loadJSON('data/summaries.json', null), loadJSON('data/brief.json', null)]);
   setRefresh('', false);
   if (!items) return toast('Could not load the data. Try again in a minute.');
   const before = new Set(RAW_ITEMS.map(i => i.id));
-  applyData(items, watch, health, sums);
+  applyData(items, watch, health, sums, brief);
   const fresh = RAW_ITEMS.filter(i => !before.has(i.id)).length;
   render();
   toast(fresh ? `Loaded ${fresh} new item${fresh === 1 ? '' : 's'}.` : 'You already have the latest published data.', 4000);
 }
-function applyData(items, watch, health, sums) {
+function applyData(items, watch, health, sums, brief) {
   NOW = Date.now();
   RAW_ITEMS = items.items || []; UPDATED = items.updated;
   if (watch) WATCH = watch;
   if (health) HEALTH = health.sources || {};
   if (sums) SUMMARIES = sums;
+  if (brief) BRIEF = brief;
   hydrate(RAW_ITEMS);
 }
 
@@ -920,11 +945,12 @@ async function init() {
     $('#view').innerHTML = '<div class="empty">Could not load the source list (data/sources.json). Try reloading the page.</div>';
     return;
   }
-  const [items, watch, health, sums] = await Promise.all([
+  const [items, watch, health, sums, brief] = await Promise.all([
     loadJSON('data/items.json', { items: [] }), loadJSON('data/watch.json', {}),
     loadJSON('data/health.json', { sources: {} }), loadJSON('data/summaries.json', {}),
+    loadJSON('data/brief.json', null),
   ]);
-  applyData(items, watch, health, sums);
+  applyData(items, watch, health, sums, brief);
   fromHash();
   const tok = session.get('tok');
   if (tok) { A.token = tok; loadDraft().then(() => { A.authed = true; if (state.view === 'admin') renderAdmin(); }).catch(() => session.set('tok', null)); }
