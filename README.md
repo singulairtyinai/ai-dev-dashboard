@@ -23,6 +23,13 @@ JSON files in `data/` as the data store. No server or paid hosting.
 - **Admin** – manage sources, categories, focus keywords, email alerts and the
   library.
 
+The **Refresh** button at the top starts a fetch of all sources right away,
+shows its progress, loads the new items when it's done (about a minute) and
+then sends the email alert. It needs a GitHub token with Actions: read and
+write and Contents: read; your admin token is used if you're logged in.
+GitHub often runs the 2-hourly schedule late, so use Refresh when you want
+the latest.
+
 Press `/` to search everything. In a feed, `j`/`k` move, `o` opens, `s` saves
 and `m` marks read or unread.
 
@@ -75,7 +82,7 @@ echo -n "new-password" | shasum -a 256
 
 ## Email alerts
 
-`.github/workflows/send-alerts.yml` runs every 2.5 hours (00:00, 02:30, 05:00 …
+`.github/workflows/send-alerts.yml` runs every 2.5 hours (00:43, 03:13, 05:43 …
 UTC) and emails the items not included in an earlier email, grouped by
 category. Nothing is sent when nothing is new. Categories, "focus keywords
 only" and an on/off switch are in Admin → Email alerts.

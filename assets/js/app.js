@@ -23,7 +23,7 @@ const session = {
   set(k, v) { try { v === null ? sessionStorage.removeItem('aiw:' + k) : sessionStorage.setItem('aiw:' + k, v); } catch (e) {} },
 };
 const H = 3600e3, DAY = 24 * H;
-const NOW = Date.now();
+let NOW = Date.now();
 
 // "New" means published or fetched after your previous visit. The cutoff is
 // fixed for the whole tab session so reloading doesn't clear it.
@@ -42,7 +42,7 @@ let state = { view: 'brief', cat: null, range: store.get('range', 0), type: 'All
 /* ---------------- data ---------------- */
 async function loadJSON(path, fallback) {
   try {
-    const r = await fetch(path + '?v=' + Math.floor(NOW / 60000), { cache: 'no-store' });
+    const r = await fetch(path + '?v=' + Date.now(), { cache: 'no-store' });
     if (!r.ok) throw new Error(r.status);
     return await r.json();
   } catch (e) {
@@ -151,9 +151,8 @@ function renderNav() {
   }).join('');
   const up = Date.parse(UPDATED);
   $('#synced').textContent = up ? rel(up) : 'never';
-  const next = new Date(NOW); next.setUTCMinutes(0, 0, 0); next.setUTCHours(next.getUTCHours() + (next.getUTCHours() % 2 ? 1 : 2));
-  const mins = Math.max(1, Math.round((next - NOW) / 60e3));
-  $('#nextfetch').textContent = mins < 60 ? `in ${mins}m` : `in ${Math.floor(mins / 60)}h ${mins % 60}m`;
+  $('#nextfetch').textContent = 'every 2 hours';
+  const rb = $('#refresh-when'); if (rb && !REFRESH.busy) rb.textContent = up ? 'updated ' + rel(up) : '';
   $('#src-count').textContent = CFG.sources.filter(s => s.active !== false).length + ' sources · ' + CFG.categories.length + ' categories';
   $$('#range button').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.r === state.range)));
 }
@@ -575,7 +574,7 @@ function renderAdmin() {
     const al = D.settings.alerts;
     body = `<div class="card" style="max-width:720px">
       <h3>Email alerts</h3>
-      <p class="note">Every 2.5 hours (00:00, 02:30, 05:00 … UTC), new items in the chosen categories are emailed, grouped by category. No email is sent when nothing is new. The recipient address is stored as a GitHub secret, not on this site.</p>
+      <p class="note">Every 2.5 hours (00:43, 03:13, 05:43 … UTC, and after each Refresh), new items in the chosen categories are emailed, grouped by category. No email is sent when nothing is new. The recipient address is stored as a GitHub secret, not on this site.</p>
       <label class="toggle-row"><button type="button" class="switch" role="switch" id="al-on" aria-checked="${al.enabled !== false}"></button><span>Send email alerts</span></label>
       <div class="field"><label>Categories to include</label><div class="checks">${catChecks(al.categories || [], 'ecat')}</div></div>
       <label class="toggle-row"><button type="button" class="switch" role="switch" id="al-focus" aria-checked="${!!al.focus_only}"></button><span>Only items that match my focus keywords</span></label>
@@ -705,7 +704,7 @@ document.addEventListener('click', e => {
   if (d.addlib) { D.library[d.addlib].push(d.addlib === 'readings' ? { title: 'New reading', meta: '', desc: '', url: '', next: '' } : { title: 'New tracker', desc: '', url: '' }); return touch(); }
   if (t.id === 'al-on') { D.settings.alerts.enabled = D.settings.alerts.enabled === false; return touch(D.settings.alerts.enabled ? 'Alerts on' : 'Alerts off'); }
   if (t.id === 'al-focus') { D.settings.alerts.focus_only = !D.settings.alerts.focus_only; return touch(); }
-  if (t.id === 'run-fetch') return dispatch(SITE_CONFIG.workflowFile, 'Refresh');
+  if (t.id === 'run-fetch') return startRefresh();
   if (t.id === 'run-alert') return dispatch(SITE_CONFIG.alertsWorkflowFile, 'Alert email');
   if (t.id === 'save') return saveDraft();
   if (t.id === 'discard') { loadDraft().then(() => { toast('Changes discarded'); renderAdmin(); }).catch(e => toast(e.message)); return; }
@@ -729,7 +728,7 @@ document.addEventListener('click', e => {
     return touch(`${added} added${bad ? `, ${bad} lines skipped` : ''}${good.length - added ? `, ${good.length - added} already listed` : ''}`);
   }
 });
-$('#scrim').addEventListener('click', () => { closePalette(); closeReader(); $('#rail').classList.remove('on'); $('#scrim').classList.remove('on'); });
+$('#scrim').addEventListener('click', () => { closeTokenDialog(); closePalette(); closeReader(); $('#rail').classList.remove('on'); $('#scrim').classList.remove('on'); });
 document.addEventListener('submit', e => {
   e.preventDefault();
   const f = e.target, D = A.draft;
@@ -801,6 +800,7 @@ document.addEventListener('keydown', e => {
   }
   if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !typing)) { e.preventDefault(); return openPalette(); }
   if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === 'Escape' && !$('#tokdlg').hidden) return closeTokenDialog();
   if (e.key === 'Escape') { closeReader(); $('#rail').classList.remove('on'); $('#scrim').classList.remove('on'); return; }
   if (state.view === 'admin') return;
   if (e.key === 'j') return select(state.sel + 1);
@@ -813,6 +813,106 @@ window.addEventListener('beforeunload', e => { if (A.dirty) { e.preventDefault()
 window.addEventListener('hashchange', () => { fromHash(); render(); });
 
 /* ---------------- start ---------------- */
+/* ---------------- refresh button ----------------
+   Starts the fetch workflow on GitHub, waits for it, then loads the new data
+   straight from the repository (so there's no wait for GitHub Pages), and
+   finally starts the email alert job. Starting a workflow needs a GitHub
+   token with Actions: read and write; the admin token is reused if you're
+   logged in, otherwise one is asked for and kept in this tab only. */
+const REFRESH = { busy: false };
+const refreshToken = () => A.token || session.get('rtok');
+function setRefresh(label, busy) {
+  REFRESH.busy = busy;
+  const b = $('#refresh-btn'), w = $('#refresh-when');
+  b.classList.toggle('is-busy', busy); b.disabled = busy;
+  w.textContent = label;
+}
+function repoData(path, token) {
+  return fetch(`${API}/contents/${path}?ref=${SITE_CONFIG.branch}&t=${Date.now()}`, { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.raw+json' }, cache: 'no-store' })
+    .then(r => r.ok ? r.json() : Promise.reject(new Error(r.status)));
+}
+function openTokenDialog() {
+  $('#tokdlg').hidden = false; $('#scrim').classList.add('on');
+  setTimeout(() => $('#tok-in').focus(), 30);
+}
+function closeTokenDialog() { $('#tokdlg').hidden = true; if (!readerItem) $('#scrim').classList.remove('on'); }
+async function startRefresh() {
+  if (REFRESH.busy) return;
+  const token = refreshToken();
+  if (!token) return openTokenDialog();
+  A.token = A.token || token;
+  const t0 = Date.now() - 30e3;
+  setRefresh('starting…', true);
+  const gh2 = (path, opts = {}) => fetch(API + path, { ...opts, headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' } });
+  try {
+    const r = await gh2(`/actions/workflows/${SITE_CONFIG.workflowFile}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: SITE_CONFIG.branch }) });
+    if (r.status === 401 || r.status === 403 || r.status === 404) {
+      session.set('rtok', null);
+      setRefresh('', false); renderNav();
+      return toast('GitHub refused: the token needs Actions: read and write for this repository.', 6000);
+    }
+    if (r.status !== 204) throw new Error('GitHub returned ' + r.status);
+    // Wait for the run to appear and finish (usually 1-2 minutes).
+    let run = null;
+    for (let i = 0; i < 60; i++) {
+      await new Promise(res => setTimeout(res, i < 3 ? 4000 : 8000));
+      const j = await (await gh2(`/actions/workflows/${SITE_CONFIG.workflowFile}/runs?event=workflow_dispatch&per_page=5`)).json();
+      run = (j.workflow_runs || []).find(x => Date.parse(x.created_at) >= t0);
+      if (!run) { setRefresh('queued…', true); continue; }
+      if (run.status !== 'completed') { setRefresh(run.status === 'queued' ? 'queued…' : 'fetching all sources…', true); continue; }
+      break;
+    }
+    if (!run || run.status !== 'completed') throw new Error('the fetch is taking longer than usual; the page updates on your next visit');
+    if (run.conclusion !== 'success') throw new Error('the fetch job failed on GitHub (' + run.conclusion + ')');
+    setRefresh('loading new items…', true);
+    const before = new Set(RAW_ITEMS.map(i => i.id));
+    const [items, watch, health, sums] = await Promise.all(['items', 'watch', 'health', 'summaries'].map(n => repoData(`data/${n}.json`, token).catch(() => null)));
+    if (!items) throw new Error('could not read the new data');
+    applyData(items, watch, health, sums);
+    const fresh = RAW_ITEMS.filter(i => !before.has(i.id)).length;
+    setRefresh('', false);
+    render();
+    toast(fresh ? `Updated: ${fresh} new item${fresh === 1 ? '' : 's'}.` : 'Updated. No new items since the last fetch.', 5000);
+    // Email any new items now (sends nothing if nothing is new or alerts are off).
+    gh2(`/actions/workflows/${SITE_CONFIG.alertsWorkflowFile}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: SITE_CONFIG.branch }) }).catch(() => {});
+  } catch (e) {
+    setRefresh('', false); renderNav();
+    toast('Refresh stopped: ' + e.message, 6000);
+  }
+}
+document.addEventListener('submit', e => {
+  if (e.target.id !== 'tokform') return;
+  e.preventDefault(); e.stopImmediatePropagation();
+  const v = $('#tok-in').value.trim(); if (!v) return;
+  session.set('rtok', v); $('#tok-in').value = '';
+  closeTokenDialog(); startRefresh();
+}, true);
+document.addEventListener('click', e => {
+  if (e.target.closest('#refresh-btn')) { e.stopImmediatePropagation(); return startRefresh(); }
+  if (e.target.closest('#tok-cancel')) { e.stopImmediatePropagation(); return closeTokenDialog(); }
+  if (e.target.closest('#tok-reload')) { e.stopImmediatePropagation(); closeTokenDialog(); return reloadPublished(); }
+}, true);
+async function reloadPublished() {
+  setRefresh('checking…', true);
+  const [items, watch, health, sums] = await Promise.all([
+    loadJSON('data/items.json', null), loadJSON('data/watch.json', null), loadJSON('data/health.json', null), loadJSON('data/summaries.json', null)]);
+  setRefresh('', false);
+  if (!items) return toast('Could not load the data. Try again in a minute.');
+  const before = new Set(RAW_ITEMS.map(i => i.id));
+  applyData(items, watch, health, sums);
+  const fresh = RAW_ITEMS.filter(i => !before.has(i.id)).length;
+  render();
+  toast(fresh ? `Loaded ${fresh} new item${fresh === 1 ? '' : 's'}.` : 'You already have the latest published data.', 4000);
+}
+function applyData(items, watch, health, sums) {
+  NOW = Date.now();
+  RAW_ITEMS = items.items || []; UPDATED = items.updated;
+  if (watch) WATCH = watch;
+  if (health) HEALTH = health.sources || {};
+  if (sums) SUMMARIES = sums;
+  hydrate(RAW_ITEMS);
+}
+
 async function init() {
   try {
     CFG = await loadJSON('data/sources.json');
@@ -824,8 +924,7 @@ async function init() {
     loadJSON('data/items.json', { items: [] }), loadJSON('data/watch.json', {}),
     loadJSON('data/health.json', { sources: {} }), loadJSON('data/summaries.json', {}),
   ]);
-  RAW_ITEMS = items.items || []; UPDATED = items.updated; WATCH = watch; HEALTH = health.sources || {}; SUMMARIES = sums;
-  hydrate(RAW_ITEMS);
+  applyData(items, watch, health, sums);
   fromHash();
   const tok = session.get('tok');
   if (tok) { A.token = tok; loadDraft().then(() => { A.authed = true; if (state.view === 'admin') renderAdmin(); }).catch(() => session.set('tok', null)); }
