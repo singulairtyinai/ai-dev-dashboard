@@ -1,6 +1,26 @@
 {
- "updated": "2026-09-28T02:18:21+00:00",
+ "updated": "2026-09-28T04:18:35+00:00",
  "items": [
+  {
+   "title": "20 Agentic Use Cases of TypeSafe AI’s Jev",
+   "url": "https://www.marktechpost.com/2026/09/27/20-agentic-use-cases-of-typesafe-ais-jev/",
+   "published": "2026-09-28T03:07:10+00:00",
+   "preview": "TypeSafe AI's Jev skips text generation and returns typed decisions with calibrated probabilities. Input costs $0.042 per million tokens and output is free. We verified 20 agentic use cases, from model routing and…",
+   "id": "8bae98197a0e",
+   "source": "marktechpost",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Google Research Introduces an AI Video Co-Director: 4 Agentic Frameworks for Coherent, Minutes-Long Video Generation",
+   "url": "https://www.marktechpost.com/2026/09/27/google-research-introduces-an-ai-video-co-director-4-agentic-frameworks-for-coherent-minutes-long-video-generation/",
+   "published": "2026-09-28T02:44:27+00:00",
+   "preview": "Google Research has introduced an AI video co-director for long-form video generation. The suite of 4 agentic frameworks turns short clips into coherent, minutes-long stories. It targets identity drift and cascading…",
+   "id": "30dbbe306c49",
+   "source": "marktechpost",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
   {
    "title": "The Quest for Embedded Evaluators",
    "url": "https://thezvi.wordpress.com/2026/09/27/the-quest-for-embedded-evaluators/",
@@ -76,6 +96,16 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+   "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+   "published": "2026-09-27T07:00:00+00:00",
+   "preview": "In light of recent incidents (e.g. those from OpenAI , Anthropic , and UK AISI ), we developed and deployed a basic live per-action monitor to reduce the likelihood of incidents involving harmful actions from agents…",
+   "id": "7cfe345a1794",
+   "source": "metr",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
   },
   {
    "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
@@ -417,6 +447,16 @@
    ]
   },
   {
+   "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+   "url": "https://arxiv.org/abs/2609.31607v1",
+   "published": "2026-09-25T17:55:49+00:00",
+   "preview": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns…",
+   "id": "75f76fd5f661",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "WarTalk: Potemkin Pacific, Midterm Budget Woes",
    "url": "https://www.chinatalk.media/p/wartalk-potemkin-pacific-midterm",
    "published": "2026-09-25T17:54:52+00:00",
@@ -477,6 +517,46 @@
    "countries": []
   },
   {
+   "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+   "url": "https://arxiv.org/abs/2609.31572v1",
+   "published": "2026-09-25T17:35:05+00:00",
+   "preview": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared…",
+   "id": "6b1f65f6efbf",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Adapting for AI: How elementary teachers adjust their practices for an AI-integrated curriculum",
+   "url": "https://arxiv.org/abs/2609.31569v1",
+   "published": "2026-09-25T17:33:47+00:00",
+   "preview": "Conversational AI tools are entering children's everyday experiences, and schools are interested in adopting them. However, successful classroom integration depends not only on the technology but also on the work…",
+   "id": "3e9f81145d42",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+   "url": "https://arxiv.org/abs/2609.31568v1",
+   "published": "2026-09-25T17:33:41+00:00",
+   "preview": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to…",
+   "id": "869545e69a85",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
+   "url": "https://arxiv.org/abs/2609.31563v1",
+   "published": "2026-09-25T17:29:15+00:00",
+   "preview": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a…",
+   "id": "3720b44ddb43",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Region-Level Black-Box Defense Against Stealthy Embedding-Space Backdoors in CLIP",
    "url": "https://arxiv.org/abs/2609.31558v1",
    "published": "2026-09-25T17:26:02+00:00",
@@ -514,6 +594,26 @@
    "id": "91b5cda5e648",
    "source": "arxiv-cs-cl",
    "fetched": "2026-09-28T02:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Flow Matching Framework for Neural Representational Dissimilarity",
+   "url": "https://arxiv.org/abs/2609.31544v1",
+   "published": "2026-09-25T17:15:43+00:00",
+   "preview": "Neural representational dissimilarity quantifies differences between neural response distributions, and is essential for comparing neural codes across stimuli, brain areas, tasks, and models. Commonly used distance…",
+   "id": "51604adf555a",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
+   "url": "https://arxiv.org/abs/2609.31540v1",
+   "published": "2026-09-25T17:11:55+00:00",
+   "preview": "Sending every network-automation input to a third-party frontier LLM exports sensitive artifacts such as production configurations, topologies, and logs. Querying small language models (SLMs) locally avoids this egress,…",
+   "id": "e20371fae91e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
    "countries": []
   },
   {
@@ -569,6 +669,16 @@
    "countries": []
   },
   {
+   "title": "ClearGS: Reliability-Aware Gaussian Splatting from Handheld Videos",
+   "url": "https://arxiv.org/abs/2609.31509v1",
+   "published": "2026-09-25T16:50:46+00:00",
+   "preview": "We present ClearGS for 3D Gaussian Splatting (3DGS) from handheld videos with uneven viewpoint coverage and mixed frame quality. Rather than selecting frames with binary decisions, ClearGS uses Reliability-aware View…",
+   "id": "5cb34b1885cd",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Meta makes the Muse filesystem even more accessible",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
    "published": "2026-09-25T16:49:53+00:00",
@@ -589,6 +699,16 @@
    "countries": []
   },
   {
+   "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
+   "url": "https://arxiv.org/abs/2609.31505v1",
+   "published": "2026-09-25T16:45:28+00:00",
+   "preview": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will explore $\\textit{prompt minimization}$, the process of reducing prompts to their…",
+   "id": "c64c26fa5f59",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Toward verifiably private learning from federated data",
    "url": "https://arxiv.org/abs/2609.31494v1",
    "published": "2026-09-25T16:34:25+00:00",
@@ -599,6 +719,16 @@
    "countries": []
   },
   {
+   "title": "UQ-LOB: Uncertainty-Aware Limit Order Book Mid-Price Forecasting",
+   "url": "https://arxiv.org/abs/2609.31491v1",
+   "published": "2026-09-25T16:33:23+00:00",
+   "preview": "Forecasting short-horizon mid-price movements from limit order book (LOB) data is central to algorithmic trading, yet most deep LOB forecasters are point predictors: they output a direction or a displacement, but never…",
+   "id": "1d1837908fa3",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Verifiable Randomness for Blockchain-Based Lottery Systems",
    "url": "https://arxiv.org/abs/2609.31485v1",
    "published": "2026-09-25T16:27:33+00:00",
@@ -606,6 +736,26 @@
    "id": "ec8bb3d13030",
    "source": "arxiv-cs-cr",
    "fetched": "2026-09-28T02:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "\"AI is (not) the new...\": A Diagnostic Analogy Framework for Generative AI's Cultural Impacts",
+   "url": "https://arxiv.org/abs/2609.31482v1",
+   "published": "2026-09-25T16:25:46+00:00",
+   "preview": "Generative AI is reshaping the cultural infrastructures through which knowledge is found, synthesized, and held accountable. To make sense of this shift, scholars and policymakers reach for historical analogies of…",
+   "id": "a691f0901206",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+   "url": "https://arxiv.org/abs/2609.31473v1",
+   "published": "2026-09-25T16:20:55+00:00",
+   "preview": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head…",
+   "id": "de3a909d9063",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-28T04:18:35+00:00",
    "countries": []
   },
   {
@@ -1336,26 +1486,6 @@
    "countries": []
   },
   {
-   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-   "url": "https://arxiv.org/abs/2609.30199v1",
-   "published": "2026-09-24T17:37:14+00:00",
-   "preview": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult:…",
-   "id": "6dcd7e895f44",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:37:14+00:00",
-   "countries": []
-  },
-  {
-   "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-   "url": "https://arxiv.org/abs/2609.30192v1",
-   "published": "2026-09-24T17:33:29+00:00",
-   "preview": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration…",
-   "id": "7d7e88eef07e",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:33:29+00:00",
-   "countries": []
-  },
-  {
    "title": "AI's never-before-seen capital grab",
    "url": "https://www.axios.com/2026/09/24/ai-private-credit-capital-grab",
    "published": "2026-09-24T17:31:00+00:00",
@@ -2022,6 +2152,18 @@
    "source": "marktechpost",
    "fetched": "2026-09-24T05:27:41+00:00",
    "countries": []
+  },
+  {
+   "title": "Toner: There’s a Lot of Upside To AI if We Do It Right",
+   "url": "https://cset.georgetown.edu/article/toner-theres-a-lot-of-upside-to-ai-if-we-do-it-right/",
+   "published": "2026-09-24T03:40:54+00:00",
+   "preview": "CSET's Helen Toner spoke with Bloomberg's Romaine Bostick about the status of AI regulation in the US, the AI race with China, and where she thinks AI pacing should go from here. The post Toner: There’s a Lot of Upside…",
+   "id": "79fc407ed0e8",
+   "source": "cset",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": [
+    "China"
+   ]
   },
   {
    "title": "GenAI.mil saw more than 2 million users in one week, top DOD official says",
@@ -3833,6 +3975,19 @@
    "countries": []
   },
   {
+   "title": "AI makes it “easier than ever” for adversaries to target U.S. military, experts say",
+   "url": "https://cset.georgetown.edu/article/ai-makes-it-easier-than-ever-for-adversaries-to-target-u-s-military-experts-say/",
+   "published": "2026-09-17T21:00:00+00:00",
+   "preview": "CSET’s Sam Bresnick shared his expert insight in an article published by CBS News. The article examines how Iran and other U.S. adversaries are increasingly using artificial intelligence to support military,…",
+   "id": "2b3995317ec0",
+   "source": "cset",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": [
+    "United States",
+    "Iran"
+   ]
+  },
+  {
    "title": "Making global data easier to explore",
    "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
    "published": "2026-09-17T20:00:00+00:00",
@@ -4023,6 +4178,19 @@
    "source": "anthropic-news",
    "fetched": "2026-09-27T16:42:52+00:00",
    "countries": []
+  },
+  {
+   "title": "AI being used by ‘bad guys’ is ‘no surprise’: Bryan Stern",
+   "url": "https://cset.georgetown.edu/article/ai-being-used-by-bad-guys-is-no-surprise-bryan-stern/",
+   "published": "2026-09-16T21:00:00+00:00",
+   "preview": "CSET’s Sam Bresnick joined NewsNation alongside Grey Bull Rescue CEO Bryan Stern to discuss a report that AI models are being used by Iran against U.S. Navy forces. The post AI being used by ‘bad guys’ is ‘no surprise’:…",
+   "id": "21f179c459f7",
+   "source": "cset",
+   "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": [
+    "United States",
+    "Iran"
+   ]
   },
   {
    "title": "Stopgap Measures to Address Immediate AI Security Threats",
