@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-28T00:19:03+00:00",
+  "checked_at": "2026-09-28T02:18:22+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-28T00:19:04+00:00",
+  "checked_at": "2026-09-28T02:18:23+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-28T00:19:05+00:00",
+  "checked_at": "2026-09-28T02:18:23+00:00",
   "hash": "81acdcfa9c3153942b87675a0d18825e95a0283a",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -82,7 +82,7 @@
   "added": []
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-28T00:19:05+00:00",
+  "checked_at": "2026-09-28T02:18:24+00:00",
   "hash": "280b22d2116bb3b6bc23f195e83d2f5d61820250",
   "known": [
    "Center for AI Standards and Innovation (CAISI)"
@@ -91,7 +91,7 @@
   "added": []
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-28T00:19:07+00:00",
+  "checked_at": "2026-09-28T02:18:26+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -103,7 +103,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-28T00:19:06+00:00",
+  "checked_at": "2026-09-28T02:18:25+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -124,45 +124,42 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-28T00:19:07+00:00",
-  "hash": "6a8c6df63d3a90bcaf01dbb7d39a93d7a0d8c870",
+  "checked_at": "2026-09-28T02:18:26+00:00",
+  "hash": "655da006d49c456aac6f6633ff3974cb8ab69172",
   "known": [
-   "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
-   "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-   "AgentKernel: The Trust-Native Agentic Operating System",
-   "Carnegie Mellon University",
-   "City University of Hong Kong",
-   "CoLingLab | Computational Linguistics Laboratory - University of Pisa",
-   "Coding Agents for Generalized Task and Motion Planning Problems",
-   "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
-   "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-   "Fondazione Bruno Kessler - NLP Unit",
-   "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
-   "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
-   "Learning to Discover Interesting Mathematics",
-   "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
-   "OmniEcho: Spatial Audio Understanding for Embodied Agents",
-   "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
-   "Parts-of-Speech as Emergent Categories in SAE Latent Space",
-   "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-   "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-   "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
-   "Renmin University of China",
-   "Rufus-Air: An Open LLM Post-Training Recipe",
-   "Training Object Permanence in World Models",
-   "University of North Texas",
-   "University of Southern California",
-   "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
-   "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-   "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-   "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+   "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+   "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+   "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+   "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+   "USC Physical Superintelligence (PSI) Lab",
    "by AK and the research community"
   ],
-  "changed_at": null,
-  "added": []
+  "changed_at": "2026-09-28T02:18:26+00:00",
+  "added": [
+   {
+    "text": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "USC Physical Superintelligence (PSI) Lab",
+    "url": "https://huggingface.co/USC-PSI-Lab"
+   },
+   {
+    "text": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+    "url": "https://huggingface.co/papers"
+   }
+  ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-28T00:19:10+00:00",
+  "checked_at": "2026-09-28T02:18:29+00:00",
   "hash": "156f5d882f21e43dcb92719ed7224f4641df882f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -190,7 +187,7 @@
   "added": []
  },
  "unoosa": {
-  "checked_at": "2026-09-28T00:19:10+00:00",
+  "checked_at": "2026-09-28T02:18:30+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -288,7 +285,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-28T00:19:10+00:00",
+  "checked_at": "2026-09-28T02:18:29+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
