@@ -330,17 +330,24 @@ function renderWorld() {
 /* ---------------- library ---------------- */
 function renderLib() {
   const lib = CFG.library || { readings: [], trackers: [] };
-  $('#view').innerHTML = `
-    <div class="view-head"><div><div class="eyebrow">Reference</div><h2>Library</h2>
-    <p class="lede">Annual reports, key readings and trackers. These don't stream news, so they live here instead of in the feed.</p></div></div>
-    <div class="section-title"><h3>Important readings &amp; reports</h3><span>${lib.readings.length} titles</span></div>
-    <div class="lib-grid">${lib.readings.map(r => `
+  // Tagged readings are grouped under their tag (in order of first appearance); untagged ones follow.
+  const groups = new Map();
+  lib.readings.forEach(r => { const k = (r.tag || '').trim(); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); });
+  const order = [...groups.keys()].filter(Boolean);
+  if (groups.has('')) order.push('');
+  const book = r => `
       <article class="book ${r.url ? '' : 'nolink'}">
         ${r.meta ? `<div class="by">${esc(r.meta)}</div>` : ''}
         <h3>${esc(r.title)}</h3>
         ${r.desc ? `<p>${esc(r.desc)}</p>` : ''}
-        <div class="foot">${r.url ? `<a class="btn small" href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">Open ↗</a>${r.next ? `<span class="next">${esc(r.next)}</span>` : ''}` : `<span>No link yet. Add one in Admin → Library.</span>`}</div>
-      </article>`).join('')}</div>
+        <div class="foot">${r.url ? `<span class="btn-row"><a class="btn small" href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">Open ↗</a>${r.pdf ? `<a class="btn small" href="${esc(safeUrl(r.pdf))}" target="_blank" rel="noopener">PDF ↓</a>` : ''}</span>${r.next ? `<span class="next">${esc(r.next)}</span>` : ''}` : `<span>No link yet. Add one in Admin → Library.</span>`}</div>
+      </article>`;
+  $('#view').innerHTML = `
+    <div class="view-head"><div><div class="eyebrow">Reference</div><h2>Library</h2>
+    <p class="lede">Annual reports, key readings and trackers. These don't stream news, so they live here instead of in the feed.</p></div></div>
+    ${order.map((k, i) => `
+    <div class="section-title"${i ? ' style="margin-top:30px"' : ''}><h3>${k ? esc(k) : (order.length > 1 ? 'Key readings &amp; reports' : 'Important readings &amp; reports')}</h3><span>${groups.get(k).length} titles</span></div>
+    <div class="lib-grid">${groups.get(k).map(book).join('')}</div>`).join('')}
     <div class="section-title" style="margin-top:30px"><h3>Trackers &amp; leaderboards</h3><span>live data on the source site</span></div>
     <div class="feed">${lib.trackers.map(t => `<div class="tracker"><b>${esc(t.title)}</b><span>${esc(t.desc)}</span><a class="btn small" href="${esc(safeUrl(t.url))}" target="_blank" rel="noopener">Open ↗</a></div>`).join('') || '<div class="empty">No trackers yet.</div>'}</div>`;
 }
@@ -613,12 +620,14 @@ function renderAdmin() {
     </div>`;
   } else if (A.tab === 'lib') {
     const L = D.library;
-    body = `<div class="section-title"><h3>Readings &amp; reports</h3><span>title · address · note</span></div>
+    body = `<div class="section-title"><h3>Readings &amp; reports</h3><span>title · address · publisher · group · PDF</span></div>
     <div class="card" style="padding:0;gap:0">${L.readings.map((r, i) => `<div class="lib-edit">
       <input class="inp" value="${esc(r.title)}" data-lib="readings.${i}.title" aria-label="Title">
       <input class="inp" value="${esc(r.url)}" data-lib="readings.${i}.url" placeholder="https://" aria-label="Address">
       <input class="inp" value="${esc(r.meta)}" data-lib="readings.${i}.meta" placeholder="Publisher" aria-label="Publisher">
-      <button class="btn small" data-dellib="readings.${i}">Remove</button></div>`).join('')}</div>
+      <button class="btn small" data-dellib="readings.${i}">Remove</button>
+      <input class="inp" value="${esc(r.tag || '')}" data-lib="readings.${i}.tag" placeholder="Group, e.g. Q3 2026 · AI governance" aria-label="Group">
+      <input class="inp" value="${esc(r.pdf || '')}" data-lib="readings.${i}.pdf" placeholder="PDF address (optional)" aria-label="PDF address"></div>`).join('')}</div>
     <div class="btn-row" style="margin:10px 0 24px"><button class="btn" data-addlib="readings">Add a reading</button></div>
     <div class="section-title"><h3>Trackers</h3><span>title · address · description</span></div>
     <div class="card" style="padding:0;gap:0">${L.trackers.map((r, i) => `<div class="lib-edit">
