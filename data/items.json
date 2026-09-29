@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T02:02:54+00:00",
+ "updated": "2026-09-29T02:19:12+00:00",
  "items": [
   {
    "title": "How we will do better for Australia",
@@ -84,6 +84,16 @@
    "id": "4480a93be62d",
    "source": "semianalysis",
    "fetched": "2026-09-28T20:18:39+00:00",
+   "countries": []
+  },
+  {
+   "title": "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
+   "url": "https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/",
+   "published": "2026-09-28T19:21:25+00:00",
+   "preview": "NVIDIA has launched the Open Agent Safety Platform, an open reference design that enforces AI agent safety outside the agent itself. OpenShell, an Apache 2.0 runtime, sandboxes agents under YAML policies. Sentry, an…",
+   "id": "533376325090",
+   "source": "marktechpost",
+   "fetched": "2026-09-29T02:19:12+00:00",
    "countries": []
   },
   {
@@ -646,6 +656,48 @@
    "countries": []
   },
   {
+   "title": "Transfer Learning for Edge Classification on Dynamic Text-Attributed Graphs",
+   "url": "https://arxiv.org/abs/2609.32849v1",
+   "published": "2026-09-26T18:23:46+00:00",
+   "preview": "Learning transferable representations for dynamic text-attributed graphs (DyTAGs) requires models to capture underlying interaction dynamics that persist across domains. However, existing methods tend to overfit to…",
+   "id": "20f2d64c6a02",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation",
+   "url": "https://arxiv.org/abs/2609.32837v1",
+   "published": "2026-09-26T18:10:52+00:00",
+   "preview": "Ultrasound (US) acquisition depends on the operator's ability to interpret anatomy and anticipate how the view will change with probe motion. Many robotic US navigation methods select actions without explicitly…",
+   "id": "a3aed6878c45",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": [
+    "NATO"
+   ]
+  },
+  {
+   "title": "Radiomap Blind Prediction under Incomplete Observation: Error Characterization and Correctable Propagation-Prior Learning",
+   "url": "https://arxiv.org/abs/2609.32836v1",
+   "published": "2026-09-26T18:08:41+00:00",
+   "preview": "Radiomap blind prediction aims to infer radiomaps from observable representations of the propagation environment and base station configuration without field measurements. In practice, the observable representations are…",
+   "id": "aaf9a3cc9802",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "FinancialAuditBench: Benchmark Construction under Differential Privacy Using Real-World Priors",
+   "url": "https://arxiv.org/abs/2609.32835v1",
+   "published": "2026-09-26T18:07:58+00:00",
+   "preview": "As AI agents are becoming widely adopted in the financial services industry, careful measurement is essential to understand where they can be reliably deployed and where oversight and professional review remain…",
+   "id": "bd12c4915514",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Rebalancing the Branches in the Age of AI",
    "url": "https://appleseedai.substack.com/p/rebalancing-the-branches-in-the-age",
    "published": "2026-09-26T18:06:30+00:00",
@@ -656,6 +708,16 @@
    "countries": []
   },
   {
+   "title": "Improving LLM Collaboration via Multi-Agent Preference Learning",
+   "url": "https://arxiv.org/abs/2609.32827v1",
+   "published": "2026-09-26T17:54:03+00:00",
+   "preview": "Several works have explored multi-agent reinforcement learning (MARL) in LLM collaboration. However, constructing reliable rewards is difficult in practice, as complete and accurate metrics are often unavailable and…",
+   "id": "55e499f5201e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
    "title": "The Decomposition Tax: LLM Pipelines Lose Up to 40 Accuracy Points at Their Own Interfaces",
    "url": "https://arxiv.org/abs/2609.32825v1",
    "published": "2026-09-26T17:49:27+00:00",
@@ -663,6 +725,46 @@
    "id": "24aabb305001",
    "source": "arxiv-cs-cl",
    "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
+   "url": "https://arxiv.org/abs/2609.32821v1",
+   "published": "2026-09-26T17:47:55+00:00",
+   "preview": "Model merging efficiently combines specialized large language models (LLMs) without joint retraining, but can substantially alter expert routing in Mixture-of-Experts (MoE) models. Such \\emph{routing drift} is often…",
+   "id": "ac0a1525fe54",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rank Collapse Is Recoverable, Growing $|Q|$ Is Not: Out-of-Sample Early Warning for Value Divergence in High-UTD Soft Actor-Critic",
+   "url": "https://arxiv.org/abs/2609.32819v1",
+   "published": "2026-09-26T17:46:16+00:00",
+   "preview": "Raising the update-to-data (UTD) ratio breaks off-policy critics in two ways grouped as \"plasticity loss\": collapsing representations and growing value magnitude $|Q|$. We separate them in Soft Actor-Critic (SAC) with…",
+   "id": "5652824cd63b",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "When Can First-Order Models of Fine-Tuning Bound Forgetting?",
+   "url": "https://arxiv.org/abs/2609.32818v1",
+   "published": "2026-09-26T17:45:31+00:00",
+   "preview": "Fine-tuning a language model on new data can make it forget facts that it should keep. We ask whether measurements taken at the start of a fine-tuning run can bound, for each protected fact, the probability that the run…",
+   "id": "ddb012c499b2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Right Answer, Wrong Reason: Accuracy, Consistency, and Consensus Are Misleading Indicators of LLM Faithfulness in Clinical Decision Support",
+   "url": "https://arxiv.org/abs/2609.32817v1",
+   "published": "2026-09-26T17:44:22+00:00",
+   "preview": "Clinical Large Language Models (LLMs) achieve strong medical-exam accuracy; however, a correct answer does not guarantee that the explanation names the concepts that actually drove the decision. We introduce three…",
+   "id": "73c7765a07d8",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
    "countries": []
   },
   {
@@ -706,6 +808,16 @@
    "countries": []
   },
   {
+   "title": "Beyond Accuracy: Counterfactual Fragility and Demographic Bias in Clinical Evaluation of LLMs",
+   "url": "https://arxiv.org/abs/2609.32807v1",
+   "published": "2026-09-26T17:28:46+00:00",
+   "preview": "Clinical LLM evaluation often emphasizes answer accuracy; however, accuracy alone does not test counterfactual consistency or demographic robustness. We evaluated six LLMs on 150 MedQA USMLE questions using two…",
+   "id": "4f5a63821b24",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Decision-Sufficient State Representations: Measuring and Reducing Write-Time Regret",
    "url": "https://arxiv.org/abs/2609.32805v1",
    "published": "2026-09-26T17:27:32+00:00",
@@ -713,6 +825,16 @@
    "id": "e59505b555fb",
    "source": "arxiv-cs-cl",
    "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Finding Emotions Where They Belong: Rethinking Audio Emotion Recognition through Masked Temporal Affective Grounding",
+   "url": "https://arxiv.org/abs/2609.32804v1",
+   "published": "2026-09-26T17:27:10+00:00",
+   "preview": "Audio emotion recognition (AER) typically assigns a single label to an entire recording, leaving the temporal scope of that label ambiguous when multiple speakers and affective events are present. We address this…",
+   "id": "c2c794061abe",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-09-29T02:19:12+00:00",
    "countries": []
   },
   {
@@ -1285,16 +1407,6 @@
    "countries": []
   },
   {
-   "title": "Strategically Diverse Sampling for Self-Training",
-   "url": "https://arxiv.org/abs/2609.31571v1",
-   "published": "2026-09-25T17:35:05+00:00",
-   "preview": "Many LLM training and inference methods, including RL and test-time scaling, depend on repeated sampling, but benefit only when the responses meaningfully differ. Self-training faces the same challenge: training data is…",
-   "id": "620734a8681f",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-09-28T02:18:21+00:00",
-   "countries": []
-  },
-  {
    "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
    "url": "https://arxiv.org/abs/2609.31572v1",
    "published": "2026-09-25T17:35:05+00:00",
@@ -1302,6 +1414,16 @@
    "id": "6b1f65f6efbf",
    "source": "arxiv-cs-ai",
    "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Strategically Diverse Sampling for Self-Training",
+   "url": "https://arxiv.org/abs/2609.31571v1",
+   "published": "2026-09-25T17:35:05+00:00",
+   "preview": "Many LLM training and inference methods, including RL and test-time scaling, depend on repeated sampling, but benefit only when the responses meaningfully differ. Self-training faces the same challenge: training data is…",
+   "id": "620734a8681f",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-28T02:18:21+00:00",
    "countries": []
   },
   {
@@ -2168,26 +2290,6 @@
    "countries": []
   },
   {
-   "title": "RAPID: Robot Agentic Programming from Demonstrations",
-   "url": "https://arxiv.org/abs/2609.30249v1",
-   "published": "2026-09-24T17:58:21+00:00",
-   "preview": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which…",
-   "id": "65960203b5cf",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:58:21+00:00",
-   "countries": []
-  },
-  {
-   "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-   "url": "https://arxiv.org/abs/2609.30247v1",
-   "published": "2026-09-24T17:58:03+00:00",
-   "preview": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial…",
-   "id": "bbdff0e599e0",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:58:03+00:00",
-   "countries": []
-  },
-  {
    "title": "JevOut: Natural Context Can Flip Decision Models",
    "url": "https://arxiv.org/abs/2609.30243v1",
    "published": "2026-09-24T17:57:07+00:00",
@@ -2208,16 +2310,6 @@
    "countries": []
   },
   {
-   "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-   "url": "https://arxiv.org/abs/2609.30233v1",
-   "published": "2026-09-24T17:53:35+00:00",
-   "preview": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints.…",
-   "id": "a99bbf3050a0",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:53:35+00:00",
-   "countries": []
-  },
-  {
    "title": "Meta is going to let you build games with AI right on your phone",
    "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
    "published": "2026-09-24T17:52:29+00:00",
@@ -2225,86 +2317,6 @@
    "id": "18e744496517",
    "source": "the-verge-ai",
    "fetched": "2026-09-24T17:52:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-   "url": "https://arxiv.org/abs/2609.30227v1",
-   "published": "2026-09-24T17:50:40+00:00",
-   "preview": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims…",
-   "id": "15c6c30de455",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:50:40+00:00",
-   "countries": []
-  },
-  {
-   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
-   "url": "https://arxiv.org/abs/2609.30226v1",
-   "published": "2026-09-24T17:50:25+00:00",
-   "preview": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive,…",
-   "id": "e861edebb9ba",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:50:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-   "url": "https://arxiv.org/abs/2609.30222v1",
-   "published": "2026-09-24T17:48:20+00:00",
-   "preview": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point…",
-   "id": "0ef6f30e81c8",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:48:20+00:00",
-   "countries": []
-  },
-  {
-   "title": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
-   "url": "https://arxiv.org/abs/2609.30219v1",
-   "published": "2026-09-24T17:46:53+00:00",
-   "preview": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Candidate generation is separated from release authority. Requirements unsupported by a deterministic parser…",
-   "id": "74f67223f464",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:46:53+00:00",
-   "countries": []
-  },
-  {
-   "title": "Minimally Invasive Steering of Language Models",
-   "url": "https://arxiv.org/abs/2609.30218v1",
-   "published": "2026-09-24T17:46:46+00:00",
-   "preview": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade…",
-   "id": "e59d7acb924f",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:46:46+00:00",
-   "countries": []
-  },
-  {
-   "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-   "url": "https://arxiv.org/abs/2609.30217v1",
-   "published": "2026-09-24T17:46:27+00:00",
-   "preview": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime…",
-   "id": "a542ed8e65cb",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:46:27+00:00",
-   "countries": []
-  },
-  {
-   "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
-   "url": "https://arxiv.org/abs/2609.30214v1",
-   "published": "2026-09-24T17:45:42+00:00",
-   "preview": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV salvage. Without contact sensors, it…",
-   "id": "97a73e5555a9",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:45:42+00:00",
-   "countries": []
-  },
-  {
-   "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
-   "url": "https://arxiv.org/abs/2609.30205v1",
-   "published": "2026-09-24T17:41:16+00:00",
-   "preview": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records.…",
-   "id": "5621becff21b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-09-24T17:41:16+00:00",
    "countries": []
   },
   {
