@@ -1,6 +1,18 @@
 {
- "updated": "2026-09-29T00:18:20+00:00",
+ "updated": "2026-09-29T02:02:54+00:00",
  "items": [
+  {
+   "title": "How we will do better for Australia",
+   "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+   "published": "2026-09-29T01:00:00+00:00",
+   "preview": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+   "id": "cfe8e900401f",
+   "source": "openai-news",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": [
+    "Australia"
+   ]
+  },
   {
    "title": "U.S., Indian Forces Fly, Fight Together in Combined Air Assault",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4613123/us-indian-forces-fly-fight-together-in-combined-air-assault/",
@@ -644,6 +656,158 @@
    "countries": []
   },
   {
+   "title": "The Decomposition Tax: LLM Pipelines Lose Up to 40 Accuracy Points at Their Own Interfaces",
+   "url": "https://arxiv.org/abs/2609.32825v1",
+   "published": "2026-09-26T17:49:27+00:00",
+   "preview": "A four-stage LLM pipeline gives up as much as 40.5 accuracy points at its own interfaces (gemma-3-12B on MATH-500, Holm-corrected p = 1.66e-19; the largest tax in the primary family). We hold model, problem, stages,…",
+   "id": "24aabb305001",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "USAI-Quant: A Quantitative Reasoning Benchmark for Vision-Language Models in Built Environments",
+   "url": "https://arxiv.org/abs/2609.32813v1",
+   "published": "2026-09-26T17:37:25+00:00",
+   "preview": "Large vision-language models (VLMs) have emerged as a powerful paradigm for urban and spatial AI. However, current state-of-the-art large VLMs still struggle with quantitative reasoning on remote sensing imagery.…",
+   "id": "5ba43c39d34e",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
+   "url": "https://arxiv.org/abs/2609.32810v1",
+   "published": "2026-09-26T17:35:10+00:00",
+   "preview": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture these real-world trajectories. We introduce…",
+   "id": "f967bdacd5aa",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Overwhelmed by Choice: Studying LLM Decision Making at Scale",
+   "url": "https://arxiv.org/abs/2609.32809v1",
+   "published": "2026-09-26T17:33:04+00:00",
+   "preview": "Multiple-choice and candidate-selection evaluations are widely used to assess LLM reasoning and decision-making, yet most benchmarks contain relatively small candidate sets. It remains unclear whether conclusions drawn…",
+   "id": "923a1085dc1d",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models",
+   "url": "https://arxiv.org/abs/2609.32808v1",
+   "published": "2026-09-26T17:30:10+00:00",
+   "preview": "Large vision-language models (LVLMs) inherit massive activations from their text-only bases: spikes where a few fixed hidden channels receive values thousands of times above the typical magnitude. The text spike…",
+   "id": "41fe079f0d50",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Decision-Sufficient State Representations: Measuring and Reducing Write-Time Regret",
+   "url": "https://arxiv.org/abs/2609.32805v1",
+   "published": "2026-09-26T17:27:32+00:00",
+   "preview": "Long tasks produce more history than an LLM agent can hold in its context, and more than it uses reliably even when the history fits. A growing line of work therefore has agents carry a short written state instead: at…",
+   "id": "e59505b555fb",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Re-derivability Decides What a Staged Agent Pipeline Recovers After an Upstream Fault",
+   "url": "https://arxiv.org/abs/2609.32802v1",
+   "published": "2026-09-26T17:23:48+00:00",
+   "preview": "One variable sets what an upstream fault costs a staged pipeline of language-model agents: re-derivability, how much of what a stage needs it can rebuild from the original problem. Grounding an inspector agent in that…",
+   "id": "cafe727d0d9c",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "PlanGuard: A Guardrail for Multi-Step Plan Safety in Embodied Agents",
+   "url": "https://arxiv.org/abs/2609.32801v1",
+   "published": "2026-09-26T17:22:26+00:00",
+   "preview": "Embodied task planners may produce multi-step plans whose subtask dependencies and interactions with the environment create physical risks during execution. Yet existing safeguards overlook such compositional risks, as…",
+   "id": "00b95b4d3c18",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Understanding and Exploiting Anisotropy in Post-Training",
+   "url": "https://arxiv.org/abs/2609.32792v1",
+   "published": "2026-09-26T17:08:06+00:00",
+   "preview": "LLM post-training combines supervised fine-tuning (SFT), a mode-covering forward-KL objective, with reinforcement learning (RL), a mode-seeking reverse-KL objective. Frequency-weighted likelihood training leaves a…",
+   "id": "36e9282bd4ab",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "CLAIRE: A Schema-Grounded Hybrid Workflow for Healthcare Administrative Form Completion",
+   "url": "https://arxiv.org/abs/2609.32787v1",
+   "published": "2026-09-26T17:02:19+00:00",
+   "preview": "Healthcare administrative staff transfer structured information from electronic health records, referrals, claims systems, provider rosters, and work queues into dynamic forms. We developed and evaluated CLAIRE…",
+   "id": "936bf4d5f026",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Agentic Network Traffic Monitoring",
+   "url": "https://arxiv.org/abs/2609.32778v1",
+   "published": "2026-09-26T16:52:57+00:00",
+   "preview": "As the use of agentic artificial intelligence increases in nearly every industry, there exists a widening attack surface. It is necessary to monitor agents to ensure that agents are acting in a way that is aligned with…",
+   "id": "04a6814c2cf1",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "On the Behavioral Traits of LLM Agents",
+   "url": "https://arxiv.org/abs/2609.32776v1",
+   "published": "2026-09-26T16:51:52+00:00",
+   "preview": "Users increasingly describe different AI agents as distinct colleagues to work with. AI personality research aims to quantify such impressions by attributing human-like \"traits\" to agents. However, existing measures…",
+   "id": "d44aa4350172",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "C-HAT-Bench: Benchmarking Chinese AI-Text Detection Beyond Fully Generated Text",
+   "url": "https://arxiv.org/abs/2609.32770v1",
+   "published": "2026-09-26T16:46:51+00:00",
+   "preview": "Large Language Models (LLMs) increasingly participate in writing by modifying or extending human drafts, causing machine involvement to vary in both form and extent. Yet most Machine-Generated Text (MGT) detectors are…",
+   "id": "48b9359afa6e",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "title": "You Can't Spot a Deepfake?And Neither Can Your Brain Nor Eyes: A Neurophysiological Framework for Deepfake Exploitation of Cognitive Engagement and Implicit Visual Evaluation",
+   "url": "https://arxiv.org/abs/2609.32769v1",
+   "published": "2026-09-26T16:46:19+00:00",
+   "preview": "Deepfakes have rapidly emerged as a pressing threat to information integrity and security because they exploit human trust in visual and auditory perception. Yet, little is known about whether humans and their…",
+   "id": "9b334a4e222b",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "AnchorMixGAN: Anchor-Aligned Generative Semi-Supervision for DDoS Detection in Cloud-Integrated IoT Networks",
+   "url": "https://arxiv.org/abs/2609.32764v1",
+   "published": "2026-09-26T16:36:53+00:00",
+   "preview": "Detecting distributed denial-of-service (DDoS) attacks in cloud-integrated IoT networks is difficult when labeled traffic is scarce. Generative semi-supervised learning can supplement the available training data, but…",
+   "id": "feaa907119e4",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
    "title": "OpenAI pauses training of its ‘most capable models’",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
    "published": "2026-09-26T16:34:59+00:00",
@@ -654,6 +818,76 @@
    "countries": []
   },
   {
+   "title": "How Far Do Persona Effects Generalize in Language Models?",
+   "url": "https://arxiv.org/abs/2609.32758v1",
+   "published": "2026-09-26T16:26:03+00:00",
+   "preview": "Persona prompts ask language models to answer as particular kinds of people. We test whether relationships learned from these effects predict responses to new questions and remain useful across models and prompts.…",
+   "id": "89550fd8fc56",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Adaptive Consistency Graph for Long-Horizon Agents",
+   "url": "https://arxiv.org/abs/2609.32754v1",
+   "published": "2026-09-26T16:19:40+00:00",
+   "preview": "Large language model agents can often make reasonable local decisions on short tasks, yet their performance degrades when success requires long sequences of dependent actions and tool calls. During execution, task…",
+   "id": "e73c8eaef455",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Retrospective Distillation Attribution via Normalized Response Similarity",
+   "url": "https://arxiv.org/abs/2609.32749v1",
+   "published": "2026-09-26T16:14:41+00:00",
+   "preview": "Model distillation transfers capabilities through supervised fine-tuning (SFT) on teacher responses, often collected from commercial APIs, raising questions of model provenance. Existing distillation attribution methods…",
+   "id": "de5b6f745264",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Gradient-Guided Decoupled Adaptation for Geospatial Vision-Language Models",
+   "url": "https://arxiv.org/abs/2609.32737v1",
+   "published": "2026-09-26T15:56:43+00:00",
+   "preview": "Existing geospatial vision-language models (Geo-VLMs) typically optimize diverse geospatial tasks through a unified multi-task adaptation paradigm without explicitly accounting for the heterogeneous optimization…",
+   "id": "02a014541c58",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Learning to Refer: Client-Resolved Generation for Privacy-Aware Language Models",
+   "url": "https://arxiv.org/abs/2609.32706v1",
+   "published": "2026-09-26T15:13:58+00:00",
+   "preview": "Cloud-based large language models (LLMs) require users to disclose plaintext data to service providers, creating privacy risks in sensitive domains. Existing privacy-preserving approaches often trade utility for…",
+   "id": "41bce4771adf",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+   "url": "https://arxiv.org/abs/2609.32691v1",
+   "published": "2026-09-26T14:53:42+00:00",
+   "preview": "LLM agents that invoke privileged tools are vulnerable to indirect prompt injection (IPI), in which adversarial instructions embedded in retrieved data hijack the agent's actions. A growing body of work evaluates…",
+   "id": "f8bcf736af8a",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Ask Without Telling: Local SLMs Consult Cloud LLMs Without Revealing Task Intent",
+   "url": "https://arxiv.org/abs/2609.32642v1",
+   "published": "2026-09-26T14:04:51+00:00",
+   "preview": "As local small language models (SLMs) increasingly collaborate with more capable cloud large language models (LLMs), a natural privacy question arises: Can a local SLM obtain cloud LLM guidance while protecting user…",
+   "id": "fdcc9386fd7f",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
    "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
    "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
    "published": "2026-09-26T14:00:00+00:00",
@@ -661,6 +895,26 @@
    "id": "344d41dcb1d6",
    "source": "the-verge-ai",
    "fetched": "2026-09-26T14:04:13+00:00",
+   "countries": []
+  },
+  {
+   "title": "Trust the Brand, Lose Control: How Identity Hijacks LLM Agent Orchestration",
+   "url": "https://arxiv.org/abs/2609.32635v1",
+   "published": "2026-09-26T13:53:33+00:00",
+   "preview": "LLM agents now execute tasks end to end with permission to change real systems and increasingly orchestrate subagents that differ in capability and cost. Prior work treats the choice of subagent as an optimization…",
+   "id": "db450ac59de8",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "\"You're Right, Let Me Fix It\": How LLM Agents Damage Correct Work When Falsely Accused",
+   "url": "https://arxiv.org/abs/2609.32616v1",
+   "published": "2026-09-26T13:38:31+00:00",
+   "preview": "LLM agents increasingly keep working after a task succeeds as they resume after compaction or take over handoffs. Their finished work keeps receiving follow-up input that sometimes falsely accuses it for later failures.…",
+   "id": "3859dfaa66a1",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
    "countries": []
   },
   {
@@ -724,6 +978,56 @@
     "United States"
    ],
    "event": "2026-11-16T05:00:00+00:00"
+  },
+  {
+   "title": "Dense auto-hetero associative memories applied to noisy communication channels",
+   "url": "https://arxiv.org/abs/2609.32605v1",
+   "published": "2026-09-26T13:25:38+00:00",
+   "preview": "Networks of interacting Hebbian networks have recently been shown to perform a task beyond associative memory, namely \\emph{pattern disentanglement}: when fed with a spurious mixture of stored patterns, the different…",
+   "id": "dd3c75da012e",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond NISQ Assumptions: One-time Memory in the Classically Accessible Random-Oracle Model",
+   "url": "https://arxiv.org/abs/2609.32603v1",
+   "published": "2026-09-26T13:22:30+00:00",
+   "preview": "Quantum information enables many cryptographic primitives that are impossible in the classical world. A line of works has developed cryptographic protocol under the assumption that quantum adversaries are restricted to…",
+   "id": "9cc77857895b",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "VulContextBench: A Benchmark for Security Context Retrieval in Coding Agents",
+   "url": "https://arxiv.org/abs/2609.32601v1",
+   "published": "2026-09-26T13:19:18+00:00",
+   "preview": "Vulnerability-detection benchmarks score the verdict an agent reaches, not the evidence it gathered. A model that recalls a CVE from pretraining therefore scores the same as one that traced the data flow. We study a…",
+   "id": "3b947089770f",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Reading Is Not Leaking: Local, Auditable Measurement and Reduction of Inference Exposure from Public Footprints",
+   "url": "https://arxiv.org/abs/2609.32565v1",
+   "published": "2026-09-26T12:40:35+00:00",
+   "preview": "Anyone with a public footprint leaks facts that were never stated, and language models make the inference cheap. We present a framework for measuring and reducing this inference exposure that runs on the owner's own CPU…",
+   "id": "28e7c4f37016",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "REFINE: A Resilient Evolution Framework for Intelligent Enterprise Alert Triage in Security Operations Centers",
+   "url": "https://arxiv.org/abs/2609.32516v1",
+   "published": "2026-09-26T12:01:32+00:00",
+   "preview": "Security Operations Centers (SOCs) process large volumes of alerts daily. Alert triage prioritizes high-risk threats while reducing manual review of benign alerts. LLM agents can reason over logs and threat…",
+   "id": "0e86b5a9265f",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-09-29T02:02:54+00:00",
+   "countries": []
   },
   {
    "title": "Claude Opus 5.5 Should Raise Your Ambitions",
@@ -2150,16 +2454,6 @@
    "countries": []
   },
   {
-   "title": "What, When, and How: Audio Description as Constrained Global Optimization",
-   "url": "https://arxiv.org/abs/2609.30121v1",
-   "published": "2026-09-24T16:56:50+00:00",
-   "preview": "Audio Description (AD) makes movies accessible to blind and visually impaired audiences by narrating visual information in gaps between dialogue. Existing automatic AD systems largely treat generation as a local…",
-   "id": "010e8ca9a977",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-09-24T16:56:50+00:00",
-   "countries": []
-  },
-  {
    "title": "T-Backdoor: Exploiting Temporal Redundancy in Neuromorphic Data for Spike-preserving Backdoor Attacks on SNNs",
    "url": "https://arxiv.org/abs/2609.30119v1",
    "published": "2026-09-24T16:56:40+00:00",
@@ -2177,16 +2471,6 @@
    "id": "176cfb947d24",
    "source": "breaking-defense",
    "fetched": "2026-09-24T16:53:55+00:00",
-   "countries": []
-  },
-  {
-   "title": "R-DEIM Net: An Efficient Rationale-Augmented Dual-Expert Interaction Model for Paraphrase Detection",
-   "url": "https://arxiv.org/abs/2609.30100v1",
-   "published": "2026-09-24T16:44:26+00:00",
-   "preview": "Recent advances in paraphrase detection reveal a fundamental trade-off: large language models achieve high accuracy but require high computation, while efficient Siamese-BERT variants offer practical scalability with…",
-   "id": "6c10413509f6",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-09-24T16:44:26+00:00",
    "countries": []
   },
   {
@@ -3734,6 +4018,16 @@
    "countries": []
   },
   {
+   "title": "Priorities and principles for effective third party assessments",
+   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "published": "2026-09-22T00:00:00+00:00",
+   "preview": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+   "id": "b4fb82cc1313",
+   "source": "openai-news",
+   "fetched": "2026-09-26T13:31:18+00:00",
+   "countries": []
+  },
+  {
    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "url": "https://huggingface.co/blog/omlx",
    "published": "2026-09-22T00:00:00+00:00",
@@ -3760,16 +4054,6 @@
    "preview": "",
    "id": "98acfe91fd30",
    "source": "hugging-face-blog",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Priorities and principles for effective third party assessments",
-   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-   "published": "2026-09-22T00:00:00+00:00",
-   "preview": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-   "id": "b4fb82cc1313",
-   "source": "openai-news",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
@@ -3917,6 +4201,26 @@
    ]
   },
   {
+   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "published": "2026-09-21T12:00:00+00:00",
+   "preview": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "id": "d37f5b2c5927",
+   "source": "openai-news",
+   "fetched": "2026-09-26T13:31:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "published": "2026-09-21T12:00:00+00:00",
+   "preview": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+   "id": "a7ca59844a94",
+   "source": "openai-news",
+   "fetched": "2026-09-26T13:31:18+00:00",
+   "countries": []
+  },
+  {
    "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
    "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
    "published": "2026-09-21T12:00:00+00:00",
@@ -3955,26 +4259,6 @@
    "preview": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern…",
    "id": "cddec4e64586",
    "source": "mit-technology-review-ai",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-   "published": "2026-09-21T12:00:00+00:00",
-   "preview": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-   "id": "d37f5b2c5927",
-   "source": "openai-news",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Advisory Group on Mathematics and Artificial Intelligence",
-   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-   "published": "2026-09-21T12:00:00+00:00",
-   "preview": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-   "id": "a7ca59844a94",
-   "source": "openai-news",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
@@ -4078,22 +4362,22 @@
    "countries": []
   },
   {
-   "title": "tokenizers v1: encode, decode and scaling, measured",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
-   "published": "2026-09-21T00:00:00+00:00",
-   "preview": "",
-   "id": "eb792e0fc342",
-   "source": "hugging-face-blog",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
    "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
    "url": "https://openai.com/index/v7",
    "published": "2026-09-21T00:00:00+00:00",
    "preview": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
    "id": "d1749ba76a98",
    "source": "openai-news",
+   "fetched": "2026-09-26T13:31:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "published": "2026-09-21T00:00:00+00:00",
+   "preview": "",
+   "id": "eb792e0fc342",
+   "source": "hugging-face-blog",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
@@ -4320,18 +4604,6 @@
    "countries": []
   },
   {
-   "title": "NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States",
-   "url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-17-million-support-cybersecurity-workforce-development",
-   "published": "2026-09-18T12:00:00+00:00",
-   "preview": "Projects will address local cybersecurity workforce needs and will offer practical learning opportunities including internships, apprenticeships and hands-on projects.",
-   "id": "e597abb253b9",
-   "source": "nist-information-technology",
-   "fetched": "2026-09-18T12:00:00+00:00",
-   "countries": [
-    "United States"
-   ]
-  },
-  {
    "title": "Introducing the Australian Youth Safety Blueprint",
    "url": "https://openai.com/index/australian-youth-safety-blueprint",
    "published": "2026-09-18T12:00:00+00:00",
@@ -4341,6 +4613,18 @@
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": [
     "Australia"
+   ]
+  },
+  {
+   "title": "NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States",
+   "url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-17-million-support-cybersecurity-workforce-development",
+   "published": "2026-09-18T12:00:00+00:00",
+   "preview": "Projects will address local cybersecurity workforce needs and will offer practical learning opportunities including internships, apprenticeships and hands-on projects.",
+   "id": "e597abb253b9",
+   "source": "nist-information-technology",
+   "fetched": "2026-09-18T12:00:00+00:00",
+   "countries": [
+    "United States"
    ]
   },
   {
