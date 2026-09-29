@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-29T04:17:57+00:00",
+  "checked_at": "2026-09-29T06:21:36+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-29T04:17:59+00:00",
+  "checked_at": "2026-09-29T06:21:37+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-29T04:17:59+00:00",
+  "checked_at": "2026-09-29T06:21:37+00:00",
   "hash": "f5749595db5b79f36418a1437df3e3ac862adad1",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-29T04:18:00+00:00",
+  "checked_at": "2026-09-29T06:21:38+00:00",
   "hash": "280b22d2116bb3b6bc23f195e83d2f5d61820250",
   "known": [
    "Center for AI Standards and Innovation (CAISI)"
@@ -96,7 +96,7 @@
   "added": []
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-29T04:18:02+00:00",
+  "checked_at": "2026-09-29T06:21:39+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -108,7 +108,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-29T04:18:01+00:00",
+  "checked_at": "2026-09-29T06:21:38+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -129,79 +129,116 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-29T04:18:03+00:00",
-  "hash": "e2be4b8b08b2069728b9d249e18e08e5a4a39a4f",
+  "checked_at": "2026-09-29T06:21:40+00:00",
+  "hash": "151cc98dc8a04f9abddfba0af55498acab3951d2",
   "known": [
+   "AdaGuard: An Adaptive Guard Model with User-defined Policies",
    "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
    "Adaptive Consistency Graph for Long-Horizon Agents",
+   "BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation",
    "Beijing Academy of Artificial Intelligence",
+   "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
    "Beyond Timestamps: Decision-Aligned On-Policy Distillation for Long-Horizon Agents",
    "Carnegie Mellon University",
    "CoWindow Attention: Full Causal Coverage Is a Collective Property",
    "CompoWorld: Compositional Environment Scaling for General Agents",
    "ControlScope: Workflow Revision and Reliability in LLM Agents",
+   "DepthBench: Measuring How Residual Connections Enable More Computational Depth",
+   "Draft-KV: Learning Useful Latent Communication Between Language Models",
+   "DroneWAM: Efficient World Action Model for Drone Visual Navigation",
+   "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
    "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
+   "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
    "Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction",
+   "Hefei University of Technology",
+   "How Does \"English (US)\" Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline",
+   "How Reproducible Are Evaluation Conclusions? A Self-Audit of LLM-Inferred Prompt Structure",
    "Improving Test-Time Scaling with Adaptive Looped Transformers",
    "Just MLPs: Efficient Visual State Reconstruction for Multimodal Language Models",
+   "KVCMAS: Efficient KV cache Correction for Shared Context in Multi-Agent Systems",
+   "King Abdullah University of Science and Technology",
+   "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
+   "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
    "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
    "MassAlloc Attention: Let Attention Allocate Its Own Compute",
+   "Max Planck Institute for Intelligent Systems",
+   "Measuring Collapse and Correction in Homogeneous-Panel LLM Debate",
    "Mohamed Bin Zayed University of Artificial Intelligence",
    "Multimodal Art Projection",
+   "NLP & AI - Korea University",
+   "Nanyang Technological University",
+   "National Taiwan University",
+   "On-Policy Self-Distillation for Multi-Turn Image Editing",
+   "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
+   "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+   "Precise Editing and Flexible Referencing for Interactable Worlds",
    "Program-Verified Self-Evolution for Vision-Language Models",
    "PyroAdapt: Adapting Wildfire Prediction under Spatial Heterogeneity and Temporal Shift",
    "REALM: A Coarse-to-Fine Generative Framework for Embodied Reactive Listening",
+   "RenderRank: Learning to Rerank Text with Compressed Visual Tokens",
+   "Residual Transferability in Neural Image Watermarking",
+   "Rethinking Automated Voice Similarity by Shifting from EER to Embedding Geometry",
    "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
    "RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents",
    "Rolling-WAM: World Action Models with Rolling Imagination",
    "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
+   "SciGen-Verifier: A Multimodal Reasoner for Explainable Verification in Scientific Image Generation",
    "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
    "Seoul National University VLSI Lab",
    "Shanghai Jiao Tong University",
    "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
+   "SkillDRE: Dual-Stage Red-Team Evolution of Agent Skills via Pre-Execution and Runtime Feedback",
+   "SolveEdit: Benchmarking Visual Problem Solving in Generative Models",
    "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
    "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
+   "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
    "The Hong Kong Polytechnic University",
    "The Hong Kong University of Science and Technology",
+   "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
    "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
+   "Training and Inference Dynamics of PLDR-LLMs: Row-Map Collapse, Renormalization, and Predictive Reduction",
    "USC Physical Superintelligence (PSI) Lab",
    "University of Illinois at Urbana-Champaign",
    "VGGT-Diff: Visual Geometry Meets Diffusion for Sparse-View Novel View Synthesis",
    "WaveFront Decoding: Parallelized Self-Speculative Decoding for Looped Language Models",
+   "When Privacy Moves ML-Mediated Decisions On Device: Information and Incentive Misalignment in Auctions",
+   "Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning",
+   "WideSWE: Can Coding Agents Coordinate Changes Across Repositories?",
+   "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
    "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-29T04:18:03+00:00",
+  "changed_at": "2026-09-29T06:21:40+00:00",
   "added": [
    {
-    "text": "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
+    "text": "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "CompoWorld: Compositional Environment Scaling for General Agents",
+    "text": "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
+    "text": "Nanyang Technological University",
+    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
+   },
+   {
+    "text": "DepthBench: Measuring How Residual Connections Enable More Computational Depth",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
-    "url": "https://huggingface.co/papers"
+    "text": "Max Planck Institute for Intelligent Systems",
+    "url": "https://huggingface.co/Intelligent-Systems"
    },
    {
-    "text": "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
+    "text": "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "The Hong Kong University of Science and Technology",
-    "url": "https://huggingface.co/hongkongust"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-29T04:18:07+00:00",
-  "hash": "d79aff102d764fedf225066cc035ac9d58a79e17",
+  "checked_at": "2026-09-29T06:21:43+00:00",
+  "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
    "AI and human rights for youth",
@@ -212,8 +249,8 @@
    "Green Digital Transformation We foster global collaboration to make AI more sustainable, inclusive, and resilient for everyone.",
    "Green digital transformation",
    "Internet Universality Indicators This tool helps countries assess their Internet landscape, guide evidence-based policies, and foster inclusive, future-ready digital governance.",
-   "News Call for papers: Advancing research on the Ethics of Artificial Intelligence 23 September 2026",
    "News Caribbean Voices at the 4th UNESCO Global Forum on the Ethics of AI 23 September 2026",
+   "News Observatory on Artificial Intelligence in Education for Latin America and the Caribbean holds first meeting of member institutions 28 September 2026",
    "News UNESCO opens third edition of its course on digital citizenship and artificial intelligence, now also available in Portuguese 25 September 2026",
    "News UNESCO panel maps an inclusive path for AI in justice 28 September 2026",
    "Policy Development: Readiness Assessment Methodology (RAMs)",
@@ -224,16 +261,16 @@
    "UN Global Dialogue on AI Governance",
    "Video series: 7 minutes to understand AI"
   ],
-  "changed_at": "2026-09-28T18:17:59+00:00",
+  "changed_at": "2026-09-29T06:21:43+00:00",
   "added": [
    {
-    "text": "News UNESCO panel maps an inclusive path for AI in justice 28 September 2026",
-    "url": "https://www.unesco.org/en/articles/unesco-panel-maps-inclusive-path-ai-justice"
+    "text": "News Observatory on Artificial Intelligence in Education for Latin America and the Caribbean holds first meeting of member institutions 28 September 2026",
+    "url": "https://www.unesco.org/en/articles/observatory-artificial-intelligence-education-latin-america-and-caribbean-holds-first-meeting-member"
    }
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-29T04:18:09+00:00",
+  "checked_at": "2026-09-29T06:21:44+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -331,7 +368,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-29T04:18:07+00:00",
+  "checked_at": "2026-09-29T06:21:43+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
