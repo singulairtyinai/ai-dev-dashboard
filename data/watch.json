@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-30T00:18:45+00:00",
+  "checked_at": "2026-09-30T02:17:57+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-30T00:18:46+00:00",
+  "checked_at": "2026-09-30T02:17:58+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-30T00:18:47+00:00",
+  "checked_at": "2026-09-30T02:17:59+00:00",
   "hash": "f5749595db5b79f36418a1437df3e3ac862adad1",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-30T00:18:47+00:00",
+  "checked_at": "2026-09-30T02:17:59+00:00",
   "hash": "280b22d2116bb3b6bc23f195e83d2f5d61820250",
   "known": [
    "Center for AI Standards and Innovation (CAISI)"
@@ -96,7 +96,7 @@
   "added": []
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-30T00:18:48+00:00",
+  "checked_at": "2026-09-30T02:18:02+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -108,7 +108,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-30T00:18:47+00:00",
+  "checked_at": "2026-09-30T02:18:00+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -129,156 +129,53 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-30T00:18:48+00:00",
-  "hash": "138828c05c19b7687f2697819e0950665aafb2b7",
+  "checked_at": "2026-09-30T02:18:02+00:00",
+  "hash": "305ea1266587dbf84947c196282fb51164fb5d13",
   "known": [
-   "AdaGuard: An Adaptive Guard Model with User-defined Policies",
-   "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
-   "Adaptive Consistency Graph for Long-Horizon Agents",
-   "Allspark: Weak to Strong Transfer via Alternating Chain of Thought",
-   "An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning",
-   "AnswerMap: Faithful Spatial Interpretability of VLMs from Answer Posteriors",
-   "BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation",
-   "Beijing Academy of Artificial Intelligence",
-   "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
-   "Beyond Timestamps: Decision-Aligned On-Policy Distillation for Long-Horizon Agents",
-   "Can We Trust the Teacher? Decoupled Credit Direction-Magnitude for Self-Distillation",
-   "Carnegie Mellon University",
-   "Change the Product, Keep the Parameters: Associative Algebra Layers for Transformers",
-   "Chinese Academic of Science Institute of Automation",
-   "CoWindow Attention: Full Causal Coverage Is a Collective Property",
-   "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
-   "CompoWorld: Compositional Environment Scaling for General Agents",
-   "ControlScope: Workflow Revision and Reliability in LLM Agents",
-   "DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation",
-   "Data & Language Intelligence Lab",
-   "DepthBench: Measuring How Residual Connections Enable More Computational Depth",
-   "Distillation Defenses Easily Break After Reinforcement Learning",
-   "Do We Really Need KL Divergence for On-Policy Distillation of Large Language Models?",
-   "Draft-KV: Learning Useful Latent Communication Between Language Models",
-   "DroneWAM: Efficient World Action Model for Drone Visual Navigation",
-   "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
-   "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
-   "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
-   "ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis",
-   "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
-   "Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction",
-   "FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching",
-   "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
-   "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space",
-   "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation",
-   "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
-   "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
-   "Hefei University of Technology",
-   "How Does \"English (US)\" Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline",
-   "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
-   "How Reproducible Are Evaluation Conclusions? A Self-Audit of LLM-Inferred Prompt Structure",
-   "Imprint Reader: From Weight-Update Readout to Behavioral Intervention",
-   "Improving Test-Time Scaling with Adaptive Looped Transformers",
-   "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
-   "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
-   "Just MLPs: Efficient Visual State Reconstruction for Multimodal Language Models",
-   "KVCMAS: Efficient KV cache Correction for Shared Context in Multi-Agent Systems",
-   "KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation",
-   "King Abdullah University of Science and Technology",
-   "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
-   "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
-   "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
-   "MassAlloc Attention: Let Attention Allocate Its Own Compute",
-   "Max Planck Institute for Intelligent Systems",
-   "Measuring Collapse and Correction in Homogeneous-Panel LLM Debate",
-   "Mohamed Bin Zayed University of Artificial Intelligence",
-   "Multimodal Art Projection",
-   "NLP & AI - Korea University",
-   "NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech",
-   "NanoForecast v0.5: Competitive Time Series Forecasting Through Training Pipeline Optimization",
-   "Nanyang Technological University",
-   "National Taiwan University",
+   "Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics",
+   "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+   "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
+   "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
+   "MaLiang-Harness: A Programmable Path to Image and Video Generation",
    "National University of Singapore",
-   "Nereus: Adaptive Parallelism for LLM Post-Training",
-   "Not All Objectives Are Born Equal: Priority-Constrained Descent for Hierarchical Multi-Objective Optimization",
-   "On-Policy Self-Distillation for Multi-Turn Image Editing",
-   "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
-   "Playing to Par: Reinforcement Learning for Provably Optimal Quadrilateral Block Decompositions",
-   "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
-   "Precise Editing and Flexible Referencing for Interactable Worlds",
-   "Program-Verified Self-Evolution for Vision-Language Models",
-   "Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training",
-   "PyroAdapt: Adapting Wildfire Prediction under Spatial Heterogeneity and Temporal Shift",
-   "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
-   "REALM: A Coarse-to-Fine Generative Framework for Embodied Reactive Listening",
-   "Recursive Harness Distillation across Agents for Robot Manipulation",
-   "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
-   "Relic: From Multi-Agent Collaboration to Persistent Organizational Capability",
-   "RenderRank: Learning to Rerank Text with Compressed Visual Tokens",
-   "Residual Transferability in Neural Image Watermarking",
-   "Rethinking Automated Voice Similarity by Shifting from EER to Embedding Geometry",
-   "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-   "RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents",
-   "Rolling-WAM: World Action Models with Rolling Imagination",
-   "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
-   "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
-   "SJTU Cross Media Language Intelligence Lab",
-   "SMAT: Simple and Efficient Merge-Aware Training",
-   "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
-   "SciGen-Verifier: A Multimodal Reasoner for Explainable Verification in Scientific Image Generation",
-   "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
-   "SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis",
-   "Seoul National University",
-   "Seoul National University VLSI Lab",
-   "Shanghai Jiao Tong University",
-   "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
-   "SkillDRE: Dual-Stage Red-Team Evolution of Agent Skills via Pre-Execution and Runtime Feedback",
-   "SolveEdit: Benchmarking Visual Problem Solving in Generative Models",
-   "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
-   "Specification Before Generation: A Pre-Registered, Five-Model Paired Evaluation of a Specification Frame for LLM-Generated Code in Money, Time, Idempotency, and Access Tasks",
-   "Structured Residual Connectivity Matters for Diffusion Transformers",
-   "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
-   "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
-   "The Hong Kong Polytechnic University",
-   "The Hong Kong University of Science and Technology",
-   "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
-   "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
-   "Training and Inference Dynamics of PLDR-LLMs: Row-Map Collapse, Renormalization, and Predictive Reduction",
-   "USC Physical Superintelligence (PSI) Lab",
-   "University of Illinois at Urbana-Champaign",
-   "University of Texas at Austin",
-   "VGGT-Diff: Visual Geometry Meets Diffusion for Sparse-View Novel View Synthesis",
-   "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
-   "WaveFront Decoding: Parallelized Self-Speculative Decoding for Looped Language Models",
-   "What masking geometry works best for EEG foundation models?",
-   "When Do Model Internals Help? Exploring the Role of Representation Engineering in LLM Safety",
-   "When Privacy Moves ML-Mediated Decisions On Device: Information and Incentive Misalignment in Auctions",
-   "WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing",
-   "Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models",
-   "Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning",
-   "WideSWE: Can Coding Agents Coordinate Changes Across Repositories?",
-   "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
-   "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+   "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
+   "Southern University of Science and Technology",
+   "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+   "Think Before You Score: Thinking Reward Model for Visual Generation",
+   "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+   "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T00:18:48+00:00",
+  "changed_at": "2026-09-30T02:18:02+00:00",
   "added": [
    {
-    "text": "NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech",
+    "text": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing",
+    "text": "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Specification Before Generation: A Pre-Registered, Five-Model Paired Evaluation of a Specification Frame for LLM-Generated Code in Money, Time, Idempotency, and Access Tasks",
+    "text": "Think Before You Score: Thinking Reward Model for Visual Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Do We Really Need KL Divergence for On-Policy Distillation of Large Language Models?",
+    "text": "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-30T00:18:51+00:00",
+  "checked_at": "2026-09-30T02:18:07+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -311,7 +208,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-30T00:18:53+00:00",
+  "checked_at": "2026-09-30T02:18:08+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -409,7 +306,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-30T00:18:52+00:00",
+  "checked_at": "2026-09-30T02:18:07+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
