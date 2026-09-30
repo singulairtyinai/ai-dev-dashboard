@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-30T02:17:57+00:00",
+  "checked_at": "2026-09-30T04:18:35+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-30T02:17:58+00:00",
+  "checked_at": "2026-09-30T04:18:36+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-30T02:17:59+00:00",
+  "checked_at": "2026-09-30T04:18:36+00:00",
   "hash": "f5749595db5b79f36418a1437df3e3ac862adad1",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-30T02:17:59+00:00",
+  "checked_at": "2026-09-30T04:18:36+00:00",
   "hash": "280b22d2116bb3b6bc23f195e83d2f5d61820250",
   "known": [
    "Center for AI Standards and Innovation (CAISI)"
@@ -96,7 +96,7 @@
   "added": []
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-30T02:18:02+00:00",
+  "checked_at": "2026-09-30T04:18:38+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -108,7 +108,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-30T02:18:00+00:00",
+  "checked_at": "2026-09-30T04:18:37+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -129,53 +129,95 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-30T02:18:02+00:00",
-  "hash": "305ea1266587dbf84947c196282fb51164fb5d13",
+  "checked_at": "2026-09-30T04:18:39+00:00",
+  "hash": "81b0d0fe27c479d2b774b68a74c7c950f3e00533",
   "known": [
+   "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
    "Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics",
+   "Adversarial Training for Pixel Diffusion",
+   "Anisotropic Representations Improve Planning in JEPA World Models",
+   "AutoDataBench: Can Agents Write the Data That Feeds the Self-Improvement Loop?",
+   "Beyond Selection: Token Parameterization for Extreme Visual Token Compression",
+   "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+   "CaptchaArena: A Large-Scale, Fine-Grained Dataset for Training Computer-Use Agents on Interactive CAPTCHAs",
+   "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
+   "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+   "EasyPPO: Stabilizing the Critic Is Key",
    "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+   "Harbin Institute of Techonology, Shenzhen",
    "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
+   "HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents",
+   "In-Context Learning for Robots: Methods and Applications",
+   "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
+   "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+   "Language Models Are \"Insecure\" Reporters",
    "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
+   "LongCat-DeepResearch Technical Report",
+   "LongLive-Plug: Once-for-All Distillation for Video Generation",
    "MaLiang-Harness: A Programmable Path to Image and Video Generation",
+   "Marathoner: Ultra-Long-Horizon Autonomous Intelligence",
+   "Nanyang Technological University",
    "National University of Singapore",
    "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
+   "One Proposal for Every Margin: Zero-Shot Amortized Sequential Importance Sampling for Binary Matrices",
+   "PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation",
+   "PlaylistEval: Can Video-Language Judges Be Trusted at Day Scale and Beyond?",
+   "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
+   "Principled Thoughts for Latent Recursive LLM Systems",
+   "PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers",
+   "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
+   "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+   "Real2Gym: Building Gyms from Videos, Bringing Skills to Robots",
+   "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+   "Seoul National University",
    "Southern University of Science and Technology",
    "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+   "TabFM-Auto: Self-Evolving Pipelines for Tabular Foundation Models",
+   "TabFM: A Zero-Shot Foundation Model for Tabular Data",
+   "The Hong Kong Polytechnic University",
+   "The Hong Kong University of Science and Technology",
    "Think Before You Score: Thinking Reward Model for Visual Generation",
+   "University of British Columbia - Okanagan Campus",
+   "University of California at San Diego",
+   "University of Illinois at Urbana-Champaign",
+   "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
    "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+   "When Does Dense Retrieval Need Asymmetric Geometry? A Bias-Variance Theory of Shared and Dual Projections",
+   "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
    "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
+   "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T02:18:02+00:00",
+  "changed_at": "2026-09-30T04:18:39+00:00",
   "added": [
    {
-    "text": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+    "text": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
+    "text": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Think Before You Score: Thinking Reward Model for Visual Generation",
+    "text": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
+    "text": "Anisotropic Representations Improve Planning in JEPA World Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
-    "url": "https://huggingface.co/papers"
+    "text": "Seoul National University",
+    "url": "https://huggingface.co/SeoulNatlUniv"
    },
    {
-    "text": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
+    "text": "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-30T02:18:07+00:00",
+  "checked_at": "2026-09-30T04:18:41+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -208,7 +250,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-30T02:18:08+00:00",
+  "checked_at": "2026-09-30T04:18:42+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -306,7 +348,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-30T02:18:07+00:00",
+  "checked_at": "2026-09-30T04:18:40+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
