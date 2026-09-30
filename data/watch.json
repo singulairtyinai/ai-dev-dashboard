@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-30T08:18:14+00:00",
+  "checked_at": "2026-09-30T10:18:28+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-30T08:18:15+00:00",
+  "checked_at": "2026-09-30T10:18:29+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-30T08:18:15+00:00",
+  "checked_at": "2026-09-30T10:18:30+00:00",
   "hash": "f5749595db5b79f36418a1437df3e3ac862adad1",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-30T08:18:15+00:00",
+  "checked_at": "2026-09-30T10:18:31+00:00",
   "hash": "280b22d2116bb3b6bc23f195e83d2f5d61820250",
   "known": [
    "Center for AI Standards and Innovation (CAISI)"
@@ -96,7 +96,7 @@
   "added": []
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-30T08:18:17+00:00",
+  "checked_at": "2026-09-30T10:18:33+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -108,7 +108,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-30T08:18:16+00:00",
+  "checked_at": "2026-09-30T10:18:32+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -129,19 +129,23 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-30T08:18:18+00:00",
-  "hash": "752b18308ece78b2b8e506aca3fa678b6a78c5ad",
+  "checked_at": "2026-09-30T10:18:35+00:00",
+  "hash": "8156ae5790ca6d6411928169c297603a83f3ebd7",
   "known": [
+   "AI Safety & Interpretability Lab",
    "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
+   "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
    "Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics",
    "Adversarial Training for Pixel Diffusion",
    "Anisotropic Representations Improve Planning in JEPA World Models",
    "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
+   "Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents",
    "AutoDataBench: Can Agents Write the Data That Feeds the Self-Improvement Loop?",
    "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
    "Beyond Selection: Token Parameterization for Extreme Visual Token Compression",
    "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
    "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+   "CISPA – Helmholtz-Zentrum für Informationssicherheit gGmbH",
    "CaptchaArena: A Large-Scale, Fine-Grained Dataset for Training Computer-Use Agents on Interactive CAPTCHAs",
    "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
    "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
@@ -159,13 +163,14 @@
    "In-Context Learning for Robots: Methods and Applications",
    "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
    "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
-   "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+   "LLMs are General Asynchronous Agents",
    "Language Models Are \"Insecure\" Reporters",
    "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
    "LongCat-DeepResearch Technical Report",
    "LongLive-Plug: Once-for-All Distillation for Video Generation",
    "MaLiang-Harness: A Programmable Path to Image and Video Generation",
    "Marathoner: Ultra-Long-Horizon Autonomous Intelligence",
+   "Multimodal AI Lab - Technical University of Darmstadt",
    "Nanyang Technological University",
    "National University of Singapore",
    "Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents",
@@ -173,6 +178,7 @@
    "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
    "One Proposal for Every Margin: Zero-Shot Amortized Sequential Importance Sampling for Binary Matrices",
    "PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation",
+   "Persistence Forcing: Exploiting Feature Specialization in Pixel-Space Diffusion",
    "PlaylistEval: Can Video-Language Judges Be Trusted at Day Scale and Beyond?",
    "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
    "Pretraining Transformers with Quantized Softmax in Attention",
@@ -181,8 +187,11 @@
    "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
    "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
    "Real2Gym: Building Gyms from Videos, Bringing Skills to Robots",
+   "Reasoning with Image Generation",
    "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+   "SEAD: A State-Based Perspective on Attack and Defense in Tool-Using Agents",
    "Same Bytes, Different Authority: Reserved-Token Representations in Chat-Template Prompt Injection",
+   "Selecting The Most Informative Tokens in Natural Language Autoencoders",
    "Seoul National University",
    "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
    "Southern University of Science and Technology",
@@ -198,10 +207,10 @@
    "Think Before You Score: Thinking Reward Model for Visual Generation",
    "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
    "University of British Columbia - Okanagan Campus",
-   "University of California at San Diego",
    "University of Illinois at Urbana-Champaign",
    "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
    "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
+   "WISE-ATTA: When to Ask for Labels in Budgeted Active Test-Time Adaptation",
    "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
    "When Does Dense Retrieval Need Asymmetric Geometry? A Bias-Variance Theory of Shared and Dual Projections",
    "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
@@ -209,36 +218,36 @@
    "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T08:18:18+00:00",
+  "changed_at": "2026-09-30T10:18:35+00:00",
   "added": [
    {
-    "text": "Follow the Entities: A Corpus Map for Agentic Search",
+    "text": "LLMs are General Asynchronous Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
+    "text": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
+    "text": "Reasoning with Image Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
+    "text": "Multimodal AI Lab - Technical University of Darmstadt",
+    "url": "https://huggingface.co/MAI-Lab"
+   },
+   {
+    "text": "Selecting The Most Informative Tokens in Natural Language Autoencoders",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
-    "url": "https://huggingface.co/papers"
+    "text": "AI Safety & Interpretability Lab",
+    "url": "https://huggingface.co/aisilab"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-30T08:18:21+00:00",
+  "checked_at": "2026-09-30T10:18:39+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -271,7 +280,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-30T08:18:22+00:00",
+  "checked_at": "2026-09-30T10:18:40+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -369,7 +378,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-30T08:18:21+00:00",
+  "checked_at": "2026-09-30T10:18:39+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
