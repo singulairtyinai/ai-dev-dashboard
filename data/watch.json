@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-30T18:18:21+00:00",
+  "checked_at": "2026-09-30T19:27:22+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-30T18:18:21+00:00",
+  "checked_at": "2026-09-30T19:27:23+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,18 +54,18 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-30T18:18:22+00:00",
-  "hash": "5017ae7a94b3e32d2764c81e9553443b584e27dc",
+  "checked_at": "2026-09-30T19:27:23+00:00",
+  "hash": "1910b32743620975e27e9032ebdf18d97177884c",
   "known": [
    "A privacy-enhancing technologies primer",
    "AI Governance Vendor Report 2026",
    "AI Use Toolkit: AI as a Privacy Force Multiplier",
    "AI accountability in practice: What privacy leaders need to show in 2027",
+   "Addressing emerging AI security requirements in new laws through AI model weights",
    "Building privacy-safe MCP servers: What GDPR actually requires",
    "Close the agent governance gap: Control access, track outcomes",
    "Does your AI count: Scoping ADMT before California's 1 Jan. deadline",
    "EU AI Act: Next Steps for Implementation",
-   "Findings from the field: Consent audits reveal top five CMP policy gaps and root causes",
    "From backlog to breakthrough: Using AI in privacy work and governing it across the enterprise",
    "Managing data retention schedules during M&A, relocations and bankruptcy",
    "Privacy to a “TEE” – Secure data collaboration and confidential computing",
@@ -78,16 +78,16 @@
    "You've got mail: From a serial privacy plaintiff — A privacy pro's CIPA playbook",
    "Your website scan flagged a privacy risk. Now what?"
   ],
-  "changed_at": "2026-09-30T15:04:44+00:00",
+  "changed_at": "2026-09-30T19:27:23+00:00",
   "added": [
    {
-    "text": "Privacy, AI, and the new rules of recruitment",
-    "url": "https://iapp.org/resources/article/privacy-ai-and-the-new-rules-of-recruitment"
+    "text": "Addressing emerging AI security requirements in new laws through AI model weights",
+    "url": "https://iapp.org/resources/article/addressing-emerging-ai-security-requirements-in-new-laws-through-ai-model-weights"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-30T18:18:22+00:00",
+  "checked_at": "2026-09-30T19:27:24+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-30T18:18:25+00:00",
+  "checked_at": "2026-09-30T19:27:26+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -113,8 +113,8 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-30T18:18:24+00:00",
-  "hash": "15d4b0007862d007113a2e3e9da368fa769c089f",
+  "checked_at": "2026-09-30T19:27:25+00:00",
+  "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
    "Bloomberg Economics' Becca Wasser and Dina Esfandiary Talk Iran Conflict",
@@ -122,25 +122,25 @@
    "Dr. Andrew F. Krepinevich, Jr.",
    "Drones, Missiles, and the U.S. Munitions Shortage",
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
-   "Fortress Guam: The Environmental Cost of Preparing for War with China",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "Russia’s Secret Plan to Supercharge Kamikaze Drone Production",
    "Sharper | Securing America’s Defense Industrial Base",
+   "The Era of AI Warfare Has Arrived",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "U.S. Space Weapon Announcement Comes amid Deepening Space Race, Experts Say",
    "View All Articles & Multimedia"
   ],
-  "changed_at": "2026-09-30T18:18:24+00:00",
+  "changed_at": "2026-09-30T19:27:25+00:00",
   "added": [
    {
-    "text": "Fortress Guam: The Environmental Cost of Preparing for War with China",
+    "text": "The Era of AI Warfare Has Arrived",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-30T18:18:26+00:00",
-  "hash": "49f40cbf45e9ba265c7846715ad4912596753182",
+  "checked_at": "2026-09-30T19:27:26+00:00",
+  "hash": "2ff897c595e4d2070859571da0174c5826f04fb0",
   "known": [
    "AI Safety & Interpretability Lab",
    "ALICE: In-context, Zero-shot, Mutual Information Estimation",
@@ -169,6 +169,7 @@
    "EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory",
    "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
    "Follow the Entities: A Corpus Map for Agentic Search",
+   "Fractional State Space Transition for Long Sequence Modeling",
    "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
    "Harbin Institute of Techonology, Shenzhen",
    "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
@@ -245,16 +246,16 @@
    "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T18:18:26+00:00",
+  "changed_at": "2026-09-30T19:27:26+00:00",
   "added": [
    {
-    "text": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+    "text": "Fractional State Space Transition for Long Sequence Modeling",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-30T18:18:29+00:00",
+  "checked_at": "2026-09-30T19:27:29+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -287,7 +288,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-30T18:18:30+00:00",
+  "checked_at": "2026-09-30T19:27:31+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -385,7 +386,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-30T18:18:28+00:00",
+  "checked_at": "2026-09-30T19:27:29+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
