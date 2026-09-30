@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-09-30T14:18:55+00:00",
+  "checked_at": "2026-09-30T15:04:43+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-09-30T14:18:55+00:00",
+  "checked_at": "2026-09-30T15:04:43+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,8 +54,8 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-09-30T14:18:56+00:00",
-  "hash": "f5749595db5b79f36418a1437df3e3ac862adad1",
+  "checked_at": "2026-09-30T15:04:44+00:00",
+  "hash": "5017ae7a94b3e32d2764c81e9553443b584e27dc",
   "known": [
    "A privacy-enhancing technologies primer",
    "AI Governance Vendor Report 2026",
@@ -69,25 +69,25 @@
    "From backlog to breakthrough: Using AI in privacy work and governing it across the enterprise",
    "Managing data retention schedules during M&A, relocations and bankruptcy",
    "Privacy to a “TEE” – Secure data collaboration and confidential computing",
+   "Privacy, AI, and the new rules of recruitment",
    "RegTech Report 2026: Privacy, AI Governance and Digital Responsibility",
    "The AI you didn't build: From black box to defensible risk",
    "The defensibility imperative: Transforming complex DSR operations across the enterprise",
-   "Top 5 operational impacts of the CRA: Product cybersecurity as a market-access requirement",
    "US Federal Privacy Legislation Tracker",
    "US State Privacy Legislation Tracker",
    "You've got mail: From a serial privacy plaintiff — A privacy pro's CIPA playbook",
    "Your website scan flagged a privacy risk. Now what?"
   ],
-  "changed_at": "2026-09-28T18:17:51+00:00",
+  "changed_at": "2026-09-30T15:04:44+00:00",
   "added": [
    {
-    "text": "Privacy to a “TEE” – Secure data collaboration and confidential computing",
-    "url": "https://iapp.org/resources/article/privacy-to-a-tee-secure-data-collaboration-and-confidential-computing"
+    "text": "Privacy, AI, and the new rules of recruitment",
+    "url": "https://iapp.org/resources/article/privacy-ai-and-the-new-rules-of-recruitment"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-09-30T14:18:56+00:00",
+  "checked_at": "2026-09-30T15:04:44+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-09-30T14:18:59+00:00",
+  "checked_at": "2026-09-30T15:04:47+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -113,7 +113,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-09-30T14:18:58+00:00",
+  "checked_at": "2026-09-30T15:04:45+00:00",
   "hash": "c1511253bb772db44752b6cab2ae96f6bddfc1d3",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -134,8 +134,8 @@
   "added": []
  },
  "hugging-face-papers": {
-  "checked_at": "2026-09-30T14:19:00+00:00",
-  "hash": "85ad42bccb373c50c1fee6f92487f60452663888",
+  "checked_at": "2026-09-30T15:04:49+00:00",
+  "hash": "da784630b65df80290ebce2a75a95d3603aac55e",
   "known": [
    "AI Safety & Interpretability Lab",
    "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
@@ -160,6 +160,7 @@
    "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
    "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
    "EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory",
+   "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
    "Follow the Entities: A Corpus Map for Agentic Search",
    "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
    "Harbin Institute of Techonology, Shenzhen",
@@ -170,6 +171,7 @@
    "In-Context Learning for Robots: Methods and Applications",
    "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
    "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
+   "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
    "LLMs are General Asynchronous Agents",
    "Language Models Are \"Insecure\" Reporters",
    "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
@@ -217,6 +219,7 @@
    "Think Before You Score: Thinking Reward Model for Visual Generation",
    "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
    "University of British Columbia - Okanagan Campus",
+   "University of California at San Diego",
    "University of Illinois at Urbana-Champaign",
    "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
    "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
@@ -228,16 +231,24 @@
    "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T14:19:00+00:00",
+  "changed_at": "2026-09-30T15:04:49+00:00",
   "added": [
    {
-    "text": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
+    "text": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "University of California at San Diego",
+    "url": "https://huggingface.co/UCSanDiego"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-09-30T14:19:03+00:00",
+  "checked_at": "2026-09-30T15:04:52+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -270,7 +281,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-09-30T14:19:04+00:00",
+  "checked_at": "2026-09-30T15:04:54+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -368,7 +379,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-09-30T14:19:03+00:00",
+  "checked_at": "2026-09-30T15:04:53+00:00",
   "hash": "6db6e10cc505f9537a29f0d3b3d6bab8366e24dc",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
