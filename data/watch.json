@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-01T06:18:43+00:00",
+  "checked_at": "2026-10-01T10:19:23+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-01T06:18:43+00:00",
+  "checked_at": "2026-10-01T10:19:24+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,11 +54,10 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-01T06:18:44+00:00",
-  "hash": "9e83a949c846c2a2b24ee41ba47bfe396ec9d549",
+  "checked_at": "2026-10-01T10:19:24+00:00",
+  "hash": "1910b32743620975e27e9032ebdf18d97177884c",
   "known": [
    "A privacy-enhancing technologies primer",
-   "AI Governance Skills Framework — Executive Functions: Strategic and Domain Leaders",
    "AI Governance Vendor Report 2026",
    "AI Use Toolkit: AI as a Privacy Force Multiplier",
    "AI accountability in practice: What privacy leaders need to show in 2027",
@@ -75,19 +74,20 @@
    "The AI you didn't build: From black box to defensible risk",
    "The defensibility imperative: Transforming complex DSR operations across the enterprise",
    "US Federal Privacy Legislation Tracker",
+   "US State Privacy Legislation Tracker",
    "You've got mail: From a serial privacy plaintiff — A privacy pro's CIPA playbook",
    "Your website scan flagged a privacy risk. Now what?"
   ],
-  "changed_at": "2026-09-30T22:18:45+00:00",
+  "changed_at": "2026-10-01T10:19:24+00:00",
   "added": [
    {
-    "text": "AI Governance Skills Framework — Executive Functions: Strategic and Domain Leaders",
-    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-strategic-domain-leaders"
+    "text": "US State Privacy Legislation Tracker",
+    "url": "https://iapp.org/resources/article/us-state-privacy-legislation-tracker"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-01T06:18:45+00:00",
+  "checked_at": "2026-10-01T10:19:25+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-01T06:18:48+00:00",
+  "checked_at": "2026-10-01T10:19:28+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -113,7 +113,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-10-01T06:18:46+00:00",
+  "checked_at": "2026-10-01T10:19:27+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -147,46 +147,68 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-01T06:18:47+00:00",
-  "hash": "70c8fa25a4e912a0d4990797f19f0cc6a372ad79",
+  "checked_at": "2026-10-01T10:19:27+00:00",
+  "hash": "7445ad4b607ec108a829880d7ec3451fa8aa7508",
   "known": [
    "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
    "AIM: Agentic Idea Management for Automated Research",
    "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+   "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
    "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
    "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
    "Beijing Academy of Artificial Intelligence",
    "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+   "CISPA – Helmholtz-Zentrum für Informationssicherheit gGmbH",
+   "CheatBench: Measuring Reward Gaming in AI Agents",
    "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
    "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+   "Dating the Model: Hidden Dates in System Prompts Affect LLM Evaluation",
    "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
    "Decompose Radicals, Then Reward: Fine-Grained Inspection for Accurate Chinese Text Rendering",
    "Department of Translational Surgical Oncology (TSO) at NCT Dresden",
    "DuoOPD: Learning from Joint Teacher-Student Outcomes for Multi-Task On-Policy Distillation",
+   "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes",
    "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
    "East China Normal University",
    "EviRover: Reinforcing Agentic Perception Beyond a Glance",
    "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
    "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "Fundamental AI Lab at UTN",
    "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
+   "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
    "IST Austria Distributed Algorithms and Systems Lab",
    "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+   "It's Not What the Image Shows: Irrelevant Context Destabilises VLM Judges Without Informing Them",
+   "LANTERN: Illuminating Hidden Mathematical Knowledge in Language Models",
    "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+   "LoopVL: Recurrent Visual Intelligence",
    "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
    "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
    "Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD",
+   "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
+   "Overcoming Scaling Limits in On-Policy Self-Distillation for LLM Reasoning",
    "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
    "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
    "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
    "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+   "Renmin University of China",
+   "Retrieval Capacity of Self-Attention Under Competition",
    "RoboCoach: World Models as Active Coaches for Compositional Robot Skills",
+   "Safety of Latent Communication in Multi-Agent Systems",
    "Scaling Laws for Looped Mixture of Experts",
    "See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs",
+   "Shanghai Jiao Tong University",
    "Singapore Management University",
    "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+   "SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs",
    "Stevens Institute of Technology",
+   "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
    "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+   "Technion Israel institute of technology",
+   "The Evolution of Attention in Large Language Models: Mechanisms, Trade-offs, and Emerging Trends",
+   "The Geometry of Inference in Transformer Residual Streams",
+   "The Low-Rank Structure of VLA Reinforcement Learning",
    "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
    "ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing",
    "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
@@ -199,36 +221,36 @@
    "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-01T06:18:47+00:00",
+  "changed_at": "2026-10-01T10:19:27+00:00",
   "added": [
    {
-    "text": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+    "text": "Shanghai Jiao Tong University",
+    "url": "https://huggingface.co/SJTU"
+   },
+   {
+    "text": "LANTERN: Illuminating Hidden Mathematical Knowledge in Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Unmask the State: When Does State Adaptation Matter for Masked Diffusion Language Models",
+    "text": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+    "text": "Fundamental AI Lab at UTN",
+    "url": "https://huggingface.co/FunAILab"
+   },
+   {
+    "text": "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Scaling Laws for Looped Mixture of Experts",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
-    "url": "https://huggingface.co/papers"
+    "text": "Technion Israel institute of technology",
+    "url": "https://huggingface.co/Technion"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-01T06:18:51+00:00",
+  "checked_at": "2026-10-01T10:19:30+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -261,7 +283,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-01T06:18:52+00:00",
+  "checked_at": "2026-10-01T10:19:32+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -359,7 +381,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-01T06:18:51+00:00",
+  "checked_at": "2026-10-01T10:19:30+00:00",
   "hash": "6376ab78aeefd8760421a3fb1401766394b56cf7",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
