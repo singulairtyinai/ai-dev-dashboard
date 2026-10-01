@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-01T00:18:20+00:00",
+  "checked_at": "2026-10-01T02:19:34+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-01T00:18:21+00:00",
+  "checked_at": "2026-10-01T02:19:35+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-01T00:18:22+00:00",
+  "checked_at": "2026-10-01T02:19:36+00:00",
   "hash": "9e83a949c846c2a2b24ee41ba47bfe396ec9d549",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-01T00:18:22+00:00",
+  "checked_at": "2026-10-01T02:19:37+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-01T00:18:24+00:00",
+  "checked_at": "2026-10-01T02:19:40+00:00",
   "hash": "3c06360c25319caf256176adfc054b108df10373",
   "known": [
    "CyCon 2026 series examines AI, cyber operations and the future of international humanitarian law",
@@ -113,7 +113,7 @@
   "added": []
  },
  "cnas-defense": {
-  "checked_at": "2026-10-01T00:18:24+00:00",
+  "checked_at": "2026-10-01T02:19:38+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -147,132 +147,22 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-01T00:18:25+00:00",
-  "hash": "1cc97336a77aad94b92842edec4a2109ecdbf4a3",
+  "checked_at": "2026-10-01T02:19:39+00:00",
+  "hash": "2707eaaa68524d62ab6fd9cabfcf353d1d96be01",
   "known": [
-   "AI Safety & Interpretability Lab",
-   "ALICE: In-context, Zero-shot, Mutual Information Estimation",
-   "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
-   "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
-   "Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics",
-   "Adversarial Training for Pixel Diffusion",
-   "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
-   "Anisotropic Representations Improve Planning in JEPA World Models",
-   "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
-   "Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents",
-   "AutoDataBench: Can Agents Write the Data That Feeds the Self-Improvement Loop?",
-   "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
-   "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
-   "Beyond Selection: Token Parameterization for Extreme Visual Token Compression",
-   "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
-   "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-   "CISPA – Helmholtz-Zentrum für Informationssicherheit gGmbH",
-   "Can Agents Design Libraries for Agents?",
-   "CaptchaArena: A Large-Scale, Fine-Grained Dataset for Training Computer-Use Agents on Interactive CAPTCHAs",
-   "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
-   "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
-   "EVO-WAM: Evolving World Action Models through Video-Action Verification",
-   "EasyPPO: Stabilizing the Critic Is Key",
-   "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
-   "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
-   "EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory",
-   "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
-   "Follow the Entities: A Corpus Map for Agentic Search",
-   "Fractional State Space Transition for Long Sequence Modeling",
-   "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-   "Harbin Institute of Techonology, Shenzhen",
-   "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
-   "HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents",
-   "Hyperspherical Semantic Trajectory Analysis: Mapping Technological Diffusion across Academic Preprints, Patent Signals, and Compute Scaling",
-   "Improved Distributional Diffusion Models",
-   "In-Context Learning for Robots: Methods and Applications",
-   "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
-   "Knowledge Augmented Generation (KAGNLP)",
-   "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
-   "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
-   "LLMs are General Asynchronous Agents",
-   "Language Models Are \"Insecure\" Reporters",
-   "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
-   "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
-   "LongCat-DeepResearch Technical Report",
-   "LongLive-Plug: Once-for-All Distillation for Video Generation",
-   "MaLiang-Harness: A Programmable Path to Image and Video Generation",
-   "Marathoner: Ultra-Long-Horizon Autonomous Intelligence",
-   "Multimodal AI Lab - Technical University of Darmstadt",
-   "Nanyang Technological University",
-   "National University of Singapore",
-   "Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents",
-   "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-   "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
-   "One Proposal for Every Margin: Zero-Shot Amortized Sequential Importance Sampling for Binary Matrices",
-   "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
-   "PMOPD: Task Ordering, Cycling, and Parameter-Update Subspace Protection in Multi-Teacher On-Policy Distillation",
-   "PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation",
-   "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-   "Persistence Forcing: Exploiting Feature Specialization in Pixel-Space Diffusion",
-   "PlaylistEval: Can Video-Language Judges Be Trusted at Day Scale and Beyond?",
-   "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
-   "Pretraining Transformers with Quantized Softmax in Attention",
-   "PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents",
-   "Principled Thoughts for Latent Recursive LLM Systems",
-   "PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers",
-   "Probabilistic AI and Learning Group @EURECOM",
-   "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
-   "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
-   "Real2Gym: Building Gyms from Videos, Bringing Skills to Robots",
-   "Reasoning with Image Generation",
-   "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
-   "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
-   "SEAD: A State-Based Perspective on Attack and Defense in Tool-Using Agents",
-   "Same Bytes, Different Authority: Reserved-Token Representations in Chat-Template Prompt Injection",
-   "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
-   "Scaling Properties of Same-Family On-Policy Distillation",
-   "Scheduling Recursive Reasoning in Looped Transformers",
-   "Selecting The Most Informative Tokens in Natural Language Autoencoders",
-   "Seoul National University",
-   "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
-   "Southern University of Science and Technology",
-   "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling",
-   "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
-   "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
-   "TabFM-Auto: Self-Evolving Pipelines for Tabular Foundation Models",
-   "TabFM: A Zero-Shot Foundation Model for Tabular Data",
-   "The Chinese University of Hong Kong",
-   "The Hong Kong Polytechnic University",
-   "The Hong Kong University of Science and Technology",
-   "The University of Hong Kong",
-   "The University of Melbourne",
-   "Think Before You Score: Thinking Reward Model for Visual Generation",
-   "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
-   "University of British Columbia - Okanagan Campus",
-   "University of California at San Diego",
-   "University of Illinois at Urbana-Champaign",
-   "University of Wisconsin - Madison",
-   "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
-   "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
-   "WISE-ATTA: When to Ask for Labels in Budgeted Active Test-Time Adaptation",
-   "What Makes Recurrence Effective in Looped Language Models?",
-   "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
-   "When Does Dense Retrieval Need Asymmetric Geometry? A Bias-Variance Theory of Shared and Dual Projections",
-   "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
-   "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
-   "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
+   "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
    "by AK and the research community"
   ],
-  "changed_at": "2026-09-30T23:56:24+00:00",
+  "changed_at": "2026-10-01T02:19:39+00:00",
   "added": [
    {
-    "text": "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
+    "text": "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Knowledge Augmented Generation (KAGNLP)",
-    "url": "https://huggingface.co/kagnlp"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-01T00:18:28+00:00",
+  "checked_at": "2026-10-01T02:19:44+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -305,7 +195,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-01T00:18:29+00:00",
+  "checked_at": "2026-10-01T02:19:45+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -403,7 +293,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-01T00:18:27+00:00",
+  "checked_at": "2026-10-01T02:19:44+00:00",
   "hash": "6376ab78aeefd8760421a3fb1401766394b56cf7",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
