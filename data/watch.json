@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-01T18:18:08+00:00",
+  "checked_at": "2026-10-01T19:36:29+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-01T18:18:08+00:00",
+  "checked_at": "2026-10-01T19:36:30+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,8 +54,8 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-01T18:18:09+00:00",
-  "hash": "1910b32743620975e27e9032ebdf18d97177884c",
+  "checked_at": "2026-10-01T19:36:31+00:00",
+  "hash": "3f46cac2e9c2a5c4d4f57185b1c7bc77f8402c32",
   "known": [
    "A privacy-enhancing technologies primer",
    "AI Governance Vendor Report 2026",
@@ -69,7 +69,7 @@
    "From backlog to breakthrough: Using AI in privacy work and governing it across the enterprise",
    "Managing data retention schedules during M&A, relocations and bankruptcy",
    "Privacy to a “TEE” – Secure data collaboration and confidential computing",
-   "Privacy, AI, and the new rules of recruitment",
+   "Privacy, AI and the new rules of recruitment",
    "RegTech Report 2026: Privacy, AI Governance and Digital Responsibility",
    "The AI you didn't build: From black box to defensible risk",
    "The defensibility imperative: Transforming complex DSR operations across the enterprise",
@@ -78,16 +78,16 @@
    "You've got mail: From a serial privacy plaintiff — A privacy pro's CIPA playbook",
    "Your website scan flagged a privacy risk. Now what?"
   ],
-  "changed_at": "2026-10-01T10:19:24+00:00",
+  "changed_at": "2026-10-01T19:36:31+00:00",
   "added": [
    {
-    "text": "US State Privacy Legislation Tracker",
-    "url": "https://iapp.org/resources/article/us-state-privacy-legislation-tracker"
+    "text": "Privacy, AI and the new rules of recruitment",
+    "url": "https://iapp.org/resources/article/privacy-ai-and-the-new-rules-of-recruitment"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-01T18:18:09+00:00",
+  "checked_at": "2026-10-01T19:36:31+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-01T18:18:11+00:00",
+  "checked_at": "2026-10-01T19:36:34+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-01T18:18:10+00:00",
+  "checked_at": "2026-10-01T19:36:33+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-01T18:18:12+00:00",
-  "hash": "c0d7b448e1b11610fb01644b9e9276b8ae255558",
+  "checked_at": "2026-10-01T19:36:36+00:00",
+  "hash": "acd71d1b409da27db047df6b0645b8fee5dd1c3a",
   "known": [
    "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
    "AIM: Agentic Idea Management for Automated Research",
@@ -161,6 +161,7 @@
    "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
    "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+   "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
    "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
    "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
    "Beijing Academy of Artificial Intelligence",
@@ -236,6 +237,7 @@
    "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
    "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
    "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
+   "Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning",
    "Technion Israel institute of technology",
    "The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence",
    "The Evolution of Attention in Large Language Models: Mechanisms, Trade-offs, and Emerging Trends",
@@ -244,6 +246,7 @@
    "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
    "ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing",
    "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
+   "Training LLM Judges from Language Feedback via Position-Selective Self-Distillation",
    "Understanding Multimodality in Generative Behavioral Cloning",
    "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
    "University of California, Santa Barbara",
@@ -254,36 +257,24 @@
    "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-01T18:18:12+00:00",
+  "changed_at": "2026-10-01T19:36:36+00:00",
   "added": [
    {
-    "text": "Rubric Rewards from Item Response Theory",
+    "text": "Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+    "text": "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems",
+    "text": "Training LLM Judges from Language Feedback via Position-Selective Self-Distillation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-01T18:18:14+00:00",
+  "checked_at": "2026-10-01T19:36:39+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -316,7 +307,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-01T18:18:15+00:00",
+  "checked_at": "2026-10-01T19:36:41+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -414,7 +405,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-01T18:18:13+00:00",
+  "checked_at": "2026-10-01T19:36:40+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
