@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-01T14:18:51+00:00",
+  "checked_at": "2026-10-01T16:19:10+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-01T14:18:52+00:00",
+  "checked_at": "2026-10-01T16:19:10+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-01T14:18:53+00:00",
+  "checked_at": "2026-10-01T16:19:11+00:00",
   "hash": "1910b32743620975e27e9032ebdf18d97177884c",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-01T14:18:53+00:00",
+  "checked_at": "2026-10-01T16:19:12+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-01T14:18:55+00:00",
+  "checked_at": "2026-10-01T16:19:14+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-01T14:18:54+00:00",
+  "checked_at": "2026-10-01T16:19:13+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-01T14:18:56+00:00",
-  "hash": "7453add37d622caa2695a2334031ac66f95133af",
+  "checked_at": "2026-10-01T16:19:16+00:00",
+  "hash": "9171985c2109003db2f096b069e537895adff66f",
   "known": [
    "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
    "AIM: Agentic Idea Management for Automated Research",
@@ -195,6 +195,7 @@
    "Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces",
    "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
    "LoopVL: Recurrent Visual Intelligence",
+   "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
    "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
    "Mitigating the Length-Scaling Tax with Online Distillation",
    "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
@@ -211,10 +212,12 @@
    "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
    "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
    "Renmin University of China",
+   "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
    "Retrieval Capacity of Self-Attention Under Competition",
    "RoboCoach: World Models as Active Coaches for Compositional Robot Skills",
    "Safety of Latent Communication in Multi-Agent Systems",
    "Scaling Laws for Looped Mixture of Experts",
+   "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
    "See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs",
    "Shanghai Jiao Tong University",
    "Singapore Management University",
@@ -222,9 +225,11 @@
    "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
    "SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs",
    "Southern University of Science and Technology",
+   "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
    "Stevens Institute of Technology",
    "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
    "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+   "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
    "Technion Israel institute of technology",
    "The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence",
    "The Evolution of Attention in Large Language Models: Mechanisms, Trade-offs, and Emerging Trends",
@@ -242,18 +247,26 @@
    "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-01T14:18:56+00:00",
+  "changed_at": "2026-10-01T16:19:16+00:00",
   "added": [
    {
-    "text": "Mitigating the Length-Scaling Tax with Online Distillation",
+    "text": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Pennsylvania State University",
-    "url": "https://huggingface.co/PennState"
+    "text": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
+    "text": "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -292,7 +305,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-01T14:19:00+00:00",
+  "checked_at": "2026-10-01T16:19:21+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -390,8 +403,8 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-01T14:18:58+00:00",
-  "hash": "6376ab78aeefd8760421a3fb1401766394b56cf7",
+  "checked_at": "2026-10-01T16:19:20+00:00",
+  "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
    "2026 Global Counterspace Capabilities Report",
@@ -404,13 +417,13 @@
    "Promoting Cooperative Solutions for Space Sustainability",
    "Promoting Cooperative Solutions for Space Sustainability.",
    "Promoting Cooperative Space Sustainability",
-   "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event September 10, 2026"
+   "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event October 13, 2026"
   ],
-  "changed_at": "2026-09-30T22:18:49+00:00",
+  "changed_at": "2026-10-01T16:19:20+00:00",
   "added": [
    {
-    "text": "Almudena Azcárate Ortega to Lecture in McGill University’s Strategic Space Law Course October 26, 2026",
-    "url": "https://swfound.org/news/almudena-azcarate-ortega-to-lecture-in-mcgill-universitys-strategic-space-law-course"
+    "text": "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event October 13, 2026",
+    "url": "https://swfound.org/news/secure-world-foundation-and-embassy-of-malaysia-to-co-host-space-sustainability-and-diplomacy-event"
    }
   ]
  }
