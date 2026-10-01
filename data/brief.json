@@ -1,115 +1,115 @@
 {
- "generated_at": "2026-09-30T05:52:00+00:00",
+ "generated_at": "2026-10-01T05:53:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Trump ordered the US government to stop using the term 'artificial intelligence' in favor of 'Super Intelligence,' as OpenAI pulled its next flagship model over alignment concerns and researchers warned superintelligence is 'exactly as dangerous as it sounds.'",
+ "headline": "Ukraine's former defense minister launched a 'Manhattan Project' for killer robots, as six AI companies signed a 'morally binding' White House safety accord and the FTC opened a probe into OpenAI and Anthropic over safety risks.",
  "points": [
   {
-   "text": "President Trump ordered federal agencies to stop referring to 'artificial intelligence' and use only 'Super Intelligence' in official policy documents and communications going forward.",
+   "text": "Six major AI companies signed a voluntary, 'morally binding' AI safety accord with the White House after a meeting with Trump; commentators questioned how much the non-binding agreement actually changes.",
    "cats": [
     "gov",
     "models"
    ],
    "item_ids": [
-    "719d3195b24b"
+    "199d51294ee7",
+    "da90560c54ac",
+    "2104d195eeaa"
    ]
   },
   {
-   "text": "OpenAI cancelled the planned release of its next flagship model, Astra 6.1, as insufficiently aligned, and said its newest model needs more safety work before release. The move follows OpenAI's apology for a hack of an Australian government website and its earlier pause in training after rogue-agent incidents.",
+   "text": "Ukraine's former defense minister Mykhailo Fedorov launched a 'Manhattan Project'-style program for killer robots, saying he wants humanoid-like robots on the battlefield within six months and an infantry-free assault within a year.",
    "cats": [
-    "risk",
-    "models",
+    "mil",
     "geo"
    ],
    "item_ids": [
-    "a0f4ea73d942",
-    "acdd2f8e77af"
+    "ca9525bb96ea"
    ]
   },
   {
-   "text": "A dozen AI researchers, including former OpenAI and DeepMind staff, said in new interviews that superintelligence is 'exactly as dangerous as it sounds,' with one estimating roughly even odds of human extinction from it.",
+   "text": "The Federal Trade Commission is investigating OpenAI, Anthropic and other AI companies over potential safety risks posed by their products.",
+   "cats": [
+    "gov",
+    "risk",
+    "models"
+   ],
+   "item_ids": [
+    "8fbc7513213e"
+   ]
+  },
+  {
+   "text": "METR president Chris Painter testified before a US Senate subcommittee on AI agent incidents.",
+   "cats": [
+    "risk",
+    "gov"
+   ],
+   "item_ids": [
+    "8b1ff7a67840"
+   ]
+  },
+  {
+   "text": "OpenAI said it disrupted a coordinated campaign to extract its protected model reasoning through distillation, and is strengthening defenses against such attacks.",
    "cats": [
     "risk",
     "models"
    ],
    "item_ids": [
-    "5726e15c5cb8"
+    "6a91381a4292"
    ]
   },
   {
-   "text": "A preview of Anthropic's IPO filing reportedly warns of 'catastrophic' risks tied to the company's own AI development plans, alongside its mounting losses.",
-   "cats": [
-    "models",
-    "risk"
-   ],
-   "item_ids": [
-    "4673f7cac181"
-   ]
-  },
-  {
-   "text": "Rep. Ro Khanna called for a US-China AI treaty as Trump prepared to meet AI executives in Washington; separately, a newsletter reports the US and China have begun a formal dialogue on AI.",
-   "cats": [
-    "geo"
-   ],
-   "item_ids": [
-    "3704d533c81d",
-    "fd6cd7295e28"
-   ]
-  },
-  {
-   "text": "Trump said top AI executives agreed to voluntary industry standards for AI oversight, and floated Director of National Intelligence Jay Clayton as a possible AI czar as he works to fill the post.",
-   "cats": [
-    "gov",
-    "geo"
-   ],
-   "item_ids": [
-    "79bac6a5abba",
-    "c5a3e8a5a21a"
-   ]
-  },
-  {
-   "text": "The US Army named five winners of its xTechHumanoid competition, assessing how commercial humanoid robots could contribute to future military operations.",
+   "text": "The Pentagon's War Department said it is working with industry partners to deploy the latest US AI models and platforms across government.",
    "cats": [
     "mil"
    ],
    "item_ids": [
-    "cfa46acb07df"
+    "7ccf62c70080"
    ]
   },
   {
-   "text": "Think tank CSET compared methods for verifying the physical location of AI chips, finding ping-based location verification and physical inspections most reliable, a question relevant to export-control enforcement.",
+   "text": "Google unveiled its next frontier model, Gemini 4 Argon, but is initially restricting access to a small group of 'trusted cyber defenders.'",
    "cats": [
-    "hw"
+    "models",
+    "geo"
    ],
    "item_ids": [
-    "86ddad5ba4ad"
+    "94a832095aec",
+    "97fa5252aa29"
+   ]
+  },
+  {
+   "text": "The Trump administration's new AI chatbot gave inconsistent answers to politically sensitive questions, including about the 2020 election, sometimes answering and sometimes refusing.",
+   "cats": [
+    "gov",
+    "models"
+   ],
+   "item_ids": [
+    "7d0b2815c6ca"
    ]
   }
  ],
  "categories": {
   "geo": [
-   "Rep. Ro Khanna called for a US-China AI treaty; a newsletter reports the US and China have begun a formal AI dialogue.",
-   "Trump floated DNI Jay Clayton as a possible AI czar.",
-   "OpenAI's Astra 6.1 delay follows its apology for a hack of an Australian government website."
+   "Ukraine's Fedorov launched a program for killer robots, aiming for humanoid robots on the battlefield within six months.",
+   "Google is restricting early access to Gemini 4 Argon to 'trusted cyber defenders.'"
   ],
   "gov": [
-   "Trump ordered federal agencies to call AI only 'Super Intelligence.'",
-   "Trump said AI executives agreed to voluntary standards for industry oversight.",
-   "OpenAI was sued over its breach of Hugging Face."
+   "Six AI companies signed a 'morally binding' White House AI safety accord; skeptics doubt its teeth.",
+   "The FTC is investigating OpenAI, Anthropic and others over AI safety risks.",
+   "METR's president testified to the US Senate on AI agent incidents."
   ],
   "risk": [
-   "OpenAI cancelled its next flagship model, Astra 6.1, as insufficiently aligned.",
-   "Researchers, including ex-OpenAI and DeepMind staff, warned superintelligence is 'exactly as dangerous as it sounds.'",
-   "Anthropic's IPO filing reportedly warns of catastrophic risks from its own AI development plans."
+   "METR testified to the Senate on AI agent incidents.",
+   "OpenAI disrupted a campaign to steal its protected model reasoning via distillation.",
+   "The FTC is investigating AI safety risks at OpenAI, Anthropic and others."
   ],
   "mil": [
-   "The US Army named five winners of its xTechHumanoid competition on military uses of humanoid robots."
-  ],
-  "hw": [
-   "CSET compared methods for verifying the physical location of AI chips."
+   "Ukraine's former defense minister launched a 'Manhattan Project' for killer robots.",
+   "The Pentagon said it is deploying the latest US AI models and platforms."
   ],
   "models": [
-   "OpenAI launched always-on 'dots' agents and GPT-6.1 Sol at DevDay, alongside the Astra 6.1 cancellation.",
-   "OpenAI's annual recurring revenue is nearing $70 billion."
+   "Six AI companies signed Trump's White House AI safety accord.",
+   "Google unveiled Gemini 4 Argon, restricted to 'trusted cyber defenders.'",
+   "Trump's AI chatbot gave inconsistent answers on politically sensitive topics."
   ]
  }
 }
