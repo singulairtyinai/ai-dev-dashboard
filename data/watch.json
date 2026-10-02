@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-02T05:49:02+00:00",
+  "checked_at": "2026-10-02T06:19:10+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-02T05:49:04+00:00",
+  "checked_at": "2026-10-02T06:19:10+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-02T05:49:04+00:00",
+  "checked_at": "2026-10-02T06:19:11+00:00",
   "hash": "13305adc52929f946091edb5759c04e3f8729a67",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-02T05:49:05+00:00",
+  "checked_at": "2026-10-02T06:19:12+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-02T05:49:07+00:00",
+  "checked_at": "2026-10-02T06:19:13+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-02T05:49:06+00:00",
+  "checked_at": "2026-10-02T06:19:13+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-02T05:49:07+00:00",
-  "hash": "3329fe9e2ea8b6c98a2861edf95bf17667289888",
+  "checked_at": "2026-10-02T06:19:14+00:00",
+  "hash": "641d18e2e58f58766bcd25198b4fd8ef777d01cf",
   "known": [
    "4Director: Controlling Video World Models with Rigid 3D Geometry",
    "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
@@ -164,6 +164,7 @@
    "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
    "AutoDataBench: A Data-centric Testbed for Accelerating Auto Research",
    "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+   "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation",
    "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
    "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
    "Carnegie Mellon University",
@@ -171,6 +172,7 @@
    "DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation",
    "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
    "Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?",
+   "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
    "FlexRouter: Learning Complementary Model Sets for Flexible LLM Routing",
    "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
    "Hierarchical Continuous Diffusion Language Models",
@@ -206,36 +208,20 @@
    "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-02T05:49:07+00:00",
+  "changed_at": "2026-10-02T06:19:14+00:00",
   "added": [
    {
-    "text": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+    "text": "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "PLAN Lab @University of Illinois Urbana-Champaign",
-    "url": "https://huggingface.co/PLAN-Lab"
-   },
-   {
-    "text": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Smaller Models, Better Rejects: Preference Distillation Scaling",
+    "text": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-02T05:49:11+00:00",
+  "checked_at": "2026-10-02T06:19:18+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -268,7 +254,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-02T05:49:13+00:00",
+  "checked_at": "2026-10-02T06:19:19+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -366,7 +352,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-02T05:49:12+00:00",
+  "checked_at": "2026-10-02T06:19:18+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
