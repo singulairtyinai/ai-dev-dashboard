@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-02T12:47:18+00:00",
+  "checked_at": "2026-10-02T14:19:18+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-02T12:47:19+00:00",
+  "checked_at": "2026-10-02T14:19:19+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-02T12:47:20+00:00",
+  "checked_at": "2026-10-02T14:19:19+00:00",
   "hash": "13305adc52929f946091edb5759c04e3f8729a67",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-02T12:47:21+00:00",
+  "checked_at": "2026-10-02T14:19:20+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-02T12:47:23+00:00",
+  "checked_at": "2026-10-02T14:19:22+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-02T12:47:21+00:00",
+  "checked_at": "2026-10-02T14:19:21+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-02T12:47:22+00:00",
-  "hash": "9f4712d09a9660a63ac893b9b558dcc19dd7ab42",
+  "checked_at": "2026-10-02T14:19:24+00:00",
+  "hash": "5b208ba8b3423b85a67086b0a5f7d7810ba3c5dc",
   "known": [
    "4Director: Controlling Video World Models with Rigid 3D Geometry",
    "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
@@ -176,6 +176,7 @@
    "CorrGRPO: Correlation-Normalized GRPO for Multi-Reward Learning",
    "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration",
    "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
+   "Decoding Looped Transformers Better for (Almost) Free",
    "Devils in Question Relay: Source-Conditioned Relay Steering to Mitigate Hallucinations in Audio-visual Large Language Models",
    "DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation",
    "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
@@ -188,6 +189,7 @@
    "Generalization Is Stability, Not Accuracy: Multi-Axis Evaluation of LLMs",
    "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
    "Hierarchical Continuous Diffusion Language Models",
+   "Institut National de Recherche en Informatique et en Automatique",
    "Institute of Foundation Models",
    "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
    "It Takes Workflows to Evolve Better Workflows",
@@ -203,6 +205,7 @@
    "Mohamed Bin Zayed University of Artificial Intelligence",
    "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
    "National University of Singapore",
+   "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
    "Omni-Embed-Mini: Binding Modalities Without Forgetting via Dense Distillation",
    "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
    "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
@@ -237,36 +240,24 @@
    "by AK and the research community",
    "university of science and technology of china"
   ],
-  "changed_at": "2026-10-02T12:02:03+00:00",
+  "changed_at": "2026-10-02T14:19:24+00:00",
   "added": [
    {
-    "text": "LOCI: Spatial Linear Memory for Streaming World Models",
+    "text": "Decoding Looped Transformers Better for (Almost) Free",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Institute of Foundation Models",
-    "url": "https://huggingface.co/IFM"
-   },
-   {
-    "text": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
+    "text": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "KAUST Center of Excellence in Generative AI",
-    "url": "https://huggingface.co/kaust-generative-ai"
-   },
-   {
-    "text": "When Does Correction Become Repair? Mechanistic Auditing of Internal Interventions in Tool-Using LLMs",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
-    "url": "https://huggingface.co/papers"
+    "text": "Institut National de Recherche en Informatique et en Automatique",
+    "url": "https://huggingface.co/INRIA"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-02T12:47:28+00:00",
+  "checked_at": "2026-10-02T14:19:33+00:00",
   "hash": "1021f5f0c1cdb2109fbb5d08da0d9463863114ea",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -300,7 +291,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-02T12:47:29+00:00",
+  "checked_at": "2026-10-02T14:19:28+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -398,7 +389,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-02T12:47:28+00:00",
+  "checked_at": "2026-10-02T14:19:26+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
