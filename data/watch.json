@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-02T06:19:10+00:00",
+  "checked_at": "2026-10-02T08:01:50+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-02T06:19:10+00:00",
+  "checked_at": "2026-10-02T08:01:50+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-02T06:19:11+00:00",
+  "checked_at": "2026-10-02T08:01:51+00:00",
   "hash": "13305adc52929f946091edb5759c04e3f8729a67",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-02T06:19:12+00:00",
+  "checked_at": "2026-10-02T08:01:51+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-02T06:19:13+00:00",
+  "checked_at": "2026-10-02T08:01:53+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-02T06:19:13+00:00",
+  "checked_at": "2026-10-02T08:01:52+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-02T06:19:14+00:00",
-  "hash": "641d18e2e58f58766bcd25198b4fd8ef777d01cf",
+  "checked_at": "2026-10-02T08:01:53+00:00",
+  "hash": "034602fe43a96fb4f0aadce8f77063917c124207",
   "known": [
    "4Director: Controlling Video World Models with Rigid 3D Geometry",
    "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
@@ -165,10 +165,13 @@
    "AutoDataBench: A Data-centric Testbed for Accelerating Auto Research",
    "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
    "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation",
+   "Better Supervision Is Nearby: Neighborhood On-Policy Self-Distillation",
    "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
    "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
    "Carnegie Mellon University",
    "Controlled Decoding Attacks on Black-Box LLMs",
+   "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration",
+   "Devils in Question Relay: Source-Conditioned Relay Steering to Mitigate Hallucinations in Audio-visual Large Language Models",
    "DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation",
    "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
    "Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?",
@@ -179,8 +182,10 @@
    "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
    "It Takes Workflows to Evolve Better Workflows",
    "Joint and Cross-Modal Video-Audio Generation and Editing: A Unified Formulation and Design Taxonomy",
+   "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
    "Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models",
    "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+   "Memorizon: Training World Models Beyond Their Context Window",
    "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
    "National University of Singapore",
    "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
@@ -195,6 +200,7 @@
    "ROWBench: Do Video Models Render What the Program Specifies?",
    "RPTune: Learned Context Curation for LLM Catalog Search",
    "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+   "Robust Intelligent Systems Lab",
    "Rules to Tools: Executable Checks for LLM Agents in Scientific Computing",
    "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
    "Scaling and Distilling Text Embeddings for Better Diffusibility",
@@ -208,20 +214,36 @@
    "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-02T06:19:14+00:00",
+  "changed_at": "2026-10-02T08:01:53+00:00",
   "added": [
    {
-    "text": "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation",
+    "text": "Devils in Question Relay: Source-Conditioned Relay Steering to Mitigate Hallucinations in Audio-visual Large Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+    "text": "Memorizon: Training World Models Beyond Their Context Window",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Better Supervision Is Nearby: Neighborhood On-Policy Self-Distillation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Robust Intelligent Systems Lab",
+    "url": "https://huggingface.co/RISys-Lab"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-02T06:19:18+00:00",
+  "checked_at": "2026-10-02T08:01:57+00:00",
   "hash": "c1c7159875a5666558a52b83b7225f672a489f4f",
   "known": [
    "4th Global Forum on the Ethics of Artificial Intelligence",
@@ -254,7 +276,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-02T06:19:19+00:00",
+  "checked_at": "2026-10-02T08:01:58+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -352,7 +374,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-02T06:19:18+00:00",
+  "checked_at": "2026-10-02T08:01:56+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
