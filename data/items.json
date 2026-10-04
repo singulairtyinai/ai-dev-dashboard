@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-04T06:17:56+00:00",
+ "updated": "2026-10-04T08:18:04+00:00",
  "items": [
+  {
+   "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+   "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+   "published": "2026-10-04T07:29:59+00:00",
+   "preview": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies are published to Sigstore's Rekor log and the binaries are…",
+   "id": "2c5221cda539",
+   "source": "marktechpost",
+   "fetched": "2026-10-04T08:18:04+00:00",
+   "countries": []
+  },
+  {
+   "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+   "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+   "published": "2026-10-04T07:01:04+00:00",
+   "preview": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0…",
+   "id": "38be749b24d5",
+   "source": "marktechpost",
+   "fetched": "2026-10-04T08:18:04+00:00",
+   "countries": [
+    "Germany"
+   ]
+  },
   {
    "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
    "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
@@ -4332,16 +4354,6 @@
    "countries": []
   },
   {
-   "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
-   "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
-   "published": "2026-09-25T23:11:59+00:00",
-   "preview": "Liquid AI has released LFM2.5-VL-3B-DSpark, a 279.5M-parameter draft model that brings speculative decoding to its LFM2.5-VL-3B vision-language model. It delivers up to 3.13x faster decoding on Apple M5 Max and 2.66x on…",
-   "id": "4983f96f195b",
-   "source": "marktechpost",
-   "fetched": "2026-09-26T13:33:29+00:00",
-   "countries": []
-  },
-  {
    "title": "OpenAI agents posted user images online, disclose dozens of third party incidents",
    "url": "https://www.axios.com/2026/09/25/openai-models-posted-user-images-online-in-latest-security-episode",
    "published": "2026-09-25T22:36:52+00:00",
@@ -4519,16 +4531,6 @@
    "countries": [
     "China"
    ]
-  },
-  {
-   "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-   "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-   "published": "2026-09-25T15:14:45+00:00",
-   "preview": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the…",
-   "id": "968c8527b458",
-   "source": "marktechpost",
-   "fetched": "2026-09-25T15:14:45+00:00",
-   "countries": []
   },
   {
    "title": "How China is rethinking tank survival against FPVs and top-attack threats",
