@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-05T12:26:33+00:00",
+  "checked_at": "2026-10-05T14:19:26+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-05T12:26:33+00:00",
+  "checked_at": "2026-10-05T14:19:26+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,40 +54,62 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-05T12:26:34+00:00",
-  "hash": "2d220ff8df8435e1a59de816be81b54a0a213e09",
+  "checked_at": "2026-10-05T14:19:27+00:00",
+  "hash": "0d41e3feabaaca3d2223ffa11b4683b0261a2c12",
   "known": [
-   "A privacy-enhancing technologies primer",
-   "AI Governance Vendor Report 2026",
-   "AI Use Toolkit: AI as a Privacy Force Multiplier",
-   "AI accountability in practice: What privacy leaders need to show in 2027",
+   "AI Governance Executive Functions: Horizontal Leaders",
+   "AI Governance Executive Functions: Strategic and Domain Leaders",
+   "AI Governance Professional Profiles: Assurance",
+   "AI Governance Professional Profiles: Ethics",
+   "AI Governance Professional Profiles: Governance",
+   "AI Governance Professional Profiles: Legal",
+   "AI Governance Professional Profiles: Policy",
+   "AI Governance Professional Profiles: Product",
+   "AI Governance Professional Profiles: Risk Management",
+   "AI Governance Professional Profiles: Technical",
+   "AI Governance Skills Framework — Part I: Executive Functions",
+   "AI Governance Skills Framework — Part II: Professional Profiles",
+   "AI Governance Skills Framework: Who is an AI governance professional?",
    "Addressing emerging AI security requirements in new laws through AI model weights",
    "Close the agent governance gap: Control access, track outcomes",
-   "Does your AI count: Scoping ADMT before California's 1 Jan. deadline",
    "EU AI Act: Next Steps for Implementation",
-   "From backlog to breakthrough: Using AI in privacy work and governing it across the enterprise",
    "How to build a reliable privacy consent verification process",
-   "Managing data retention schedules during M&A, relocations and bankruptcy",
    "Mentor Q&A: Breaking into privacy, early career development, and AI",
    "Privacy to a “TEE” – Secure data collaboration and confidential computing",
    "Privacy, AI and the new rules of recruitment",
    "RegTech Report 2026: Privacy, AI Governance and Digital Responsibility",
-   "The AI you didn't build: From black box to defensible risk",
-   "The defensibility imperative: Transforming complex DSR operations across the enterprise",
-   "US Federal Privacy Legislation Tracker",
-   "You've got mail: From a serial privacy plaintiff — A privacy pro's CIPA playbook",
-   "Your website scan flagged a privacy risk. Now what?"
+   "The AI you didn't build: From black box to defensible risk"
   ],
-  "changed_at": "2026-10-02T18:17:42+00:00",
+  "changed_at": "2026-10-05T14:19:27+00:00",
   "added": [
    {
-    "text": "How to build a reliable privacy consent verification process",
-    "url": "https://iapp.org/resources/article/how-to-build-a-reliable-privacy-consent-verification-process"
+    "text": "AI Governance Skills Framework: Who is an AI governance professional?",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework"
+   },
+   {
+    "text": "AI Governance Professional Profiles: Ethics",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-profiles-ethics"
+   },
+   {
+    "text": "AI Governance Executive Functions: Horizontal Leaders",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-horizontal-leaders"
+   },
+   {
+    "text": "AI Governance Professional Profiles: Assurance",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-profiles-assurance"
+   },
+   {
+    "text": "AI Governance Executive Functions: Strategic and Domain Leaders",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-strategic-domain-leaders"
+   },
+   {
+    "text": "AI Governance Professional Profiles: Policy",
+    "url": "https://iapp.org/resources/article/ai-governance-skills-framework-profiles-policy"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-05T12:26:35+00:00",
+  "checked_at": "2026-10-05T14:19:27+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +123,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-05T12:26:38+00:00",
+  "checked_at": "2026-10-05T14:19:30+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +140,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-05T12:26:36+00:00",
+  "checked_at": "2026-10-05T14:19:29+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,8 +174,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-05T12:26:38+00:00",
-  "hash": "75d39e7c21c1b89fd0b997d43884e6f08ec809e0",
+  "checked_at": "2026-10-05T14:19:30+00:00",
+  "hash": "dbe6bda4a8d558b2420f982961d2094b08f48ae9",
   "known": [
    "Can Computation from Earlier Problems Help LLMs Solve New Ones?",
    "Collective Bias Mitigation via Model Routing and Collaboration",
@@ -164,8 +186,10 @@
    "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
    "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
    "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+   "Equal Ranking Quality, Different Decisions: Measuring and Reducing Order Dependence in LLM Scorers",
    "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
    "From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders",
+   "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
    "GTR: Gated Token Recurrence for Efficient Dense Prediction",
    "Georgia Institute of Technology",
    "HelixWorld: A Real-time Interactive Audio-Visual World Model",
@@ -189,6 +213,7 @@
    "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
    "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
    "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+   "Receiver-Conditioned Latent Communication gives 94% CacheBack",
    "Renmin University of China",
    "Rethinking Token Reweighting for SFT: Suppress, Reverse, and Extrapolate Learned Features",
    "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
@@ -209,36 +234,24 @@
    "Xi'an Jiaotong University",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-05T12:26:38+00:00",
+  "changed_at": "2026-10-05T14:19:30+00:00",
   "added": [
    {
-    "text": "Xi'an Jiaotong University",
-    "url": "https://huggingface.co/XianJiaotongUniversity"
-   },
-   {
-    "text": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
+    "text": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Collective Bias Mitigation via Model Routing and Collaboration",
+    "text": "Equal Ranking Quality, Different Decisions: Measuring and Reducing Order Dependence in LLM Scorers",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Institute of Data Science",
-    "url": "https://huggingface.co/NUS-IDS"
-   },
-   {
-    "text": "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Can Computation from Earlier Problems Help LLMs Solve New Ones?",
+    "text": "Receiver-Conditioned Latent Communication gives 94% CacheBack",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-05T12:26:42+00:00",
+  "checked_at": "2026-10-05T14:19:33+00:00",
   "hash": "b575ceb1b33f59c78597443fc708280f87802dc3",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -272,7 +285,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-05T12:26:44+00:00",
+  "checked_at": "2026-10-05T14:19:35+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -370,7 +383,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-05T12:26:42+00:00",
+  "checked_at": "2026-10-05T14:19:33+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
