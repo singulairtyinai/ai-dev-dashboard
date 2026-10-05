@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-05T10:18:24+00:00",
+  "checked_at": "2026-10-05T12:26:33+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-05T10:18:26+00:00",
+  "checked_at": "2026-10-05T12:26:33+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-05T10:18:27+00:00",
+  "checked_at": "2026-10-05T12:26:34+00:00",
   "hash": "2d220ff8df8435e1a59de816be81b54a0a213e09",
   "known": [
    "A privacy-enhancing technologies primer",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-05T10:18:27+00:00",
+  "checked_at": "2026-10-05T12:26:35+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-05T10:18:29+00:00",
+  "checked_at": "2026-10-05T12:26:38+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-05T10:18:28+00:00",
+  "checked_at": "2026-10-05T12:26:36+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -152,9 +152,11 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-05T10:18:30+00:00",
-  "hash": "cfad1ee3de56e280baa7fec604a621b1d9f9ac50",
+  "checked_at": "2026-10-05T12:26:38+00:00",
+  "hash": "75d39e7c21c1b89fd0b997d43884e6f08ec809e0",
   "known": [
+   "Can Computation from Earlier Problems Help LLMs Solve New Ones?",
+   "Collective Bias Mitigation via Model Routing and Collaboration",
    "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
    "DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS",
    "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
@@ -168,6 +170,7 @@
    "Georgia Institute of Technology",
    "HelixWorld: A Real-time Interactive Audio-Visual World Model",
    "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+   "Institute of Data Science",
    "LVMT: Video Mask Transformer for Long-term Video Segmentation",
    "LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models",
    "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
@@ -177,6 +180,7 @@
    "Mobile Perception Systems Lab",
    "Mohamed Bin Zayed University of Artificial Intelligence",
    "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+   "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
    "Nanyang Technological University Singapore",
    "National University of Singapore",
    "Native Action-Prior Learning from Videos for World Action Models",
@@ -185,6 +189,9 @@
    "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
    "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
    "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+   "Renmin University of China",
+   "Rethinking Token Reweighting for SFT: Suppress, Reverse, and Extrapolate Learned Features",
+   "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
    "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
    "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
    "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
@@ -199,38 +206,39 @@
    "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
    "World Action Modeling with Progressive Visual Planning",
    "World Embedding Benchmark",
+   "Xi'an Jiaotong University",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-05T10:18:30+00:00",
+  "changed_at": "2026-10-05T12:26:38+00:00",
   "added": [
    {
-    "text": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+    "text": "Xi'an Jiaotong University",
+    "url": "https://huggingface.co/XianJiaotongUniversity"
+   },
+   {
+    "text": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
+    "text": "Collective Bias Mitigation via Model Routing and Collaboration",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "World Action Modeling with Progressive Visual Planning",
+    "text": "Institute of Data Science",
+    "url": "https://huggingface.co/NUS-IDS"
+   },
+   {
+    "text": "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Mobile Perception Systems Lab",
-    "url": "https://huggingface.co/tue-mps"
-   },
-   {
-    "text": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
+    "text": "Can Computation from Earlier Problems Help LLMs Solve New Ones?",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-05T08:19:23+00:00",
+  "checked_at": "2026-10-05T12:26:42+00:00",
   "hash": "b575ceb1b33f59c78597443fc708280f87802dc3",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -264,7 +272,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-05T10:18:35+00:00",
+  "checked_at": "2026-10-05T12:26:44+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -362,7 +370,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-05T10:18:34+00:00",
+  "checked_at": "2026-10-05T12:26:42+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
