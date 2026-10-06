@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-06T10:19:17+00:00",
+  "checked_at": "2026-10-06T12:21:55+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-06T10:19:18+00:00",
+  "checked_at": "2026-10-06T12:21:56+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-06T10:19:19+00:00",
+  "checked_at": "2026-10-06T12:21:57+00:00",
   "hash": "0d41e3feabaaca3d2223ffa11b4683b0261a2c12",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -109,7 +109,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-06T10:19:19+00:00",
+  "checked_at": "2026-10-06T12:21:57+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -123,7 +123,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-06T10:19:21+00:00",
+  "checked_at": "2026-10-06T12:22:01+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -140,7 +140,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-06T10:19:20+00:00",
+  "checked_at": "2026-10-06T12:21:59+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -174,8 +174,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-06T10:19:21+00:00",
-  "hash": "7e795d043661d58f4e03e0ed2cd02afdc02b37cf",
+  "checked_at": "2026-10-06T12:22:01+00:00",
+  "hash": "284e4e98359638abc3970fe3e1a9c3f7f38ec7b9",
   "known": [
    "ALoDLM: Adaptively Looped Diffusion Language Models",
    "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
@@ -191,8 +191,10 @@
    "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
    "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
    "Georgia Institute of Technology",
+   "How to Loop MoE: Flatten the Experts, Untie the Attention",
    "In-Distribution Forcing for Long Video Generation at Test Time",
    "Institute of Foundation Models",
+   "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
    "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
    "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
    "King Abdullah University of Science and Technology",
@@ -222,6 +224,7 @@
    "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
    "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
    "Seoul National University",
+   "SoK: Semantic Decision Engines in Network Control Loops",
    "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
    "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
    "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
@@ -229,39 +232,32 @@
    "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
    "University of Central Florida",
    "What Gradients Add to Text Leakage in Split Language Models, Counted per Token and per Document",
+   "What Matters for Latent Reasoning with Flow Matching",
    "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-06T10:19:21+00:00",
+  "changed_at": "2026-10-06T12:22:01+00:00",
   "added": [
    {
-    "text": "What Gradients Add to Text Leakage in Split Language Models, Counted per Token and per Document",
+    "text": "What Matters for Latent Reasoning with Flow Matching",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+    "text": "How to Loop MoE: Flatten the Experts, Untie the Attention",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
+    "text": "SoK: Semantic Decision Engines in Network Control Loops",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DEPICT: Scoring Text-to-Image Alignment by Answer Agreement",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Learning Steadily: Accumulating Relative Point Margin Scores for Face Image Quality Assessment",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Data Unlearning via Inverse Distillation",
+    "text": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-06T10:19:24+00:00",
+  "checked_at": "2026-10-06T12:22:05+00:00",
   "hash": "b575ceb1b33f59c78597443fc708280f87802dc3",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -295,7 +291,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-06T10:19:25+00:00",
+  "checked_at": "2026-10-06T12:22:07+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -393,7 +389,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-06T10:19:24+00:00",
+  "checked_at": "2026-10-06T12:22:05+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
