@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-06T21:02:17+00:00",
+  "checked_at": "2026-10-06T22:18:21+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-06T21:02:17+00:00",
+  "checked_at": "2026-10-06T22:18:22+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,8 +54,8 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-06T21:02:18+00:00",
-  "hash": "d944f2455b3c020c43a46db197b7f7b2c3e3a34d",
+  "checked_at": "2026-10-06T22:18:23+00:00",
+  "hash": "046c0c7b4c4a681556718c770e6753f5e4fe24cf",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
    "AI Governance Executive Functions: Strategic and Domain Leaders",
@@ -64,32 +64,38 @@
    "AI Governance Professional Profiles: Governance",
    "AI Governance Professional Profiles: Legal",
    "AI Governance Professional Profiles: Policy",
-   "AI Governance Professional Profiles: Product",
    "AI Governance Professional Profiles: Risk Management",
    "AI Governance Professional Profiles: Technical",
-   "AI Governance Skills Framework — Part I: Executive Functions",
    "AI Governance Skills Framework — Part II: Professional Profiles",
    "AI Governance Skills Framework: Who is an AI governance professional?",
+   "AI Use Cases in Legal Practice",
    "Addressing emerging AI security requirements in new laws through AI model weights",
    "Australia's privacy reform: Priorities before the OAIC",
    "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
-   "EU AI Act: Next Steps for Implementation",
+   "Global AI Law and Policy Tracker",
    "How to build a reliable privacy consent verification process",
    "Mentor Q&A: Breaking into privacy, early career development, and AI",
-   "Privacy to a “TEE” – Secure data collaboration and confidential computing",
    "Privacy, AI and the new rules of recruitment",
-   "RegTech Report 2026: Privacy, AI Governance and Digital Responsibility"
+   "Professional and Ethical Considerations for AI Use in Legal Practice"
   ],
-  "changed_at": "2026-10-06T16:19:15+00:00",
+  "changed_at": "2026-10-06T22:18:23+00:00",
   "added": [
    {
-    "text": "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
-    "url": "https://iapp.org/resources/article/digital-laws-and-governance-around-the-world-uae-qatar-and-saudi-arabia"
+    "text": "Global AI Law and Policy Tracker",
+    "url": "https://iapp.org/resources/article/global-ai-legislation-tracker"
+   },
+   {
+    "text": "AI Use Cases in Legal Practice",
+    "url": "https://iapp.org/resources/article/ai-use-cases-in-legal-practice"
+   },
+   {
+    "text": "Professional and Ethical Considerations for AI Use in Legal Practice",
+    "url": "https://iapp.org/resources/article/professional-ethical-considersations-ai-use-legal-practice"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-06T21:02:18+00:00",
+  "checked_at": "2026-10-06T22:18:23+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -103,7 +109,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-06T21:02:21+00:00",
+  "checked_at": "2026-10-06T22:18:26+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -120,7 +126,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-06T21:02:20+00:00",
+  "checked_at": "2026-10-06T22:18:24+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -154,8 +160,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-06T21:02:21+00:00",
-  "hash": "168db1758fee060c9957288a39bd15f179c523b3",
+  "checked_at": "2026-10-06T22:18:26+00:00",
+  "hash": "f505cc1ab0c8d4d40bf3b68775c0c2d3f35c05b2",
   "known": [
    "ALoDLM: Adaptively Looped Diffusion Language Models",
    "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
@@ -232,6 +238,7 @@
    "SoK: Semantic Decision Engines in Network Control Loops",
    "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
    "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
+   "The Numerical Linear Algebra of Large Language Models",
    "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
    "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
    "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
@@ -246,16 +253,16 @@
    "by AK and the research community",
    "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization"
   ],
-  "changed_at": "2026-10-06T21:02:21+00:00",
+  "changed_at": "2026-10-06T22:18:26+00:00",
   "added": [
    {
-    "text": "Agentic discovery of blood biomarker from distilled private health records",
+    "text": "The Numerical Linear Algebra of Large Language Models",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-06T21:02:24+00:00",
+  "checked_at": "2026-10-06T22:18:30+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -288,7 +295,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-06T21:02:26+00:00",
+  "checked_at": "2026-10-06T22:18:31+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -386,7 +393,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-06T21:02:23+00:00",
+  "checked_at": "2026-10-06T22:18:30+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
