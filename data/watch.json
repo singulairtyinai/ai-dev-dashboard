@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-06T08:18:00+00:00",
+  "checked_at": "2026-10-06T09:25:50+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-06T08:18:01+00:00",
+  "checked_at": "2026-10-06T09:25:51+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-06T08:18:02+00:00",
+  "checked_at": "2026-10-06T09:25:52+00:00",
   "hash": "0d41e3feabaaca3d2223ffa11b4683b0261a2c12",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -109,7 +109,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-06T08:18:02+00:00",
+  "checked_at": "2026-10-06T09:25:52+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -123,7 +123,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-06T08:18:05+00:00",
+  "checked_at": "2026-10-06T09:25:54+00:00",
   "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
   "known": [
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
@@ -140,7 +140,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-06T08:18:03+00:00",
+  "checked_at": "2026-10-06T09:25:53+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -174,8 +174,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-06T08:18:05+00:00",
-  "hash": "951644f031beb1dddfdffb37e9e587b4ff8470a9",
+  "checked_at": "2026-10-06T09:25:55+00:00",
+  "hash": "2e3570a4dba1e989fb4a1e751abcd17e642faf17",
   "known": [
    "ALoDLM: Adaptively Looped Diffusion Language Models",
    "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
@@ -184,13 +184,17 @@
    "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
    "Certification of Real Images through Calibrated Content Authentication",
    "Code2Games: Enabling Coding Agents for Gaming World Generation",
+   "CurveCodec 2: Skeleton-agnostic animation compression with a learned entropy model",
    "Dynamic Harness Search: Building Multi-Agent Systems Per-Query via Prediction",
+   "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
    "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
    "Georgia Institute of Technology",
+   "In-Distribution Forcing for Long Video Generation at Test Time",
    "Institute of Foundation Models",
    "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
    "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
    "King Abdullah University of Science and Technology",
+   "Learning to Learn a Language",
    "Massachusetts Institute of Technology",
    "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
    "Mohamed Bin Zayed University of Artificial Intelligence",
@@ -198,6 +202,8 @@
    "Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering",
    "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
    "OmniConfess: Eliciting Token Confessions to Mitigate Omni-Modal Hallucination",
+   "OpenRUA: Robot-Use Agents Are Zero-Shot Visuomotor Policies",
+   "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
    "PaLoRA: Paced Low-Rank Adaptation for Continual Learning",
    "Periscope: Extending Frozen Language Models Beyond Their Context Window",
    "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
@@ -209,6 +215,9 @@
    "Representation-Space MMD for Diffusion Language Models",
    "Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency",
    "RobotUse: Allocating Computation, Context, and Decisions",
+   "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+   "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+   "Seoul National University",
    "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
    "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
    "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
@@ -217,36 +226,36 @@
    "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-06T07:40:50+00:00",
+  "changed_at": "2026-10-06T09:25:55+00:00",
   "added": [
    {
-    "text": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
+    "text": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "RobotUse: Allocating Computation, Context, and Decisions",
+    "text": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Representation-Space MMD for Diffusion Language Models",
+    "text": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
+    "text": "In-Distribution Forcing for Long Video Generation at Test Time",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Georgia Institute of Technology",
-    "url": "https://huggingface.co/GeorgiaTech"
+    "text": "Seoul National University",
+    "url": "https://huggingface.co/SeoulNatlUniv"
    },
    {
-    "text": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+    "text": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-06T08:18:10+00:00",
+  "checked_at": "2026-10-06T09:25:58+00:00",
   "hash": "b575ceb1b33f59c78597443fc708280f87802dc3",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -280,7 +289,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-06T08:18:11+00:00",
+  "checked_at": "2026-10-06T09:26:00+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -378,7 +387,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-06T08:18:10+00:00",
+  "checked_at": "2026-10-06T09:25:58+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
