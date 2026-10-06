@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-06T04:18:21+00:00",
+ "updated": "2026-10-06T06:18:44+00:00",
  "items": [
+  {
+   "title": "Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields",
+   "url": "https://www.marktechpost.com/2026/10/05/beyond-domain-specific-world-models-jepa-anything-uses-1-recipe-for-7-fields/",
+   "published": "2026-10-06T05:12:01+00:00",
+   "preview": "JEPA-Anything splits a JEPA's single latent target into 4 orthogonal factors, each with its own predictor. Tested across 7 domains, it beat matched JEPA baselines on all 10 dynamics tasks and cut Interventional Pong…",
+   "id": "15dc682ae607",
+   "source": "marktechpost",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
   {
    "title": "Gemini Call for Me might tell your mom you’re running late",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
@@ -118,6 +128,16 @@
    ]
   },
   {
+   "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+   "url": "https://arxiv.org/abs/2610.06852v1",
+   "published": "2026-10-05T17:59:54+00:00",
+   "preview": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the…",
+   "id": "99e793ca69d9",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
    "title": "Base Models Can Reason By Taking a Cue From Training Data",
    "url": "https://arxiv.org/abs/2610.06851v1",
    "published": "2026-10-05T17:59:52+00:00",
@@ -138,6 +158,26 @@
    "countries": []
   },
   {
+   "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+   "url": "https://arxiv.org/abs/2610.06846v1",
+   "published": "2026-10-05T17:59:28+00:00",
+   "preview": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitoring class-attribute…",
+   "id": "bd542ab392b3",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2610.06844v1",
+   "published": "2026-10-05T17:59:17+00:00",
+   "preview": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic…",
+   "id": "5f3c3171d3de",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
    "title": "Recursive Video In-Context Learning for Agentic Robot",
    "url": "https://arxiv.org/abs/2610.06843v1",
    "published": "2026-10-05T17:59:11+00:00",
@@ -145,6 +185,16 @@
    "id": "ee9c08dede01",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-06T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
+   "url": "https://arxiv.org/abs/2610.06831v1",
+   "published": "2026-10-05T17:58:11+00:00",
+   "preview": "Sliders provide an intuitive interface for continuous image editing. In current generative approaches, however, the slider is simply a rescaling of the method's strength parameter, such as an adapter coefficient, a…",
+   "id": "d05f8a5d2c4a",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
    "countries": []
   },
   {
@@ -178,6 +228,26 @@
    "countries": []
   },
   {
+   "title": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+   "url": "https://arxiv.org/abs/2610.06824v1",
+   "published": "2026-10-05T17:57:15+00:00",
+   "preview": "We introduce TasteVal, a benchmark to evaluate the experimental research taste of frontier models. We define research taste as the ability to pick interesting problems to solve, design experiments, and interpret…",
+   "id": "7056c026a821",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
+   "url": "https://arxiv.org/abs/2610.06823v1",
+   "published": "2026-10-05T17:56:57+00:00",
+   "preview": "Large longitudinal cohorts often contain wrist accelerometry without optical heart-rate sensing, motivating recovery of cardiac information from motion signals already collected during sleep. We present SeqSmoother, a…",
+   "id": "d013b97c95d2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
    "title": "Private online learning and prediction for Littlestone classes",
    "url": "https://arxiv.org/abs/2610.06822v1",
    "published": "2026-10-05T17:56:47+00:00",
@@ -195,6 +265,46 @@
    "id": "a7bef4b5f66d",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-06T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+   "url": "https://arxiv.org/abs/2610.06814v1",
+   "published": "2026-10-05T17:55:21+00:00",
+   "preview": "World models learn to predict how their environment will evolve, making them an important foundation for general-purpose robotic control. Yet world action models depend on camera inputs whose manipulation can corrupt…",
+   "id": "beae92a4fa09",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+   "url": "https://arxiv.org/abs/2610.06804v1",
+   "published": "2026-10-05T17:53:30+00:00",
+   "preview": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power…",
+   "id": "89c817b8e32c",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2610.06801v1",
+   "published": "2026-10-05T17:51:42+00:00",
+   "preview": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade…",
+   "id": "34b1df6b61a7",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+   "url": "https://arxiv.org/abs/2610.06790v1",
+   "published": "2026-10-05T17:48:14+00:00",
+   "preview": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large…",
+   "id": "ecee17835c97",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-06T06:18:44+00:00",
    "countries": []
   },
   {
@@ -2432,106 +2542,6 @@
    "countries": []
   },
   {
-   "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-   "url": "https://arxiv.org/abs/2610.02207v1",
-   "published": "2026-10-01T17:59:58+00:00",
-   "preview": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can…",
-   "id": "e91e271ba7dc",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-   "url": "https://arxiv.org/abs/2610.02206v1",
-   "published": "2026-10-01T17:59:55+00:00",
-   "preview": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end…",
-   "id": "f361e0cd028d",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-   "url": "https://arxiv.org/abs/2610.02204v1",
-   "published": "2026-10-01T17:59:50+00:00",
-   "preview": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go…",
-   "id": "7c0f8889026c",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-   "url": "https://arxiv.org/abs/2610.02202v1",
-   "published": "2026-10-01T17:59:47+00:00",
-   "preview": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new…",
-   "id": "08cab8a0a2e5",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-   "url": "https://arxiv.org/abs/2610.02201v1",
-   "published": "2026-10-01T17:59:46+00:00",
-   "preview": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous…",
-   "id": "db9f46c0fb89",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
-   "url": "https://arxiv.org/abs/2610.02200v1",
-   "published": "2026-10-01T17:59:45+00:00",
-   "preview": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness…",
-   "id": "e70ffea2826c",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-   "url": "https://arxiv.org/abs/2610.02198v1",
-   "published": "2026-10-01T17:59:41+00:00",
-   "preview": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and…",
-   "id": "21826c55a4a1",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "Hierarchical Continuous Diffusion Language Models",
-   "url": "https://arxiv.org/abs/2610.02193v1",
-   "published": "2026-10-01T17:59:39+00:00",
-   "preview": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when…",
-   "id": "f9b7867d1a77",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-   "url": "https://arxiv.org/abs/2610.02188v1",
-   "published": "2026-10-01T17:59:01+00:00",
-   "preview": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's…",
-   "id": "54ac511d5b46",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
-   "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
-   "url": "https://arxiv.org/abs/2610.02186v1",
-   "published": "2026-10-01T17:58:45+00:00",
-   "preview": "Molecular learning models are strongly shaped by their underlying representations. Yet standard sequential and graph formalisms struggle to explicitly encode higher-order topology, such as ring systems and recurring…",
-   "id": "44ae4e88c3a3",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-02T02:18:24+00:00",
-   "countries": []
-  },
-  {
    "title": "War Department Increases Two Hazard Pays for First Time in Nearly Quarter Century",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4616621/war-department-increases-two-hazard-pays-for-first-time-in-nearly-quarter-centu/",
    "published": "2026-10-01T17:42:00+00:00",
@@ -4487,16 +4497,6 @@
    "id": "216d56bba26c",
    "source": "openai-news",
    "fetched": "2026-09-28T18:17:49+00:00",
-   "countries": []
-  },
-  {
-   "title": "20 Agentic Use Cases of TypeSafe AI’s Jev",
-   "url": "https://www.marktechpost.com/2026/09/27/20-agentic-use-cases-of-typesafe-ais-jev/",
-   "published": "2026-09-28T03:07:10+00:00",
-   "preview": "TypeSafe AI's Jev skips text generation and returns typed decisions with calibrated probabilities. Input costs $0.042 per million tokens and output is free. We verified 20 agentic use cases, from model routing and…",
-   "id": "8bae98197a0e",
-   "source": "marktechpost",
-   "fetched": "2026-09-28T04:18:35+00:00",
    "countries": []
   },
   {
