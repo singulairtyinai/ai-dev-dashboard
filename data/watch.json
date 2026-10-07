@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-07T07:41:08+00:00",
+  "checked_at": "2026-10-07T08:19:00+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-07T07:41:09+00:00",
+  "checked_at": "2026-10-07T08:19:01+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-07T07:41:09+00:00",
+  "checked_at": "2026-10-07T08:19:01+00:00",
   "hash": "046c0c7b4c4a681556718c770e6753f5e4fe24cf",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -95,7 +95,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-07T07:41:10+00:00",
+  "checked_at": "2026-10-07T08:19:01+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -109,24 +109,29 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-07T07:41:12+00:00",
-  "hash": "e36ef11b2624e9f835291ca376017657e0945f5f",
+  "checked_at": "2026-10-07T08:19:04+00:00",
+  "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
+   "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
    "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
-   "Cyber Law Toolkit releases 2026 update and opens call for new scenarios",
+   "CyCon 2027: Call for Workshops",
    "International Conference on Cyber Conflict â CyCon",
    "The NATO Cooperative Cyber Defence Centre of Excellence is a multinational and interdisciplinary cyber defence hub"
   ],
-  "changed_at": "2026-10-01T13:00:28+00:00",
+  "changed_at": "2026-10-07T08:19:04+00:00",
   "added": [
    {
-    "text": "CCDCOE launches new pilot course on international law and the AIâcyber interplay",
-    "url": "https://ccdcoe.org/news/2026/ccdcoe-launches-new-pilot-course-on-international-law-and-the-ai-cyber-interplay"
+    "text": "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
+    "url": "https://ccdcoe.org/news/2026/cycon-2027-call-for-workshops"
+   },
+   {
+    "text": "CyCon 2027: Call for Workshops",
+    "url": "https://ccdcoe.org/news/2026/cycon-2027-call-for-workshops"
    }
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-07T07:41:11+00:00",
+  "checked_at": "2026-10-07T08:19:03+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -160,9 +165,10 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-07T07:41:12+00:00",
-  "hash": "9268843c32dfe5b933d0449afa72edada43353f8",
+  "checked_at": "2026-10-07T08:19:04+00:00",
+  "hash": "fd14b8e37706aea66331d4a5e0d299c61da46ab1",
   "known": [
+   "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
    "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
    "Adaptive Latent Capacity for World Models",
    "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
@@ -182,11 +188,13 @@
    "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
    "HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing",
    "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives",
+   "Harness-Aware Distillation for Small Language Model Agents",
    "HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models",
    "Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution",
    "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
    "JLD: Perceptual Distance Through A Jacobian Lens",
    "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
+   "Learning Discriminative Geometry for Drifting Models",
    "MEND: RL For Flow Models via Proximal Velocity Matching",
    "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
    "MiniCorp: The Last Mile of the AI Agent Firm",
@@ -198,11 +206,13 @@
    "Pohang University of Science and Technology",
    "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
    "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+   "SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving",
    "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
    "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
    "The Chinese University of Hongkong,Shenzhen",
    "The Hong Kong University of Science and Technology",
    "Towards In-Parameter Memory Augmentation for Large Language Models",
+   "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
    "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
    "University of Illinois at Urbana-Champaign",
    "University of Texas at Austin",
@@ -211,36 +221,32 @@
    "World Models' Last Exam in Physics",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-07T07:41:12+00:00",
+  "changed_at": "2026-10-07T08:19:04+00:00",
   "added": [
    {
-    "text": "DEEP Group at Jilin University",
-    "url": "https://huggingface.co/JLU-Deep"
-   },
-   {
-    "text": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+    "text": "SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Pohang University of Science and Technology",
-    "url": "https://huggingface.co/POSTECH"
-   },
-   {
-    "text": "Adaptive Latent Capacity for World Models",
+    "text": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "MiniCorp: The Last Mile of the AI Agent Firm",
+    "text": "Harness-Aware Distillation for Small Language Model Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "NeMo-DCR: Bit-Exact Delta-Compressed Refit for Scalable Agentic RL at Trillion-Parameter Scale",
+    "text": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Learning Discriminative Geometry for Drifting Models",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-07T07:41:21+00:00",
+  "checked_at": "2026-10-07T08:19:06+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -273,7 +279,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-07T07:41:17+00:00",
+  "checked_at": "2026-10-07T08:19:08+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -371,7 +377,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-07T07:41:16+00:00",
+  "checked_at": "2026-10-07T08:19:05+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
