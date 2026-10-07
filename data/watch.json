@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-07T14:19:25+00:00",
+  "checked_at": "2026-10-07T16:18:56+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-07T14:19:26+00:00",
+  "checked_at": "2026-10-07T16:18:57+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-07T14:19:27+00:00",
+  "checked_at": "2026-10-07T16:18:57+00:00",
   "hash": "046c0c7b4c4a681556718c770e6753f5e4fe24cf",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -95,7 +95,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-07T14:19:27+00:00",
+  "checked_at": "2026-10-07T16:18:57+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -109,7 +109,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-07T14:19:30+00:00",
+  "checked_at": "2026-10-07T16:18:59+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -131,7 +131,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-07T14:19:29+00:00",
+  "checked_at": "2026-10-07T16:18:58+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -165,8 +165,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-07T14:19:30+00:00",
-  "hash": "ef5febdb9b5b67136121fa466dcac4e3dbce858d",
+  "checked_at": "2026-10-07T16:19:00+00:00",
+  "hash": "f99342f189529fdb18b0af0b12a55ff6cf4c77f4",
   "known": [
    "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
    "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
@@ -203,7 +203,9 @@
    "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
    "JLD: Perceptual Distance Through A Jacobian Lens",
    "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
+   "Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models",
    "Learning Discriminative Geometry for Drifting Models",
+   "Learning Functional Subspaces for Neural Network Compression",
    "Learning to Read the Contextual Tokens in Diffusion Transformers",
    "MEND: RL For Flow Models via Proximal Velocity Matching",
    "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
@@ -214,6 +216,7 @@
    "Nanyang Technological University Singapore",
    "National University of Singapore",
    "NeMo-DCR: Bit-Exact Delta-Compressed Refit for Scalable Agentic RL at Trillion-Parameter Scale",
+   "OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation",
    "Personal-Agent Mediated Recommendation with Cross-Platform User History",
    "Pohang University of Science and Technology",
    "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
@@ -222,6 +225,7 @@
    "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
    "SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving",
    "Source Identification Is Not Fitness Testing: Measuring the Limits of Synthetic-Data Attribution",
+   "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
    "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
    "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
    "The Chinese University of Hongkong,Shenzhen",
@@ -239,36 +243,28 @@
    "World Models' Last Exam in Physics",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-07T14:19:30+00:00",
+  "changed_at": "2026-10-07T16:19:00+00:00",
   "added": [
    {
-    "text": "Multilinguality in Hybrid Attention LLMs",
+    "text": "OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "University of California, Los Angeles",
-    "url": "https://huggingface.co/UCLA"
-   },
-   {
-    "text": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
+    "text": "Learning Functional Subspaces for Neural Network Compression",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
+    "text": "Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+    "text": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-07T14:19:34+00:00",
+  "checked_at": "2026-10-07T16:19:03+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -301,7 +297,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-07T14:19:49+00:00",
+  "checked_at": "2026-10-07T16:19:04+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -399,7 +395,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-07T14:19:34+00:00",
+  "checked_at": "2026-10-07T16:19:03+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
