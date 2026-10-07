@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-07T10:18:27+00:00",
+  "checked_at": "2026-10-07T12:23:51+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-07T10:18:27+00:00",
+  "checked_at": "2026-10-07T12:23:52+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-07T10:18:27+00:00",
+  "checked_at": "2026-10-07T12:23:52+00:00",
   "hash": "046c0c7b4c4a681556718c770e6753f5e4fe24cf",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -95,7 +95,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-07T10:18:27+00:00",
+  "checked_at": "2026-10-07T12:23:52+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -109,7 +109,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-07T10:18:29+00:00",
+  "checked_at": "2026-10-07T12:23:55+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -131,7 +131,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-07T10:18:28+00:00",
+  "checked_at": "2026-10-07T12:23:53+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -165,8 +165,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-07T10:18:30+00:00",
-  "hash": "4839b922b457d97d6afb93199dadab2a9afc009a",
+  "checked_at": "2026-10-07T12:23:55+00:00",
+  "hash": "0ef56bf663e8bc746a714d7c655ee557ae90902f",
   "known": [
    "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
    "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
@@ -179,14 +179,17 @@
    "Carnegie Mellon University",
    "Chinese University of Hong Kong, Shenzhen",
    "ConEx: Human-Interpretable Saliency Maps via Concept-Aware Attribution",
+   "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
    "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
    "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
    "DEEP Group at Jilin University",
    "DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling",
+   "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
    "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
    "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
    "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
    "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+   "Execution-Aligned Progressive Noise for Consistent Asynchronous Replanning in Generative Robot Policies",
    "From Evidence to Action: How Tool-Using Agents Fail",
    "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
    "HLA: Expressive Hybrid Linear Attention via Chunk-Wise Dynamic Mixing",
@@ -200,6 +203,7 @@
    "Learning Discriminative Geometry for Drifting Models",
    "Learning to Read the Contextual Tokens in Diffusion Transformers",
    "MEND: RL For Flow Models via Proximal Velocity Matching",
+   "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
    "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
    "MiniCorp: The Last Mile of the AI Agent Firm",
    "Mohamed Bin Zayed University of Artificial Intelligence",
@@ -216,6 +220,7 @@
    "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
    "The Chinese University of Hongkong,Shenzhen",
    "The Hong Kong University of Science and Technology",
+   "Toward Real-Time VLAs: Stage-Aware Two-Step Flow Denoising and System-Level Evaluation",
    "Towards In-Parameter Memory Augmentation for Large Language Models",
    "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
    "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
@@ -227,36 +232,32 @@
    "World Models' Last Exam in Physics",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-07T10:18:30+00:00",
+  "changed_at": "2026-10-07T12:23:55+00:00",
   "added": [
    {
-    "text": "Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning",
+    "text": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+    "text": "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification",
+    "text": "Execution-Aligned Progressive Noise for Consistent Asynchronous Replanning in Generative Robot Policies",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
+    "text": "Toward Real-Time VLAs: Stage-Aware Two-Step Flow Denoising and System-Level Evaluation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Source Identification Is Not Fitness Testing: Measuring the Limits of Synthetic-Data Attribution",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
+    "text": "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-07T10:18:32+00:00",
+  "checked_at": "2026-10-07T12:23:57+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -289,7 +290,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-07T10:18:33+00:00",
+  "checked_at": "2026-10-07T12:23:59+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -387,7 +388,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-07T10:18:32+00:00",
+  "checked_at": "2026-10-07T12:23:57+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
