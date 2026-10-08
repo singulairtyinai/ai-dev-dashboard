@@ -1,6 +1,76 @@
 {
- "updated": "2026-10-08T08:18:22+00:00",
+ "updated": "2026-10-08T10:18:12+00:00",
  "items": [
+  {
+   "title": "Tristan Harris’ Tech Nonprofit Is Laying Off Most Staff and Going ‘Founder-Led’",
+   "url": "https://www.wired.com/story/tristan-harris-tech-nonprofit-is-laying-off-most-staff-and-going-founder-led/",
+   "published": "2026-10-08T09:30:00+00:00",
+   "preview": "The Center for Humane Technology helped spark a movement against excessive screen time, but internal tensions over its direction and strategy have simmered for years, sources tell WIRED.",
+   "id": "82ecb46dcf28",
+   "source": "wired-ai",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenAI's math breakthrough points beyond math",
+   "url": "https://www.axios.com/2026/10/08/openai-math-proofs-ai-model",
+   "published": "2026-10-08T09:20:05+00:00",
+   "preview": "AI's conquest of computer programming offered an early demonstration of what happens when models become good enough at a specialized field that experts can no longer treat them as a novelty. Mathematics appears to be…",
+   "id": "efed8cf514e4",
+   "source": "axios-technology",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Data centers face a sweeping new power regime",
+   "url": "https://www.axios.com/2026/10/08/data-centers-power-regime",
+   "published": "2026-10-08T09:15:05+00:00",
+   "preview": "Lawmakers are considering forcing data centers to shoulder new costs and restrictions while speeding up the energy infrastructure needed to power the AI boom. Why it matters: The bipartisan legislation, unveiled last…",
+   "id": "e86eb0b8b880",
+   "source": "axios-technology",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "AI breakthroughs in robotics won’t change your life any time soon",
+   "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+   "published": "2026-10-08T09:00:00+00:00",
+   "preview": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped…",
+   "id": "7e0548f31e36",
+   "source": "mit-technology-review-ai",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+   "url": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
+   "published": "2026-10-08T08:53:34+00:00",
+   "preview": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request. Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve each…",
+   "id": "52c10306a4e4",
+   "source": "marktechpost",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+   "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
+   "published": "2026-10-08T08:40:02+00:00",
+   "preview": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agent…",
+   "id": "a19202d7b4e3",
+   "source": "marktechpost",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Building a safer path to autonomous industrial AI",
+   "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+   "published": "2026-10-08T08:17:32+00:00",
+   "preview": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex…",
+   "id": "48f3042078ba",
+   "source": "mit-technology-review-ai",
+   "fetched": "2026-10-08T10:18:12+00:00",
+   "countries": []
+  },
   {
    "title": "Ten Wartime Technologies at America’s 250th",
    "url": "https://warontherocks.com/cogs-of-war/ten-wartime-technologies-at-americas-250th/",
@@ -4362,16 +4432,6 @@
    ]
   },
   {
-   "title": "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
-   "url": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
-   "published": "2026-09-30T01:30:17+00:00",
-   "preview": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and critical infrastructure. It has 3 modules. Discover finds sanctioned and…",
-   "id": "67935ec1da0c",
-   "source": "marktechpost",
-   "fetched": "2026-09-30T02:17:56+00:00",
-   "countries": []
-  },
-  {
    "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
    "url": "https://huggingface.co/blog/open-tts-leaderboard",
    "published": "2026-09-30T00:00:00+00:00",
@@ -4414,16 +4474,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-   "url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-   "published": "2026-09-29T21:47:09+00:00",
-   "preview": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes…",
-   "id": "0080c7c42437",
-   "source": "marktechpost",
-   "fetched": "2026-09-29T22:18:11+00:00",
-   "countries": []
   },
   {
    "title": "Trump floats Jay Clayton as AI czar as he looks to fill the position in days",
@@ -4923,26 +4973,6 @@
    "id": "43cfd2e61fc0",
    "source": "mit-technology-review-ai",
    "fetched": "2026-09-29T00:18:20+00:00",
-   "countries": []
-  },
-  {
-   "title": "Nvidia says new tool can contain rogue AI agents in \"milliseconds\"",
-   "url": "https://www.axios.com/2026/09/28/nvidia-ai-agent-safety",
-   "published": "2026-09-28T21:20:42+00:00",
-   "preview": "Nvidia is deploying a new tool that it says can be used to prevent and contain rogue and potentially dangerous AI agents. Why it matters: The world's largest chip company has resisted calls to slow AI development over…",
-   "id": "cebaf99b493d",
-   "source": "axios-technology",
-   "fetched": "2026-09-28T22:18:34+00:00",
-   "countries": []
-  },
-  {
-   "title": "Pope Leo rejects AI \"fake news\" claims after Trump calls fears a \"hoax\"",
-   "url": "https://www.axios.com/2026/09/28/pope-leo-ai-fears-fake-news-trump",
-   "published": "2026-09-28T21:12:41+00:00",
-   "preview": "Pope Leo XIV told reporters that warnings from AI researchers should be \"taken seriously\" and are not \"fake news.\" Why it matters: Leo is leading the Catholic Church as AI raises sweeping societal concerns , and he has…",
-   "id": "f3a76c053a0c",
-   "source": "axios-technology",
-   "fetched": "2026-09-28T22:18:34+00:00",
    "countries": []
   },
   {
@@ -6117,18 +6147,6 @@
    "source": "don-t-worry-about-the-vase-zvi",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
-  },
-  {
-   "title": "A US-China AI Hotline Won’t Be Ready for a While",
-   "url": "https://www.wired.com/story/a-us-china-ai-hotline-wont-be-ready-for-a-while/",
-   "published": "2026-09-23T21:00:00+00:00",
-   "preview": "As the US and China race to become the dominant power in the AI industry, the countries also appear to be figuring out ways to communicate on national security issues.",
-   "id": "cdf5468b7916",
-   "source": "wired-ai",
-   "fetched": "2026-09-23T21:00:00+00:00",
-   "countries": [
-    "China"
-   ]
   },
   {
    "title": "The still-formidable F-16 will be even more capable with better electronic warfare",
