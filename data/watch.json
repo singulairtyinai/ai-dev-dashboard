@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-08T02:18:23+00:00",
+  "checked_at": "2026-10-08T04:18:10+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-08T02:18:24+00:00",
+  "checked_at": "2026-10-08T04:18:11+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-08T02:18:25+00:00",
+  "checked_at": "2026-10-08T04:18:11+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-08T02:18:26+00:00",
+  "checked_at": "2026-10-08T04:18:12+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-08T02:18:27+00:00",
+  "checked_at": "2026-10-08T04:18:15+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-08T02:18:27+00:00",
+  "checked_at": "2026-10-08T04:18:13+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -169,60 +169,84 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-08T02:18:27+00:00",
-  "hash": "53907019f066dca37bb3d4260ef00880fbb2088f",
+  "checked_at": "2026-10-08T04:18:16+00:00",
+  "hash": "f43fa918750975746837b27c7b80ffaef35013af",
   "known": [
    "AdSpark: A Large-Scale Dataset and Benchmark for Product-Centric Advertisement Video Generation",
    "Agentic RAG Evaluation: Budget Allocation Across Questions, Trajectories, and Reads",
    "Carnegie Mellon University",
+   "DLoop: Looped Speculative Decoding",
    "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+   "Deep Cognition and Language Research (DeCLaRe) Lab",
+   "GRACE: Generation-aware latent compression for efficient video generation",
+   "Improving Proactive AI Assistance with Hierarchical Procedural Understanding",
+   "Institute of Computing Technology, Chinese Academy of Sciences",
+   "Inverting Multi-Vector Visual Document Indices",
+   "Learning Multimodal Embeddings with Evidence-Aligned Readout",
+   "Long-WAM: Scaling the Context of World-Action Models",
    "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
    "Minimal Witness Reinforcement Learning",
    "Mobile-4DGS: Unified Static-Dynamic Real-time Mobile Gaussian Splatting",
    "On KL-Regularized Policy Optimization",
+   "On-Policy Distillation with Negative-Policy Rollouts",
    "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
    "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
    "Recurrent Looped Transformer",
+   "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
    "Renmin University of China",
+   "Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation",
+   "RoboQuest: Generalist Physical Agents that Search, Inspect and Test",
+   "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+   "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
    "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+   "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+   "SWE-Game: Can Coding Agents Build the Games We Want?",
+   "Semifactual Credit-Augmented Policy Optimization",
+   "SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles",
+   "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+   "The University of Hong Kong",
+   "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+   "UniWAM: Unified World-Action Model",
    "University of Pennsylvania",
    "University of Technology Sydney",
+   "VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations",
+   "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
    "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
    "WorldSonus: Bringing Sound to Worlds",
    "Xi'an Jiaotong University",
    "by AK and the research community",
    "nanoMuse: An Open-Source Personal Agent for Every Device You Own"
   ],
-  "changed_at": "2026-10-08T02:18:27+00:00",
+  "changed_at": "2026-10-08T04:18:16+00:00",
   "added": [
    {
-    "text": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+    "text": "GRACE: Generation-aware latent compression for efficient video generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+    "text": "Long-WAM: Scaling the Context of World-Action Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Recurrent Looped Transformer",
+    "text": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "On KL-Regularized Policy Optimization",
+    "text": "Semifactual Credit-Augmented Policy Optimization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+    "text": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
-    "url": "https://huggingface.co/papers"
+    "text": "The University of Hong Kong",
+    "url": "https://huggingface.co/hkuhk"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-08T02:18:30+00:00",
+  "checked_at": "2026-10-08T04:18:20+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -255,7 +279,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-08T02:18:32+00:00",
+  "checked_at": "2026-10-08T04:18:22+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -353,7 +377,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-08T02:18:31+00:00",
+  "checked_at": "2026-10-08T04:18:20+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
