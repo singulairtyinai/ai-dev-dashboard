@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-08T04:18:09+00:00",
+ "updated": "2026-10-08T06:15:18+00:00",
  "items": [
+  {
+   "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+   "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
+   "published": "2026-10-08T05:39:09+00:00",
+   "preview": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3…",
+   "id": "e4780ad33c65",
+   "source": "marktechpost",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
   {
    "title": "What Happens When a Trusted Model Repo Changes? Unsloth Studio Re-Checks Before It Runs",
    "url": "https://www.marktechpost.com/2026/10/07/what-happens-when-a-trusted-model-repo-changes-unsloth-studio-re-checks-before-it-runs/",
@@ -150,6 +160,16 @@
    "countries": []
   },
   {
+   "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+   "url": "https://arxiv.org/abs/2610.10538v1",
+   "published": "2026-10-07T17:59:41+00:00",
+   "preview": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without…",
+   "id": "b88a33297d3d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
    "title": "Decoupling Exploration from Optimization in RLVR",
    "url": "https://arxiv.org/abs/2610.10536v1",
    "published": "2026-10-07T17:59:26+00:00",
@@ -170,6 +190,16 @@
    "countries": []
   },
   {
+   "title": "Long-WAM: Scaling the Context of World-Action Models",
+   "url": "https://arxiv.org/abs/2610.10528v1",
+   "published": "2026-10-07T17:58:04+00:00",
+   "preview": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal…",
+   "id": "c7400614473c",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
    "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
    "url": "https://arxiv.org/abs/2610.10526v1",
    "published": "2026-10-07T17:57:38+00:00",
@@ -177,6 +207,26 @@
    "id": "8e3c204110e2",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-08T04:18:09+00:00",
+   "countries": []
+  },
+  {
+   "title": "RoboJEPA: Scaling Robotic Latent World Models",
+   "url": "https://arxiv.org/abs/2610.10515v1",
+   "published": "2026-10-07T17:54:42+00:00",
+   "preview": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data,…",
+   "id": "b727f8333c70",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+   "url": "https://arxiv.org/abs/2610.10513v1",
+   "published": "2026-10-07T17:52:52+00:00",
+   "preview": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell…",
+   "id": "36d0a2138528",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
    "countries": []
   },
   {
@@ -190,6 +240,16 @@
    "countries": []
   },
   {
+   "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+   "url": "https://arxiv.org/abs/2610.10507v1",
+   "published": "2026-10-07T17:51:08+00:00",
+   "preview": "Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic…",
+   "id": "013f83fe432f",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
    "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
    "url": "https://arxiv.org/abs/2610.10506v1",
    "published": "2026-10-07T17:51:07+00:00",
@@ -197,6 +257,16 @@
    "id": "131174d6198f",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-08T04:18:09+00:00",
+   "countries": []
+  },
+  {
+   "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+   "url": "https://arxiv.org/abs/2610.10498v1",
+   "published": "2026-10-07T17:48:02+00:00",
+   "preview": "Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data,…",
+   "id": "f1a6591daca9",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
    "countries": []
   },
   {
@@ -210,6 +280,56 @@
    "countries": []
   },
   {
+   "title": "Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models",
+   "url": "https://arxiv.org/abs/2610.10478v1",
+   "published": "2026-10-07T17:37:19+00:00",
+   "preview": "How can we predict which base checkpoint is worth an expensive round of agentic post-training? End-to-end pass@$K$ tests whether successful behavior already appears in a base model's distribution, but it is a poor fit…",
+   "id": "ae5784dd082e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+   "url": "https://arxiv.org/abs/2610.10468v1",
+   "published": "2026-10-07T17:30:45+00:00",
+   "preview": "Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a…",
+   "id": "55e03cff5d82",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "How assigned AI use before class shapes active student engagement in class",
+   "url": "https://arxiv.org/abs/2610.10463v1",
+   "published": "2026-10-07T17:29:14+00:00",
+   "preview": "AI learning tools are rapidly entering classrooms, but evidence about whether they help students learn is mixed and rests mostly on test scores. Comparatively less research addresses whether the use of AI changes…",
+   "id": "101a797e4e58",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "FoldBack: Self-Correcting Masked Generative Policy for Long-Horizon Garment Folding",
+   "url": "https://arxiv.org/abs/2610.10462v1",
+   "published": "2026-10-07T17:28:32+00:00",
+   "preview": "We present FoldBack, a self-correcting masked generative policy for long-horizon garment folding. Existing long-trajectory policies may continue after a missed or slipped grasp even when the garment has not reached the…",
+   "id": "22cb2c108c81",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+   "url": "https://arxiv.org/abs/2610.10460v1",
+   "published": "2026-10-07T17:27:46+00:00",
+   "preview": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers score each student rollout from one prompt domain and their signals form a single target; in…",
+   "id": "ae3a634fea84",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
+   "countries": []
+  },
+  {
    "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
    "url": "https://arxiv.org/abs/2610.10455v1",
    "published": "2026-10-07T17:25:23+00:00",
@@ -217,6 +337,16 @@
    "id": "55aabb143e2e",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-08T04:18:09+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Learning and Teaching",
+   "url": "https://arxiv.org/abs/2610.10447v1",
+   "published": "2026-10-07T17:19:19+00:00",
+   "preview": "Reinforcement Learning (RL) from outcome rewards suffers from sparse supervision, particularly on difficult, long-horizon tasks where successful trajectories are rare and costly to generate. On-Policy Distillation (OPD)…",
+   "id": "cd5ad99cd6da",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-08T06:15:18+00:00",
    "countries": []
   },
   {
@@ -1510,26 +1640,6 @@
    "countries": []
   },
   {
-   "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
-   "url": "https://arxiv.org/abs/2610.08691v1",
-   "published": "2026-10-06T17:08:03+00:00",
-   "preview": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential…",
-   "id": "d7fc0bc51ec5",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T04:18:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
-   "url": "https://arxiv.org/abs/2610.08683v1",
-   "published": "2026-10-06T17:03:54+00:00",
-   "preview": "Full-duplex speech models are trained to converse with a person, but they are increasingly made to converse with each other, in self-play data generation, agent societies, and model-based evaluation. In that loop no…",
-   "id": "f39f4c494d41",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T04:18:58+00:00",
-   "countries": []
-  },
-  {
    "title": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
    "url": "https://arxiv.org/abs/2610.08680v1",
    "published": "2026-10-06T17:01:19+00:00",
@@ -1910,26 +2020,6 @@
    "countries": []
   },
   {
-   "title": "Partially Observable Zero-shot coordination by Predicting Intention of Partner",
-   "url": "https://arxiv.org/abs/2610.08142v1",
-   "published": "2026-10-06T10:55:06+00:00",
-   "preview": "Zero-shot coordination in embodied settings requires acting while the partner is intermittently out of view, leaving existing methods with ambiguous partner representations and uncertainty over hidden partner states. We…",
-   "id": "d4531fedb667",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "Test-Time Agent Evolution for Long-Horizon Legal Reasoning",
-   "url": "https://arxiv.org/abs/2610.08138v1",
-   "published": "2026-10-06T10:53:25+00:00",
-   "preview": "Legal intelligence aims to support reliable decision-making across long-horizon legal processes involving evolving case states and multiple roles. However, real-world legal deployment exhibits substantial case…",
-   "id": "b92a0cebacee",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
    "title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
    "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
    "published": "2026-10-06T10:53:11+00:00",
@@ -1937,16 +2027,6 @@
    "id": "9f54e4bc2e92",
    "source": "the-verge-ai",
    "fetched": "2026-10-06T12:21:54+00:00",
-   "countries": []
-  },
-  {
-   "title": "Supermarket Product Detection and Recognition: Utilizing Deep Learning with Rectified Imagery",
-   "url": "https://arxiv.org/abs/2610.08126v1",
-   "published": "2026-10-06T10:44:33+00:00",
-   "preview": "Product Identification has sprung up to become one of the most challenging problems in the automation of the retail industry. With the new industry 5.0 standards, automated inventory management, and catalog creation…",
-   "id": "14994dbdde65",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
    "countries": []
   },
   {
@@ -1960,46 +2040,6 @@
    "countries": []
   },
   {
-   "title": "Beyond Waypoint Regression: Query-Based Cost Learning over Reachable Ego Futures for End-to-End Driving",
-   "url": "https://arxiv.org/abs/2610.08123v1",
-   "published": "2026-10-06T10:43:13+00:00",
-   "preview": "End-to-end planners based on waypoint regression achieve strong open-loop accuracy, but they primarily learn to mimic expert geometry and remain difficult to adapt to deployment-time safety constraints. We propose a…",
-   "id": "2db0c8dc837e",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "Exploiting Acoustic and Content-Oriented Speaker Verification Attacks Against Multilingual Voice Anonymization",
-   "url": "https://arxiv.org/abs/2610.08107v1",
-   "published": "2026-10-06T10:31:44+00:00",
-   "preview": "Attacker ASV systems for voice anonymization have been studied primarily in English, leaving their behavior in multilingual settings largely unexplored. Conventional ASV has shown that both acoustic and contextual…",
-   "id": "3aba95c8c769",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications",
-   "url": "https://arxiv.org/abs/2610.08106v1",
-   "published": "2026-10-06T10:31:28+00:00",
-   "preview": "Multimodal large language models (MLLMs) advance rapidly, while conventional benchmark development lags behind, delaying investigation of newly observed capability gaps. Such investigation requires an expressive task…",
-   "id": "fcbdbad3e200",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "DSV-Mem: Evaluating Multimodal Memory in Professional Workflows for MLLM Agents",
-   "url": "https://arxiv.org/abs/2610.08102v1",
-   "published": "2026-10-06T10:30:14+00:00",
-   "preview": "Conversational MLLM agents are increasingly expected to assist in professional workflows, from AI research and engineering design to product management and business operations. Yet this capability remains underexplored:…",
-   "id": "7c38e508b489",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
    "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
    "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
    "published": "2026-10-06T10:30:00+00:00",
@@ -2007,36 +2047,6 @@
    "id": "ce4fb1db1532",
    "source": "wired-ai",
    "fetched": "2026-10-06T12:21:54+00:00",
-   "countries": []
-  },
-  {
-   "title": "Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2610.08101v1",
-   "published": "2026-10-06T10:29:41+00:00",
-   "preview": "Shared memory coordinates agents' actions, but correct records do not establish that those actions satisfy task requirements. Memory governance and failure diagnosis regulate or inspect recorded information; they do not…",
-   "id": "6bceb8e73d80",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "When Tools Lie: Reliability of Mathematical Agents Under Corrupted Tool Feedback",
-   "url": "https://arxiv.org/abs/2610.08097v1",
-   "published": "2026-10-06T10:28:19+00:00",
-   "preview": "Mathematical problem solving often requires deterministic computational steps that agents delegate to tools and implicitly trust. Yet tools can fail silently, returning plausible but incorrect results. How well can…",
-   "id": "39b7a50f715a",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
-   "url": "https://arxiv.org/abs/2610.08095v1",
-   "published": "2026-10-06T10:24:26+00:00",
-   "preview": "Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent…",
-   "id": "d0d044a3f579",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-07T01:37:52+00:00",
    "countries": []
   },
   {
@@ -4479,16 +4489,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-   "url": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
-   "published": "2026-09-29T18:30:13+00:00",
-   "preview": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and browser. It works across 4,000+ apps through ChatGPT plugins and keeps…",
-   "id": "19661e9bc6f3",
-   "source": "marktechpost",
-   "fetched": "2026-09-29T20:18:33+00:00",
-   "countries": []
   },
   {
    "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
