@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-09T06:21:12+00:00",
+  "checked_at": "2026-10-09T08:19:44+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-09T06:21:13+00:00",
+  "checked_at": "2026-10-09T08:19:48+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-09T06:21:13+00:00",
+  "checked_at": "2026-10-09T08:19:50+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-09T06:21:14+00:00",
+  "checked_at": "2026-10-09T08:19:47+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-09T06:21:15+00:00",
+  "checked_at": "2026-10-09T08:19:56+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-09T06:21:14+00:00",
+  "checked_at": "2026-10-09T08:19:56+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -161,13 +161,15 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-09T06:21:16+00:00",
-  "hash": "d9bfb724a8bb1eb14a67f1b092f422cfaa360dae",
+  "checked_at": "2026-10-09T08:19:55+00:00",
+  "hash": "135441648b98672e39feed01954b0f3f1fc7cd56",
   "known": [
    "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
    "AgentGarten: Code Worlds for Evolving Agents",
    "Australian Institute for Machine Learning",
+   "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
    "BrickBench: Evaluating Agentic Brick Design",
+   "CARE: Certifying Acceleration for Vision-Language-Action Inference",
    "Chaos in the Text: Revealing the Modality Preference in Mixed-Modality Retrievers",
    "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
    "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
@@ -179,6 +181,7 @@
    "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
    "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
    "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+   "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors",
    "MARGIN: Runtime Confidence Calibration for Multi-Agent Foundation Model Coordination",
    "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
    "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
@@ -195,6 +198,7 @@
    "Retrieval-Centric Deep Learning in Growing Nonparametric Neural Networks",
    "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
    "SanSi: A Looped Typed Decision Model for System 1.5 Thinking",
+   "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
    "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
    "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
    "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
@@ -204,45 +208,47 @@
    "TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows",
    "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
    "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
    "UCLA Computational Machine Learning Lab",
    "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
    "University of Illinois at Urbana-Champaign",
+   "University of Maryland College Park",
    "V-CoLA: Vision Token Compression with Linear Attention",
    "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
    "VibeEdit: Image Editing with Canvas Instructions",
    "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-09T06:21:16+00:00",
+  "changed_at": "2026-10-09T08:19:55+00:00",
   "added": [
    {
-    "text": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+    "text": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+    "text": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+    "text": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+    "text": "University of Maryland College Park",
+    "url": "https://huggingface.co/UMCP"
+   },
+   {
+    "text": "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "UCLA Computational Machine Learning Lab",
-    "url": "https://huggingface.co/ucla-cmllab"
-   },
-   {
-    "text": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+    "text": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-09T06:21:18+00:00",
+  "checked_at": "2026-10-09T08:20:11+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -373,7 +379,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-09T06:21:18+00:00",
+  "checked_at": "2026-10-09T08:20:07+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
