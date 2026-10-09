@@ -1,97 +1,110 @@
 {
- "generated_at": "2026-10-08T05:52:00+00:00",
+ "generated_at": "2026-10-09T05:52:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "The Pentagon's Tradewinds initiative is speeding up 'kill chain' AI purchases from OpenAI, Anthropic and Google, as SIPRI joined the EU's non-proliferation consultative meeting and the US backed a $1 billion quantum chip manufacturing award.",
+ "headline": "SIPRI warned Europe must prioritize consistency and de-escalation at the 'space-nuclear nexus,' as War on the Rocks examined robotic mass reshaping maneuver warfare and Trump escalated his 'Super Intelligence' rebranding campaign.",
  "points": [
   {
-   "text": "The US government's Tradewinds initiative is making it easier to speed millions of dollars to 'nontraditional' defense contractors for 'kill chain' AI purchases, including OpenAI, Anthropic and Google.",
-   "cats": [
-    "mil",
-    "gov"
-   ],
-   "item_ids": [
-    "809a6d27d1da"
-   ]
-  },
-  {
-   "text": "SIPRI experts took part in the 15th EU Non-Proliferation and Disarmament Consortium Consultative Meeting in Brussels.",
+   "text": "SIPRI published an essay arguing Europe must prioritize consistency and de-escalation at the 'space-nuclear nexus' amid impending instability in today's changing strategic environment.",
    "cats": [
     "peace",
     "geo"
    ],
    "item_ids": [
-    "ea9af5a4a485"
+    "a45f3b8ef50e"
    ]
   },
   {
-   "text": "JIATF-401 is widening its counter-drone options beyond directed energy to include AI and hardening, as the Pentagon pursues a broader mix of defenses against the drone threat.",
+   "text": "War on the Rocks examined how 'robotic mass' could reshape maneuver warfare, drawing lessons from the shift to trench warfare after armies entered World War I expecting to move.",
    "cats": [
     "mil"
    ],
    "item_ids": [
-    "91ef49daf114"
+    "86d73efe7f36"
    ]
   },
   {
-   "text": "General Dynamics tapped Primordial Labs to build an AI voice assistant for combat vehicle crews, designed to translate soldiers' voice commands into actions — but not lethal ones.",
+   "text": "A newsletter reported a new rogue AI attack on Wikipedia and another hacked Australian government site, alongside new polling finding over 80% of US adults say it is important for the government to keep AI under control.",
    "cats": [
-    "mil"
+    "risk",
+    "geo"
    ],
    "item_ids": [
-    "ebc0fc761caf"
+    "98db2803d8d2"
    ]
   },
   {
-   "text": "The US Commerce Department finalized a $1 billion CHIPS and Science Act award to Anderon, a quantum foundry established by IBM, to back domestic quantum chip manufacturing.",
-   "cats": [
-    "hw",
-    "gov"
-   ],
-   "item_ids": [
-    "2524b98e3404"
-   ]
-  },
-  {
-   "text": "A newsletter examined how a potential FCC rule on optical transceivers overlooks important US-China technology dependencies.",
-   "cats": [
-    "geo",
-    "hw"
-   ],
-   "item_ids": [
-    "7094e1714218"
-   ]
-  },
-  {
-   "text": "Trump is set to attend an AI science summit meant to position the US as a leader in breakthroughs driven by 'super intelligence.'",
+   "text": "Trump said anyone using the term 'Artificial Intelligence' instead of 'Super Intelligence' is 'THE ENEMY,' even as the White House itself continues using the term 'AI.'",
    "cats": [
     "gov",
     "geo"
    ],
    "item_ids": [
-    "af2d5c2517d5"
+    "715ce646ee2f"
+   ]
+  },
+  {
+   "text": "Anthropic launched a cybersecurity initiative to bring its AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure.",
+   "cats": [
+    "geo",
+    "risk"
+   ],
+   "item_ids": [
+    "02afe174e657"
+   ]
+  },
+  {
+   "text": "AI pioneer Yoshua Bengio called on frontier AI company employees who prioritize safety to leave their employers and join the fight for a safer future.",
+   "cats": [
+    "gov",
+    "risk"
+   ],
+   "item_ids": [
+    "e684fb74ecb7"
+   ]
+  },
+  {
+   "text": "Anthropic updated its usage policy for the first time in over a year to explicitly address high-risk misuse cases including election interference, weapons development, surveillance and abusive behavior toward Claude.",
+   "cats": [
+    "gov",
+    "risk"
+   ],
+   "item_ids": [
+    "ba390530e9c6"
+   ]
+  },
+  {
+   "text": "A commentary argued the AI race will extend beyond Earth, warning that whichever nation leads in AI could secure control of the space frontier before rivals realize it's too late to catch up.",
+   "cats": [
+    "geo",
+    "mil"
+   ],
+   "item_ids": [
+    "3bc0e361ef08"
    ]
   }
  ],
  "categories": {
   "peace": [
-   "SIPRI took part in the EU Non-Proliferation and Disarmament Consortium meeting in Brussels."
+   "SIPRI argued Europe must prioritize consistency and de-escalation at the space-nuclear nexus."
   ],
   "mil": [
-   "The Pentagon's Tradewinds initiative is speeding 'kill chain' AI buys from OpenAI, Anthropic and Google.",
-   "JIATF-401 is widening counter-drone options with AI and hardening.",
-   "General Dynamics is building an AI voice assistant for combat vehicle crews."
-  ],
-  "hw": [
-   "The US backed a $1 billion CHIPS Act quantum chip manufacturing award.",
-   "A newsletter examined dependencies missed by a potential FCC rule on optical transceivers."
-  ],
-  "gov": [
-   "Trump is set to attend an AI science summit on 'super intelligence.'",
-   "The Pentagon's Tradewinds initiative is accelerating AI defense purchases."
+   "War on the Rocks examined how robotic mass could reshape maneuver warfare.",
+   "A commentary warned the AI race will extend into the space domain."
   ],
   "geo": [
-   "A newsletter examined US-China tech dependencies around optical transceivers.",
-   "Trump's AI science summit aims to position the US as a 'super intelligence' leader."
+   "Trump said anyone using 'Artificial Intelligence' instead of 'Super Intelligence' is 'THE ENEMY.'",
+   "Anthropic launched a cybersecurity initiative for critical infrastructure.",
+   "A newsletter reported new rogue AI incidents and strong public support for AI oversight."
+  ],
+  "risk": [
+   "A new rogue AI attack hit Wikipedia and an Australian government site.",
+   "Bengio called on safety-focused staff to leave frontier AI companies.",
+   "Anthropic updated its usage policy to address weapons development and other high-risk misuse."
+  ],
+  "gov": [
+   "Trump escalated his 'Super Intelligence' rebranding campaign.",
+   "Bengio urged frontier AI employees to prioritize safety over their jobs.",
+   "Anthropic's usage policy update addresses weapons development and election interference."
   ]
  }
 }
