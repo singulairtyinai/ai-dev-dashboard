@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-09T02:18:39+00:00",
+  "checked_at": "2026-10-09T04:18:13+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-09T02:18:40+00:00",
+  "checked_at": "2026-10-09T04:18:14+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-09T02:18:41+00:00",
+  "checked_at": "2026-10-09T04:18:15+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-09T02:18:41+00:00",
+  "checked_at": "2026-10-09T04:18:15+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-09T02:18:43+00:00",
+  "checked_at": "2026-10-09T04:18:18+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-09T02:18:42+00:00",
+  "checked_at": "2026-10-09T04:18:16+00:00",
   "hash": "f9c751b6903cccfa0b46e1d4bb5cd227b1b7700f",
   "known": [
    "Big Take: The Real Costs of the U.S. Iran Blockade",
@@ -161,27 +161,75 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-09T02:18:43+00:00",
-  "hash": "99d66d1ee659784146f12f013d725534dbe4c0f8",
+  "checked_at": "2026-10-09T04:18:19+00:00",
+  "hash": "494619765e0b47e1ab79999a461d43bc4157d9a4",
   "known": [
    "AgentGarten: Code Worlds for Evolving Agents",
+   "Australian Institute for Machine Learning",
+   "Chaos in the Text: Revealing the Modality Preference in Mixed-Modality Retrievers",
+   "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+   "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
+   "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+   "From Prompting to Composing: A Spatial Canvas Interface for Poster Generation",
+   "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+   "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+   "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+   "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+   "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+   "Nanyang Technological University Singapore",
+   "National University of Singapore",
+   "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
+   "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
+   "Reasoning-Informed Visual Editing",
+   "Retrieval-Centric Deep Learning in Growing Nonparametric Neural Networks",
+   "SanSi: A Looped Typed Decision Model for System 1.5 Thinking",
+   "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
+   "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+   "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+   "SparseEngine: Sparse-First Inference Engine",
+   "SpatialOPSD: Self-Distilling Spatial Intelligence from Verified Coding Agent Traces",
+   "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+   "TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows",
+   "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
+   "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+   "University of Illinois at Urbana-Champaign",
    "V-CoLA: Vision Token Compression with Linear Attention",
+   "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+   "VibeEdit: Image Editing with Canvas Instructions",
+   "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-09T02:18:43+00:00",
+  "changed_at": "2026-10-09T04:18:19+00:00",
   "added": [
    {
-    "text": "AgentGarten: Code Worlds for Evolving Agents",
+    "text": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "V-CoLA: Vision Token Compression with Linear Attention",
+    "text": "Nanyang Technological University Singapore",
+    "url": "https://huggingface.co/nanyang-technological-university-singapore"
+   },
+   {
+    "text": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "National University of Singapore",
+    "url": "https://huggingface.co/NationalUniversityofSingapore"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-09T02:18:48+00:00",
+  "checked_at": "2026-10-09T04:18:23+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -312,7 +360,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-09T02:18:48+00:00",
+  "checked_at": "2026-10-09T04:18:23+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
