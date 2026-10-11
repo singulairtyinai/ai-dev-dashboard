@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T23:37:59+00:00",
+ "updated": "2026-10-11T00:18:08+00:00",
  "items": [
   {
    "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
@@ -9,6 +9,16 @@
    "id": "35dc91695d5d",
    "source": "the-verge-ai",
    "fetched": "2026-10-10T22:18:01+00:00",
+   "countries": []
+  },
+  {
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+   "published": "2026-10-10T22:02:18+00:00",
+   "preview": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The…",
+   "id": "c03460df26e9",
+   "source": "marktechpost",
+   "fetched": "2026-10-11T00:18:08+00:00",
    "countries": []
   },
   {
@@ -4184,16 +4194,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
-   "url": "https://www.marktechpost.com/2026/10/01/aws-strands-labs-releases-strands-decider-2b/",
-   "published": "2026-10-02T06:35:00+00:00",
-   "preview": "AWS's Strands Agents team released Strands Decider 2B, an Apache-2.0 decision model built on Qwen3.5-2B-Base. It returns choices, yes/no probabilities and scores with calibrated confidence in one forward pass, never…",
-   "id": "6d22c5892a48",
-   "source": "marktechpost",
-   "fetched": "2026-10-02T08:01:49+00:00",
-   "countries": []
   },
   {
    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
