@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-12T16:18:45+00:00",
+  "checked_at": "2026-10-12T18:18:08+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-12T16:18:47+00:00",
+  "checked_at": "2026-10-12T18:18:09+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-12T16:18:47+00:00",
+  "checked_at": "2026-10-12T18:18:09+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-12T16:18:47+00:00",
+  "checked_at": "2026-10-12T18:18:09+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-12T16:18:50+00:00",
+  "checked_at": "2026-10-12T18:18:13+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-12T16:18:48+00:00",
+  "checked_at": "2026-10-12T18:18:12+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,11 +168,13 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-12T16:18:51+00:00",
-  "hash": "227f571151f7794dcc299ec256481470d30088f3",
+  "checked_at": "2026-10-12T18:18:13+00:00",
+  "hash": "7541c9f2d56a2c903ca4a18e688560a5ace96d26",
   "known": [
    "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+   "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
    "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+   "Clinician use of language models diverges from how the models are evaluated",
    "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
    "Contextual Correction of Parallel Draftsfor Speculative Decoding",
    "Continually Post-training Small Models via Synthetic Self-distillation",
@@ -182,6 +184,7 @@
    "Distributionally Robust Mixture-of-Experts Training",
    "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
    "Encore: Few-Shot Agentic Discovery of Manipulation Strategies",
+   "Few-Step Generation via Data-Space Iteration",
    "From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning",
    "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
    "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
@@ -224,6 +227,7 @@
    "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
    "Universal Textual Teaching for LLMs",
    "University of Southern California",
+   "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
    "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
    "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
    "When Do Biological Reasoning Models Use Their Biological Inputs?",
@@ -233,16 +237,28 @@
    "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-12T16:18:51+00:00",
+  "changed_at": "2026-10-12T18:18:13+00:00",
   "added": [
    {
-    "text": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+    "text": "Clinician use of language models diverges from how the models are evaluated",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Few-Step Generation via Data-Space Iteration",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-12T16:18:54+00:00",
+  "checked_at": "2026-10-12T18:18:15+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -275,7 +291,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-12T16:18:55+00:00",
+  "checked_at": "2026-10-12T18:18:17+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -373,7 +389,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-12T16:18:54+00:00",
+  "checked_at": "2026-10-12T18:18:16+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
