@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T04:18:11+00:00",
+ "updated": "2026-10-12T06:07:52+00:00",
  "items": [
   {
    "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
@@ -296,6 +296,26 @@
    "countries": []
   },
   {
+   "title": "Can Language Models Play the Wikipedia Game?",
+   "url": "https://arxiv.org/abs/2610.13948v1",
+   "published": "2026-10-09T17:59:56+00:00",
+   "preview": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the…",
+   "id": "56b5967d6570",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
+   "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+   "url": "https://arxiv.org/abs/2610.13935v1",
+   "published": "2026-10-09T17:56:59+00:00",
+   "preview": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing…",
+   "id": "8e9720268994",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "AI Models Can Provably Hide Arbitrary Capabilities",
    "url": "https://arxiv.org/abs/2610.13928v1",
    "published": "2026-10-09T17:55:06+00:00",
@@ -326,6 +346,16 @@
    "countries": []
   },
   {
+   "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+   "url": "https://arxiv.org/abs/2610.13909v1",
+   "published": "2026-10-09T17:49:32+00:00",
+   "preview": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of…",
+   "id": "8b09faad80de",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "Structural Automata for Neural Semantic Parsing",
    "url": "https://arxiv.org/abs/2610.13896v1",
    "published": "2026-10-09T17:42:14+00:00",
@@ -346,6 +376,16 @@
    "countries": []
   },
   {
+   "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+   "url": "https://arxiv.org/abs/2610.13889v1",
+   "published": "2026-10-09T17:38:11+00:00",
+   "preview": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address…",
+   "id": "d8575b75fe95",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "Shows of Strength and Signs of Strain",
    "url": "https://warontherocks.com/shows-of-strength-and-signs-of-strain/",
    "published": "2026-10-09T17:34:47+00:00",
@@ -359,6 +399,16 @@
     "Russia",
     "Iran"
    ]
+  },
+  {
+   "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+   "url": "https://arxiv.org/abs/2610.13886v1",
+   "published": "2026-10-09T17:34:44+00:00",
+   "preview": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when…",
+   "id": "bbf031688bbf",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
   },
   {
    "title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
@@ -384,6 +434,26 @@
    ]
   },
   {
+   "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+   "url": "https://arxiv.org/abs/2610.13832v1",
+   "published": "2026-10-09T16:39:50+00:00",
+   "preview": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language…",
+   "id": "6a195c9f2e6f",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
+   "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents",
+   "url": "https://arxiv.org/abs/2610.13829v1",
+   "published": "2026-10-09T16:37:39+00:00",
+   "preview": "A central challenge in embodied recursive self-improvement is enabling agents to convert interaction history into capabilities that persist beyond one world and transfer to later tasks. A saved memory or successful…",
+   "id": "ec32ad7a16ca",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation",
    "url": "https://arxiv.org/abs/2610.13826v1",
    "published": "2026-10-09T16:35:25+00:00",
@@ -391,6 +461,16 @@
    "id": "21da94086ec2",
    "source": "arxiv-cs-cl",
    "fetched": "2026-10-12T04:18:11+00:00",
+   "countries": []
+  },
+  {
+   "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+   "url": "https://arxiv.org/abs/2610.13823v1",
+   "published": "2026-10-09T16:34:13+00:00",
+   "preview": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes.…",
+   "id": "2674d8dda1f8",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
    "countries": []
   },
   {
@@ -434,6 +514,16 @@
    "countries": []
   },
   {
+   "title": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
+   "url": "https://arxiv.org/abs/2610.13806v1",
+   "published": "2026-10-09T16:18:39+00:00",
+   "preview": "Production recommender systems have feature-lifecycle asymmetry: adding new features must produce gains on some metric, while feature removal must not regress any metric. In practice, feature deprecation is hard to…",
+   "id": "04a901db8ba9",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality",
    "url": "https://arxiv.org/abs/2610.13797v1",
    "published": "2026-10-09T16:10:25+00:00",
@@ -464,6 +554,16 @@
    "countries": []
   },
   {
+   "title": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
+   "url": "https://arxiv.org/abs/2610.13786v1",
+   "published": "2026-10-09T16:04:06+00:00",
+   "preview": "Discrete graph diffusion models (GDMs) corrupt the graph structure by adding noise independently to nodes and edges under a Markovian noise model. In the unconditional setting without node features, an equivariant…",
+   "id": "01c6c4f21d77",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
    "title": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
    "url": "https://arxiv.org/abs/2610.13783v1",
    "published": "2026-10-09T16:03:27+00:00",
@@ -474,6 +574,26 @@
    "countries": [
     "Ukraine"
    ]
+  },
+  {
+   "title": "ReplaySSM: Cache SSM Inputs, Not State",
+   "url": "https://arxiv.org/abs/2610.13778v1",
+   "published": "2026-10-09T15:59:40+00:00",
+   "preview": "State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic…",
+   "id": "e0b58338fba2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
+  },
+  {
+   "title": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+   "url": "https://arxiv.org/abs/2610.13767v1",
+   "published": "2026-10-09T15:51:38+00:00",
+   "preview": "Low-bit inference on accelerators with native 4-bit support requires quantizing both weights and activations to realize the full throughput gains these formats provide. While post-training weight quantization has been…",
+   "id": "4359a135b809",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-12T06:07:52+00:00",
+   "countries": []
   },
   {
    "title": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning",
@@ -1410,16 +1530,6 @@
    "countries": []
   },
   {
-   "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
-   "url": "https://arxiv.org/abs/2610.12386v1",
-   "published": "2026-10-08T17:38:04+00:00",
-   "preview": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary…",
-   "id": "bdef4c4237c9",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T04:18:12+00:00",
-   "countries": []
-  },
-  {
    "title": "Latent Core Tokenizer: Compress, but Meaningfully",
    "url": "https://arxiv.org/abs/2610.12376v1",
    "published": "2026-10-08T17:32:32+00:00",
@@ -1816,46 +1926,6 @@
    ]
   },
   {
-   "title": "DeltaReplay: Task-Relative Memory Reuse for Mobile GUI Agents",
-   "url": "https://arxiv.org/abs/2610.11707v1",
-   "published": "2026-10-08T11:12:57+00:00",
-   "preview": "Memory-augmented mobile GUI agents store successful execution trajectories and reuse them in later tasks, but a stored trajectory rarely matches a new task exactly. The new task may use different parameters, share only…",
-   "id": "e88042aed83c",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Intervention anchors and scientific verification in synthetic vascular predictive representations",
-   "url": "https://arxiv.org/abs/2610.11704v1",
-   "published": "2026-10-08T11:10:56+00:00",
-   "preview": "Complete orthogonal predictive coordinates do not by themselves bind a latent direction to a named intervention. We present a mathematical and synthetic audit motivated by vascular device-vessel suitcordance.…",
-   "id": "b68dc430c020",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
-   "url": "https://arxiv.org/abs/2610.11696v1",
-   "published": "2026-10-08T11:06:51+00:00",
-   "preview": "Puzzles are widely used to evaluate the reasoning capabilities of artificial intelligence (AI) systems for sequential decision making, yet approaches originating from different paradigms are rarely compared under…",
-   "id": "27b82d4339bd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Elucidating the Space of Enzymatic Reaction: A Unified Benchmark and Pretrained Model",
-   "url": "https://arxiv.org/abs/2610.11694v1",
-   "published": "2026-10-08T11:05:48+00:00",
-   "preview": "Existing reaction models primarily learn molecular transformations, whereas enzy- matic reactions depend jointly on molecular structure and catalytic function. We formulate this problem as learning an enzymatic reaction…",
-   "id": "e4ace04528dd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
    "title": "The Spice Trader vs. the Tariffs",
    "url": "https://www.chinatalk.media/p/the-spice-trader-vs-the-tariffs",
    "published": "2026-10-08T11:04:16+00:00",
@@ -1863,76 +1933,6 @@
    "id": "b3873c9ed9d0",
    "source": "chinatalk",
    "fetched": "2026-10-08T12:24:26+00:00",
-   "countries": []
-  },
-  {
-   "title": "Can Jev be Your Q or Policy in Reinforcement Learning?",
-   "url": "https://arxiv.org/abs/2610.11692v1",
-   "published": "2026-10-08T11:02:14+00:00",
-   "preview": "Foundation models supply reinforcement learning (RL) with priors that mitigate its longstanding weaknesses in sample efficiency and transfer, but their token-by-token generation makes queries sequential and costly. Jev,…",
-   "id": "be3131d7517a",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Epistemic Disturbance in the Graph Model for Conflict Resolution: State-Preserving Actions, Four-Valued Assessments, and the Distinction between Capability and Intention",
-   "url": "https://arxiv.org/abs/2610.11690v1",
-   "published": "2026-10-08T11:00:34+00:00",
-   "preview": "In the graph model for conflict resolution (GMCR), a decision maker (DM) either moves the conflict to another state or does nothing. The basic definitions leave inaction implicit, so every action that leaves the state…",
-   "id": "b47cf39b06e8",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution",
-   "url": "https://arxiv.org/abs/2610.11685v1",
-   "published": "2026-10-08T10:57:06+00:00",
-   "preview": "Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry…",
-   "id": "f366df4bd722",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Constrained Command-Conditioned Reinforcement Learning with Bandit Strategy Selection in Real-Time Strategy Games",
-   "url": "https://arxiv.org/abs/2610.11663v1",
-   "published": "2026-10-08T10:37:33+00:00",
-   "preview": "Deep reinforcement learning agents reach strong performance in real-time strategy games but can be brittle against opponents outside their training distribution. Separating strategic command selection from learned unit…",
-   "id": "85dbb7077764",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Lamarck's Driving School: Discovering Autonomous Driving Training Strategies through Evolutionary Competition",
-   "url": "https://arxiv.org/abs/2610.11662v1",
-   "published": "2026-10-08T10:36:41+00:00",
-   "preview": "Autonomous driving capabilities depend strongly on the distribution of scenarios encountered during training. Existing methods commonly construct or dynamically adapt training scenario distributions using surrogate…",
-   "id": "e1ddf8ecc1e1",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "DIAL-OPD: Learning More from Fewer Tokens in On-Policy Distillation",
-   "url": "https://arxiv.org/abs/2610.11659v1",
-   "published": "2026-10-08T10:36:00+00:00",
-   "preview": "On-policy distillation (OPD) supervises student-generated trajectories with token-level teacher signals. Its sampled-token variant avoids the cost of full-vocabulary probabilities. Yet we find that training on fewer…",
-   "id": "1082344363b8",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "Harness Evolution Hits a Ceiling: When Weight Training Should Begin",
-   "url": "https://arxiv.org/abs/2610.11655v1",
-   "published": "2026-10-08T10:33:29+00:00",
-   "preview": "Improving a long-horizon LLM agent means evolving the harness around a frozen model or training its weights. We let a self-evolving harness make the system stronger first, then cross seed and evolved harnesses with base…",
-   "id": "54cc9ef31d53",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-09T02:18:38+00:00",
    "countries": []
   },
   {

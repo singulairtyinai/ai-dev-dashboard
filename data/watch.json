@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-12T04:18:12+00:00",
+  "checked_at": "2026-10-12T06:07:53+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-12T04:18:13+00:00",
+  "checked_at": "2026-10-12T06:07:53+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-12T04:18:13+00:00",
+  "checked_at": "2026-10-12T06:07:54+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-12T04:18:13+00:00",
+  "checked_at": "2026-10-12T06:07:54+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-12T04:18:16+00:00",
+  "checked_at": "2026-10-12T06:07:56+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-12T04:18:15+00:00",
+  "checked_at": "2026-10-12T06:07:55+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,10 +168,12 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-12T04:18:16+00:00",
-  "hash": "50fc8f92c3aaf20a4a0549919e6f188e402da3d6",
+  "checked_at": "2026-10-12T06:07:56+00:00",
+  "hash": "572a7f2505e0b3aba72d904c11b2094b483de270",
   "known": [
    "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+   "Continually Post-training Small Models via Synthetic Self-distillation",
+   "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
    "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
    "From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning",
    "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
@@ -186,49 +188,55 @@
    "PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence",
    "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
    "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+   "Recurrent Harness for Agentic Continual Learning",
+   "Reflex: Visually Grounded Reactive Humanoid Control",
    "Renmin University of China",
    "Rethinking Relative Policy Differences Transfer of On-Policy Distillation",
    "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
    "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
    "Singapore Management University",
+   "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
    "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
    "Stateless Language Agents: Scaling Long-Horizon Automated Research",
+   "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
+   "The value of information and the emergence of communication in evolved e-puck robots",
    "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
    "University of Southern California",
    "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
    "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+   "When Do Biological Reasoning Models Use Their Biological Inputs?",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-12T04:18:16+00:00",
+  "changed_at": "2026-10-12T06:07:56+00:00",
   "added": [
    {
-    "text": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+    "text": "Continually Post-training Small Models via Synthetic Self-distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
+    "text": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Renmin University of China",
-    "url": "https://huggingface.co/RUC"
-   },
-   {
-    "text": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+    "text": "Reflex: Visually Grounded Reactive Humanoid Control",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Nanyang Technological University Singapore",
-    "url": "https://huggingface.co/nanyang-technological-university-singapore"
+    "text": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Learning Representations to Guide Pixel Diffusion Transformers",
+    "text": "Recurrent Harness for Agentic Continual Learning",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-12T04:18:20+00:00",
+  "checked_at": "2026-10-12T06:08:00+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -261,7 +269,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-12T04:18:21+00:00",
+  "checked_at": "2026-10-12T06:08:01+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -359,7 +367,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-12T04:18:19+00:00",
+  "checked_at": "2026-10-12T06:07:59+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
