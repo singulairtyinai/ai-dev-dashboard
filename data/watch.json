@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-13T00:18:08+00:00",
+  "checked_at": "2026-10-13T02:18:22+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-13T00:18:09+00:00",
+  "checked_at": "2026-10-13T02:18:23+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-13T00:18:09+00:00",
+  "checked_at": "2026-10-13T02:18:23+00:00",
   "hash": "4b710e2fb379cb697926509add55c0d93e9b9fe8",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-13T00:18:09+00:00",
+  "checked_at": "2026-10-13T02:18:24+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-13T00:18:12+00:00",
+  "checked_at": "2026-10-13T02:18:26+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-13T00:18:11+00:00",
+  "checked_at": "2026-10-13T02:18:24+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,88 +168,49 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-13T00:18:12+00:00",
-  "hash": "042c549c72f0f0f9602a6c1e7b26cd68b663ea90",
+  "checked_at": "2026-10-13T02:18:26+00:00",
+  "hash": "0c21409a3d9449672037e551ca704da7bf88afee",
   "known": [
-   "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
-   "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-   "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
-   "Clinician use of language models diverges from how the models are evaluated",
-   "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
-   "Contextual Correction of Parallel Draftsfor Speculative Decoding",
-   "Continually Post-training Small Models via Synthetic Self-distillation",
-   "DataVista: Diagnosing Multimodal LLMs on Data Video Understanding",
-   "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-   "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
-   "Distributionally Robust Mixture-of-Experts Training",
-   "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
-   "Encore: Few-Shot Agentic Discovery of Manipulation Strategies",
-   "Few-Step Generation via Data-Space Iteration",
-   "From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning",
-   "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
-   "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
-   "Here the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation",
-   "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
-   "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
-   "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
-   "Judging in Latent Space: Efficient Generative Reward Modeling via Semantics-Preserving Compression",
-   "KnowledgeXLab@Shanghai AI Lab",
-   "Learning Representations to Guide Pixel Diffusion Transformers",
-   "Less from More: Reinforcing Sparse Video Reasoning from Dense References",
-   "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-   "Mental-Models for Multi-Agent Systems",
-   "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
-   "MixTok: Adaptive Visual Tokenization with Global 1D Tokens and Sparse 2D Refinement",
-   "Nanyang Technological University Singapore",
-   "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-   "PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence",
-   "PreSTO: Predictive Subtree Prefetching for Fast LLM Power Sampling",
-   "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
-   "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
-   "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
-   "Recurrent Harness for Agentic Continual Learning",
-   "Reflex: Visually Grounded Reactive Humanoid Control",
-   "Renmin University of China",
-   "Rethinking Relative Policy Differences Transfer of On-Policy Distillation",
-   "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
-   "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
-   "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
-   "Self-Preservation in Language Models",
-   "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+   "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+   "Multi-Stream Attention Residuals",
+   "Nanyang Technological University",
+   "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
    "Shanghai Jiao Tong University",
-   "Singapore Management University",
-   "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
-   "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
-   "Stateless Language Agents: Scaling Long-Horizon Automated Research",
-   "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
-   "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
-   "The value of information and the emergence of communication in evolved e-puck robots",
-   "ThinkDrag: Semantic Drag-Based Image Editing with Visual Reasoning",
-   "TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning",
-   "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
-   "Universal Textual Teaching for LLMs",
-   "University of California at San Diego",
-   "University of Southern California",
-   "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
-   "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
-   "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
-   "When Do Biological Reasoning Models Use Their Biological Inputs?",
-   "When Do We Need On-Policy Distillation? Distilling on Offline Student Rollouts Is Often Better",
-   "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
-   "Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning",
-   "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+   "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+   "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+   "Thinking Inertia: LLMs Keep Thinking When Told Not To",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-12T22:18:33+00:00",
+  "changed_at": "2026-10-13T02:18:26+00:00",
   "added": [
    {
-    "text": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+    "text": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Multi-Stream Attention Residuals",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Nanyang Technological University",
+    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-13T00:18:14+00:00",
+  "checked_at": "2026-10-13T02:18:28+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -282,7 +243,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-13T00:18:16+00:00",
+  "checked_at": "2026-10-13T02:18:30+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -380,7 +341,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-13T00:18:14+00:00",
+  "checked_at": "2026-10-13T02:18:31+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
