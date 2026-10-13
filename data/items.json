@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-13T20:18:54+00:00",
+ "updated": "2026-10-13T21:19:50+00:00",
  "items": [
+  {
+   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+   "published": "2026-10-13T20:45:25+00:00",
+   "preview": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee, 35-year-old Abdulrahman Alfozan, is charged with using or attempting to…",
+   "id": "082a179fcd58",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-13T21:19:50+00:00",
+   "countries": []
+  },
+  {
+   "title": "Shopify opens its catalog up to more AI agents",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "published": "2026-10-13T19:42:42+00:00",
+   "preview": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents…",
+   "id": "c839b9474fae",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-13T21:19:50+00:00",
+   "countries": []
+  },
   {
    "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
    "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
@@ -12,6 +32,16 @@
    "countries": [
     "United Kingdom"
    ]
+  },
+  {
+   "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+   "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+   "published": "2026-10-13T19:00:48+00:00",
+   "preview": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new…",
+   "id": "ffb4af635c9e",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-13T21:19:50+00:00",
+   "countries": []
   },
   {
    "title": "NASA Funding Delays Raise Alarms for Researchers",
@@ -3087,16 +3117,6 @@
    "countries": []
   },
   {
-   "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
-   "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
-   "published": "2026-10-07T17:46:44+00:00",
-   "preview": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC…",
-   "id": "2c81a4fbc76b",
-   "source": "the-verge-ai",
-   "fetched": "2026-10-07T18:18:30+00:00",
-   "countries": []
-  },
-  {
    "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
    "url": "https://arxiv.org/abs/2610.10455v1",
    "published": "2026-10-07T17:25:23+00:00",
@@ -3180,26 +3200,6 @@
     "United States",
     "United Kingdom"
    ]
-  },
-  {
-   "title": "ChatGPT is getting college planning tools",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-   "published": "2026-10-07T16:00:00+00:00",
-   "preview": "OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together…",
-   "id": "ee6859a51c49",
-   "source": "the-verge-ai",
-   "fetched": "2026-10-07T16:18:55+00:00",
-   "countries": []
-  },
-  {
-   "title": "Muse launches on the iPad",
-   "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-   "published": "2026-10-07T15:37:23+00:00",
-   "preview": "After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI…",
-   "id": "b8b3b1c51400",
-   "source": "the-verge-ai",
-   "fetched": "2026-10-07T16:18:55+00:00",
-   "countries": []
   },
   {
    "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
@@ -6409,6 +6409,16 @@
    "id": "7cfe345a1794",
    "source": "metr",
    "fetched": "2026-09-28T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "让 AI 评测更安全：实现并评估一个逐项审查操作的简易监控器",
+   "url": "https://metr.org/zh-Hans/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+   "published": "2026-09-27T07:00:00+00:00",
+   "preview": "近期接连出现一些事件，例如 OpenAI 、 Anthropic 和 英国 AI 安全研究所（UK AISI） 报告的事件。因此，我们开发并部署了一个实时审查每次操作的简易监控器，降低智能体在我们自己的评测中执行有害操作、引发事件的可能性。我们希望监控器能可靠地发现可能造成现实危害的操作，同时把误报率控制得足够低，避免大规模评测带来过多人工复核，让审核人员难以应付。…",
+   "id": "5b882ac52135",
+   "source": "metr",
+   "fetched": "2026-10-13T21:19:50+00:00",
    "countries": []
   },
   {
@@ -10651,7 +10661,7 @@
    "title": "对 OpenAI / Hugging Face 入侵事件中智能体行为、推理与协作的简要独立调查",
    "url": "https://metr.org/zh-Hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
    "published": "2026-08-26T07:00:00+00:00",
-   "preview": "调查时间范围： 6月26日 – 7月13日 删节情况汇总声明： 除本文中明确注明之处外，OpenAI 未删节任何对我们结论具有重要影响的额外信息。 两名 METR 员工（Hjalmar Wijk 与 Ajeya Cotra）以及一名受 METR 委托的 Redwood Research 员工（Ryan Greenblatt）共在 OpenAI 现场驻场工作六天 1 ，试图独立了解近期这起 事件…",
+   "preview": "调查时间范围： 6月26日 – 7月13日 删节情况汇总声明： 除本文明确注明的地方外，OpenAI 没有再删去任何会对我们的结论产生重要影响的信息。 两名 METR 员工（Hjalmar Wijk 和 Ajeya Cotra 1 ），以及受 METR 聘请的 Redwood Research 员工 Ryan Greenblatt 2 ，共在 OpenAI 驻场工作六天 3 。他们试图独立了解模型在近期这起 事件…",
    "id": "6f0648c72b8b",
    "source": "metr",
    "fetched": "2026-09-26T13:31:18+00:00",
