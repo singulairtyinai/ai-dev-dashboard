@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-13T18:18:24+00:00",
+  "checked_at": "2026-10-13T20:18:54+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-13T18:18:25+00:00",
+  "checked_at": "2026-10-13T20:18:55+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,8 +54,8 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-13T18:18:25+00:00",
-  "hash": "8e4dbae64685cfcca6dd639f1ae839c6e75387e2",
+  "checked_at": "2026-10-13T20:18:55+00:00",
+  "hash": "e4b859e9f40557ff9c6fa38b298efc52201515ee",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
    "AI Governance Executive Functions: Strategic and Domain Leaders",
@@ -65,13 +65,13 @@
    "AI Governance Professional Profiles: Legal",
    "AI Governance Professional Profiles: Policy",
    "AI Governance Professional Profiles: Risk Management",
-   "AI Governance Professional Profiles: Technical",
    "AI Governance Skills Framework: Who is an AI governance professional?",
    "AI Use Cases in Legal Practice",
    "Australia's privacy reform: Priorities before the OAIC",
    "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
    "Global AI Law and Policy Tracker",
    "How to build a reliable privacy consent verification process",
+   "Legal responsibility for AI agents: Who answers when an agent acts alone?",
    "Mentor Q&A: Breaking into privacy, early career development, and AI",
    "Privacy to a 'TEE' – Secure data collaboration and confidential computing",
    "Privacy, AI and the new rules of recruitment",
@@ -79,24 +79,16 @@
    "Trust, safety and security: Advancing smart cross-regulatory collaboration",
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance"
   ],
-  "changed_at": "2026-10-13T18:18:25+00:00",
+  "changed_at": "2026-10-13T20:18:55+00:00",
   "added": [
    {
-    "text": "Trust, safety and security: Advancing smart cross-regulatory collaboration",
-    "url": "https://iapp.org/resources/article/trust-safety-and-security-advancing-smart-cross-regulatory-collaboration"
-   },
-   {
-    "text": "Privacy to a 'TEE' – Secure data collaboration and confidential computing",
-    "url": "https://iapp.org/resources/article/privacy-to-a-tee-secure-data-collaboration-and-confidential-computing"
-   },
-   {
-    "text": "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
-    "url": "https://iapp.org/resources/article/what-calprivacy-wants-to-see-in-2026-a-conversation-with-executive-director-tom-kemp-and-captain-compliance"
+    "text": "Legal responsibility for AI agents: Who answers when an agent acts alone?",
+    "url": "https://iapp.org/resources/article/legal-responsibility-for-ai-agents-who-answers-when-an-agent-acts-alone-"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-13T18:18:25+00:00",
+  "checked_at": "2026-10-13T20:18:56+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -110,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-13T18:18:28+00:00",
+  "checked_at": "2026-10-13T20:18:58+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -132,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-13T18:18:27+00:00",
+  "checked_at": "2026-10-13T20:18:57+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -177,13 +169,14 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-13T18:18:28+00:00",
-  "hash": "385178f8b4e19793fa6e88c7d0a0c410b3547d19",
+  "checked_at": "2026-10-13T20:18:58+00:00",
+  "hash": "c24350a0bd57e6cbb7631193589a99098ebf7bfd",
   "known": [
    "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
    "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
    "Branching On-Policy Distillation",
    "Centific Applied AI Research",
+   "Chinese University of Hong Kong, Shenzhen",
    "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
    "Evaluating LLM Creativity through Long-Tail Performance",
    "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
@@ -202,37 +195,26 @@
    "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
    "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
    "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+   "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
    "University of California at San Diego",
    "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
    "Visual Grounding Safety in Vision-Language Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-13T18:18:28+00:00",
+  "changed_at": "2026-10-13T20:18:58+00:00",
   "added": [
    {
-    "text": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+    "text": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Centific Applied AI Research",
-    "url": "https://huggingface.co/CentificAIResearch"
-   },
-   {
-    "text": "Visual Grounding Safety in Vision-Language Models",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Evaluating LLM Creativity through Long-Tail Performance",
-    "url": "https://huggingface.co/papers"
+    "text": "Chinese University of Hong Kong, Shenzhen",
+    "url": "https://huggingface.co/CUHKSZ"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-13T18:18:32+00:00",
+  "checked_at": "2026-10-13T20:19:01+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -265,7 +247,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-13T18:18:35+00:00",
+  "checked_at": "2026-10-13T20:19:03+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -363,7 +345,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-13T18:18:33+00:00",
+  "checked_at": "2026-10-13T20:19:02+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
