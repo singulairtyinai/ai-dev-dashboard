@@ -1,50 +1,99 @@
 {
- "generated_at": "2026-10-12T05:50:00+00:00",
+ "generated_at": "2026-10-13T05:51:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "A Tech Policy Press podcast examined how AI and other technology trends are reshaping the pace of war, as ChinaTalk's Q3 roundup touched on AI, China and defense, and Silicon Valley fell in line with Trump's 'super intelligence' rebrand.",
+ "headline": "UNOOSA convened a Vienna consultation on space transparency under the Outer Space Treaty, as OpenAI fired three safety researchers who then published an open letter, and the UK AI Security Institute announced new measures against AI risks.",
  "points": [
   {
-   "text": "A Tech Policy Press podcast with Steve Feldstein examined how technology, including AI, is changing the pace and character of war, alongside other trends reshaping conflict.",
+   "text": "The UN Office for Outer Space Affairs convened a Vienna consultation on information-sharing related to space activities and implementation of Article XI of the Outer Space Treaty, aimed at building trust through greater transparency.",
    "cats": [
-    "mil",
-    "risk"
-   ],
-   "item_ids": [
-    "62be0bcd3a29"
-   ]
-  },
-  {
-   "text": "A ChinaTalk roundup of takeaways from the third quarter touched on AI, China, defense, national security and supply chains.",
-   "cats": [
+    "peace",
     "geo"
    ],
    "item_ids": [
-    "4f736afa61da"
+    "c28391b26c1a"
    ]
   },
   {
-   "text": "Silicon Valley companies are increasingly falling in line with Trump's push to rebrand artificial intelligence as 'super intelligence,' even as the broader public sticks with 'AI.'",
+   "text": "OpenAI fired three safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, ostensibly for mishandling sensitive company information; the researchers have published an open letter.",
    "cats": [
-    "gov",
+    "risk",
+    "models",
+    "gov"
+   ],
+   "item_ids": [
+    "d97e39d38112"
+   ]
+  },
+  {
+   "text": "The UK AI Security Institute announced a suite of measures meant to better protect Britain from the risks posed by increasingly powerful AI.",
+   "cats": [
+    "risk",
+    "gov"
+   ],
+   "item_ids": [
+    "c6a72e78a1ce"
+   ]
+  },
+  {
+   "text": "The US Army created a new robotics technician role to advise commanders on deploying autonomous systems during operations, building expertise in drone warfare.",
+   "cats": [
+    "mil"
+   ],
+   "item_ids": [
+    "63e3e2d90472"
+   ]
+  },
+  {
+   "text": "A commentary warned that states must set limits on emergency powers before an AI crisis is used to justify lasting executive control.",
+   "cats": [
+    "gov"
+   ],
+   "item_ids": [
+    "441fd065c9f2"
+   ]
+  },
+  {
+   "text": "A newsletter examined the 'center-satellite' structure behind American data center hegemony.",
+   "cats": [
+    "geo",
+    "hw"
+   ],
+   "item_ids": [
+    "de6a04d4c78e"
+   ]
+  },
+  {
+   "text": "Microsoft unveiled its third-generation Maia AI chip, aiming to reduce its reliance on Nvidia GPUs for AI inference.",
+   "cats": [
+    "hw",
     "models"
    ],
    "item_ids": [
-    "7ec8afeed353"
+    "f35a07389044"
    ]
   }
  ],
  "categories": {
-  "mil": [
-   "A Tech Policy Press podcast examined how AI and other trends are changing the pace of war."
+  "peace": [
+   "UNOOSA convened a Vienna consultation on space transparency and the Outer Space Treaty."
   ],
   "geo": [
-   "ChinaTalk's Q3 roundup touched on AI, China, defense, national security and supply chains."
+   "A newsletter examined the structure behind American data center hegemony."
+  ],
+  "mil": [
+   "The US Army created a robotics technician role to advise on autonomous systems deployment."
+  ],
+  "risk": [
+   "The UK AI Security Institute announced new measures to protect against AI risks.",
+   "OpenAI fired three safety researchers, who have published an open letter."
   ],
   "gov": [
-   "Silicon Valley is increasingly following Trump's push to rebrand AI as 'super intelligence.'"
+   "OpenAI fired three safety researchers; they published an open letter.",
+   "A commentary warned against using an AI crisis to justify lasting emergency powers."
   ],
-  "models": [
-   "Silicon Valley is falling in line with the 'super intelligence' rebrand."
+  "hw": [
+   "Microsoft's Maia 300 chip aims to reduce reliance on Nvidia.",
+   "A newsletter examined American data center hegemony."
   ]
  }
 }
