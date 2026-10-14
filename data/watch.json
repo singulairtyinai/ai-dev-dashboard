@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-14T06:18:43+00:00",
+  "checked_at": "2026-10-14T07:45:17+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-14T06:18:44+00:00",
+  "checked_at": "2026-10-14T07:45:18+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-14T06:18:45+00:00",
+  "checked_at": "2026-10-14T07:45:18+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-14T06:18:46+00:00",
+  "checked_at": "2026-10-14T07:45:19+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-14T06:18:48+00:00",
+  "checked_at": "2026-10-14T07:45:22+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-14T06:18:47+00:00",
+  "checked_at": "2026-10-14T07:45:21+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,21 +169,25 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-14T06:18:50+00:00",
-  "hash": "76036ee721910dd94ec9898f5ef14fc9d80d44b6",
+  "checked_at": "2026-10-14T07:45:23+00:00",
+  "hash": "c4919ef9d4292136c84852cf0ba055dd112ccb10",
   "known": [
+   "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
    "A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution",
    "AReA: Adaptive Receptive-Field Attention for Efficient High-Resolution Diffusion Transformers",
    "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
    "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+   "Agent-Reflex: Teaching Language Agents to Act Reflectively",
    "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
    "CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks",
    "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
    "Carnegie Mellon University",
+   "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
    "CineRecon: Benchmarking Frontier Models for Agentic Cinematic Reconstruction",
    "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
    "Controlled Acquisition and Abstention in Three-Channel Score Conflicts",
    "Data & Language Intelligence Lab",
+   "Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping",
    "DeltaTTG: Training Multi-Turn Agents with a Token-to-Go Progress Meter",
    "Diffusion Editing with Soft Mask: Pixel Level Redo of Image and Video with Adjustable Strength",
    "DoSA: Dots Sparse Attention",
@@ -194,15 +198,21 @@
    "Fish Audio Drama 3 Technical Report",
    "GeoFix: Geometry Fixing for 4D Consistent Generation",
    "Harness^2: Recursive Agent Harnessing for an Open World",
+   "HexaBee-4B: Six-Language Translation with Multilingual Answering and Bidirectional Supervision",
    "Indian Institute of Technology, Kanpur",
    "JevGPT: Thinking Fast and Slow in Autonomous Research",
+   "Jeva: System One Models from First Principles",
+   "Latent World Action Model for GUI Agents",
    "LeWAM: End-to-End World and Action Modeling with JEPAs",
    "Learning How to Remember: Memory Modality Selection for GUI Agents",
+   "LightVAE: Towards Compact and Efficient Video Autoencoders",
    "Multics: Generative Multi-Player World Model with Hierarchical Communication",
    "Multimedia Computing Group-Nanjing University",
    "Nanyang Technological University",
    "Nanyang Technological University Singapore",
    "National Research Council Canada",
+   "National University of Singapore",
+   "National Yang Ming Chiao Tung University",
    "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
    "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
    "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
@@ -212,7 +222,9 @@
    "ReTerm: Recovery Training for Self-Improving Terminal Agents",
    "Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges",
    "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+   "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
    "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
+   "Self-Distillation with Verbal Regularization",
    "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
    "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
    "TPPO: Tracking-Value PPO For Language Model Reasoning",
@@ -234,39 +246,40 @@
    "WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction",
    "Web$hell: A Unified Interface for Agentic Web Access",
    "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
+   "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
    "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-14T06:18:50+00:00",
+  "changed_at": "2026-10-14T07:45:23+00:00",
   "added": [
    {
-    "text": "Multics: Generative Multi-Player World Model with Hierarchical Communication",
+    "text": "Jeva: System One Models from First Principles",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Learning How to Remember: Memory Modality Selection for GUI Agents",
+    "text": "National University of Singapore",
+    "url": "https://huggingface.co/NationalUniversityofSingapore"
+   },
+   {
+    "text": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "VideoJev: System One Model for Video Understanding and Interaction",
+    "text": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Multimedia Computing Group-Nanjing University",
-    "url": "https://huggingface.co/MCG-NJU"
+    "text": "National Yang Ming Chiao Tung University",
+    "url": "https://huggingface.co/NYCU"
    },
    {
-    "text": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
+    "text": "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "University of Science and Technology of China",
-    "url": "https://huggingface.co/ustc-community"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-14T06:18:54+00:00",
+  "checked_at": "2026-10-14T07:45:27+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -299,7 +312,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-14T06:18:55+00:00",
+  "checked_at": "2026-10-14T07:45:29+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -397,7 +410,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-14T06:18:53+00:00",
+  "checked_at": "2026-10-14T07:45:27+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
