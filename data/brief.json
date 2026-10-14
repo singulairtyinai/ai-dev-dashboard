@@ -1,99 +1,103 @@
 {
- "generated_at": "2026-10-13T05:51:00+00:00",
+ "generated_at": "2026-10-14T05:51:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UNOOSA convened a Vienna consultation on space transparency under the Outer Space Treaty, as OpenAI fired three safety researchers who then published an open letter, and the UK AI Security Institute announced new measures against AI risks.",
+ "headline": "OpenAI and Anthropic told British lawmakers to regulate AI as the UK's spy chief warned it could be used to create new bioweapons, while the US Army stood up a new Futures and Autonomy Command.",
  "points": [
   {
-   "text": "The UN Office for Outer Space Affairs convened a Vienna consultation on information-sharing related to space activities and implementation of Article XI of the Outer Space Treaty, aimed at building trust through greater transparency.",
+   "text": "OpenAI and Anthropic leaders joined whistleblowers and security officials at a UK parliamentary session calling for AI regulation, as Britain's spy chief warned AI could be used to create new bioweapons.",
    "cats": [
-    "peace",
+    "gov",
+    "risk",
     "geo"
    ],
    "item_ids": [
-    "c28391b26c1a"
+    "e9699345b466"
    ]
   },
   {
-   "text": "OpenAI fired three safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, ostensibly for mishandling sensitive company information; the researchers have published an open letter.",
-   "cats": [
-    "risk",
-    "models",
-    "gov"
-   ],
-   "item_ids": [
-    "d97e39d38112"
-   ]
-  },
-  {
-   "text": "The UK AI Security Institute announced a suite of measures meant to better protect Britain from the risks posed by increasingly powerful AI.",
-   "cats": [
-    "risk",
-    "gov"
-   ],
-   "item_ids": [
-    "c6a72e78a1ce"
-   ]
-  },
-  {
-   "text": "The US Army created a new robotics technician role to advise commanders on deploying autonomous systems during operations, building expertise in drone warfare.",
+   "text": "The US Army converted its Futures and Concepts Command into a Futures and Autonomy Command, releasing more details about its component organization under the Defense Department's new Autonomous Warfare Command.",
    "cats": [
     "mil"
    ],
    "item_ids": [
-    "63e3e2d90472"
+    "4413e892e9a8"
    ]
   },
   {
-   "text": "A commentary warned that states must set limits on emergency powers before an AI crisis is used to justify lasting executive control.",
+   "text": "An OpenAI engineer was arrested after the company discovered a hidden recording device in an executive meeting room, allegedly planted with the help of a chatbot.",
    "cats": [
-    "gov"
-   ],
-   "item_ids": [
-    "441fd065c9f2"
-   ]
-  },
-  {
-   "text": "A newsletter examined the 'center-satellite' structure behind American data center hegemony.",
-   "cats": [
-    "geo",
-    "hw"
-   ],
-   "item_ids": [
-    "de6a04d4c78e"
-   ]
-  },
-  {
-   "text": "Microsoft unveiled its third-generation Maia AI chip, aiming to reduce its reliance on Nvidia GPUs for AI inference.",
-   "cats": [
-    "hw",
+    "risk",
     "models"
    ],
    "item_ids": [
-    "f35a07389044"
+    "bfa2207d1022",
+    "082a179fcd58"
+   ]
+  },
+  {
+   "text": "New data found the amount of AI-related infrastructure exposed to the public internet jumped 63% in nine months, as companies race to build with AI.",
+   "cats": [
+    "risk",
+    "geo"
+   ],
+   "item_ids": [
+    "2880876fc571"
+   ]
+  },
+  {
+   "text": "Applied Materials unveiled a multibillion-dollar chip research facility in Silicon Valley, as US chip firms bet big on R&D.",
+   "cats": [
+    "hw"
+   ],
+   "item_ids": [
+    "e63f724473d0"
+   ]
+  },
+  {
+   "text": "A commentary examined whether the benefits of open-weight AI models outweigh their risks, following Anthropic's recent comments on the subject.",
+   "cats": [
+    "risk",
+    "models"
+   ],
+   "item_ids": [
+    "089e26be9c88"
+   ]
+  },
+  {
+   "text": "A newsletter recapped six AI companies' White House safety accord alongside other AI safety developments, including a new introductory course on AI safety.",
+   "cats": [
+    "gov",
+    "risk"
+   ],
+   "item_ids": [
+    "6d0021c2dc79"
    ]
   }
  ],
  "categories": {
-  "peace": [
-   "UNOOSA convened a Vienna consultation on space transparency and the Outer Space Treaty."
-  ],
-  "geo": [
-   "A newsletter examined the structure behind American data center hegemony."
-  ],
-  "mil": [
-   "The US Army created a robotics technician role to advise on autonomous systems deployment."
+  "gov": [
+   "OpenAI and Anthropic leaders told British lawmakers to regulate AI, as the UK's spy chief warned of bioweapon risks.",
+   "A newsletter recapped six AI companies' White House safety accord."
   ],
   "risk": [
-   "The UK AI Security Institute announced new measures to protect against AI risks.",
-   "OpenAI fired three safety researchers, who have published an open letter."
+   "Britain's spy chief warned AI could be used to create new bioweapons.",
+   "An OpenAI engineer was arrested over a hidden recording device.",
+   "AI infrastructure exposed to the public internet jumped 63% in nine months.",
+   "A commentary weighed whether open-weight AI benefits outweigh the risks."
   ],
-  "gov": [
-   "OpenAI fired three safety researchers; they published an open letter.",
-   "A commentary warned against using an AI crisis to justify lasting emergency powers."
+  "mil": [
+   "The US Army converted a command into a new Futures and Autonomy Command."
+  ],
+  "geo": [
+   "Britain's spy chief warned of AI-enabled bioweapon risks at a UK parliamentary hearing.",
+   "AI infrastructure exposure to the public internet is rising sharply."
   ],
   "hw": [
-   "Microsoft's Maia 300 chip aims to reduce reliance on Nvidia.",
-   "A newsletter examined American data center hegemony."
+   "Applied Materials unveiled a multibillion-dollar chip research facility."
+  ],
+  "models": [
+   "An OpenAI engineer was arrested over a hidden recording device.",
+   "A commentary weighed open-weight AI's benefits against its risks."
   ]
  }
 }
