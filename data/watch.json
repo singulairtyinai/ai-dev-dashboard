@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-14T16:18:55+00:00",
+  "checked_at": "2026-10-14T18:18:23+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-14T16:18:55+00:00",
+  "checked_at": "2026-10-14T18:18:24+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-14T16:18:56+00:00",
+  "checked_at": "2026-10-14T18:18:25+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-14T16:18:56+00:00",
+  "checked_at": "2026-10-14T18:18:27+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-14T16:18:58+00:00",
+  "checked_at": "2026-10-14T18:18:30+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-14T16:18:57+00:00",
+  "checked_at": "2026-10-14T18:18:29+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,8 +169,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-14T16:19:00+00:00",
-  "hash": "6f9bd7a0611f538e967c2c16e391f8398b6c699d",
+  "checked_at": "2026-10-14T18:18:33+00:00",
+  "hash": "dfeadf18f4fcd46e7ab9067a7faee99e0f3d8ce7",
   "known": [
    "1688 multimodal & industrial AI",
    "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
@@ -184,6 +184,7 @@
    "Agent-Reflex: Teaching Language Agents to Act Reflectively",
    "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
    "Beyond Prompt Count: How Data Shapes Transfer in On-Policy Distillation",
+   "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
    "CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks",
    "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
    "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
@@ -213,6 +214,7 @@
    "GreenWAM: A World Foundation Model for Robotics",
    "Harness^2: Recursive Agent Harnessing for an Open World",
    "HexaBee-4B: Six-Language Translation with Multilingual Answering and Bidirectional Supervision",
+   "Image Tokenizers Should Be Trained Between Images",
    "Indian Institute of Technology, Kanpur",
    "JevGPT: Thinking Fast and Slow in Autonomous Research",
    "Jeva: System One Models from First Principles",
@@ -238,6 +240,7 @@
    "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
    "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
    "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+   "Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN",
    "Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents",
    "PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems",
    "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
@@ -263,6 +266,7 @@
    "University of North Carolina at Chapel Hill",
    "University of Science and Technology of China",
    "University of Toronto Computer Science",
+   "University of Wisconsin - Madison",
    "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
    "VEDJE: Video-Efficient Discriminative Joint Encoder for Scalable Video-Text Retrieval",
    "VIEWCRAFT: Evolving What Multimodal Agents See and How They Read It",
@@ -272,34 +276,39 @@
    "WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction",
    "Web$hell: A Unified Interface for Agentic Web Access",
    "What Really Works for Universal Multimodal Embeddings? A Controlled Study of Contrastive Training Strategies",
+   "Words to World: Benchmarking LLMs in Interactive Physical Environments",
    "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
    "WorldCast: Distributed Multiplayer World Models",
    "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
    "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-14T16:19:00+00:00",
+  "changed_at": "2026-10-14T18:18:33+00:00",
   "added": [
    {
-    "text": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+    "text": "University of Wisconsin - Madison",
+    "url": "https://huggingface.co/uw-madison"
+   },
+   {
+    "text": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
+    "text": "Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "NLP & AI - Korea University",
-    "url": "https://huggingface.co/nlpai-lab"
+    "text": "Image Tokenizers Should Be Trained Between Images",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
+    "text": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-14T16:19:03+00:00",
+  "checked_at": "2026-10-14T18:18:38+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -332,7 +341,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-14T16:19:05+00:00",
+  "checked_at": "2026-10-14T18:18:41+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -430,13 +439,12 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-14T16:19:03+00:00",
-  "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
+  "checked_at": "2026-10-14T18:18:40+00:00",
+  "hash": "df60fe592fcdc4c0b35848d45eae83cc8332337f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
    "2026 Global Counterspace Capabilities Report",
    "2026 Global Counterspace Capabilities Report PDF File",
-   "Alex Shi to Speak at 2026 Future of Space Policy Forum and Expo September 11, 2026",
    "Almudena Azcárate Ortega to Lecture in McGill University’s Strategic Space Law Course October 26, 2026",
    "COPUOS Briefing Book PDF File",
    "Deepen Your Understanding of Space Sustainability",
@@ -444,13 +452,14 @@
    "Promoting Cooperative Solutions for Space Sustainability",
    "Promoting Cooperative Solutions for Space Sustainability.",
    "Promoting Cooperative Space Sustainability",
-   "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event October 13, 2026"
+   "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event October 13, 2026",
+   "Secure World Foundation to Host Inaugural Space Boot Camp for Nuclear Policy Professionals October 14, 2026"
   ],
-  "changed_at": "2026-10-01T16:19:20+00:00",
+  "changed_at": "2026-10-14T18:18:40+00:00",
   "added": [
    {
-    "text": "Secure World Foundation and Embassy of Malaysia to Co-Host Space Sustainability and Diplomacy Event October 13, 2026",
-    "url": "https://swfound.org/news/secure-world-foundation-and-embassy-of-malaysia-to-co-host-space-sustainability-and-diplomacy-event"
+    "text": "Secure World Foundation to Host Inaugural Space Boot Camp for Nuclear Policy Professionals October 14, 2026",
+    "url": "https://swfound.org/news/secure-world-foundation-to-host-inaugural-space-boot-camp-for-nuclear-policy-professionals"
    }
   ]
  }
