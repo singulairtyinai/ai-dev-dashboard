@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-14T14:19:14+00:00",
+  "checked_at": "2026-10-14T16:18:55+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-14T14:19:15+00:00",
+  "checked_at": "2026-10-14T16:18:55+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-14T14:19:15+00:00",
+  "checked_at": "2026-10-14T16:18:56+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-14T14:19:16+00:00",
+  "checked_at": "2026-10-14T16:18:56+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-14T14:19:18+00:00",
+  "checked_at": "2026-10-14T16:18:58+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-14T14:19:16+00:00",
+  "checked_at": "2026-10-14T16:18:57+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,12 +169,13 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-14T14:19:18+00:00",
-  "hash": "10a270661f9ff33f79add3f26a21760a0ead9ee2",
+  "checked_at": "2026-10-14T16:19:00+00:00",
+  "hash": "6f9bd7a0611f538e967c2c16e391f8398b6c699d",
   "known": [
    "1688 multimodal & industrial AI",
    "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
    "A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution",
+   "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
    "APEX: Asynchronous Prefix Denoising for Extreme Compression",
    "AReA: Adaptive Receptive-Field Attention for Efficient High-Resolution Diffusion Transformers",
    "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
@@ -202,6 +203,7 @@
    "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
    "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
    "Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding",
+   "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
    "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
    "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
    "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
@@ -226,6 +228,7 @@
    "MixLID: Token-Level Language Identification in Mixed-Language Text",
    "Multics: Generative Multi-Player World Model with Hierarchical Communication",
    "Multimedia Computing Group-Nanjing University",
+   "NLP & AI - Korea University",
    "Nanyang Technological University",
    "Nanyang Technological University Singapore",
    "National Research Council Canada",
@@ -239,6 +242,7 @@
    "PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems",
    "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
    "ReTerm: Recovery Training for Self-Improving Terminal Agents",
+   "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
    "Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges",
    "SALD: Self-Referenced Advantage Learning for Diffusion Models",
    "SHELDON: Reasoning through Dual Search over Hypothesis and Observation Spaces",
@@ -274,36 +278,28 @@
    "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-14T13:49:00+00:00",
+  "changed_at": "2026-10-14T16:19:00+00:00",
   "added": [
    {
-    "text": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
+    "text": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+    "text": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Scaling Repeated-Data Pretraining: Batch Size, Regularization, and GPU-Time Tradeoffs",
-    "url": "https://huggingface.co/papers"
+    "text": "NLP & AI - Korea University",
+    "url": "https://huggingface.co/nlpai-lab"
    },
    {
-    "text": "Learning Transferable World-Action Models from Task-Paired Human Videos",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
+    "text": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-14T14:19:21+00:00",
+  "checked_at": "2026-10-14T16:19:03+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -336,7 +332,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-14T14:19:22+00:00",
+  "checked_at": "2026-10-14T16:19:05+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -434,7 +430,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-14T14:19:21+00:00",
+  "checked_at": "2026-10-14T16:19:03+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
