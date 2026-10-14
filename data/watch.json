@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-14T02:18:33+00:00",
+  "checked_at": "2026-10-14T04:18:20+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-14T02:18:34+00:00",
+  "checked_at": "2026-10-14T04:18:21+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-14T02:18:34+00:00",
+  "checked_at": "2026-10-14T04:18:21+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-14T02:18:35+00:00",
+  "checked_at": "2026-10-14T04:18:21+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-14T02:18:37+00:00",
+  "checked_at": "2026-10-14T04:18:24+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-14T02:18:36+00:00",
+  "checked_at": "2026-10-14T04:18:23+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,36 +169,74 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-14T02:18:37+00:00",
-  "hash": "7ed6d149ac0a98ab00271336e1ec9a3c48c24362",
+  "checked_at": "2026-10-14T04:18:24+00:00",
+  "hash": "f87ed5e0e33ce1cafabd1be180243d3c3732d831",
   "known": [
+   "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+   "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+   "CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks",
+   "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
+   "Carnegie Mellon University",
+   "CineRecon: Benchmarking Frontier Models for Agentic Cinematic Reconstruction",
+   "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "Controlled Acquisition and Abstention in Three-Channel Score Conflicts",
+   "Data & Language Intelligence Lab",
+   "DeltaTTG: Training Multi-Turn Agents with a Token-to-Go Progress Meter",
+   "Diffusion Editing with Soft Mask: Pixel Level Redo of Image and Video with Adjustable Strength",
    "DoSA: Dots Sparse Attention",
+   "Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding",
+   "GeoFix: Geometry Fixing for 4D Consistent Generation",
+   "Harness^2: Recursive Agent Harnessing for an Open World",
+   "Indian Institute of Technology, Kanpur",
    "LeWAM: End-to-End World and Action Modeling with JEPAs",
+   "Nanyang Technological University",
+   "Nanyang Technological University Singapore",
+   "National Research Council Canada",
    "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
    "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+   "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+   "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+   "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
    "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
+   "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+   "TPPO: Tracking-Value PPO For Language Model Reasoning",
+   "The Chinese University of Hong Kong",
+   "The University of Hong Kong",
+   "UltraBERT: Beyond the Limit of BERT Pre-Training",
+   "UniForge3D: Joint 3D Reconstruction and Generation in a Shared Anchor-Guided Space",
+   "University of Illinois at Urbana-Champaign",
+   "University of North Carolina at Chapel Hill",
+   "VIEWCRAFT: Evolving What Multimodal Agents See and How They Read It",
+   "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+   "Web$hell: A Unified Interface for Agentic Web Access",
+   "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
+   "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-14T02:18:37+00:00",
+  "changed_at": "2026-10-14T04:18:24+00:00",
   "added": [
    {
-    "text": "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
+    "text": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+    "text": "UltraBERT: Beyond the Limit of BERT Pre-Training",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DoSA: Dots Sparse Attention",
+    "text": "Harness^2: Recursive Agent Harnessing for an Open World",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+    "text": "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
+    "text": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CineRecon: Benchmarking Frontier Models for Agentic Cinematic Reconstruction",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -237,7 +275,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-14T02:18:44+00:00",
+  "checked_at": "2026-10-14T04:18:28+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -335,7 +373,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-14T02:18:42+00:00",
+  "checked_at": "2026-10-14T04:18:27+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
