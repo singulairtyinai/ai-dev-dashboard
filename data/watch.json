@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-14T01:16:26+00:00",
+  "checked_at": "2026-10-14T02:18:33+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-14T01:16:27+00:00",
+  "checked_at": "2026-10-14T02:18:34+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-14T01:16:28+00:00",
+  "checked_at": "2026-10-14T02:18:34+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-14T01:16:28+00:00",
+  "checked_at": "2026-10-14T02:18:35+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-14T01:16:30+00:00",
+  "checked_at": "2026-10-14T02:18:37+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-14T01:16:29+00:00",
+  "checked_at": "2026-10-14T02:18:36+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,60 +169,42 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-14T01:16:30+00:00",
-  "hash": "51871afd97bd6c87d260216b62f946292a48074d",
+  "checked_at": "2026-10-14T02:18:37+00:00",
+  "hash": "7ed6d149ac0a98ab00271336e1ec9a3c48c24362",
   "known": [
-   "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
-   "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-   "Branching On-Policy Distillation",
-   "Centific Applied AI Research",
-   "Chinese University of Hong Kong, Shenzhen",
-   "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
-   "Evaluating LLM Creativity through Long-Tail Performance",
-   "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
-   "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-   "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
-   "Initialization Improves LLM-Driven Discovery",
-   "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-   "Multi-Stream Attention Residuals",
-   "Nanyang Technological University",
-   "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
-   "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
-   "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
-   "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
-   "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
-   "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
-   "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-   "Shanghai Jiao Tong University",
-   "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
-   "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
-   "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
-   "Thinking Inertia: LLMs Keep Thinking When Told Not To",
-   "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
-   "University of California at San Diego",
-   "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-   "Visual Grounding Safety in Vision-Language Models",
-   "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+   "DoSA: Dots Sparse Attention",
+   "LeWAM: End-to-End World and Action Modeling with JEPAs",
+   "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
+   "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+   "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-14T00:18:14+00:00",
+  "changed_at": "2026-10-14T02:18:37+00:00",
   "added": [
    {
-    "text": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+    "text": "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+    "text": "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+    "text": "DoSA: Dots Sparse Attention",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-14T01:16:33+00:00",
+  "checked_at": "2026-10-14T02:18:42+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -255,7 +237,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-14T01:16:35+00:00",
+  "checked_at": "2026-10-14T02:18:44+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -353,7 +335,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-14T01:16:34+00:00",
+  "checked_at": "2026-10-14T02:18:42+00:00",
   "hash": "6782a70daa8cdd1b9cdd5234676834190eb44f14",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
