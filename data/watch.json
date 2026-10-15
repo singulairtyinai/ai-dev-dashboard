@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-15T14:19:05+00:00",
+  "checked_at": "2026-10-15T16:18:50+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-15T14:19:06+00:00",
+  "checked_at": "2026-10-15T16:18:51+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,15 +54,14 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-15T14:19:07+00:00",
-  "hash": "5839ea622fb069368591ab9270739c0bc5617177",
+  "checked_at": "2026-10-15T16:18:52+00:00",
+  "hash": "d477e086ba17b147136a1625d4febf37c6676c09",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
    "AI Governance Executive Functions: Strategic and Domain Leaders",
    "AI Governance Professional Profiles: Assurance",
    "AI Governance Professional Profiles: Ethics",
    "AI Governance Professional Profiles: Governance",
-   "AI Governance Professional Profiles: Legal",
    "AI Governance Professional Profiles: Policy",
    "AI Governance Skills Framework: Who is an AI governance professional?",
    "AI Use Cases in Legal Practice",
@@ -77,18 +76,19 @@
    "Proactive AI privacy – Leveraging PETs throughout the AI lifecycle",
    "Professional and Ethical Considerations for AI Use in Legal Practice",
    "Trust, safety and security: Advancing smart cross-regulatory collaboration",
-   "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance"
+   "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
+   "What the phonograph can teach us about managing AI"
   ],
-  "changed_at": "2026-10-13T21:19:53+00:00",
+  "changed_at": "2026-10-15T16:18:52+00:00",
   "added": [
    {
-    "text": "Proactive AI privacy – Leveraging PETs throughout the AI lifecycle",
-    "url": "https://iapp.org/resources/article/proactive-ai-privacy-leveraging-pets-throughout-the-ai-lifecycle"
+    "text": "What the phonograph can teach us about managing AI",
+    "url": "https://iapp.org/resources/article/what-the-phonograph-can-teach-us-about-managing-ai"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-15T14:19:08+00:00",
+  "checked_at": "2026-10-15T16:18:51+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-15T14:19:10+00:00",
+  "checked_at": "2026-10-15T16:18:54+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-15T14:19:08+00:00",
+  "checked_at": "2026-10-15T16:18:53+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,9 +169,10 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-15T14:19:11+00:00",
-  "hash": "a62546dd46d056cbbfca3b42ded1af047bd8b1e1",
+  "checked_at": "2026-10-15T16:18:54+00:00",
+  "hash": "bee9340de5e084ee6bd9dab1acf6680d19028c9c",
   "known": [
+   "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
    "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
    "ActionOPD: Distilling Decisions, Not Tokens",
    "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
@@ -181,6 +182,7 @@
    "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
    "BigCell: Generating Gigapixel Whole-Slide Images",
    "CVLab @ Stony Brook University",
+   "Choosing LLMs for Strategic Agent Interactions",
    "Cortex: Consolidating Context into Parametric Memory",
    "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
    "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
@@ -188,6 +190,7 @@
    "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
    "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
    "Exploring the Limits of Combinatorial Generalization in Embodied Manipulation",
+   "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
    "G^3VLA: Geometric Inductive Bias for Vision-Language-Action Models",
    "Generative World Simulation with DAO and JING",
    "Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance",
@@ -241,37 +244,43 @@
    "Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards",
    "University of California, Berkeley",
    "University of California, Irvine",
+   "University of North Carolina at Chapel Hill",
    "University of Science and Technology of China",
    "VASPO: Self-Distillation with Privileged Value Estimation",
    "VITAL: From Visual Motion to Precise Action",
+   "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
    "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
    "What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds",
    "Your Transformer Is Secretly Elastic",
    "by AK and the research community",
    "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions"
   ],
-  "changed_at": "2026-10-15T14:19:11+00:00",
+  "changed_at": "2026-10-15T16:18:54+00:00",
   "added": [
    {
-    "text": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+    "text": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "VASPO: Self-Distillation with Privileged Value Estimation",
+    "text": "University of North Carolina at Chapel Hill",
+    "url": "https://huggingface.co/UNC-ChapelHill"
+   },
+   {
+    "text": "Choosing LLMs for Strategic Agent Interactions",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "University of Science and Technology of China",
-    "url": "https://huggingface.co/ustc-community"
+    "text": "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Your Transformer Is Secretly Elastic",
+    "text": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-15T14:19:14+00:00",
+  "checked_at": "2026-10-15T16:18:56+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -304,7 +313,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-15T14:19:16+00:00",
+  "checked_at": "2026-10-15T16:18:57+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -402,7 +411,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-15T14:19:14+00:00",
+  "checked_at": "2026-10-15T16:18:56+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
