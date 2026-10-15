@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-15T17:08:28+00:00",
+  "checked_at": "2026-10-15T18:18:39+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-15T17:08:29+00:00",
+  "checked_at": "2026-10-15T18:18:39+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-15T17:08:30+00:00",
+  "checked_at": "2026-10-15T18:18:40+00:00",
   "hash": "d477e086ba17b147136a1625d4febf37c6676c09",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-15T17:08:30+00:00",
+  "checked_at": "2026-10-15T18:18:40+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-15T17:08:33+00:00",
+  "checked_at": "2026-10-15T18:18:43+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-15T17:08:32+00:00",
+  "checked_at": "2026-10-15T18:18:41+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,8 +169,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-15T17:08:34+00:00",
-  "hash": "50941d0882473e9ddcd6f741e36a351e27da3cc2",
+  "checked_at": "2026-10-15T18:18:45+00:00",
+  "hash": "dd16be917979acc77bebd448c6e322ab31f3b4be",
   "known": [
    "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
    "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
@@ -186,10 +186,12 @@
    "CVLab @ Stony Brook University",
    "Choosing LLMs for Strategic Agent Interactions",
    "Cortex: Consolidating Context into Parametric Memory",
+   "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
    "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
    "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
    "Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",
    "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+   "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
    "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
    "Exploring the Limits of Combinatorial Generalization in Embodied Manipulation",
    "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
@@ -218,6 +220,7 @@
    "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
    "Nanyang Technological University",
    "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+   "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
    "Physical Time as a Missing Dimension of Robot Policy Memory Dynamics",
    "Player-1: Learning to Play from Synthetic Experience",
    "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
@@ -262,36 +265,24 @@
    "by AK and the research community",
    "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions"
   ],
-  "changed_at": "2026-10-15T17:08:34+00:00",
+  "changed_at": "2026-10-15T18:18:45+00:00",
   "added": [
    {
-    "text": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
+    "text": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+    "text": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "King Abdullah University of Science and Technology",
-    "url": "https://huggingface.co/KAUST"
-   },
-   {
-    "text": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
+    "text": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-15T17:08:38+00:00",
+  "checked_at": "2026-10-15T18:18:47+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -324,7 +315,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-15T17:08:39+00:00",
+  "checked_at": "2026-10-15T18:18:49+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -422,7 +413,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-15T17:08:38+00:00",
+  "checked_at": "2026-10-15T18:18:48+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
