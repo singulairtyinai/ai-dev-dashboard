@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-15T04:50:03+00:00",
+  "checked_at": "2026-10-15T06:18:49+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-15T04:50:04+00:00",
+  "checked_at": "2026-10-15T06:18:50+00:00",
   "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -54,7 +54,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-15T04:50:05+00:00",
+  "checked_at": "2026-10-15T06:18:51+00:00",
   "hash": "5839ea622fb069368591ab9270739c0bc5617177",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +88,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-15T04:50:05+00:00",
+  "checked_at": "2026-10-15T06:18:51+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +102,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-15T04:50:07+00:00",
+  "checked_at": "2026-10-15T06:18:53+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-15T04:50:06+00:00",
+  "checked_at": "2026-10-15T06:18:52+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,14 +169,17 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-15T04:50:07+00:00",
-  "hash": "23b310edc3d2db45c1b0bb68e981927665d1c65c",
+  "checked_at": "2026-10-15T06:18:54+00:00",
+  "hash": "b72692bbc5527ad9229fbacd6f6d85e43a9aa00b",
   "known": [
    "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
    "ActionOPD: Distilling Decisions, Not Tokens",
    "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
    "Are We Testing Too Much? A Survey of Benchmark Compression for Efficient Evaluation of Large Language Models",
    "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+   "BigCell: Generating Gigapixel Whole-Slide Images",
+   "CVLab @ Stony Brook University",
+   "Cortex: Consolidating Context into Parametric Memory",
    "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
    "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
    "Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",
@@ -187,44 +190,64 @@
    "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
    "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
    "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+   "Latent Compaction with Test-Time Training",
    "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
    "LensErase: A Foundation Model for Erase Anything",
    "Long-Horizon RL Needs Muon",
    "MA-Bench: Measuring Operational Planning in Language Models",
    "MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking",
    "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+   "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
    "Physical Time as a Missing Dimension of Robot Policy Memory Dynamics",
    "Player-1: Learning to Play from Synthetic Experience",
    "RAR: Rate-Adaptive Rollout for Time-Consistent Interactive World Models",
    "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
    "Renmin University of China",
+   "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
+   "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
    "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
    "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
+   "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
    "TextVerifier: Seeing Beyond Recognition to Verify Chinese Text Rendering",
    "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
    "Towards Agentic Robots: Model, Data, Environment, and Harness",
    "Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards",
+   "University of California, Irvine",
+   "VITAL: From Visual Motion to Precise Action",
    "What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds",
-   "by AK and the research community"
+   "by AK and the research community",
+   "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions"
   ],
-  "changed_at": "2026-10-15T04:50:07+00:00",
+  "changed_at": "2026-10-15T06:18:54+00:00",
   "added": [
    {
-    "text": "ActionOPD: Distilling Decisions, Not Tokens",
+    "text": "Cortex: Consolidating Context into Parametric Memory",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+    "text": "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
+    "text": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "VITAL: From Visual Motion to Precise Action",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "University of California, Irvine",
+    "url": "https://huggingface.co/UCI6055"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-15T04:50:11+00:00",
+  "checked_at": "2026-10-15T06:18:56+00:00",
   "hash": "1d17adab31056cf084394db8a5ed1d0592b0ff2a",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -257,7 +280,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-15T04:50:12+00:00",
+  "checked_at": "2026-10-15T06:18:58+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -355,7 +378,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-15T04:50:10+00:00",
+  "checked_at": "2026-10-15T06:18:56+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
