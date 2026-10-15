@@ -1,103 +1,108 @@
 {
- "generated_at": "2026-10-14T05:51:00+00:00",
+ "generated_at": "2026-10-15T05:52:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "OpenAI and Anthropic told British lawmakers to regulate AI as the UK's spy chief warned it could be used to create new bioweapons, while the US Army stood up a new Futures and Autonomy Command.",
+ "headline": "Hegseth said the Pentagon needs $50 billion to scale autonomous weapons production as UNIDIR launched the first comprehensive evaluation of the Arms Trade Treaty, and a Wired investigation found AI models can be stripped of guardrails to assist terrorism.",
  "points": [
   {
-   "text": "OpenAI and Anthropic leaders joined whistleblowers and security officials at a UK parliamentary session calling for AI regulation, as Britain's spy chief warned AI could be used to create new bioweapons.",
-   "cats": [
-    "gov",
-    "risk",
-    "geo"
-   ],
-   "item_ids": [
-    "e9699345b466"
-   ]
-  },
-  {
-   "text": "The US Army converted its Futures and Concepts Command into a Futures and Autonomy Command, releasing more details about its component organization under the Defense Department's new Autonomous Warfare Command.",
+   "text": "Defense Secretary Pete Hegseth said the Pentagon needs $50 billion in reconciliation funding to scale autonomous and robotic weapons production.",
    "cats": [
     "mil"
    ],
    "item_ids": [
-    "4413e892e9a8"
+    "773a3433b28a"
    ]
   },
   {
-   "text": "An OpenAI engineer was arrested after the company discovered a hidden recording device in an executive meeting room, allegedly planted with the help of a chatbot.",
+   "text": "Hegseth said a four-star-led Autonomous Warfare Command has 'always been' the end state of Project Agincourt.",
    "cats": [
-    "risk",
-    "models"
+    "mil",
+    "gov"
    ],
    "item_ids": [
-    "bfa2207d1022",
-    "082a179fcd58"
+    "0de60cd2ddef"
    ]
   },
   {
-   "text": "New data found the amount of AI-related infrastructure exposed to the public internet jumped 63% in nine months, as companies race to build with AI.",
+   "text": "UNIDIR, Conflict Armament Research and the Stimson Center, with UK support, launched the first comprehensive evaluation of progress towards the objectives of the Arms Trade Treaty.",
    "cats": [
-    "risk",
+    "peace"
+   ],
+   "item_ids": [
+    "f00f23d73297"
+   ]
+  },
+  {
+   "text": "SIPRI examined what Russia's draft federal budget for 2027-29 reveals about its military spending intentions.",
+   "cats": [
+    "peace",
     "geo"
    ],
    "item_ids": [
-    "2880876fc571"
+    "36eea4dcde23"
    ]
   },
   {
-   "text": "Applied Materials unveiled a multibillion-dollar chip research facility in Silicon Valley, as US chip firms bet big on R&D.",
+   "text": "War on the Rocks argued the United Kingdom's military AI ambitions need guardrails, as the new government doubles down on AI-defense partnerships.",
    "cats": [
-    "hw"
+    "mil",
+    "geo"
    ],
    "item_ids": [
-    "e63f724473d0"
+    "ab2cb9a34ae4"
    ]
   },
   {
-   "text": "A commentary examined whether the benefits of open-weight AI models outweigh their risks, following Anthropic's recent comments on the subject.",
+   "text": "A Wired investigation found AI models can be easily modified to strip their safety guardrails and assist terrorist and extremist activity, including providing detailed bomb-making instructions.",
    "cats": [
-    "risk",
-    "models"
+    "risk"
    ],
    "item_ids": [
-    "089e26be9c88"
+    "bb52b360a8a5"
    ]
   },
   {
-   "text": "A newsletter recapped six AI companies' White House safety accord alongside other AI safety developments, including a new introductory course on AI safety.",
+   "text": "AI safety and regulation advocates have spent nearly $50 million this election cycle on US candidates who favor AI regulation, a new analysis found.",
    "cats": [
     "gov",
     "risk"
    ],
    "item_ids": [
-    "6d0021c2dc79"
+    "87a7bf92b1db"
+   ]
+  },
+  {
+   "text": "AI tools are increasingly aiding employees seeking to spy on their own employers, exacerbating an insider-threat risk frontier AI companies have faced for years.",
+   "cats": [
+    "risk",
+    "geo"
+   ],
+   "item_ids": [
+    "0c925ea05951"
    ]
   }
  ],
  "categories": {
-  "gov": [
-   "OpenAI and Anthropic leaders told British lawmakers to regulate AI, as the UK's spy chief warned of bioweapon risks.",
-   "A newsletter recapped six AI companies' White House safety accord."
+  "mil": [
+   "Hegseth said the Pentagon needs $50B to scale autonomous and robotic weapons production.",
+   "Hegseth said a four-star Autonomous Warfare Command has always been the end state of Project Agincourt.",
+   "War on the Rocks argued the UK's military AI ambitions need guardrails."
+  ],
+  "peace": [
+   "UNIDIR launched the first comprehensive evaluation of the Arms Trade Treaty's impact.",
+   "SIPRI examined Russia's draft military spending for 2027-29."
   ],
   "risk": [
-   "Britain's spy chief warned AI could be used to create new bioweapons.",
-   "An OpenAI engineer was arrested over a hidden recording device.",
-   "AI infrastructure exposed to the public internet jumped 63% in nine months.",
-   "A commentary weighed whether open-weight AI benefits outweigh the risks."
+   "A Wired investigation found AI models can be stripped of guardrails to assist terrorism.",
+   "AI tools are increasingly aiding insider espionage at frontier AI companies.",
+   "METR proposed new ways to assess AI developers' control, alignment and loss-of-control risks."
   ],
-  "mil": [
-   "The US Army converted a command into a new Futures and Autonomy Command."
+  "gov": [
+   "AI safety advocates have spent nearly $50 million on pro-regulation candidates this election cycle.",
+   "A newsletter asked whether the US and China have clear rules for when open-weight models are too dangerous to release."
   ],
   "geo": [
-   "Britain's spy chief warned of AI-enabled bioweapon risks at a UK parliamentary hearing.",
-   "AI infrastructure exposure to the public internet is rising sharply."
-  ],
-  "hw": [
-   "Applied Materials unveiled a multibillion-dollar chip research facility."
-  ],
-  "models": [
-   "An OpenAI engineer was arrested over a hidden recording device.",
-   "A commentary weighed open-weight AI's benefits against its risks."
+   "SIPRI examined Russia's military spending intentions.",
+   "The UK is doubling down on military AI partnerships, drawing calls for guardrails."
   ]
  }
 }
