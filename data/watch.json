@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-16T16:18:28+00:00",
+  "checked_at": "2026-10-16T18:08:43+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-16T16:18:29+00:00",
+  "checked_at": "2026-10-16T18:08:44+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-16T16:18:30+00:00",
+  "checked_at": "2026-10-16T18:08:44+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-16T16:18:30+00:00",
+  "checked_at": "2026-10-16T18:08:44+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-16T16:18:32+00:00",
+  "checked_at": "2026-10-16T18:08:47+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-16T16:18:31+00:00",
+  "checked_at": "2026-10-16T18:08:45+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,8 +168,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-16T16:18:33+00:00",
-  "hash": "326a43b7c0e0f50c9229f906a770f51d6dd32f0d",
+  "checked_at": "2026-10-16T18:08:48+00:00",
+  "hash": "4227be0b4ed26eaf06dafc5cedab58ca4fabf7f9",
   "known": [
    "3DCodeVerse: Exploring 3D Worlds as Code",
    "A team of Gemini 4 Argon agents beats Minecraft",
@@ -195,6 +195,7 @@
    "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
    "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
    "EdgeWise: Bringing Long-Horizon Agents to the Edge via Selective Cloud Delegation",
+   "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
    "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
    "FDE-Gym: The Last Mile of AI Delivery",
    "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
@@ -208,8 +209,10 @@
    "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
    "Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling",
    "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+   "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
    "Learning Self-Orchestration in Decentralized Agent Swarms",
    "Learning Where to Split: Dynamic Band Splitting for Audio Source Separation",
+   "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
    "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
    "MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal",
    "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
@@ -228,6 +231,7 @@
    "PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation",
    "PLAN Lab @University of Illinois Urbana-Champaign",
    "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+   "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
    "Recursive Environment Scaling for General Long-Horizon Agents",
    "RepForcing: Representation-Space Initialization for Autoregressive Video Distillation",
    "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
@@ -236,6 +240,7 @@
    "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
    "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
    "SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes",
+   "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
    "Self-Evolving Agent Harness",
    "Seoul National University",
    "Shanghai Jiao Tong University",
@@ -261,16 +266,32 @@
    "WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-16T16:18:33+00:00",
+  "changed_at": "2026-10-16T18:08:48+00:00",
   "added": [
    {
-    "text": "Copy-Paste Language Models",
+    "text": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-16T16:18:35+00:00",
+  "checked_at": "2026-10-16T18:08:50+00:00",
   "hash": "01ea9fb1a7649fe20779de19613f1ae300f1c9eb",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -303,7 +324,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-16T16:18:37+00:00",
+  "checked_at": "2026-10-16T18:08:51+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -401,7 +422,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-16T16:18:35+00:00",
+  "checked_at": "2026-10-16T18:08:50+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
