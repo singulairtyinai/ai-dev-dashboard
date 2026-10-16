@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-16T00:28:04+00:00",
+  "checked_at": "2026-10-16T02:18:23+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,14 +17,13 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-16T00:28:05+00:00",
-  "hash": "f25f50fa23b9914934e40a27794ebfb759c61ac7",
+  "checked_at": "2026-10-16T02:18:25+00:00",
+  "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
    "AI Compute AI computing capacities and their environmental impact.",
    "AI Futures AI’s potential futures.",
    "AI Incidents To manage risks, governments must track and understand AI incidents and hazards.",
-   "AI Index The OECD AI will be a synthetic measurement framework on Trustworthy Artificial Intelligence (AI)",
    "AI Policy Toolkit Map your AI policy landscape, identify priorities and explore policy examples",
    "AI Risk & Accountability AI has risks and all actors must be accountable.",
    "AI in Government Governments are not only AI regulators and investors, but also developers and users.",
@@ -54,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-16T00:28:06+00:00",
+  "checked_at": "2026-10-16T02:18:25+00:00",
   "hash": "d477e086ba17b147136a1625d4febf37c6676c09",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -88,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-16T00:28:06+00:00",
+  "checked_at": "2026-10-16T02:18:25+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -102,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-16T00:28:08+00:00",
+  "checked_at": "2026-10-16T02:18:27+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -124,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-16T00:28:07+00:00",
+  "checked_at": "2026-10-16T02:18:26+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -169,126 +168,52 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-16T00:28:09+00:00",
-  "hash": "be4c7f672249385b4a13b3c0326b2cd9e93450ea",
+  "checked_at": "2026-10-16T02:18:27+00:00",
+  "hash": "9a2a15b3a04b6c2e8374f910fe2a964ffe44fbad",
   "known": [
-   "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
-   "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-   "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
-   "ActionOPD: Distilling Decisions, Not Tokens",
-   "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
-   "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
-   "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
-   "Are We Testing Too Much? A Survey of Benchmark Compression for Efficient Evaluation of Large Language Models",
-   "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
-   "BigCell: Generating Gigapixel Whole-Slide Images",
-   "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
-   "CVLab @ Stony Brook University",
-   "Choosing LLMs for Strategic Agent Interactions",
-   "Cortex: Consolidating Context into Parametric Memory",
-   "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
-   "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
-   "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
-   "Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",
-   "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
-   "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
-   "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
-   "Exploring the Limits of Combinatorial Generalization in Embodied Manipulation",
-   "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
-   "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
-   "G^3VLA: Geometric Inductive Bias for Vision-Language-Action Models",
-   "Generative World Simulation with DAO and JING",
-   "Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance",
-   "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-   "Harbin Institute of Techonology, Shenzhen",
-   "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-   "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
-   "Institute of Computing Technology",
-   "Jag: Direct Box Prediction for Efficient Visual Grounding",
-   "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
-   "KAUST Center of Excellence in Generative AI",
-   "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
-   "King Abdullah University of Science and Technology",
-   "LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators",
-   "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
-   "Latent Compaction with Test-Time Training",
-   "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
-   "LensErase: A Foundation Model for Erase Anything",
-   "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
-   "Long-Horizon RL Needs Muon",
-   "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
-   "MA-Bench: Measuring Operational Planning in Language Models",
-   "Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders",
-   "MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking",
-   "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
-   "Nanyang Technological University",
-   "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
-   "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-   "Physical Time as a Missing Dimension of Robot Policy Memory Dynamics",
-   "Player-1: Learning to Play from Synthetic Experience",
-   "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
-   "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
-   "ProgAgent: Learning Tool Orchestration through Programmatic Training",
-   "RAR: Rate-Adaptive Rollout for Time-Consistent Interactive World Models",
-   "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
-   "Renmin University of China",
-   "Rethinking LLM-Guided Visual Question Answering: Does Deeper Knowledge Integration Really Help?",
-   "Rethinking Projector Training in Multimodal LLMs",
-   "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
-   "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
-   "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-   "Scaling Online Optimal Transport Minibatches for Flow Matching",
-   "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
-   "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
+   "Calibrated Typed Decisions for Entity, Relation, and Event Extraction",
+   "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+   "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+   "MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal",
+   "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+   "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+   "SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes",
    "Seoul National University",
-   "Seoul National University VLSI Lab",
-   "Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models",
-   "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
-   "Speculative Sampling in Interactive Video Generation",
-   "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-   "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
-   "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
-   "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
-   "SyncReward: Human-Aligned Synchronization Reward for Audio-Visual Generation",
-   "TextVerifier: Seeing Beyond Recognition to Verify Chinese Text Rendering",
-   "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
-   "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
-   "The College of William & Mary",
-   "The Thinking Leakage in Reinforcement Learning for LLMs",
-   "To Align or Not To Align: Check Your COMPASS Before You Train",
-   "Towards Agentic Robots: Model, Data, Environment, and Harness",
-   "Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards",
-   "University of California, Berkeley",
-   "University of California, Irvine",
-   "University of North Carolina at Chapel Hill",
-   "University of Science and Technology of China",
-   "University of Southern California",
-   "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
-   "VASPO: Self-Distillation with Privileged Value Estimation",
-   "VITAL: From Visual Motion to Precise Action",
-   "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
-   "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
-   "What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds",
-   "When Left Is Right? Camera-Motion Understanding beyond Screen",
-   "Your Transformer Is Secretly Elastic",
-   "by AK and the research community",
-   "university of science and technology of china",
-   "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions"
+   "Shanghai Jiao Tong University",
+   "Speculative Forcing for Efficient Autoregressive Video Generation",
+   "University of Illinois at Urbana-Champaign",
+   "by AK and the research community"
   ],
-  "changed_at": "2026-10-16T00:28:09+00:00",
+  "changed_at": "2026-10-16T02:18:27+00:00",
   "added": [
    {
-    "text": "Speculative Sampling in Interactive Video Generation",
+    "text": "Speculative Forcing for Efficient Autoregressive Video Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "university of science and technology of china",
-    "url": "https://huggingface.co/ustc"
+    "text": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "University of Illinois at Urbana-Champaign",
+    "url": "https://huggingface.co/illinois"
+   },
+   {
+    "text": "SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Shanghai Jiao Tong University",
+    "url": "https://huggingface.co/SJTU"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-16T00:28:12+00:00",
+  "checked_at": "2026-10-16T02:18:30+00:00",
   "hash": "d56b9bd818f126ad9b840c8b9e02195efa188a46",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -321,7 +246,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-16T00:18:19+00:00",
+  "checked_at": "2026-10-16T02:18:31+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -419,7 +344,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-16T00:28:11+00:00",
+  "checked_at": "2026-10-16T02:18:29+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",

@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-16T00:28:04+00:00",
+ "updated": "2026-10-16T02:18:23+00:00",
  "items": [
+  {
+   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+   "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "published": "2026-10-16T01:44:47+00:00",
+   "preview": "",
+   "id": "ba4e7337aba2",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
   {
    "title": "Swarm Chasers Contact Rogue AI Fleet",
    "url": "https://blog.controlai.org/p/swarm-chasers-contact-rogue-ai-fleet",
@@ -363,6 +373,156 @@
    ]
   },
   {
+   "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+   "url": "https://arxiv.org/abs/2610.21614v1",
+   "published": "2026-10-15T09:59:07+00:00",
+   "preview": "Large audio language models (LALMs) have made substantial progress in audio understanding. However, in high-throughput applications requiring frequent selection, judgment, and scoring, autoregressive text generation…",
+   "id": "c4c4fdde8c02",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Learning Intrinsic Dynamics in Latent World Models",
+   "url": "https://arxiv.org/abs/2610.21612v1",
+   "published": "2026-10-15T09:57:14+00:00",
+   "preview": "Learning intrinsic dynamics---the relationship between actions and their consequences---is essential for world models. However, visual variations unrelated to the underlying control process can obscure this relationship…",
+   "id": "1828bcc7aa5d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Evaluating Inquiry Learning in LLM-Based Agents: Hypothesizing, Reasoning, and Exploration",
+   "url": "https://arxiv.org/abs/2610.21604v1",
+   "published": "2026-10-15T09:52:14+00:00",
+   "preview": "Scientific inquiry involves iterative cycles of exploration, hypothesis generation, and reasoning over observations to uncover relationships in complex systems. Large language models (LLMs) have demonstrated strong…",
+   "id": "2c6ff0709fb1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker",
+   "url": "https://arxiv.org/abs/2610.21597v1",
+   "published": "2026-10-15T09:43:26+00:00",
+   "preview": "Reverse engineering the data formats used by mobile software is skilled and slow, and using AI to assist with it is attractive. We evaluate this for the protobuf messages that an iPhone sends to Apple's location…",
+   "id": "87cc47aa8ef0",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
+   "url": "https://arxiv.org/abs/2610.21594v1",
+   "published": "2026-10-15T09:38:11+00:00",
+   "preview": "Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. However, generating each token still involves sequential computation and repeated access to model weights, leading to…",
+   "id": "635b592e8e7e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design",
+   "url": "https://arxiv.org/abs/2610.21591v1",
+   "published": "2026-10-15T09:36:21+00:00",
+   "preview": "Machine learning (ML) for analog IC design is constrained by limited open data and the absence of standardized evaluation: results reported in different papers are typically obtained on bespoke, often closed, datasets…",
+   "id": "42f8b0958647",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
+   "url": "https://arxiv.org/abs/2610.21586v1",
+   "published": "2026-10-15T09:33:04+00:00",
+   "preview": "Indoor service robots often enter unmapped buildings whose layouts and task constraints are already familiar to users. We address this human-familiar, robot-unseen setting with AVALON, a topological navigation framework…",
+   "id": "69e5ebac0918",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "ClaimScope: Label-Blind Witness Verification for Mathematical Claim Auditing",
+   "url": "https://arxiv.org/abs/2610.21581v1",
+   "published": "2026-10-15T09:29:02+00:00",
+   "preview": "Mathematical agents are commonly evaluated by answer accuracy or proof acceptance. We introduce ClaimScope, a 72-task benchmark for auditing proposed claims through a verdict, scope, counterexample, and repair. Tasks…",
+   "id": "7fd22f896c8e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Learning to Search for Executable Patternmaking from Certified Programs",
+   "url": "https://arxiv.org/abs/2610.21579v1",
+   "published": "2026-10-15T09:28:18+00:00",
+   "preview": "Recent models generate sewing patterns from images or text, and program-based representations make these patterns executable. These systems produce a finished pattern and do not model how a patternmaker turns one…",
+   "id": "77f9e5c8ebd6",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rethinking the Role of Tool Graph Memory in Multi-Turn Tool Use",
+   "url": "https://arxiv.org/abs/2610.21571v1",
+   "published": "2026-10-15T09:24:30+00:00",
+   "preview": "Large language model (LLM) agents solve complex tasks by calling external tools over multiple turns. Recent work has proposed tool graph memory, which stores past experience as tool transitions to guide subsequent…",
+   "id": "f4e9d898a5e5",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design",
+   "url": "https://arxiv.org/abs/2610.21570v1",
+   "published": "2026-10-15T09:24:01+00:00",
+   "preview": "LLM agents can write directed tests that close functional coverage, but coverage only shows that a state was reached, not that the data on the way there was correct. This is a long-known point in verification and we do…",
+   "id": "8179d663a058",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition",
+   "url": "https://arxiv.org/abs/2610.21565v1",
+   "published": "2026-10-15T09:22:45+00:00",
+   "preview": "On-device deployment of large language models (LLMs) is increasingly adopted due to latency and privacy requirements, but exposes proprietary models to reverse engineering and intellectual property theft. Trusted…",
+   "id": "92922ac24d54",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+   "url": "https://arxiv.org/abs/2610.21561v1",
+   "published": "2026-10-15T09:18:32+00:00",
+   "preview": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been…",
+   "id": "47d3e9a95fe1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "When Does Muon Actually Win? A Paired Data-, Time-, and Tuning-Budget Benchmark",
+   "url": "https://arxiv.org/abs/2610.21555v1",
+   "published": "2026-10-15T09:15:49+00:00",
+   "preview": "Muon's gains in data efficiency motivate evaluating its performance under explicit data, time, and tuning budgets. On a single A100 GPU, we compare a reference single-device Muon implementation with AdamW across 17.7M-…",
+   "id": "c7202c2f54f6",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Uncertainty Quantification in Pairwise Difference Learning for Classification",
+   "url": "https://arxiv.org/abs/2610.21554v1",
+   "published": "2026-10-15T09:15:08+00:00",
+   "preview": "Instead of learning a mapping from instances to outcomes in the standard way, the key idea of pairwise difference learning (PDL) is to learn a function that takes two instances as input and predicts the difference…",
+   "id": "1c73675696c5",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
    "title": "Apertus 1.5 Release Notes",
    "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
    "published": "2026-10-15T09:08:45+00:00",
@@ -489,6 +649,16 @@
    "countries": []
   },
   {
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "published": "2026-10-15T00:00:00+00:00",
+   "preview": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "id": "dd00c04c9b95",
+   "source": "openai-news",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
    "title": "NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B",
    "url": "https://artificialanalysis.ai/articles/nemotron-3-5-super-and-bolt",
    "published": "2026-10-15T00:00:00+00:00",
@@ -506,6 +676,16 @@
    "id": "d8c84c93cc15",
    "source": "artificial-analysis",
    "fetched": "2026-10-15T20:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "First AA-AgentPerf results for NVIDIA Vera Rubin NVL72",
+   "url": "https://artificialanalysis.ai/articles/vera-rubin-nvl72-agentperf",
+   "published": "2026-10-15T00:00:00+00:00",
+   "preview": "",
+   "id": "ee2e00d31fa7",
+   "source": "artificial-analysis",
+   "fetched": "2026-10-16T02:18:23+00:00",
    "countries": []
   },
   {
@@ -1525,16 +1705,6 @@
    "countries": []
   },
   {
-   "title": "LabOPBench: A Multimodal Benchmark for Evidence-Grounded Laboratory Decision Making",
-   "url": "https://arxiv.org/abs/2610.19780v1",
-   "published": "2026-10-14T08:29:52+00:00",
-   "preview": "Laboratory experiments involve more than following predefined protocols; they require adaptive decision-making as the experimental state changes. Existing scientific benchmarks rarely assess such evidence-based…",
-   "id": "3b010b29ac62",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-15T02:18:23+00:00",
-   "countries": []
-  },
-  {
    "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
    "url": "https://arxiv.org/abs/2610.19766v1",
    "published": "2026-10-14T08:17:58+00:00",
@@ -1919,132 +2089,12 @@
    "countries": []
   },
   {
-   "title": "ChunkAct: Action Chunking for Agentic Robotics",
-   "url": "https://arxiv.org/abs/2610.18874v1",
-   "published": "2026-10-13T17:59:57+00:00",
-   "preview": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes…",
-   "id": "c2c8aed98a34",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-   "url": "https://arxiv.org/abs/2610.18869v1",
-   "published": "2026-10-13T17:59:52+00:00",
-   "preview": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions…",
-   "id": "dcc4b2f47678",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-   "url": "https://arxiv.org/abs/2610.18868v1",
-   "published": "2026-10-13T17:59:51+00:00",
-   "preview": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive…",
-   "id": "4379123af86c",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-   "url": "https://arxiv.org/abs/2610.18862v1",
-   "published": "2026-10-13T17:59:32+00:00",
-   "preview": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model,…",
-   "id": "9ff6c9669774",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-   "url": "https://arxiv.org/abs/2610.18860v1",
-   "published": "2026-10-13T17:59:31+00:00",
-   "preview": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of…",
-   "id": "35228ee739d6",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Hybrid Reasoning Agents",
-   "url": "https://arxiv.org/abs/2610.18861v1",
-   "published": "2026-10-13T17:59:31+00:00",
-   "preview": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient…",
-   "id": "d05dfdd78906",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
-   "url": "https://arxiv.org/abs/2610.18853v1",
-   "published": "2026-10-13T17:58:57+00:00",
-   "preview": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per…",
-   "id": "36facc0767fd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
-   "url": "https://arxiv.org/abs/2610.18851v1",
-   "published": "2026-10-13T17:58:41+00:00",
-   "preview": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This…",
-   "id": "c48ff3a27a93",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
    "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
    "url": "https://arxiv.org/abs/2610.18845v1",
    "published": "2026-10-13T17:57:51+00:00",
    "preview": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be…",
    "id": "082e422aa868",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
-   "url": "https://arxiv.org/abs/2610.18843v1",
-   "published": "2026-10-13T17:57:18+00:00",
-   "preview": "Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and…",
-   "id": "8112958c10cb",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
-   "url": "https://arxiv.org/abs/2610.18842v1",
-   "published": "2026-10-13T17:57:04+00:00",
-   "preview": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides…",
-   "id": "256330bf7156",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Fast Rates for Offline Q-Learning with KL Regularization",
-   "url": "https://arxiv.org/abs/2610.18839v1",
-   "published": "2026-10-13T17:56:27+00:00",
-   "preview": "This paper investigates offline Q-learning for finite-horizon Markov decision processes with Kullback-Leibler (KL) regularization. Recent studies have shown that KL regularization can yield fast rates in offline…",
-   "id": "d70d63cf94c6",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
-   "url": "https://arxiv.org/abs/2610.18835v1",
-   "published": "2026-10-13T17:55:14+00:00",
-   "preview": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present…",
-   "id": "42e5e4cc39be",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-10-14T06:18:43+00:00",
    "countries": []
   },
@@ -2065,26 +2115,6 @@
    "preview": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the…",
    "id": "cf2c3baabc06",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Read the Room Before Your Model Generates",
-   "url": "https://arxiv.org/abs/2610.18820v1",
-   "published": "2026-10-13T17:51:18+00:00",
-   "preview": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings…",
-   "id": "ff2c5f404ff7",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
-   "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
-   "url": "https://arxiv.org/abs/2610.18818v1",
-   "published": "2026-10-13T17:50:18+00:00",
-   "preview": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a…",
-   "id": "5ef42bff8834",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-10-14T06:18:43+00:00",
    "countries": []
   },
@@ -7332,16 +7362,6 @@
    ]
   },
   {
-   "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-   "url": "https://openai.com/index/wayfair",
-   "published": "2026-09-25T00:00:00+00:00",
-   "preview": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-   "id": "69f2b5ec7d18",
-   "source": "openai-news",
-   "fetched": "2026-10-05T20:19:16+00:00",
-   "countries": []
-  },
-  {
    "title": "Announcing the Artificial Analysis Cyber Index Alliance",
    "url": "https://artificialanalysis.ai/articles/artificial-analysis-cyber-index",
    "published": "2026-09-25T00:00:00+00:00",
@@ -11067,16 +11087,6 @@
    "preview": "Liberté hégémonique",
    "id": "4f1442a202de",
    "source": "right-around-the-perimeter",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-   "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-   "published": "2026-08-26T00:00:00+00:00",
-   "preview": "",
-   "id": "5309d9655463",
-   "source": "hugging-face-blog",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
