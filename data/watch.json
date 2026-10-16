@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-16T07:17:48+00:00",
+  "checked_at": "2026-10-16T08:18:15+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-16T07:17:50+00:00",
+  "checked_at": "2026-10-16T08:18:16+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-16T07:17:50+00:00",
+  "checked_at": "2026-10-16T08:18:17+00:00",
   "hash": "d477e086ba17b147136a1625d4febf37c6676c09",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-16T07:17:52+00:00",
+  "checked_at": "2026-10-16T08:18:17+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-16T07:17:54+00:00",
+  "checked_at": "2026-10-16T08:18:19+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-16T07:17:54+00:00",
+  "checked_at": "2026-10-16T08:18:18+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,8 +168,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-16T07:17:54+00:00",
-  "hash": "1eba65be926f1694450120a2db5e3f27ddd40b21",
+  "checked_at": "2026-10-16T08:18:20+00:00",
+  "hash": "2943860b5db9a00cbb556e25ff20bc88a22effb0",
   "known": [
    "3DCodeVerse: Exploring 3D Worlds as Code",
    "A team of Gemini 4 Argon agents beats Minecraft",
@@ -183,6 +183,7 @@
    "Calibrated Typed Decisions for Entity, Relation, and Event Extraction",
    "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
    "CoDA: Co-Evolution of Data Engines and Action Policies",
+   "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
    "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
    "Cowork-Gym: Synthesizing Interactive Work Environments at Scale",
    "DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding",
@@ -199,6 +200,7 @@
    "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
    "Learning Self-Orchestration in Decentralized Agent Swarms",
    "Learning Where to Split: Dynamic Band Splitting for Audio Source Separation",
+   "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
    "MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal",
    "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
    "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
@@ -208,6 +210,7 @@
    "Mosaic: Multi-Session Agentic Reinforcement Learning",
    "National University of Singapore",
    "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+   "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
    "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
    "Orbia: Do Generated Videos Form a Consistent 3D World?",
    "PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation",
@@ -218,10 +221,12 @@
    "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
    "Routing Policy Optimization for Online Diffusion Reinforcement Learning",
    "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation",
+   "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
    "SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes",
    "Self-Evolving Agent Harness",
    "Seoul National University",
    "Shanghai Jiao Tong University",
+   "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
    "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
    "Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models",
    "Speculative Forcing for Efficient Autoregressive Video Generation",
@@ -241,24 +246,32 @@
    "WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-16T07:17:54+00:00",
+  "changed_at": "2026-10-16T08:18:20+00:00",
   "added": [
    {
-    "text": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+    "text": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "CoDA: Co-Evolution of Data Engines and Action Policies",
+    "text": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "PLAN Lab @University of Illinois Urbana-Champaign",
-    "url": "https://huggingface.co/PLAN-Lab"
+    "text": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+    "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-16T07:17:58+00:00",
+  "checked_at": "2026-10-16T08:18:23+00:00",
   "hash": "d56b9bd818f126ad9b840c8b9e02195efa188a46",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -291,7 +304,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-16T07:18:00+00:00",
+  "checked_at": "2026-10-16T08:18:24+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -389,7 +402,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-16T07:17:59+00:00",
+  "checked_at": "2026-10-16T08:18:23+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
