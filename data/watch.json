@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-16T10:18:51+00:00",
+  "checked_at": "2026-10-16T12:26:25+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-16T10:18:52+00:00",
+  "checked_at": "2026-10-16T12:26:26+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-16T10:18:53+00:00",
+  "checked_at": "2026-10-16T12:26:28+00:00",
   "hash": "d477e086ba17b147136a1625d4febf37c6676c09",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-16T10:18:51+00:00",
+  "checked_at": "2026-10-16T12:26:27+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-16T10:18:54+00:00",
+  "checked_at": "2026-10-16T12:26:30+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-16T10:18:54+00:00",
+  "checked_at": "2026-10-16T12:26:29+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,8 +168,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-16T10:18:54+00:00",
-  "hash": "b405a885996b9238e2af4688a8b776db3d474fbe",
+  "checked_at": "2026-10-16T12:26:32+00:00",
+  "hash": "30df8c38dcd0fc0a8d06b90b39e20871276273b4",
   "known": [
    "3DCodeVerse: Exploring 3D Worlds as Code",
    "A team of Gemini 4 Argon agents beats Minecraft",
@@ -179,6 +179,7 @@
    "Athanor: An Agent-Native System for Autonomous Post-Training Research",
    "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
    "Beijing Academy of Artificial Intelligence",
+   "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
    "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
    "Calibrated Typed Decisions for Entity, Relation, and Event Extraction",
    "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
@@ -196,6 +197,7 @@
    "FDE-Gym: The Last Mile of AI Delivery",
    "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
    "ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion",
+   "Gen4P: Video Generators are 4D Perceivers",
    "Georgia Institute of Technology",
    "H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression",
    "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
@@ -217,6 +219,7 @@
    "National University of Singapore",
    "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
    "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+   "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
    "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
    "Orbia: Do Generated Videos Form a Consistent 3D World?",
    "PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation",
@@ -250,40 +253,33 @@
    "VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution",
    "Velox: Spatial Memory Makes World Models Efficient",
    "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+   "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
    "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
    "WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-16T10:18:54+00:00",
+  "changed_at": "2026-10-16T12:26:32+00:00",
   "added": [
    {
-    "text": "Data World: Scaling Data Environments from Scratch",
+    "text": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "FDE-Gym: The Last Mile of AI Delivery",
+    "text": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+    "text": "Gen4P: Video Generators are 4D Perceivers",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+    "text": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Interactive and Active AI",
-    "url": "https://huggingface.co/IAAI233"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-16T10:18:57+00:00",
+  "checked_at": "2026-10-16T12:26:35+00:00",
   "hash": "d56b9bd818f126ad9b840c8b9e02195efa188a46",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -316,7 +312,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-16T10:18:59+00:00",
+  "checked_at": "2026-10-16T12:26:36+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -414,7 +410,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-16T10:18:56+00:00",
+  "checked_at": "2026-10-16T12:26:35+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
