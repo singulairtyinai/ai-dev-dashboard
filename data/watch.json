@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-19T14:19:29+00:00",
+  "checked_at": "2026-10-19T16:19:08+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-19T14:19:31+00:00",
+  "checked_at": "2026-10-19T16:19:09+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-19T14:19:31+00:00",
+  "checked_at": "2026-10-19T16:19:09+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-19T14:19:32+00:00",
+  "checked_at": "2026-10-19T16:19:09+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-19T14:19:35+00:00",
+  "checked_at": "2026-10-19T16:19:12+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,12 +123,14 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-19T14:19:33+00:00",
-  "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
+  "checked_at": "2026-10-19T16:19:11+00:00",
+  "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
+   "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "Commanding the Air: the Future of Airborne Battle Management",
    "Dr. Andrew F. Krepinevich, Jr.",
+   "Drones, Missiles, and the U.S. Munitions Shortage",
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "How to Avoid Disaster in the Next Iran War",
    "Iran’s Drones Reveal U.S. Military Weakness",
@@ -139,37 +141,21 @@
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "View All Articles & Multimedia"
   ],
-  "changed_at": "2026-10-09T14:20:03+00:00",
+  "changed_at": "2026-10-19T16:19:11+00:00",
   "added": [
    {
-    "text": "Munitions Procurement and the Fiscal Year 2027 Defense Budget",
-    "url": "https://www.cnas.org/publications/reports/munitions-procurement-and-the-fiscal-year-2027-defense-budget"
+    "text": "Drones, Missiles, and the U.S. Munitions Shortage",
+    "url": "https://www.cnas.org/publications/reports/drones-missiles-and-the-u-s-munitions-shortage"
    },
    {
-    "text": "How to Avoid Disaster in the Next Iran War",
-    "url": "https://www.cnas.org/publications/commentary/how-to-avoid-disaster-in-the-next-iran-war"
-   },
-   {
-    "text": "Sea Drones a Taiwan Game Changer",
-    "url": "https://www.cnas.org/publications/commentary/sea-drones-a-taiwan-game-changer"
-   },
-   {
-    "text": "Iran’s Drones Reveal U.S. Military Weakness",
-    "url": "https://www.cnas.org/research/defense"
-   },
-   {
-    "text": "Pentagon Launches Pilot Program That Will Use AI to Manage Sensitive Information",
-    "url": "https://www.cnas.org/research/defense"
-   },
-   {
-    "text": "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
-    "url": "https://www.cnas.org/research/defense"
+    "text": "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
+    "url": "https://www.cnas.org/publications/video/bbc-world-news-saudi-arabia-cruise-missiles-and-drones-intercepted"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-19T14:19:36+00:00",
-  "hash": "e4bad6c8fd392eefce6aa13981ac49399ac5a22b",
+  "checked_at": "2026-10-19T16:19:13+00:00",
+  "hash": "caae8e3415885ddc72b20a0634c9961bfdb5ed14",
   "known": [
    "AI Interpretability @ Illinois",
    "AI-Driven Disaster Response and Displacement Monitoring",
@@ -196,6 +182,7 @@
    "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
    "Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?",
    "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+   "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
    "Has GPT-6-Astra Achieved Embodied Intelligence?",
    "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
    "Humanitarian AI, Displacement Monitoring",
@@ -204,6 +191,7 @@
    "LEV: Thinking Fast and Deep with Looped Decision Models",
    "Learning to Think and Explore in 3D World",
    "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
+   "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
    "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
    "MOSS-Image Technical Report",
    "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
@@ -213,6 +201,7 @@
    "OPMD: On-Policy Mechanism Distillation Beyond Output Supervision",
    "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
    "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
+   "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
    "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
    "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
    "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
@@ -240,16 +229,24 @@
    "by AK and the research community",
    "university of science and technology of china"
   ],
-  "changed_at": "2026-10-19T14:19:36+00:00",
+  "changed_at": "2026-10-19T16:19:13+00:00",
   "added": [
    {
-    "text": "Relational Learning as World Modeling",
+    "text": "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-19T14:19:39+00:00",
+  "checked_at": "2026-10-19T16:19:17+00:00",
   "hash": "01ea9fb1a7649fe20779de19613f1ae300f1c9eb",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -282,7 +279,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-19T14:19:40+00:00",
+  "checked_at": "2026-10-19T16:19:19+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -380,7 +377,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-19T14:19:39+00:00",
+  "checked_at": "2026-10-19T16:19:17+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
