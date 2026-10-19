@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-19T08:17:49+00:00",
+  "checked_at": "2026-10-19T10:18:42+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-19T08:17:51+00:00",
+  "checked_at": "2026-10-19T10:18:38+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-19T08:17:51+00:00",
+  "checked_at": "2026-10-19T10:18:44+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-19T08:17:52+00:00",
+  "checked_at": "2026-10-19T10:18:40+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-19T08:17:55+00:00",
+  "checked_at": "2026-10-19T10:18:50+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-19T08:17:54+00:00",
+  "checked_at": "2026-10-19T10:18:50+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,10 +168,11 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-19T08:17:55+00:00",
-  "hash": "c379089f05e4d18484920ace836f3a97828372a3",
+  "checked_at": "2026-10-19T10:18:50+00:00",
+  "hash": "fc98433150b9e2e004d84421ce782e9510c5231d",
   "known": [
    "AI Interpretability @ Illinois",
+   "AI-Driven Disaster Response and Displacement Monitoring",
    "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
    "Amazon Frontier AI & Robotics",
    "Belief-Trajectory Energy: Measuring the Path to a Prediction",
@@ -196,12 +197,15 @@
    "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
    "Has GPT-6-Astra Achieved Embodied Intelligence?",
    "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+   "Humanitarian AI, Displacement Monitoring",
    "Institute of Foundation Models",
    "Into the Unknown: Benchmarking AI agents on open scientific research problems",
    "LEV: Thinking Fast and Deep with Looped Decision Models",
    "Learning to Think and Explore in 3D World",
    "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
+   "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
    "MOSS-Image Technical Report",
+   "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
    "Mohamed Bin Zayed University of Artificial Intelligence",
    "MorphAct: Robot Policies Morphing with the Worlds They Act In",
    "National University of Singapore",
@@ -216,6 +220,7 @@
    "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
    "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
    "Resisting Harmful Instructions through Training-Free Weight Editing",
+   "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
    "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
    "Selection Is Not Learning: Choosing Model Futures",
    "Shanghai Jiao Tong University",
@@ -228,27 +233,40 @@
    "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
    "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
    "University of California at San Diego",
+   "Xiaomi-Lens-0 Technical Report",
    "by AK and the research community",
    "university of science and technology of china"
   ],
-  "changed_at": "2026-10-19T08:17:55+00:00",
+  "changed_at": "2026-10-19T10:18:50+00:00",
   "added": [
    {
-    "text": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
+    "text": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+    "text": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
+    "text": "Xiaomi-Lens-0 Technical Report",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "AI-Driven Disaster Response and Displacement Monitoring",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Humanitarian AI, Displacement Monitoring",
+    "url": "https://huggingface.co/HumAI-DisplacementMonitoring"
+   },
+   {
+    "text": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-19T08:17:59+00:00",
+  "checked_at": "2026-10-19T10:18:58+00:00",
   "hash": "01ea9fb1a7649fe20779de19613f1ae300f1c9eb",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -281,7 +299,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-19T08:18:00+00:00",
+  "checked_at": "2026-10-19T10:19:08+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -379,7 +397,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-19T08:17:58+00:00",
+  "checked_at": "2026-10-19T10:19:01+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
