@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-19T06:22:02+00:00",
+  "checked_at": "2026-10-19T08:17:49+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-19T06:22:03+00:00",
+  "checked_at": "2026-10-19T08:17:51+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-19T06:22:03+00:00",
+  "checked_at": "2026-10-19T08:17:51+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-19T06:22:04+00:00",
+  "checked_at": "2026-10-19T08:17:52+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-19T06:22:06+00:00",
+  "checked_at": "2026-10-19T08:17:55+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-19T06:22:05+00:00",
+  "checked_at": "2026-10-19T08:17:54+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,8 +168,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-19T06:22:06+00:00",
-  "hash": "489b2c91de704e41cd1c4dd23a26913c27d4afeb",
+  "checked_at": "2026-10-19T08:17:55+00:00",
+  "hash": "c379089f05e4d18484920ace836f3a97828372a3",
   "known": [
    "AI Interpretability @ Illinois",
    "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
@@ -179,6 +179,7 @@
    "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
    "Can Visual Generation Expand What Unified Multimodal Models Know?",
    "Carnegie Mellon University",
+   "Consistent Distribution Matching for Data-Free Diffusion Distillation",
    "DAGFormer: Global Topology Prediction for Transformer Cross-Layer Connections",
    "DLite: History-free Speculative Decoding for Agentic AI",
    "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
@@ -186,6 +187,7 @@
    "DuET: Note-Frame Dual Encoding for Piano Performance-to-Score Transcription",
    "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
    "Dusting the Phantom: Gaussian Allocation for Fading Dynamic Content",
+   "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
    "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
    "FC-SWE: Failure-Conditioned RL for Long-Horizon Software Engineering Agents",
    "Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents",
@@ -211,6 +213,7 @@
    "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
    "Persistent Planar Memory for Video World Models",
    "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+   "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
    "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
    "Resisting Harmful Instructions through Training-Free Weight Editing",
    "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
@@ -228,36 +231,24 @@
    "by AK and the research community",
    "university of science and technology of china"
   ],
-  "changed_at": "2026-10-19T06:22:06+00:00",
+  "changed_at": "2026-10-19T08:17:55+00:00",
   "added": [
    {
-    "text": "Learning to Think and Explore in 3D World",
+    "text": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "University of California at San Diego",
-    "url": "https://huggingface.co/UCSanDiego"
-   },
-   {
-    "text": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
+    "text": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems",
+    "text": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-19T06:22:08+00:00",
+  "checked_at": "2026-10-19T08:17:59+00:00",
   "hash": "01ea9fb1a7649fe20779de19613f1ae300f1c9eb",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -290,7 +281,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-19T06:22:10+00:00",
+  "checked_at": "2026-10-19T08:18:00+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -388,7 +379,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-19T06:22:08+00:00",
+  "checked_at": "2026-10-19T08:17:58+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
