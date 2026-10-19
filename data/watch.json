@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-19T04:51:09+00:00",
+  "checked_at": "2026-10-19T06:22:02+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-19T04:51:10+00:00",
+  "checked_at": "2026-10-19T06:22:03+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-19T04:51:11+00:00",
+  "checked_at": "2026-10-19T06:22:03+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-19T04:51:11+00:00",
+  "checked_at": "2026-10-19T06:22:04+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-19T04:51:13+00:00",
+  "checked_at": "2026-10-19T06:22:06+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-19T04:51:13+00:00",
+  "checked_at": "2026-10-19T06:22:05+00:00",
   "hash": "f62be14f5d5168620df8eb3becd7345d965c7760",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -168,23 +168,27 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-19T04:51:13+00:00",
-  "hash": "f2e3145643514966e5094d193fefaa8871bec582",
+  "checked_at": "2026-10-19T06:22:06+00:00",
+  "hash": "489b2c91de704e41cd1c4dd23a26913c27d4afeb",
   "known": [
    "AI Interpretability @ Illinois",
    "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
    "Amazon Frontier AI & Robotics",
    "Belief-Trajectory Energy: Measuring the Path to a Prediction",
    "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+   "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
    "Can Visual Generation Expand What Unified Multimodal Models Know?",
    "Carnegie Mellon University",
    "DAGFormer: Global Topology Prediction for Transformer Cross-Layer Connections",
    "DLite: History-free Speculative Decoding for Agentic AI",
    "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+   "Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems",
    "DuET: Note-Frame Dual Encoding for Piano Performance-to-Score Transcription",
    "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
    "Dusting the Phantom: Gaussian Allocation for Fading Dynamic Content",
    "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
+   "FC-SWE: Failure-Conditioned RL for Long-Horizon Software Engineering Agents",
+   "Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents",
    "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
    "Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?",
    "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
@@ -193,10 +197,15 @@
    "Institute of Foundation Models",
    "Into the Unknown: Benchmarking AI agents on open scientific research problems",
    "LEV: Thinking Fast and Deep with Looped Decision Models",
+   "Learning to Think and Explore in 3D World",
+   "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
    "MOSS-Image Technical Report",
    "Mohamed Bin Zayed University of Artificial Intelligence",
+   "MorphAct: Robot Policies Morphing with the Worlds They Act In",
    "National University of Singapore",
+   "OPMD: On-Policy Mechanism Distillation Beyond Output Supervision",
    "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+   "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
    "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
    "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
    "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
@@ -204,48 +213,51 @@
    "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
    "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
    "Resisting Harmful Instructions through Training-Free Weight Editing",
+   "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
    "Selection Is Not Learning: Choosing Model Futures",
    "Shanghai Jiao Tong University",
    "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
    "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
    "Speculative Sampling in Interactive Video Generation",
    "StopWatch: Goal Grounding for Object-goal Navigation",
+   "Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models",
    "The University of Hong Kong",
    "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
    "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+   "University of California at San Diego",
    "by AK and the research community",
    "university of science and technology of china"
   ],
-  "changed_at": "2026-10-19T04:51:13+00:00",
+  "changed_at": "2026-10-19T06:22:06+00:00",
   "added": [
    {
-    "text": "Can Visual Generation Expand What Unified Multimodal Models Know?",
+    "text": "Learning to Think and Explore in 3D World",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+    "text": "University of California at San Diego",
+    "url": "https://huggingface.co/UCSanDiego"
+   },
+   {
+    "text": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
+    "text": "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Institute of Foundation Models",
-    "url": "https://huggingface.co/IFM"
-   },
-   {
-    "text": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+    "text": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Belief-Trajectory Energy: Measuring the Path to a Prediction",
+    "text": "Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-19T04:51:18+00:00",
+  "checked_at": "2026-10-19T06:22:08+00:00",
   "hash": "01ea9fb1a7649fe20779de19613f1ae300f1c9eb",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -278,7 +290,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-19T04:51:19+00:00",
+  "checked_at": "2026-10-19T06:22:10+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -376,7 +388,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-19T04:51:18+00:00",
+  "checked_at": "2026-10-19T06:22:08+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
