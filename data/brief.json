@@ -1,81 +1,108 @@
 {
- "generated_at": "2026-10-18T05:50:00+00:00",
+ "generated_at": "2026-10-20T05:51:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "ChinaTalk made the case for DUV lithography export controls, as a leaked draft AI regulatory bill reportedly shopped by Anthropic drew criticism and a newsletter warned of stealth malware threats to Defense IT systems.",
+ "headline": "UNIDIR examined industry responsibility for military AI and marked Disarmament Week, as a hacker breached 100+ sites with an army of AI agents and Anthropic's leaked AI bill drew criticism as weaker than the FRONTIER Act.",
  "points": [
   {
-   "text": "A ChinaTalk newsletter interview with Saif Khan made the case for export controls on deep ultraviolet (DUV) lithography equipment.",
+   "text": "UNIDIR examined industry responsibility in developing military AI, as the autonomous capabilities of weapon systems draw growing attention from the international community.",
    "cats": [
-    "hw",
-    "geo"
-   ],
-   "item_ids": [
-    "9aa691b148c6"
-   ]
-  },
-  {
-   "text": "A newsletter warned that stealth malware threat vectors pose a growing risk to Defense Department and federal civilian IT systems.",
-   "cats": [
-    "risk",
+    "peace",
     "mil"
    ],
    "item_ids": [
-    "bb21589c55c8"
+    "fe878a6e8636"
    ]
   },
   {
-   "text": "A leaked draft AI regulatory bill reportedly being shopped around by Anthropic drew criticism as 'unacceptable and troubling,' with critics comparing it unfavorably to the FRONTIER Act over stronger preemption of state laws.",
+   "text": "UNIDIR marked Disarmament Week with a piece on what makes people involved with armed groups put down their weapons, championing a people-centred approach to disarmament and reintegration.",
+   "cats": [
+    "peace"
+   ],
+   "item_ids": [
+    "ef77794a9230"
+   ]
+  },
+  {
+   "text": "SIPRI examined how to turn Women, Peace and Security commitments into action in defence budgeting.",
+   "cats": [
+    "peace"
+   ],
+   "item_ids": [
+    "001114b407a0"
+   ]
+  },
+  {
+   "text": "ChinaTalk covered the Pentagon's $1 billion drone contest as part of a broader push for drone dominance.",
+   "cats": [
+    "mil",
+    "geo"
+   ],
+   "item_ids": [
+    "5a0502268fbe"
+   ]
+  },
+  {
+   "text": "A commentary argued Anthropic's leaked draft AI regulatory bill is weaker than the FRONTIER Act, undermining the company's 'safety first' pitch.",
    "cats": [
     "gov",
     "risk"
    ],
    "item_ids": [
-    "be7a5421d83e"
+    "9487c00abcf2"
    ]
   },
   {
-   "text": "Websites are increasingly closing their doors to autonomous AI agents from OpenAI, Meta, Google and others as such agents proliferate online.",
+   "text": "AI-generated deepfakes are producing reality-bending midterm election ads, as warnings about election disinformation come true.",
    "cats": [
-    "models",
+    "geo",
     "risk"
    ],
    "item_ids": [
-    "79619743255e"
+    "c6a9872690d0"
    ]
   },
   {
-   "text": "A report found a former White House press secretary was linked to an AI rare-earths mining startup tied to a Cabinet secretary, in a story that turned out stranger than it first appeared.",
+   "text": "A hacker breached more than 100 websites, including John Deere and SharkNinja, using an army of largely autonomous AI agents, according to security firm Norforge.",
    "cats": [
-    "geo",
-    "hw"
+    "risk"
    ],
    "item_ids": [
-    "3287a3bb9b23"
+    "c08e28e17ab3"
+   ]
+  },
+  {
+   "text": "A judge ordered a former OpenAI engineer accused of spying on executives to remain in custody, likening the Saudi government's offer to secure his release to a 'blank check.'",
+   "cats": [
+    "risk",
+    "geo"
+   ],
+   "item_ids": [
+    "100017994d8d"
    ]
   }
  ],
  "categories": {
-  "hw": [
-   "ChinaTalk made the case for DUV lithography export controls.",
-   "A report examined a political figure's ties to an AI rare-earths mining startup."
-  ],
-  "geo": [
-   "ChinaTalk made the case for DUV export controls on China.",
-   "A former press secretary was linked to an AI rare-earths mining startup."
-  ],
-  "risk": [
-   "A newsletter warned of stealth malware threats to Defense and federal IT systems.",
-   "A leaked Anthropic-linked draft AI regulatory bill drew criticism.",
-   "Websites are closing their doors to AI agents."
+  "peace": [
+   "UNIDIR examined industry responsibility in developing military AI.",
+   "UNIDIR marked Disarmament Week with a piece on people-centred disarmament.",
+   "SIPRI examined turning Women, Peace and Security commitments into action in defence budgeting."
   ],
   "mil": [
-   "A newsletter warned of stealth malware threats to Defense IT systems."
+   "UNIDIR examined industry responsibility in developing military AI.",
+   "ChinaTalk covered the Pentagon's $1 billion drone contest."
   ],
   "gov": [
-   "A leaked Anthropic-linked draft AI regulatory bill drew criticism as troubling."
+   "A commentary said Anthropic's leaked AI bill is weaker than the FRONTIER Act."
   ],
-  "models": [
-   "Websites are increasingly blocking AI agents from OpenAI, Meta, Google and others."
+  "risk": [
+   "A hacker breached 100+ websites using an army of AI agents.",
+   "AI deepfakes are producing reality-bending midterm election ads.",
+   "A judge ordered an OpenAI engineer accused of spying to remain in custody."
+  ],
+  "geo": [
+   "ChinaTalk covered the Pentagon's drone contest.",
+   "AI deepfakes are hitting midterm election ads.",
+   "The Saudi government offered a 'blank check' to free an OpenAI spying suspect."
   ]
  }
 }
