@@ -1,6 +1,6 @@
 {
  "geo": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "I let agents plan a WNBA Finals trip (but kept my wallet to myself)",
@@ -11,18 +11,18 @@
   "based_on": 8
  },
  "gov": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "America’s Seed Fund Should Back AI Resilience Startups",
    "AI will create a trillion-dollar resilience industry.",
    "The Federal Government can seed its champions today.",
-   "Anthropic’s weak AI bill undermines its ‘safety first’ approach"
+   "AI Hype Helped Google Dodge an Antitrust Breakup."
   ],
-  "based_on": 7
+  "based_on": 9
  },
  "risk": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis",
@@ -30,7 +30,7 @@
    "Machine-learning (ML) malware detectors are known to be vulnerable to adversarial samples.",
    "BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting"
   ],
-  "based_on": 16
+  "based_on": 17
  },
  "mil": {
   "generated_at": "2026-10-17T18:33:39+00:00",
@@ -44,18 +44,18 @@
   "based_on": 2
  },
  "tech": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
-   "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
-   "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
    "Exa 3.0 is a search API upgrade from Exa.",
-   "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second"
+   "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+   "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+   "The post Exa 3.0 Search API Tops Perplexity,…"
   ],
   "based_on": 25
  },
  "models": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "Welcome to Import AI, a newsletter about AI research.",
@@ -63,10 +63,10 @@
    "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
    "I let agents plan a WNBA Finals trip (but kept my wallet to myself)"
   ],
-  "based_on": 21
+  "based_on": 24
  },
  "hw": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "semiconductor industry is booming but industry watchers fear the country’s workforce is unprepared.",
@@ -77,7 +77,7 @@
   "based_on": 2
  },
  "peace": {
-  "generated_at": "2026-10-20T14:21:02+00:00",
+  "generated_at": "2026-10-20T16:18:47+00:00",
   "method": "extractive",
   "bullets": [
    "The future of international law in cyberspace needs more diverse voices",
@@ -95,6 +95,17 @@
    "Designing AI education around children’s agency",
    "Test October Homepage Updates",
    "Children are often presented as passive recipients of AI, expected to adapt to systems they did not design and cannot influence."
+  ],
+  "based_on": 2
+ },
+ "jobs": {
+  "generated_at": "2026-10-20T16:18:47+00:00",
+  "method": "extractive",
+  "bullets": [
+   "True Confessions of an AI Flip Flopper (Again)",
+   "An Interview with FAI’s Newest Non-resident Senior Fellow",
+   "5 Questions with Joshua Achiam",
+   "The stakes of getting AI policy “right” increase by the day and should be informed by the latest evidence."
   ],
   "based_on": 2
  }
