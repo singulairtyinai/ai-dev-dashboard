@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-20T06:19:05+00:00",
+  "checked_at": "2026-10-20T08:18:36+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-20T06:19:07+00:00",
+  "checked_at": "2026-10-20T08:18:37+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-20T06:19:07+00:00",
+  "checked_at": "2026-10-20T08:18:38+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-20T06:19:07+00:00",
+  "checked_at": "2026-10-20T08:18:38+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-20T06:19:10+00:00",
+  "checked_at": "2026-10-20T08:18:41+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-20T06:19:09+00:00",
+  "checked_at": "2026-10-20T08:18:40+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -154,9 +154,10 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-20T06:19:11+00:00",
-  "hash": "dc26f368227fb704ad8c228b650fa1d83a0587cf",
+  "checked_at": "2026-10-20T08:18:42+00:00",
+  "hash": "276e348248070586dbd771c5327c1b5f7b3fb9ad",
   "known": [
+   "ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models",
    "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
    "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
    "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
@@ -166,10 +167,12 @@
    "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
    "Data Science & Artificial Intelligence Lab at HKUST",
    "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+   "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
    "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
    "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
    "Evidence-First Agentic Verification",
    "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+   "FineSplat: Fine Patches, Local Groups, Detailed Splats",
    "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
    "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
    "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
@@ -177,6 +180,7 @@
    "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
    "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
    "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+   "Kronecker Delta Rule for Long Context Linear Attention",
    "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
    "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
    "Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable",
@@ -202,42 +206,44 @@
    "State World Models: Execute the Rules, Generate the Pixels",
    "Text-to-Image Generative Modeling Without Language Pretraining",
    "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+   "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
    "University of California, Los Angeles",
    "University of Southern California",
    "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
+   "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
    "World Model Interpretability: From Decoding Representations to Understanding Latent Worlds",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-20T06:19:11+00:00",
+  "changed_at": "2026-10-20T08:18:42+00:00",
   "added": [
    {
-    "text": "University of California, Los Angeles",
-    "url": "https://huggingface.co/UCLA"
-   },
-   {
-    "text": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+    "text": "Kronecker Delta Rule for Long Context Linear Attention",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Nanyang Technological University",
-    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
-   },
-   {
-    "text": "Evidence-First Agentic Verification",
+    "text": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
+    "text": "ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+    "text": "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "FineSplat: Fine Patches, Local Groups, Detailed Splats",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-20T06:19:15+00:00",
+  "checked_at": "2026-10-20T08:18:45+00:00",
   "hash": "98e2dcce3dd191062e400554e1209a188f705d0d",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -270,7 +276,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-20T06:19:16+00:00",
+  "checked_at": "2026-10-20T08:18:46+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -368,7 +374,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-20T06:19:14+00:00",
+  "checked_at": "2026-10-20T08:18:45+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
