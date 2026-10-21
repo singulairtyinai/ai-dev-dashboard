@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-21T12:18:46+00:00",
+  "checked_at": "2026-10-21T13:54:26+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-21T12:18:47+00:00",
+  "checked_at": "2026-10-21T13:54:27+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,14 +53,12 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-21T12:18:48+00:00",
-  "hash": "ee4054ced39430f202cded59e13d2da5ebde5d33",
+  "checked_at": "2026-10-21T13:54:28+00:00",
+  "hash": "ea3f59d42269200ed662fdc1b8c7a8101a857acc",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
-   "AI Governance Executive Functions: Strategic and Domain Leaders",
    "AI Governance Professional Profiles: Assurance",
    "AI Governance Professional Profiles: Ethics",
-   "AI Governance Professional Profiles: Policy",
    "AI Use Cases in Legal Practice",
    "Australia's privacy reform: Priorities before the OAIC",
    "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
@@ -72,21 +70,22 @@
    "Privacy to a 'TEE' – Secure data collaboration and confidential computing",
    "Proactive AI privacy – Leveraging PETs throughout the AI lifecycle",
    "Professional and Ethical Considerations for AI Use in Legal Practice",
+   "The defensibility imperative: Transforming complex DSR operations across the enterprise",
    "The state of privacy and digital governance: A conversation with Mike Hintze",
    "Trust, safety and security: Advancing smart cross-regulatory collaboration",
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
    "What the phonograph can teach us about managing AI"
   ],
-  "changed_at": "2026-10-21T04:18:14+00:00",
+  "changed_at": "2026-10-21T13:54:28+00:00",
   "added": [
    {
-    "text": "EU AI Act Compliance Matrix",
-    "url": "https://iapp.org/resources/article/eu-ai-act-compliance-matrix"
+    "text": "The defensibility imperative: Transforming complex DSR operations across the enterprise",
+    "url": "https://iapp.org/resources/article/the-defensibility-imperative-transforming-complex-dsr-operations-across-the-enterprise"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-21T12:18:48+00:00",
+  "checked_at": "2026-10-21T13:54:28+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-21T12:18:50+00:00",
+  "checked_at": "2026-10-21T13:54:30+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -118,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-21T12:18:50+00:00",
+  "checked_at": "2026-10-21T13:54:30+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -149,11 +148,12 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-21T12:18:50+00:00",
-  "hash": "f1722945d90f1f38af2150b051a72e6ff67960f7",
+  "checked_at": "2026-10-21T13:54:31+00:00",
+  "hash": "2c7396626d52e008b8b12830ed68ad681ca70041",
   "known": [
    "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
    "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
+   "Chinese Academy of Sciences",
    "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
    "Correction Training for Diffusion Models",
    "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
@@ -168,6 +168,7 @@
    "Focused Omni-Modal GUI Agents",
    "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
    "Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success",
+   "HRoPE: Homography Relative Positional Encoding",
    "Harness Self-Evolution for Long-Horizon Terminal Agents",
    "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
    "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
@@ -198,6 +199,7 @@
    "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
    "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
    "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+   "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
    "SolarRenderer: Few-Step Generative Reference Rendering",
    "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
    "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
@@ -207,28 +209,33 @@
    "University of California, Berkeley",
    "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
    "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
+   "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
    "WinARDet: Compressed Window Auto-Regression for Long-Horizon Vision-Language Grounding",
    "by AK and the research community",
    "λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation"
   ],
-  "changed_at": "2026-10-21T12:18:50+00:00",
+  "changed_at": "2026-10-21T13:54:31+00:00",
   "added": [
    {
-    "text": "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
+    "text": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Technical University of Munich",
-    "url": "https://huggingface.co/TUM"
+    "text": "Chinese Academy of Sciences",
+    "url": "https://huggingface.co/China666"
    },
    {
-    "text": "OverSeer: Multi-Agent World Models Beyond What Agents See",
+    "text": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "HRoPE: Homography Relative Positional Encoding",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-21T12:18:55+00:00",
+  "checked_at": "2026-10-21T13:54:34+00:00",
   "hash": "98e2dcce3dd191062e400554e1209a188f705d0d",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -261,7 +268,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-21T12:18:56+00:00",
+  "checked_at": "2026-10-21T13:54:36+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -359,7 +366,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-21T12:18:55+00:00",
+  "checked_at": "2026-10-21T13:54:35+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
