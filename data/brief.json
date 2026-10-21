@@ -1,108 +1,109 @@
 {
- "generated_at": "2026-10-20T05:51:00+00:00",
+ "generated_at": "2026-10-21T05:51:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UNIDIR examined industry responsibility for military AI and marked Disarmament Week, as a hacker breached 100+ sites with an army of AI agents and Anthropic's leaked AI bill drew criticism as weaker than the FRONTIER Act.",
+ "headline": "UNIDIR examined whether nuclear deterrence is possible amid the Iran talks and marked Disarmament Week with pieces on cyber crises and international law, as ChinaTalk made the case for cutting China off from DUV lithography equipment.",
  "points": [
   {
-   "text": "UNIDIR examined industry responsibility in developing military AI, as the autonomous capabilities of weapon systems draw growing attention from the international community.",
+   "text": "UNIDIR examined whether nuclear deterrence is possible in the context of the Iran talks.",
    "cats": [
     "peace",
-    "mil"
-   ],
-   "item_ids": [
-    "fe878a6e8636"
-   ]
-  },
-  {
-   "text": "UNIDIR marked Disarmament Week with a piece on what makes people involved with armed groups put down their weapons, championing a people-centred approach to disarmament and reintegration.",
-   "cats": [
-    "peace"
-   ],
-   "item_ids": [
-    "ef77794a9230"
-   ]
-  },
-  {
-   "text": "SIPRI examined how to turn Women, Peace and Security commitments into action in defence budgeting.",
-   "cats": [
-    "peace"
-   ],
-   "item_ids": [
-    "001114b407a0"
-   ]
-  },
-  {
-   "text": "ChinaTalk covered the Pentagon's $1 billion drone contest as part of a broader push for drone dominance.",
-   "cats": [
-    "mil",
     "geo"
    ],
    "item_ids": [
-    "5a0502268fbe"
+    "f5cd27591d62"
    ]
   },
   {
-   "text": "A commentary argued Anthropic's leaked draft AI regulatory bill is weaker than the FRONTIER Act, undermining the company's 'safety first' pitch.",
+   "text": "SIPRI assessed the state of play for women in multilateral peace operations in 2026.",
+   "cats": [
+    "peace"
+   ],
+   "item_ids": [
+    "341ace85dd8d"
+   ]
+  },
+  {
+   "text": "UNIDIR argued the future of international law in cyberspace needs more diverse voices, as the rules governing state conduct extend into the digital sphere.",
+   "cats": [
+    "peace",
+    "risk"
+   ],
+   "item_ids": [
+    "8f1ecd1074bf"
+   ]
+  },
+  {
+   "text": "UNIDIR marked Disarmament Week with a piece on preparing for cyber crises before they occur, warning that cybersecurity is not merely a technical challenge when critical infrastructure is affected.",
+   "cats": [
+    "peace",
+    "risk"
+   ],
+   "item_ids": [
+    "b6746bf65b0d"
+   ]
+  },
+  {
+   "text": "ChinaTalk made the case for cutting China off from deep ultraviolet (DUV) lithography equipment.",
+   "cats": [
+    "hw",
+    "geo"
+   ],
+   "item_ids": [
+    "fa0e7aca0fd3"
+   ]
+  },
+  {
+   "text": "A US Air Force F-22 pilot served as an airborne 'quarterback,' controlling an Anduril-made unmanned FQ-44 Collaborative Combat Aircraft in flight.",
+   "cats": [
+    "mil"
+   ],
+   "item_ids": [
+    "904d413b0636"
+   ]
+  },
+  {
+   "text": "Leading AI companies are quietly building a national self-governing structure to oversee their technology, as the federal government stays largely hands-off.",
    "cats": [
     "gov",
-    "risk"
+    "geo"
    ],
    "item_ids": [
-    "9487c00abcf2"
+    "6cba97ffa33c"
    ]
   },
   {
-   "text": "AI-generated deepfakes are producing reality-bending midterm election ads, as warnings about election disinformation come true.",
-   "cats": [
-    "geo",
-    "risk"
-   ],
-   "item_ids": [
-    "c6a9872690d0"
-   ]
-  },
-  {
-   "text": "A hacker breached more than 100 websites, including John Deere and SharkNinja, using an army of largely autonomous AI agents, according to security firm Norforge.",
-   "cats": [
-    "risk"
-   ],
-   "item_ids": [
-    "c08e28e17ab3"
-   ]
-  },
-  {
-   "text": "A judge ordered a former OpenAI engineer accused of spying on executives to remain in custody, likening the Saudi government's offer to secure his release to a 'blank check.'",
+   "text": "Security teams are confronting AI models that suddenly refuse to help investigate cyberattacks, a growing problem as AI giants race to fend off AI-enabled cyber threats.",
    "cats": [
     "risk",
     "geo"
    ],
    "item_ids": [
-    "100017994d8d"
+    "7f832356396e"
    ]
   }
  ],
  "categories": {
   "peace": [
-   "UNIDIR examined industry responsibility in developing military AI.",
-   "UNIDIR marked Disarmament Week with a piece on people-centred disarmament.",
-   "SIPRI examined turning Women, Peace and Security commitments into action in defence budgeting."
+   "UNIDIR examined whether nuclear deterrence is possible amid the Iran talks.",
+   "SIPRI assessed women in multilateral peace operations in 2026.",
+   "UNIDIR argued international cyber law needs more diverse voices and marked Disarmament Week on cyber crises."
   ],
   "mil": [
-   "UNIDIR examined industry responsibility in developing military AI.",
-   "ChinaTalk covered the Pentagon's $1 billion drone contest."
+   "A US Air Force F-22 pilot controlled an Anduril-made unmanned FQ-44 in flight."
   ],
-  "gov": [
-   "A commentary said Anthropic's leaked AI bill is weaker than the FRONTIER Act."
-  ],
-  "risk": [
-   "A hacker breached 100+ websites using an army of AI agents.",
-   "AI deepfakes are producing reality-bending midterm election ads.",
-   "A judge ordered an OpenAI engineer accused of spying to remain in custody."
+  "hw": [
+   "ChinaTalk made the case for cutting China off from DUV lithography equipment."
   ],
   "geo": [
-   "ChinaTalk covered the Pentagon's drone contest.",
-   "AI deepfakes are hitting midterm election ads.",
-   "The Saudi government offered a 'blank check' to free an OpenAI spying suspect."
+   "ChinaTalk made the case for DUV export controls.",
+   "Leading AI companies are building a national self-governing structure."
+  ],
+  "gov": [
+   "Leading AI companies are building a national self-governing structure as the government stays hands-off."
+  ],
+  "risk": [
+   "UNIDIR warned international cyber law needs more diverse voices.",
+   "Security teams are confronting AI models that refuse to help fight hackers."
   ]
  }
 }
