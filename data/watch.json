@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-21T14:20:40+00:00",
+  "checked_at": "2026-10-21T16:18:29+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-21T14:20:41+00:00",
+  "checked_at": "2026-10-21T16:18:30+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,8 +53,8 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-21T14:20:41+00:00",
-  "hash": "ea3f59d42269200ed662fdc1b8c7a8101a857acc",
+  "checked_at": "2026-10-21T16:18:30+00:00",
+  "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
    "AI Governance Professional Profiles: Assurance",
@@ -68,7 +68,7 @@
    "Legal responsibility for AI agents: Who answers when an agent acts alone?",
    "Mentor Q&A: Breaking into privacy, early career development, and AI",
    "Privacy to a 'TEE' – Secure data collaboration and confidential computing",
-   "Proactive AI privacy – Leveraging PETs throughout the AI lifecycle",
+   "Proactive AI privacy – Leveraging PETs throughout the AI life cycle",
    "Professional and Ethical Considerations for AI Use in Legal Practice",
    "The defensibility imperative: Transforming complex DSR operations across the enterprise",
    "The state of privacy and digital governance: A conversation with Mike Hintze",
@@ -76,16 +76,16 @@
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
    "What the phonograph can teach us about managing AI"
   ],
-  "changed_at": "2026-10-21T13:54:28+00:00",
+  "changed_at": "2026-10-21T16:18:30+00:00",
   "added": [
    {
-    "text": "The defensibility imperative: Transforming complex DSR operations across the enterprise",
-    "url": "https://iapp.org/resources/article/the-defensibility-imperative-transforming-complex-dsr-operations-across-the-enterprise"
+    "text": "Proactive AI privacy – Leveraging PETs throughout the AI life cycle",
+    "url": "https://iapp.org/resources/article/proactive-ai-privacy-leveraging-pets-throughout-the-ai-life-cycle"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-21T14:20:41+00:00",
+  "checked_at": "2026-10-21T16:18:31+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-21T14:20:44+00:00",
+  "checked_at": "2026-10-21T16:18:33+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-21T14:20:43+00:00",
+  "checked_at": "2026-10-21T16:18:32+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -148,8 +148,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-21T14:20:45+00:00",
-  "hash": "2c7396626d52e008b8b12830ed68ad681ca70041",
+  "checked_at": "2026-10-21T16:18:34+00:00",
+  "hash": "6e6586fa9887e7aee49e233c3249bc45fae92fc1",
   "known": [
    "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
    "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
@@ -157,6 +157,7 @@
    "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
    "Correction Training for Diffusion Models",
    "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+   "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
    "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
    "EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends",
    "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
@@ -189,6 +190,7 @@
    "OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning",
    "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
    "On the Limits of Scale: Inverse Scaling in Vision-Language Models",
+   "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
    "OverSeer: Multi-Agent World Models Beyond What Agents See",
    "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
    "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
@@ -199,6 +201,8 @@
    "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
    "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
    "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+   "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+   "Seoul National University",
    "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
    "SolarRenderer: Few-Step Generative Reference Rendering",
    "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
@@ -214,22 +218,22 @@
    "by AK and the research community",
    "λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation"
   ],
-  "changed_at": "2026-10-21T13:54:31+00:00",
+  "changed_at": "2026-10-21T16:18:34+00:00",
   "added": [
    {
-    "text": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
+    "text": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Chinese Academy of Sciences",
-    "url": "https://huggingface.co/China666"
-   },
-   {
-    "text": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+    "text": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "HRoPE: Homography Relative Positional Encoding",
+    "text": "Seoul National University",
+    "url": "https://huggingface.co/SeoulNatlUniv"
+   },
+   {
+    "text": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -268,7 +272,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-21T14:20:49+00:00",
+  "checked_at": "2026-10-21T16:18:39+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -366,7 +370,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-21T14:20:47+00:00",
+  "checked_at": "2026-10-21T16:18:38+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
