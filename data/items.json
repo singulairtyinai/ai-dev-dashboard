@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T13:54:26+00:00",
+ "updated": "2026-10-21T14:20:39+00:00",
  "items": [
   {
    "title": "SIPRI Yearbook 2026 summary now available in 14 languages",
@@ -19,16 +19,46 @@
    ]
   },
   {
-   "title": "MOFCOM’s New AI Rules",
+   "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+   "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+   "published": "2026-10-21T14:00:00+00:00",
+   "preview": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+   "id": "e50d33e77f8a",
+   "source": "wired-ai",
+   "fetched": "2026-10-21T14:20:39+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+   "published": "2026-10-21T13:57:43+00:00",
+   "preview": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor…",
+   "id": "c55b4c3c8ca2",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-21T14:20:39+00:00",
+   "countries": []
+  },
+  {
+   "title": "MOFCOM's New Rules and the Future of Chinese AI",
    "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
    "published": "2026-10-21T13:43:39+00:00",
-   "preview": "The ChinaTalk Avengers assemble",
+   "preview": "a big deal",
    "id": "1a0c7271a843",
    "source": "chinatalk",
    "fetched": "2026-10-21T13:54:26+00:00",
    "countries": [
     "China"
    ]
+  },
+  {
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "published": "2026-10-21T13:00:00+00:00",
+   "preview": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "id": "74fcf21eca7a",
+   "source": "openai-news",
+   "fetched": "2026-10-21T14:20:39+00:00",
+   "countries": []
   },
   {
    "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
@@ -198,6 +228,16 @@
    "countries": []
   },
   {
+   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+   "url": "https://openai.com/index/building-chatgpt-ad-stack",
+   "published": "2026-10-21T07:00:00+00:00",
+   "preview": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+   "id": "edef63b51aed",
+   "source": "openai-news",
+   "fetched": "2026-10-21T14:20:39+00:00",
+   "countries": []
+  },
+  {
    "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
    "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
    "published": "2026-10-21T06:03:12+00:00",
@@ -215,6 +255,16 @@
    "id": "1d03a92d3df9",
    "source": "defense-one-technology",
    "fetched": "2026-10-21T06:20:10+00:00",
+   "countries": []
+  },
+  {
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "published": "2026-10-21T04:50:00+00:00",
+   "preview": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "id": "1de8e62ff715",
+   "source": "openai-news",
+   "fetched": "2026-10-21T14:20:39+00:00",
    "countries": []
   },
   {
@@ -1304,6 +1354,16 @@
    "countries": []
   },
   {
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "published": "2026-10-20T00:00:00+00:00",
+   "preview": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "id": "dbaa90254253",
+   "source": "openai-news",
+   "fetched": "2026-10-20T18:18:29+00:00",
+   "countries": []
+  },
+  {
    "title": "MPS in PyTorch 2.15",
    "url": "https://huggingface.co/blog/mps-pytorch-2-15",
    "published": "2026-10-20T00:00:00+00:00",
@@ -1331,16 +1391,6 @@
    "id": "84cd8d44e982",
    "source": "hugging-face-blog",
    "fetched": "2026-10-20T16:18:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "OpenAI acquires Orchestra Bio",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "published": "2026-10-20T00:00:00+00:00",
-   "preview": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "id": "dbaa90254253",
-   "source": "openai-news",
-   "fetched": "2026-10-20T18:18:29+00:00",
    "countries": []
   },
   {
@@ -1942,16 +1992,6 @@
    "countries": []
   },
   {
-   "title": "Advancing coding in low‑resource programming languages",
-   "url": "https://openai.com/index/low-resource-programming-languages",
-   "published": "2026-10-19T12:00:00+00:00",
-   "preview": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-   "id": "7a364f356aab",
-   "source": "openai-news",
-   "fetched": "2026-10-19T23:46:32+00:00",
-   "countries": []
-  },
-  {
    "title": "Democrats think cracking down on AI could give them an edge",
    "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
    "published": "2026-10-19T12:00:00+00:00",
@@ -1962,6 +2002,16 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "Advancing coding in low‑resource programming languages",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "published": "2026-10-19T12:00:00+00:00",
+   "preview": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "id": "7a364f356aab",
+   "source": "openai-news",
+   "fetched": "2026-10-19T23:46:32+00:00",
+   "countries": []
   },
   {
    "title": "ChinAI #378: China’s Two-day Weekend Defenders",
@@ -2904,16 +2954,6 @@
    "countries": []
   },
   {
-   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-   "url": "https://huggingface.co/blog/reflection-beam",
-   "published": "2026-10-16T00:00:00+00:00",
-   "preview": "",
-   "id": "849b423196d1",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-16T13:19:08+00:00",
-   "countries": []
-  },
-  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "published": "2026-10-16T00:00:00+00:00",
@@ -2931,6 +2971,16 @@
    "id": "4a2f3ca18eb9",
    "source": "openai-news",
    "fetched": "2026-10-17T07:01:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "published": "2026-10-16T00:00:00+00:00",
+   "preview": "",
+   "id": "849b423196d1",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-16T13:19:08+00:00",
    "countries": []
   },
   {
@@ -3261,6 +3311,16 @@
    "countries": []
   },
   {
+   "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+   "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+   "published": "2026-10-15T13:00:00+00:00",
+   "preview": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out…",
+   "id": "adaf79e50c2e",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-15T14:19:05+00:00",
+   "countries": []
+  },
+  {
    "title": "Teaching students to think and learn through questions",
    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
    "published": "2026-10-15T13:00:00+00:00",
@@ -3271,16 +3331,6 @@
    "countries": [
     "Brazil"
    ]
-  },
-  {
-   "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
-   "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-   "published": "2026-10-15T13:00:00+00:00",
-   "preview": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out…",
-   "id": "adaf79e50c2e",
-   "source": "the-verge-ai",
-   "fetched": "2026-10-15T14:19:05+00:00",
-   "countries": []
   },
   {
    "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
@@ -3411,6 +3461,16 @@
    ]
   },
   {
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "published": "2026-10-15T00:00:00+00:00",
+   "preview": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "id": "dd00c04c9b95",
+   "source": "openai-news",
+   "fetched": "2026-10-16T02:18:23+00:00",
+   "countries": []
+  },
+  {
    "title": "Welcome FLUX.3 Image Klein in Diffusers",
    "url": "https://huggingface.co/blog/flux-3",
    "published": "2026-10-15T00:00:00+00:00",
@@ -3428,16 +3488,6 @@
    "id": "9d251ac6836a",
    "source": "hugging-face-blog",
    "fetched": "2026-10-15T18:18:37+00:00",
-   "countries": []
-  },
-  {
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "published": "2026-10-15T00:00:00+00:00",
-   "preview": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "id": "dd00c04c9b95",
-   "source": "openai-news",
-   "fetched": "2026-10-16T02:18:23+00:00",
    "countries": []
   },
   {
@@ -3738,16 +3788,6 @@
    "preview": "Current AI isn’t superhumanly intelligent, but it is superhumanly fast, and that opens many new possibilities",
    "id": "14958e9a5e8d",
    "source": "second-thoughts-steve-newman",
-   "fetched": "2026-10-14T14:19:14+00:00",
-   "countries": []
-  },
-  {
-   "title": "Epic’s new games launcher is ‘vibe coded’",
-   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-   "published": "2026-10-14T13:55:02+00:00",
-   "preview": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into…",
-   "id": "08495a955cc8",
-   "source": "the-verge-ai",
    "fetched": "2026-10-14T14:19:14+00:00",
    "countries": []
   },
@@ -5344,16 +5384,6 @@
    "countries": []
   },
   {
-   "title": "The model that didn't exist, so you made it yourself",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
-   "published": "2026-10-08T00:00:00+00:00",
-   "preview": "",
-   "id": "0f05fd4155a4",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-08T22:19:00+00:00",
-   "countries": []
-  },
-  {
    "title": "Disrupting AI-enabled “false front” operations",
    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
    "published": "2026-10-08T00:00:00+00:00",
@@ -5361,6 +5391,16 @@
    "id": "077dea1e8a7a",
    "source": "openai-news",
    "fetched": "2026-10-08T16:18:15+00:00",
+   "countries": []
+  },
+  {
+   "title": "The model that didn't exist, so you made it yourself",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "published": "2026-10-08T00:00:00+00:00",
+   "preview": "",
+   "id": "0f05fd4155a4",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-08T22:19:00+00:00",
    "countries": []
   },
   {
@@ -5840,16 +5880,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
-   "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
-   "published": "2026-10-06T17:28:33+00:00",
-   "preview": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems.",
-   "id": "f2d406e0dd6f",
-   "source": "wired-ai",
-   "fetched": "2026-10-06T18:18:25+00:00",
-   "countries": []
   },
   {
    "title": "Digital Cooperation Day 2026 turns commitments into action",
@@ -7273,16 +7303,6 @@
    "countries": []
   },
   {
-   "title": "Disrupting a coordinated model-distillation campaign",
-   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "published": "2026-09-30T10:30:00+00:00",
-   "preview": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-   "id": "6a91381a4292",
-   "source": "openai-news",
-   "fetched": "2026-09-30T18:18:20+00:00",
-   "countries": []
-  },
-  {
    "title": "Logan Wright on Broken China",
    "url": "https://www.chinatalk.media/p/logan-wright-on-broken-china",
    "published": "2026-09-30T10:06:04+00:00",
@@ -7293,16 +7313,6 @@
    "countries": [
     "China"
    ]
-  },
-  {
-   "title": "Helping small businesses put AI to work",
-   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-   "published": "2026-09-30T10:00:00+00:00",
-   "preview": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-   "id": "b5e5e43443d2",
-   "source": "openai-news",
-   "fetched": "2026-09-30T16:18:29+00:00",
-   "countries": []
   },
   {
    "title": "TechFirst",
@@ -7542,16 +7552,6 @@
    "id": "a002a190645e",
    "source": "ieee-spectrum-semiconductors",
    "fetched": "2026-09-29T10:18:34+00:00",
-   "countries": []
-  },
-  {
-   "title": "Introducing GPT-6.1 Sol",
-   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "published": "2026-09-29T10:00:00+00:00",
-   "preview": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-   "id": "dd66acaed2a0",
-   "source": "openai-news",
-   "fetched": "2026-09-29T18:18:13+00:00",
    "countries": []
   },
   {
