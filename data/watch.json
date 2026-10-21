@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-21T00:40:26+00:00",
+  "checked_at": "2026-10-21T02:18:41+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-21T00:40:27+00:00",
+  "checked_at": "2026-10-21T02:18:39+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-21T00:40:28+00:00",
+  "checked_at": "2026-10-21T02:18:39+00:00",
   "hash": "57381d6800a5c9bf7884273968ca1b45c4aa6820",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -87,7 +87,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-21T00:40:28+00:00",
+  "checked_at": "2026-10-21T02:18:40+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -101,7 +101,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-21T00:40:31+00:00",
+  "checked_at": "2026-10-21T02:18:46+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-21T00:40:29+00:00",
+  "checked_at": "2026-10-21T02:18:48+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -154,103 +154,53 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-21T00:40:32+00:00",
-  "hash": "f6241d9a2ae0c5170da5bdd26f31551c503a6fab",
+  "checked_at": "2026-10-21T02:18:46+00:00",
+  "hash": "cbd28841381b762bb2654ecd6006b0d4b4b6be4e",
   "known": [
-   "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
-   "A Language-Informed Loss for Visual Generation",
-   "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
-   "ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models",
-   "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
-   "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
-   "Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale",
-   "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
-   "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
-   "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-   "Co-Evolving Acting and Forecasting for Language Agents",
-   "Competence-Based Evaluation of Logical Reasoning in Large Language Models",
-   "Competing Learning in Hybrid Architectures",
-   "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
-   "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
-   "Data Science & Artificial Intelligence Lab at HKUST",
-   "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
-   "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
-   "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
-   "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
-   "Evidence-First Agentic Verification",
-   "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
-   "FineSplat: Fine Patches, Local Groups, Detailed Splats",
-   "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
-   "HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention",
-   "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
-   "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
-   "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-   "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
-   "Harnessing Textual Refusal Directions for Multimodal Safety",
-   "Heterogeneous Agentic Coevolution",
-   "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
-   "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
-   "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
-   "Kronecker Delta Rule for Long Context Linear Attention",
-   "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
-   "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-   "Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable",
-   "Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations",
-   "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
-   "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
-   "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
-   "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-   "MemT-1.0: Towards Memory-Native Evolution",
-   "Multimedia and Human Understanding Group",
-   "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
+   "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
+   "EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends",
+   "Focused Omni-Modal GUI Agents",
+   "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
+   "HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents",
+   "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
    "Nanyang Technological University",
-   "National Yang Ming Chiao Tung University",
-   "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
-   "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-   "Pennsylvania State University",
-   "Physical AI Group, Institute of AI for Engineering (IAIE), Tongji University",
-   "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
-   "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
-   "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
-   "QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity",
-   "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
-   "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
-   "Remembering Has a Price: Learning Memory Worth under Resource Constraints",
-   "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
-   "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
-   "SPARC: Spoken Profile Authorship Recognition Corpus",
-   "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
-   "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-   "Self-Evaluating Recursive Agents",
-   "Self-Evolving Coding Agents via Harness-Policy Optimization",
-   "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
-   "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
-   "State World Models: Execute the Rules, Generate the Pixels",
-   "StopLoss: Teaching Agents to Predict Failure and Stop Early",
-   "Text-to-Image Generative Modeling Without Language Pretraining",
-   "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
-   "Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation",
-   "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
-   "Training Reasoning Models to Generate Diverse Scientific Ideas",
-   "UniAVC: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling",
-   "University of Illinois at Urbana-Champaign",
-   "University of Southern California",
-   "Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
-   "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
-   "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
-   "World Model Interpretability: From Decoding Representations to Understanding Latent Worlds",
+   "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+   "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+   "SolarRenderer: Few-Step Generative Reference Rendering",
+   "TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction",
+   "Ulsan National Institute of Science and Technology",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-21T00:18:36+00:00",
+  "changed_at": "2026-10-21T02:18:46+00:00",
   "added": [
    {
-    "text": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+    "text": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Focused Omni-Modal GUI Agents",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SolarRenderer: Few-Step Generative Reference Rendering",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-21T00:40:35+00:00",
+  "checked_at": "2026-10-21T02:18:59+00:00",
   "hash": "98e2dcce3dd191062e400554e1209a188f705d0d",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -283,7 +233,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-21T00:40:36+00:00",
+  "checked_at": "2026-10-21T02:19:00+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -381,7 +331,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-21T00:40:35+00:00",
+  "checked_at": "2026-10-21T02:18:54+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
