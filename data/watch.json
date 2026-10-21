@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-21T06:20:11+00:00",
+  "checked_at": "2026-10-21T07:46:28+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-21T06:20:12+00:00",
+  "checked_at": "2026-10-21T07:46:29+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-21T06:20:12+00:00",
+  "checked_at": "2026-10-21T07:46:30+00:00",
   "hash": "ee4054ced39430f202cded59e13d2da5ebde5d33",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-21T06:20:13+00:00",
+  "checked_at": "2026-10-21T07:46:31+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-21T06:20:15+00:00",
+  "checked_at": "2026-10-21T07:46:33+00:00",
   "hash": "341c25120b9b3c7da0adad9744785c6df6addb95",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -122,7 +122,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-21T06:20:14+00:00",
+  "checked_at": "2026-10-21T07:46:32+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -153,8 +153,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-21T06:20:15+00:00",
-  "hash": "3768647690778b6c984573c3aaba7f8d46dbc462",
+  "checked_at": "2026-10-21T07:46:34+00:00",
+  "hash": "7e88d8a47b58538c82d4bd27ab3f52bb4993b400",
   "known": [
    "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
    "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
@@ -163,7 +163,9 @@
    "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
    "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
    "EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends",
+   "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
    "EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning",
+   "Evolving Agent Interfaces",
    "Focused Omni-Modal GUI Agents",
    "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
    "Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success",
@@ -180,6 +182,7 @@
    "Multimedia and Human Understanding Group",
    "Multimodal Reranking Is a System One Decision",
    "Nanyang Technological University",
+   "OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning",
    "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
    "Painting Change Map as guidance for generating painting processes",
    "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
@@ -188,44 +191,42 @@
    "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
    "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
    "SolarRenderer: Few-Step Generative Reference Rendering",
+   "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
    "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
    "TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction",
    "Ulsan National Institute of Science and Technology",
    "University of California, Berkeley",
    "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
    "WinARDet: Compressed Window Auto-Regression for Long-Horizon Vision-Language Grounding",
-   "by AK and the research community"
+   "by AK and the research community",
+   "λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation"
   ],
-  "changed_at": "2026-10-21T06:20:15+00:00",
+  "changed_at": "2026-10-21T07:46:34+00:00",
   "added": [
    {
-    "text": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+    "text": "Evolving Agent Interfaces",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Painting Change Map as guidance for generating painting processes",
+    "text": "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Multimedia and Human Understanding Group",
-    "url": "https://huggingface.co/MHUGLab"
-   },
-   {
-    "text": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
+    "text": "OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+    "text": "λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
+    "text": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-21T06:20:19+00:00",
+  "checked_at": "2026-10-21T07:46:37+00:00",
   "hash": "98e2dcce3dd191062e400554e1209a188f705d0d",
   "known": [
    "225th session of the Executive Board, 5-20 October 2026",
@@ -258,7 +259,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-21T06:20:21+00:00",
+  "checked_at": "2026-10-21T07:46:39+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -356,7 +357,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-21T06:20:19+00:00",
+  "checked_at": "2026-10-21T07:46:37+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
