@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-22T16:20:52+00:00",
+ "updated": "2026-10-22T17:17:25+00:00",
  "items": [
+  {
+   "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+   "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
+   "published": "2026-10-22T16:56:12+00:00",
+   "preview": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m ships under Apache 2.0, fits in 64.5 MB, and starts speaking in about 7 ms on a laptop CPU. The post Gradium…",
+   "id": "0ce345b4f57b",
+   "source": "marktechpost",
+   "fetched": "2026-10-22T17:17:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
+   "url": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
+   "published": "2026-10-22T16:31:31+00:00",
+   "preview": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases…",
+   "id": "5ab3f0bf0aeb",
+   "source": "marktechpost",
+   "fetched": "2026-10-22T17:17:25+00:00",
+   "countries": []
+  },
   {
    "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
    "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
@@ -9,6 +29,16 @@
    "id": "2a8e11324f4e",
    "source": "the-verge-ai",
    "fetched": "2026-10-22T16:20:52+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Developer’s Guide to OmniParseBench: Leaderboard Benchmarks and OCR Testing",
+   "url": "https://www.marktechpost.com/2026/10/22/omniparsebench-document-parsing-leaderboard-guide/",
+   "published": "2026-10-22T16:11:52+00:00",
+   "preview": "Explore how to audit and rebuild Datalab's OmniParseBench, test parser ranking certainty with document-level bootstrapping, and evaluate Tesseract and Indra OCR performance on a custom sample. The post A Developer’s…",
+   "id": "db75b6f3e116",
+   "source": "marktechpost",
+   "fetched": "2026-10-22T17:17:25+00:00",
    "countries": []
   },
   {
@@ -320,6 +350,16 @@
    "id": "19e4246081a2",
    "source": "wired-ai",
    "fetched": "2026-10-22T04:18:44+00:00",
+   "countries": []
+  },
+  {
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "published": "2026-10-22T00:00:00+00:00",
+   "preview": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "id": "ba6fa07d677a",
+   "source": "openai-news",
+   "fetched": "2026-10-22T17:17:25+00:00",
    "countries": []
   },
   {
@@ -4609,16 +4649,6 @@
    "countries": []
   },
   {
-   "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
-   "url": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
-   "published": "2026-10-14T05:03:34+00:00",
-   "preview": "Google has made Gemini 4 Argon generally available on the Gemini API, AI Studio and the Gemini app. The sparse MoE model writes up to 1M output tokens and leads the Vals Index at 68.90%. The post Google Releases Gemini…",
-   "id": "a57776da8f8a",
-   "source": "marktechpost",
-   "fetched": "2026-10-14T06:18:43+00:00",
-   "countries": []
-  },
-  {
    "title": "Army converts Futures and Concepts Command to Futures and Autonomy Command",
    "url": "https://www.defenseone.com/technology/2026/10/army-converts-futures-and-concepts-command-futures-and-autonomy-command/416576/",
    "published": "2026-10-14T00:55:24+00:00",
@@ -4679,26 +4709,6 @@
    "preview": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
    "id": "bfa2207d1022",
    "source": "wired-ai",
-   "fetched": "2026-10-14T00:18:08+00:00",
-   "countries": []
-  },
-  {
-   "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-   "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
-   "published": "2026-10-13T22:53:44+00:00",
-   "preview": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon. The post Meta…",
-   "id": "f81c98d740ae",
-   "source": "marktechpost",
-   "fetched": "2026-10-14T00:18:08+00:00",
-   "countries": []
-  },
-  {
-   "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
-   "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
-   "published": "2026-10-13T22:14:20+00:00",
-   "preview": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and…",
-   "id": "bce994dff977",
-   "source": "marktechpost",
    "fetched": "2026-10-14T00:18:08+00:00",
    "countries": []
   },
@@ -6653,18 +6663,6 @@
    "source": "unidir",
    "fetched": "2026-10-05T16:18:36+00:00",
    "countries": []
-  },
-  {
-   "title": "Our approach to EU text provenance rules",
-   "url": "https://openai.com/index/eu-text-provenance",
-   "published": "2026-10-05T15:00:00+00:00",
-   "preview": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-   "id": "78ad53815846",
-   "source": "openai-news",
-   "fetched": "2026-10-05T16:18:36+00:00",
-   "countries": [
-    "European Union"
-   ]
   },
   {
    "title": "Germany to set up first drone regiment next year, modeled after Ukraine war lessons",
