@@ -1,6 +1,69 @@
 {
- "updated": "2026-10-22T06:21:34+00:00",
+ "updated": "2026-10-22T08:18:48+00:00",
  "items": [
+  {
+   "title": "The Endless Chip War",
+   "url": "https://warontherocks.com/cogs-of-war/the-endless-chip-war/",
+   "published": "2026-10-22T08:00:46+00:00",
+   "preview": "This exclusive Cogs of War interview is with Rakesh Kumar, the author of Chip Age: How Semiconductors Became the World’s Most Powerful Resource. Rakesh has worked as a co-founder, professor, researcher, and advisor in…",
+   "id": "27ed8a0089f9",
+   "source": "war-on-the-rocks",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": []
+  },
+  {
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "published": "2026-10-22T07:51:31+00:00",
+   "preview": "",
+   "id": "5d118fadbe79",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": []
+  },
+  {
+   "title": "Deception in Mass Autonomous Warfare",
+   "url": "https://warontherocks.com/deception-in-mass-autonomous-warfare/",
+   "published": "2026-10-22T07:30:37+00:00",
+   "preview": "“[T]he exigencies of desperate survival do stimulate wise leaders to seek such unorthodox solutions.” —Barton Whaley, StratagemOn the night of Jan. 5, 2025, my first mission in the Pokrovsk command post was to make a…",
+   "id": "57a63a8f60be",
+   "source": "war-on-the-rocks",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": []
+  },
+  {
+   "title": "The West Is Thinking Too Small About Ukraine’s Victory",
+   "url": "https://warontherocks.com/the-west-is-thinking-too-small-about-ukraines-victory/",
+   "published": "2026-10-22T07:30:35+00:00",
+   "preview": "Since fall 2023, Ukraine’s supporters have fallen into a pattern: Ukrainians warn that Russia is targeting its energy infrastructure to prevent them from heating their homes, schools, and businesses in the coming…",
+   "id": "eca8a2c27af9",
+   "source": "war-on-the-rocks",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": [
+    "Russia",
+    "Ukraine"
+   ]
+  },
+  {
+   "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation",
+   "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
+   "published": "2026-10-22T07:00:56+00:00",
+   "preview": "IBM released Granite Speech 5.0 2B, an Apache 2.0 speech recognition and translation model. It ranks #2 on the Open ASR Leaderboard with 5.68% average English WER, alongside updated Turbo CTC and 4.1 2B Plus models. The…",
+   "id": "c63a5d99ac39",
+   "source": "marktechpost",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": []
+  },
+  {
+   "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+   "url": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+   "published": "2026-10-22T04:56:31+00:00",
+   "preview": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO’s accuracy with 6.5x fewer processed training tokens. The post Perplexity and…",
+   "id": "7ee8d60e8c50",
+   "source": "marktechpost",
+   "fetched": "2026-10-22T08:18:48+00:00",
+   "countries": []
+  },
   {
    "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
    "url": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
@@ -2334,16 +2397,6 @@
    "countries": []
   },
   {
-   "title": "OpenAI acquires Orchestra Bio",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "published": "2026-10-20T00:00:00+00:00",
-   "preview": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "id": "dbaa90254253",
-   "source": "openai-news",
-   "fetched": "2026-10-20T18:18:29+00:00",
-   "countries": []
-  },
-  {
    "title": "MPS in PyTorch 2.15",
    "url": "https://huggingface.co/blog/mps-pytorch-2-15",
    "published": "2026-10-20T00:00:00+00:00",
@@ -2371,6 +2424,16 @@
    "id": "84cd8d44e982",
    "source": "hugging-face-blog",
    "fetched": "2026-10-20T16:18:18+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "published": "2026-10-20T00:00:00+00:00",
+   "preview": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "id": "dbaa90254253",
+   "source": "openai-news",
+   "fetched": "2026-10-20T18:18:29+00:00",
    "countries": []
   },
   {
@@ -3344,6 +3407,16 @@
    "countries": []
   },
   {
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "published": "2026-10-16T00:00:00+00:00",
+   "preview": "",
+   "id": "849b423196d1",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-16T13:19:08+00:00",
+   "countries": []
+  },
+  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "published": "2026-10-16T00:00:00+00:00",
@@ -3361,16 +3434,6 @@
    "id": "4a2f3ca18eb9",
    "source": "openai-news",
    "fetched": "2026-10-17T07:01:35+00:00",
-   "countries": []
-  },
-  {
-   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-   "url": "https://huggingface.co/blog/reflection-beam",
-   "published": "2026-10-16T00:00:00+00:00",
-   "preview": "",
-   "id": "849b423196d1",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-16T13:19:08+00:00",
    "countries": []
   },
   {
@@ -3851,16 +3914,6 @@
    ]
   },
   {
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "published": "2026-10-15T00:00:00+00:00",
-   "preview": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "id": "dd00c04c9b95",
-   "source": "openai-news",
-   "fetched": "2026-10-16T02:18:23+00:00",
-   "countries": []
-  },
-  {
    "title": "Welcome FLUX.3 Image Klein in Diffusers",
    "url": "https://huggingface.co/blog/flux-3",
    "published": "2026-10-15T00:00:00+00:00",
@@ -3878,6 +3931,16 @@
    "id": "9d251ac6836a",
    "source": "hugging-face-blog",
    "fetched": "2026-10-15T18:18:37+00:00",
+   "countries": []
+  },
+  {
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "published": "2026-10-15T00:00:00+00:00",
+   "preview": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "id": "dd00c04c9b95",
+   "source": "openai-news",
+   "fetched": "2026-10-16T02:18:23+00:00",
    "countries": []
   },
   {
@@ -4736,16 +4799,6 @@
    "countries": []
   },
   {
-   "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-   "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
-   "published": "2026-10-13T08:19:54+00:00",
-   "preview": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application. The post Z.ai GLM-Legal Beats…",
-   "id": "9c672cafb8c1",
-   "source": "marktechpost",
-   "fetched": "2026-10-13T10:17:56+00:00",
-   "countries": []
-  },
-  {
    "title": "Building an Arsenal That Survives the Tenth Salvo",
    "url": "https://warontherocks.com/cogs-of-war/building-an-arsenal-that-survives-the-tenth-salvo/",
    "published": "2026-10-13T08:00:21+00:00",
@@ -4800,16 +4853,6 @@
    "preview": "Three OpenAI safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, were fired, ostensibly for ‘mishandling sensitive company information.’ Those employees have published an open letter. The employees have…",
    "id": "d97e39d38112",
    "source": "don-t-worry-about-the-vase-zvi",
-   "fetched": "2026-10-12T23:02:34+00:00",
-   "countries": []
-  },
-  {
-   "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-   "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
-   "published": "2026-10-12T21:41:50+00:00",
-   "preview": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from Alibaba that trains coding…",
-   "id": "aebcb90d3102",
-   "source": "marktechpost",
    "fetched": "2026-10-12T23:02:34+00:00",
    "countries": []
   },
@@ -5684,16 +5727,6 @@
    "countries": []
   },
   {
-   "title": "Disrupting AI-enabled “false front” operations",
-   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-   "published": "2026-10-08T00:00:00+00:00",
-   "preview": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-   "id": "077dea1e8a7a",
-   "source": "openai-news",
-   "fetched": "2026-10-08T16:18:15+00:00",
-   "countries": []
-  },
-  {
    "title": "The model that didn't exist, so you made it yourself",
    "url": "https://huggingface.co/blog/building-with-ml-intern",
    "published": "2026-10-08T00:00:00+00:00",
@@ -5701,6 +5734,16 @@
    "id": "0f05fd4155a4",
    "source": "hugging-face-blog",
    "fetched": "2026-10-08T22:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Disrupting AI-enabled “false front” operations",
+   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "published": "2026-10-08T00:00:00+00:00",
+   "preview": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "id": "077dea1e8a7a",
+   "source": "openai-news",
+   "fetched": "2026-10-08T16:18:15+00:00",
    "countries": []
   },
   {
@@ -7265,28 +7308,6 @@
    ]
   },
   {
-   "title": "MacGyver at Scale: Winning Future Air Wars of Rapid Technological Adaptation",
-   "url": "https://warontherocks.com/cogs-of-war/macgyver-at-scale-winning-future-air-wars-of-rapid-technological-adaptation/",
-   "published": "2026-10-01T08:00:48+00:00",
-   "preview": "During a recent training exercise in the western Pacific, a small group of engineers single-handedly saved the day.In the scenario, adversary covert forces used first-person view drones to intercept American helicopters…",
-   "id": "412ef5a3dea4",
-   "source": "war-on-the-rocks",
-   "fetched": "2026-10-01T10:19:22+00:00",
-   "countries": [
-    "United States"
-   ]
-  },
-  {
-   "title": "School of War or School of Battle? Educating for an Uncertain Future",
-   "url": "https://warontherocks.com/school-of-war-or-school-of-battle-educating-for-an-uncertain-future/",
-   "published": "2026-10-01T07:30:11+00:00",
-   "preview": "In 1901, military analyst Jan Bloch declared that new military technologies had changed war so radically that the study of history had become useless. He castigated military officers who prepared for future war based on…",
-   "id": "dfe7fec4d741",
-   "source": "war-on-the-rocks",
-   "fetched": "2026-10-01T10:19:22+00:00",
-   "countries": []
-  },
-  {
    "title": "Barclays scales Claude to upgrade operations and improve client experience",
    "url": "https://www.anthropic.com/news/barclays-scales-claude",
    "published": "2026-10-01T00:00:00+00:00",
@@ -7355,20 +7376,6 @@
     "United States"
    ],
    "event": "2027-01-26T05:00:00+00:00"
-  },
-  {
-   "title": "Triumph or Procrastination? Experts Split on the Trump-Xi Summit",
-   "url": "https://warontherocks.com/triumph-or-procrastination-experts-split-on-the-trump-xi-summit/",
-   "published": "2026-09-30T17:30:48+00:00",
-   "preview": "Over the better part of three days, President Donald Trump hosted Chinese President Xi Jinping in Washington for a summit that drew international attention for its high-stakes agenda, from trade and AI to Taiwan. While…",
-   "id": "9122d443626f",
-   "source": "war-on-the-rocks",
-   "fetched": "2026-09-30T18:18:20+00:00",
-   "countries": [
-    "China",
-    "United States",
-    "Taiwan"
-   ]
   },
   {
    "title": "Can AI work for everyone? ITU’s Fred Werner on closing the global AI gap | Global Stage",
@@ -8682,16 +8689,6 @@
    "id": "77ec931d9c78",
    "source": "breaking-defense",
    "fetched": "2026-09-23T19:09:52+00:00",
-   "countries": []
-  },
-  {
-   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "published": "2026-09-23T18:41:40+00:00",
-   "preview": "",
-   "id": "a70f8ac64edf",
-   "source": "hugging-face-blog",
-   "fetched": "2026-09-23T18:41:40+00:00",
    "countries": []
   },
   {
@@ -14182,16 +14179,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "Due diligence in early practice, the International Law Commission agenda and cyberspace",
-   "url": "https://unidir.org/due-diligence-in-early-practice-the-international-law-commission-agenda-and-cyberspace/",
-   "published": "2026-06-24T07:27:59+00:00",
-   "preview": "On the margins of the 2026 International Law Commission (ILC) session, UNIDIR is organizing a side event on due diligence in cyberspace to bridge discussions and encourage engagement between cyber diplomats and the…",
-   "id": "f60227490080",
-   "source": "unidir",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
   },
   {
    "title": "VA inventory report reveals 367 AI systems operating in healthcare, benefits and services",
