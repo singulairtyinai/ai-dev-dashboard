@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-23T02:19:31+00:00",
+  "checked_at": "2026-10-23T04:18:39+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-23T02:19:32+00:00",
+  "checked_at": "2026-10-23T04:18:40+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-23T02:19:33+00:00",
+  "checked_at": "2026-10-23T04:18:40+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-23T02:19:33+00:00",
+  "checked_at": "2026-10-23T04:18:40+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-23T02:19:35+00:00",
+  "checked_at": "2026-10-23T04:18:43+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-23T02:19:34+00:00",
+  "checked_at": "2026-10-23T04:18:41+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -144,27 +144,65 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-23T02:19:35+00:00",
-  "hash": "fa9429a6d85752eced880755e0521076711add38",
+  "checked_at": "2026-10-23T04:18:43+00:00",
+  "hash": "25ac932f96534bafadc2043ec74e056b72599f6e",
   "known": [
+   "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+   "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+   "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
    "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+   "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+   "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+   "Deep Search in Real-World Web Environments",
+   "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+   "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+   "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+   "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+   "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
    "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+   "MolLean: A Process-Verifiable Language for Chemical Reasoning",
+   "National University of Singapore",
+   "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+   "Reading, Writing, Sharing, and Interacting with the World through Video",
+   "Rethinking Sequence Compression with Test-time Regression",
+   "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+   "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
+   "Skeleton-Grounded Latent Action Model for Robot World Models",
+   "Toward Recursive Self-Improvement in Physical AI",
+   "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+   "Xi'an Jiaotong University",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-23T02:19:35+00:00",
+  "changed_at": "2026-10-23T04:18:43+00:00",
   "added": [
    {
-    "text": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+    "text": "Deep Search in Real-World Web Environments",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+    "text": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Xi'an Jiaotong University",
+    "url": "https://huggingface.co/XianJiaotongUniversity"
+   },
+   {
+    "text": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-23T02:19:37+00:00",
+  "checked_at": "2026-10-23T04:18:46+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -196,7 +234,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-23T02:19:38+00:00",
+  "checked_at": "2026-10-23T04:18:47+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -294,7 +332,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-23T02:19:37+00:00",
+  "checked_at": "2026-10-23T04:18:46+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
