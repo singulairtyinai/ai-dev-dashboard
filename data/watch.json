@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-23T00:43:23+00:00",
+  "checked_at": "2026-10-23T02:19:31+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-23T00:43:25+00:00",
+  "checked_at": "2026-10-23T02:19:32+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-23T00:43:25+00:00",
+  "checked_at": "2026-10-23T02:19:33+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-23T00:43:25+00:00",
+  "checked_at": "2026-10-23T02:19:33+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-23T00:43:28+00:00",
+  "checked_at": "2026-10-23T02:19:35+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,12 +117,11 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-23T00:43:28+00:00",
-  "hash": "88eb3fcfab7d6470370a43264ad13b53484e41ae",
+  "checked_at": "2026-10-23T02:19:34+00:00",
+  "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
-   "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
    "Dr. Andrew F. Krepinevich, Jr.",
    "Drones, Missiles, and the U.S. Munitions Shortage",
@@ -145,99 +144,27 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-23T00:43:29+00:00",
-  "hash": "45dd54ca1124ca41e6ca1c0ae62d624f59004f95",
+  "checked_at": "2026-10-23T02:19:35+00:00",
+  "hash": "fa9429a6d85752eced880755e0521076711add38",
   "known": [
-   "ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models",
-   "ALPS: Visual State Encoders for World Models",
-   "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
-   "Agentic World Action Models",
-   "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
-   "Answering in the User's Variety: Calibrated Accommodation Pairs for Post-Training",
-   "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
-   "Bridged Self-Distillation for On-Policy Learning",
-   "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
-   "Cache Engineering for Agents",
-   "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
-   "CulturalRiddles: A Multicultural Benchmark of Riddles",
-   "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
-   "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
-   "Design Anything, Design at Scale",
-   "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-   "Entertain, then Cancel: How Thinking Makes Reasoning Models Read Some and Or Literally",
-   "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
-   "Exploring The Empirical Privacy Landscape of Synthetic Data",
-   "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
-   "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-   "FrontierCS 2: A Benchmark for Computer Science R&D",
-   "Harness Scaling for Generalizable Agentic Reinforcement Learning",
-   "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
-   "Humboldt Universität zu Berlin",
-   "Language Models Learn to Improve Language Models",
-   "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-   "Looped Uniform Diffusion Language Models",
-   "Memory-Centric Continual Learning for AI Agents",
-   "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
-   "NLP Group of The University of Hong Kong",
-   "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-   "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
-   "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-   "Qwen-Audio-3.1-ASR Technical Report",
-   "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
-   "RealMe: Immersive Volumetric Video from Minimal Captures",
-   "Renmin University of China",
-   "Retrieval Augmented Generation Compositionality",
-   "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
-   "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
-   "RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding",
-   "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
-   "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-   "Shanghai Jiao Tong University",
-   "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
-   "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
-   "SpatialBrain: Spatial Intelligence Growing from Experience",
-   "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-   "Spectral-Spatial Interpretation",
-   "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
-   "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-   "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
-   "Technical University of Munich",
-   "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-   "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-   "Toward Part-Aware Choral Transcription with singing voice assignment",
-   "TraceForge: Distilling with Your Own Thinking",
-   "Tsinghua Spatial Intelligence Lab",
-   "University of California, Santa Barbara",
-   "University of Central Florida",
-   "University of North Carolina at Chapel Hill",
-   "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
-   "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
-   "Which Agent's Skill Should Change? Group-Relative Credit Assignment for Evolving Multi-Agent Teams",
-   "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+   "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+   "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-23T00:18:30+00:00",
+  "changed_at": "2026-10-23T02:19:35+00:00",
   "added": [
    {
-    "text": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
+    "text": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Bridged Self-Distillation for On-Policy Learning",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Technical University of Munich",
-    "url": "https://huggingface.co/TUM"
-   },
-   {
-    "text": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+    "text": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-23T00:43:32+00:00",
+  "checked_at": "2026-10-23T02:19:37+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -269,7 +196,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-23T00:43:33+00:00",
+  "checked_at": "2026-10-23T02:19:38+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -367,7 +294,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-23T00:43:32+00:00",
+  "checked_at": "2026-10-23T02:19:37+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
