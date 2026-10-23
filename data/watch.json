@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-23T04:18:39+00:00",
+  "checked_at": "2026-10-23T06:21:34+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-23T04:18:40+00:00",
+  "checked_at": "2026-10-23T06:21:35+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-23T04:18:40+00:00",
+  "checked_at": "2026-10-23T06:21:36+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-23T04:18:40+00:00",
+  "checked_at": "2026-10-23T06:21:36+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-23T04:18:43+00:00",
+  "checked_at": "2026-10-23T06:21:38+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-23T04:18:41+00:00",
+  "checked_at": "2026-10-23T06:21:37+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -144,8 +144,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-23T04:18:43+00:00",
-  "hash": "25ac932f96534bafadc2043ec74e056b72599f6e",
+  "checked_at": "2026-10-23T06:21:38+00:00",
+  "hash": "adda519c9f49fe5636a69e8e0578e0aafd2c7ee6",
   "known": [
    "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
    "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
@@ -154,55 +154,65 @@
    "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
    "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
    "Deep Search in Real-World Web Environments",
+   "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+   "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
    "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+   "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
    "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
    "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
    "LaLa-World: Scaling Latent World Models with Natural Language Actions",
    "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
    "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
    "MolLean: A Process-Verifiable Language for Chemical Reasoning",
+   "Nanyang Technological University",
    "National University of Singapore",
    "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+   "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
    "Reading, Writing, Sharing, and Interacting with the World through Video",
    "Rethinking Sequence Compression with Test-time Regression",
+   "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
    "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
    "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
+   "Self-Distilling Future Video Representations for World Action Models",
+   "Shanghai Innovation Institute",
    "Skeleton-Grounded Latent Action Model for Robot World Models",
+   "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
+   "The University of Hong Kong",
    "Toward Recursive Self-Improvement in Physical AI",
    "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
    "Xi'an Jiaotong University",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-23T04:18:43+00:00",
+  "changed_at": "2026-10-23T06:21:38+00:00",
   "added": [
    {
-    "text": "Deep Search in Real-World Web Environments",
+    "text": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+    "text": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+    "text": "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+    "text": "Nanyang Technological University",
+    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
+   },
+   {
+    "text": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Xi'an Jiaotong University",
-    "url": "https://huggingface.co/XianJiaotongUniversity"
-   },
-   {
-    "text": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+    "text": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-23T04:18:46+00:00",
+  "checked_at": "2026-10-23T06:21:41+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -234,7 +244,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-23T04:18:47+00:00",
+  "checked_at": "2026-10-23T06:21:42+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -332,7 +342,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-23T04:18:46+00:00",
+  "checked_at": "2026-10-23T06:21:40+00:00",
   "hash": "fafb3dec5b94ef9353a8707dcc8d25b0c897eb0d",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
