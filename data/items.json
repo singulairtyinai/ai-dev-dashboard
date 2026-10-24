@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-24T11:13:32+00:00",
+ "updated": "2026-10-24T16:02:54+00:00",
  "items": [
+  {
+   "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+   "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+   "published": "2026-10-24T12:00:00+00:00",
+   "preview": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+   "id": "9865b391edef",
+   "source": "wired-ai",
+   "fetched": "2026-10-24T16:02:54+00:00",
+   "countries": []
+  },
+  {
+   "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+   "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+   "published": "2026-10-24T11:12:27+00:00",
+   "preview": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no…",
+   "id": "13633f3c6127",
+   "source": "marktechpost",
+   "fetched": "2026-10-24T16:02:54+00:00",
+   "countries": []
+  },
   {
    "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
    "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
@@ -15,7 +35,7 @@
    "title": "Washington's message to AI execs: please shut up",
    "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
    "published": "2026-10-24T09:15:06+00:00",
-   "preview": "Washington has always viewed Silicon Valley as culturally strange, but the current crop of AI leaders is becoming a political liability, sources close to the White House and Congress tell Axios. Why it matters :…",
+   "preview": "Washington has always viewed Silicon Valley as culturally strange. But the current crop of AI leaders is becoming a monumental political liability, lawmakers and White House advisers tell Axios. Why it matters: Even…",
    "id": "b7579173ae4e",
    "source": "axios-technology",
    "fetched": "2026-10-24T11:13:32+00:00",
@@ -1065,16 +1085,6 @@
    "countries": []
   },
   {
-   "title": "1Password lets AI agents use your passwords without seeing them",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
-   "published": "2026-10-22T13:00:00+00:00",
-   "preview": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all…",
-   "id": "633b64365941",
-   "source": "the-verge-ai",
-   "fetched": "2026-10-22T16:20:52+00:00",
-   "countries": []
-  },
-  {
    "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
    "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
    "published": "2026-10-22T13:00:00+00:00",
@@ -1082,6 +1092,16 @@
    "id": "f109b36dab6a",
    "source": "wired-ai",
    "fetched": "2026-10-22T14:23:51+00:00",
+   "countries": []
+  },
+  {
+   "title": "1Password lets AI agents use your passwords without seeing them",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+   "published": "2026-10-22T13:00:00+00:00",
+   "preview": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all…",
+   "id": "633b64365941",
+   "source": "the-verge-ai",
+   "fetched": "2026-10-22T16:20:52+00:00",
    "countries": []
   },
   {
@@ -1419,22 +1439,22 @@
    ]
   },
   {
-   "title": "Making the case for context-aware AI",
-   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-   "published": "2026-10-22T10:00:00+00:00",
-   "preview": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints…",
-   "id": "6a85074051ec",
-   "source": "mit-technology-review-ai",
-   "fetched": "2026-10-22T10:18:28+00:00",
-   "countries": []
-  },
-  {
    "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
    "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
    "published": "2026-10-22T10:00:00+00:00",
    "preview": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
    "id": "ddf7f86b51c1",
    "source": "wired-ai",
+   "fetched": "2026-10-22T10:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "Making the case for context-aware AI",
+   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+   "published": "2026-10-22T10:00:00+00:00",
+   "preview": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints…",
+   "id": "6a85074051ec",
+   "source": "mit-technology-review-ai",
    "fetched": "2026-10-22T10:18:28+00:00",
    "countries": []
   },
@@ -4425,16 +4445,6 @@
    "countries": []
   },
   {
-   "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-   "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
-   "published": "2026-10-15T19:53:50+00:00",
-   "preview": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models. The post NVIDIA…",
-   "id": "0c443fbb8785",
-   "source": "marktechpost",
-   "fetched": "2026-10-15T22:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "ASML Is Building a Hybrid Bonding Tool!",
    "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding",
    "published": "2026-10-15T19:27:20+00:00",
@@ -5382,22 +5392,22 @@
    "countries": []
   },
   {
-   "title": "Open models have real benefits. Do they outweigh the risks?",
-   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
-   "published": "2026-10-13T10:00:00+00:00",
-   "preview": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic…",
-   "id": "089e26be9c88",
-   "source": "mit-technology-review-ai",
-   "fetched": "2026-10-13T10:17:56+00:00",
-   "countries": []
-  },
-  {
    "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
    "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
    "published": "2026-10-13T10:00:00+00:00",
    "preview": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
    "id": "dfdee0e44f89",
    "source": "wired-ai",
+   "fetched": "2026-10-13T10:17:56+00:00",
+   "countries": []
+  },
+  {
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "published": "2026-10-13T10:00:00+00:00",
+   "preview": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic…",
+   "id": "089e26be9c88",
+   "source": "mit-technology-review-ai",
    "fetched": "2026-10-13T10:17:56+00:00",
    "countries": []
   },
@@ -6058,16 +6068,6 @@
    "preview": "",
    "id": "bbd48360f300",
    "source": "ai-frontiers-security",
-   "fetched": "2026-10-08T22:19:00+00:00",
-   "countries": []
-  },
-  {
-   "title": "Inside Elon Musk’s Midterm Spending Spree",
-   "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
-   "published": "2026-10-08T21:14:12+00:00",
-   "preview": "This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
-   "id": "0dee0bd6640a",
-   "source": "wired-ai",
    "fetched": "2026-10-08T22:19:00+00:00",
    "countries": []
   },
