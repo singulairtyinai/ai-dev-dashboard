@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-26T00:27:24+00:00",
+  "checked_at": "2026-10-26T02:18:23+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-26T00:27:25+00:00",
+  "checked_at": "2026-10-26T02:18:24+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-26T00:27:26+00:00",
+  "checked_at": "2026-10-26T02:18:24+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-26T00:27:26+00:00",
+  "checked_at": "2026-10-26T02:18:25+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-26T00:27:28+00:00",
+  "checked_at": "2026-10-26T02:18:27+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-26T00:27:28+00:00",
+  "checked_at": "2026-10-26T02:18:26+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -144,89 +144,22 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-26T00:27:29+00:00",
-  "hash": "d1af1fa7225fc79ec965221440835f659213e9d1",
+  "checked_at": "2026-10-26T02:18:27+00:00",
+  "hash": "c19959d7ea6d53c9437e0b3d58017ee607daf930",
   "known": [
-   "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-   "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
-   "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
-   "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
-   "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-   "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-   "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-   "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
-   "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
-   "Deep Search in Real-World Web Environments",
-   "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-   "Diffusion Language Models Change Speed Across Tasks and Languages",
-   "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
-   "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-   "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
-   "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-   "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
-   "Generative Intelligence Lab (CMU)",
-   "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
-   "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-   "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-   "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-   "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
-   "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
-   "Knowledge Engineer Group @ Tsinghua University",
-   "LaLa-World: Scaling Latent World Models with Natural Language Actions",
-   "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
-   "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
-   "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
-   "Mohamed Bin Zayed University of Artificial Intelligence",
-   "MolLean: A Process-Verifiable Language for Chemical Reasoning",
-   "Nanyang Technological University",
-   "Nanyang Technological University Singapore",
-   "National University of Singapore",
-   "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
-   "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
-   "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
-   "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
-   "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
-   "Rethinking Sequence Compression with Test-time Regression",
-   "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
-   "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
-   "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
-   "Self-Distilling Future Video Representations for World Action Models",
-   "Shanghai Innovation Institute",
-   "Skeleton-Grounded Latent Action Model for Robot World Models",
-   "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
-   "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-   "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
-   "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-   "The University of Hong Kong",
-   "Toward Recursive Self-Improvement in Physical AI",
-   "University of California at San Diego",
-   "University of Southern California",
-   "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
-   "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-   "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
-   "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-   "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
-   "Xi'an Jiaotong University",
+   "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-24T04:45:53+00:00",
+  "changed_at": "2026-10-26T02:18:27+00:00",
   "added": [
    {
-    "text": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "text": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-26T00:27:33+00:00",
+  "checked_at": "2026-10-26T02:18:31+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -258,7 +191,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-26T00:27:34+00:00",
+  "checked_at": "2026-10-26T02:18:32+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -356,7 +289,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-26T00:27:33+00:00",
+  "checked_at": "2026-10-26T02:18:32+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",

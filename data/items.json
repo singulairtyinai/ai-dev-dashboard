@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T00:27:24+00:00",
+ "updated": "2026-10-26T02:18:22+00:00",
  "items": [
   {
    "title": "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization",
@@ -416,6 +416,126 @@
    "countries": []
   },
   {
+   "title": "Interpretable Singing Emotion Recognition Using Acoustic and Vocal Technique Features",
+   "url": "https://arxiv.org/abs/2610.32629v1",
+   "published": "2026-10-23T13:42:34+00:00",
+   "preview": "Singing emotion recognition relies predominantly on deep learning models that achieve strong performance but offer limited insight into the vocal characteristics driving emotion, of- ten overlooking the singing voice as…",
+   "id": "64432c362ff2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "LGMT: A Tool for Testing the Logical Reasoning Reliability of LLMs",
+   "url": "https://arxiv.org/abs/2610.32627v1",
+   "published": "2026-10-23T13:41:43+00:00",
+   "preview": "Large Language Models (LLMs) increasingly serve as reasoning components in modern software systems, yet a model that answers a logical query correctly can contradict itself when the same problem is restated in an…",
+   "id": "582f4ce1c674",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
+   "url": "https://arxiv.org/abs/2610.32626v1",
+   "published": "2026-10-23T13:41:37+00:00",
+   "preview": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy…",
+   "id": "f67f8588bdb8",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design",
+   "url": "https://arxiv.org/abs/2610.32620v1",
+   "published": "2026-10-23T13:38:42+00:00",
+   "preview": "LLM agents optimize a ligand in a protein pocket by editing it step by step and docking each edit. Recent agents first spend extra dockings probing the complex with controlled edits; guidance induced from these probes…",
+   "id": "c509b10097e7",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "LLaCO: Continuous Diffusion for Large Language Models with Competition-Aware Semantic Scheduling",
+   "url": "https://arxiv.org/abs/2610.32604v1",
+   "published": "2026-10-23T13:28:40+00:00",
+   "preview": "Continuous diffusion models have emerged as a promising non-autoregressive paradigm for text generation over continuous embedding spaces. Along the continuous trajectory, the residual token identity directly shapes the…",
+   "id": "ecc477952a80",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+   "url": "https://arxiv.org/abs/2610.32575v1",
+   "published": "2026-10-23T13:03:48+00:00",
+   "preview": "Large language models and agents have shown significant power in advanced physical research. In this paper, We introduce PHYRD, a living benchmark for theoretical-physics reasoning with 63 Reproduce and 43 Discover…",
+   "id": "f6f58ae52478",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Pseudo-Labels as Rewards, Not Targets: Group-Relative Policy Optimization for Semi-Supervised ASR",
+   "url": "https://arxiv.org/abs/2610.32572v1",
+   "published": "2026-10-23T13:00:46+00:00",
+   "preview": "Adapting ASR to a domain with only untranscribed audio typically relies on pseudo-labeling, a strong teacher transcribes the audio and a student is fine-tuned on it. Because supervised fine-tuning (SFT) treats every…",
+   "id": "533e2708d9ae",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+   "url": "https://arxiv.org/abs/2610.32555v1",
+   "published": "2026-10-23T12:35:51+00:00",
+   "preview": "LLM agents increasingly rely on external tools exposed via the Model Context Protocol (MCP), yet current benchmarks assume tools respond correctly and on time, leaving agent resilience to realistic tool failures…",
+   "id": "44edd4c70814",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond Channel Data: Configuration-Enriched Radio Foundation Models",
+   "url": "https://arxiv.org/abs/2610.32542v1",
+   "published": "2026-10-23T12:21:27+00:00",
+   "preview": "This paper proposes incorporating channel configuration (CFG) information into Radio Foundation Model (RFM) pre-training and demonstrates that the resulting CFG-enriched embeddings serve as effective inductive priors…",
+   "id": "2a5664537b47",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "StarRTT: An End-to-End Real-Time Framework for Blind Zone-Free RTT Prediction in Starlink LEO Satellite Networks",
+   "url": "https://arxiv.org/abs/2610.32540v1",
+   "published": "2026-10-23T12:20:09+00:00",
+   "preview": "Low Earth Orbit (LEO) satellite mega-constellations such as Starlink require frequent handovers due to high orbital velocities, resulting in substantial Round-Trip Time (RTT) fluctuations. Accurate RTT prediction can…",
+   "id": "81f263682430",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints",
+   "url": "https://arxiv.org/abs/2610.32536v1",
+   "published": "2026-10-23T12:14:28+00:00",
+   "preview": "GUI grounding benchmarks ask whether an agent can localize a target that is already visible in a static screenshot. Real interfaces often violate this assumption: a target may be off-screen, appear only after a state…",
+   "id": "9e229a48274d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "On Task, Off Track: Benchmarking LLM and Agent Robustness to Near-Target Prompt Injection",
+   "url": "https://arxiv.org/abs/2610.32531v1",
+   "published": "2026-10-23T12:05:14+00:00",
+   "preview": "Prompt injection benchmarks assess whether large language models (LLMs) and agents resist malicious instructions embedded in external content. However, a system could perform well by rejecting attacks that obviously…",
+   "id": "1762f2e09aeb",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
    "title": "Capacity building, investment and collaboration: Turning AI standards into practice",
    "url": "https://aiforgood.itu.int/capacity-building-investment-and-collaboration-turning-ai-standards-into-practice/",
    "published": "2026-10-23T12:00:15+00:00",
@@ -448,6 +568,76 @@
    ]
   },
   {
+   "title": "Principled Nonlinear Concept Erasure and Steering",
+   "url": "https://arxiv.org/abs/2610.32516v1",
+   "published": "2026-10-23T11:44:02+00:00",
+   "preview": "Learned representations often encode sensitive attributes, such as gender or race, that may be undesirable or unsafe to retain. Concept erasure aims to remove this information while preserving task-relevant content.…",
+   "id": "e9ecfa5937e7",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Analysing Austrian Parliamentary Speeches by Predicting Party Affiliations",
+   "url": "https://arxiv.org/abs/2610.32515v1",
+   "published": "2026-10-23T11:38:35+00:00",
+   "preview": "This paper examines speech characteristics of the Austrian National Council members (CMs). We introduce analysis methodology based on a fine-tuned BERT-Model which assigns to every speech a probability distribution over…",
+   "id": "0e4dca749259",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "The Punjabi Geet Toxicity Dataset (PGT-FG): Fine-Grained Multimodal Annotations for Toxic Content in Punjabi Songs",
+   "url": "https://arxiv.org/abs/2610.32513v1",
+   "published": "2026-10-23T11:38:16+00:00",
+   "preview": "Resources for toxicity detection in Punjabi remain limited, particularly for musical content that combines linguistic and multimodal information. We present the Punjabi Geet Toxicity Dataset (PGT-FG), a segment-level…",
+   "id": "80ef717fe1b8",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "MusicTwins: Training Audio-Language Models to Listen like Their Persona",
+   "url": "https://arxiv.org/abs/2610.32495v1",
+   "published": "2026-10-23T11:11:45+00:00",
+   "preview": "People differ in how they perceive music, what associations they make with it, what they like about it, and how they respond to it. Computational models intended to simulate people in environments that include music…",
+   "id": "6b198820405d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Accordion: Elastic-Depth Inference via Fixed-Prefix Layer Looping",
+   "url": "https://arxiv.org/abs/2610.32492v1",
+   "published": "2026-10-23T11:07:45+00:00",
+   "preview": "Large language models serve applications with diverse inference budgets, but training and maintaining separate models for each budget incurs substantial costs. Recent Looped Transformers enable flexible inference…",
+   "id": "aa14db6899d5",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)",
+   "url": "https://arxiv.org/abs/2610.32486v1",
+   "published": "2026-10-23T11:02:16+00:00",
+   "preview": "Deploying Vision-Language Models for video anomaly detection confronts a fundamental constraint. Their semantic reasoning demands computational budgets incompatible with the scale of real-world video streams. We present…",
+   "id": "a7f37d815d70",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "When Agents Fail: Model or Harness--Who's to Blame?",
+   "url": "https://arxiv.org/abs/2610.32483v1",
+   "published": "2026-10-23T10:57:54+00:00",
+   "preview": "LLM agents combine models with execution harnesses, so agentic benchmark performance reflects their joint behavior. We argue that harnesses should therefore be evaluated through their interactions with underlying…",
+   "id": "9d90b4846ff2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
    "title": "Where is China’s Groq?",
    "url": "https://www.chinatalk.media/p/where-is-chinas-groq",
    "published": "2026-10-23T10:56:32+00:00",
@@ -461,6 +651,86 @@
    ]
   },
   {
+   "title": "CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models",
+   "url": "https://arxiv.org/abs/2610.32481v1",
+   "published": "2026-10-23T10:50:03+00:00",
+   "preview": "Multimodal large language models (MLLMs) have substantially advanced Multimodal Emotion Recognition (MER) by enabling fine-grained emotion understanding through reasoning over multimodal evidence. However, they still…",
+   "id": "7e39db86899b",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "CauProphet: Teaching Agents to Develop Causal Cognition like Humans",
+   "url": "https://arxiv.org/abs/2610.32477v1",
+   "published": "2026-10-23T10:45:03+00:00",
+   "preview": "Large language model (LLM) agents increasingly support long-horizon tasks by leveraging external memory and past experience. However, existing agents mainly retrieve records or summaries, lacking the ability to form and…",
+   "id": "5e394ec14029",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings",
+   "url": "https://arxiv.org/abs/2610.32474v1",
+   "published": "2026-10-23T10:43:41+00:00",
+   "preview": "Advances in Multimodal Large Language Models (MLLMs) have driven substantial progress in multimodal embeddings. Recent methods exploit generative capabilities by augmenting embedded inputs with self-generated reasoning…",
+   "id": "184eb551fd54",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Reading Between the Layers: Cross-Modal Alignment and Representational Hierarchy in Vision Transformers",
+   "url": "https://arxiv.org/abs/2610.32463v1",
+   "published": "2026-10-23T10:30:51+00:00",
+   "preview": "While large vision-language models excel at optical character recognition, it remains unclear how their underlying vision encoders process text and its meaning, and whether they support anything resembling reading…",
+   "id": "c48e10482b25",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond Copying: Lifelong Smart Contract Security Task Construction via Protocol Mutation",
+   "url": "https://arxiv.org/abs/2610.32453v1",
+   "published": "2026-10-23T10:17:43+00:00",
+   "preview": "AI agents can inspect code and run tests to support smart contract security. SlowMist reports about $38.6 billion in losses across the broader blockchain ecosystem. Existing evaluations can reward memorized or copied…",
+   "id": "c8713d8308ff",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Decoupling Patient Personas and Clinical Workflows: A Dual-Agent Approach to Realistic Medical Dialogue Generation",
+   "url": "https://arxiv.org/abs/2610.32443v1",
+   "published": "2026-10-23T10:07:35+00:00",
+   "preview": "Pre-consultation medical dialogues are essential for collecting comprehensive patient information, but are costly to obtain at scale due to privacy and ethical constraints. Existing LLM-based synthesis methods often…",
+   "id": "63728dda4bdd",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "SCI-AGENT-EXAM: Benchmarking Agents on Scientific Research Tasks",
+   "url": "https://arxiv.org/abs/2610.32441v1",
+   "published": "2026-10-23T10:06:55+00:00",
+   "preview": "Large language model (LLM) agents are increasingly capable of supporting scientific workflows, but their capabilities across diverse research activities remain difficult to assess systematically. Existing benchmarks…",
+   "id": "9d6b4d336ece",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues",
+   "url": "https://arxiv.org/abs/2610.32435v1",
+   "published": "2026-10-23T10:01:41+00:00",
+   "preview": "Building Task-Oriented Dialogue (TOD) systems for high-value scenarios such as financial marketing requires large volumes of domain-specific dialogue data, which privacy regulations, annotation costs, and the need for…",
+   "id": "d464a5bec035",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
    "title": "Securing our frontier model training environment",
    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
    "published": "2026-10-23T10:00:00+00:00",
@@ -468,6 +738,36 @@
    "id": "48e2274fdf2b",
    "source": "openai-news",
    "fetched": "2026-10-23T23:12:42+00:00",
+   "countries": []
+  },
+  {
+   "title": "Cycle-of-Thought: Self-Evaluative Iterative Reasoning for Table Visual Question Answering in Document Images",
+   "url": "https://arxiv.org/abs/2610.32423v1",
+   "published": "2026-10-23T09:50:37+00:00",
+   "preview": "Recent advances in Vision-Language Models (VLMs) have significantly improved Visual Question Answering (VQA) performance, yet their reasoning over structured content such as tables remains inconsistent, often plagued by…",
+   "id": "14b88d9d17d9",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Can LLM Annotators Match Human Consistency? Benchmarking Human Agreement and Optimizing Multi-Agent with Contrastive Knowledge",
+   "url": "https://arxiv.org/abs/2610.32415v1",
+   "published": "2026-10-23T09:43:38+00:00",
+   "preview": "LLM-based annotation has advanced rapidly, yet existing benchmarks remain misaligned with real-world practice. Actual annotation often involves lengthy, task-specific guidelines, and different annotators may produce…",
+   "id": "4d76b7514e56",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Broader Look into MLLM's Retrieval Heads",
+   "url": "https://arxiv.org/abs/2610.32411v1",
+   "published": "2026-10-23T09:37:28+00:00",
+   "preview": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information…",
+   "id": "b22888d4ba4e",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-10-26T02:18:22+00:00",
    "countries": []
   },
   {
@@ -488,6 +788,26 @@
    "id": "86ad59744e61",
    "source": "marktechpost",
    "fetched": "2026-10-23T10:19:56+00:00",
+   "countries": []
+  },
+  {
+   "title": "Embedding Large PQC KEMs in IKEv2",
+   "url": "https://arxiv.org/abs/2610.32356v1",
+   "published": "2026-10-23T08:49:44+00:00",
+   "preview": "Post-quantum key encapsulation mechanisms carry public keys far larger than the established VPN handshake protocol IKEv2 was designed for. At the same time, its initial exchange comprising the public keys cannot be…",
+   "id": "86978a5d434d",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "DeepAVR: Deep Analysis via Multi-Agent Collaboration for Automated Vulnerability Repair",
+   "url": "https://arxiv.org/abs/2610.32345v1",
+   "published": "2026-10-23T08:36:03+00:00",
+   "preview": "Automated Vulnerability Repair (AVR) has emerged as a critical defense against software security flaws, aiming to triage and fix bugs autonomously. Early LLM-based approaches focused on patch generation under the…",
+   "id": "653e13a0ad88",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
    "countries": []
   },
   {
@@ -515,6 +835,46 @@
    ]
   },
   {
+   "title": "Data-Efficient Backdoor Attacks on Code Models via Trigger-Neutralized Counterfactual Scoring",
+   "url": "https://arxiv.org/abs/2610.32334v1",
+   "published": "2026-10-23T08:28:58+00:00",
+   "preview": "Pre-trained code models are exposed to backdoor poisoning, in which crafted training samples make the model misbehave on a trigger. A capable attacker minimizes the number of such samples, since each adds cost and…",
+   "id": "bc179ac869e2",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Automated Post-Exploitation Attack Chain Exploration Based on a Phase-guided Hybrid Planning-Monte Carlo Tree Search Algorithm",
+   "url": "https://arxiv.org/abs/2610.32278v1",
+   "published": "2026-10-23T07:36:22+00:00",
+   "preview": "Advanced attackers in post-exploitation scenarios increasingly craft attack chains that combine benign operations, configuration errors, and vulnerability exploitation to achieve objectives like privilege escalation.…",
+   "id": "4be4dc9fbd21",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Autonomous Cyber Weapons as AI-Enabled Digital Harms: A Platform Accountability Framework",
+   "url": "https://arxiv.org/abs/2610.32238v1",
+   "published": "2026-10-23T06:47:21+00:00",
+   "preview": "Governments govern AI-generated online harms from commercial platforms (EU DSA, AI Act, UK Online Safety Act), yet the most severe class remains ungoverned: autonomous cyber weapons (ACWs) deployed by nation-states…",
+   "id": "e4363db37a52",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Democratic Accountability for Autonomous Systems: A Legislative Notification Framework and Comparative Institutional Design",
+   "url": "https://arxiv.org/abs/2610.32226v1",
+   "published": "2026-10-23T06:35:23+00:00",
+   "preview": "No domestic legislature has ever reviewed a state's decision to authorise an autonomous cyber weapon before it acted. Closing the international attribution gap is necessary but not sufficient for democratic…",
+   "id": "cf056aaa02cc",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
    "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
    "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
    "published": "2026-10-23T06:05:10+00:00",
@@ -525,6 +885,36 @@
    "countries": []
   },
   {
+   "title": "Tracing Money Laundering Across DeFi, Bridges, and Mixers on Ethereum",
+   "url": "https://arxiv.org/abs/2610.32210v1",
+   "published": "2026-10-23T06:04:58+00:00",
+   "preview": "Illicit actors exploit Ethereum's deep liquidity and diverse on-chain services to launder criminal proceeds by combining decentralized finance (DeFi) protocols, cross-chain bridges, and mixers in multi-stage processes.…",
+   "id": "a89590c8127b",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "The 3DS Oracle: BIN Attack via the Network",
+   "url": "https://arxiv.org/abs/2610.32206v1",
+   "published": "2026-10-23T05:59:18+00:00",
+   "preview": "EMV 3-D Secure (3DS) requires a client-visible continuation boundary in browser-mediated flows; in some deployments, that boundary exposes a pre-authorization classification channel. This paper studies 3DS as a…",
+   "id": "f1fa2395735d",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Depth-Dependent Safety Geometry in Vision-Language Models: Layer-Wise Localization and Bidirectional Refusal Control",
+   "url": "https://arxiv.org/abs/2610.32182v1",
+   "published": "2026-10-23T05:28:49+00:00",
+   "preview": "Vision-Language Models (VLMs) are widely deployed, yet the internal mechanisms behind their safety behavior remain poorly understood. We present a lightweight inference-time framework for localizing and manipulating…",
+   "id": "7cf7557e0a6d",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
    "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
    "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
    "published": "2026-10-23T05:28:21+00:00",
@@ -532,6 +922,36 @@
    "id": "9de589d5dbde",
    "source": "marktechpost",
    "fetched": "2026-10-23T07:39:24+00:00",
+   "countries": []
+  },
+  {
+   "title": "Curvature-Aware Clipping: Mitigating Bias in DPSGD via Approximate Second-Order Information",
+   "url": "https://arxiv.org/abs/2610.32175v1",
+   "published": "2026-10-23T05:19:35+00:00",
+   "preview": "Differentially Private Stochastic Gradient Descent (DPSGD) has become the de facto standard for training deep neural networks with rigorous privacy guarantees. However, the utility of DPSGD is constrained by gradient…",
+   "id": "22b53fb8b035",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "Detecting Insecure Compositions of Clean Agent Skills via Capability-Flow Graph Analysis",
+   "url": "https://arxiv.org/abs/2610.32155v1",
+   "published": "2026-10-23T04:47:10+00:00",
+   "preview": "AI agents increasingly extend their capabilities by invoking third-party skills, where each skill encapsulates instructions, scripts, and resources for agents to execute on demand. This paper reveals that deploying many…",
+   "id": "a2eeac3b0f88",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
+   "countries": []
+  },
+  {
+   "title": "AgentTrace: Execution-Level Fingerprinting of Black-Box LLM Agents",
+   "url": "https://arxiv.org/abs/2610.32092v1",
+   "published": "2026-10-23T02:55:15+00:00",
+   "preview": "Verifying the provenance of autonomous LLM agents is a critical security challenge. Existing semantic attribution is easily obfuscated by system prompts, while active watermarking conflicts with schema-constrained tool…",
+   "id": "d751b34d0497",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-26T02:18:22+00:00",
    "countries": []
   },
   {
@@ -1465,16 +1885,6 @@
    "countries": []
   },
   {
-   "title": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
-   "url": "https://arxiv.org/abs/2610.31118v1",
-   "published": "2026-10-22T11:33:00+00:00",
-   "preview": "Frontend coding agents are usually graded on one question: did the requested target get built. Real engineering changes carry a second obligation, because the rest of the site has to keep working. We call that second…",
-   "id": "4686787e5b1b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-23T02:19:31+00:00",
-   "countries": []
-  },
-  {
    "title": "Through a PRISM, Clearly: Step-Sequence Reasoning for Mistake Recognition in Procedural Videos",
    "url": "https://arxiv.org/abs/2610.31117v1",
    "published": "2026-10-22T11:32:37+00:00",
@@ -1485,44 +1895,12 @@
    "countries": []
   },
   {
-   "title": "A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool",
-   "url": "https://arxiv.org/abs/2610.31116v1",
-   "published": "2026-10-22T11:30:50+00:00",
-   "preview": "This paper presents a dataset of 121,536 ground-reasons pairs across 86,464 rulings of the five civil chambers of the French Court of Cassation (2016-2025). An appeal on points of law cannot itself be appealed and often…",
-   "id": "cb930edbd658",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-23T02:19:31+00:00",
-   "countries": [
-    "France"
-   ]
-  },
-  {
-   "title": "Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design",
-   "url": "https://arxiv.org/abs/2610.31113v1",
-   "published": "2026-10-22T11:27:22+00:00",
-   "preview": "Recent advances in large language models and agentic workflows offer a new paradigm to early-stage structural design translating design intent into structural models. Although text-to-3D approaches have demonstrated…",
-   "id": "f1d3a5ea3522",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-23T02:19:31+00:00",
-   "countries": []
-  },
-  {
    "title": "Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents",
    "url": "https://arxiv.org/abs/2610.31107v1",
    "published": "2026-10-22T11:16:24+00:00",
    "preview": "Web agents increasingly serve the same user across repeated online tasks such as booking travel, shopping, and scheduling, so their long-term usefulness depends on how well they know the user's preferences. Passive…",
    "id": "f819a9e115e0",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-23T02:19:31+00:00",
-   "countries": []
-  },
-  {
-   "title": "Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2610.31105v1",
-   "published": "2026-10-22T11:15:49+00:00",
-   "preview": "Multi-agent LLM systems are increasingly used in practice, but their behavior is complex and hard to understand. We design a simple task to ask which model has the most influence on the final consensus when several…",
-   "id": "10a1b2551e0a",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-10-23T02:19:31+00:00",
    "countries": []
   },
@@ -1968,112 +2346,12 @@
    "countries": []
   },
   {
-   "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-   "url": "https://arxiv.org/abs/2610.30128v1",
-   "published": "2026-10-21T17:58:06+00:00",
-   "preview": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto…",
-   "id": "4afd58564012",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-   "url": "https://arxiv.org/abs/2610.30125v1",
-   "published": "2026-10-21T17:57:59+00:00",
-   "preview": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an…",
-   "id": "9052b2916380",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-   "url": "https://arxiv.org/abs/2610.30116v1",
-   "published": "2026-10-21T17:55:31+00:00",
-   "preview": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role…",
-   "id": "0ceea72fc2c6",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "The End of Consensus Research?",
-   "url": "https://arxiv.org/abs/2610.30114v1",
-   "published": "2026-10-21T17:55:19+00:00",
-   "preview": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is…",
-   "id": "d60aa5d999be",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-   "url": "https://arxiv.org/abs/2610.30113v1",
-   "published": "2026-10-21T17:54:01+00:00",
-   "preview": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas,…",
-   "id": "653f6cd9610f",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
-   "url": "https://arxiv.org/abs/2610.30108v1",
-   "published": "2026-10-21T17:52:48+00:00",
-   "preview": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We…",
-   "id": "75a9c1252dc6",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-   "url": "https://arxiv.org/abs/2610.30105v1",
-   "published": "2026-10-21T17:50:31+00:00",
-   "preview": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula…",
-   "id": "06e6c81f56bd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
-   "url": "https://arxiv.org/abs/2610.30104v1",
-   "published": "2026-10-21T17:50:22+00:00",
-   "preview": "Despite recent advances, current AI systems remain highly susceptible to domain shifts, particularly in biomedical imaging, where images are usually acquired under substantially different experimental conditions.…",
-   "id": "9286cb057bbd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
    "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
    "url": "https://arxiv.org/abs/2610.30103v1",
    "published": "2026-10-21T17:50:19+00:00",
    "preview": "Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs in a single structural detail, such as 3- versus 2-colouring a graph. A model that reasons rather than recalls should notice which side of…",
    "id": "aeb38c8ddada",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Differentially Private Sparse Reward Estimation with Preference Feedback",
-   "url": "https://arxiv.org/abs/2610.30099v1",
-   "published": "2026-10-21T17:45:42+00:00",
-   "preview": "Reinforcement Learning with Human Feedback (RLHF) has become a central paradigm for aligning Large Language Models with human values. However, the reliance on sensitive preference data necessitates rigorous differential…",
-   "id": "62c8ea6f1db8",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
-   "url": "https://arxiv.org/abs/2610.30097v1",
-   "published": "2026-10-21T17:45:24+00:00",
-   "preview": "Vision-language-action (VLA) models have shown promise in robotic manipulation, but imitation learning (IL) alone often struggles to master complex long-horizon skills. Reinforcement learning (RL) offers an effective…",
-   "id": "b7891618c91d",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-10-22T04:18:44+00:00",
    "countries": []
   },
@@ -2115,16 +2393,6 @@
    "id": "cc0f997eae37",
    "source": "semianalysis",
    "fetched": "2026-10-21T18:18:50+00:00",
-   "countries": []
-  },
-  {
-   "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
-   "url": "https://arxiv.org/abs/2610.30074v1",
-   "published": "2026-10-21T17:27:17+00:00",
-   "preview": "Parallel AI agents can produce useful local edits yet degrade a shared solution when their edits are combined. We model this coordination problem as discrete block optimization with an exactly evaluable objective and a…",
-   "id": "21b6e4515a38",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-22T04:18:44+00:00",
    "countries": []
   },
   {
@@ -2210,16 +2478,6 @@
    "countries": []
   },
   {
-   "title": "Remembering Through Change: Provenance-Preserving Hypergraph Memory for Multimodal Agents",
-   "url": "https://arxiv.org/abs/2610.29995v1",
-   "published": "2026-10-21T16:34:28+00:00",
-   "preview": "Long-term memory for multimodal agents remains challenging, as it must preserve fine-grained visual evidence while tracking entity evolution across sessions. Existing abstraction-based memories compress images into…",
-   "id": "d4126fbbdcfd",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
    "title": "GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation",
    "url": "https://arxiv.org/abs/2610.29987v1",
    "published": "2026-10-21T16:28:18+00:00",
@@ -2237,26 +2495,6 @@
    "id": "2e5b2734eb67",
    "source": "arxiv-cs-cr",
    "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
-   "url": "https://arxiv.org/abs/2610.29968v1",
-   "published": "2026-10-21T16:20:30+00:00",
-   "preview": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage…",
-   "id": "3abb7e7295ca",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T04:18:44+00:00",
-   "countries": []
-  },
-  {
-   "title": "Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority",
-   "url": "https://arxiv.org/abs/2610.29961v1",
-   "published": "2026-10-21T16:17:49+00:00",
-   "preview": "Given the enormous number of claims to be checked, verifiable legal AI requires scalable, cost-effective models that answer the practical needs of law. System One decision models are built on large language models but,…",
-   "id": "1be4e9caff71",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T04:18:44+00:00",
    "countries": []
   },
   {
@@ -2588,36 +2826,6 @@
    "countries": []
   },
   {
-   "title": "VMSpec: A Decompiler-based Approach against Virtual Machine Obfuscation",
-   "url": "https://arxiv.org/abs/2610.29566v1",
-   "published": "2026-10-21T10:57:55+00:00",
-   "preview": "Malicious actors frequently obfuscate their code to hinder investigative reverse engineering efforts. Among the most formidable techniques is virtual machine (VM) obfuscation: programs are translated into bytecode for a…",
-   "id": "5d223ac58343",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "WRDO: Weighted Refusal Direction Optimization in Aligned Language Models",
-   "url": "https://arxiv.org/abs/2610.29555v1",
-   "published": "2026-10-21T10:42:25+00:00",
-   "preview": "Aligned large language models are trained to comply with benign requests while refusing harmful ones. However, recent work shows that this refusal behavior is fragile and can often be disrupted by simple activation- or…",
-   "id": "cce6ca18db73",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-   "url": "https://arxiv.org/abs/2610.29545v1",
-   "published": "2026-10-21T10:31:52+00:00",
-   "preview": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower…",
-   "id": "39e55a18b652",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
    "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
    "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
    "published": "2026-10-21T10:30:00+00:00",
@@ -2628,48 +2836,6 @@
    "countries": []
   },
   {
-   "title": "RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding",
-   "url": "https://arxiv.org/abs/2610.29527v1",
-   "published": "2026-10-21T10:16:23+00:00",
-   "preview": "Speculative decoding accelerates large language model inference by employing a compact draft model to propose candidate tokens that are verified in parallel by a target model. Conventional training relies on soft-label…",
-   "id": "73d292c3cb2e",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "pplx-embed-v2-late Technical Report",
-   "url": "https://arxiv.org/abs/2610.29523v1",
-   "published": "2026-10-21T10:10:26+00:00",
-   "preview": "In this report, we introduce pplx-embed-v2-late, a pair of 0.6B and 9B multilingual and multimodal late-interaction models. Both models achieve state-of-the-art results within their respective size classes across a…",
-   "id": "a05fff56baf1",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?",
-   "url": "https://arxiv.org/abs/2610.29520v1",
-   "published": "2026-10-21T10:06:29+00:00",
-   "preview": "Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same…",
-   "id": "d41b34b47db3",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
-   "url": "https://arxiv.org/abs/2610.29477v1",
-   "published": "2026-10-21T09:32:23+00:00",
-   "preview": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large language models. Such an assistant can breach the user's code, or help the user breach it, without the…",
-   "id": "5a24c0f1b88b",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": [
-    "Russia"
-   ]
-  },
-  {
    "title": "Executives are more likely to trust AI over themselves",
    "url": "https://www.axios.com/2026/10/21/ai-trust-executives-survey",
    "published": "2026-10-21T09:30:06+00:00",
@@ -2677,26 +2843,6 @@
    "id": "d55c6fa04e54",
    "source": "axios-technology",
    "fetched": "2026-10-21T10:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models",
-   "url": "https://arxiv.org/abs/2610.29455v1",
-   "published": "2026-10-21T09:11:30+00:00",
-   "preview": "Omni-modal large language models (LLMs) have achieved remarkable progress in audio and video understanding. However, existing models struggle with long-form, multi-speaker videos, especially in understanding the entire…",
-   "id": "41f1337959a2",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "DynaWeave: Learning to Adapt through Dynamic Scenario Synthesis",
-   "url": "https://arxiv.org/abs/2610.29443v1",
-   "published": "2026-10-21T09:03:10+00:00",
-   "preview": "Large language model (LLM) agents increasingly use tools to complete tasks in stateful environments. However, many training environments remain largely static apart from changes caused by the agent's own actions,…",
-   "id": "871c6ccbbc99",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
    "countries": []
   },
   {
@@ -2717,16 +2863,6 @@
    "id": "0d5453566113",
    "source": "axios-technology",
    "fetched": "2026-10-21T10:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "BIRD-RL: Scaling Agentic Reinforcement Learning over Stateful Data-Centric Environments",
-   "url": "https://arxiv.org/abs/2610.29426v1",
-   "published": "2026-10-21T08:50:39+00:00",
-   "preview": "While agentic reinforcement learning (RL) has emerged as a promising paradigm for training small language models (SLMs), existing frameworks are predominantly tool-centric and struggle with data-centric environments.…",
-   "id": "757f99e17c97",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-10-22T02:19:12+00:00",
    "countries": []
   },
   {
@@ -2752,26 +2888,6 @@
    "countries": []
   },
   {
-   "title": "CertMoE: Robustness Certification for Mixture-of-Experts LLMs via Routing-Aware Smoothing",
-   "url": "https://arxiv.org/abs/2610.29395v1",
-   "published": "2026-10-21T08:25:15+00:00",
-   "preview": "Provable robustness is a cornerstone of trustworthy machine learning, aiming to guarantee model predictions under adversarial perturbations. Existing certification frameworks, inspired by abstract interpretation or…",
-   "id": "e518356bf690",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "Where AI Vulnerability Discovery Harnesses Go Quiet: Structural False Negatives and Hidden Vulnerabilities",
-   "url": "https://arxiv.org/abs/2610.29379v1",
-   "published": "2026-10-21T08:05:15+00:00",
-   "preview": "LLM-based vulnerability discovery harnesses can miss real, reachable vulnerabilities because of how the harness around the model is built. Steps that select code, filter it, and store and merge findings can drop a…",
-   "id": "2204f42daf2c",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-22T02:19:12+00:00",
-   "countries": []
-  },
-  {
    "title": "Establishing Battery Supply Chain Resilience for Drones",
    "url": "https://warontherocks.com/cogs-of-war/establishing-battery-supply-chain-resilience-for-drones/",
    "published": "2026-10-21T08:00:11+00:00",
@@ -2779,16 +2895,6 @@
    "id": "2cca97350185",
    "source": "war-on-the-rocks",
    "fetched": "2026-10-21T13:54:26+00:00",
-   "countries": []
-  },
-  {
-   "title": "MASAR: Multi-stage Attack Surface Analysis and Reasoning Framework for Telecom Networks",
-   "url": "https://arxiv.org/abs/2610.29343v1",
-   "published": "2026-10-21T07:37:51+00:00",
-   "preview": "The increasing complexity of modern telecommunications networks introduces security challenges that require systematic threat analysis. However, a gap remains between architectural threat modeling frameworks, such as…",
-   "id": "19d4b9531145",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-22T02:19:12+00:00",
    "countries": []
   },
   {
@@ -2839,16 +2945,6 @@
    "id": "9aa485179e61",
    "source": "marktechpost",
    "fetched": "2026-10-21T07:46:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "PQ-Vault: Provably Quantum-Safe Asset Custody for Unmodified Ethereum",
-   "url": "https://arxiv.org/abs/2610.29230v1",
-   "published": "2026-10-21T05:39:46+00:00",
-   "preview": "A quantum computer could recover the key of any Ethereum account whose public key appears on chain. We prove that no sidechain or bridge that leaves Ethereum's rules unchanged can protect such accounts: their funds must…",
-   "id": "bd8aa52bcf4b",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-22T02:19:12+00:00",
    "countries": []
   },
   {
@@ -3104,16 +3200,6 @@
    "countries": []
   },
   {
-   "title": "Proof-Carrying Contracts: Commitments AI Agents Cannot Break",
-   "url": "https://arxiv.org/abs/2610.28484v1",
-   "published": "2026-10-20T16:30:34+00:00",
-   "preview": "AI agents increasingly act on behalf of people or other agents, purchasing services, exchanging information and delegating work. What an agent must respect is written in instructions, policies or agreements, but text…",
-   "id": "0b47a27ee411",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
    "url": "https://huggingface.co/blog/allenai/fairstress",
    "published": "2026-10-20T16:09:19+00:00",
@@ -3136,16 +3222,6 @@
    ]
   },
   {
-   "title": "A Digital Twin to Improve Cyber-Social Impact",
-   "url": "https://arxiv.org/abs/2610.28430v1",
-   "published": "2026-10-20T15:58:33+00:00",
-   "preview": "The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape. Traditional cybersecurity models, primarily based on the…",
-   "id": "334661cde44c",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "Homebuilder sentiment is at a 14-year low",
    "url": "https://www.axios.com/2026/10/20/housing-construction-ai-rates",
    "published": "2026-10-20T15:58:05+00:00",
@@ -3156,36 +3232,6 @@
    "countries": []
   },
   {
-   "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
-   "url": "https://arxiv.org/abs/2610.28425v1",
-   "published": "2026-10-20T15:55:05+00:00",
-   "preview": "Modern LLM agents persist state across sessions via two channels: long-lived memory files silently prepended to the system prompt, and scheduled tasks waking the agent without user input. A one-time indirect prompt…",
-   "id": "7ae7b03a4958",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
-   "title": "SPECTER: Covert Data Exfiltration from Air-Gapped Systems via USB Power Modulation",
-   "url": "https://arxiv.org/abs/2610.28401v1",
-   "published": "2026-10-20T15:47:02+00:00",
-   "preview": "We present SPECTER, a post-compromise covert channel that uses host-side USB power control to exfiltrate information from air-gapped and network-segregated systems. A transmitter with administrative privileges encodes…",
-   "id": "b972b2cea221",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
-   "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
-   "url": "https://arxiv.org/abs/2610.28397v1",
-   "published": "2026-10-20T15:44:37+00:00",
-   "preview": "Agentic AI extends large language models (LLMs) from generating responses to planning and executing complex workflows, substantially expanding their utility while exposing applications to unsafe actions, information…",
-   "id": "2f747713454e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "5 Questions with Joshua Achiam",
    "url": "https://policygradients.thefai.org/p/5-questions-with-joshua-achiam",
    "published": "2026-10-20T15:35:21+00:00",
@@ -3193,16 +3239,6 @@
    "id": "7ffe2a515523",
    "source": "policy-gradients-fai",
    "fetched": "2026-10-20T16:18:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
-   "url": "https://arxiv.org/abs/2610.28364v1",
-   "published": "2026-10-20T15:26:15+00:00",
-   "preview": "Local Retrieval-Augmented Generation (RAG) systems are vulnerable to indirect prompt injection and retrieval poisoning, where malicious instructions in retrieved content are mistaken for trusted input. We present…",
-   "id": "1cc9e11989be",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
    "countries": []
   },
   {
@@ -3256,26 +3292,6 @@
    "countries": []
   },
   {
-   "title": "Latency-Neutral Passive Cyber Monitoring for Grid-Edge Operational Technology Networks",
-   "url": "https://arxiv.org/abs/2610.28324v1",
-   "published": "2026-10-20T14:59:10+00:00",
-   "preview": "Deterministic industrial networks often present an operational trade-off between maintaining microsecond timing of primary control loops and capturing security telemetry. This work investigates the engineering…",
-   "id": "e38f622f63b8",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
-   "title": "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
-   "url": "https://arxiv.org/abs/2610.28315v1",
-   "published": "2026-10-20T14:52:57+00:00",
-   "preview": "Large language model (LLM) agents increasingly use persistent memory to personalize responses, and personal attributes in this memory pose a privacy risk if exposed. We ask how consulting memory during dialogue changes…",
-   "id": "39a4985c4840",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
    "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
    "published": "2026-10-20T14:31:59+00:00",
@@ -3318,16 +3334,6 @@
    ]
   },
   {
-   "title": "ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents",
-   "url": "https://arxiv.org/abs/2610.28093v1",
-   "published": "2026-10-20T12:09:53+00:00",
-   "preview": "AI agents keep long-term memory, much of which comes from web pages and tool results. Agent harnesses, the software that runs the model, do not record who may act on this memory, so an instruction hidden in a fetched…",
-   "id": "40d5b2bc558a",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
-   "countries": []
-  },
-  {
    "title": "AI adoption by industry shows what other sectors can learn",
    "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
    "published": "2026-10-20T12:00:00+00:00",
@@ -3335,16 +3341,6 @@
    "id": "7d296a29338c",
    "source": "mit-technology-review-ai",
    "fetched": "2026-10-20T14:20:33+00:00",
-   "countries": []
-  },
-  {
-   "title": "On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers",
-   "url": "https://arxiv.org/abs/2610.28076v1",
-   "published": "2026-10-20T11:55:21+00:00",
-   "preview": "Batch Normalization (BN) layers have become a common choice for embedding white-box watermarks in Federated Learning (FL), providing a simple and effective mechanism for model ownership verification and participant…",
-   "id": "8ce3d8948b59",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-21T04:18:10+00:00",
    "countries": []
   },
   {
