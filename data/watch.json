@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-26T16:19:57+00:00",
+  "checked_at": "2026-10-26T18:19:37+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-26T16:19:58+00:00",
+  "checked_at": "2026-10-26T18:19:37+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-26T16:19:58+00:00",
+  "checked_at": "2026-10-26T18:19:38+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-26T16:19:59+00:00",
+  "checked_at": "2026-10-26T18:19:38+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-26T16:20:01+00:00",
+  "checked_at": "2026-10-26T18:19:41+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-26T16:20:00+00:00",
+  "checked_at": "2026-10-26T18:19:39+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -144,8 +144,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-26T16:20:02+00:00",
-  "hash": "bc4b990b813802dd866f865f48a1711013620dc4",
+  "checked_at": "2026-10-26T18:19:41+00:00",
+  "hash": "03f9425843dbfe9fd65e7bcfb9df4bd4bfceed88",
   "known": [
    "A path-following framework on fiber bundle for variational inequalities",
    "Building Auditable AI Text Detectors with Sparse Autoencoders",
@@ -160,22 +160,27 @@
    "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
    "Every Weight Is a Path of Shared Discrete Decisions",
    "FLOMSS: Generative Music Source Separation by Flow Matching",
+   "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
    "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
    "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
    "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
    "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
    "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+   "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
+   "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
    "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
    "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
    "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
    "National University of Singapore",
    "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+   "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
    "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
    "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
    "RSIHub: A Composable Framework for Agent-Evolution Methods",
    "Reading, Writing, Sharing, and Interacting with the World through Video",
    "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
    "RynnUnify: Towards Unified Embodied Brain",
+   "Sapienza University of Rome",
    "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
    "Speculative Diffusion is a Tale of Two Tradeoffs",
    "Technology Center of Software Engineering of ISCAS",
@@ -187,20 +192,32 @@
    "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-26T16:20:02+00:00",
+  "changed_at": "2026-10-26T18:19:41+00:00",
   "added": [
    {
-    "text": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+    "text": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+    "text": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Sapienza University of Rome",
+    "url": "https://huggingface.co/Sapienza"
+   },
+   {
+    "text": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-26T16:20:05+00:00",
+  "checked_at": "2026-10-26T18:19:45+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -232,7 +249,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-26T16:20:07+00:00",
+  "checked_at": "2026-10-26T18:19:46+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -330,7 +347,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-26T16:20:05+00:00",
+  "checked_at": "2026-10-26T18:19:45+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
