@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-26T06:21:50+00:00",
+  "checked_at": "2026-10-26T07:53:13+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-26T06:21:51+00:00",
+  "checked_at": "2026-10-26T07:53:14+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-26T06:21:52+00:00",
+  "checked_at": "2026-10-26T07:53:14+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-26T06:21:51+00:00",
+  "checked_at": "2026-10-26T07:53:15+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-26T06:21:53+00:00",
+  "checked_at": "2026-10-26T07:53:16+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,11 +117,12 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-26T06:21:52+00:00",
-  "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
+  "checked_at": "2026-10-26T07:53:15+00:00",
+  "hash": "88eb3fcfab7d6470370a43264ad13b53484e41ae",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
+   "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
    "Dr. Andrew F. Krepinevich, Jr.",
    "Drones, Missiles, and the U.S. Munitions Shortage",
@@ -135,7 +136,7 @@
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "View All Articles & Multimedia"
   ],
-  "changed_at": "2026-10-26T04:18:28+00:00",
+  "changed_at": "2026-10-26T07:53:15+00:00",
   "added": [
    {
     "text": "Charting the New Nuclear Age",
@@ -144,11 +145,15 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-26T06:21:53+00:00",
-  "hash": "ffe56322ca468cd7c36c85c114528c6e4bb13ef9",
+  "checked_at": "2026-10-26T07:53:17+00:00",
+  "hash": "d7404d46323767680abce70f2e0521c36229953f",
   "known": [
+   "A path-following framework on fiber bundle for variational inequalities",
+   "Building Auditable AI Text Detectors with Sparse Autoencoders",
    "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+   "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
    "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+   "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
    "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
    "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
    "Every Weight Is a Path of Shared Discrete Decisions",
@@ -156,27 +161,48 @@
    "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
    "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
    "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+   "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+   "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
    "National University of Singapore",
    "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+   "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
    "RSIHub: A Composable Framework for Agent-Evolution Methods",
    "RynnUnify: Towards Unified Embodied Brain",
+   "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+   "The fixed-point bundle method over product-of-simplex domains arising from game equilibria",
    "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
    "by AK and the research community"
   ],
-  "changed_at": "2026-10-26T06:21:53+00:00",
+  "changed_at": "2026-10-26T07:53:17+00:00",
   "added": [
    {
-    "text": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+    "text": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Every Weight Is a Path of Shared Discrete Decisions",
+    "text": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-26T06:21:56+00:00",
+  "checked_at": "2026-10-26T07:53:19+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -208,7 +234,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-26T06:21:57+00:00",
+  "checked_at": "2026-10-26T07:53:21+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -306,7 +332,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-26T06:21:55+00:00",
+  "checked_at": "2026-10-26T07:53:19+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
