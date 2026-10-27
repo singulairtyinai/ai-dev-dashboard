@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-27T08:18:37+00:00",
+  "checked_at": "2026-10-27T10:18:40+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-27T08:18:38+00:00",
+  "checked_at": "2026-10-27T10:18:41+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-27T08:18:39+00:00",
+  "checked_at": "2026-10-27T10:18:41+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-27T08:18:39+00:00",
+  "checked_at": "2026-10-27T10:18:42+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-27T08:18:41+00:00",
+  "checked_at": "2026-10-27T10:18:43+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,11 +117,12 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-27T08:18:40+00:00",
-  "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
+  "checked_at": "2026-10-27T10:18:42+00:00",
+  "hash": "88eb3fcfab7d6470370a43264ad13b53484e41ae",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
+   "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
    "Dr. Andrew F. Krepinevich, Jr.",
    "Drones, Missiles, and the U.S. Munitions Shortage",
@@ -135,7 +136,7 @@
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "View All Articles & Multimedia"
   ],
-  "changed_at": "2026-10-27T07:58:56+00:00",
+  "changed_at": "2026-10-27T10:18:42+00:00",
   "added": [
    {
     "text": "Charting the New Nuclear Age",
@@ -144,19 +145,26 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-27T08:18:41+00:00",
-  "hash": "1f5c504c7fe72b8ce4c66cfc45868dce797d90d4",
+  "checked_at": "2026-10-27T10:18:43+00:00",
+  "hash": "7f8672b112bd834ac91a885fc56c42dd52b62d56",
   "known": [
+   "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
    "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+   "Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra",
+   "Beyond Benchmarks: Can Small Open-Weight Models Get Real Coding Work Done?",
    "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
    "Carnegie Mellon University",
+   "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
    "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
    "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
    "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+   "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
    "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
    "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
    "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
    "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+   "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters",
+   "More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation",
    "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
    "Nanyang Technological University Singapore",
    "National University of Singapore",
@@ -166,15 +174,19 @@
    "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
    "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
    "Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access",
+   "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
    "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
    "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+   "Shanghai Jiao Tong University",
    "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
    "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
    "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
    "StreamVibe: Proactive Video Agents for Evolving User Intent",
    "The University of Hong Kong",
+   "Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents",
    "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
    "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+   "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
    "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
    "University College London",
    "Work Agents: Systems, Capabilities, and Optimization",
@@ -184,24 +196,36 @@
    "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
    "Δτ-Bench: Pushing Agents Toward a Moving Capability"
   ],
-  "changed_at": "2026-10-27T08:18:41+00:00",
+  "changed_at": "2026-10-27T10:18:43+00:00",
   "added": [
    {
-    "text": "Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access",
+    "text": "Shanghai Jiao Tong University",
+    "url": "https://huggingface.co/SJTU"
+   },
+   {
+    "text": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Nested Sparsity for Scalable Pretraining and Continual Learning",
+    "text": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "The University of Hong Kong",
-    "url": "https://huggingface.co/hkuhk"
+    "text": "More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters",
+    "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-27T08:18:46+00:00",
+  "checked_at": "2026-10-27T10:18:45+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -233,7 +257,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-27T08:18:47+00:00",
+  "checked_at": "2026-10-27T10:18:47+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -331,7 +355,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-27T08:18:46+00:00",
+  "checked_at": "2026-10-27T10:18:45+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
