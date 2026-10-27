@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-27T04:18:03+00:00",
+  "checked_at": "2026-10-27T06:19:40+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-27T04:18:04+00:00",
+  "checked_at": "2026-10-27T06:19:40+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-27T04:18:05+00:00",
+  "checked_at": "2026-10-27T06:19:41+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-27T04:18:05+00:00",
+  "checked_at": "2026-10-27T06:19:41+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-27T04:18:08+00:00",
+  "checked_at": "2026-10-27T06:19:42+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-27T04:18:06+00:00",
+  "checked_at": "2026-10-27T06:19:42+00:00",
   "hash": "03fa337483d5a7c7150e88aef331746a60d3e232",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -144,22 +144,28 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-27T04:18:08+00:00",
-  "hash": "341475c9604ff620a8ce24e5d8494fe5abc60f10",
+  "checked_at": "2026-10-27T06:19:42+00:00",
+  "hash": "5e6d9200d2b6693f7901da421fededd67bafc89a",
   "known": [
    "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
    "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
    "Carnegie Mellon University",
    "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
    "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+   "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
    "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+   "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
    "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+   "Nanyang Technological University Singapore",
    "National University of Singapore",
    "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
    "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
    "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
    "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
    "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+   "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+   "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
+   "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
    "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
    "StreamVibe: Proactive Video Agents for Evolving User Intent",
    "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
@@ -173,36 +179,36 @@
    "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
    "Δτ-Bench: Pushing Agents Toward a Moving Capability"
   ],
-  "changed_at": "2026-10-27T04:18:08+00:00",
+  "changed_at": "2026-10-27T06:19:42+00:00",
   "added": [
    {
-    "text": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+    "text": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+    "text": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+    "text": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+    "text": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
-    "url": "https://huggingface.co/papers"
+    "text": "Nanyang Technological University Singapore",
+    "url": "https://huggingface.co/nanyang-technological-university-singapore"
    },
    {
-    "text": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+    "text": "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-27T04:18:12+00:00",
+  "checked_at": "2026-10-27T06:19:45+00:00",
   "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
   "known": [
    "AI and human rights for youth",
@@ -234,7 +240,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-27T04:18:13+00:00",
+  "checked_at": "2026-10-27T06:19:46+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -332,7 +338,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-27T04:18:12+00:00",
+  "checked_at": "2026-10-27T06:19:44+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
