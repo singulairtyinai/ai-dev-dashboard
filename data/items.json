@@ -1,6 +1,50 @@
 {
- "updated": "2026-10-27T22:18:58+00:00",
+ "updated": "2026-10-28T00:18:47+00:00",
  "items": [
+  {
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "published": "2026-10-28T00:18:47+00:00",
+   "preview": "",
+   "id": "16faca12f964",
+   "source": "anthropic-news",
+   "fetched": "2026-10-28T00:18:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "Assistant Secretary Says There's 'Exceptional Interest' in the Next Great American Base",
+   "url": "https://www.war.gov/News/News-Stories/Article/Article/4635071/assistant-secretary-says-theres-exceptional-interest-in-the-next-great-american/",
+   "published": "2026-10-27T22:30:00+00:00",
+   "preview": "Competition to host the Next Great American Base — a premier joint force installation project — has been met with \"exceptional\" nationwide interest, the assistant secretary of war for energy, installations and…",
+   "id": "ccd53b5fc2a4",
+   "source": "dept-of-war-news",
+   "fetched": "2026-10-28T00:18:47+00:00",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "title": "Caine Says Super Intelligence Is a Strategic Priority",
+   "url": "https://www.war.gov/News/News-Stories/Article/Article/4635043/caine-says-super-intelligence-is-a-strategic-priority/",
+   "published": "2026-10-27T22:19:00+00:00",
+   "preview": "Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff, said super intelligence is one of his strategic priorities during a fireside chat at the National Defense Transportation Association and U.S.…",
+   "id": "fa89365299ae",
+   "source": "dept-of-war-news",
+   "fetched": "2026-10-28T00:18:47+00:00",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "title": "Meet LEANN: An Open-Source Vector Index that Shrinks a 60M-Chunk RAG Index from 201 GB to 6 GB",
+   "url": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/",
+   "published": "2026-10-27T21:54:37+00:00",
+   "preview": "UC Berkeley’s LEANN vector index stores a pruned graph and recomputes embeddings at query time. It matches HNSW accuracy at 90% recall using 4 GB instead of 188 GB, at the cost of seconds-level search. The post Meet…",
+   "id": "538a3b89665c",
+   "source": "marktechpost",
+   "fetched": "2026-10-28T00:18:47+00:00",
+   "countries": []
+  },
   {
    "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
    "url": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/",
@@ -154,6 +198,16 @@
    "id": "ae72bdec54e1",
    "source": "wired-ai",
    "fetched": "2026-10-27T16:30:27+00:00",
+   "countries": []
+  },
+  {
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "published": "2026-10-27T15:00:00+00:00",
+   "preview": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "id": "d42fb1eb3362",
+   "source": "openai-news",
+   "fetched": "2026-10-28T00:18:47+00:00",
    "countries": []
   },
   {
@@ -4287,16 +4341,6 @@
    "countries": []
   },
   {
-   "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
-   "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
-   "published": "2026-10-20T03:32:43+00:00",
-   "preview": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception’s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks. The post Inception…",
-   "id": "884a0dfb5679",
-   "source": "marktechpost",
-   "fetched": "2026-10-20T04:59:08+00:00",
-   "countries": []
-  },
-  {
    "title": "MPS in PyTorch 2.15",
    "url": "https://huggingface.co/blog/mps-pytorch-2-15",
    "published": "2026-10-20T00:00:00+00:00",
@@ -5362,6 +5406,16 @@
    ]
   },
   {
+   "title": "An update on independent evaluators",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "published": "2026-10-15T00:00:00+00:00",
+   "preview": "",
+   "id": "dc9ed14da7f5",
+   "source": "anthropic-news",
+   "fetched": "2026-10-15T18:18:37+00:00",
+   "countries": []
+  },
+  {
    "title": "Welcome FLUX.3 Image Klein in Diffusers",
    "url": "https://huggingface.co/blog/flux-3",
    "published": "2026-10-15T00:00:00+00:00",
@@ -5389,16 +5443,6 @@
    "id": "dd00c04c9b95",
    "source": "openai-news",
    "fetched": "2026-10-16T02:18:23+00:00",
-   "countries": []
-  },
-  {
-   "title": "An update on independent evaluators",
-   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-   "published": "2026-10-15T00:00:00+00:00",
-   "preview": "",
-   "id": "dc9ed14da7f5",
-   "source": "anthropic-news",
-   "fetched": "2026-10-15T18:18:37+00:00",
    "countries": []
   },
   {
@@ -5841,18 +5885,6 @@
    "source": "defense-one-technology",
    "fetched": "2026-10-14T01:16:26+00:00",
    "countries": []
-  },
-  {
-   "title": "The EU’s next chapter in AI is agentic",
-   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-   "published": "2026-10-14T00:00:00+00:00",
-   "preview": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-   "id": "2f3282e48314",
-   "source": "openai-news",
-   "fetched": "2026-10-14T10:18:36+00:00",
-   "countries": [
-    "European Union"
-   ]
   },
   {
    "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
@@ -6857,16 +6889,6 @@
    "countries": []
   },
   {
-   "title": "The model that didn't exist, so you made it yourself",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
-   "published": "2026-10-08T00:00:00+00:00",
-   "preview": "",
-   "id": "0f05fd4155a4",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-08T22:19:00+00:00",
-   "countries": []
-  },
-  {
    "title": "Building on our commitment to American scientific discovery",
    "url": "https://www.anthropic.com/news/genesis-mission-commitment",
    "published": "2026-10-08T00:00:00+00:00",
@@ -6896,6 +6918,16 @@
    "id": "db9c355075ab",
    "source": "anthropic-news",
    "fetched": "2026-10-08T19:59:08+00:00",
+   "countries": []
+  },
+  {
+   "title": "The model that didn't exist, so you made it yourself",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "published": "2026-10-08T00:00:00+00:00",
+   "preview": "",
+   "id": "0f05fd4155a4",
+   "source": "hugging-face-blog",
+   "fetched": "2026-10-08T22:19:00+00:00",
    "countries": []
   },
   {
@@ -7414,19 +7446,6 @@
    "countries": []
   },
   {
-   "title": "Navy Commissions USS Ted Stevens, Honoring Senator's Defense Advocacy",
-   "url": "https://www.war.gov/News/News-Stories/Article/Article/4619111/navy-commissions-uss-ted-stevens-honoring-senators-defense-advocacy/",
-   "published": "2026-10-05T17:09:00+00:00",
-   "preview": "The Navy commissioned its newest destroyer, the USS Ted Stevens, into active service during a formal ceremony in Whittier, Alaska.",
-   "id": "81bbd809a3a9",
-   "source": "dept-of-war-news",
-   "fetched": "2026-10-05T20:19:16+00:00",
-   "countries": [
-    "NATO",
-    "United States"
-   ]
-  },
-  {
    "title": "The Triumph of Tech-Fueled Propaganda",
    "url": "https://cset.georgetown.edu/article/the-triumph-of-tech-fueled-propaganda/",
    "published": "2026-10-05T16:00:00+00:00",
@@ -7629,18 +7648,6 @@
    "source": "hugging-face-blog",
    "fetched": "2026-10-04T00:18:30+00:00",
    "countries": []
-  },
-  {
-   "title": "Hegseth Speaks to Cadets Ahead of Air Force, Navy Football Game",
-   "url": "https://www.war.gov/News/News-Stories/Article/Article/4618565/hegseth-speaks-to-cadets-ahead-of-air-force-navy-football-game/",
-   "published": "2026-10-03T15:59:00+00:00",
-   "preview": "Secretary of War Pete Hegseth traveled to the U.S. Air Force Academy near Colorado Springs, Colo., where he addressed roughly 3,500 members of the school's cadet wing ahead of the annual Air Force vs. Naval Academy…",
-   "id": "129d5a32ee2b",
-   "source": "dept-of-war-news",
-   "fetched": "2026-10-03T16:28:30+00:00",
-   "countries": [
-    "United States"
-   ]
   },
   {
    "title": "In Case You Missed It...",
