@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T01:27:06+00:00",
+ "updated": "2026-10-28T02:18:12+00:00",
  "items": [
   {
    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
@@ -88,6 +88,26 @@
    "countries": []
   },
   {
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "url": "https://arxiv.org/abs/2610.37657v1",
+   "published": "2026-10-27T17:58:52+00:00",
+   "preview": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention…",
+   "id": "cdb986594d96",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy",
+   "url": "https://arxiv.org/abs/2610.37635v1",
+   "published": "2026-10-27T17:54:01+00:00",
+   "preview": "It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to…",
+   "id": "ebd89bdfede6",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "VisionQuest is what happens when AI really goes rogue",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
    "published": "2026-10-27T17:30:00+00:00",
@@ -139,6 +159,16 @@
    "event": "2026-10-27T19:05:42+00:00"
   },
   {
+   "title": "Revisiting Privacy Risks in Quantized Deep Neural Networks",
+   "url": "https://arxiv.org/abs/2610.37488v1",
+   "published": "2026-10-27T16:14:21+00:00",
+   "preview": "Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread…",
+   "id": "9dff929fe454",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
    "published": "2026-10-27T16:14:18+00:00",
@@ -159,6 +189,16 @@
    "countries": []
   },
   {
+   "title": "When POST Becomes GET: Investigating HTTP Method Interchangeability and Its Security Implications",
+   "url": "https://arxiv.org/abs/2610.37474v1",
+   "published": "2026-10-27T16:05:34+00:00",
+   "preview": "HTTP method semantics are a common boundary between safe retrieval and state-changing operations; however, deployed web applications do not always enforce this boundary consistently. In this paper, we study HTTP method…",
+   "id": "b557ec9109e8",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Will Anthropic’s post-IPO governance really protect its safety mission?",
    "url": "https://www.transformernews.ai/p/anthropics-post-ipo-governance-trust",
    "published": "2026-10-27T16:02:26+00:00",
@@ -166,6 +206,16 @@
    "id": "23867b0cecf7",
    "source": "transformer",
    "fetched": "2026-10-27T16:30:27+00:00",
+   "countries": []
+  },
+  {
+   "title": "Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms",
+   "url": "https://arxiv.org/abs/2610.37467v1",
+   "published": "2026-10-27T16:01:08+00:00",
+   "preview": "AI chatbot platforms have become one of the most popular web interfaces users interact with online, routinely receiving personal and intimate information shared under an expectation of privacy. Yet, on the web…",
+   "id": "c33085ab17e6",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
    "countries": []
   },
   {
@@ -179,6 +229,16 @@
    "countries": []
   },
   {
+   "title": "SecDMP: Provably Secure Data Memory-Dependent Prefetching (Extended Version)",
+   "url": "https://arxiv.org/abs/2610.37454v1",
+   "published": "2026-10-27T15:55:43+00:00",
+   "preview": "Data memory-dependent prefetchers (DMPs) are a microarchitectural optimization recently introduced in mainstream desktop and server CPUs. Although DMPs offer performance improvements, they have been shown to enable…",
+   "id": "d163065e2842",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Army Battery Sharpens Skills During Nighttime Reload Training",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4634460/army-battery-sharpens-skills-during-nighttime-reload-training/",
    "published": "2026-10-27T15:54:44+00:00",
@@ -189,6 +249,26 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "The Envelope Layer: An Underestimated Surface of LLM Agent Defense",
+   "url": "https://arxiv.org/abs/2610.37415v1",
+   "published": "2026-10-27T15:32:10+00:00",
+   "preview": "Prior work framed the envelope layer as the channel through which malicious content enters an agent, and established it as a defense surface independent of the LLM layer and the agent layer; however, that work only…",
+   "id": "5daf51002745",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution",
+   "url": "https://arxiv.org/abs/2610.37407v1",
+   "published": "2026-10-27T15:22:00+00:00",
+   "preview": "Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent…",
+   "id": "88dcc992d4a2",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
   },
   {
    "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
@@ -223,6 +303,16 @@
    ]
   },
   {
+   "title": "Watermark Basins: Black-Box Detection of Distilled LLMs",
+   "url": "https://arxiv.org/abs/2610.37266v1",
+   "published": "2026-10-27T13:59:34+00:00",
+   "preview": "Proprietary language models and their reasoning traces are vulnerable to API-based distillation, where an adversary trains a student model on the teacher model's outputs. To obtain evidence of distillation, model…",
+   "id": "e615cbd467d4",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
    "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
    "published": "2026-10-27T13:50:51+00:00",
@@ -230,6 +320,26 @@
    "id": "0d516a24ee36",
    "source": "the-verge-ai",
    "fetched": "2026-10-27T14:39:32+00:00",
+   "countries": []
+  },
+  {
+   "title": "When Is a Relation Worth Trusting? Manipulation Costs, Exposure, and the Trust Trap in Multi-Relational Graph Learning",
+   "url": "https://arxiv.org/abs/2610.37239v1",
+   "published": "2026-10-27T13:43:56+00:00",
+   "preview": "Multi-relational graph detectors learn from clean data how much to trust each relation, but an adversary pays a different price to manipulate each relation and each action; taking such costs as given, we ask when using…",
+   "id": "a9d690fdd5a1",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Asynchronous Verifiable and Complete Secret Sharing: From Design Patterns to System-Level Trade-offs",
+   "url": "https://arxiv.org/abs/2610.37234v1",
+   "published": "2026-10-27T13:41:33+00:00",
+   "preview": "Modern secret sharing protocols promise robust secret sharing in fully asynchronous Byzantine systems, but their practical costs remain difficult to compare across papers, assumptions, and workloads. The difficulty is…",
+   "id": "b25d1db8f281",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
    "countries": []
   },
   {
@@ -287,6 +397,36 @@
    ]
   },
   {
+   "title": "GKS Fully Homomorphic Encryption: Security Analysis",
+   "url": "https://arxiv.org/abs/2610.37061v1",
+   "published": "2026-10-27T11:28:49+00:00",
+   "preview": "All traditional encryption schemes share a fundamental operational vulnerability: encrypted data must be decrypted before it can be used. Fully homomorphic encryption eliminates this vulnerability by enabling…",
+   "id": "ee5732d5c503",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Janus Vehicles: Entity-Centric Threat Modelling of Protocol-Conformant Vehicles under a Malicious-Manufacturer Assumption",
+   "url": "https://arxiv.org/abs/2610.37059v1",
+   "published": "2026-10-27T11:25:18+00:00",
+   "preview": "Automotive cybersecurity commonly assumes benign end-product manufacturers and design authorities, focusing on supply-chain threats, external attacks, and compromised network participants observable through…",
+   "id": "f6cec787a496",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Blindfold: Keeping the Audit Coin Secret from LLM Agents",
+   "url": "https://arxiv.org/abs/2610.37055v1",
+   "published": "2026-10-27T11:24:12+00:00",
+   "preview": "Audit-based certification bounds the violation rate of an LLM agent by auditing a random fraction $\\varepsilon$ of actions and reweighting the audited labels; its validity is meant to rest only on the defender's audit…",
+   "id": "ef7efaf89a59",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
    "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
    "published": "2026-10-27T11:19:18+00:00",
@@ -304,6 +444,16 @@
    "id": "8923f51bcf38",
    "source": "wired-ai",
    "fetched": "2026-10-27T12:20:13+00:00",
+   "countries": []
+  },
+  {
+   "title": "RePAIR: Inverting Backdoor Attacks in Semantic Segmentation",
+   "url": "https://arxiv.org/abs/2610.37015v1",
+   "published": "2026-10-27T10:53:47+00:00",
+   "preview": "Despite significant advances in computer vision, semantic segmentation models remain vulnerable to backdoor attacks, posing a security risk. These attacks redirect pixels of a chosen victim class to an…",
+   "id": "e5354efed25a",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-10-28T02:18:12+00:00",
    "countries": []
   },
   {
@@ -810,6 +960,16 @@
    "id": "8cb333260a17",
    "source": "openai-news",
    "fetched": "2026-10-27T20:18:34+00:00",
+   "countries": []
+  },
+  {
+   "title": "Announcing Artificial Analysis Intelligence Index v5",
+   "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+   "published": "2026-10-27T00:00:00+00:00",
+   "preview": "",
+   "id": "34fa11d94c60",
+   "source": "artificial-analysis",
+   "fetched": "2026-10-28T02:18:12+00:00",
    "countries": []
   },
   {
@@ -1525,26 +1685,6 @@
    ]
   },
   {
-   "title": "Can Open Be Too Open? On the Security and Trustworthiness of Fully Transparent LLMs",
-   "url": "https://arxiv.org/abs/2610.35199v1",
-   "published": "2026-10-26T10:52:08+00:00",
-   "preview": "There are different levels of transparency for LLMs: open weights, open data, and/or open pipeline. Recently, more interest has emerged in fully transparent LLMs, i.e., LLMs with fully open weights, data, and training…",
-   "id": "3d0bb1a18421",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
-   "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
-   "url": "https://arxiv.org/abs/2610.35193v1",
-   "published": "2026-10-26T10:46:03+00:00",
-   "preview": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to…",
-   "id": "81740ffe1ea0",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
    "title": "The military AI industry’s involvement in armed conflict: Implications under international humanitarian law",
    "url": "https://www.sipri.org/commentary/topical-backgrounder/2026/military-ai-industrys-involvement-armed-conflict-implications-under-international-humanitarian-law",
    "published": "2026-10-26T10:45:00+00:00",
@@ -1667,16 +1807,6 @@
    "countries": []
   },
   {
-   "title": "GuardRAG: A Post-Retrieval Defense against Poisoning Attacks in Retrieval-Augmented Generation",
-   "url": "https://arxiv.org/abs/2610.35071v1",
-   "published": "2026-10-26T09:17:29+00:00",
-   "preview": "Retrieval-Augmented Generation (RAG) enhances the factual grounding of Large Language Models (LLMs) by incorporating external evidence, but also exposes them to corpus poisoning attacks. In particular, coordinated…",
-   "id": "f0d513272f03",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
    "title": "Reinforcement Learning Done Right for Explicit Confidence Targets",
    "url": "https://arxiv.org/abs/2610.35059v1",
    "published": "2026-10-26T09:05:29+00:00",
@@ -1714,16 +1844,6 @@
    "id": "cb4a474dbab7",
    "source": "wired-ai",
    "fetched": "2026-10-26T10:18:46+00:00",
-   "countries": []
-  },
-  {
-   "title": "Steering for Safety, Hijacking for Profit: Trojan Threats in the LLM Activation Steering Supply Chain",
-   "url": "https://arxiv.org/abs/2610.35043v1",
-   "published": "2026-10-26T08:54:10+00:00",
-   "preview": "As large language models (LLMs) are increasingly integrated into Web search, online recommendation, and intelligent decision-making, the third-party plugin ecosystem centered on model customization continues to grow.…",
-   "id": "1d764c04cc1f",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
    "countries": []
   },
   {
@@ -1809,16 +1929,6 @@
    "countries": []
   },
   {
-   "title": "The Target Agent Is Its Own Best Critic but a Poor Proposer: Self-Improved Red Teaming",
-   "url": "https://arxiv.org/abs/2610.34965v1",
-   "published": "2026-10-26T07:34:02+00:00",
-   "preview": "Automatic red teaming increasingly relies on large language models (LLMs) to iteratively diagnose failed attacks and propose improved adversarial prompts or injections. Although prior work strengthens this loop through…",
-   "id": "787d4ffd9e39",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
    "title": "The Importance of the Battle of Bailén",
    "url": "https://warontherocks.com/the-importance-of-the-battle-of-bailen/",
    "published": "2026-10-26T07:30:22+00:00",
@@ -1826,26 +1936,6 @@
    "id": "f4df524554f0",
    "source": "war-on-the-rocks",
    "fetched": "2026-10-26T07:53:13+00:00",
-   "countries": []
-  },
-  {
-   "title": "Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking",
-   "url": "https://arxiv.org/abs/2610.34942v1",
-   "published": "2026-10-26T07:08:36+00:00",
-   "preview": "Hyperdimensional computing (HDC) offers efficient learning and inference for resource-constrained systems, yet ownership verification of its models remains underexplored. We present the first systematic investigation of…",
-   "id": "50f2fbacedf6",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "A Certified Robustness Framework for Backdoor Poisoning Attacks using $f$-Divergences",
-   "url": "https://arxiv.org/abs/2610.34934v1",
-   "published": "2026-10-26T07:01:27+00:00",
-   "preview": "Machine learning systems trained on untrusted data are vulnerable to data and backdoor poisoning attacks, in which an adversary corrupts training and test samples to manipulate predictions at inference time. Randomized…",
-   "id": "016f5280e34b",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
    "countries": []
   },
   {
@@ -1866,76 +1956,6 @@
    "id": "8f2f08b6e197",
    "source": "openai-news",
    "fetched": "2026-10-26T20:19:10+00:00",
-   "countries": []
-  },
-  {
-   "title": "Attack logics, not outputs: Concept-based Property Attacks for Shortcut Elimination in Neural Networks",
-   "url": "https://arxiv.org/abs/2610.34923v1",
-   "published": "2026-10-26T06:52:18+00:00",
-   "preview": "Deep neural networks (NNs) for computer vision are vulnerable to adversarial attacks, such that minuscule malicious changes to inputs may induce unintuitive outputs. One key approach to verify and mitigate such…",
-   "id": "04a2521eeb05",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Phantom Forgetting: How BatchNorm State Fakes Deletion in Edge Split Machine Unlearning",
-   "url": "https://arxiv.org/abs/2610.34800v1",
-   "published": "2026-10-26T03:41:51+00:00",
-   "preview": "Split learning is a natural fit for edge intelligence: a resource-constrained edge device runs the first layers of a network and offloads the remainder to a server, so that raw data never leave the device. When such a…",
-   "id": "5bd6cfb770b8",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Scope-Gap Injection: Exploiting Evaluator Channel Blind Spots in the OpenClaw Agent Security Competition",
-   "url": "https://arxiv.org/abs/2610.34777v1",
-   "published": "2026-10-26T03:24:52+00:00",
-   "preview": "This paper introduces Scope-Gap Injection (SGI), an indirect prompt injection method for multi-stage LLM-agent safety pipelines. In the IJCAI 2026 OpenClaw Agent Security Attack Competition, each attack package is…",
-   "id": "46f3c9d6a717",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Performance Guarantees for Permissionless Lending",
-   "url": "https://arxiv.org/abs/2610.34774v1",
-   "published": "2026-10-26T03:19:22+00:00",
-   "preview": "We propose a lending protocol with far fewer risks than existing pool-based lending protocols (e.g., Aave, Compound). In our protocol, lenders and borrowers embody the spirit of decentralization by making competing…",
-   "id": "46e7040c36da",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion",
-   "url": "https://arxiv.org/abs/2610.34688v1",
-   "published": "2026-10-26T01:24:54+00:00",
-   "preview": "Speech interaction systems have gradually evolved from traditional cascaded systems that use text as intermediate information to end-to-end speech language models that directly process speech representations. In some…",
-   "id": "0a97c76ac19d",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification",
-   "url": "https://arxiv.org/abs/2610.34675v1",
-   "published": "2026-10-26T01:11:44+00:00",
-   "preview": "Large language models (LLMs) are valuable digital assets, yet their weights can be easily modified after unauthorized acquisition, making model provenance difficult to verify. Model fingerprinting provides a promising…",
-   "id": "d50441fe087b",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Compound Environmental Operating Stress and Cyber-Induced Pump Disruption in Water Distribution Networks: Matched Hydraulic Impacts, Service Continuity, and Sustained Recovery",
-   "url": "https://arxiv.org/abs/2610.34670v1",
-   "published": "2026-10-26T01:01:31+00:00",
-   "preview": "Digitally controlled water distribution systems must maintain service during disruptions, yet restoring water delivery does not necessarily ensure hydraulic recovery. This study evaluates cyber-induced pump outages…",
-   "id": "ccf605a9edd7",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
    "countries": []
   },
   {
@@ -1976,16 +1996,6 @@
    "id": "47455aa3a6ab",
    "source": "artificial-analysis",
    "fetched": "2026-10-26T20:19:10+00:00",
-   "countries": []
-  },
-  {
-   "title": "Denial of Service Attacks on Beam Allocation in Large LEO Constellations",
-   "url": "https://arxiv.org/abs/2610.34631v1",
-   "published": "2026-10-25T23:08:59+00:00",
-   "preview": "We study the vulnerability of beam allocation approaches in large low-Earth-orbit (LEO) satellite constellations to adversarial demand inflation resulting in denial-of-service attacks. We consider an attack model in…",
-   "id": "7e6036e9f7d7",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-27T02:18:48+00:00",
    "countries": []
   },
   {
