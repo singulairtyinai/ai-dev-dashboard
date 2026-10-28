@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T02:18:12+00:00",
+ "updated": "2026-10-28T04:18:12+00:00",
  "items": [
   {
    "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
@@ -88,6 +88,26 @@
    "countries": []
   },
   {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "url": "https://arxiv.org/abs/2610.37668v1",
+   "published": "2026-10-27T17:59:59+00:00",
+   "preview": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels:…",
+   "id": "652f1bf21442",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "url": "https://arxiv.org/abs/2610.37666v1",
+   "published": "2026-10-27T17:59:52+00:00",
+   "preview": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos…",
+   "id": "f9fc9bf8c857",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
    "url": "https://arxiv.org/abs/2610.37657v1",
    "published": "2026-10-27T17:58:52+00:00",
@@ -95,6 +115,46 @@
    "id": "cdb986594d96",
    "source": "arxiv-cs-cr",
    "fetched": "2026-10-28T02:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+   "url": "https://arxiv.org/abs/2610.37656v1",
+   "published": "2026-10-27T17:58:48+00:00",
+   "preview": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a…",
+   "id": "99835a80f458",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+   "url": "https://arxiv.org/abs/2610.37655v1",
+   "published": "2026-10-27T17:58:40+00:00",
+   "preview": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in…",
+   "id": "6f327c68ae45",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "url": "https://arxiv.org/abs/2610.37649v1",
+   "published": "2026-10-27T17:57:00+00:00",
+   "preview": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier…",
+   "id": "a0b7070066d5",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+   "url": "https://arxiv.org/abs/2610.37647v1",
+   "published": "2026-10-27T17:56:40+00:00",
+   "preview": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze…",
+   "id": "e0482e6f8507",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
    "countries": []
   },
   {
@@ -108,6 +168,66 @@
    "countries": []
   },
   {
+   "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+   "url": "https://arxiv.org/abs/2610.37631v1",
+   "published": "2026-10-27T17:52:38+00:00",
+   "preview": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear.…",
+   "id": "ec76c0ab38ac",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+   "url": "https://arxiv.org/abs/2610.37624v1",
+   "published": "2026-10-27T17:49:39+00:00",
+   "preview": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On…",
+   "id": "da361ea04775",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+   "url": "https://arxiv.org/abs/2610.37613v1",
+   "published": "2026-10-27T17:41:56+00:00",
+   "preview": "Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit…",
+   "id": "6594bee508dd",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond Answer Changes: Matched Same-Class Controls for Local Audio Evidence",
+   "url": "https://arxiv.org/abs/2610.37605v1",
+   "published": "2026-10-27T17:36:06+00:00",
+   "preview": "For audio-language models, an answer change after a local sound-event edit can reflect a response to the event's class, sensitivity to waveform rewriting, or both. We compare matched same-class and different-class…",
+   "id": "6410cba520f1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices",
+   "url": "https://arxiv.org/abs/2610.37599v1",
+   "published": "2026-10-27T17:31:40+00:00",
+   "preview": "Developing on-device image models requires considering practical user needs, task types and device resource constraints. However, existing benchmarks provide limited guidance on identifying capability gaps between…",
+   "id": "ba933f20444e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting",
+   "url": "https://arxiv.org/abs/2610.37598v1",
+   "published": "2026-10-27T17:31:26+00:00",
+   "preview": "Traffic forecasting requires modeling complex temporal dynamics and the spatial dependencies imposed by road topology. Supervised graph-based models achieve strong performance, but are often trained for a particular…",
+   "id": "9e2934c82225",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
    "title": "VisionQuest is what happens when AI really goes rogue",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
    "published": "2026-10-27T17:30:00+00:00",
@@ -115,6 +235,36 @@
    "id": "d8c87d0b4457",
    "source": "the-verge-ai",
    "fetched": "2026-10-27T18:18:16+00:00",
+   "countries": []
+  },
+  {
+   "title": "Understanding the limits of latent world models",
+   "url": "https://arxiv.org/abs/2610.37588v1",
+   "published": "2026-10-27T17:25:50+00:00",
+   "preview": "World models are widely proposed as core components for enabling agents to reason over long temporal and spatial horizons. Yet current evaluations often emphasize task performance while providing limited insight into…",
+   "id": "2727f85a299b",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "Timestral",
+   "url": "https://arxiv.org/abs/2610.37585v1",
+   "published": "2026-10-27T17:25:43+00:00",
+   "preview": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench,…",
+   "id": "25ea1510e4e4",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": []
+  },
+  {
+   "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation",
+   "url": "https://arxiv.org/abs/2610.37584v1",
+   "published": "2026-10-27T17:25:12+00:00",
+   "preview": "Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively…",
+   "id": "0bce9f614bf1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-10-28T04:18:12+00:00",
    "countries": []
   },
   {
@@ -1253,26 +1403,6 @@
    "countries": []
   },
   {
-   "title": "A Unified Arena for LLM Agents across Diverse Eurogame",
-   "url": "https://arxiv.org/abs/2610.35773v1",
-   "published": "2026-10-26T17:14:22+00:00",
-   "preview": "Interactive environments offer a practical way to evaluate large language model (LLM) agents, and competitive games extend this evaluation to decisions shaped by competing goals and other agents' choices. Yet existing…",
-   "id": "92f84c8c580c",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
-   "title": "Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents",
-   "url": "https://arxiv.org/abs/2610.35767v1",
-   "published": "2026-10-26T17:12:02+00:00",
-   "preview": "Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own…",
-   "id": "96e6f19f8e37",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
    "title": "Five weird details from Anthropic’s IPO filing",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
    "published": "2026-10-26T17:10:23+00:00",
@@ -1280,36 +1410,6 @@
    "id": "4a8f41d180d7",
    "source": "the-verge-ai",
    "fetched": "2026-10-26T18:19:36+00:00",
-   "countries": []
-  },
-  {
-   "title": "Do Similarity Measures Measure Similarity? How User Activity Creates Phantom Correlation in Recommender Systems",
-   "url": "https://arxiv.org/abs/2610.35765v1",
-   "published": "2026-10-26T17:09:56+00:00",
-   "preview": "Item-item similarity is one of the oldest and most foundational signals in recommender systems: two items are assumed to be similar when the same users consume them. Despite the sparsity and scale of interaction data,…",
-   "id": "67098512412e",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
-   "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
-   "url": "https://arxiv.org/abs/2610.35761v1",
-   "published": "2026-10-26T17:06:33+00:00",
-   "preview": "Mental-health risks such as depression, dementia, and suicidal ideation can emerge during hospitalization among chronically ill patients and may worsen without timely recognition and intervention. However, most existing…",
-   "id": "47f8360b1810",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T06:19:39+00:00",
-   "countries": []
-  },
-  {
-   "title": "EEGaze: Multimodal Attention Prediction in Visual Search via EEG-Based Saliency Refinement",
-   "url": "https://arxiv.org/abs/2610.35757v1",
-   "published": "2026-10-26T17:04:04+00:00",
-   "preview": "Visual search is ubiquitous in daily life, from locating keys in a messy apartment to finding a tool in a cluttered workshop or an application icon on a desktop screen. While visual attention is to a large extent driven…",
-   "id": "8de791e23e42",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T06:19:39+00:00",
    "countries": []
   },
   {
@@ -2129,26 +2229,6 @@
    "countries": []
   },
   {
-   "title": "Deep Scientific Reasoning under Physical Constraints: Structure-Aware Spectrum Prediction",
-   "url": "https://arxiv.org/abs/2610.34021v1",
-   "published": "2026-10-25T03:22:14+00:00",
-   "preview": "Structured scientific spectra encode rich physical information while obeying hard constraints, such as conservation laws and characteristic spectral geometry. Accurate prediction of these spectra is central to materials…",
-   "id": "f8dbf32f81cb",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "BriLLM-MetaPred: A Representation-Prediction Unity Language Model with Adaptive Self-Measurement",
-   "url": "https://arxiv.org/abs/2610.34018v1",
-   "published": "2026-10-25T03:08:17+00:00",
-   "preview": "We present BriLLM-MetaPred, the first engineering implementation of the MetaPred machine-learning framework established by a mathematical theory of AGI, instantiated for language modeling. The theory argues that…",
-   "id": "01c2ba355fed",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
    "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
    "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
    "published": "2026-10-25T02:59:08+00:00",
@@ -2169,26 +2249,6 @@
    "countries": []
   },
   {
-   "title": "Fed-Universe: A Semantic-Geometric-Topological-Human (S-G-T-H) Stack for Negotiated Alignment in Federated Systems",
-   "url": "https://arxiv.org/abs/2610.34009v1",
-   "published": "2026-10-25T02:43:50+00:00",
-   "preview": "Conventional federated learners implicitly optimize for global means, creating a \"one-size-fits-all\" paradigm that inevitably suppresses the minority under cross-site heterogeneity. To bridge this critical gap, we…",
-   "id": "a42caeeadf08",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Steering the Teacher: Improving On-Policy Self-Distillation for Thinking Models",
-   "url": "https://arxiv.org/abs/2610.34005v1",
-   "published": "2026-10-25T02:34:40+00:00",
-   "preview": "On-policy self-distillation (OPSD) trains a student on its own reasoning trajectories using token-level supervision from a reference-conditioned teacher initialized from the same model. However, access to the reference…",
-   "id": "f93f9352e4d5",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
    "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
    "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
    "published": "2026-10-25T02:30:18+00:00",
@@ -2199,46 +2259,6 @@
    "countries": []
   },
   {
-   "title": "Hierarchical Cooperative GFlowNets",
-   "url": "https://arxiv.org/abs/2610.33968v1",
-   "published": "2026-10-25T00:46:45+00:00",
-   "preview": "Generative Flow Networks (GFlowNets) are trained to sample objects from compositional spaces with probability proportional to a reward function, but ineffective exploration can cause learned samplers to concentrate on a…",
-   "id": "57c5677e441e",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "QECGBERT: A Scalable ECG Foundation Model Based on Self-Supervised Language Learning via VQ-VAE Waveform Tokenization",
-   "url": "https://arxiv.org/abs/2610.33964v1",
-   "published": "2026-10-25T00:37:53+00:00",
-   "preview": "AI foundation models play a pivotal role in advancing heart disease diagnosis from electrocardiogram (ECG) data, particularly for rare diseases where the lack of sufficient labeled data hinders supervised learning.…",
-   "id": "2495046176fa",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "WebViSE: Scaling Visual Design Intelligence from the Open Web for LLM Website Generation",
-   "url": "https://arxiv.org/abs/2610.33929v1",
-   "published": "2026-10-24T21:43:29+00:00",
-   "preview": "Large language models have made remarkable strides in website development, enabling complete and interactive web experiences to be built from natural-language instructions with far less effort. Yet, non-expert users…",
-   "id": "7576c250b06d",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "Multitask Interactions in Recurrent Dynamics across 100 Cognitive Tasks",
-   "url": "https://arxiv.org/abs/2610.33926v1",
-   "published": "2026-10-24T21:38:06+00:00",
-   "preview": "The brain continually learns tasks with very different computational demands. Recurrent neural networks (RNNs) have been used as dynamical surrogates for studying task solutions, with recent work extending this approach…",
-   "id": "7dfab683b4bd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
    "title": "Blue Planet III is keeping the rough edges in the age of AI",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
    "published": "2026-10-24T21:29:12+00:00",
@@ -2246,26 +2266,6 @@
    "id": "0509c80e85fb",
    "source": "the-verge-ai",
    "fetched": "2026-10-24T22:17:55+00:00",
-   "countries": []
-  },
-  {
-   "title": "Rank-1 Weight-Corrected Trainable Weight Averaging for Out-of-Distribution Detection",
-   "url": "https://arxiv.org/abs/2610.33909v1",
-   "published": "2026-10-24T20:45:04+00:00",
-   "preview": "Out-of-distribution (OOD) detection identifies inputs outside the training distribution. Rank-based analyses such as RankFeat and RankWeight suggest that OOD overconfidence is closely related to dominant low-rank…",
-   "id": "0acc018ab0cd",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
-   "countries": []
-  },
-  {
-   "title": "OS-Wizard: Scaling Computer-Using Agents to Specialized Software via Knowledge-Guided Exploration",
-   "url": "https://arxiv.org/abs/2610.33907v1",
-   "published": "2026-10-24T20:39:23+00:00",
-   "preview": "Computer-using agents are increasingly capable of performing complex tasks in the digital world. However, high-quality interaction trajectories remain scarce for specialized desktop applications, where limited…",
-   "id": "5c5015e9f839",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-27T02:18:48+00:00",
    "countries": []
   },
   {
@@ -2391,6 +2391,18 @@
    "source": "the-verge-ai",
    "fetched": "2026-10-23T23:12:42+00:00",
    "countries": []
+  },
+  {
+   "title": "The audacity incubator: 20 years of YFA",
+   "url": "https://www.darpa.mil/news/2026/podcast-audacity-incubator-ep-98",
+   "published": "2026-10-23T21:07:34+00:00",
+   "preview": "With three YFA alumni, DSO Director Bart Russell discuss how early DARPA-funded research and mentorship helped launch careers.",
+   "id": "69c9df0e9cd2",
+   "source": "darpa-news",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": [
+    "United States"
+   ]
   },
   {
    "title": "Navy’s tech playbook serves as ‘toolkit’ for rest of government",
@@ -2764,6 +2776,18 @@
    "source": "the-verge-ai",
    "fetched": "2026-10-22T22:18:28+00:00",
    "countries": []
+  },
+  {
+   "title": "Autonomous vehicles deliver command-controlled robotic lethality",
+   "url": "https://www.darpa.mil/news/2026/autonomous-vehicles-deliver",
+   "published": "2026-10-22T21:27:13+00:00",
+   "preview": "DARPA RACER demo at Fort Knox detected, tracked, engaged simulated threats while retaining human control.",
+   "id": "e8b6025c84be",
+   "source": "darpa-news",
+   "fetched": "2026-10-28T04:18:12+00:00",
+   "countries": [
+    "United States"
+   ]
   },
   {
    "title": "Designing an AI serving harness built to last",
