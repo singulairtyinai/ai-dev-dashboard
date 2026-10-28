@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-28T14:24:45+00:00",
+  "checked_at": "2026-10-28T16:22:39+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-28T14:24:46+00:00",
+  "checked_at": "2026-10-28T16:22:40+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,13 +53,13 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-28T14:24:46+00:00",
-  "hash": "ddc6a98f0c60ab754d6928681d4741c97826a3a0",
+  "checked_at": "2026-10-28T16:22:41+00:00",
+  "hash": "2b3be50b53ce23049811b0a44cc3c8c5a64d2bab",
   "known": [
-   "AI Governance Executive Functions: Horizontal Leaders",
-   "AI Governance Professional Profiles: Ethics",
    "AI Use Cases in Legal Practice",
+   "AI governance starts with your data: Building the evidence the EU AI Act and new U.S. rules expect",
    "Australia's privacy reform: Priorities before the OAIC",
+   "Beyond the frontier: Pragmatic AI risk management for the rest of us",
    "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
    "EU AI Act Compliance Matrix",
    "EU AI Act: Mapping the Interplays with the GDPR",
@@ -76,16 +76,20 @@
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
    "What the phonograph can teach us about managing AI"
   ],
-  "changed_at": "2026-10-28T14:24:46+00:00",
+  "changed_at": "2026-10-28T16:22:41+00:00",
   "added": [
    {
-    "text": "EU AI Act: Mapping the Interplays with the GDPR",
-    "url": "https://iapp.org/resources/article/mapping-interplays-gdpr-eu-ai-act"
+    "text": "Beyond the frontier: Pragmatic AI risk management for the rest of us",
+    "url": "https://iapp.org/resources/article/beyond-the-frontier-pragmatic-ai-risk-management-for-the-rest-of-us"
+   },
+   {
+    "text": "AI governance starts with your data: Building the evidence the EU AI Act and new U.S. rules expect",
+    "url": "https://iapp.org/resources/article/ai-governance-starts-with-your-data-building-the-evidence-the-eu-ai-act-and-new-us-rules-expect"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-28T14:24:46+00:00",
+  "checked_at": "2026-10-28T16:22:41+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +103,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-28T14:24:48+00:00",
+  "checked_at": "2026-10-28T16:22:43+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +121,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-28T14:24:47+00:00",
+  "checked_at": "2026-10-28T16:22:43+00:00",
   "hash": "f98dd970b91b39ff8e2203679dfdbe597d64bbd3",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -149,8 +153,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-28T14:24:48+00:00",
-  "hash": "21b9638c7f98632e4954308bf94352f21becc010",
+  "checked_at": "2026-10-28T16:22:44+00:00",
+  "hash": "43e333a7e3b96db84d1d45054333953d9230b78a",
   "known": [
    "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
    "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
@@ -161,8 +165,10 @@
    "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
    "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
    "Cross-modal Steering Vectors Exist Across Both Image and Text Generation",
+   "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
    "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
    "Harness-Model Collaboration for Long-Horizon Continual Learning",
+   "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
    "Hy-Nomas: Towards Free-form Interactive World Generation",
    "Learning and Reasoning with Geometry: How Generation Helps Spatial Understanding",
    "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
@@ -201,16 +207,20 @@
    "by AK and the research community",
    "h1: A Taste of the Bitter Lesson in Automated Theorem Proving"
   ],
-  "changed_at": "2026-10-28T14:24:48+00:00",
+  "changed_at": "2026-10-28T16:22:44+00:00",
   "added": [
    {
-    "text": "T-DIG: Text-Conditioned Diversity for Image Generation",
+    "text": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-28T14:24:50+00:00",
+  "checked_at": "2026-10-28T16:22:47+00:00",
   "hash": "887abb5f00bbc524467eb5cbc53719f62558822f",
   "known": [
    "AI and human rights for youth",
@@ -242,7 +252,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-28T14:24:51+00:00",
+  "checked_at": "2026-10-28T16:22:48+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -340,7 +350,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-28T14:24:50+00:00",
+  "checked_at": "2026-10-28T16:22:47+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
