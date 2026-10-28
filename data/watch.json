@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-10-28T00:18:47+00:00",
+  "checked_at": "2026-10-28T01:27:07+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-10-28T00:18:48+00:00",
+  "checked_at": "2026-10-28T01:27:08+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-10-28T00:18:49+00:00",
+  "checked_at": "2026-10-28T01:27:08+00:00",
   "hash": "e57dd6b07b6c81cfba8e2f5b5a631a1ccab268c5",
   "known": [
    "AI Governance Executive Functions: Horizontal Leaders",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-10-28T00:18:49+00:00",
+  "checked_at": "2026-10-28T01:27:08+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-10-28T00:18:52+00:00",
+  "checked_at": "2026-10-28T01:27:11+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-10-28T00:18:51+00:00",
+  "checked_at": "2026-10-28T01:27:09+00:00",
   "hash": "f98dd970b91b39ff8e2203679dfdbe597d64bbd3",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -149,8 +149,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-10-28T00:18:53+00:00",
-  "hash": "3c667bb6f5f044b8271b00195afcab33e5d96f98",
+  "checked_at": "2026-10-28T01:27:12+00:00",
+  "hash": "51d1f6a3cbeee9d9007c7c33995adf5035e567fe",
   "known": [
    "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
    "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
@@ -158,9 +158,9 @@
    "Beyond Benchmarks: Can Small Open-Weight Models Get Real Coding Work Done?",
    "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
    "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
-   "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
    "Carnegie Mellon University",
    "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+   "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
    "Chungnam National University",
    "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
    "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
@@ -188,6 +188,8 @@
    "Nested Sparsity for Scalable Pretraining and Continual Learning",
    "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
    "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+   "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+   "ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?",
    "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
    "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
    "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
@@ -199,6 +201,7 @@
    "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
    "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
    "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+   "SO-101 Bench: Accessible Spatial Manipulation",
    "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
    "Shanghai Jiao Tong University",
    "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
@@ -214,7 +217,6 @@
    "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
    "UCLA Computational Machine Learning Lab",
    "University College London",
-   "University of California, Santa Barbara",
    "University of Chinese Academy of Sciences",
    "Work Agents: Systems, Capabilities, and Optimization",
    "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
@@ -222,27 +224,36 @@
    "by AK and the research community",
    "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
    "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
-   "Δτ-Bench: Pushing Agents Toward a Moving Capability"
+   "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+   "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model"
   ],
-  "changed_at": "2026-10-28T00:18:53+00:00",
+  "changed_at": "2026-10-28T01:27:12+00:00",
   "added": [
    {
-    "text": "How Far Can Coding Agents Go in Visual Generation?",
+    "text": "ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "UCLA Computational Machine Learning Lab",
-    "url": "https://huggingface.co/ucla-cmllab"
+    "text": "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Representation Redistribution in Sparse Autoencoders",
+    "text": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SO-101 Bench: Accessible Spatial Manipulation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-10-28T00:18:56+00:00",
-  "hash": "a85fd7362ef1f3ad75812ef7dba33640e0e93f58",
+  "checked_at": "2026-10-28T01:27:14+00:00",
+  "hash": "887abb5f00bbc524467eb5cbc53719f62558822f",
   "known": [
    "AI and human rights for youth",
    "Artificial Intelligence and emerging technologies",
@@ -252,8 +263,8 @@
    "Green Digital Transformation We foster global collaboration to make AI more sustainable, inclusive, and resilient for everyone.",
    "Green digital transformation",
    "Internet Universality Indicators This tool helps countries assess their Internet landscape, guide evidence-based policies, and foster inclusive, future-ready digital governance.",
+   "News Faculties of Education in Latin America address how to prepare future teachers for the age of artificial intelligence 20 October 2026",
    "News Turning global interest into support for Indigenous-led AI 21 October 2026",
-   "News UNESCO and CODEMAO advance Africa-Asia cooperation in AI education through Youth AI Tour 15 October 2026",
    "News UNESCO's Digital Transformation Collaborative: Charting how AI is reshaping education systems 19 October 2026",
    "Policy Development: Readiness Assessment Methodology (RAMs)",
    "Readiness Assessment Methodology",
@@ -264,16 +275,16 @@
    "UN Global Dialogue on AI Governance",
    "Video series: 7 minutes to understand AI"
   ],
-  "changed_at": "2026-10-22T14:23:58+00:00",
+  "changed_at": "2026-10-28T01:27:14+00:00",
   "added": [
    {
-    "text": "News Turning global interest into support for Indigenous-led AI 21 October 2026",
-    "url": "https://www.unesco.org/en/articles/turning-global-interest-support-indigenous-led-ai"
+    "text": "News Faculties of Education in Latin America address how to prepare future teachers for the age of artificial intelligence 20 October 2026",
+    "url": "https://www.unesco.org/en/articles/faculties-education-latin-america-address-how-prepare-future-teachers-age-artificial-intelligence"
    }
   ]
  },
  "unoosa": {
-  "checked_at": "2026-10-28T00:18:58+00:00",
+  "checked_at": "2026-10-28T01:27:15+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -371,7 +382,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-10-28T00:18:56+00:00",
+  "checked_at": "2026-10-28T01:27:14+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
