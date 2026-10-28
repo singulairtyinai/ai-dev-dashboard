@@ -1,64 +1,64 @@
 {
- "generated_at": "2026-10-27T05:58:00+00:00",
+ "generated_at": "2026-10-28T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "SIPRI examined the military AI industry's obligations under humanitarian law, as Helsing unveiled interceptor missiles against Russian drones and Anthropic's IPO filing disclosed extraordinary AI existential-risk warnings.",
+ "headline": "UNIDIR warned that cyber threats cross borders within hours, as Gen. Dan Caine named superintelligence a Joint Chiefs strategic priority and NIST issued guidance for transitioning to post-quantum cryptography.",
  "points": [
   {
-   "text": "SIPRI published a backgrounder on the military AI industry's involvement in armed conflict and how international humanitarian law applies to it.",
-   "cats": ["peace", "mil"],
-   "item_ids": ["cba17062e545"]
+   "text": "UNIDIR warned that a single compromised software update can reach thousands of organizations across dozens of countries within hours, and argued no state can address cyber threats alone.",
+   "cats": ["peace"],
+   "item_ids": ["e1a249025f7b"]
   },
   {
-   "text": "Germany's Helsing unveiled interceptor missiles with AI software to organize intercepts of Russia's fast-flying Geran attack drones, priced under $100,000 per shot.",
+   "text": "Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff, said superintelligence is one of his strategic priorities.",
    "cats": ["mil", "geo"],
-   "item_ids": ["9edeecf472e3"]
+   "item_ids": ["fa89365299ae"]
   },
   {
-   "text": "CSET overviewed how black-box distillation works in practice, informing proposed legislation and policy debates on adversarial distillation from proprietary US AI models.",
-   "cats": ["hw", "geo"],
-   "item_ids": ["ce58145e9324"]
+   "text": "War on the Rocks described how an AI system at Nellis Air Force Base built military courses of action, a complex planning task, far faster than human planners.",
+   "cats": ["mil"],
+   "item_ids": ["2979ee801b57"]
   },
   {
-   "text": "Anthropic filed its S-1 prospectus with the SEC ahead of its IPO, disclosing an extensive list of extreme risk factors including the chance its own technology could endanger humanity.",
-   "cats": ["risk", "models"],
-   "item_ids": ["edf59637f599", "e1209836ac27", "3eece4db405b", "a0064ee100f0"]
+   "text": "The AI Safety Newsletter reported that AI-driven cybersecurity issues are heightening fears of a looming 'Hackpocalypse.'",
+   "cats": ["risk"],
+   "item_ids": ["3befcfb6f362"]
   },
   {
-   "text": "Google released Gemini 4 Argon with a compact 14-page model card alongside a much longer, 217-page safety and security report.",
-   "cats": ["risk", "models"],
-   "item_ids": ["a02c8e7318cf"]
+   "text": "NIST released a report guiding federal agencies' transition to post-quantum cryptography standards.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["fc4af51dc82a"]
   },
   {
-   "text": "Axios reported that Meta's $42 billion in recent legal penalties and settlements is a warning to AI companies that courts could catch up with them even as regulation lags.",
+   "text": "A UK watchdog is considering an investigation into the Home Office's use of OpenAI's ChatGPT technology to process asylum claims, citing accuracy and secrecy concerns.",
    "cats": ["gov"],
-   "item_ids": ["d090da3a53f3"]
+   "item_ids": ["ae72bdec54e1"]
+  },
+  {
+   "text": "Anthropic's IPO filing led a $235 billion AI dealmaking blitz nearly equal to 1% of US GDP, as commentators questioned whether its post-IPO governance structure can really protect its safety mission.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["54850c3f4715", "23867b0cecf7"]
   }
  ],
  "categories": {
   "peace": [
-   "SIPRI examined the military AI industry's obligations under international humanitarian law."
+   "UNIDIR warned that cyber threats can reach thousands of organizations across borders within hours."
   ],
   "mil": [
-   "SIPRI examined the military AI industry's IHL obligations.",
-   "Helsing unveiled AI-guided interceptor missiles against Russia's Geran drones."
+   "Gen. Dan Caine named superintelligence a Joint Chiefs strategic priority.",
+   "An AI system at Nellis AFB built military courses of action far faster than human planners."
   ],
   "geo": [
-   "Helsing unveiled interceptor missiles against Russia's Geran drones.",
-   "CSET's black-box distillation research is feeding export-control policy debates."
-  ],
-  "hw": [
-   "CSET detailed how black-box distillation informs adversarial-distillation and export-control policy debates."
+   "Gen. Dan Caine named superintelligence a strategic priority.",
+   "Anthropic's IPO filing led a $235B AI dealmaking blitz nearly equal to 1% of US GDP."
   ],
   "risk": [
-   "Anthropic's IPO filing disclosed extraordinary AI existential-risk warnings.",
-   "Gemini 4 Argon shipped with a 217-page safety and security report."
-  ],
-  "models": [
-   "Anthropic filed its S-1 IPO prospectus with the SEC.",
-   "Gemini 4 Argon's model card and safety report were released."
+   "AI-driven cybersecurity issues are heightening fears of a 'Hackpocalypse.'",
+   "NIST issued guidance for transitioning to post-quantum cryptography standards."
   ],
   "gov": [
-   "Meta's $42B in penalties is seen as a warning to AI companies of legal reckoning."
+   "NIST issued post-quantum cryptography transition guidance for federal agencies.",
+   "A UK watchdog may probe the Home Office's use of ChatGPT for asylum claims.",
+   "Scrutiny grew over whether Anthropic's post-IPO governance can protect its safety mission."
   ]
  }
 }
