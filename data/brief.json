@@ -1,64 +1,70 @@
 {
- "generated_at": "2026-10-28T05:55:00+00:00",
+ "generated_at": "2026-10-29T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UNIDIR warned that cyber threats cross borders within hours, as Gen. Dan Caine named superintelligence a Joint Chiefs strategic priority and NIST issued guidance for transitioning to post-quantum cryptography.",
+ "headline": "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November, as UNIDIR examined armed violence in Africa and orbital data centre sovereignty, and a retrospective found the feared 'Black October' AI-cyberattack wave never materialized.",
  "points": [
   {
-   "text": "UNIDIR warned that a single compromised software update can reach thousands of organizations across dozens of countries within hours, and argued no state can address cyber threats alone.",
+   "text": "Barbados and the United Nations announced they will co-host a Special Summit on AI Safety on 23 November, bringing together governments, tech companies, scientists and civil society.",
+   "cats": ["multi", "gov"],
+   "item_ids": ["005260a82c94"]
+  },
+  {
+   "text": "UNIDIR, Switzerland, and the UN Regional Centre for Peace and Disarmament in Africa launched a new phase of the Lomé Initiative to break the cycle of armed violence in Africa.",
    "cats": ["peace"],
-   "item_ids": ["e1a249025f7b"]
+   "item_ids": ["ec9ddbc90b93"]
   },
   {
-   "text": "Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff, said superintelligence is one of his strategic priorities.",
-   "cats": ["mil", "geo"],
-   "item_ids": ["fa89365299ae"]
+   "text": "UNIDIR examined the sovereignty question raised by orbital data centres, as demand for data storage and processing pushes into space.",
+   "cats": ["peace", "geo"],
+   "item_ids": ["7c7b1fda2e66"]
   },
   {
-   "text": "War on the Rocks described how an AI system at Nellis Air Force Base built military courses of action, a complex planning task, far faster than human planners.",
-   "cats": ["mil"],
-   "item_ids": ["2979ee801b57"]
+   "text": "A newsletter made the case for building 'Eurofab' to close Europe's chip gap.",
+   "cats": ["geo", "hw"],
+   "item_ids": ["8835d7bcf198"]
   },
   {
-   "text": "The AI Safety Newsletter reported that AI-driven cybersecurity issues are heightening fears of a looming 'Hackpocalypse.'",
+   "text": "Axios reported that the feared wave of automated attacks exploiting the AI-discovered 'Black October' web vulnerabilities has struggled to get off the ground, delivering a Y2K-like lesson.",
    "cats": ["risk"],
-   "item_ids": ["3befcfb6f362"]
+   "item_ids": ["11c337564821"]
   },
   {
-   "text": "NIST released a report guiding federal agencies' transition to post-quantum cryptography standards.",
-   "cats": ["gov", "risk"],
-   "item_ids": ["fc4af51dc82a"]
+   "text": "The ITU's AI for Good initiative highlighted work on building the foundations for AI infrastructure and trust.",
+   "cats": ["multi", "gov"],
+   "item_ids": ["9304107ab3e6"]
   },
   {
-   "text": "A UK watchdog is considering an investigation into the Home Office's use of OpenAI's ChatGPT technology to process asylum claims, citing accuracy and secrecy concerns.",
-   "cats": ["gov"],
-   "item_ids": ["ae72bdec54e1"]
-  },
-  {
-   "text": "Anthropic's IPO filing led a $235 billion AI dealmaking blitz nearly equal to 1% of US GDP, as commentators questioned whether its post-IPO governance structure can really protect its safety mission.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["54850c3f4715", "23867b0cecf7"]
+   "text": "Google DeepMind released Gemini 4 Carbon, a frontier model it says marks a significant leap for cybersecurity and cyber defense, with initial access limited to vetted defenders.",
+   "cats": ["models", "risk"],
+   "item_ids": ["c44aa551102e", "fc7d1d71bde9"]
   }
  ],
  "categories": {
-  "peace": [
-   "UNIDIR warned that cyber threats can reach thousands of organizations across borders within hours."
+  "multi": [
+   "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November.",
+   "The ITU's AI for Good highlighted work on AI infrastructure and trust."
   ],
-  "mil": [
-   "Gen. Dan Caine named superintelligence a Joint Chiefs strategic priority.",
-   "An AI system at Nellis AFB built military courses of action far faster than human planners."
+  "peace": [
+   "UNIDIR launched a new Lomé Initiative phase on armed violence in Africa.",
+   "UNIDIR examined the sovereignty question of orbital data centres."
   ],
   "geo": [
-   "Gen. Dan Caine named superintelligence a strategic priority.",
-   "Anthropic's IPO filing led a $235B AI dealmaking blitz nearly equal to 1% of US GDP."
+   "UNIDIR examined orbital data centre sovereignty.",
+   "A newsletter made the case for building 'Eurofab' to close Europe's chip gap."
+  ],
+  "hw": [
+   "A newsletter made the case for building 'Eurofab' to close Europe's chip gap."
   ],
   "risk": [
-   "AI-driven cybersecurity issues are heightening fears of a 'Hackpocalypse.'",
-   "NIST issued guidance for transitioning to post-quantum cryptography standards."
+   "The feared 'Black October' AI-cyberattack wave struggled to materialize.",
+   "Google DeepMind's Gemini 4 Carbon targets cybersecurity and cyber defense."
   ],
   "gov": [
-   "NIST issued post-quantum cryptography transition guidance for federal agencies.",
-   "A UK watchdog may probe the Home Office's use of ChatGPT for asylum claims.",
-   "Scrutiny grew over whether Anthropic's post-IPO governance can protect its safety mission."
+   "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November.",
+   "The ITU's AI for Good highlighted work on AI infrastructure and trust."
+  ],
+  "models": [
+   "Google DeepMind released Gemini 4 Carbon, a frontier model for cybersecurity."
   ]
  }
 }
