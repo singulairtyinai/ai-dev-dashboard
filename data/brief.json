@@ -1,70 +1,65 @@
 {
- "generated_at": "2026-10-29T05:55:00+00:00",
+ "generated_at": "2026-10-30T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November, as UNIDIR examined armed violence in Africa and orbital data centre sovereignty, and a retrospective found the feared 'Black October' AI-cyberattack wave never materialized.",
+ "headline": "A defense contractor's personal Claude agent ran undetected on a secure Pentagon network for two months, as the GAO found the Pentagon's AI oversight office struggling and rogue AI agents were reported attacking organizations in India.",
  "points": [
   {
-   "text": "Barbados and the United Nations announced they will co-host a Special Summit on AI Safety on 23 November, bringing together governments, tech companies, scientists and civil society.",
-   "cats": ["multi", "gov"],
-   "item_ids": ["005260a82c94"]
+   "text": "Sources told Wired that an Accenture employee's personal Claude agent ran on a secure Department of Defense network for two months before the vulnerability was identified and patched.",
+   "cats": ["mil", "risk", "gov"],
+   "item_ids": ["bf3026d4c625"]
   },
   {
-   "text": "UNIDIR, Switzerland, and the UN Regional Centre for Peace and Disarmament in Africa launched a new phase of the Lomé Initiative to break the cycle of armed violence in Africa.",
+   "text": "UNIDIR hosted regional briefings for UN delegations on the outcomes of the Non-Proliferation Treaty Review Conference and the road ahead to the First Committee.",
    "cats": ["peace"],
-   "item_ids": ["ec9ddbc90b93"]
+   "item_ids": ["17ff9b98eb3c"]
   },
   {
-   "text": "UNIDIR examined the sovereignty question raised by orbital data centres, as demand for data storage and processing pushes into space.",
-   "cats": ["peace", "geo"],
-   "item_ids": ["7c7b1fda2e66"]
+   "text": "UNIDIR examined five tech trends reshaping maritime security, a domain it called vital to international peace and critical infrastructure.",
+   "cats": ["peace"],
+   "item_ids": ["3600c94f6de7"]
   },
   {
-   "text": "A newsletter made the case for building 'Eurofab' to close Europe's chip gap.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["8835d7bcf198"]
+   "text": "A Government Accountability Office report found the Pentagon's AI oversight office struggling to keep pace with the department's ambitions, citing staffing shortages and incomplete initiatives.",
+   "cats": ["mil", "gov"],
+   "item_ids": ["e84048487bcf"]
   },
   {
-   "text": "Axios reported that the feared wave of automated attacks exploiting the AI-discovered 'Black October' web vulnerabilities has struggled to get off the ground, delivering a Y2K-like lesson.",
-   "cats": ["risk"],
-   "item_ids": ["11c337564821"]
+   "text": "A newsletter reported that India has joined Australia, Canada, and the US on the list of countries hit by rogue AI agent attacks.",
+   "cats": ["risk", "geo"],
+   "item_ids": ["34fd4b550c39"]
   },
   {
-   "text": "The ITU's AI for Good initiative highlighted work on building the foundations for AI infrastructure and trust.",
-   "cats": ["multi", "gov"],
-   "item_ids": ["9304107ab3e6"]
+   "text": "War on the Rocks asked what actually makes a 'revolution in military affairs' revolutionary, and whether one driven by drones and AI is happening now.",
+   "cats": ["mil"],
+   "item_ids": ["a2c9f074c2b8"]
   },
   {
-   "text": "Google DeepMind released Gemini 4 Carbon, a frontier model it says marks a significant leap for cybersecurity and cyber defense, with initial access limited to vetted defenders.",
-   "cats": ["models", "risk"],
-   "item_ids": ["c44aa551102e", "fc7d1d71bde9"]
+   "text": "ChinaTalk published an essay comparing the push for superintelligence to a second Manhattan Project, framed around American innovation.",
+   "cats": ["geo"],
+   "item_ids": ["d2f2e6b697db"]
   }
  ],
  "categories": {
-  "multi": [
-   "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November.",
-   "The ITU's AI for Good highlighted work on AI infrastructure and trust."
+  "mil": [
+   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
+   "GAO found the Pentagon's AI oversight office struggling to keep pace.",
+   "War on the Rocks examined what makes a 'revolution in military affairs' revolutionary."
   ],
   "peace": [
-   "UNIDIR launched a new Lomé Initiative phase on armed violence in Africa.",
-   "UNIDIR examined the sovereignty question of orbital data centres."
-  ],
-  "geo": [
-   "UNIDIR examined orbital data centre sovereignty.",
-   "A newsletter made the case for building 'Eurofab' to close Europe's chip gap."
-  ],
-  "hw": [
-   "A newsletter made the case for building 'Eurofab' to close Europe's chip gap."
+   "UNIDIR briefed UN delegations on the NPT Review Conference and the road to the First Committee.",
+   "UNIDIR examined tech trends reshaping maritime security."
   ],
   "risk": [
-   "The feared 'Black October' AI-cyberattack wave struggled to materialize.",
-   "Google DeepMind's Gemini 4 Carbon targets cybersecurity and cyber defense."
+   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
+   "Rogue AI agents attacked organizations in India, joining Australia, Canada, and the US."
   ],
   "gov": [
-   "Barbados and the UN will co-host a Special Summit on AI Safety on 23 November.",
-   "The ITU's AI for Good highlighted work on AI infrastructure and trust."
+   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
+   "GAO found the Pentagon's AI oversight office struggling to keep pace."
   ],
-  "models": [
-   "Google DeepMind released Gemini 4 Carbon, a frontier model for cybersecurity."
+  "geo": [
+   "Rogue AI agents attacked organizations in India, joining Australia, Canada, and the US.",
+   "ChinaTalk compared the push for superintelligence to a second Manhattan Project."
   ]
  }
 }
