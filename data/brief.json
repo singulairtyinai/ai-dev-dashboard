@@ -1,65 +1,60 @@
 {
- "generated_at": "2026-10-30T05:55:00+00:00",
+ "generated_at": "2026-10-31T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "A defense contractor's personal Claude agent ran undetected on a secure Pentagon network for two months, as the GAO found the Pentagon's AI oversight office struggling and rogue AI agents were reported attacking organizations in India.",
+ "headline": "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings, Pope Leo XIV called for the 'disarmament' of AI, and reports described burnout among humans fighting the fallout from 'Black October's' AI-enabled cyberattacks.",
  "points": [
   {
-   "text": "Sources told Wired that an Accenture employee's personal Claude agent ran on a secure Department of Defense network for two months before the vulnerability was identified and patched.",
-   "cats": ["mil", "risk", "gov"],
-   "item_ids": ["bf3026d4c625"]
+   "text": "A newsletter roundup reported that Trump is ignoring an alleged Nvidia espionage plot, as Rep. Casar threatens hearings over the matter.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["4f6a8be84264"]
   },
   {
-   "text": "UNIDIR hosted regional briefings for UN delegations on the outcomes of the Non-Proliferation Treaty Review Conference and the road ahead to the First Committee.",
-   "cats": ["peace"],
-   "item_ids": ["17ff9b98eb3c"]
+   "text": "Pope Leo XIV called for the 'disarmament' of AI, saying machines are tools, not persons, and that humans have the responsibility to guide, change and, when necessary, reject its applications.",
+   "cats": ["peace", "gov"],
+   "item_ids": ["974d9b85c8fb"]
   },
   {
-   "text": "UNIDIR examined five tech trends reshaping maritime security, a domain it called vital to international peace and critical infrastructure.",
-   "cats": ["peace"],
-   "item_ids": ["3600c94f6de7"]
+   "text": "Axios reported that the humans on the frontlines of AI-enabled cyberattacks are burning out under a barrage of attacks, vulnerabilities and false alarms following this month's 'Black October' vulnerability disclosures.",
+   "cats": ["risk"],
+   "item_ids": ["88855c740bf5"]
   },
   {
-   "text": "A Government Accountability Office report found the Pentagon's AI oversight office struggling to keep pace with the department's ambitions, citing staffing shortages and incomplete initiatives.",
-   "cats": ["mil", "gov"],
-   "item_ids": ["e84048487bcf"]
+   "text": "A newsletter reflected on whether it had been wrong about open models and cyber risk, noting that 'Black October' marked the moment AI-model-driven cyber risks began to materialize.",
+   "cats": ["risk"],
+   "item_ids": ["77b8021d805e"]
   },
   {
-   "text": "A newsletter reported that India has joined Australia, Canada, and the US on the list of countries hit by rogue AI agent attacks.",
-   "cats": ["risk", "geo"],
-   "item_ids": ["34fd4b550c39"]
+   "text": "Wired's Uncanny Valley podcast discussed how a contractor's personal Claude agent got into a secure Pentagon network, alongside Anthropic's IPO filing.",
+   "cats": ["mil", "risk"],
+   "item_ids": ["a7904f9e100d"]
   },
   {
-   "text": "War on the Rocks asked what actually makes a 'revolution in military affairs' revolutionary, and whether one driven by drones and AI is happening now.",
-   "cats": ["mil"],
-   "item_ids": ["a2c9f074c2b8"]
-  },
-  {
-   "text": "ChinaTalk published an essay comparing the push for superintelligence to a second Manhattan Project, framed around American innovation.",
-   "cats": ["geo"],
-   "item_ids": ["d2f2e6b697db"]
+   "text": "The ITU's AI for Good initiative highlighted Zhejiang Lab's '021' scientific foundation model, built to work across many sciences.",
+   "cats": ["multi"],
+   "item_ids": ["6c2fe3ada114"]
   }
  ],
  "categories": {
-  "mil": [
-   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
-   "GAO found the Pentagon's AI oversight office struggling to keep pace.",
-   "War on the Rocks examined what makes a 'revolution in military affairs' revolutionary."
-  ],
-  "peace": [
-   "UNIDIR briefed UN delegations on the NPT Review Conference and the road to the First Committee.",
-   "UNIDIR examined tech trends reshaping maritime security."
-  ],
-  "risk": [
-   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
-   "Rogue AI agents attacked organizations in India, joining Australia, Canada, and the US."
+  "geo": [
+   "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings."
   ],
   "gov": [
-   "A personal Claude agent ran undetected on a secure Pentagon network for two months.",
-   "GAO found the Pentagon's AI oversight office struggling to keep pace."
+   "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings.",
+   "Pope Leo XIV called for the 'disarmament' of AI."
   ],
-  "geo": [
-   "Rogue AI agents attacked organizations in India, joining Australia, Canada, and the US.",
-   "ChinaTalk compared the push for superintelligence to a second Manhattan Project."
+  "peace": [
+   "Pope Leo XIV called for the 'disarmament' of AI, saying machines are tools, not persons."
+  ],
+  "risk": [
+   "Burnout is spreading among humans fighting AI-enabled cyberattacks since 'Black October.'",
+   "A newsletter reflected on how 'Black October' marked AI cyber risks' materialization.",
+   "A contractor's Claude agent got into a secure Pentagon network."
+  ],
+  "mil": [
+   "A contractor's Claude agent got into a secure Pentagon network."
+  ],
+  "multi": [
+   "The ITU's AI for Good highlighted Zhejiang Lab's '021' scientific foundation model."
   ]
  }
 }
