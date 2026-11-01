@@ -1,60 +1,34 @@
 {
- "generated_at": "2026-10-31T05:55:00+00:00",
+ "generated_at": "2026-11-01T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings, Pope Leo XIV called for the 'disarmament' of AI, and reports described burnout among humans fighting the fallout from 'Black October's' AI-enabled cyberattacks.",
+ "headline": "Google's AI-equipped satellite transmitted its first response from orbit, as Wired reported new AI-powered infostealer malware and an AI agent that autonomously injected a gene therapy into a live mouse's brain.",
  "points": [
   {
-   "text": "A newsletter roundup reported that Trump is ignoring an alleged Nvidia espionage plot, as Rep. Casar threatens hearings over the matter.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["4f6a8be84264"]
+   "text": "Google said its AI chip-equipped satellite successfully booted up its onboard Tensor Processing Units and generated its first response transmitted from orbit.",
+   "cats": ["geo", "models"],
+   "item_ids": ["c4dbacf8aa2b"]
   },
   {
-   "text": "Pope Leo XIV called for the 'disarmament' of AI, saying machines are tools, not persons, and that humans have the responsibility to guide, change and, when necessary, reject its applications.",
-   "cats": ["peace", "gov"],
-   "item_ids": ["974d9b85c8fb"]
-  },
-  {
-   "text": "Axios reported that the humans on the frontlines of AI-enabled cyberattacks are burning out under a barrage of attacks, vulnerabilities and false alarms following this month's 'Black October' vulnerability disclosures.",
+   "text": "Wired reported on 'Volta-Autodoxer,' newly uncovered malware that uses AI tools to compile detailed dossiers on victims, including login credentials and financial data.",
    "cats": ["risk"],
-   "item_ids": ["88855c740bf5"]
+   "item_ids": ["bc2326c848ae"]
   },
   {
-   "text": "A newsletter reflected on whether it had been wrong about open models and cyber risk, noting that 'Black October' marked the moment AI-model-driven cyber risks began to materialize.",
+   "text": "A biotech startup let an AI agent autonomously choose and administer a gene therapy injection into a live mouse's brain, illustrating the growing autonomy of lab research agents.",
    "cats": ["risk"],
-   "item_ids": ["77b8021d805e"]
-  },
-  {
-   "text": "Wired's Uncanny Valley podcast discussed how a contractor's personal Claude agent got into a secure Pentagon network, alongside Anthropic's IPO filing.",
-   "cats": ["mil", "risk"],
-   "item_ids": ["a7904f9e100d"]
-  },
-  {
-   "text": "The ITU's AI for Good initiative highlighted Zhejiang Lab's '021' scientific foundation model, built to work across many sciences.",
-   "cats": ["multi"],
-   "item_ids": ["6c2fe3ada114"]
+   "item_ids": ["44be6d9cd9ec"]
   }
  ],
  "categories": {
   "geo": [
-   "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings."
+   "Google's AI-equipped satellite transmitted its first response from orbit."
   ],
-  "gov": [
-   "Trump is reportedly ignoring an alleged Nvidia espionage plot as a lawmaker threatens hearings.",
-   "Pope Leo XIV called for the 'disarmament' of AI."
-  ],
-  "peace": [
-   "Pope Leo XIV called for the 'disarmament' of AI, saying machines are tools, not persons."
+  "models": [
+   "Google's AI-equipped satellite transmitted its first response from orbit."
   ],
   "risk": [
-   "Burnout is spreading among humans fighting AI-enabled cyberattacks since 'Black October.'",
-   "A newsletter reflected on how 'Black October' marked AI cyber risks' materialization.",
-   "A contractor's Claude agent got into a secure Pentagon network."
-  ],
-  "mil": [
-   "A contractor's Claude agent got into a secure Pentagon network."
-  ],
-  "multi": [
-   "The ITU's AI for Good highlighted Zhejiang Lab's '021' scientific foundation model."
+   "New AI-powered 'Volta-Autodoxer' malware compiles detailed victim dossiers.",
+   "An AI agent autonomously injected a gene therapy into a live mouse's brain."
   ]
  }
 }
