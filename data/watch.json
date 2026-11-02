@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-02T08:28:54+00:00",
+  "checked_at": "2026-11-02T09:36:59+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-02T08:28:55+00:00",
+  "checked_at": "2026-11-02T09:37:00+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-02T08:28:55+00:00",
+  "checked_at": "2026-11-02T09:37:00+00:00",
   "hash": "91c4de1afe60b97d91f882923136135af93adba0",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-02T08:28:56+00:00",
+  "checked_at": "2026-11-02T09:37:00+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-02T08:28:59+00:00",
+  "checked_at": "2026-11-02T09:37:03+00:00",
   "hash": "4817b9dabe95fa61b9990c5d64b5fe151b8331a9",
   "known": [
    "07.10.2026 CyCon 2027: Call for Workshops The NATO Cooperative Cyber Defence Centre of Excellence has opened the Call for Workshops for the 19th International Conference on Cyber Con...",
@@ -118,7 +118,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-02T08:28:58+00:00",
+  "checked_at": "2026-11-02T09:37:01+00:00",
   "hash": "f98dd970b91b39ff8e2203679dfdbe597d64bbd3",
   "known": [
    "After B-1’s Leave England, Analysts Point to Limited Options, Importance of Base Defense",
@@ -154,8 +154,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-02T08:28:59+00:00",
-  "hash": "3b2f6366f7c2962631a9de0cf6e36dce3706357c",
+  "checked_at": "2026-11-02T09:37:03+00:00",
+  "hash": "0e818690fd2b3eb8e7b5b8727e5611328ee98f03",
   "known": [
    "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
    "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
@@ -171,50 +171,51 @@
    "HALO: Human-Grounded Granular Evaluation of Proactive Agents",
    "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
    "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+   "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
+   "No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates",
    "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
    "Probing Spatial State Representations in Visual Foundation Models",
    "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
    "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
    "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
    "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+   "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
    "SketchDirector: Complex Scene Sketching via Agentic Layout Reasoning and Detail Refinement",
    "Technion Israel institute of technology",
    "TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation",
+   "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
+   "VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step",
    "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
    "Wizard: Manipulate Any World in Real Time via Agentic Control",
    "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-02T08:28:59+00:00",
+  "changed_at": "2026-11-02T09:37:03+00:00",
   "added": [
    {
-    "text": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+    "text": "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "text": "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching",
+    "text": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation",
+    "text": "VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SketchDirector: Complex Scene Sketching via Agentic Layout Reasoning and Detail Refinement",
+    "text": "No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "GVC Lab at Great Bay University",
-    "url": "https://huggingface.co/GVCLab"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-02T08:29:03+00:00",
+  "checked_at": "2026-11-02T09:37:06+00:00",
   "hash": "04108e80c9822fb8c784b31a56568897c7572585",
   "known": [
    "AI and human rights for youth",
@@ -247,7 +248,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-02T08:29:05+00:00",
+  "checked_at": "2026-11-02T09:37:06+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -345,7 +346,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-02T08:29:04+00:00",
+  "checked_at": "2026-11-02T09:37:05+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
