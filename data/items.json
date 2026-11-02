@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:18:51+00:00",
+ "updated": "2026-11-02T04:18:35+00:00",
  "items": [
   {
    "title": "GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains",
@@ -473,6 +473,26 @@
    "countries": []
   },
   {
+   "title": "From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?",
+   "url": "https://arxiv.org/abs/2610.41267v1",
+   "published": "2026-10-30T05:20:28+00:00",
+   "preview": "Turning an engineering request into a simulation requires consistent geometry, physics, boundary conditions, and numerical settings. Recent agent-assisted systems automate simulation setup, but successful execution…",
+   "id": "a34794d9a3a1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents",
+   "url": "https://arxiv.org/abs/2610.41264v1",
+   "published": "2026-10-30T05:13:31+00:00",
+   "preview": "Training language-model agents to play long-horizon strategy games is hard because deterministic feedback is sparse and often arrives only at the end of a game. In-game scores can offer dense signals, but they do not…",
+   "id": "99895063b767",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
    "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
    "published": "2026-10-30T05:02:52+00:00",
@@ -480,6 +500,26 @@
    "id": "f4afd5415c84",
    "source": "marktechpost",
    "fetched": "2026-10-30T05:58:19+00:00",
+   "countries": []
+  },
+  {
+   "title": "MEMIG: Self-evolving Memory Construction for Antibody Optimization",
+   "url": "https://arxiv.org/abs/2610.41245v1",
+   "published": "2026-10-30T04:39:18+00:00",
+   "preview": "Memory has become central to self-evolving LLM agents, which store and retrieve experience from past rollouts to guide future decisions. Existing systems represent this experience as free-form natural language and…",
+   "id": "7452566254e7",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models",
+   "url": "https://arxiv.org/abs/2610.41236v1",
+   "published": "2026-10-30T04:21:25+00:00",
+   "preview": "Sparse MoE mechanism significantly improves the trade-off between model capacity and inference efficiency. However, practical deployment still requires storing all experts, resulting in substantial memory overhead. We…",
+   "id": "6ff7d32989c3",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
    "countries": []
   },
   {
@@ -493,6 +533,26 @@
    "countries": []
   },
   {
+   "title": "Coarse3D: Controllable and Faithful Sparse Structure Generation for Image-to-3D",
+   "url": "https://arxiv.org/abs/2610.41231v1",
+   "published": "2026-10-30T04:09:19+00:00",
+   "preview": "Coarse-to-fine 3D-native generation relies heavily on the first-stage sparse structure, which determines the global orientation and overall geometry for subsequent refinement. However, existing coarse generators suffer…",
+   "id": "afc41ed7d1f4",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design",
+   "url": "https://arxiv.org/abs/2610.41225v1",
+   "published": "2026-10-30T04:03:39+00:00",
+   "preview": "Large language models offer a promising route to register-transfer-level (RTL) design, but reliable implementations require checking and revision based on electronic design automation (EDA) tools' feedback. Existing…",
+   "id": "1062a0438f00",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading",
    "url": "https://arxiv.org/abs/2610.41215v1",
    "published": "2026-10-30T03:52:32+00:00",
@@ -503,6 +563,26 @@
    "countries": []
   },
   {
+   "title": "From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
+   "url": "https://arxiv.org/abs/2610.41210v1",
+   "published": "2026-10-30T03:42:15+00:00",
+   "preview": "Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation…",
+   "id": "dcae1398905a",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond CLIP: Calibrated (Few-Shot) Defect Detection With System One Decision Models",
+   "url": "https://arxiv.org/abs/2610.41199v1",
+   "published": "2026-10-30T03:21:02+00:00",
+   "preview": "Cameras and vision sensors are widely used for product and process inspection in manufacturing environments. Traditionally, this process required thousands of images of both nominal and defective products to train such…",
+   "id": "a7c482d9661c",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "When AI Investigators Cannot Trust Their Tools: Conflict-Aware Evidence Verification for Cyber Threat Investigation",
    "url": "https://arxiv.org/abs/2610.41191v1",
    "published": "2026-10-30T03:13:59+00:00",
@@ -510,6 +590,16 @@
    "id": "5e30b239591a",
    "source": "arxiv-cs-cr",
    "fetched": "2026-11-02T02:18:51+00:00",
+   "countries": []
+  },
+  {
+   "title": "Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families",
+   "url": "https://arxiv.org/abs/2610.41183v1",
+   "published": "2026-10-30T03:02:10+00:00",
+   "preview": "LLM-guided program evolution can produce mathematical constructions, but validity, generality, and reproducibility require distinct evidence. We develop a researcher-in-the-loop discovery pipeline that combines program…",
+   "id": "0c13ef21d627",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
    "countries": []
   },
   {
@@ -560,6 +650,46 @@
    "id": "2ca6249dd080",
    "source": "arxiv-cs-cr",
    "fetched": "2026-11-02T02:18:51+00:00",
+   "countries": []
+  },
+  {
+   "title": "ImplicitHop: Evaluating knowledge integration across context and memory",
+   "url": "https://arxiv.org/abs/2610.41169v1",
+   "published": "2026-10-30T02:44:51+00:00",
+   "preview": "The ability to integrate new information and deduce its consequences is central to learning, understanding, and reasoning in large language models (LLMs). Whether information arrives during training or in-context,…",
+   "id": "6a39a158f2a2",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration",
+   "url": "https://arxiv.org/abs/2610.41168v1",
+   "published": "2026-10-30T02:44:28+00:00",
+   "preview": "Although large language models have shown strong capabilities in domain-specific code generation, their performance in robotics software development, especially for the Robot Operating System (ROS), remains largely…",
+   "id": "aa2cc06054ad",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling",
+   "url": "https://arxiv.org/abs/2610.41165v1",
+   "published": "2026-10-30T02:42:27+00:00",
+   "preview": "Large Language Models (LLMs) can generate toxic content, motivating effective test-time detoxification. Existing representation steering methods often rely on static or coarse interventions and provide imprecise…",
+   "id": "fa71f654728c",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D",
+   "url": "https://arxiv.org/abs/2610.41162v1",
+   "published": "2026-10-30T02:37:21+00:00",
+   "preview": "To accelerate materials discovery, language models must be able to address problems at the research frontier. Yet textbook- and examination-derived benchmarks primarily assess established knowledge, leaving performance…",
+   "id": "5afce66ab2f9",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-02T04:18:35+00:00",
    "countries": []
   },
   {
@@ -1650,42 +1780,12 @@
    ]
   },
   {
-   "title": "KARMA: Training-Free Knowledge-Atomic Harness Evolution for Industrial Advertising Agents",
-   "url": "https://arxiv.org/abs/2610.39884v1",
-   "published": "2026-10-29T11:59:01+00:00",
-   "preview": "Industrial advertising agents must continually adapt their decision knowledge to changing product offerings, traffic patterns, and operating policies. We present KARMA (Knowledge-Atomic, Regression-Gated Modular…",
-   "id": "62fd6fb79748",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T05:58:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution",
-   "url": "https://arxiv.org/abs/2610.39876v1",
-   "published": "2026-10-29T11:52:20+00:00",
-   "preview": "We study post-training for dynamically routed mixture-of-experts (MoE) models, focusing on integrating independently optimized specialists while keeping consolidation efficient. Our approach combines calibrated…",
-   "id": "d2dc9885e49a",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T05:58:19+00:00",
-   "countries": []
-  },
-  {
    "title": "Syndrome Trellis Decryption in Post-Quantum Cryptography",
    "url": "https://arxiv.org/abs/2610.39873v1",
    "published": "2026-10-29T11:47:20+00:00",
    "preview": "We present a novel post-quantum cryptographic framework based on masked high-memory convolutional codes in the Niederreiter paradigm. The public key is derived from a high-memory polynomial parity-check matrix augmented…",
    "id": "bf095c4000a4",
    "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T05:58:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions",
-   "url": "https://arxiv.org/abs/2610.39869v1",
-   "published": "2026-10-29T11:43:21+00:00",
-   "preview": "New concepts based in interactional thinking are required to understand how humans are changed by relating to LLMs. Standard theories of technological impact upon users' autonomy are inadequate here, because this…",
-   "id": "4991032e6cab",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-10-30T05:58:19+00:00",
    "countries": []
   },
@@ -2144,16 +2244,6 @@
    "countries": []
   },
   {
-   "title": "Autonomous Quantum Measurement with Agentic AI",
-   "url": "https://arxiv.org/abs/2610.38850v1",
-   "published": "2026-10-28T20:33:06+00:00",
-   "preview": "Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is…",
-   "id": "84030884004a",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
    "title": "Creating AI value with enterprise context",
    "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
    "published": "2026-10-28T20:32:02+00:00",
@@ -2164,26 +2254,6 @@
    "countries": []
   },
   {
-   "title": "Discovering Jailbreaks via Curriculum of Models",
-   "url": "https://arxiv.org/abs/2610.38833v1",
-   "published": "2026-10-28T20:23:32+00:00",
-   "preview": "Automated jailbreak discovery aims to find prompts that elicit prohibited behaviors from safety-trained language models, helping developers identify vulnerabilities before deployment. One class of approaches uses…",
-   "id": "400b02fbfa45",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "Evaluating Visual Realism of AI-Generated Videos with Eye Tracking",
-   "url": "https://arxiv.org/abs/2610.38825v1",
-   "published": "2026-10-28T20:20:43+00:00",
-   "preview": "Human evaluation of AI-generated videos has so far relied on explicit human feedback, such as judgments or ratings. While these signals capture the conclusions viewers reach, they fail to offer insights into the…",
-   "id": "9b9685307f6b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
    "title": "AI for Science expands to foundations and research institutions",
    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
    "published": "2026-10-28T20:18:18+00:00",
@@ -2191,16 +2261,6 @@
    "id": "ad10900db6cd",
    "source": "anthropic-news",
    "fetched": "2026-10-28T20:18:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening",
-   "url": "https://arxiv.org/abs/2610.38822v1",
-   "published": "2026-10-28T20:16:54+00:00",
-   "preview": "Looped Transformers increase computational capacity through the repeated application of shared blocks, but their recurrent depth makes conventional full-depth decoding expensive. While existing speculative pipelines…",
-   "id": "306c447a6769",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
    "countries": []
   },
   {
@@ -2234,16 +2294,6 @@
    "countries": []
   },
   {
-   "title": "Leaving, Staying, or Living There? Duration Commonsense Reasoning with Human-LLM Co-annotations",
-   "url": "https://arxiv.org/abs/2610.38755v1",
-   "published": "2026-10-28T19:35:59+00:00",
-   "preview": "Gardening in the backyard implies living there, while checking into an Airbnb more likely means staying for a few days. Such duration judgments are important for understanding human mobility, travel behavior, and social…",
-   "id": "2fd921480963",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
    "title": "Marines, Japanese Forces Sharpen Explosive Disposal Skills During Keen Sword 2027",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4635804/marines-japanese-forces-sharpen-explosive-disposal-skills-during-keen-sword-2027/",
    "published": "2026-10-28T19:31:00+00:00",
@@ -2255,56 +2305,6 @@
     "United States",
     "Japan"
    ]
-  },
-  {
-   "title": "AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs",
-   "url": "https://arxiv.org/abs/2610.38744v1",
-   "published": "2026-10-28T19:30:40+00:00",
-   "preview": "Embodied instruction following in interactive environments requires agents to interpret natural language commands and complete long-horizon tasks. Existing planners either rely on large labeled trajectories, or use…",
-   "id": "e4f75f4ce218",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "From Grind to Grasp",
-   "url": "https://arxiv.org/abs/2610.38728v1",
-   "published": "2026-10-28T19:24:27+00:00",
-   "preview": "Discussions of complexity, knowledge and intelligence often overlook the work involved. For example, outputs generated by short programs have low algorithmic complexity but can have high computational depth, the least…",
-   "id": "2a6d5143fa15",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "inkGround: Benchmarking Fine-grained Visual Grounding Capabilities of Vision-Language Models for Cursive Handwriting in the Wild",
-   "url": "https://arxiv.org/abs/2610.38720v1",
-   "published": "2026-10-28T19:16:05+00:00",
-   "preview": "Human handwriting is produced as an ordered sequence of pen movements, but an offline image keeps only the final ink. Handwriting trajectory recovery aims to restore the ordered stroke points and their pen-up/pen-down…",
-   "id": "a0e1de72d4ee",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "Learning Scientific Trajectories to Predict Future Biomedical Discoveries",
-   "url": "https://arxiv.org/abs/2610.38719v1",
-   "published": "2026-10-28T19:15:38+00:00",
-   "preview": "AI co-scientists have expanded the use of large language models for generating scientific hypotheses and guiding experimental investigation. Here we investigate whether temporal patterns in the semantic representations…",
-   "id": "5557efd68438",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
-  },
-  {
-   "title": "Latent Decision Flow Rewards for Clinical Guideline Reasoning",
-   "url": "https://arxiv.org/abs/2610.38709v1",
-   "published": "2026-10-28T19:06:23+00:00",
-   "preview": "Clinical practice guidelines encode evidence-based recommendations as conditional decision flows, which makes them a natural source of process supervision for training reasoning models. Two properties of clinical…",
-   "id": "e543bb836c0b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-10-30T04:18:29+00:00",
-   "countries": []
   },
   {
    "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
