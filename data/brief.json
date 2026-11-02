@@ -1,34 +1,46 @@
 {
- "generated_at": "2026-11-01T05:55:00+00:00",
+ "generated_at": "2026-11-02T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Google's AI-equipped satellite transmitted its first response from orbit, as Wired reported new AI-powered infostealer malware and an AI agent that autonomously injected a gene therapy into a live mouse's brain.",
+ "headline": "OpenAI is planning a post-election policy blitz to align with the new Washington, as ChinaTalk examined what Korea's $1 trillion stock crash means for the global AI race and SemiAnalysis introduced a frontier benchmark spanning cyber, bio and chip-design domains.",
  "points": [
   {
-   "text": "Google said its AI chip-equipped satellite successfully booted up its onboard Tensor Processing Units and generated its first response transmitted from orbit.",
-   "cats": ["geo", "models"],
-   "item_ids": ["c4dbacf8aa2b"]
+   "text": "Axios reported that OpenAI will launch a policy and PR blitz right after Tuesday's midterms to align with the new Washington, including an effort to rebrand data centers as 'AI compute campuses.'",
+   "cats": ["gov"],
+   "item_ids": ["a351f188a3b8"]
   },
   {
-   "text": "Wired reported on 'Volta-Autodoxer,' newly uncovered malware that uses AI tools to compile detailed dossiers on victims, including login credentials and financial data.",
-   "cats": ["risk"],
-   "item_ids": ["bc2326c848ae"]
+   "text": "ChinaTalk examined what Korea's $1 trillion stock market crash means for the global AI race.",
+   "cats": ["geo"],
+   "item_ids": ["293c2d3abc44"]
   },
   {
-   "text": "A biotech startup let an AI agent autonomously choose and administer a gene therapy injection into a live mouse's brain, illustrating the growing autonomy of lab research agents.",
-   "cats": ["risk"],
-   "item_ids": ["44be6d9cd9ec"]
+   "text": "SemiAnalysis introduced GDPx, a frontier benchmark measuring model capabilities across domains including RSI, hardware design, cyber, bio, chip design, and alignment.",
+   "cats": ["hw", "risk", "models"],
+   "item_ids": ["7f6f2bc0a104"]
+  },
+  {
+   "text": "SemiAnalysis reported that the datacenter backlash has gone bipartisan ahead of next week's midterms, with a prolonged Texas permit freeze now the biggest single risk to the 2028 US AI buildout.",
+   "cats": ["hw", "gov"],
+   "item_ids": ["3a8d2a3ccb3e"]
   }
  ],
  "categories": {
-  "geo": [
-   "Google's AI-equipped satellite transmitted its first response from orbit."
+  "gov": [
+   "OpenAI plans a post-election policy and PR blitz to align with the new Washington.",
+   "The datacenter backlash has gone bipartisan ahead of the midterms."
   ],
-  "models": [
-   "Google's AI-equipped satellite transmitted its first response from orbit."
+  "geo": [
+   "ChinaTalk examined what Korea's $1 trillion stock crash means for the global AI race."
+  ],
+  "hw": [
+   "SemiAnalysis introduced GDPx, a frontier benchmark spanning cyber, bio and chip-design domains.",
+   "A prolonged Texas permit freeze is now the biggest risk to the 2028 US AI buildout."
   ],
   "risk": [
-   "New AI-powered 'Volta-Autodoxer' malware compiles detailed victim dossiers.",
-   "An AI agent autonomously injected a gene therapy into a live mouse's brain."
+   "SemiAnalysis's new GDPx benchmark spans cyber, bio and other dual-use domains."
+  ],
+  "models": [
+   "SemiAnalysis introduced GDPx, a frontier model capability benchmark."
   ]
  }
 }
