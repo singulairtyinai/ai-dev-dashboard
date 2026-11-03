@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-03T00:18:38+00:00",
+ "updated": "2026-11-03T02:18:33+00:00",
  "items": [
+  {
+   "title": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
+   "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/",
+   "published": "2026-11-03T00:43:03+00:00",
+   "preview": "Letter has released the beta of Letterpress-1, a coding agent, harness and IDE for growth engineering. It reads a git-based site and its market, then opens pull requests for SEO, GEO and conversion work. The post The…",
+   "id": "5e23b266eaab",
+   "source": "marktechpost",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
   {
    "title": "Final polls, models and markets see a \"blue tsunami\"",
    "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
@@ -347,6 +357,18 @@
    "countries": []
   },
   {
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "url": "https://openai.com/index/dan-driscoll-joins-openai",
+   "published": "2026-11-02T00:00:00+00:00",
+   "preview": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+   "id": "ff138f709a7e",
+   "source": "openai-news",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
    "title": "Where Dems eyeing the White House are putting their midterm chips",
    "url": "https://www.axios.com/2026/11/01/2028-democrats-midterm-bets",
    "published": "2026-11-01T22:45:06+00:00",
@@ -503,6 +525,66 @@
    "countries": []
   },
   {
+   "title": "Compressed Oracle Duality: A simple framework for knowing what quantum adversaries know",
+   "url": "https://arxiv.org/abs/2611.00609v1",
+   "published": "2026-10-31T04:12:27+00:00",
+   "preview": "Given a quantum adversary that queries a random oracle, how do we characterize the information that they \"know\"? The Compressed Oracle method of Zhandry (CRYPTO 2019) is one method that records the queries that the…",
+   "id": "11e1b909a914",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "Beyond Sensitive APIs: Detecting Access Control Flaws at Sensitive Callsites in Android Firmware",
+   "url": "https://arxiv.org/abs/2611.00594v1",
+   "published": "2026-10-31T03:43:36+00:00",
+   "preview": "Existing studies of vulnerable pre-installed Android apps identify dangerous behavior by checking whether an app invokes an API from a predefined set of security-sensitive APIs. These sets usually exclude generic APIs…",
+   "id": "7998e60c5764",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "Price is Only the Symptom: Understanding and Analyzing Economic-State Manipulation Vulnerabilities in DeFi",
+   "url": "https://arxiv.org/abs/2611.00587v1",
+   "published": "2026-10-31T03:28:57+00:00",
+   "preview": "Economic-state manipulation has emerged as a significant security threat to decentralized finance (DeFi), causing substantial financial losses. Existing studies predominantly characterize these attacks as price…",
+   "id": "d0f3d5226725",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "DERED: Enhancing Third-Party Library Detection in Binaries via Deceptive Reuse Mitigation",
+   "url": "https://arxiv.org/abs/2611.00574v1",
+   "published": "2026-10-31T03:04:19+00:00",
+   "preview": "This paper introduces the concept of deceptive reuse a misleading reuse relationship between recipient software that share common TPL code and proposes a novel approach, DERED, to enhance TPL detection by distinguishing…",
+   "id": "958e5c41a061",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "Practical Preimages for 19- and 20-Step SHA-256 with Standard Padding",
+   "url": "https://arxiv.org/abs/2611.00512v1",
+   "published": "2026-10-31T01:05:47+00:00",
+   "preview": "We present practical preimage attacks on 19- and 20-step SHA-256 that respect the standard IV, Davies-Meyer feed-forward, and full FIPS 180-4 padding, for arbitrary prescribed 256-bit targets. Building on Basra's…",
+   "id": "a997681b7bb3",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "Threat Modeling Intimate Partner Abuse in Agentic Systems",
+   "url": "https://arxiv.org/abs/2611.00489v1",
+   "published": "2026-10-31T00:28:26+00:00",
+   "preview": "Agentic systems are AI-powered technologies capable of autonomous action within digital environments, such as sending emails or making reservations. They are deeply connected to external tools as well as users' data and…",
+   "id": "ce61fb8677aa",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
    "title": "Rewriting Copyright Law for Generative AI Would Hurt Everyone",
    "url": "https://www.eff.org/deeplinks/2026/10/rewriting-copyright-law-generative-ai-would-hurt-everyone",
    "published": "2026-10-30T23:42:45+00:00",
@@ -523,6 +605,16 @@
    "countries": [
     "China"
    ]
+  },
+  {
+   "title": "Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel",
+   "url": "https://arxiv.org/abs/2611.00427v1",
+   "published": "2026-10-30T22:20:51+00:00",
+   "preview": "Joint-embedding predictive architectures (JEPAs) have recently emerged as general-purpose visual world models for control. A prominent example is LeWorldModel (LeWM), which trains end-to-end from pixels using an…",
+   "id": "4df824cd674a",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
   },
   {
    "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
@@ -547,6 +639,26 @@
    "countries": []
   },
   {
+   "title": "When appearance and motion disagree: evaluating class--motion consistency against disguised uncrewed surface vessels",
+   "url": "https://arxiv.org/abs/2611.00367v1",
+   "published": "2026-10-30T20:47:42+00:00",
+   "preview": "Defense systems for maritime assets must distinguish approaching benign craft from uncrewed surface vessels (USVs) with sufficient warning to act. Shore cameras using computer vision can separate hostile vessels from…",
+   "id": "580d06bbc0c1",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
+   "title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+   "url": "https://arxiv.org/abs/2611.00359v1",
+   "published": "2026-10-30T20:36:08+00:00",
+   "preview": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether…",
+   "id": "708ba9aea891",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
    "title": "Childhood and Education #22: Voice Without Exit",
    "url": "https://thezvi.wordpress.com/2026/10/30/childhood-and-education-22-voice-without-exit/",
    "published": "2026-10-30T20:26:26+00:00",
@@ -567,6 +679,16 @@
    "countries": []
   },
   {
+   "title": "Dataset and Experimental Testbed for Deep Learning-Based Bluetooth Device Fingerprinting",
+   "url": "https://arxiv.org/abs/2611.00332v1",
+   "published": "2026-10-30T20:06:18+00:00",
+   "preview": "AI-enabled wireless networks have emerged as vital components of future-generation wireless communication systems. Among various wireless architectures, Bluetooth Low Energy (BLE) networks have attracted significant…",
+   "id": "0ed4acec4fc3",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
+  },
+  {
    "title": "Coast Guard Cutter Stratton Returns Home After Lengthy Northern Patrol",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4638140/coast-guard-cutter-stratton-returns-home-after-lengthy-northern-patrol/",
    "published": "2026-10-30T19:27:00+00:00",
@@ -577,6 +699,16 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "Randomized Caches in Hardware: Challenges and Trade-offs",
+   "url": "https://arxiv.org/abs/2611.00282v1",
+   "published": "2026-10-30T19:04:17+00:00",
+   "preview": "Randomized caches protect against side-channel attacks by obfuscating the mapping of memory addresses to cache locations. Existing proposals typically describe architectural behavior, leaving practical hardware…",
+   "id": "8b77eecffd75",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-03T02:18:33+00:00",
+   "countries": []
   },
   {
    "title": "Google’s satellite AI server transmits its first response to Earth",
@@ -1908,16 +2040,6 @@
    "countries": []
   },
   {
-   "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
-   "url": "https://arxiv.org/abs/2610.40616v1",
-   "published": "2026-10-29T17:54:54+00:00",
-   "preview": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set.…",
-   "id": "208f2a6d1903",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
    "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
    "url": "https://arxiv.org/abs/2610.40613v1",
    "published": "2026-10-29T17:54:12+00:00",
@@ -2018,16 +2140,6 @@
    "countries": []
   },
   {
-   "title": "Power Adjusting Games Under Block-Dependent Pool Payout Schemes",
-   "url": "https://arxiv.org/abs/2610.40558v1",
-   "published": "2026-10-29T17:40:51+00:00",
-   "preview": "Advanced power adjusting block withholding attacks such as PAW and T-PAW have been analyzed so far under a global-reset version of the proportional scheme (GRP), which is rarely used in practice. In this paper, we…",
-   "id": "b0f48f76020a",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
    "title": "Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs",
    "url": "https://arxiv.org/abs/2610.40551v1",
    "published": "2026-10-29T17:39:04+00:00",
@@ -2038,32 +2150,12 @@
    "countries": []
   },
   {
-   "title": "The Privacy and Security Risks of Edge LLM Optimization",
-   "url": "https://arxiv.org/abs/2610.40543v1",
-   "published": "2026-10-29T17:36:37+00:00",
-   "preview": "Edge deployment of Large Language Models requires optimization techniques that reduce memory, computation, and energy costs. However, preserving task performance does not necessarily preserve security. We argue that…",
-   "id": "5e01412e5808",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
    "title": "On the Fundamental Limits of Prefill-Based Decoding Length Prediction",
    "url": "https://arxiv.org/abs/2610.40541v1",
    "published": "2026-10-29T17:36:01+00:00",
    "preview": "Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with…",
    "id": "b54696fbe557",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
-   "title": "Efficient Scalable Oversight via Rewinding",
-   "url": "https://arxiv.org/abs/2610.40535v1",
-   "published": "2026-10-29T17:34:28+00:00",
-   "preview": "Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems. One proposed approach uses relativizing interactive proofs, in which a weak verifier checks the…",
-   "id": "5d8c4f5d5acb",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-10-30T06:23:36+00:00",
    "countries": []
   },
@@ -2100,16 +2192,6 @@
    "countries": []
   },
   {
-   "title": "RecHash: Segmented Hash-Entangled Chains for Stateful Sequential Authentication",
-   "url": "https://arxiv.org/abs/2610.40507v1",
-   "published": "2026-10-29T17:23:08+00:00",
-   "preview": "RecHash is a stateful sequential authentication construction based on paired hash-chain openings and an authenticated record history. It develops the decreasing position relation of the 2019 hash-entangled construction,…",
-   "id": "c82d1430c95c",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
    "title": "An updated Model Spec for more capable and beneficial AI",
    "url": "https://openai.com/index/updated-model-spec",
    "published": "2026-10-29T17:00:00+00:00",
@@ -2130,26 +2212,6 @@
    "countries": [
     "United Kingdom"
    ]
-  },
-  {
-   "title": "Deep Learning Based Behavioral Drift Modeling for Continuous Biometric Authentication",
-   "url": "https://arxiv.org/abs/2610.40398v1",
-   "published": "2026-10-29T16:33:49+00:00",
-   "preview": "This research proposes a two-level keystroke dynamics authentication system that provides defense-in-depth security through continuous behavioral drift monitoring. Level 1 employs fixed-text password authentication…",
-   "id": "fff2bee9d736",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
-   "title": "Understanding and Mitigating Role Spoofing in LLMs",
-   "url": "https://arxiv.org/abs/2610.40396v1",
-   "published": "2026-10-29T16:33:08+00:00",
-   "preview": "Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models. In particular, it has recently been observed that LLMs can exhibit role confusion (Ye et…",
-   "id": "a146c907fb01",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
   },
   {
    "title": "Transparency data: DSIT: spending over £500, June 2026",
@@ -2217,26 +2279,6 @@
    "id": "a2aa84b8c0fc",
    "source": "wired-ai",
    "fetched": "2026-10-29T16:19:08+00:00",
-   "countries": []
-  },
-  {
-   "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning",
-   "url": "https://arxiv.org/abs/2610.40214v1",
-   "published": "2026-10-29T14:58:32+00:00",
-   "preview": "As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS…",
-   "id": "45ada64e3a6e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
-   "countries": []
-  },
-  {
-   "title": "Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping",
-   "url": "https://arxiv.org/abs/2610.40204v1",
-   "published": "2026-10-29T14:54:43+00:00",
-   "preview": "Watermarking is essential for image copyright protection and attribution, yet existing methods suffer from fundamental trade-offs among post-hoc applicability to pre-existing images, multi-bit capacity, training-free…",
-   "id": "9410ce28982a",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T06:23:36+00:00",
    "countries": []
   },
   {
@@ -2329,26 +2371,6 @@
    "preview": "When persona-conditioned responses are read as respondent-level simulations, each response should reflect the described persona's knowledge, and the respondent written to know nothing must act as if the model's…",
    "id": "719fb30a5a57",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-10-30T05:58:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "From if to Oops: Turning a conditional into a key-recovery oracle",
-   "url": "https://arxiv.org/abs/2610.39910v1",
-   "published": "2026-10-29T12:19:20+00:00",
-   "preview": "Deterministic variants of CSIDH remove randomness from the group action, either through implementation techniques or, as in Houben's deterministic CSIDH and OSIDH-LD, by design. Since earlier fault attacks on CSIDH…",
-   "id": "4042d95a64a3",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-10-30T05:58:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "ExploreRepair: Evidence-Specialized Agents for Vulnerability Repair under Information Constraints",
-   "url": "https://arxiv.org/abs/2610.39899v1",
-   "published": "2026-10-29T12:09:12+00:00",
-   "preview": "Automated vulnerability repair must often operate with incomplete vulnerability information: developers may lack an accurate vulnerability classification or a provided proof-of-vulnerability (PoV) test, yet still need…",
-   "id": "a5560e177c1b",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-10-30T05:58:19+00:00",
    "countries": []
   },
@@ -4113,16 +4135,6 @@
    "countries": []
   },
   {
-   "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
-   "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
-   "published": "2026-10-24T03:56:29+00:00",
-   "preview": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson. The post…",
-   "id": "d094f2c7f2ca",
-   "source": "marktechpost",
-   "fetched": "2026-10-24T11:13:32+00:00",
-   "countries": []
-  },
-  {
    "title": "Project Agincourt Leaders Reach Out to Industry With Path Forward",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4632827/project-agincourt-leaders-reach-out-to-industry-with-path-forward/",
    "published": "2026-10-23T21:52:00+00:00",
@@ -5310,16 +5322,6 @@
    "id": "7f832356396e",
    "source": "axios-technology",
    "fetched": "2026-10-21T02:18:37+00:00",
-   "countries": []
-  },
-  {
-   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-   "url": "https://openai.com/index/empowering-cyber-defenders",
-   "published": "2026-10-21T00:00:00+00:00",
-   "preview": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-   "id": "b2deaf97c98c",
-   "source": "openai-news",
-   "fetched": "2026-10-21T20:18:19+00:00",
    "countries": []
   },
   {
