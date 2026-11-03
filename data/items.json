@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T03:29:28+00:00",
+ "updated": "2026-11-03T04:18:35+00:00",
  "items": [
   {
    "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
@@ -421,6 +421,66 @@
    "countries": []
   },
   {
+   "title": "To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments",
+   "url": "https://arxiv.org/abs/2611.02002v1",
+   "published": "2026-11-01T15:43:45+00:00",
+   "preview": "Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale. Existing LLM-based simulators primarily…",
+   "id": "4eaec958b1e5",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "TrackMem: Tracking Evolving Beliefs in Long-Horizon Financial Dialogue",
+   "url": "https://arxiv.org/abs/2611.02001v1",
+   "published": "2026-11-01T15:43:41+00:00",
+   "preview": "Memory systems for LLM agents are evaluated mostly on social dialogue, where facts accumulate and rarely change, so remembering reduces largely to finding the turn in which something was said. Financial dialogue breaks…",
+   "id": "2feb5a68a35d",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Better Answers, Weaker Evidence Control: Evidence Bypass in On-Policy Distillation",
+   "url": "https://arxiv.org/abs/2611.01967v1",
+   "published": "2026-11-01T15:05:28+00:00",
+   "preview": "On-policy distillation (OPD) can improve answer accuracy while weakening responsiveness to supporting evidence. We investigate this separation in scientific-document question answering through matched document…",
+   "id": "4d4ffe8d7c12",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Towards Self-Evolving Narrative Systems: Real-Time Adaptation and Long-Term Optimization with LLMs",
+   "url": "https://arxiv.org/abs/2611.01954v1",
+   "published": "2026-11-01T14:33:52+00:00",
+   "preview": "Traditional interactive narrative systems offer strong authorial control and structural coherence but often restrict player agency. In contrast, LLM-driven narratives enable open-ended generation and greater…",
+   "id": "5b1a29d9d3ed",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Tracing How Language Models Integrate Temporal Anchors into Factual Recall",
+   "url": "https://arxiv.org/abs/2611.01945v1",
+   "published": "2026-11-01T14:26:38+00:00",
+   "preview": "Factual recall in language models is typically framed as retrieving a factual association: a subject--relation pair maps to a single object. However, many facts are context-dependent: the same pair maps to different…",
+   "id": "f6d595d8c716",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+   "url": "https://arxiv.org/abs/2611.01926v1",
+   "published": "2026-11-01T14:05:15+00:00",
+   "preview": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation…",
+   "id": "e680b78ae0f5",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Behind the Curtain: OpenAI's post-election power play",
    "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
    "published": "2026-11-01T13:43:06+00:00",
@@ -445,6 +505,16 @@
    ]
   },
   {
+   "title": "Don't Guess, Ask Wisely: Benchmarking and Training Proactive Elicitation in Open-Domain LLM Conversations",
+   "url": "https://arxiv.org/abs/2611.01878v1",
+   "published": "2026-11-01T13:15:14+00:00",
+   "preview": "When user queries are incomplete, large language models should ask targeted questions before committing to an answer, a capability we call proactive elicitation, yet evaluation on real user-assistant queries across…",
+   "id": "1ed74840feb8",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "When, How and Why to Abandon the Internet",
    "url": "https://techpolicy.press/when-how-and-why-to-abandon-the-internet",
    "published": "2026-11-01T13:00:00+00:00",
@@ -455,6 +525,76 @@
    "countries": []
   },
   {
+   "title": "Quantizing Recurrent Language Models Is Easier Than You Think",
+   "url": "https://arxiv.org/abs/2611.01864v1",
+   "published": "2026-11-01T12:55:09+00:00",
+   "preview": "Linear recurrences are becoming an increasingly common building block in large language models, replacing the growing KV cache of softmax attention with a fixed-size recurrent state that enables efficient decoding.…",
+   "id": "1876601685b6",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks",
+   "url": "https://arxiv.org/abs/2611.01840v1",
+   "published": "2026-11-01T12:18:19+00:00",
+   "preview": "Agentic workflows organize complex tasks into reusable procedures. However, invoking an LLM at every step incurs repeated inference costs and delays. We propose a framework for self-evolving agentic workflows through…",
+   "id": "8d93463f0595",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "LegoEnv: Self-Evolving Agentic Environments via Modular Recombination",
+   "url": "https://arxiv.org/abs/2611.01834v1",
+   "published": "2026-11-01T12:07:14+00:00",
+   "preview": "LLM agents learn by interacting with environments, yet existing environments are designed for specific tasks and fail to generalize to new ones. Recent methods automate environment construction with LLMs. However, they…",
+   "id": "9c603915884f",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence",
+   "url": "https://arxiv.org/abs/2611.01825v1",
+   "published": "2026-11-01T11:45:13+00:00",
+   "preview": "A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose.…",
+   "id": "b07069969416",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Shared relations, specific choices: conditional sensitivity and competing pathways in language models",
+   "url": "https://arxiv.org/abs/2611.01809v1",
+   "published": "2026-11-01T11:25:07+00:00",
+   "preview": "How does a relational representation shared across queries drive a query-specific choice? Controlled entity-binding experiments with GPT-2 Small, Qwen2.5-1.5B and Llama-3.2-1B reveal a low-dimensional relational…",
+   "id": "8620ed561c30",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rubric-Based Assessment of Student Reports Using Small Language Models",
+   "url": "https://arxiv.org/abs/2611.01785v1",
+   "published": "2026-11-01T10:46:27+00:00",
+   "preview": "Language models can analyze and assess student texts using predefined rubrics and deliver structured feedback, reducing instructors' workload. However, existing solutions often rely on external services that are…",
+   "id": "23639008519c",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "MemRole: From Memories to Decisions for Long-Horizon Reasoning in Role-Playing Agents",
+   "url": "https://arxiv.org/abs/2611.01778v1",
+   "published": "2026-11-01T10:33:54+00:00",
+   "preview": "LLM-based role-playing agents are fluent at imitating a character's style, yet struggle to make role-consistent decisions over long narrative horizons. Such decisions are shaped by experiences spanning many prior…",
+   "id": "694da1fb5f64",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
+   "countries": []
+  },
+  {
    "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
    "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
    "published": "2026-11-01T10:30:00+00:00",
@@ -462,6 +602,16 @@
    "id": "eed9b68d54d4",
    "source": "wired-ai",
    "fetched": "2026-11-01T12:19:35+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Bounded Evaluation Protocol for Representational Systematicity",
+   "url": "https://arxiv.org/abs/2611.01755v1",
+   "published": "2026-11-01T10:01:34+00:00",
+   "preview": "Multiple studies have shown that neural networks can be behaviorally systematic, producing correct outputs for novel combinations of familiar parts. Whether they are also representationally systematic, that is, whether…",
+   "id": "058bb7dcd71c",
+   "source": "arxiv-cs-cl",
+   "fetched": "2026-11-03T04:18:35+00:00",
    "countries": []
   },
   {
@@ -1862,16 +2012,6 @@
    "countries": []
   },
   {
-   "title": "TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection",
-   "url": "https://arxiv.org/abs/2610.41232v1",
-   "published": "2026-10-30T04:13:20+00:00",
-   "preview": "As Large Language Models (LLMs) become increasingly multilingual, distinguishing human-written from AI-generated text is essential for maintaining information integrity. However, research remains English-centric, with…",
-   "id": "1e1f2e88e053",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
    "title": "Coarse3D: Controllable and Faithful Sparse Structure Generation for Image-to-3D",
    "url": "https://arxiv.org/abs/2610.41231v1",
    "published": "2026-10-30T04:09:19+00:00",
@@ -1889,16 +2029,6 @@
    "id": "1062a0438f00",
    "source": "arxiv-cs-ai",
    "fetched": "2026-11-02T04:18:35+00:00",
-   "countries": []
-  },
-  {
-   "title": "Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading",
-   "url": "https://arxiv.org/abs/2610.41215v1",
-   "published": "2026-10-30T03:52:32+00:00",
-   "preview": "Transformer-based language models have achieved remarkable success in automated short answer grading (ASAG). However, current methods in ASAG struggle to comprehend, reason about and evaluate complex mathematical…",
-   "id": "cafb5799de95",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
    "countries": []
   },
   {
@@ -1932,36 +2062,6 @@
    "countries": []
   },
   {
-   "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
-   "url": "https://arxiv.org/abs/2610.41177v1",
-   "published": "2026-10-30T02:57:43+00:00",
-   "preview": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance…",
-   "id": "2f58bebf7959",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "S2TDR: Structured Multimodal Reconstruction for Sticker-Aware Dialogue Understanding",
-   "url": "https://arxiv.org/abs/2610.41176v1",
-   "published": "2026-10-30T02:57:24+00:00",
-   "preview": "Stickers are widely used in social media dialogues to express affect, stance, and intent beyond literal text. Their meanings are often non-literal and context-dependent, making them difficult to handle with generic…",
-   "id": "41efc66c9393",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses",
-   "url": "https://arxiv.org/abs/2610.41172v1",
-   "published": "2026-10-30T02:48:37+00:00",
-   "preview": "Retrieval-augmented generation is becoming agentic. A search harness writes queries, reads results, reformulates, and decides when to stop. This largely solves accuracy: a harness with only BM25/grep and MiniMax M3…",
-   "id": "1986010330cd",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
    "title": "ImplicitHop: Evaluating knowledge integration across context and memory",
    "url": "https://arxiv.org/abs/2610.41169v1",
    "published": "2026-10-30T02:44:51+00:00",
@@ -1969,26 +2069,6 @@
    "id": "6a39a158f2a2",
    "source": "arxiv-cs-ai",
    "fetched": "2026-11-02T04:18:35+00:00",
-   "countries": []
-  },
-  {
-   "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
-   "url": "https://arxiv.org/abs/2610.41157v1",
-   "published": "2026-10-30T02:31:45+00:00",
-   "preview": "Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the…",
-   "id": "4a73b6b3c77b",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "HyperRepair: Recovering Forgotten General Capabilities of Fine-Tuned Language Models",
-   "url": "https://arxiv.org/abs/2610.41147v1",
-   "published": "2026-10-30T02:09:34+00:00",
-   "preview": "Fine-tuning improves a language model's performance in a target domain but can weaken its general capabilities. Existing methods often face a trade-off between general capabilities and domain specialization, making it…",
-   "id": "f5710350d03d",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
    "countries": []
   },
   {
@@ -2006,26 +2086,6 @@
    ]
   },
   {
-   "title": "Language Models Show a \"Women-Are-Wonderful\" Effect in Blame Attribution That is Not Just Leniency",
-   "url": "https://arxiv.org/abs/2610.41116v1",
-   "published": "2026-10-30T01:17:18+00:00",
-   "preview": "This paper investigates the Women-Are-Wonderful (WaW) effect in language-model blame attribution: a favorable bias in which women receive more positive evaluations than men. Using 11,270 interpersonal conflicts from…",
-   "id": "951d499efa65",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
-   "url": "https://arxiv.org/abs/2610.41104v1",
-   "published": "2026-10-30T00:50:49+00:00",
-   "preview": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing…",
-   "id": "e2f92836751b",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
    "title": "Fair use benefits everyone",
    "url": "https://openai.com/index/fair-use-benefits-everyone",
    "published": "2026-10-30T00:00:00+00:00",
@@ -2033,66 +2093,6 @@
    "id": "d2282bcce162",
    "source": "openai-news",
    "fetched": "2026-10-30T22:18:57+00:00",
-   "countries": []
-  },
-  {
-   "title": "EDU-Jev Training System-One Decision Models for Education",
-   "url": "https://arxiv.org/abs/2610.41079v1",
-   "published": "2026-10-29T23:48:27+00:00",
-   "preview": "Many automated decisions in education involve choosing from a fixed set of options: assigning a rubric score, checking whether an answer meets a marking criterion, or identifying the first wrong step in a solution.…",
-   "id": "e195e7cdc847",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "Capability-Grounded Agentic Planning",
-   "url": "https://arxiv.org/abs/2610.41040v1",
-   "published": "2026-10-29T22:32:01+00:00",
-   "preview": "LLM agents serve natural-language requests through tools, data sources, and other agents, and even simple requests often need several interdependent calls. Typically, the LLM picks these calls by trial and error, with…",
-   "id": "72bd4eee8cc5",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "Do Language Models Know What Compelling Scientific Evidence Looks Like?",
-   "url": "https://arxiv.org/abs/2610.41015v1",
-   "published": "2026-10-29T21:51:23+00:00",
-   "preview": "Expert scientists excel at weighing empirical findings from multiple sources that vary in both statistical reliability and epistemic relevance. To what extent are language models, which are increasingly driving…",
-   "id": "1facc0c2c186",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
-   "url": "https://arxiv.org/abs/2610.41012v1",
-   "published": "2026-10-29T21:45:09+00:00",
-   "preview": "Retrieval-augmented generation (RAG) can expose language models to misleading evidence in retrieved documents. We investigate whether increasing the number of mutually agreeing poisoned documents affects a model's…",
-   "id": "f82dc62d97a2",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "MOSAIC: Addressing Disproportionate Task-Modality Dependencies via Modality-Partitioned Gradient Routing",
-   "url": "https://arxiv.org/abs/2610.41004v1",
-   "published": "2026-10-29T21:37:34+00:00",
-   "preview": "In multi-task settings, combining multiple modalities allows task representations to draw on signals that a single modality alone would not capture. However, individual tasks may depend disproportionately on particular…",
-   "id": "09f02aae57de",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
-   "countries": []
-  },
-  {
-   "title": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
-   "url": "https://arxiv.org/abs/2610.40996v1",
-   "published": "2026-10-29T21:25:31+00:00",
-   "preview": "When a language model invents a Qur'anic verse or hadith, it gives false authority to text that readers may treat as sacred. Existing Islamic hallucination benchmarks are largely Arabic and often closed-ended, while…",
-   "id": "266ede5a1bf7",
-   "source": "arxiv-cs-cl",
-   "fetched": "2026-11-02T02:18:51+00:00",
    "countries": []
   },
   {
