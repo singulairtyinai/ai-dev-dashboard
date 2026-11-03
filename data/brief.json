@@ -1,46 +1,52 @@
 {
- "generated_at": "2026-11-02T05:55:00+00:00",
+ "generated_at": "2026-11-03T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "OpenAI is planning a post-election policy blitz to align with the new Washington, as ChinaTalk examined what Korea's $1 trillion stock crash means for the global AI race and SemiAnalysis introduced a frontier benchmark spanning cyber, bio and chip-design domains.",
+ "headline": "ChinaTalk examined why Russia is doing badly in Ukraine as both sides rebuild around drones and long-range strike, Australia unveiled new Ghost Shark underwater drone payloads, and Wired found hundreds of AI apps hiding sexually abusive deepfake features.",
  "points": [
   {
-   "text": "Axios reported that OpenAI will launch a policy and PR blitz right after Tuesday's midterms to align with the new Washington, including an effort to rebrand data centers as 'AI compute campuses.'",
+   "text": "ChinaTalk's WarTalk examined why Russia is doing badly in Ukraine, as both sides rebuild their armies around drones, deception, and long-range strike.",
+   "cats": ["geo", "mil"],
+   "item_ids": ["ab4ec39a3f63"]
+  },
+  {
+   "text": "Australia's navy unveiled previously secretive payloads being fielded on its Ghost Shark extra-large autonomous underwater vehicles.",
+   "cats": ["mil"],
+   "item_ids": ["7c6265b4b628"]
+  },
+  {
+   "text": "The ITU's AI for Good argued that trustworthy AI begins with securing the AI stack and building resilience.",
+   "cats": ["multi", "gov"],
+   "item_ids": ["1d33ff178664"]
+  },
+  {
+   "text": "Wired uncovered roughly 400 AI apps and websites, linked to Chinese-language developers, that disguised secret features letting users generate sexually abusive and violent deepfake images and video.",
+   "cats": ["risk", "geo"],
+   "item_ids": ["865143ca1ce8"]
+  },
+  {
+   "text": "An essay argued that the reach and influence of Claude's Constitution shows why AI's governing rules need public oversight and independent evidence that models actually follow them.",
    "cats": ["gov"],
-   "item_ids": ["a351f188a3b8"]
-  },
-  {
-   "text": "ChinaTalk examined what Korea's $1 trillion stock market crash means for the global AI race.",
-   "cats": ["geo"],
-   "item_ids": ["293c2d3abc44"]
-  },
-  {
-   "text": "SemiAnalysis introduced GDPx, a frontier benchmark measuring model capabilities across domains including RSI, hardware design, cyber, bio, chip design, and alignment.",
-   "cats": ["hw", "risk", "models"],
-   "item_ids": ["7f6f2bc0a104"]
-  },
-  {
-   "text": "SemiAnalysis reported that the datacenter backlash has gone bipartisan ahead of next week's midterms, with a prolonged Texas permit freeze now the biggest single risk to the 2028 US AI buildout.",
-   "cats": ["hw", "gov"],
-   "item_ids": ["3a8d2a3ccb3e"]
+   "item_ids": ["52d39b0b44c6"]
   }
  ],
  "categories": {
-  "gov": [
-   "OpenAI plans a post-election policy and PR blitz to align with the new Washington.",
-   "The datacenter backlash has gone bipartisan ahead of the midterms."
-  ],
   "geo": [
-   "ChinaTalk examined what Korea's $1 trillion stock crash means for the global AI race."
+   "ChinaTalk examined why Russia is doing badly in Ukraine as both sides rebuild around drones and long-range strike.",
+   "Hundreds of AI apps linked to Chinese-language developers hid sexually abusive deepfake features."
   ],
-  "hw": [
-   "SemiAnalysis introduced GDPx, a frontier benchmark spanning cyber, bio and chip-design domains.",
-   "A prolonged Texas permit freeze is now the biggest risk to the 2028 US AI buildout."
+  "mil": [
+   "ChinaTalk examined why Russia is doing badly in Ukraine.",
+   "Australia unveiled new Ghost Shark underwater drone payloads."
+  ],
+  "multi": [
+   "The ITU's AI for Good argued trustworthy AI begins with securing the AI stack."
+  ],
+  "gov": [
+   "The ITU's AI for Good argued trustworthy AI begins with securing the AI stack.",
+   "An essay argued AI's governing rules need public oversight, citing Claude's Constitution."
   ],
   "risk": [
-   "SemiAnalysis's new GDPx benchmark spans cyber, bio and other dual-use domains."
-  ],
-  "models": [
-   "SemiAnalysis introduced GDPx, a frontier model capability benchmark."
+   "Hundreds of AI apps linked to Chinese-language developers hid sexually abusive deepfake features."
   ]
  }
 }
