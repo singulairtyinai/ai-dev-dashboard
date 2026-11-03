@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-03T08:17:59+00:00",
+  "checked_at": "2026-11-03T10:18:27+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-03T08:18:00+00:00",
+  "checked_at": "2026-11-03T10:18:27+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-03T08:18:00+00:00",
+  "checked_at": "2026-11-03T10:18:28+00:00",
   "hash": "d748bb3a6915824aeb1eac7ddec69bed58416a5d",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-03T08:18:00+00:00",
+  "checked_at": "2026-11-03T10:18:28+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-03T08:18:05+00:00",
+  "checked_at": "2026-11-03T10:18:30+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -116,7 +116,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-03T08:18:03+00:00",
+  "checked_at": "2026-11-03T10:18:30+00:00",
   "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
    "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
@@ -156,61 +156,72 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-03T08:18:03+00:00",
-  "hash": "88906b3b632744b08fe6b06be7a0338bc082359b",
+  "checked_at": "2026-11-03T10:18:30+00:00",
+  "hash": "4c593636c4339ffeb9caa592d5a884bbd3d449f1",
   "known": [
    "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
    "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
    "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+   "Can Coding Agents Sustain Continual Evolution without Forgetting?",
+   "Can Large Language Model Agents Learn by Watching Tutorial Videos?",
    "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
    "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
    "DeFT-RAG: Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers",
    "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
    "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
    "Diagnosing the Reference Gap: What Visual Scaffolds Can and Cannot Fix in Multimodal Reasoning",
+   "FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell",
    "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
    "Georgia Institute of Technology",
+   "Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments",
    "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
    "Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay",
    "MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads",
    "Measuring AI Agents as Teammates with Collaborative Intelligence",
    "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
    "On-Policy Self-Distillation with Teacher Evolution",
+   "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
    "ProVe: Proposer-Verifier Decoding",
    "Renmin University of China",
    "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+   "SIMIT: Self-Improving Vision-Language Models via Imagination at Test-Time",
    "Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer",
    "Shanghai Jiao Tong University",
+   "Technical University of Denmark",
+   "The Hong Kong Polytechnic University",
    "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+   "University College London",
    "University Medical Center Utrecht",
    "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
    "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+   "When Morphs Look Better: Face Image Quality as a Training-Free Signal for Morphing Attack Detection",
+   "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-03T08:18:03+00:00",
+  "changed_at": "2026-11-03T10:18:30+00:00",
   "added": [
    {
-    "text": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+    "text": "FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Renmin University of China",
-    "url": "https://huggingface.co/RUC"
-   },
-   {
-    "text": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+    "text": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
+    "text": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+    "text": "Can Large Language Model Agents Learn by Watching Tutorial Videos?",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
+    "text": "University College London",
+    "url": "https://huggingface.co/UniversityCollegeLondon"
+   },
+   {
+    "text": "SIMIT: Self-Improving Vision-Language Models via Imagination at Test-Time",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -253,7 +264,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-03T08:18:07+00:00",
+  "checked_at": "2026-11-03T10:18:34+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -351,7 +362,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-03T08:18:05+00:00",
+  "checked_at": "2026-11-03T10:18:33+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
