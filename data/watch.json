@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-03T06:18:06+00:00",
+  "checked_at": "2026-11-03T08:17:59+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-03T06:18:07+00:00",
+  "checked_at": "2026-11-03T08:18:00+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-03T06:18:08+00:00",
+  "checked_at": "2026-11-03T08:18:00+00:00",
   "hash": "d748bb3a6915824aeb1eac7ddec69bed58416a5d",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -85,7 +85,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-03T06:18:08+00:00",
+  "checked_at": "2026-11-03T08:18:00+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -99,7 +99,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-03T06:18:10+00:00",
+  "checked_at": "2026-11-03T08:18:05+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -116,7 +116,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-03T06:18:09+00:00",
+  "checked_at": "2026-11-03T08:18:03+00:00",
   "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
    "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
@@ -156,50 +156,67 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-03T06:18:10+00:00",
-  "hash": "f3a4cc0e0a05ecef8b59498216c5a678518c4a72",
+  "checked_at": "2026-11-03T08:18:03+00:00",
+  "hash": "88906b3b632744b08fe6b06be7a0338bc082359b",
   "known": [
    "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+   "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
+   "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+   "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+   "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
    "DeFT-RAG: Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers",
    "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
    "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
    "Diagnosing the Reference Gap: What Visual Scaffolds Can and Cannot Fix in Multimodal Reasoning",
    "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
    "Georgia Institute of Technology",
+   "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
    "Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay",
    "MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads",
+   "Measuring AI Agents as Teammates with Collaborative Intelligence",
    "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
    "On-Policy Self-Distillation with Teacher Evolution",
    "ProVe: Proposer-Verifier Decoding",
+   "Renmin University of China",
+   "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
    "Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer",
    "Shanghai Jiao Tong University",
    "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+   "University Medical Center Utrecht",
    "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
    "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-03T06:18:10+00:00",
+  "changed_at": "2026-11-03T08:18:03+00:00",
   "added": [
    {
-    "text": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "text": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
+    "text": "Renmin University of China",
+    "url": "https://huggingface.co/RUC"
+   },
+   {
+    "text": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+    "text": "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Shanghai Jiao Tong University",
-    "url": "https://huggingface.co/SJTU"
+    "text": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
+    "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-03T06:18:12+00:00",
+  "checked_at": "2026-11-03T08:18:05+00:00",
   "hash": "3ccbfe7830dacd9595d7317434b01cb2291f6a6a",
   "known": [
    "AI and human rights for youth",
@@ -236,7 +253,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-03T06:18:13+00:00",
+  "checked_at": "2026-11-03T08:18:07+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -334,7 +351,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-03T06:18:12+00:00",
+  "checked_at": "2026-11-03T08:18:05+00:00",
   "hash": "a1ff008188498b04ee2ef53434ab101446db47d1",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
