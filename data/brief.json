@@ -1,52 +1,50 @@
 {
- "generated_at": "2026-11-03T05:55:00+00:00",
+ "generated_at": "2026-11-04T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "ChinaTalk examined why Russia is doing badly in Ukraine as both sides rebuild around drones and long-range strike, Australia unveiled new Ghost Shark underwater drone payloads, and Wired found hundreds of AI apps hiding sexually abusive deepfake features.",
+ "headline": "War on the Rocks warned that frontier AI is testing the limits of human oversight in security and defense, as former Army Secretary Dan Driscoll joined OpenAI and the UN published an FAQ for its Bridgetown Special Summit on AI Safety.",
  "points": [
   {
-   "text": "ChinaTalk's WarTalk examined why Russia is doing badly in Ukraine, as both sides rebuild their armies around drones, deception, and long-range strike.",
-   "cats": ["geo", "mil"],
-   "item_ids": ["ab4ec39a3f63"]
+   "text": "War on the Rocks argued that frontier AI systems are beginning to test the limits of human oversight, while the companies developing them retain considerable power to define the risks and terms of their own scrutiny, especially in security and defense.",
+   "cats": ["mil", "risk"],
+   "item_ids": ["4ab7a7544fc6"]
   },
   {
-   "text": "Australia's navy unveiled previously secretive payloads being fielded on its Ghost Shark extra-large autonomous underwater vehicles.",
+   "text": "Former US Army Secretary Dan Driscoll is joining OpenAI, saying he wants to help the United States and its allies put the technology to work responsibly for the people who keep them safe.",
+   "cats": ["mil", "gov"],
+   "item_ids": ["e4f7e256853b"]
+  },
+  {
+   "text": "At the AUSA 2026 conference, Breaking Defense examined the US Army's push into autonomous warfare and drone innovation alongside acquisition reform.",
    "cats": ["mil"],
-   "item_ids": ["7c6265b4b628"]
+   "item_ids": ["23fc8868d7da"]
   },
   {
-   "text": "The ITU's AI for Good argued that trustworthy AI begins with securing the AI stack and building resilience.",
+   "text": "The UN Tech Envoy published an FAQ for the Bridgetown Special Summit on AI Safety, clarifying that it will not create global AI rules or replace national decision-making.",
    "cats": ["multi", "gov"],
-   "item_ids": ["1d33ff178664"]
+   "item_ids": ["94679e64ae41"]
   },
   {
-   "text": "Wired uncovered roughly 400 AI apps and websites, linked to Chinese-language developers, that disguised secret features letting users generate sexually abusive and violent deepfake images and video.",
-   "cats": ["risk", "geo"],
-   "item_ids": ["865143ca1ce8"]
-  },
-  {
-   "text": "An essay argued that the reach and influence of Claude's Constitution shows why AI's governing rules need public oversight and independent evidence that models actually follow them.",
-   "cats": ["gov"],
-   "item_ids": ["52d39b0b44c6"]
+   "text": "MIT Technology Review described 'reverse game theory,' a new approach to keeping AI agents in check by designing systems that incentivize models to stick to the rules.",
+   "cats": ["risk"],
+   "item_ids": ["c7a94f8b7c58"]
   }
  ],
  "categories": {
-  "geo": [
-   "ChinaTalk examined why Russia is doing badly in Ukraine as both sides rebuild around drones and long-range strike.",
-   "Hundreds of AI apps linked to Chinese-language developers hid sexually abusive deepfake features."
-  ],
   "mil": [
-   "ChinaTalk examined why Russia is doing badly in Ukraine.",
-   "Australia unveiled new Ghost Shark underwater drone payloads."
-  ],
-  "multi": [
-   "The ITU's AI for Good argued trustworthy AI begins with securing the AI stack."
-  ],
-  "gov": [
-   "The ITU's AI for Good argued trustworthy AI begins with securing the AI stack.",
-   "An essay argued AI's governing rules need public oversight, citing Claude's Constitution."
+   "War on the Rocks warned frontier AI is testing limits of human oversight in security and defense.",
+   "Former Army Secretary Dan Driscoll is joining OpenAI.",
+   "AUSA 2026 examined the Army's push into autonomous warfare and drones."
   ],
   "risk": [
-   "Hundreds of AI apps linked to Chinese-language developers hid sexually abusive deepfake features."
+   "War on the Rocks warned frontier AI is testing limits of human oversight.",
+   "'Reverse game theory' aims to keep AI agents in check."
+  ],
+  "gov": [
+   "Former Army Secretary Dan Driscoll is joining OpenAI.",
+   "The UN published an FAQ for the Bridgetown Special Summit on AI Safety."
+  ],
+  "multi": [
+   "The UN published an FAQ for the Bridgetown Special Summit on AI Safety, clarifying it won't create global AI rules."
   ]
  }
 }
