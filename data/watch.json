@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-05T12:19:04+00:00",
+  "checked_at": "2026-11-05T14:21:02+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-05T12:19:05+00:00",
+  "checked_at": "2026-11-05T14:21:03+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-05T12:19:05+00:00",
+  "checked_at": "2026-11-05T14:21:03+00:00",
   "hash": "34244f442553f883f0ab16e4daec8b2f29cf4d5a",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-05T12:19:06+00:00",
+  "checked_at": "2026-11-05T14:21:03+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-05T12:19:09+00:00",
+  "checked_at": "2026-11-05T14:21:06+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,10 +117,9 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-05T12:19:07+00:00",
-  "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
+  "checked_at": "2026-11-05T14:21:05+00:00",
+  "hash": "9e8f38b90618c93d064e3d9f45db464be507a788",
   "known": [
-   "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
@@ -129,6 +128,7 @@
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "Munitions Procurement and the Fiscal Year 2027 Defense Budget",
+   "Reigniting War With Iran Would Be a ‘Huge Gamble’",
    "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That.",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "U.S. Starts at ‘Basically Zero’ in Building Cheap Military Drones",
@@ -136,20 +136,22 @@
    "View All Articles & Multimedia",
    "What's a Revolution in Military Affairs Good For?"
   ],
-  "changed_at": "2026-11-05T06:58:12+00:00",
+  "changed_at": "2026-11-05T14:21:05+00:00",
   "added": [
    {
-    "text": "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
+    "text": "Reigniting War With Iran Would Be a ‘Huge Gamble’",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-05T12:19:08+00:00",
-  "hash": "539835624183cf4271aca70d5b5cb4c05c0744a1",
+  "checked_at": "2026-11-05T14:21:05+00:00",
+  "hash": "f5ecde21c28181a15a689e0bd65654c7eb1cb6ae",
   "known": [
    "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
+   "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
    "Chinese Academic of Science Institute of Automation",
+   "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
    "Data Intelligence System Lab",
    "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
    "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
@@ -161,6 +163,7 @@
    "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
    "Indian Institute of Technology, Kanpur",
    "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+   "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
    "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
    "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
    "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
@@ -183,38 +186,31 @@
    "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
    "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
    "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+   "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-05T12:19:08+00:00",
+  "changed_at": "2026-11-05T14:21:05+00:00",
   "added": [
    {
-    "text": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+    "text": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Data Intelligence System Lab",
-    "url": "https://huggingface.co/DISLab"
-   },
-   {
-    "text": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
+    "text": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
+    "text": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+    "text": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
     "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "The Hebrew University of Jerusalem",
-    "url": "https://huggingface.co/HUJI-IL"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-05T12:19:12+00:00",
+  "checked_at": "2026-11-05T14:21:08+00:00",
   "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
@@ -245,7 +241,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-05T12:19:13+00:00",
+  "checked_at": "2026-11-05T14:21:09+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -343,7 +339,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-05T12:19:12+00:00",
+  "checked_at": "2026-11-05T14:21:08+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
