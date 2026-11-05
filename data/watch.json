@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-05T10:18:03+00:00",
+  "checked_at": "2026-11-05T12:19:04+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-05T10:18:04+00:00",
+  "checked_at": "2026-11-05T12:19:05+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-05T10:18:04+00:00",
+  "checked_at": "2026-11-05T12:19:05+00:00",
   "hash": "34244f442553f883f0ab16e4daec8b2f29cf4d5a",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-05T10:18:05+00:00",
+  "checked_at": "2026-11-05T12:19:06+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-05T10:18:06+00:00",
+  "checked_at": "2026-11-05T12:19:09+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-05T10:18:05+00:00",
+  "checked_at": "2026-11-05T12:19:07+00:00",
   "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
    "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
@@ -145,15 +145,17 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-05T10:18:06+00:00",
-  "hash": "4aaecac7fd0ba3a17cb6f909d7b11aa7be0f3ca7",
+  "checked_at": "2026-11-05T12:19:08+00:00",
+  "hash": "539835624183cf4271aca70d5b5cb4c05c0744a1",
   "known": [
    "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
    "Chinese Academic of Science Institute of Automation",
+   "Data Intelligence System Lab",
    "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
    "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
    "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
    "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+   "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
    "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
    "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
    "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
@@ -161,6 +163,7 @@
    "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
    "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
    "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+   "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
    "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
    "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
    "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
@@ -169,9 +172,12 @@
    "Solv3R: 3D Looped Transformer as a Multi-view Solver",
    "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
    "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+   "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+   "The Hebrew University of Jerusalem",
    "The Sequential Learning Group",
    "The University of Melbourne",
    "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+   "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
    "VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
    "VeriSpoof: Beyond Real or Fake with One Audio LLM",
    "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
@@ -179,28 +185,36 @@
    "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-05T10:18:06+00:00",
+  "changed_at": "2026-11-05T12:19:08+00:00",
   "added": [
    {
-    "text": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+    "text": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+    "text": "Data Intelligence System Lab",
+    "url": "https://huggingface.co/DISLab"
+   },
+   {
+    "text": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+    "text": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "The Sequential Learning Group",
-    "url": "https://huggingface.co/SequentialLearning"
+    "text": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "The Hebrew University of Jerusalem",
+    "url": "https://huggingface.co/HUJI-IL"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-05T10:18:08+00:00",
+  "checked_at": "2026-11-05T12:19:12+00:00",
   "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
@@ -231,7 +245,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-05T10:18:09+00:00",
+  "checked_at": "2026-11-05T12:19:13+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -329,7 +343,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-05T10:18:08+00:00",
+  "checked_at": "2026-11-05T12:19:12+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
