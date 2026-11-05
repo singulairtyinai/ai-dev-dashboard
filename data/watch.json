@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-05T08:17:59+00:00",
+  "checked_at": "2026-11-05T10:18:03+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-05T08:18:00+00:00",
+  "checked_at": "2026-11-05T10:18:04+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-05T08:18:00+00:00",
+  "checked_at": "2026-11-05T10:18:04+00:00",
   "hash": "34244f442553f883f0ab16e4daec8b2f29cf4d5a",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-05T08:18:01+00:00",
+  "checked_at": "2026-11-05T10:18:05+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-05T08:18:03+00:00",
+  "checked_at": "2026-11-05T10:18:06+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,7 +117,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-05T08:18:02+00:00",
+  "checked_at": "2026-11-05T10:18:05+00:00",
   "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
    "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
@@ -145,8 +145,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-05T08:18:04+00:00",
-  "hash": "494ac4eb69b8edcbbb3d1379cad42643a0adb4b7",
+  "checked_at": "2026-11-05T10:18:06+00:00",
+  "hash": "4aaecac7fd0ba3a17cb6f909d7b11aa7be0f3ca7",
   "known": [
    "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
    "Chinese Academic of Science Institute of Automation",
@@ -156,16 +156,20 @@
    "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
    "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
    "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+   "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
    "Indian Institute of Technology, Kanpur",
+   "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
    "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
    "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
    "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
    "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+   "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
    "Seoul National University",
    "SleuthVLM: Do We Really Need Audio-in-Video for Omni Video Understanding?",
    "Solv3R: 3D Looped Transformer as a Multi-view Solver",
    "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
    "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+   "The Sequential Learning Group",
    "The University of Melbourne",
    "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
    "VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
@@ -175,17 +179,29 @@
    "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-05T08:18:04+00:00",
+  "changed_at": "2026-11-05T10:18:06+00:00",
   "added": [
    {
-    "text": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
+    "text": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "The Sequential Learning Group",
+    "url": "https://huggingface.co/SequentialLearning"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-05T08:18:07+00:00",
-  "hash": "77ea01ef024d26fb3f15dcdc3e1856d643a299b8",
+  "checked_at": "2026-11-05T10:18:08+00:00",
+  "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
    "Artificial Intelligence and emerging technologies",
@@ -200,12 +216,9 @@
    "News The Supreme Court of Chile and UNESCO strengthen dialogue on artificial intelligence 30 October 2026",
    "News UNESCO AI Ethics Action Cohorts advance practical AI governance 2 November 2026",
    "News UNESCO and Google partner to empower Brazilian content creators 2 November 2026",
-   "Policy Development: Readiness Assessment Methodology (RAMs)",
-   "Readiness Assessment Methodology",
    "Recommendation on the Ethics of Artificial Intelligence",
    "Recommendation on the Ethics of Neurotechnology",
    "Sustainable AI and Climate Action at COP31",
-   "Technology Policy Assistance Facility",
    "UN Global Dialogue on AI Governance",
    "Video series: 7 minutes to understand AI"
   ],
@@ -218,7 +231,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-05T08:18:08+00:00",
+  "checked_at": "2026-11-05T10:18:09+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -316,7 +329,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-05T08:18:07+00:00",
+  "checked_at": "2026-11-05T10:18:08+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
