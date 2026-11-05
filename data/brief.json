@@ -1,50 +1,57 @@
 {
- "generated_at": "2026-11-04T05:55:00+00:00",
+ "generated_at": "2026-11-05T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "War on the Rocks warned that frontier AI is testing the limits of human oversight in security and defense, as former Army Secretary Dan Driscoll joined OpenAI and the UN published an FAQ for its Bridgetown Special Summit on AI Safety.",
+ "headline": "UNIDIR examined the missing links between space and ICT diplomacy, as US voters revolted against AI data center buildouts at the midterms and OpenAI's autonomous pipeline patched nearly 1,000 Linux kernel vulnerabilities.",
  "points": [
   {
-   "text": "War on the Rocks argued that frontier AI systems are beginning to test the limits of human oversight, while the companies developing them retain considerable power to define the risks and terms of their own scrutiny, especially in security and defense.",
-   "cats": ["mil", "risk"],
-   "item_ids": ["4ab7a7544fc6"]
+   "text": "UNIDIR examined the missing links between outer space diplomacy and the security of information and communications technologies, following a panel at Geneva Cyber Week.",
+   "cats": ["peace"],
+   "item_ids": ["ea3fa73ad181"]
   },
   {
-   "text": "Former US Army Secretary Dan Driscoll is joining OpenAI, saying he wants to help the United States and its allies put the technology to work responsibly for the people who keep them safe.",
-   "cats": ["mil", "gov"],
-   "item_ids": ["e4f7e256853b"]
+   "text": "SIPRI published a climate, peace and security fact sheet on Somalia.",
+   "cats": ["peace"],
+   "item_ids": ["2571cba5d0ae"]
   },
   {
-   "text": "At the AUSA 2026 conference, Breaking Defense examined the US Army's push into autonomous warfare and drone innovation alongside acquisition reform.",
-   "cats": ["mil"],
-   "item_ids": ["23fc8868d7da"]
+   "text": "Axios reported that US voters revolted against the AI race at the midterms, approving dozens of data center moratoriums and electing candidates favoring a slower buildout, including in Texas.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["a57d37e71a34"]
   },
   {
-   "text": "The UN Tech Envoy published an FAQ for the Bridgetown Special Summit on AI Safety, clarifying that it will not create global AI rules or replace national decision-making.",
-   "cats": ["multi", "gov"],
-   "item_ids": ["94679e64ae41"]
+   "text": "Transformer argued that the 'blue tsunami' at the midterms makes stronger AI legislation look much more likely.",
+   "cats": ["gov"],
+   "item_ids": ["326a762d0029"]
   },
   {
-   "text": "MIT Technology Review described 'reverse game theory,' a new approach to keeping AI agents in check by designing systems that incentivize models to stick to the rules.",
+   "text": "OpenAI said an autonomous pipeline it built found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
    "cats": ["risk"],
-   "item_ids": ["c7a94f8b7c58"]
+   "item_ids": ["a4f4c423c542"]
+  },
+  {
+   "text": "The UK outlined its candidacy for re-election to the International Telecommunication Union Council in 2026.",
+   "cats": ["gov", "multi"],
+   "item_ids": ["5fc0970c25c9"]
   }
  ],
  "categories": {
-  "mil": [
-   "War on the Rocks warned frontier AI is testing limits of human oversight in security and defense.",
-   "Former Army Secretary Dan Driscoll is joining OpenAI.",
-   "AUSA 2026 examined the Army's push into autonomous warfare and drones."
+  "peace": [
+   "UNIDIR examined missing links between space diplomacy and ICT security.",
+   "SIPRI published a climate, peace and security fact sheet on Somalia."
   ],
-  "risk": [
-   "War on the Rocks warned frontier AI is testing limits of human oversight.",
-   "'Reverse game theory' aims to keep AI agents in check."
+  "geo": [
+   "US voters revolted against the AI race at the midterms, approving data center moratoriums."
   ],
   "gov": [
-   "Former Army Secretary Dan Driscoll is joining OpenAI.",
-   "The UN published an FAQ for the Bridgetown Special Summit on AI Safety."
+   "US voters revolted against the AI race at the midterms.",
+   "The 'blue tsunami' makes stronger AI legislation look more likely.",
+   "The UK outlined its candidacy for re-election to the ITU Council."
+  ],
+  "risk": [
+   "OpenAI's autonomous pipeline patched nearly 1,000 Linux kernel vulnerabilities."
   ],
   "multi": [
-   "The UN published an FAQ for the Bridgetown Special Summit on AI Safety, clarifying it won't create global AI rules."
+   "The UK outlined its candidacy for re-election to the ITU Council."
   ]
  }
 }
