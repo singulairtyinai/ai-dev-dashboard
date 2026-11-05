@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-05T16:31:54+00:00",
+  "checked_at": "2026-11-05T18:18:22+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-05T16:31:56+00:00",
+  "checked_at": "2026-11-05T18:18:23+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,14 +53,14 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-05T16:31:56+00:00",
-  "hash": "34244f442553f883f0ab16e4daec8b2f29cf4d5a",
+  "checked_at": "2026-11-05T18:18:23+00:00",
+  "hash": "c66785b46f37fe07ab6e53903ef84c696b5f030e",
   "known": [
    "AI Use Cases in Legal Practice",
+   "AI accountability in practice: What privacy leaders need to show in 2027",
    "AI governance starts with your data: Building the evidence the EU AI Act and new US rules expect",
    "Australia's privacy reform: Priorities before the OAIC",
    "Beyond the frontier: Pragmatic AI risk management for the rest of us",
-   "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia",
    "EU AI Act Compliance Matrix",
    "EU AI Act: Mapping the Interplays with the GDPR",
    "Getting your organization PETs ready",
@@ -77,16 +77,16 @@
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
    "What the phonograph can teach us about managing AI"
   ],
-  "changed_at": "2026-11-04T16:18:22+00:00",
+  "changed_at": "2026-11-05T18:18:23+00:00",
   "added": [
    {
-    "text": "Getting your organization PETs ready",
-    "url": "https://iapp.org/resources/article/getting-your-organization-pets-ready"
+    "text": "AI accountability in practice: What privacy leaders need to show in 2027",
+    "url": "https://iapp.org/resources/article/ai-accountability-in-practice-what-privacy-leaders-need-to-show-in-2027"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-05T16:31:57+00:00",
+  "checked_at": "2026-11-05T18:18:24+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-05T16:31:59+00:00",
+  "checked_at": "2026-11-05T18:18:26+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,10 +117,9 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-05T16:31:58+00:00",
-  "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
+  "checked_at": "2026-11-05T18:18:25+00:00",
+  "hash": "9e8f38b90618c93d064e3d9f45db464be507a788",
   "known": [
-   "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
@@ -129,6 +128,7 @@
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "Munitions Procurement and the Fiscal Year 2027 Defense Budget",
+   "Reigniting War With Iran Would Be a ‘Huge Gamble’",
    "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That.",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "U.S. Starts at ‘Basically Zero’ in Building Cheap Military Drones",
@@ -136,17 +136,17 @@
    "View All Articles & Multimedia",
    "What's a Revolution in Military Affairs Good For?"
   ],
-  "changed_at": "2026-11-05T16:18:58+00:00",
+  "changed_at": "2026-11-05T18:18:25+00:00",
   "added": [
    {
-    "text": "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
+    "text": "Reigniting War With Iran Would Be a ‘Huge Gamble’",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-05T16:31:59+00:00",
-  "hash": "f5ecde21c28181a15a689e0bd65654c7eb1cb6ae",
+  "checked_at": "2026-11-05T18:18:26+00:00",
+  "hash": "cf2fe96243f7519572c0e3070df41b8fc28cb9dc",
   "known": [
    "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
    "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
@@ -158,6 +158,8 @@
    "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
    "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
    "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+   "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+   "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
    "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
    "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
    "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
@@ -166,6 +168,8 @@
    "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
    "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
    "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+   "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+   "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
    "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
    "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
    "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
@@ -176,7 +180,9 @@
    "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
    "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
    "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+   "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
    "The Hebrew University of Jerusalem",
+   "The SIMPLE Law for Energy Cost of LLM Inference",
    "The Sequential Learning Group",
    "The University of Melbourne",
    "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
@@ -189,28 +195,36 @@
    "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-05T14:21:05+00:00",
+  "changed_at": "2026-11-05T18:18:26+00:00",
   "added": [
    {
-    "text": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
+    "text": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
+    "text": "The SIMPLE Law for Energy Cost of LLM Inference",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+    "text": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
+    "text": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-05T16:32:03+00:00",
+  "checked_at": "2026-11-05T18:18:30+00:00",
   "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
@@ -241,7 +255,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-05T16:32:05+00:00",
+  "checked_at": "2026-11-05T18:18:31+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -339,7 +353,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-05T16:32:03+00:00",
+  "checked_at": "2026-11-05T18:18:30+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
