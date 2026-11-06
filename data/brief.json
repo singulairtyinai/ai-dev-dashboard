@@ -1,57 +1,59 @@
 {
- "generated_at": "2026-11-05T05:55:00+00:00",
+ "generated_at": "2026-11-06T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UNIDIR examined the missing links between space and ICT diplomacy, as US voters revolted against AI data center buildouts at the midterms and OpenAI's autonomous pipeline patched nearly 1,000 Linux kernel vulnerabilities.",
+ "headline": "Nvidia's CEO was called before lawmakers over alleged ties to a Chinese spy, as 125+ UK and Canadian lawmakers urged a ban on runaway machine intelligence and Anthropic's amended S-1 warned it may be nearing 'dramatically accelerated' AI progress.",
  "points": [
   {
-   "text": "UNIDIR examined the missing links between outer space diplomacy and the security of information and communications technologies, following a panel at Geneva Cyber Week.",
-   "cats": ["peace"],
-   "item_ids": ["ea3fa73ad181"]
-  },
-  {
-   "text": "SIPRI published a climate, peace and security fact sheet on Somalia.",
-   "cats": ["peace"],
-   "item_ids": ["2571cba5d0ae"]
-  },
-  {
-   "text": "Axios reported that US voters revolted against the AI race at the midterms, approving dozens of data center moratoriums and electing candidates favoring a slower buildout, including in Texas.",
+   "text": "Nvidia CEO Jensen Huang was asked by three House Republican committee chairs to brief Congress behind closed doors about his reported ties to a woman accused of spying for China.",
    "cats": ["geo", "gov"],
-   "item_ids": ["a57d37e71a34"]
+   "item_ids": ["93ab760674bd"]
   },
   {
-   "text": "Transformer argued that the 'blue tsunami' at the midterms makes stronger AI legislation look much more likely.",
-   "cats": ["gov"],
-   "item_ids": ["326a762d0029"]
+   "text": "More than 125 UK and Canadian lawmakers urged a ban on runaway machine intelligence, citing new evidence that it could arrive sooner than expected.",
+   "cats": ["risk", "gov"],
+   "item_ids": ["98a5568439da"]
   },
   {
-   "text": "OpenAI said an autonomous pipeline it built found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "text": "Anthropic's amended S-1 warned it may imminently meet its Responsible Scaling Policy's definition of 'dramatically accelerated progress' from AI, as METR's independent assessment reviewed AI R&D acceleration at the company in October.",
    "cats": ["risk"],
-   "item_ids": ["a4f4c423c542"]
+   "item_ids": ["2b286773f8dc", "505afecbf67a", "ceaaf2dee423"]
   },
   {
-   "text": "The UK outlined its candidacy for re-election to the International Telecommunication Union Council in 2026.",
-   "cats": ["gov", "multi"],
-   "item_ids": ["5fc0970c25c9"]
+   "text": "OpenAI launched GPT-6 Cyber, a cybersecurity model it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms.",
+   "cats": ["risk", "models"],
+   "item_ids": ["b529285c262b", "53c56afbaf05"]
+  },
+  {
+   "text": "Policy Gradients interviewed Ben Buchanan on the 'blue tsunami,' export controls, and American leadership on superintelligence.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["1950fce853e7"]
+  },
+  {
+   "text": "The ITU's AI for Good Summit shared takeaways on real AI problems and solutions from ecosystems at the event.",
+   "cats": ["multi"],
+   "item_ids": ["66de6d66006f"]
   }
  ],
  "categories": {
-  "peace": [
-   "UNIDIR examined missing links between space diplomacy and ICT security.",
-   "SIPRI published a climate, peace and security fact sheet on Somalia."
-  ],
   "geo": [
-   "US voters revolted against the AI race at the midterms, approving data center moratoriums."
+   "Nvidia's CEO was called before lawmakers over alleged ties to a Chinese spy.",
+   "An interview examined export controls and American leadership on superintelligence."
   ],
   "gov": [
-   "US voters revolted against the AI race at the midterms.",
-   "The 'blue tsunami' makes stronger AI legislation look more likely.",
-   "The UK outlined its candidacy for re-election to the ITU Council."
+   "Nvidia's CEO was called before lawmakers over alleged ties to a Chinese spy.",
+   "125+ UK and Canadian lawmakers urged a ban on runaway machine intelligence.",
+   "An interview examined export controls and American leadership on superintelligence."
   ],
   "risk": [
-   "OpenAI's autonomous pipeline patched nearly 1,000 Linux kernel vulnerabilities."
+   "125+ UK and Canadian lawmakers urged a ban on runaway machine intelligence.",
+   "Anthropic's amended S-1 warned it may be nearing 'dramatically accelerated' AI progress.",
+   "OpenAI's new GPT-6 Cyber model aims to be less likely to go rogue."
+  ],
+  "models": [
+   "OpenAI launched GPT-6 Cyber, a cybersecurity-focused model."
   ],
   "multi": [
-   "The UK outlined its candidacy for re-election to the ITU Council."
+   "The ITU's AI for Good Summit shared takeaways on AI problems and solutions."
   ]
  }
 }
