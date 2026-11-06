@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-06T04:18:34+00:00",
+ "updated": "2026-11-06T06:17:55+00:00",
  "items": [
+  {
+   "title": "Europe's AI Ambitions Meet the Data Center Backlash",
+   "url": "https://techpolicy.press/europes-ai-ambitions-meet-the-data-center-backlash",
+   "published": "2026-11-06T05:15:00+00:00",
+   "preview": "Europe says it needs more data centers to power its AI ambitions, but their rapid expansion is raising questions about energy, water, labor conditions and who gets a say in where they are built. As the European…",
+   "id": "18c060e17804",
+   "source": "tech-policy-press-podcast",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
+   "url": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
+   "published": "2026-11-06T04:25:07+00:00",
+   "preview": "Thinking Machines Lab released Inkling 2 Small, a 594B-parameter MoE with 17B active parameters. It scores 31 on the Artificial Analysis Intelligence Index and runs on Tinker, with Apache 2.0 weights planned. The post…",
+   "id": "e8ca26fb00ba",
+   "source": "marktechpost",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
   {
    "title": "125+ UK and Canadian Lawmakers Urge a Ban on Runaway Machine Intelligence",
    "url": "https://blog.controlai.org/p/125-uk-and-canadian-lawmakers-urge",
@@ -241,6 +261,16 @@
    "countries": []
   },
   {
+   "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
+   "url": "https://arxiv.org/abs/2611.08442v1",
+   "published": "2026-11-05T18:34:08+00:00",
+   "preview": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into…",
+   "id": "608ca13bf55a",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
    "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
    "url": "https://arxiv.org/abs/2611.08439v1",
    "published": "2026-11-05T18:31:24+00:00",
@@ -331,6 +361,16 @@
    "countries": []
   },
   {
+   "title": "FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning",
+   "url": "https://arxiv.org/abs/2611.08383v1",
+   "published": "2026-11-05T18:00:58+00:00",
+   "preview": "Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the…",
+   "id": "be070874a8d1",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
    "title": "Claude AI can plug directly into your bank account",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
    "published": "2026-11-05T18:00:00+00:00",
@@ -338,6 +378,16 @@
    "id": "f49d817c3fd3",
    "source": "the-verge-ai",
    "fetched": "2026-11-05T20:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices",
+   "url": "https://arxiv.org/abs/2611.08380v1",
+   "published": "2026-11-05T17:57:49+00:00",
+   "preview": "Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At…",
+   "id": "f31d267dc042",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
    "countries": []
   },
   {
@@ -361,6 +411,16 @@
    "countries": []
   },
   {
+   "title": "LABBA: LLM-Assisted Behavioral Biometric Authentication",
+   "url": "https://arxiv.org/abs/2611.08343v1",
+   "published": "2026-11-05T17:29:24+00:00",
+   "preview": "Behavioral biometrics have emerged as a promising complement to traditional physiological biometrics by leveraging dynamic human characteristics. These modalities offer advantages including continuous authentication,…",
+   "id": "7daf44304685",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
    "title": "Cultural Adaptation within Repeated Social Interactions",
    "url": "https://arxiv.org/abs/2611.08334v1",
    "published": "2026-11-05T17:23:30+00:00",
@@ -381,6 +441,16 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "Decision Models as Retrieval Gates Against Injection and Pollution",
+   "url": "https://arxiv.org/abs/2611.08325v1",
+   "published": "2026-11-05T17:19:19+00:00",
+   "preview": "Retrieved web text can carry instructions aimed at the language model, or synthetic pages written to mislead. We test whether released open-weight decision models, which answer typed questions about a text without…",
+   "id": "cf26fe972b43",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
   },
   {
    "title": "Polarity Classification with Multitask Learning Syntax Augmentation",
@@ -505,6 +575,46 @@
    "countries": []
   },
   {
+   "title": "Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage",
+   "url": "https://arxiv.org/abs/2611.08229v1",
+   "published": "2026-11-05T16:13:19+00:00",
+   "preview": "In two-tier triage a fast model decides most web requests and escalates the rest to a slow tier, so an attack the fast tier closes is never examined. We hold each of seven attack families out of training, recalibration…",
+   "id": "c42dde5ad640",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise",
+   "url": "https://arxiv.org/abs/2611.08200v1",
+   "published": "2026-11-05T15:54:05+00:00",
+   "preview": "Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws…",
+   "id": "e19fcb75e774",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "The Promise of Strategic Agentic Scambaiting",
+   "url": "https://arxiv.org/abs/2611.08170v1",
+   "published": "2026-11-05T15:28:27+00:00",
+   "preview": "Scammers have increasingly adopted AI-driven capabilities, evolving from automated message generation to fully agentic conversational systems that scale operations and maximize the exploitation of fraudulent resources…",
+   "id": "2890bbcbb07c",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities",
+   "url": "https://arxiv.org/abs/2611.08155v1",
+   "published": "2026-11-05T15:14:59+00:00",
+   "preview": "Semantic communication (SemCom) using a relay node is considered, where the relay assists in conveying task-relevant information from a source to a destination, with meaning defined by classification labels. A joint…",
+   "id": "a6df52e295b7",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
    "title": "5 Questions with Ben Buchanan",
    "url": "https://policygradients.thefai.org/p/5-questions-with-ben-buchanan",
    "published": "2026-11-05T15:03:23+00:00",
@@ -534,6 +644,26 @@
    "id": "f8f8c085e2e5",
    "source": "the-verge-ai",
    "fetched": "2026-11-05T16:18:56+00:00",
+   "countries": []
+  },
+  {
+   "title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
+   "url": "https://arxiv.org/abs/2611.08118v1",
+   "published": "2026-11-05T14:52:03+00:00",
+   "preview": "Low Earth Orbit (LEO) satellite-IoT systems increasingly provide connectivity to mobile assets in remote areas, which makes their resilience to radio-frequency jamming a growing concern. Timely jamming detection, i.e.,…",
+   "id": "5cab571d785f",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "KeHoSu: Keyed Homoglyph Substitution for Authenticated Text Provenance over Copy-Paste Channels",
+   "url": "https://arxiv.org/abs/2611.08046v1",
+   "published": "2026-11-05T14:01:01+00:00",
+   "preview": "Nowadays, large language models produce text at scale, and much of it is redistributed across platforms. A moderator who finds a suspicious comment, post or article may want to know which platform generated it and for…",
+   "id": "483729dc1740",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-06T06:17:55+00:00",
    "countries": []
   },
   {
@@ -1952,16 +2082,6 @@
    "countries": []
   },
   {
-   "title": "Network Intrusion Forensic Detection System with Explainable Artificial Intelligence and Digital Chain of Custody",
-   "url": "https://arxiv.org/abs/2611.06173v1",
-   "published": "2026-11-04T08:54:57+00:00",
-   "preview": "Deploying an explainable intrusion detection model from a validated laboratory setting into a forensic workflow requires guarantees that benchmarks do not test: that the certified model is the exact artifact applied to…",
-   "id": "e7cdc0a1c281",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
    "title": "The G.I. and the Paperback: A World War II Love Story",
    "url": "https://warontherocks.com/the-g-i-and-the-paperback-a-world-war-ii-love-story/",
    "published": "2026-11-04T08:30:26+00:00",
@@ -1974,26 +2094,6 @@
    ]
   },
   {
-   "title": "KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
-   "url": "https://arxiv.org/abs/2611.06138v1",
-   "published": "2026-11-04T08:22:37+00:00",
-   "preview": "Modern LLM serving systems manage the KV cache through PagedAttention, a custom GPU allocator that partitions a single CUDA-allocated region into fixed-size physical blocks and maps each request to those blocks through…",
-   "id": "b28d50546332",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "A Post-Quantum Interactive Hashing Theorem",
-   "url": "https://arxiv.org/abs/2611.06124v1",
-   "published": "2026-11-04T08:08:32+00:00",
-   "preview": "Interactive hashing, introduced by Ostrovsky, Venkatesan, and Yung [OVY93], is a building block in many cryptographic protocols, including perfectly hiding commitments from one-way permutations [NOVY92]. Its…",
-   "id": "cd6543cfc91d",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
    "title": "A thousand fewer paths to root",
    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
    "published": "2026-11-04T08:00:00+00:00",
@@ -2001,26 +2101,6 @@
    "id": "a4f4c423c542",
    "source": "openai-news",
    "fetched": "2026-11-04T23:45:17+00:00",
-   "countries": []
-  },
-  {
-   "title": "SenTrojan: Revealing Analog Hardware Trojan Attacks on Sensors",
-   "url": "https://arxiv.org/abs/2611.06103v1",
-   "published": "2026-11-04T07:45:46+00:00",
-   "preview": "Sensors bridge the physical and digital worlds, making their integrity critical to cyber-physical system security. Existing sensor attacks largely exploit unintended and sensor-specific physical vulnerabilities,…",
-   "id": "eb99e16cc2a8",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Reconciling Privacy with Provenance for Language Model Watermarks",
-   "url": "https://arxiv.org/abs/2611.06100v1",
-   "published": "2026-11-04T07:45:02+00:00",
-   "preview": "Watermarking has great potential for regulating the use of language models (LMs), but its deployment has been marred by controversy, as many users argue that fine-grained tracking of LM usage violates their privacy.…",
-   "id": "76e1a533c8ad",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-05T04:18:25+00:00",
    "countries": []
   },
   {
@@ -2342,16 +2422,6 @@
    "countries": []
   },
   {
-   "title": "Quantum Advantage has Few Complexity Implications",
-   "url": "https://arxiv.org/abs/2611.05303v1",
-   "published": "2026-11-03T18:14:46+00:00",
-   "preview": "We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation. We show that both of these objects can coexist with the easiness of nondeterministic computation. That…",
-   "id": "387b9ff4785e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
-   "countries": []
-  },
-  {
    "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
    "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
    "published": "2026-11-03T18:00:00+00:00",
@@ -2399,16 +2469,6 @@
    "id": "bc4177032a04",
    "source": "hugging-face-blog",
    "fetched": "2026-11-03T18:18:15+00:00",
-   "countries": []
-  },
-  {
-   "title": "Information Loss Is All You Need: $TC^0$ Pseudorandomness from Worst-Case Lattices",
-   "url": "https://arxiv.org/abs/2611.05136v1",
-   "published": "2026-11-03T16:17:39+00:00",
-   "preview": "Can deterministic information loss yield post-quantum pseudorandomness with $TC^0$ evaluation? We show that deterministic rounding achieves this under quantum worst-case lattice hardness, with fixed polynomial…",
-   "id": "5952b5aafa6e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
    "countries": []
   },
   {
@@ -2464,16 +2524,6 @@
    "countries": []
   },
   {
-   "title": "The Power of Interaction in Locally Edge-Private Subgraph Counting",
-   "url": "https://arxiv.org/abs/2611.05038v1",
-   "published": "2026-11-03T15:10:09+00:00",
-   "preview": "We study (non-induced) subgraph counting under interactive local edge differential privacy (LEDP). Given a fixed pattern graph $H$ with $k$ vertices, $\\ell\\ge1$ edges, and $q$ connected components, our goal is to…",
-   "id": "15cbf4736079",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
-   "countries": []
-  },
-  {
    "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
    "published": "2026-11-03T15:00:44+00:00",
@@ -2494,16 +2544,6 @@
    "countries": []
   },
   {
-   "title": "Residual Attribute Leakage Is an Interface: Auditing Privacy Evaluation After Text De-identification",
-   "url": "https://arxiv.org/abs/2611.04941v1",
-   "published": "2026-11-03T14:08:34+00:00",
-   "preview": "A privacy evaluation of de-identified text asks a language model (the adversary) to guess a person's protected attribute. We introduce a prior-normalised clipped leakage score of its confidence gain on the true value…",
-   "id": "899eb742ecc3",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
-   "countries": []
-  },
-  {
    "title": "What we're watching on election night for energy",
    "url": "https://www.axios.com/2026/11/03/election-night-midterms-energy",
    "published": "2026-11-03T13:38:23+00:00",
@@ -2511,26 +2551,6 @@
    "id": "d3bbfb8b554c",
    "source": "axios-technology",
    "fetched": "2026-11-03T14:18:56+00:00",
-   "countries": []
-  },
-  {
-   "title": "Leakage-Resilient Computation via Matrix Refreshing",
-   "url": "https://arxiv.org/abs/2611.04876v1",
-   "published": "2026-11-03T13:27:56+00:00",
-   "preview": "Leakage-resilient cryptography protects secrets against side-channel attacks, in which a physical implementation reveals partial information about its internal state. A fundamental primitive in this area is a…",
-   "id": "823f7e2b4284",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Extracting System Prompt of LLM Services in Complex (Agentic) Settings: Hierarchical Optimization and Reliable Evaluation Metrics",
-   "url": "https://arxiv.org/abs/2611.04803v1",
-   "published": "2026-11-03T12:37:01+00:00",
-   "preview": "System prompt is a critical intellectual property of large language model (LLM) services. To analyze its leakage, prompt extraction attacks have been extensively studied. However, we validate that existing attacks…",
-   "id": "ae96927e5df3",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-04T06:18:19+00:00",
    "countries": []
   },
   {
@@ -4657,16 +4677,6 @@
    "published": "2026-10-27T05:50:57+00:00",
    "preview": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, images and video once, then returns probabilities for every answer, scoring 87.2 on the team’s SR-Text test. The post…",
    "id": "765ebcaca332",
-   "source": "marktechpost",
-   "fetched": "2026-10-27T07:58:53+00:00",
-   "countries": []
-  },
-  {
-   "title": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
-   "url": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
-   "published": "2026-10-27T05:26:36+00:00",
-   "preview": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench The…",
-   "id": "5c1b76973ac2",
    "source": "marktechpost",
    "fetched": "2026-10-27T07:58:53+00:00",
    "countries": []
