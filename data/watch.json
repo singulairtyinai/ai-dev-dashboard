@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-06T06:17:55+00:00",
+  "checked_at": "2026-11-06T06:57:35+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-06T06:17:57+00:00",
+  "checked_at": "2026-11-06T06:57:36+00:00",
   "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -53,7 +53,7 @@
   "added": []
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-06T06:17:57+00:00",
+  "checked_at": "2026-11-06T06:57:36+00:00",
   "hash": "264c5b5dfc7239134f65c9288ea5ad2194d793c6",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +86,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-06T06:17:57+00:00",
+  "checked_at": "2026-11-06T06:57:37+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +100,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-06T06:17:59+00:00",
+  "checked_at": "2026-11-06T06:57:39+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,9 +117,10 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-06T06:17:58+00:00",
-  "hash": "9e8f38b90618c93d064e3d9f45db464be507a788",
+  "checked_at": "2026-11-06T06:57:38+00:00",
+  "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
+   "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
@@ -128,7 +129,6 @@
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "Munitions Procurement and the Fiscal Year 2027 Defense Budget",
-   "Reigniting War With Iran Would Be a ‘Huge Gamble’",
    "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That.",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "U.S. Starts at ‘Basically Zero’ in Building Cheap Military Drones",
@@ -136,20 +136,24 @@
    "View All Articles & Multimedia",
    "What's a Revolution in Military Affairs Good For?"
   ],
-  "changed_at": "2026-11-06T06:17:58+00:00",
+  "changed_at": "2026-11-06T06:57:38+00:00",
   "added": [
    {
-    "text": "Reigniting War With Iran Would Be a ‘Huge Gamble’",
+    "text": "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-06T06:17:59+00:00",
-  "hash": "17f132a611c81737527f187c40f40d4d26475e51",
+  "checked_at": "2026-11-06T06:57:39+00:00",
+  "hash": "bc9bdd7ae00a20e828427b0552aa4bf779b30e2e",
   "known": [
    "Carnegie Mellon University",
+   "Chinese University of Hong Kong, Shenzhen",
+   "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
    "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+   "EvoMemState: Evolving Memory State for Personal Agents",
+   "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
    "Future Representation Distillation for Imagination-free World Action Models",
    "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
    "Identically Trained Language Models Break on Different Jailbreaks",
@@ -158,42 +162,39 @@
    "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
    "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
    "Shanghai JiaoTong University",
+   "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
    "Towards Foundation Decision Models: Drex",
    "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
    "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
    "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-06T06:17:59+00:00",
+  "changed_at": "2026-11-06T06:57:39+00:00",
   "added": [
    {
-    "text": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "text": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Shanghai JiaoTong University",
-    "url": "https://huggingface.co/SJUT1"
-   },
-   {
-    "text": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "text": "EvoMemState: Evolving Memory State for Personal Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+    "text": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+    "text": "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
-    "url": "https://huggingface.co/papers"
+    "text": "Chinese University of Hong Kong, Shenzhen",
+    "url": "https://huggingface.co/CUHKSZ"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-06T06:18:01+00:00",
+  "checked_at": "2026-11-06T06:57:43+00:00",
   "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
@@ -224,7 +225,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-06T06:18:03+00:00",
+  "checked_at": "2026-11-06T06:57:45+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -322,7 +323,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-06T06:18:01+00:00",
+  "checked_at": "2026-11-06T06:57:43+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
