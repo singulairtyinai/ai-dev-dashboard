@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-06T12:20:53+00:00",
+  "checked_at": "2026-11-06T14:19:12+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,8 +17,8 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-06T12:20:54+00:00",
-  "hash": "65a35e255d7b37d76b1c396ba2336690693be001",
+  "checked_at": "2026-11-06T14:19:13+00:00",
+  "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
    "AI Compute AI computing capacities and their environmental impact.",
@@ -41,6 +41,7 @@
    "OECD AI Incidents Monitor (AIM)",
    "OECD AI Principles The first IGO standard to promote innovative and trustworthy AI",
    "OECD Catalogue of Tools & Metrics for Trustworthy AI",
+   "OECD.AI Index The OECD.AI Index assesses countries' progress in implementing the OECD Recommendation on AI",
    "Papers & Publications OECD and GPAI publications on AI, including the OECD AI Papers Series.",
    "Partners OECD.AI works closely with many partners.",
    "Policies, data and analysis for trustworthy artificial intelligence",
@@ -49,11 +50,16 @@
    "Videos Watch videos about AI policy the issues that matter most.",
    "WIPS Programme on Work, Innovation, Productivity and Skills in AI."
   ],
-  "changed_at": null,
-  "added": []
+  "changed_at": "2026-11-06T14:19:13+00:00",
+  "added": [
+   {
+    "text": "OECD.AI Index The OECD.AI Index assesses countries' progress in implementing the OECD Recommendation on AI",
+    "url": "https://oecd.ai/en/ai-index"
+   }
+  ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-06T12:20:54+00:00",
+  "checked_at": "2026-11-06T14:19:13+00:00",
   "hash": "264c5b5dfc7239134f65c9288ea5ad2194d793c6",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -86,7 +92,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-06T12:20:54+00:00",
+  "checked_at": "2026-11-06T14:19:14+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -100,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-06T12:20:56+00:00",
+  "checked_at": "2026-11-06T14:19:16+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -117,9 +123,10 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-06T12:20:55+00:00",
-  "hash": "9e8f38b90618c93d064e3d9f45db464be507a788",
+  "checked_at": "2026-11-06T14:19:15+00:00",
+  "hash": "6a0bc100cee096b91209a2d565c8d4043634359c",
   "known": [
+   "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "Charting the New Nuclear Age",
    "Commanding the Air: the Future of Airborne Battle Management",
@@ -128,7 +135,6 @@
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "Munitions Procurement and the Fiscal Year 2027 Defense Budget",
-   "Reigniting War With Iran Would Be a ‘Huge Gamble’",
    "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That.",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "U.S. Starts at ‘Basically Zero’ in Building Cheap Military Drones",
@@ -136,17 +142,17 @@
    "View All Articles & Multimedia",
    "What's a Revolution in Military Affairs Good For?"
   ],
-  "changed_at": "2026-11-06T12:20:55+00:00",
+  "changed_at": "2026-11-06T14:19:15+00:00",
   "added": [
    {
-    "text": "Reigniting War With Iran Would Be a ‘Huge Gamble’",
+    "text": "Air Force Launches Next Phase of Hypersonic Missile Program With $694M Contract Award for ARRW",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-06T12:20:56+00:00",
-  "hash": "75da11c0adde9508995f3dce5514e8fc9c714d8f",
+  "checked_at": "2026-11-06T14:19:17+00:00",
+  "hash": "58c4717722443624ac8bf8a710d9be38c70d29d0",
   "known": [
    "Carnegie Mellon University",
    "Chinese University of Hong Kong, Shenzhen",
@@ -160,10 +166,12 @@
    "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
    "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
    "Identically Trained Language Models Break on Different Jailbreaks",
+   "NLP & AI - Korea University",
    "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
    "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
    "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
    "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+   "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
    "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
    "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
    "Seoul National University",
@@ -177,24 +185,20 @@
    "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-06T12:20:56+00:00",
+  "changed_at": "2026-11-06T14:19:17+00:00",
   "added": [
    {
-    "text": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+    "text": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
-    "url": "https://huggingface.co/papers"
+    "text": "NLP & AI - Korea University",
+    "url": "https://huggingface.co/nlpai-lab"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-06T12:20:58+00:00",
+  "checked_at": "2026-11-06T14:19:20+00:00",
   "hash": "d6689c217f1b454ad4492f570e886b41e95dd085",
   "known": [
    "AI and human rights for youth",
@@ -225,7 +229,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-06T12:20:59+00:00",
+  "checked_at": "2026-11-06T14:19:22+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -323,7 +327,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-06T12:20:57+00:00",
+  "checked_at": "2026-11-06T14:19:20+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
