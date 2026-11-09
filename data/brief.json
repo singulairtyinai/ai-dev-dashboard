@@ -1,47 +1,34 @@
 {
- "generated_at": "2026-11-08T05:55:00+00:00",
+ "generated_at": "2026-11-09T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Nvidia CEO Jensen Huang now faces a formal congressional investigation over alleged ties to a Chinese spy, as reports found the US let Nvidia sell advanced chips to an empty office in China and researchers grew alarmed at Anthropic's accelerating AI R&D automation.",
+ "headline": "Nvidia CEO Jensen Huang admitted to a relationship with a suspected Chinese spy as the company's board opened an investigation and Trump defended him, while ChinaTalk argued the AI-driven 'cyberpocalypse' might hit China harder and Freedom House charted 'seismic shifts' on the global internet.",
  "points": [
   {
-   "text": "Nvidia CEO Jensen Huang faces increasing congressional scrutiny, with lawmakers saying Congress will investigate after reports he had a romantic relationship with a purported Chinese spy.",
+   "text": "Nvidia CEO Jensen Huang admitted to a romantic relationship with Alice Huang, an AI executive reportedly recruited by China's Ministry of State Security to spy on him; Nvidia's board launched an independent investigation, and President Trump defended Huang over the weekend.",
    "cats": ["geo"],
-   "item_ids": ["3db08aefcfb9"]
+   "item_ids": ["49d818d3e602", "ecd65815b585", "67abd93f196f", "bbfb5a98aa5d"]
   },
   {
-   "text": "The New York Times reported concerns that neither the Commerce Department nor Nvidia did proper due diligence before the US let Nvidia sell advanced H200 AI chips to an empty office in China.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["73be1ddc7ff2"]
+   "text": "ChinaTalk examined why the 'cyberpocalypse' sparked by AI-discovered PHP vulnerabilities might hit China harder than the US.",
+   "cats": ["geo", "risk"],
+   "item_ids": ["43096218ba16"]
   },
   {
-   "text": "SemiAnalysis visited a wind-powered 800MW data center campus in Inner Mongolia, part of what it called China's 'Stargate.'",
-   "cats": ["hw", "geo"],
-   "item_ids": ["881c7e199684"]
-  },
-  {
-   "text": "Cognition's chief security officer Alex Stamos discussed how AI has upended cybersecurity and what comes next, in the first part of a Verge series on AI and security.",
-   "cats": ["risk"],
-   "item_ids": ["055e03fe8fc4"]
-  },
-  {
-   "text": "Researchers grew alarmed at a report showing Anthropic is using AI to automate its own AI development, with its models improving roughly twice as fast as a year ago and little sign of slowing.",
-   "cats": ["risk"],
-   "item_ids": ["8879475e62b3"]
+   "text": "Tech Policy Press covered Freedom House's annual Freedom on the Net report, which found 'seismic shifts' affecting the global internet.",
+   "cats": ["gov"],
+   "item_ids": ["8c3493a2a89c"]
   }
  ],
  "categories": {
   "geo": [
-   "Nvidia CEO Jensen Huang now faces a formal congressional investigation.",
-   "The US reportedly let Nvidia sell H200 chips to an empty office in China.",
-   "SemiAnalysis visited China's 'Stargate' data center campus in Inner Mongolia."
-  ],
-  "hw": [
-   "The US reportedly let Nvidia sell H200 chips to an empty office in China.",
-   "SemiAnalysis visited China's 'Stargate' data center campus in Inner Mongolia."
+   "Nvidia CEO Jensen Huang admitted a relationship with a suspected Chinese spy as the board investigates and Trump defends him.",
+   "ChinaTalk argued the AI-driven cyberpocalypse might hit China harder than the US."
   ],
   "risk": [
-   "Cognition's CSO discussed how AI has upended cybersecurity.",
-   "Researchers grew alarmed at Anthropic's accelerating AI R&D automation."
+   "ChinaTalk argued the AI-driven cyberpocalypse might hit China harder than the US."
+  ],
+  "gov": [
+   "Freedom House charted 'seismic shifts' on the global internet."
   ]
  }
 }
