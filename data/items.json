@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T02:18:25+00:00",
+ "updated": "2026-11-09T04:18:21+00:00",
  "items": [
   {
    "title": "Trump backs Nvidia's Huang amid affair, spy investigation",
@@ -570,6 +570,156 @@
    "countries": [
     "United States"
    ]
+  },
+  {
+   "title": "LEMMO: A Large Electromagnetic Model leveraging Pretrained LLMs for Million-Sample Signal Understanding",
+   "url": "https://arxiv.org/abs/2611.09476v1",
+   "published": "2026-11-06T13:56:33+00:00",
+   "preview": "Large language models have expanded beyond text to vision, audio, and other modalities, but understanding raw electromagnetic (EM) signals remains challenging. Wideband recordings can contain millions of samples,…",
+   "id": "7bffc25e8b2d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "ENGRAM: From Agent Experience to Weights through Verified Consolidation",
+   "url": "https://arxiv.org/abs/2611.09472v1",
+   "published": "2026-11-06T13:51:02+00:00",
+   "preview": "Language-model agents use experience through external retrieval and parameter learning. Consolidating stored experience into model weights requires deciding both which experience to train on and when its external…",
+   "id": "a754ca954355",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation",
+   "url": "https://arxiv.org/abs/2611.09457v1",
+   "published": "2026-11-06T13:28:18+00:00",
+   "preview": "Large language models (LLMs) are increasingly used to annotate social-science texts, but high accuracy does not establish that they apply researcher-supplied category definitions: predictions may instead reflect prior…",
+   "id": "a0367bad6ec1",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "From LoRA to Language: Recovering Skill Documents from Adapters",
+   "url": "https://arxiv.org/abs/2611.09454v1",
+   "published": "2026-11-06T13:26:43+00:00",
+   "preview": "Agent skills are short documents that teach a language model how to handle a class of tasks. To save context, these documents are increasingly compiled into low-rank adapters (LoRA), which keep the behaviour but lose…",
+   "id": "e18091739509",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Not All Entropy Is Equal: Reward-Conditioned Entropy Allocation in Reinforcement Learning with Verifiable Rewards",
+   "url": "https://arxiv.org/abs/2611.09448v1",
+   "published": "2026-11-06T13:22:42+00:00",
+   "preview": "Policy entropy is widely used to diagnose exploration and collapse in reinforcement learning with verifiable rewards (RLVR), yet its magnitude does not consistently track reasoning performance across optimization…",
+   "id": "ce5142669808",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Logit Laundering: Evading Data-Use Auditing in Large Language Models",
+   "url": "https://arxiv.org/abs/2611.09446v1",
+   "published": "2026-11-06T13:20:30+00:00",
+   "preview": "Data-use auditing in Large Language Models (LLMs) aims to determine whether the given data has been used for training, thereby supporting data ownership safeguards. A dominant solution is data watermarking, which embeds…",
+   "id": "ef4096955370",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning",
+   "url": "https://arxiv.org/abs/2611.09433v1",
+   "published": "2026-11-06T13:04:30+00:00",
+   "preview": "Ensuring high returns while providing strong safety guarantees in offline imitation learning (IL) is a fundamental challenge: existing approaches either rely on explicitly specified cost functions, which are difficult…",
+   "id": "1b251fc2c99d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation",
+   "url": "https://arxiv.org/abs/2611.09423v1",
+   "published": "2026-11-06T12:51:18+00:00",
+   "preview": "In the healthcare sector, claim denials impose significant financial and administrative burdens, emphasizing the need for automated and trustworthy decision-support systems. This paper proposes a modular Agentic…",
+   "id": "24ab5fee0254",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Typed-Centrality Grounding for Agentic GraphRAG: A Symbolic Approach for Agentic Reasoning",
+   "url": "https://arxiv.org/abs/2611.09414v1",
+   "published": "2026-11-06T12:45:23+00:00",
+   "preview": "Knowledge Graphs (KGs) and Large Language Models (LLMs) represent two approaches for knowledge representation and reasoning over heterogeneous data. Recent research has explored their integration through Graph…",
+   "id": "5162215b07d0",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "SmartBloch-Agent: An Agentic Framework for Automated MRI Sequence Design and Optimization",
+   "url": "https://arxiv.org/abs/2611.09413v1",
+   "published": "2026-11-06T12:44:55+00:00",
+   "preview": "Magnetic resonance imaging (MRI) pulse sequences organize radiofrequency excitation, gradient encoding, and signal acquisition, determining magnetization evolution and image formation. Sequence research requires…",
+   "id": "3e1e96051ce5",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "MIRA: Mitigating Pole Geometry Bias in Recurrent Language Models",
+   "url": "https://arxiv.org/abs/2611.09412v1",
+   "published": "2026-11-06T12:44:53+00:00",
+   "preview": "We show that the Transformer's recurrent successors --- such as selective state-space models (SSMs), Receptance Weighted Key Value (RWKV), and Retentive Network (RetNet) --- can be characterized as…",
+   "id": "b12c3f5d3c1d",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "DataHelix: A CPU-GPU Co-Scheduling Data Plane for Multimodal Model Training",
+   "url": "https://arxiv.org/abs/2611.09411v1",
+   "published": "2026-11-06T12:43:45+00:00",
+   "preview": "Multimodal model training breaks the loose coupling between data loading and model execution assumed by conventional training pipelines. Large per-sample variation in decoding cost, token/latent count, and tensor size…",
+   "id": "ade3c12ae8e3",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "ROAM: Retrieval-Augmented Optimization for Feasible Multi-Day Itinerary Planning",
+   "url": "https://arxiv.org/abs/2611.09407v1",
+   "published": "2026-11-06T12:42:23+00:00",
+   "preview": "Large language models (LLMs) can draft plausible travel itineraries, but the plans they produce are frequently infeasible: attractions are grouped into days without regard for geography, opening hours are ignored, and a…",
+   "id": "211442fb98df",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "PhyCAD: Physics-Aware Text-to-CAD Generation via Hierarchical Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.09401v1",
+   "published": "2026-11-06T12:35:41+00:00",
+   "preview": "Language-driven computer-aided design (CAD) generation enables the creation of editable parametric models from text, yet geometric correctness alone does not ensure physical feasibility. We present PhyCAD, a framework…",
+   "id": "5cf8598ba74a",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
+  },
+  {
+   "title": "Artificial Shoppers and Attention Competition",
+   "url": "https://arxiv.org/abs/2611.09399v1",
+   "published": "2026-11-06T12:34:40+00:00",
+   "preview": "We study how AI shopping interfaces affect price competition, platform profit, and consumer welfare. A platform hosts two of three products of different quality. Without AI, consumers compare the hosted pair under…",
+   "id": "2d3a6be19a8e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-09T04:18:21+00:00",
+   "countries": []
   },
   {
    "title": "How AI is enabling faster, more dangerous cyber warfare",
@@ -2144,16 +2294,6 @@
    "countries": []
   },
   {
-   "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
-   "url": "https://arxiv.org/abs/2611.06837v1",
-   "published": "2026-11-04T17:53:52+00:00",
-   "preview": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one…",
-   "id": "20d4fa453f3d",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T06:18:19+00:00",
-   "countries": []
-  },
-  {
    "title": "LooM: Loop-Invariant Memory for Causal Encoder-Decoder Language Models",
    "url": "https://arxiv.org/abs/2611.06835v1",
    "published": "2026-11-04T17:52:11+00:00",
@@ -2171,26 +2311,6 @@
    "id": "5afc49da7bd4",
    "source": "hugging-face-blog",
    "fetched": "2026-11-04T18:03:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
-   "url": "https://arxiv.org/abs/2611.06829v1",
-   "published": "2026-11-04T17:44:04+00:00",
-   "preview": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the…",
-   "id": "21a3fbfd47df",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T06:18:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
-   "url": "https://arxiv.org/abs/2611.06827v1",
-   "published": "2026-11-04T17:41:09+00:00",
-   "preview": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on…",
-   "id": "e52c93361910",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T06:18:19+00:00",
    "countries": []
   },
   {
@@ -2220,26 +2340,6 @@
    "preview": "Psychological harms from interactions with large language models cannot be monitored directly because they may emerge over repeated interactions and depend strongly on subjective individual user context. We propose…",
    "id": "3c2b32322d7e",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-11-05T06:18:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Task-Efficient Agent Evaluation Using Cached Traces",
-   "url": "https://arxiv.org/abs/2611.06803v1",
-   "published": "2026-11-04T17:20:09+00:00",
-   "preview": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of…",
-   "id": "962f0a8900e8",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T06:18:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "Message-passing graph persistence",
-   "url": "https://arxiv.org/abs/2611.06801v1",
-   "published": "2026-11-04T17:18:34+00:00",
-   "preview": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN…",
-   "id": "e99dc10310d0",
-   "source": "arxiv-cs-ai",
    "fetched": "2026-11-05T06:18:19+00:00",
    "countries": []
   },
@@ -2809,16 +2909,6 @@
    "countries": []
   },
   {
-   "title": "Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination",
-   "url": "https://arxiv.org/abs/2611.05953v1",
-   "published": "2026-11-04T04:47:38+00:00",
-   "preview": "Graphs play an increasingly important role in large language model (LLM) systems, supporting structural reasoning, knowledge grounding, retrieval, and memory. As these systems evolve toward the agentic era, graphs also…",
-   "id": "4936994f741b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
    "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
    "url": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
    "published": "2026-11-04T04:39:27+00:00",
@@ -2826,96 +2916,6 @@
    "id": "8c4cd4032a6a",
    "source": "marktechpost",
    "fetched": "2026-11-04T06:18:19+00:00",
-   "countries": []
-  },
-  {
-   "title": "BAM: Bivariate Additive Models for Interpretable Tabular Prediction",
-   "url": "https://arxiv.org/abs/2611.05940v1",
-   "published": "2026-11-04T04:28:59+00:00",
-   "preview": "Generalized Additive Models with pairwise interactions (GA$^2$Ms) are regarded as glass-box models, since each pairwise shape function can be visualized as a contour plot. In practice, the shape functions learned by…",
-   "id": "31fccc7163c0",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Deep Meets Classical: A CPU-Efficient Decision-Fusion Model for Automatic Modulation Classification",
-   "url": "https://arxiv.org/abs/2611.05937v1",
-   "published": "2026-11-04T04:25:29+00:00",
-   "preview": "Automatic modulation classification (AMC) underpins spectrum sensing and non-cooperative signal identification in cognitive radio, yet the two standard CPU-feasible approaches to it, a compact convolutional neural…",
-   "id": "a67eb513d4a1",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Split-KV: Efficient Context Parallelism for Training Diffusion Drafters",
-   "url": "https://arxiv.org/abs/2611.05926v1",
-   "published": "2026-11-04T04:16:46+00:00",
-   "preview": "Diffusion drafters accelerate speculative decoding by denoising multiple draft tokens in parallel. Their training uses anchor sampling to construct compact draft queries and performs cross-attention with a block-sparse…",
-   "id": "4a36aaf2f494",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Routes of Reasoning: Reading and Reshaping Test-Time Compute in MoE Models",
-   "url": "https://arxiv.org/abs/2611.05919v1",
-   "published": "2026-11-04T04:13:02+00:00",
-   "preview": "Reasoning models allocate test-time compute across distinct behaviors such as planning, deriving, and verifying. However, models frequently \"overthink,\" continuing to verify and re-derive long after finding a correct…",
-   "id": "edd446c6eed9",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Autonomous ETL Pipelines for Salesforce M&A Consolidation: A Reference Framework, Jitterbit Mapping, and Reproducible Simulation Study",
-   "url": "https://arxiv.org/abs/2611.05918v1",
-   "published": "2026-11-04T04:12:38+00:00",
-   "preview": "Merging companies that each run Salesforce must consolidate their customer data into a single organization while both source systems remain in use. This requires reconciling different schemas and picklists, resolving…",
-   "id": "7984c72913e0",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Autonomous agents for electricity-system planning",
-   "url": "https://arxiv.org/abs/2611.05911v1",
-   "published": "2026-11-04T04:01:54+00:00",
-   "preview": "Planning electricity systems requires repeated decisions that connect regional resources, investment, operation and network constraints. Here we present an autonomous planning framework that carries prepared regional…",
-   "id": "7e62ac14ecf1",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Do Saliency Maps Fail Dense Breasts? A Chance-Normalized, Confounder-Aware Audit of Explanation Fairness in Mammography",
-   "url": "https://arxiv.org/abs/2611.05909v1",
-   "published": "2026-11-04T04:01:32+00:00",
-   "preview": "Saliency maps, offered as evidence that mammography classifiers use the cancer, are untested in dense breasts, which can hide cancers. We tested whether they locate cancers worse there, and why. On 1,345 malignant…",
-   "id": "255c09d96e00",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Does Your Trial Simulator Know What the Drug Does? An Intervention-Blind Test of Interventional Validity on 7,207 Registered Trials",
-   "url": "https://arxiv.org/abs/2611.05907v1",
-   "published": "2026-11-04T03:59:15+00:00",
-   "preview": "Patient world models are increasingly proposed as simulators of clinical trials, and recent surveys rank their capabilities on a ladder from temporal prediction to counterfactual rollouts. Position on that ladder is…",
-   "id": "63b02551fccf",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism",
-   "url": "https://arxiv.org/abs/2611.05906v1",
-   "published": "2026-11-04T03:57:56+00:00",
-   "preview": "As sequence lengths continue to grow, distributed attention based on sequence parallel (e.g., Ring-Attention) has become a mainstream solution for large language models (LLMs). Nevertheless, inherent communication…",
-   "id": "c332b9277eb5",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-05T04:18:25+00:00",
    "countries": []
   },
   {
