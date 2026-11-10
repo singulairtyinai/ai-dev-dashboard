@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-10T12:44:34+00:00",
+  "checked_at": "2026-11-10T14:22:39+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-10T12:44:35+00:00",
+  "checked_at": "2026-11-10T14:22:40+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-10T12:44:35+00:00",
+  "checked_at": "2026-11-10T14:22:41+00:00",
   "hash": "63e838c8eeb5b5324a491727e21f83dc54a069c4",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -92,7 +92,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-10T12:44:36+00:00",
+  "checked_at": "2026-11-10T14:22:41+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -106,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-10T12:44:38+00:00",
+  "checked_at": "2026-11-10T14:22:43+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-10T12:44:37+00:00",
+  "checked_at": "2026-11-10T14:22:42+00:00",
   "hash": "00709138547395d468e342af485e55b96f0a1864",
   "known": [
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
@@ -160,11 +160,13 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-10T12:44:38+00:00",
-  "hash": "52721d98f620bb4745344b780f92a6e0468a6024",
+  "checked_at": "2026-11-10T14:22:44+00:00",
+  "hash": "059890fd1bdd9ab6244f7643da0210448964f599",
   "known": [
    "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+   "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
    "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+   "Energy-Tweedie: Score meets Score, Energy meets Energy",
    "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
    "Flide: Accelerating Decision Inference with Exact State Forking",
    "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
@@ -175,14 +177,19 @@
    "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
    "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
    "King Abdullah University of Science and Technology",
+   "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
+   "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
    "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+   "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
    "Nanyang Technological University",
    "National University of Singapore",
    "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
    "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
    "ReproBridge: Building Reproducibility into ML Research Artifacts",
    "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
+   "SWAM: Scaling World Action Models with Cross-Modal Alignment",
    "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+   "Shanghai Jiao Tong University",
    "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
    "Spatial Harness: Grounding Spatial Reasoning in Executable World States with Physics Engines",
    "Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition",
@@ -193,20 +200,36 @@
    "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-10T12:22:30+00:00",
+  "changed_at": "2026-11-10T14:22:44+00:00",
   "added": [
    {
-    "text": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
+    "text": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+    "text": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Shanghai Jiao Tong University",
+    "url": "https://huggingface.co/SJTU"
+   },
+   {
+    "text": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-10T12:44:42+00:00",
+  "checked_at": "2026-11-10T14:22:47+00:00",
   "hash": "4f0f0f59f571e61685aeb316b8c15d2b71034d10",
   "known": [
    "AI and human rights for youth",
@@ -237,7 +260,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-10T12:44:43+00:00",
+  "checked_at": "2026-11-10T14:22:49+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -335,7 +358,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-10T12:44:42+00:00",
+  "checked_at": "2026-11-10T14:22:47+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
