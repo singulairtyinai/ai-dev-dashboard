@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-10T18:17:51+00:00",
+  "checked_at": "2026-11-10T20:18:58+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-10T18:17:52+00:00",
+  "checked_at": "2026-11-10T20:18:58+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-10T18:17:52+00:00",
+  "checked_at": "2026-11-10T20:18:59+00:00",
   "hash": "63e838c8eeb5b5324a491727e21f83dc54a069c4",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -92,7 +92,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-10T18:17:53+00:00",
+  "checked_at": "2026-11-10T20:18:59+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -106,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-10T18:17:55+00:00",
+  "checked_at": "2026-11-10T20:19:01+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-10T18:17:54+00:00",
+  "checked_at": "2026-11-10T20:19:00+00:00",
   "hash": "0197cd574e8fdbedf63a568f20906832dc8e7239",
   "known": [
    "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
@@ -152,8 +152,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-10T18:17:54+00:00",
-  "hash": "7807f075c0221fbcb5c9329d378dc252b62f8a8c",
+  "checked_at": "2026-11-10T20:19:02+00:00",
+  "hash": "94eaed3c9ae3e3eb4fbc72c8976e86d0ea1718d6",
   "known": [
    "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
    "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
@@ -164,6 +164,7 @@
    "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
    "Flide: Accelerating Decision Inference with Exact State Forking",
    "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+   "FraudBench: A Legal Evaluation of AI Deception",
    "Horizon-Scalable Q-Learning",
    "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
    "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
@@ -180,6 +181,7 @@
    "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
    "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
    "ReproBridge: Building Reproducibility into ML Research Artifacts",
+   "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
    "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
    "SWAM: Scaling World Action Models with Cross-Modal Alignment",
    "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
@@ -192,18 +194,27 @@
    "University of Technology Sydney",
    "University of Texas at Austin",
    "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-   "by AK and the research community"
+   "by AK and the research community",
+   "onóna: Twin Embeddings with Tied Unembeddings"
   ],
-  "changed_at": "2026-11-10T18:17:54+00:00",
+  "changed_at": "2026-11-10T20:19:02+00:00",
   "added": [
    {
-    "text": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
+    "text": "onóna: Twin Embeddings with Tied Unembeddings",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "FraudBench: A Legal Evaluation of AI Deception",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-10T18:17:58+00:00",
+  "checked_at": "2026-11-10T20:19:04+00:00",
   "hash": "cb34f04eca3e77f42593aa5d6cd1406e1bd00cec",
   "known": [
    "AI and human rights for youth",
@@ -234,7 +245,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-10T18:17:59+00:00",
+  "checked_at": "2026-11-10T20:19:05+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -332,7 +343,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-10T18:17:58+00:00",
+  "checked_at": "2026-11-10T20:19:04+00:00",
   "hash": "ca5ce656477dd092d170a58ed6cec34e6cb88b04",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
