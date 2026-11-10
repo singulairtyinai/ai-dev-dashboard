@@ -1,34 +1,58 @@
 {
- "generated_at": "2026-11-09T05:55:00+00:00",
+ "generated_at": "2026-11-10T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Nvidia CEO Jensen Huang admitted to a relationship with a suspected Chinese spy as the company's board opened an investigation and Trump defended him, while ChinaTalk argued the AI-driven 'cyberpocalypse' might hit China harder and Freedom House charted 'seismic shifts' on the global internet.",
+ "headline": "Trump addressed what he knew about Jensen Huang's affair with an alleged Chinese spy as calls grew for Huang to resign, while CSET mapped the US-China AGI race and METR's report pointed toward AI self-improvement by 2027.",
  "points": [
   {
-   "text": "Nvidia CEO Jensen Huang admitted to a romantic relationship with Alice Huang, an AI executive reportedly recruited by China's Ministry of State Security to spy on him; Nvidia's board launched an independent investigation, and President Trump defended Huang over the weekend.",
-   "cats": ["geo"],
-   "item_ids": ["49d818d3e602", "ecd65815b585", "67abd93f196f", "bbfb5a98aa5d"]
+   "text": "President Trump addressed what he knew about Jensen Huang's affair with an alleged Chinese spy, as Transformer argued Huang should resign for misleading investors and Axios reported Nvidia has no clear succession plan.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["fd48ce2874be", "792d96c56be2", "c6eeece9b0c9"]
   },
   {
-   "text": "ChinaTalk examined why the 'cyberpocalypse' sparked by AI-discovered PHP vulnerabilities might hit China harder than the US.",
-   "cats": ["geo", "risk"],
-   "item_ids": ["43096218ba16"]
+   "text": "CSET examined two distinct paths the US and China are taking toward artificial general intelligence, with the US leading in frontier models and compute while China pursues robotics, embodiment, and brain-inspired systems.",
+   "cats": ["geo", "hw"],
+   "item_ids": ["4b2972b6ca3d"]
   },
   {
-   "text": "Tech Policy Press covered Freedom House's annual Freedom on the Net report, which found 'seismic shifts' affecting the global internet.",
-   "cats": ["gov"],
-   "item_ids": ["8c3493a2a89c"]
+   "text": "IEEE Spectrum detailed efforts to build a 'Find My'-style tracking system for AI chips, after years of export-restricted US chips turning up in China anyway.",
+   "cats": ["hw", "geo"],
+   "item_ids": ["50ed2adfe967"]
+  },
+  {
+   "text": "In a 60 Minutes interview, Trump said AI safety risks are manageable and not as real as AI executives claim.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["67d134866a7d"]
+  },
+  {
+   "text": "An extensive METR report found AI R&D acceleration at Anthropic is pushing toward potential recursive self-improvement by 2027.",
+   "cats": ["risk"],
+   "item_ids": ["0b45da43bb2f"]
+  },
+  {
+   "text": "OpenAI launched 'Control Room,' a central system to track and rapidly stop model workloads across its research infrastructure if safety or security concerns arise.",
+   "cats": ["risk", "gov"],
+   "item_ids": ["f37b680abcf7"]
   }
  ],
  "categories": {
   "geo": [
-   "Nvidia CEO Jensen Huang admitted a relationship with a suspected Chinese spy as the board investigates and Trump defends him.",
-   "ChinaTalk argued the AI-driven cyberpocalypse might hit China harder than the US."
-  ],
-  "risk": [
-   "ChinaTalk argued the AI-driven cyberpocalypse might hit China harder than the US."
+   "Trump addressed what he knew about Jensen Huang's affair, as calls grew for Huang to resign.",
+   "CSET examined two paths the US and China are taking toward AGI.",
+   "A 'Find My' system is being built to track AI chips smuggled into China."
   ],
   "gov": [
-   "Freedom House charted 'seismic shifts' on the global internet."
+   "Trump addressed what he knew about Jensen Huang's affair, as calls grew for him to resign.",
+   "Trump said AI safety risks are manageable and not as real as executives claim.",
+   "OpenAI launched 'Control Room' to track and stop model workloads over safety concerns."
+  ],
+  "hw": [
+   "CSET examined two paths the US and China are taking toward AGI.",
+   "A 'Find My' system is being built to track AI chips smuggled into China."
+  ],
+  "risk": [
+   "Trump said AI safety risks are manageable.",
+   "METR's report found AI R&D accelerating toward potential self-improvement by 2027.",
+   "OpenAI launched 'Control Room' to track and stop model workloads over safety concerns."
   ]
  }
 }
