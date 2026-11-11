@@ -1,6 +1,68 @@
 {
- "updated": "2026-11-11T18:17:59+00:00",
+ "updated": "2026-11-11T22:18:28+00:00",
  "items": [
+  {
+   "title": "United won’t let your AI agent book your flight",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "published": "2026-11-11T21:54:21+00:00",
+   "preview": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The…",
+   "id": "33bddd1c4002",
+   "source": "the-verge-ai",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+   "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+   "published": "2026-11-11T21:21:42+00:00",
+   "preview": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M…",
+   "id": "faee25e7eeb0",
+   "source": "marktechpost",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
+   "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+   "published": "2026-11-11T20:59:02+00:00",
+   "preview": "President Trump on Thursday authorized a crack down on companies suspected of diverting Nvidia's advanced AI chips to China for the third time this year — even consulting Elon Musk before giving the go-ahead. One…",
+   "id": "e5b4239cdfca",
+   "source": "axios-technology",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+   "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+   "published": "2026-11-11T20:51:56+00:00",
+   "preview": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research. The post…",
+   "id": "89831e72483f",
+   "source": "marktechpost",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+   "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+   "published": "2026-11-11T19:55:54+00:00",
+   "preview": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+   "id": "6876cf9cc9e3",
+   "source": "wired-ai",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "🤕 Medicare's AI Experiment | EFFector 38.20",
+   "url": "https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820",
+   "published": "2026-11-11T18:32:37+00:00",
+   "preview": "When we need medical care, we expect decisions about our treatment to be made by our doctors, not a tech company's algorithm. But in January, the federal government launched a program that uses AI to evaluate Medicare…",
+   "id": "318c68caa58c",
+   "source": "eff-updates",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
+  },
   {
    "title": "Hugging Face appears to be hosting a load of models that could be used for cyber attacks",
    "url": "https://www.transformernews.ai/p/hugging-face-appears-to-be-hosting",
@@ -62,22 +124,22 @@
    "countries": []
   },
   {
-   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-   "published": "2026-11-11T16:00:00+00:00",
-   "preview": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-   "id": "97adab01dbf7",
-   "source": "google-ai-blog",
-   "fetched": "2026-11-11T16:18:34+00:00",
-   "countries": []
-  },
-  {
    "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
    "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
    "published": "2026-11-11T16:00:00+00:00",
    "preview": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with…",
    "id": "2d8f602ac5a8",
    "source": "the-verge-ai",
+   "fetched": "2026-11-11T16:18:34+00:00",
+   "countries": []
+  },
+  {
+   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+   "published": "2026-11-11T16:00:00+00:00",
+   "preview": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+   "id": "97adab01dbf7",
+   "source": "google-ai-blog",
    "fetched": "2026-11-11T16:18:34+00:00",
    "countries": []
   },
@@ -163,6 +225,19 @@
    "id": "58d6af41b088",
    "source": "cset",
    "fetched": "2026-11-11T14:19:53+00:00",
+   "countries": [
+    "China",
+    "United States"
+   ]
+  },
+  {
+   "title": "Spy scandal highlights contradictions at heart of Trump’s China policy",
+   "url": "https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/",
+   "published": "2026-11-11T12:00:00+00:00",
+   "preview": "CSET’s Sam Bresnick shared his expert insight in an article published by The Washington Post. The article examines how allegations of Chinese espionage involving Nvidia CEO Jensen Huang have raised questions about…",
+   "id": "f47b5cf188cb",
+   "source": "cset",
+   "fetched": "2026-11-11T22:18:28+00:00",
    "countries": [
     "China",
     "United States"
@@ -291,6 +366,16 @@
    "fetched": "2026-11-11T01:58:37+00:00",
    "countries": [],
    "event": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "published": "2026-11-11T00:00:00+00:00",
+   "preview": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "id": "8c999d6885d2",
+   "source": "openai-news",
+   "fetched": "2026-11-11T22:18:28+00:00",
+   "countries": []
   },
   {
    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
@@ -896,26 +981,6 @@
    "countries": []
   },
   {
-   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-   "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-   "published": "2026-11-10T14:00:00+00:00",
-   "preview": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-   "id": "c5fffc8a0cbd",
-   "source": "google-ai-blog",
-   "fetched": "2026-11-10T14:22:38+00:00",
-   "countries": []
-  },
-  {
-   "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-   "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-   "published": "2026-11-10T14:00:00+00:00",
-   "preview": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
-   "id": "dfd6684379dd",
-   "source": "wired-ai",
-   "fetched": "2026-11-10T14:22:38+00:00",
-   "countries": []
-  },
-  {
    "title": "Adobe is going all in on agentic AI",
    "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
    "published": "2026-11-10T14:00:00+00:00",
@@ -932,6 +997,26 @@
    "preview": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today…",
    "id": "015cb2c6872b",
    "source": "the-verge-ai",
+   "fetched": "2026-11-10T14:22:38+00:00",
+   "countries": []
+  },
+  {
+   "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+   "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
+   "published": "2026-11-10T14:00:00+00:00",
+   "preview": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
+   "id": "dfd6684379dd",
+   "source": "wired-ai",
+   "fetched": "2026-11-10T14:22:38+00:00",
+   "countries": []
+  },
+  {
+   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+   "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+   "published": "2026-11-10T14:00:00+00:00",
+   "preview": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+   "id": "c5fffc8a0cbd",
+   "source": "google-ai-blog",
    "fetched": "2026-11-10T14:22:38+00:00",
    "countries": []
   },
@@ -3184,18 +3269,6 @@
    ]
   },
   {
-   "title": "Big Tech lost big in the 2026 election",
-   "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-   "published": "2026-11-06T16:38:02+00:00",
-   "preview": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even…",
-   "id": "22815b4f725e",
-   "source": "the-verge-ai",
-   "fetched": "2026-11-06T18:18:18+00:00",
-   "countries": [
-    "United States"
-   ]
-  },
-  {
    "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
    "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
    "published": "2026-11-06T16:00:00+00:00",
@@ -5051,16 +5124,6 @@
    "countries": []
   },
   {
-   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-   "published": "2026-10-31T10:38:14+00:00",
-   "preview": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed…",
-   "id": "a5c6759870e7",
-   "source": "marktechpost",
-   "fetched": "2026-10-31T12:19:25+00:00",
-   "countries": []
-  },
-  {
    "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
    "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
    "published": "2026-10-31T10:30:00+00:00",
@@ -5068,16 +5131,6 @@
    "id": "2ec3abacf294",
    "source": "wired-ai",
    "fetched": "2026-10-31T12:19:25+00:00",
-   "countries": []
-  },
-  {
-   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-   "published": "2026-10-31T10:10:28+00:00",
-   "preview": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel…",
-   "id": "78c1c1a14c87",
-   "source": "marktechpost",
-   "fetched": "2026-10-31T10:18:42+00:00",
    "countries": []
   },
   {
@@ -5278,16 +5331,6 @@
    ]
   },
   {
-   "title": "Fair use benefits everyone",
-   "url": "https://openai.com/index/fair-use-benefits-everyone",
-   "published": "2026-10-30T00:00:00+00:00",
-   "preview": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-   "id": "d2282bcce162",
-   "source": "openai-news",
-   "fetched": "2026-10-30T22:18:57+00:00",
-   "countries": []
-  },
-  {
    "title": "Western Hemisphere Nations Meet to Advance Anti-Cartel Campaign Plan",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4637181/western-hemisphere-nations-meet-to-advance-anti-cartel-campaign-plan/",
    "published": "2026-10-29T20:56:17+00:00",
@@ -5352,18 +5395,6 @@
    "preview": "Soldiers assigned to the 10th Mountain Division tackled Panama's challenging jungle terrain during a 12-day training course designed to strengthen unit cohesion, develop leaders and sharpen combat skills.",
    "id": "3a74efbe613f",
    "source": "dept-of-war-news",
-   "fetched": "2026-10-29T19:41:45+00:00",
-   "countries": [
-    "United States"
-   ]
-  },
-  {
-   "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
-   "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-   "published": "2026-10-29T18:39:43+00:00",
-   "preview": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
-   "id": "bf3026d4c625",
-   "source": "wired-ai",
    "fetched": "2026-10-29T19:41:45+00:00",
    "countries": [
     "United States"
@@ -6643,16 +6674,6 @@
     "China",
     "United States"
    ]
-  },
-  {
-   "title": "Wall Street prepares for AI's \"day after\"",
-   "url": "https://www.axios.com/2026/10/23/ai-catastrophe-wall-street",
-   "published": "2026-10-23T09:30:05+00:00",
-   "preview": "America's largest banks are working to prevent AI worst-case scenarios. But they're also preparing for the \"day after\" a catastrophe, Axios has learned. Why it matters: America's financial institutions have joined the…",
-   "id": "d7da5b62a5a7",
-   "source": "axios-technology",
-   "fetched": "2026-10-23T10:19:56+00:00",
-   "countries": []
   },
   {
    "title": "Notice: Life Sciences Healthcare Goals",
