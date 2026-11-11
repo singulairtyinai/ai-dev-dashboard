@@ -1,58 +1,61 @@
 {
- "generated_at": "2026-11-10T05:55:00+00:00",
+ "generated_at": "2026-11-11T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Trump addressed what he knew about Jensen Huang's affair with an alleged Chinese spy as calls grew for Huang to resign, while CSET mapped the US-China AGI race and METR's report pointed toward AI self-improvement by 2027.",
+ "headline": "The Commerce Department reportedly received a classified warning about Jensen Huang's affair before it broke, as forecasters updated timelines toward a 2027 intelligence explosion and experts named nuclear risk and the US-China spy game among AI's real dangers.",
  "points": [
   {
-   "text": "President Trump addressed what he knew about Jensen Huang's affair with an alleged Chinese spy, as Transformer argued Huang should resign for misleading investors and Axios reported Nvidia has no clear succession plan.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["fd48ce2874be", "792d96c56be2", "c6eeece9b0c9"]
+   "text": "Axios reported that Commerce Secretary Howard Lutnick received a highly classified national-security memo warning about Nvidia CEO Jensen Huang's relationship with suspected Chinese spy Alice Huang.",
+   "cats": ["geo"],
+   "item_ids": ["d73ecac1b22e"]
   },
   {
-   "text": "CSET examined two distinct paths the US and China are taking toward artificial general intelligence, with the US leading in frontier models and compute while China pursues robotics, embodiment, and brain-inspired systems.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["4b2972b6ca3d"]
-  },
-  {
-   "text": "IEEE Spectrum detailed efforts to build a 'Find My'-style tracking system for AI chips, after years of export-restricted US chips turning up in China anyway.",
-   "cats": ["hw", "geo"],
-   "item_ids": ["50ed2adfe967"]
-  },
-  {
-   "text": "In a 60 Minutes interview, Trump said AI safety risks are manageable and not as real as AI executives claim.",
-   "cats": ["gov", "risk"],
-   "item_ids": ["67d134866a7d"]
-  },
-  {
-   "text": "An extensive METR report found AI R&D acceleration at Anthropic is pushing toward potential recursive self-improvement by 2027.",
+   "text": "The AI Futures Project updated its timelines, saying an intelligence explosion now looks likely to happen in 2027.",
    "cats": ["risk"],
-   "item_ids": ["0b45da43bb2f"]
+   "item_ids": ["f9adcb20139d"]
   },
   {
-   "text": "OpenAI launched 'Control Room,' a central system to track and rapidly stop model workloads across its research infrastructure if safety or security concerns arise.",
+   "text": "Wired asked ten experts what AI's real nightmares are, concluding that nuclear catastrophe and the fallout of the US-China 'domination game' are genuine risks, more than a Skynet-style takeover.",
+   "cats": ["risk", "geo"],
+   "item_ids": ["df8566683e35"]
+  },
+  {
+   "text": "ControlAI laid out its doctrine for preventing AI from reaching 'points of no return.'",
+   "cats": ["risk"],
+   "item_ids": ["c3ae586efe30"]
+  },
+  {
+   "text": "Wired found security flaws across multiple UK government websites that exposed 'god-tier' private information.",
    "cats": ["risk", "gov"],
-   "item_ids": ["f37b680abcf7"]
+   "item_ids": ["2eff05fe6c16"]
+  },
+  {
+   "text": "The AI Safety Newsletter reported that the US midterms favored candidates backing AI regulation.",
+   "cats": ["gov"],
+   "item_ids": ["83ec9f299d00"]
+  },
+  {
+   "text": "The ITU's AI for Good series explored building context, control, and confidence into AI used in public and humanitarian settings.",
+   "cats": ["multi"],
+   "item_ids": ["f2eff2315c07"]
   }
  ],
  "categories": {
   "geo": [
-   "Trump addressed what he knew about Jensen Huang's affair, as calls grew for Huang to resign.",
-   "CSET examined two paths the US and China are taking toward AGI.",
-   "A 'Find My' system is being built to track AI chips smuggled into China."
-  ],
-  "gov": [
-   "Trump addressed what he knew about Jensen Huang's affair, as calls grew for him to resign.",
-   "Trump said AI safety risks are manageable and not as real as executives claim.",
-   "OpenAI launched 'Control Room' to track and stop model workloads over safety concerns."
-  ],
-  "hw": [
-   "CSET examined two paths the US and China are taking toward AGI.",
-   "A 'Find My' system is being built to track AI chips smuggled into China."
+   "The Commerce Department reportedly received a classified warning about Jensen Huang's affair before it broke.",
+   "Wired named the US-China 'domination game' among AI's real risks."
   ],
   "risk": [
-   "Trump said AI safety risks are manageable.",
-   "METR's report found AI R&D accelerating toward potential self-improvement by 2027.",
-   "OpenAI launched 'Control Room' to track and stop model workloads over safety concerns."
+   "Forecasters updated timelines toward a 2027 intelligence explosion.",
+   "Experts named nuclear catastrophe and US-China tensions among AI's real risks.",
+   "ControlAI laid out a doctrine for preventing AI points of no return.",
+   "Security flaws across UK government sites exposed 'god-tier' information."
+  ],
+  "gov": [
+   "Security flaws across UK government sites exposed 'god-tier' information.",
+   "US midterms favored candidates backing AI regulation."
+  ],
+  "multi": [
+   "The ITU's AI for Good series explored building context, control and confidence into public-sector AI."
   ]
  }
 }
