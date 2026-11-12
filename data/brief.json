@@ -1,61 +1,67 @@
 {
- "generated_at": "2026-11-11T05:55:00+00:00",
+ "generated_at": "2026-11-12T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "The Commerce Department reportedly received a classified warning about Jensen Huang's affair before it broke, as forecasters updated timelines toward a 2027 intelligence explosion and experts named nuclear risk and the US-China spy game among AI's real dangers.",
+ "headline": "Nvidia's board reportedly prepared to fire Jensen Huang over a second alleged affair as Trump ordered a new crackdown on chip diversion to China, while UNIDIR launched a Counter-IED knowledge-sharing compendium and a startup pitched AI to fight AI-engineered bioweapons.",
  "points": [
   {
-   "text": "Axios reported that Commerce Secretary Howard Lutnick received a highly classified national-security memo warning about Nvidia CEO Jensen Huang's relationship with suspected Chinese spy Alice Huang.",
+   "text": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang after the New York Times reported a second alleged extramarital affair, this time with a senior executive who reports to him.",
    "cats": ["geo"],
-   "item_ids": ["d73ecac1b22e"]
+   "item_ids": ["c7b7da7d21f0", "4a6d92631407"]
   },
   {
-   "text": "The AI Futures Project updated its timelines, saying an intelligence explosion now looks likely to happen in 2027.",
+   "text": "President Trump authorized a new crackdown, the third this year, on companies suspected of diverting Nvidia's advanced AI chips to China, after Treasury Secretary Bessent confronted Commerce Secretary Lutnick over a failure to flag an Nvidia customer as a national-security risk.",
+   "cats": ["geo", "hw", "gov"],
+   "item_ids": ["e5b4239cdfca", "aa7a6317df2b"]
+  },
+  {
+   "text": "CSET warned of the risks of strategic overreaction to the Nvidia espionage allegations, as a separate analysis argued the scandal highlights contradictions at the heart of Trump's China policy.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["58d6af41b088", "f47b5cf188cb"]
+  },
+  {
+   "text": "UNIDIR launched a Counter-IED Compendium to strengthen global knowledge-sharing on preventing, mitigating, and countering improvised explosive devices.",
+   "cats": ["peace"],
+   "item_ids": ["62dd2c2192db"]
+  },
+  {
+   "text": "A startup called Radical Numerics said it has built a model that can identify natural and AI-engineered pathogens without an internet connection, aiming to fight AI-enabled bioweapons with AI.",
    "cats": ["risk"],
-   "item_ids": ["f9adcb20139d"]
+   "item_ids": ["c1e65afe955f"]
   },
   {
-   "text": "Wired asked ten experts what AI's real nightmares are, concluding that nuclear catastrophe and the fallout of the US-China 'domination game' are genuine risks, more than a Skynet-style takeover.",
-   "cats": ["risk", "geo"],
-   "item_ids": ["df8566683e35"]
-  },
-  {
-   "text": "ControlAI laid out its doctrine for preventing AI from reaching 'points of no return.'",
-   "cats": ["risk"],
-   "item_ids": ["c3ae586efe30"]
-  },
-  {
-   "text": "Wired found security flaws across multiple UK government websites that exposed 'god-tier' private information.",
+   "text": "Transformer found that Hugging Face is still hosting a number of AI models marketed for cyberattacks, despite removing one.",
    "cats": ["risk", "gov"],
-   "item_ids": ["2eff05fe6c16"]
+   "item_ids": ["5466ef492f42"]
   },
   {
-   "text": "The AI Safety Newsletter reported that the US midterms favored candidates backing AI regulation.",
-   "cats": ["gov"],
-   "item_ids": ["83ec9f299d00"]
-  },
-  {
-   "text": "The ITU's AI for Good series explored building context, control, and confidence into AI used in public and humanitarian settings.",
+   "text": "The ITU's AI for Good discussed standards, safeguards, and cooperation for open-source AI.",
    "cats": ["multi"],
-   "item_ids": ["f2eff2315c07"]
+   "item_ids": ["33ddeab4875f"]
   }
  ],
  "categories": {
   "geo": [
-   "The Commerce Department reportedly received a classified warning about Jensen Huang's affair before it broke.",
-   "Wired named the US-China 'domination game' among AI's real risks."
+   "Nvidia's board reportedly prepared to fire Jensen Huang over a second alleged affair.",
+   "Trump ordered a new crackdown on Nvidia chip diversion to China after a Treasury-Commerce clash.",
+   "CSET warned of strategic-overreaction risks and contradictions in Trump's China policy."
   ],
-  "risk": [
-   "Forecasters updated timelines toward a 2027 intelligence explosion.",
-   "Experts named nuclear catastrophe and US-China tensions among AI's real risks.",
-   "ControlAI laid out a doctrine for preventing AI points of no return.",
-   "Security flaws across UK government sites exposed 'god-tier' information."
+  "hw": [
+   "Trump ordered a new crackdown on Nvidia chip diversion to China."
   ],
   "gov": [
-   "Security flaws across UK government sites exposed 'god-tier' information.",
-   "US midterms favored candidates backing AI regulation."
+   "Trump ordered a new crackdown on Nvidia chip diversion to China after a Treasury-Commerce clash.",
+   "CSET warned of strategic-overreaction risks and contradictions in Trump's China policy.",
+   "Hugging Face is hosting AI models marketed for cyberattacks."
+  ],
+  "peace": [
+   "UNIDIR launched a Counter-IED Compendium to share global knowledge."
+  ],
+  "risk": [
+   "A startup pitched AI to identify AI-engineered pathogens and fight bioweapons.",
+   "Hugging Face is hosting AI models marketed for cyberattacks."
   ],
   "multi": [
-   "The ITU's AI for Good series explored building context, control and confidence into public-sector AI."
+   "The ITU's AI for Good discussed standards, safeguards and cooperation for open-source AI."
   ]
  }
 }
