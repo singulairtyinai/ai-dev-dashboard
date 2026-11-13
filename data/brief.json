@@ -1,67 +1,56 @@
 {
- "generated_at": "2026-11-12T05:55:00+00:00",
+ "generated_at": "2026-11-13T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Nvidia's board reportedly prepared to fire Jensen Huang over a second alleged affair as Trump ordered a new crackdown on chip diversion to China, while UNIDIR launched a Counter-IED knowledge-sharing compendium and a startup pitched AI to fight AI-engineered bioweapons.",
+ "headline": "Jensen Huang resigned as Nvidia CEO after a dual-affair scandal, as Nvidia privately confirmed to Congress it could track chips to fight smuggling to China and an OpenAI board member warned of a high risk of AI takeover within three years.",
  "points": [
   {
-   "text": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang after the New York Times reported a second alleged extramarital affair, this time with a senior executive who reports to him.",
+   "text": "Jensen Huang resigned as Nvidia's CEO after the company's board investigated two extramarital affairs, including one with an alleged Chinese spy; longtime CFO Colette Kress was named interim CEO.",
    "cats": ["geo"],
-   "item_ids": ["c7b7da7d21f0", "4a6d92631407"]
+   "item_ids": ["71378d0ad1b2", "426b199762db", "550d6b582c32", "e28bd745fc51"]
   },
   {
-   "text": "President Trump authorized a new crackdown, the third this year, on companies suspected of diverting Nvidia's advanced AI chips to China, after Treasury Secretary Bessent confronted Commerce Secretary Lutnick over a failure to flag an Nvidia customer as a national-security risk.",
-   "cats": ["geo", "hw", "gov"],
-   "item_ids": ["e5b4239cdfca", "aa7a6317df2b"]
+   "text": "MIT Technology Review reported that Nvidia privately confirmed to a member of Congress it could technically track chips to fight smuggling to China, even as the industry publicly questioned the feasibility of such measures.",
+   "cats": ["hw", "geo"],
+   "item_ids": ["07356858caea"]
   },
   {
-   "text": "CSET warned of the risks of strategic overreaction to the Nvidia espionage allegations, as a separate analysis argued the scandal highlights contradictions at the heart of Trump's China policy.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["58d6af41b088", "f47b5cf188cb"]
+   "text": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that he delayed action on chip smuggling to China.",
+   "cats": ["gov", "geo"],
+   "item_ids": ["8e758e03e330"]
   },
   {
-   "text": "UNIDIR launched a Counter-IED Compendium to strengthen global knowledge-sharing on preventing, mitigating, and countering improvised explosive devices.",
-   "cats": ["peace"],
-   "item_ids": ["62dd2c2192db"]
+   "text": "CSET examined different potential implementations of 'AI kill switches,' a tool policymakers have proposed requiring to quickly stop or limit the impact of a harmful AI incident.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["f6d7d8e40067"]
   },
   {
-   "text": "A startup called Radical Numerics said it has built a model that can identify natural and AI-engineered pathogens without an internet connection, aiming to fight AI-enabled bioweapons with AI.",
+   "text": "An OpenAI board member warned of a high risk of AI takeover within three years, saying AIs are already improving AIs and that action is needed now.",
    "cats": ["risk"],
-   "item_ids": ["c1e65afe955f"]
+   "item_ids": ["e9006eda4c1a"]
   },
   {
-   "text": "Transformer found that Hugging Face is still hosting a number of AI models marketed for cyberattacks, despite removing one.",
-   "cats": ["risk", "gov"],
-   "item_ids": ["5466ef492f42"]
-  },
-  {
-   "text": "The ITU's AI for Good discussed standards, safeguards, and cooperation for open-source AI.",
-   "cats": ["multi"],
-   "item_ids": ["33ddeab4875f"]
+   "text": "AI Frontiers argued the AI safety field is failing to evaluate how biologists could misuse AI, warning that experts assisted by AI could be far more dangerous than novices.",
+   "cats": ["risk"],
+   "item_ids": ["47426dc24209"]
   }
  ],
  "categories": {
   "geo": [
-   "Nvidia's board reportedly prepared to fire Jensen Huang over a second alleged affair.",
-   "Trump ordered a new crackdown on Nvidia chip diversion to China after a Treasury-Commerce clash.",
-   "CSET warned of strategic-overreaction risks and contradictions in Trump's China policy."
+   "Jensen Huang resigned as Nvidia's CEO after a dual-affair scandal; Colette Kress named interim CEO.",
+   "Nvidia privately confirmed it could track chips to fight smuggling to China.",
+   "The White House is standing by Commerce Secretary Lutnick despite a view he delayed chip-smuggling action."
   ],
   "hw": [
-   "Trump ordered a new crackdown on Nvidia chip diversion to China."
+   "Nvidia privately confirmed it could track chips to fight smuggling to China."
   ],
   "gov": [
-   "Trump ordered a new crackdown on Nvidia chip diversion to China after a Treasury-Commerce clash.",
-   "CSET warned of strategic-overreaction risks and contradictions in Trump's China policy.",
-   "Hugging Face is hosting AI models marketed for cyberattacks."
-  ],
-  "peace": [
-   "UNIDIR launched a Counter-IED Compendium to share global knowledge."
+   "The White House is standing by Commerce Secretary Lutnick despite a view he delayed chip-smuggling action.",
+   "CSET examined different implementations of 'AI kill switches.'"
   ],
   "risk": [
-   "A startup pitched AI to identify AI-engineered pathogens and fight bioweapons.",
-   "Hugging Face is hosting AI models marketed for cyberattacks."
-  ],
-  "multi": [
-   "The ITU's AI for Good discussed standards, safeguards and cooperation for open-source AI."
+   "CSET examined different implementations of 'AI kill switches.'",
+   "An OpenAI board member warned of a high risk of AI takeover within three years.",
+   "AI Frontiers warned the field is failing to evaluate how biologists could misuse AI."
   ]
  }
 }
