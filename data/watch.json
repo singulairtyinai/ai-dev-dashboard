@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-16T14:23:00+00:00",
+  "checked_at": "2026-11-16T16:19:35+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-16T14:23:01+00:00",
+  "checked_at": "2026-11-16T16:19:36+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,8 +59,8 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-16T14:23:01+00:00",
-  "hash": "4dcaadaf9a6311b7363d22589244724e651cabb2",
+  "checked_at": "2026-11-16T16:19:36+00:00",
+  "hash": "b4608e9ac8cd4ee347a82b4d1c979e5a29a2d8d4",
   "known": [
    "AI Use Cases in Legal Practice",
    "AI accountability in practice: What privacy leaders need to show in 2027",
@@ -70,6 +70,7 @@
    "Beyond the frontier: Pragmatic AI risk management for the rest of us",
    "Building digital trust: How John Deere governs AI, cybersecurity and digital risk",
    "Close the agent governance gap: Control access, track outcomes",
+   "Comply with India’s privacy law by leveraging EU and US compliance programs",
    "EU AI Act Compliance Matrix",
    "EU AI Act: Mapping the Interplays with the GDPR",
    "Getting your organization PETs ready",
@@ -78,21 +79,20 @@
    "Mentor Q&A: Breaking into privacy, early career development, and AI",
    "Privacy, AI and the new rules of recruitment",
    "Proactive AI privacy – Leveraging PETs throughout the AI life cycle",
-   "The defensibility imperative: Transforming complex DSR operations across the enterprise",
    "The right to keep vs. the obligation to delete: Navigating data retention, data minimization and legal holds",
    "Trust, safety and security: Advancing smart cross-regulatory collaboration",
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance"
   ],
-  "changed_at": "2026-11-13T17:50:36+00:00",
+  "changed_at": "2026-11-16T16:19:36+00:00",
   "added": [
    {
-    "text": "Close the agent governance gap: Control access, track outcomes",
-    "url": "https://iapp.org/resources/article/close-the-agent-governance-gap-control-access-track-outcomes"
+    "text": "Comply with India’s privacy law by leveraging EU and US compliance programs",
+    "url": "https://iapp.org/resources/article/comply-with-indias-privacy-law-by-leveraging-eu-and-us-compliance-programs"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-16T14:23:02+00:00",
+  "checked_at": "2026-11-16T16:19:37+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -106,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-16T14:23:03+00:00",
+  "checked_at": "2026-11-16T16:19:38+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-16T14:23:03+00:00",
+  "checked_at": "2026-11-16T16:19:38+00:00",
   "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -164,8 +164,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-16T14:23:04+00:00",
-  "hash": "52ad8fdcf6c7a620212d01eef734d1f276d92b48",
+  "checked_at": "2026-11-16T16:19:38+00:00",
+  "hash": "cac5fb5af7004543d5b84ff89f91d176fbcc0b1e",
   "known": [
    "AI Reviews Are Biased Towards the Appendix",
    "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
@@ -182,6 +182,7 @@
    "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
    "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
    "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+   "Interpreting Coding Agents Through Their Behavioral Trajectories",
    "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
    "JVT: Just Video Transformer makes pixel-space video diffusion simple",
    "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
@@ -191,6 +192,7 @@
    "Massachusetts Institute of Technology",
    "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
    "National University of Singapore",
+   "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
    "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
    "The University of Hong Kong",
    "University of Wisconsin - Madison",
@@ -199,30 +201,27 @@
    "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
    "by AK and the research community",
    "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+   "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
    "École de Technologie Supérieure"
   ],
-  "changed_at": "2026-11-16T14:23:04+00:00",
+  "changed_at": "2026-11-16T16:19:38+00:00",
   "added": [
    {
-    "text": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+    "text": "Interpreting Coding Agents Through Their Behavioral Trajectories",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+    "text": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Massachusetts Institute of Technology",
-    "url": "https://huggingface.co/MIT"
-   },
-   {
-    "text": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+    "text": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-16T14:23:08+00:00",
+  "checked_at": "2026-11-16T16:19:41+00:00",
   "hash": "44df5d0e8112179e75ab43fe66a7fe673f345cf1",
   "known": [
    "AI and human rights for youth",
@@ -253,7 +252,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-16T14:23:09+00:00",
+  "checked_at": "2026-11-16T16:19:43+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -351,7 +350,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-16T14:23:08+00:00",
+  "checked_at": "2026-11-16T16:19:41+00:00",
   "hash": "fe8a1d827ff18044317b415991342589a2435c59",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
