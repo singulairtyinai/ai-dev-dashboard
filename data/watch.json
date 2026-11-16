@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-16T04:18:34+00:00",
+  "checked_at": "2026-11-16T06:18:28+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-16T04:18:34+00:00",
+  "checked_at": "2026-11-16T06:18:29+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-16T04:18:35+00:00",
+  "checked_at": "2026-11-16T06:18:30+00:00",
   "hash": "4dcaadaf9a6311b7363d22589244724e651cabb2",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -92,7 +92,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-16T04:18:35+00:00",
+  "checked_at": "2026-11-16T06:18:30+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -106,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-16T04:18:37+00:00",
+  "checked_at": "2026-11-16T06:18:32+00:00",
   "hash": "190e274cdafeba9805bccc8e355930ceb6909109",
   "known": [
    "Applications open for Locked Shields 2027 Partners Run",
@@ -123,92 +123,102 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-16T04:18:36+00:00",
-  "hash": "6c893bea70cb928043798abea3ea03a9669c7fa4",
+  "checked_at": "2026-11-16T06:18:33+00:00",
+  "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
   "known": [
-   "BBC World News | Saudi Arabia: Cruise Missiles and Drones Intercepted",
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
-   "Charting the New Nuclear Age",
-   "Commanding the Air: the Future of Airborne Battle Management",
    "Dr. Andrew F. Krepinevich, Jr.",
    "Drones, Missiles, and the U.S. Munitions Shortage",
    "Energy, Economics & Security",
    "Fireside Chat with Assistant Secretary of War Michael Cadenazzi on U.S. Munitions Production",
    "Humanoid Robot Start-Up Backed by Eric Trump in Talks With Israel’s Military",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
+   "NATO Nations Have a Missile Crisis. How Did It Happen, and Can It Be Fixed?",
+   "Partners in Proliferation: Mapping a Decade of Iranian-Russian Military Cooperation",
    "The Army’s Coming C2 Challenge Is Fighting Across Thousands of Miles",
+   "The Upside of an American Pullback in the Middle East",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
-   "U.S., Israel Elections Loom Over Iran War",
+   "Ukraine Peace Push Turns to NATO and Donbas",
    "View All Articles & Multimedia",
    "What's a Revolution in Military Affairs Good For?",
    "When Networks Are Contested, Paring Down the Data May Mean Better Logistics at the Edge"
   ],
-  "changed_at": "2026-11-12T16:18:12+00:00",
+  "changed_at": "2026-11-16T06:18:33+00:00",
   "added": [
    {
-    "text": "Humanoid Robot Start-Up Backed by Eric Trump in Talks With Israel’s Military",
-    "url": "https://www.cnas.org/research/defense"
+    "text": "Ukraine Peace Push Turns to NATO and Donbas",
+    "url": "https://www.cnas.org/publications/video/ukraine-peace-push-turns-to-nato-and-donbas"
    },
    {
-    "text": "The Army’s Coming C2 Challenge Is Fighting Across Thousands of Miles",
-    "url": "https://www.cnas.org/research/defense"
+    "text": "The Upside of an American Pullback in the Middle East",
+    "url": "https://www.cnas.org/publications/commentary/the-upside-of-an-american-pullback-in-the-middle-east"
    },
    {
-    "text": "When Networks Are Contested, Paring Down the Data May Mean Better Logistics at the Edge",
+    "text": "NATO Nations Have a Missile Crisis. How Did It Happen, and Can It Be Fixed?",
+    "url": "https://www.cnas.org/publications/video/nato-nations-have-a-missile-crisis-how-did-it-happen-and-can-it-be-fixed"
+   },
+   {
+    "text": "Partners in Proliferation: Mapping a Decade of Iranian-Russian Military Cooperation",
     "url": "https://www.cnas.org/research/defense"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-16T04:18:37+00:00",
-  "hash": "d185013a0c75a41cb94e1ea94cbe0271d0834e6a",
+  "checked_at": "2026-11-16T06:18:32+00:00",
+  "hash": "d7e9e533ced3d6df6d08f9e65bb7ea94287de30d",
   "known": [
    "AI Reviews Are Biased Towards the Appendix",
    "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
    "CincyNLP Lab @ University of Cincinnati",
+   "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
    "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
    "Envisioning Agentic Robotics: A New Era of Robotic Systems",
    "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
    "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
    "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+   "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+   "JVT: Just Video Transformer makes pixel-space video diffusion simple",
    "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
    "MEM-SQL: Memory-Empowered Text-to-SQL",
+   "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+   "National University of Singapore",
    "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
    "The University of Hong Kong",
    "University of Wisconsin - Madison",
    "by AK and the research community",
+   "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
    "École de Technologie Supérieure"
   ],
-  "changed_at": "2026-11-16T04:18:37+00:00",
+  "changed_at": "2026-11-16T06:18:32+00:00",
   "added": [
    {
-    "text": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "text": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+    "text": "National University of Singapore",
+    "url": "https://huggingface.co/NationalUniversityofSingapore"
+   },
+   {
+    "text": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "University of Wisconsin - Madison",
-    "url": "https://huggingface.co/uw-madison"
-   },
-   {
-    "text": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+    "text": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+    "text": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "AI Reviews Are Biased Towards the Appendix",
+    "text": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-16T04:18:40+00:00",
+  "checked_at": "2026-11-16T06:18:34+00:00",
   "hash": "44df5d0e8112179e75ab43fe66a7fe673f345cf1",
   "known": [
    "AI and human rights for youth",
@@ -239,7 +249,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-16T04:18:41+00:00",
+  "checked_at": "2026-11-16T06:18:36+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -337,7 +347,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-16T04:18:40+00:00",
+  "checked_at": "2026-11-16T06:18:34+00:00",
   "hash": "fe8a1d827ff18044317b415991342589a2435c59",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
