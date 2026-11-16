@@ -1,56 +1,41 @@
 {
- "generated_at": "2026-11-15T05:55:00+00:00",
+ "generated_at": "2026-11-16T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "ChinaTalk and CSET examined fallout from Jensen Huang's resignation and threats to America's AI advantage, as Helen Toner warned we still can't trust AI CEOs and Wired flagged a new AI-fueled ransomware boom.",
+ "headline": "Treasury Secretary Bessent questioned whether Nvidia 'goosed' earnings with suspect China chip sales, as Congress moved to tighten AI chip export rules and a new report warned space data centers could end stargazing.",
  "points": [
   {
-   "text": "ChinaTalk held an emergency pod on 'Jensen Out, MATCH Act In?' to discuss the legislative fallout from Huang's resignation as Nvidia CEO.",
+   "text": "Treasury Secretary Scott Bessent questioned whether Nvidia's earnings might have been inflated by inappropriate sales to China and urged the company to hire an outsider as CEO.",
    "cats": ["geo"],
-   "item_ids": ["a06328b2106b"]
+   "item_ids": ["fa6c94270b6b"]
   },
   {
-   "text": "CSET warned that a convergence of political, commercial, and ideological pressures could undermine America's AI advantage, pointing to public controversies as a catalyst.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["6d798b7cbced"]
-  },
-  {
-   "text": "Axios described AI's 'four colliding crises' of trust, as Democrats surge to power and many Americans rebel against AI and data centers.",
+   "text": "Following the scandal involving former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is moving to further restrict exports of AI chips, with both Democrats and Republicans voicing support.",
    "cats": ["geo", "gov"],
-   "item_ids": ["f5d433fa71ce"]
+   "item_ids": ["1207b5c1c70b"]
   },
   {
-   "text": "Helen Toner, the OpenAI board member who fired Sam Altman and now leads Georgetown's Center for Security and Emerging Technology, said in an interview that we still can't trust AI CEOs.",
-   "cats": ["gov", "risk"],
-   "item_ids": ["d46b516a4c83"]
+   "text": "A new report warned that sprawling networks of space data centers could make it nearly impossible to stargaze, one of many risks of placing tens of thousands of AI computers into orbit.",
+   "cats": ["geo", "risk"],
+   "item_ids": ["b896b29ec775"]
   },
   {
-   "text": "Wired warned of a new AI-fueled ransomware boom, noting that unsophisticated attackers are already using AI tools to cause serious damage.",
-   "cats": ["risk"],
-   "item_ids": ["82ab3d6d0794"]
-  },
-  {
-   "text": "Wired examined AI's rapid arrival in aviation amid shortages of pilots and air traffic controllers.",
-   "cats": ["risk"],
-   "item_ids": ["b84b4c49c41d"]
+   "text": "Nvidia's leadership crisis continued to evolve, with reports that Jensen Huang might be plotting a return as CEO.",
+   "cats": ["geo"],
+   "item_ids": ["2f1f5cbf7ce8"]
   }
  ],
  "categories": {
   "geo": [
-   "ChinaTalk examined legislative fallout from Jensen Huang's resignation.",
-   "CSET warned a convergence of pressures could undermine America's AI advantage.",
-   "Axios described AI's 'four colliding crises' of trust."
-  ],
-  "hw": [
-   "CSET warned a convergence of pressures could undermine America's AI advantage."
+   "Bessent questioned whether Nvidia 'goosed' earnings with suspect China chip sales.",
+   "Congress moved to tighten AI chip export rules after the Nvidia spy scandal.",
+   "A new report warned space data centers could end stargazing.",
+   "Nvidia's board is reportedly weighing Jensen Huang's return as CEO."
   ],
   "gov": [
-   "Axios described AI's 'four colliding crises' of trust.",
-   "Helen Toner said we still can't trust AI CEOs."
+   "Congress moved to tighten AI chip export rules after the Nvidia spy scandal."
   ],
   "risk": [
-   "Helen Toner said we still can't trust AI CEOs.",
-   "Wired warned of a new AI-fueled ransomware boom.",
-   "Wired examined AI's rapid arrival in aviation amid staffing shortages."
+   "A new report warned space data centers could end stargazing and pose other orbital risks."
   ]
  }
 }
