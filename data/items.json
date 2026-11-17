@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:18:17+00:00",
+ "updated": "2026-11-17T02:17:47+00:00",
  "items": [
   {
    "title": "NSA Warns About Potential Malware Hijacking CAC-Enabled Computers",
@@ -21,6 +21,16 @@
    "id": "a59424729711",
    "source": "the-verge-ai",
    "fetched": "2026-11-17T00:18:17+00:00",
+   "countries": []
+  },
+  {
+   "title": "EFF’s AI Cybersecurity Policy Framework",
+   "url": "https://www.eff.org/deeplinks/2026/11/effs-ai-cybersecurity-policy-framework",
+   "published": "2026-11-16T22:50:00+00:00",
+   "preview": "The news has been filled with stories recently of AI breaching the security of websites. And while it may feel like a new problem because of AI’s involvement, it turns out that there are longstanding existing…",
+   "id": "e5a30fb4ede3",
+   "source": "eff-updates",
+   "fetched": "2026-11-17T02:17:47+00:00",
    "countries": []
   },
   {
@@ -736,6 +746,16 @@
    "countries": []
   },
   {
+   "title": "Operating-Point Failure of Frozen Guardrail Probes Under Backbone Updates",
+   "url": "https://arxiv.org/abs/2611.19216v1",
+   "published": "2026-11-14T07:17:16+00:00",
+   "preview": "We freeze a guardrail probe and threshold, then measure its operating point across 18 cells covering 16 public language-model updates. At a 1% target, the threshold fails closed in 8 of 9 cells in the first phase and…",
+   "id": "0c90098b18fe",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
    "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
    "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
    "published": "2026-11-14T06:38:14+00:00",
@@ -743,6 +763,26 @@
    "id": "87b8686439b2",
    "source": "marktechpost",
    "fetched": "2026-11-14T15:09:59+00:00",
+   "countries": []
+  },
+  {
+   "title": "ST-GAT: A Leakage-Free Spatio-Temporal Graph Attention Framework for Robust Network Intrusion Detection",
+   "url": "https://arxiv.org/abs/2611.19109v1",
+   "published": "2026-11-14T02:43:07+00:00",
+   "preview": "Intrusion detection systems are a central defence in modern networks. Deep learning models report strong anomaly-detection results, but evaluations on standard benchmarks such as CSE-CIC-IDS-2018 are often inflated by…",
+   "id": "b873ebbc5259",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "When the Spec Sheet Lies: Injection Attacks on LLM-Generated Compliance Artifacts",
+   "url": "https://arxiv.org/abs/2611.19090v1",
+   "published": "2026-11-14T02:01:39+00:00",
+   "preview": "As Large Language Models (LLMs) become used more commonly across a variety of fields, a growing body of research has highlighted particular concerns surrounding model security. Notably, prompt injection attacks, where…",
+   "id": "cc17b20319e3",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
    "countries": []
   },
   {
@@ -775,6 +815,16 @@
    "id": "a06328b2106b",
    "source": "chinatalk",
    "fetched": "2026-11-13T23:39:14+00:00",
+   "countries": []
+  },
+  {
+   "title": "Agent-ZTA: A chain-Aware Zero Trust Model for Bidirectional Security-State Propagation and Runtime Containment in Multi-Agent Delegation",
+   "url": "https://arxiv.org/abs/2611.18999v1",
+   "published": "2026-11-13T22:55:26+00:00",
+   "preview": "Multi-agent systems increasingly delegate tasks and permissions across chains of autonomous agents that invoke protected tools. Although agent identities and delegated credentials may remain valid throughout a workflow,…",
+   "id": "3207289fa55e",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
    "countries": []
   },
   {
@@ -829,6 +879,76 @@
    "id": "951c84561943",
    "source": "the-verge-ai",
    "fetched": "2026-11-13T22:18:28+00:00",
+   "countries": []
+  },
+  {
+   "title": "Privacy-Preserving Clustering Algorithm and Parameter Selection for Collaborative Population Stratification Using Distributed PCA",
+   "url": "https://arxiv.org/abs/2611.18925v1",
+   "published": "2026-11-13T20:27:03+00:00",
+   "preview": "We propose a privacy-preserving selection layer for collaborative population stratification workflows, enabling an honest-but-curious server to recommend a strong clustering algorithm-hyperparameter configuration from…",
+   "id": "735c30838fb6",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "Memory Safety Isn't All You Need: Code Reuse Attacks in Memory Safe Languages",
+   "url": "https://arxiv.org/abs/2611.18910v1",
+   "published": "2026-11-13T20:14:28+00:00",
+   "preview": "Memory safety rules out classical code reuse attacks that rely on arbitrary memory corruption, but does not eliminate code reuse altogether. Attacks such as object injection, prototype pollution, class pollution, DOM…",
+   "id": "435215f27d75",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "Quantifying Membership Inference Risks in Genomic Data Sharing: The Role of Attacker's Auxiliary Information",
+   "url": "https://arxiv.org/abs/2611.18909v1",
+   "published": "2026-11-13T20:13:38+00:00",
+   "preview": "Genomic data sharing is essential for biomedical research but introduces significant privacy risks, including membership inference attacks, in which an adversary determines whether a specific individual's data was used…",
+   "id": "abdade47f1b5",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "Lasso: Towards Sustainable AI-Generated Media Detection with Intel QAT On-Chip Compression",
+   "url": "https://arxiv.org/abs/2611.18895v1",
+   "published": "2026-11-13T19:56:58+00:00",
+   "preview": "Synthetic text, images, and video are rising. Software-only detectors are power-hungry, too slow, and costly, and do not scale with demand. When software cannot scale, historically hardware often comes to the rescue. We…",
+   "id": "1e200ad15dd4",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "We Have All the Cards: Securing Agent Cards at the Operational Trust Boundary of the Agent2Agent Protocol",
+   "url": "https://arxiv.org/abs/2611.18887v1",
+   "published": "2026-11-13T19:46:07+00:00",
+   "preview": "AI agent interoperability protocols enable orchestrators to discover and invoke external agents using machine-readable metadata. In the Agent2Agent (A2A) protocol, Agent Cards contain attacker-controllable…",
+   "id": "71e2799cde35",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "Stargate: Security Analysis and Mission-Aware Firewall for the CubeSat Space Protocol",
+   "url": "https://arxiv.org/abs/2611.18874v1",
+   "published": "2026-11-13T19:23:49+00:00",
+   "preview": "The CubeSat Space Protocol (CSP) is widely used for communication in CubeSat missions, yet its security model and attack surface remain largely unexplored. In this work, we present a systematic security analysis of CSP…",
+   "id": "b744c525f7e8",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
+   "countries": []
+  },
+  {
+   "title": "A Quasipolynomial Quantum Algorithm for the Vector Dihedral Coset Problem with Smooth Modulus",
+   "url": "https://arxiv.org/abs/2611.18857v1",
+   "published": "2026-11-13T19:09:16+00:00",
+   "preview": "We give a quantum algorithm for the vector dihedral coset problem over $\\mathbb{Z}_q^n$, in which the goal is to recover $\\mathbf{s} \\in \\mathbb{Z}_q^n$ given independent samples of the form…",
+   "id": "627c3f6dbe92",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-17T02:17:47+00:00",
    "countries": []
   },
   {
@@ -2582,26 +2702,6 @@
    "countries": []
   },
   {
-   "title": "Look Here, Then Decide: Small Decision Models in a Harness Find Memory-Safety Vulnerabilities at Scale on Commodity GPUs",
-   "url": "https://arxiv.org/abs/2611.16565v1",
-   "published": "2026-11-12T09:51:23+00:00",
-   "preview": "We ask whether small, open-weight decision models can support vulnerability discovery in open-source software at scale and what the surrounding system must provide. These models answer a typed question in one forward…",
-   "id": "20e4e8929414",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "Game-Theoretic Analysis of RIS-Assisted Challenge-Response PLA - Part I: Perfect Channel Knowledge",
-   "url": "https://arxiv.org/abs/2611.16557v1",
-   "published": "2026-11-12T09:46:09+00:00",
-   "preview": "We consider a physical layer authentication scenario in which a legitimate user (Alice) communicates with an authen- ticator (Bob) through a reconfigurable intelligent surface (RIS), controlled by Bob. An attacker…",
-   "id": "637bc506aafb",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
    "title": "Holiday Extras is rethinking what it can build with Codex",
    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
    "published": "2026-11-12T09:30:00+00:00",
@@ -2622,42 +2722,12 @@
    "countries": []
   },
   {
-   "title": "Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases",
-   "url": "https://arxiv.org/abs/2611.16516v1",
-   "published": "2026-11-12T09:13:35+00:00",
-   "preview": "Approximate Nearest Neighbor (ANN) search has become a fundamental query primitive in modern vector databases for managing large-scale embedding data. To support growing vector collections, organizations increasingly…",
-   "id": "3de2ffcbb30d",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
    "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
    "url": "https://arxiv.org/abs/2611.16500v1",
    "published": "2026-11-12T09:03:06+00:00",
    "preview": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured…",
    "id": "553b6e4c4505",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "How to Defeat a Mafia (of Size 1)",
-   "url": "https://arxiv.org/abs/2611.16496v1",
-   "published": "2026-11-12T09:02:28+00:00",
-   "preview": "The game \"Mafia'' is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$. Typically, $d=1$ of the non-coalition players are labelled ``Detective'' and have…",
-   "id": "b3116ae16b64",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "Verifiable Settlement and Pricing for Local Energy Markets: Architecture and Deployment on Hyperledger Besu",
-   "url": "https://arxiv.org/abs/2611.16495v1",
-   "published": "2026-11-12T09:02:06+00:00",
-   "preview": "We implement privacy-preserving local electricity exchanges using an automated market maker on the Hyperledger Besu network under QBFT consensus. The proposed protocol operator collects individual electricity positions…",
-   "id": "c7bf6ce048e8",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-11-13T06:18:09+00:00",
    "countries": []
   },
@@ -2758,66 +2828,6 @@
    "preview": "Language models rely on finite token contexts, limiting access to earlier interactions. We introduce Recursive State-Augmented Language Models (Recursive SALM), a framework in which a persistent latent state evolves…",
    "id": "ecd36cd39dc8",
    "source": "arxiv-cs-cl",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function",
-   "url": "https://arxiv.org/abs/2611.16369v1",
-   "published": "2026-11-12T06:34:34+00:00",
-   "preview": "We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as \\$20, we show that safety alignment of a large language model (e.g., Inkling) can be…",
-   "id": "8c640e7ed25f",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "ReliaGuard: Reconstruction-Aware Watermarking for Source Attribution and Blind Edit Localization",
-   "url": "https://arxiv.org/abs/2611.16368v1",
-   "published": "2026-11-12T06:33:37+00:00",
-   "preview": "Generative image editing facilitates content creation but complicates source attribution and edit verification. Existing watermarking methods combine copyright protection with tamper localization, yet background…",
-   "id": "9ccaf3843479",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026",
-   "url": "https://arxiv.org/abs/2611.16311v1",
-   "published": "2026-11-12T05:13:54+00:00",
-   "preview": "Bitcoin's Lightning payment network returns the funds of a channel that cannot close cooperatively through pre-signed transactions whose fees and delays fall on its operators. That fee design is being replaced: Bitcoin…",
-   "id": "d74cc40c92f3",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "SEC: One-Share Everywhere-Short Secret Sharing from Lossless Expanders",
-   "url": "https://arxiv.org/abs/2611.16244v1",
-   "published": "2026-11-12T03:41:04+00:00",
-   "preview": "We introduce SEC, an expander-code-based ramp secret sharing scheme over $\\mathbb{Z}$-modules, particularly suitable for lattice-based distributed cryptography. It is everywhere-short: bounded secret coefficients yield…",
-   "id": "ebde610c578b",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "Optimal feature selection for firewall log analysis using Machine learning and Hybrid Metaheuristic algorithms",
-   "url": "https://arxiv.org/abs/2611.16239v1",
-   "published": "2026-11-12T03:38:29+00:00",
-   "preview": "Firewall log classification is important to monitor network traffic. Machine learning classifiers using network-related features have shown good results for this task, but high-dimensional features slow down…",
-   "id": "f58899ce512e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-13T06:18:09+00:00",
-   "countries": []
-  },
-  {
-   "title": "PolicySniff: Inferring Agent Policy States through Shared-GPU Execution",
-   "url": "https://arxiv.org/abs/2611.16158v1",
-   "published": "2026-11-12T01:42:11+00:00",
-   "preview": "LLM agents apply approval settings, such as whether to ask before a consequential tool call, through instructions in their system prompt, and operators keep these settings confidential by restricting access to prompts…",
-   "id": "0954c26f5d13",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-11-13T06:18:09+00:00",
    "countries": []
   },
