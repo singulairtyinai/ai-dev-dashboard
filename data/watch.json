@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-17T08:17:43+00:00",
+  "checked_at": "2026-11-17T10:17:50+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-17T08:17:43+00:00",
+  "checked_at": "2026-11-17T10:17:51+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-17T08:17:43+00:00",
+  "checked_at": "2026-11-17T10:17:51+00:00",
   "hash": "b4608e9ac8cd4ee347a82b4d1c979e5a29a2d8d4",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -92,7 +92,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-17T08:17:44+00:00",
+  "checked_at": "2026-11-17T10:17:51+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -106,7 +106,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-17T08:17:45+00:00",
+  "checked_at": "2026-11-17T10:17:53+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -123,7 +123,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-17T08:17:44+00:00",
+  "checked_at": "2026-11-17T10:17:52+00:00",
   "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -164,14 +164,15 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-17T08:17:45+00:00",
-  "hash": "de91c593867e134581d3e2fffe40498045a9b2a9",
+  "checked_at": "2026-11-17T10:17:53+00:00",
+  "hash": "6419794c22344b7d436522ee8172eb43b0495efa",
   "known": [
    "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
    "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
    "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
    "Carnegie Mellon University",
    "Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix",
+   "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
    "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
    "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
    "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
@@ -182,10 +183,13 @@
    "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
    "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
    "Nanyang Technological University",
+   "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
    "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
    "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
+   "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
    "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
    "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+   "Sage S2.1 Flash Technical Report",
    "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
    "Shanghai Jiao Tong University",
    "UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models",
@@ -194,30 +198,22 @@
    "VoxMel TTS Technical Report",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-17T08:17:45+00:00",
+  "changed_at": "2026-11-17T10:17:53+00:00",
   "added": [
    {
-    "text": "Nanyang Technological University",
-    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
-   },
-   {
-    "text": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "text": "Sage S2.1 Flash Technical Report",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+    "text": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+    "text": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+    "text": "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -254,7 +250,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-17T08:17:49+00:00",
+  "checked_at": "2026-11-17T10:17:57+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -352,7 +348,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-17T08:17:47+00:00",
+  "checked_at": "2026-11-17T10:17:55+00:00",
   "hash": "fe8a1d827ff18044317b415991342589a2435c59",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
