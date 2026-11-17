@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-17T18:18:00+00:00",
+  "checked_at": "2026-11-17T20:19:40+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-17T18:18:01+00:00",
+  "checked_at": "2026-11-17T20:19:41+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-17T18:18:02+00:00",
+  "checked_at": "2026-11-17T20:19:41+00:00",
   "hash": "3322dbe3c1c84dcbd1dc701bf46b7884060d6134",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -98,7 +98,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-17T18:18:01+00:00",
+  "checked_at": "2026-11-17T20:19:41+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -112,7 +112,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-17T18:18:03+00:00",
+  "checked_at": "2026-11-17T20:19:43+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -129,8 +129,8 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-17T18:18:03+00:00",
-  "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
+  "checked_at": "2026-11-17T20:19:42+00:00",
+  "hash": "25eca1f784696b38b3511d2f1eb2cdab42552f49",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
    "Dr. Andrew F. Krepinevich, Jr.",
@@ -140,38 +140,26 @@
    "Humanoid Robot Start-Up Backed by Eric Trump in Talks With Israel’s Military",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "NATO Nations Have a Missile Crisis. How Did It Happen, and Can It Be Fixed?",
+   "Partners in Proliferation",
    "Partners in Proliferation: Mapping a Decade of Iranian-Russian Military Cooperation",
    "The Army’s Coming C2 Challenge Is Fighting Across Thousands of Miles",
    "The Upside of an American Pullback in the Middle East",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "Ukraine Peace Push Turns to NATO and Donbas",
    "View All Articles & Multimedia",
-   "What's a Revolution in Military Affairs Good For?",
    "When Networks Are Contested, Paring Down the Data May Mean Better Logistics at the Edge"
   ],
-  "changed_at": "2026-11-16T06:18:33+00:00",
+  "changed_at": "2026-11-17T20:19:42+00:00",
   "added": [
    {
-    "text": "Ukraine Peace Push Turns to NATO and Donbas",
-    "url": "https://www.cnas.org/publications/video/ukraine-peace-push-turns-to-nato-and-donbas"
-   },
-   {
-    "text": "The Upside of an American Pullback in the Middle East",
-    "url": "https://www.cnas.org/publications/commentary/the-upside-of-an-american-pullback-in-the-middle-east"
-   },
-   {
-    "text": "NATO Nations Have a Missile Crisis. How Did It Happen, and Can It Be Fixed?",
-    "url": "https://www.cnas.org/publications/video/nato-nations-have-a-missile-crisis-how-did-it-happen-and-can-it-be-fixed"
-   },
-   {
-    "text": "Partners in Proliferation: Mapping a Decade of Iranian-Russian Military Cooperation",
-    "url": "https://www.cnas.org/research/defense"
+    "text": "Partners in Proliferation",
+    "url": "https://www.cnas.org/publications/reports/partners-in-proliferation"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-17T18:18:04+00:00",
-  "hash": "b924a745fe3d7db74af8f8d88f87a06aea7524c7",
+  "checked_at": "2026-11-17T20:19:43+00:00",
+  "hash": "45f0e66e3845f375a849defcd53866a6a5da313a",
   "known": [
    "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
    "AAIRE - Agents, AI and Retrieval Lab",
@@ -190,11 +178,13 @@
    "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
    "InclusionMed: Benchmarking AI for Inclusive Healthcare",
    "Institute of Foundation Models",
+   "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
    "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
    "K2-Horizon: A Frontier Fleet of Open Source Language Models",
    "Latent Feedback Is a Compute and Data Amplifier",
    "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
    "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+   "Marimba: A System One Model for Speech",
    "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
    "Nanyang Technological University",
    "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
@@ -213,22 +203,23 @@
    "University of Southern California",
    "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
    "VoxMel TTS Technical Report",
+   "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
    "Zuse: A Decision Model for European Languages",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-17T18:18:04+00:00",
+  "changed_at": "2026-11-17T20:19:43+00:00",
   "added": [
    {
-    "text": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+    "text": "Marimba: A System One Model for Speech",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+    "text": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "AAIRE - Agents, AI and Retrieval Lab",
-    "url": "https://huggingface.co/aaire"
+    "text": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+    "url": "https://huggingface.co/papers"
    }
   ]
  },
@@ -264,7 +255,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-17T18:18:08+00:00",
+  "checked_at": "2026-11-17T20:19:47+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -362,8 +353,8 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-17T18:18:07+00:00",
-  "hash": "fe8a1d827ff18044317b415991342589a2435c59",
+  "checked_at": "2026-11-17T20:19:45+00:00",
+  "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
    "2026 Global Counterspace Capabilities Report",
@@ -375,14 +366,14 @@
    "Promoting Cooperative Solutions for Space Sustainability.",
    "Promoting Cooperative Space Sustainability",
    "Secure World Foundation to Attend North, Central American and Caribbean Space Generation Workshop November 28, 2026",
-   "Victoria Samson to Participate in Outer Space Security Roundtable in Singapore October 23, 2026",
-   "Victoria Samson to Participate in Security Discussions in India November 3, 2026"
+   "Victoria Samson to Participate in Security Discussions in India November 3, 2026",
+   "Victoria Samson to Participate in UN Space Security Discussions in Geneva November 23, 2026"
   ],
-  "changed_at": "2026-11-13T22:18:34+00:00",
+  "changed_at": "2026-11-17T20:19:45+00:00",
   "added": [
    {
-    "text": "A-STAR Workshop 2026 Report: Advancing Regional Space Traffic Coordination Report",
-    "url": "https://swfound.org/publications-and-reports/a-star-workshop-2026-report-advancing-regional-space-traffic-coordination"
+    "text": "Victoria Samson to Participate in UN Space Security Discussions in Geneva November 23, 2026",
+    "url": "https://swfound.org/news/victoria-samson-to-participate-in-un-space-security-discussions-in-geneva"
    }
   ]
  }
