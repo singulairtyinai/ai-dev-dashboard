@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-18T06:18:28+00:00",
+  "checked_at": "2026-11-18T07:39:58+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-18T06:18:29+00:00",
+  "checked_at": "2026-11-18T07:39:59+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-18T06:18:30+00:00",
+  "checked_at": "2026-11-18T07:39:59+00:00",
   "hash": "3322dbe3c1c84dcbd1dc701bf46b7884060d6134",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -98,7 +98,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-18T06:18:30+00:00",
+  "checked_at": "2026-11-18T07:39:59+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -112,7 +112,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-18T06:18:32+00:00",
+  "checked_at": "2026-11-18T07:40:01+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -129,8 +129,8 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-18T06:18:31+00:00",
-  "hash": "25eca1f784696b38b3511d2f1eb2cdab42552f49",
+  "checked_at": "2026-11-18T07:40:00+00:00",
+  "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
    "Dr. Andrew F. Krepinevich, Jr.",
@@ -140,34 +140,38 @@
    "Humanoid Robot Start-Up Backed by Eric Trump in Talks With Israel’s Military",
    "LTG Anthony R. \"Tony\" Ierardi, USA (Ret.)",
    "NATO Nations Have a Missile Crisis. How Did It Happen, and Can It Be Fixed?",
-   "Partners in Proliferation",
    "Partners in Proliferation: Mapping a Decade of Iranian-Russian Military Cooperation",
    "The Army’s Coming C2 Challenge Is Fighting Across Thousands of Miles",
    "The Upside of an American Pullback in the Middle East",
    "U.S. Foreign Policy in the Middle East and Operation Epic Fury",
    "Ukraine Peace Push Turns to NATO and Donbas",
    "View All Articles & Multimedia",
+   "What's a Revolution in Military Affairs Good For?",
    "When Networks Are Contested, Paring Down the Data May Mean Better Logistics at the Edge"
   ],
-  "changed_at": "2026-11-18T06:18:31+00:00",
+  "changed_at": "2026-11-18T07:40:00+00:00",
   "added": [
    {
-    "text": "Partners in Proliferation",
-    "url": "https://www.cnas.org/publications/reports/partners-in-proliferation"
+    "text": "What's a Revolution in Military Affairs Good For?",
+    "url": "https://www.cnas.org/publications/podcast/whats-a-revolution-in-military-affairs-good-for"
    }
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-18T06:18:32+00:00",
-  "hash": "fa098536b009bcb9cdc60afed106efaad50e837f",
+  "checked_at": "2026-11-18T07:40:01+00:00",
+  "hash": "cc4e249bef683ded6a799201a3b6c2805d6097f6",
   "known": [
    "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
    "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
    "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
    "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+   "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
    "FastFrames: Video Generation at Interactive Latency",
    "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+   "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+   "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
    "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+   "Lab of Efficient AI and Data",
    "MPEG-Diffusion: Mixed-Resolution Video Generation",
    "Massachusetts Institute of Technology",
    "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
@@ -184,36 +188,28 @@
    "by AK and the research community",
    "π^4: A Foundation Model for 4D Scene Geometry and Motion"
   ],
-  "changed_at": "2026-11-18T06:18:32+00:00",
+  "changed_at": "2026-11-18T07:40:01+00:00",
   "added": [
    {
-    "text": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+    "text": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+    "text": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Pohang University of Science and Technology",
-    "url": "https://huggingface.co/POSTECH"
-   },
-   {
-    "text": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+    "text": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "FastFrames: Video Generation at Interactive Latency",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-    "url": "https://huggingface.co/papers"
+    "text": "Lab of Efficient AI and Data",
+    "url": "https://huggingface.co/LEAD-ITMO"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-18T06:18:37+00:00",
+  "checked_at": "2026-11-18T07:40:04+00:00",
   "hash": "e4e56a58ca1a3a96c9eac59ce9b712b99cf81d54",
   "known": [
    "AI and human rights for youth",
@@ -243,7 +239,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-18T06:18:38+00:00",
+  "checked_at": "2026-11-18T07:40:05+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -341,7 +337,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-18T06:18:37+00:00",
+  "checked_at": "2026-11-18T07:40:03+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
