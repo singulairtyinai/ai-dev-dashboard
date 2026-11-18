@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-18T02:18:50+00:00",
+  "checked_at": "2026-11-18T04:18:39+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-18T02:18:51+00:00",
+  "checked_at": "2026-11-18T04:18:40+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-18T02:18:51+00:00",
+  "checked_at": "2026-11-18T04:18:40+00:00",
   "hash": "3322dbe3c1c84dcbd1dc701bf46b7884060d6134",
   "known": [
    "AI Use Cases in Legal Practice",
@@ -98,7 +98,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-18T02:18:51+00:00",
+  "checked_at": "2026-11-18T04:18:40+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -112,7 +112,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-18T02:18:53+00:00",
+  "checked_at": "2026-11-18T04:18:43+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -129,7 +129,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-18T02:18:52+00:00",
+  "checked_at": "2026-11-18T04:18:41+00:00",
   "hash": "e7166dd278e65acd24c97f8b1b6e89e67c056840",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -158,76 +158,50 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-18T02:18:54+00:00",
-  "hash": "418dd17d83e89c61487c5c08d594c1a44a165915",
+  "checked_at": "2026-11-18T04:18:43+00:00",
+  "hash": "85151da4b91f6f86510704e029c526b7f078310a",
   "known": [
-   "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
-   "AAIRE - Agents, AI and Retrieval Lab",
-   "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
-   "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
-   "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
-   "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
-   "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
-   "Carnegie Mellon University",
-   "Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix",
-   "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
-   "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
-   "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
-   "Dataset Distillation via Drifting",
-   "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
-   "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
-   "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
-   "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
-   "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
-   "Georgia Institute of Technology",
-   "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
-   "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-   "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
-   "Institute of Foundation Models",
-   "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
-   "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
-   "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-   "Latent Feedback Is a Compute and Data Amplifier",
-   "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
-   "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-   "Marimba: A System One Model for Speech",
-   "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
-   "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
-   "Nanyang Technological University",
-   "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
-   "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
-   "Pennsylvania State University",
-   "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
-   "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
-   "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
-   "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-   "Sage S2.1 Flash Technical Report",
-   "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-   "Shanghai Jiao Tong University",
-   "Termination Lag: Coding Agents Solve Early but Stop Late",
-   "UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models",
+   "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+   "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+   "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+   "Regularized Score Centering",
+   "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+   "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+   "The Chinese University of Hong Kong",
    "University of Illinois at Urbana-Champaign",
-   "University of Southern California",
-   "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-   "VoxMel TTS Technical Report",
-   "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-   "Zuse: A Decision Model for European Languages",
+   "Weight-Space Programming Doesn't Need Transformers",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-18T02:18:54+00:00",
+  "changed_at": "2026-11-18T04:18:43+00:00",
   "added": [
    {
-    "text": "Georgia Institute of Technology",
-    "url": "https://huggingface.co/GeorgiaTech"
+    "text": "Weight-Space Programming Doesn't Need Transformers",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
+    "text": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
     "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "The Chinese University of Hong Kong",
+    "url": "https://huggingface.co/CUHK-CSE"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-18T02:18:57+00:00",
+  "checked_at": "2026-11-18T04:18:46+00:00",
   "hash": "e4e56a58ca1a3a96c9eac59ce9b712b99cf81d54",
   "known": [
    "AI and human rights for youth",
@@ -257,7 +231,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-18T02:18:58+00:00",
+  "checked_at": "2026-11-18T04:18:47+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -355,7 +329,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-18T02:18:56+00:00",
+  "checked_at": "2026-11-18T04:18:46+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
