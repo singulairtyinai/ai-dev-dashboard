@@ -1,6 +1,76 @@
 {
- "updated": "2026-11-18T14:19:50+00:00",
+ "updated": "2026-11-18T16:17:45+00:00",
  "items": [
+  {
+   "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+   "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+   "published": "2026-11-18T16:07:50+00:00",
+   "preview": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from…",
+   "id": "4ffcff840376",
+   "source": "marktechpost",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Remember the frontier AI pause? Chip companies don’t either",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+   "published": "2026-11-18T15:44:02+00:00",
+   "preview": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security…",
+   "id": "d4ec48204849",
+   "source": "the-verge-ai",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Quickly, There’s No Time",
+   "url": "https://thezvi.wordpress.com/2026/11/18/quickly-theres-no-time/",
+   "published": "2026-11-18T15:18:52+00:00",
+   "preview": "In response to the METR report, many people have been reevaluating their timelines. Two prominent reactions are a new timelines update from the AI Futures Project, and the new predictions of Paul Christiano (day 1, day…",
+   "id": "1a9d28096346",
+   "source": "don-t-worry-about-the-vase-zvi",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
+   "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+   "published": "2026-11-18T15:02:40+00:00",
+   "preview": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
+   "id": "1b11d2c31e28",
+   "source": "wired-ai",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "published": "2026-11-18T15:00:23+00:00",
+   "preview": "",
+   "id": "bf1424b145e4",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "The AI Hype Index: AI is everywhere",
+   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "published": "2026-11-18T14:42:44+00:00",
+   "preview": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people…",
+   "id": "bb3ee1cf50e2",
+   "source": "mit-technology-review-ai",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Will Wright’s next game uses AI to map your memories",
+   "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+   "published": "2026-11-18T14:00:00+00:00",
+   "preview": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it…",
+   "id": "84d2fa603ef6",
+   "source": "the-verge-ai",
+   "fetched": "2026-11-18T14:19:50+00:00",
+   "countries": []
+  },
   {
    "title": "HDP Nexus Programming in the Sahel: Partnering for Social Cohesion in a Changing Geopolitical and Aid Landscape",
    "url": "https://www.sipri.org/publications/2026/research-reports/hdp-nexus-programming-sahel-partnering-social-cohesion-changing-geopolitical-and-aid-landscape",
@@ -12,16 +82,6 @@
    "countries": [
     "Sweden"
    ]
-  },
-  {
-   "title": "Will Wright’s next game uses AI to map your memories",
-   "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-   "published": "2026-11-18T14:00:00+00:00",
-   "preview": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it…",
-   "id": "84d2fa603ef6",
-   "source": "the-verge-ai",
-   "fetched": "2026-11-18T14:19:50+00:00",
-   "countries": []
   },
   {
    "title": "Putting Pacing Into Practice",
@@ -37,12 +97,24 @@
    "title": "Nvidia isn’t selling any more AI chips to China",
    "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
    "published": "2026-11-18T13:01:05+00:00",
-   "preview": "Nvidia has stopped sending its advanced AI chips to China, despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an…",
+   "preview": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an…",
    "id": "ce416493dbd7",
    "source": "the-verge-ai",
    "fetched": "2026-11-18T14:19:50+00:00",
    "countries": [
     "China",
+    "United States"
+   ]
+  },
+  {
+   "title": "Quantum Physics Can Verify a Person’s Location, NIST Researchers Show",
+   "url": "https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show",
+   "published": "2026-11-18T12:00:00+00:00",
+   "preview": "The technique offers the potential to protect infrastructure, safeguard financial institutions and prevent phishing.",
+   "id": "0d5ab9d7147d",
+   "source": "nist-information-technology",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": [
     "United States"
    ]
   },
@@ -156,6 +228,16 @@
    ]
   },
   {
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "published": "2026-11-18T00:00:00+00:00",
+   "preview": "",
+   "id": "679cee5ea146",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
    "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
    "published": "2026-11-18T00:00:00+00:00",
@@ -183,6 +265,16 @@
    "id": "21729ee21b74",
    "source": "axios-technology",
    "fetched": "2026-11-18T00:18:48+00:00",
+   "countries": []
+  },
+  {
+   "title": "The Rubio Recession",
+   "url": "https://rightaroundtheperimeter.substack.com/p/the-rubio-recession",
+   "published": "2026-11-17T23:22:37+00:00",
+   "preview": "Are you ready for the Rubio Recession?!",
+   "id": "73d0112a83f2",
+   "source": "right-around-the-perimeter",
+   "fetched": "2026-11-18T16:17:45+00:00",
    "countries": []
   },
   {
@@ -2237,6 +2329,16 @@
    "countries": []
   },
   {
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16T00:00:00+00:00",
+   "preview": "",
+   "id": "853b24ff0d6e",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-16T18:18:07+00:00",
+   "countries": []
+  },
+  {
    "title": "The King’s Trust and OpenAI launch £1m partnership",
    "url": "https://openai.com/index/the-kings-trust-and-openai",
    "published": "2026-11-16T00:00:00+00:00",
@@ -2254,16 +2356,6 @@
    "id": "3899b6e8ee3c",
    "source": "openai-news",
    "fetched": "2026-11-16T22:18:00+00:00",
-   "countries": []
-  },
-  {
-   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-   "url": "https://huggingface.co/blog/openrouter",
-   "published": "2026-11-16T00:00:00+00:00",
-   "preview": "",
-   "id": "853b24ff0d6e",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-16T18:18:07+00:00",
    "countries": []
   },
   {
@@ -3400,16 +3492,6 @@
    "countries": []
   },
   {
-   "title": "I reviewed the Apple HomeView, ask me anything",
-   "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-   "published": "2026-11-12T14:10:00+00:00",
-   "preview": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop…",
-   "id": "39f4c129e434",
-   "source": "the-verge-ai",
-   "fetched": "2026-11-12T14:19:19+00:00",
-   "countries": []
-  },
-  {
    "title": "Jensen Huang, an architect of the AI boom, resigns as Nvidia CEO",
    "url": "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out",
    "published": "2026-11-12T14:07:56+00:00",
@@ -3516,6 +3598,16 @@
    "countries": []
   },
   {
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "published": "2026-11-12T00:00:00+00:00",
+   "preview": "",
+   "id": "56dac742ff29",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-12T16:18:07+00:00",
+   "countries": []
+  },
+  {
    "title": "Supporting research on AI and children’s safety",
    "url": "https://openai.com/index/children-first-declaration",
    "published": "2026-11-12T00:00:00+00:00",
@@ -3533,16 +3625,6 @@
    "id": "a045ec708b22",
    "source": "openai-news",
    "fetched": "2026-11-17T18:17:59+00:00",
-   "countries": []
-  },
-  {
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "published": "2026-11-12T00:00:00+00:00",
-   "preview": "",
-   "id": "56dac742ff29",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-12T16:18:07+00:00",
    "countries": []
   },
   {
@@ -3882,16 +3964,6 @@
    "event": "2026-11-12T00:00:00+00:00"
   },
   {
-   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-   "url": "https://openai.com/index/jiostar-vijay-seshadri",
-   "published": "2026-11-11T00:00:00+00:00",
-   "preview": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-   "id": "8c999d6885d2",
-   "source": "openai-news",
-   "fetched": "2026-11-11T22:18:28+00:00",
-   "countries": []
-  },
-  {
    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
    "url": "https://huggingface.co/blog/token-pooling",
    "published": "2026-11-11T00:00:00+00:00",
@@ -3899,6 +3971,16 @@
    "id": "d2296a64c0dc",
    "source": "hugging-face-blog",
    "fetched": "2026-11-11T16:18:34+00:00",
+   "countries": []
+  },
+  {
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "published": "2026-11-11T00:00:00+00:00",
+   "preview": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "id": "8c999d6885d2",
+   "source": "openai-news",
+   "fetched": "2026-11-11T22:18:28+00:00",
    "countries": []
   },
   {
@@ -4384,26 +4466,6 @@
    ]
   },
   {
-   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-   "url": "https://openai.com/index/cogent-security",
-   "published": "2026-11-10T00:00:00+00:00",
-   "preview": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-   "id": "1ff74ee2cb10",
-   "source": "openai-news",
-   "fetched": "2026-11-11T06:22:23+00:00",
-   "countries": []
-  },
-  {
-   "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
-   "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-   "published": "2026-11-10T00:00:00+00:00",
-   "preview": "",
-   "id": "e4986eb6b67a",
-   "source": "artificial-analysis",
-   "fetched": "2026-11-10T20:18:57+00:00",
-   "countries": []
-  },
-  {
    "title": "Decision Models in Hugging Face",
    "url": "https://huggingface.co/blog/decision",
    "published": "2026-11-10T00:00:00+00:00",
@@ -4421,6 +4483,26 @@
    "id": "724fae925148",
    "source": "hugging-face-blog",
    "fetched": "2026-11-10T18:17:50+00:00",
+   "countries": []
+  },
+  {
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "url": "https://openai.com/index/cogent-security",
+   "published": "2026-11-10T00:00:00+00:00",
+   "preview": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "id": "1ff74ee2cb10",
+   "source": "openai-news",
+   "fetched": "2026-11-11T06:22:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+   "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+   "published": "2026-11-10T00:00:00+00:00",
+   "preview": "",
+   "id": "e4986eb6b67a",
+   "source": "artificial-analysis",
+   "fetched": "2026-11-10T20:18:57+00:00",
    "countries": []
   },
   {
@@ -4898,16 +4980,6 @@
    "countries": []
   },
   {
-   "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-   "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
-   "published": "2026-11-08T12:00:00+00:00",
-   "preview": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
-   "id": "3b57d3e3ef87",
-   "source": "wired-ai",
-   "fetched": "2026-11-08T12:18:14+00:00",
-   "countries": []
-  },
-  {
    "title": "Why the Cyberpocalypse Might Hit China Harder",
    "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
    "published": "2026-11-08T11:03:30+00:00",
@@ -4957,16 +5029,6 @@
    "id": "5d18d08c2155",
    "source": "marktechpost",
    "fetched": "2026-11-08T08:18:00+00:00",
-   "countries": []
-  },
-  {
-   "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-   "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
-   "published": "2026-11-08T04:45:59+00:00",
-   "preview": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases…",
-   "id": "15fd7ad56b7b",
-   "source": "marktechpost",
-   "fetched": "2026-11-08T06:18:02+00:00",
    "countries": []
   },
   {
@@ -5274,16 +5336,6 @@
    ]
   },
   {
-   "title": "VIALS-AA: different paths to scientific image reasoning",
-   "url": "https://artificialanalysis.ai/articles/vials-aa",
-   "published": "2026-11-06T00:00:00+00:00",
-   "preview": "",
-   "id": "24d8c7b58277",
-   "source": "artificial-analysis",
-   "fetched": "2026-11-06T12:20:53+00:00",
-   "countries": []
-  },
-  {
    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
    "published": "2026-11-06T00:00:00+00:00",
@@ -5291,6 +5343,16 @@
    "id": "82196d4ece0a",
    "source": "hugging-face-blog",
    "fetched": "2026-11-06T10:18:46+00:00",
+   "countries": []
+  },
+  {
+   "title": "VIALS-AA: different paths to scientific image reasoning",
+   "url": "https://artificialanalysis.ai/articles/vials-aa",
+   "published": "2026-11-06T00:00:00+00:00",
+   "preview": "",
+   "id": "24d8c7b58277",
+   "source": "artificial-analysis",
+   "fetched": "2026-11-06T12:20:53+00:00",
    "countries": []
   },
   {
@@ -5479,6 +5541,16 @@
    "countries": []
   },
   {
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "published": "2026-11-05T00:00:00+00:00",
+   "preview": "",
+   "id": "89209ab642b1",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-05T12:19:03+00:00",
+   "countries": []
+  },
+  {
    "title": "Nanbeige has released Nanbeige4.3-33B scoring 20 on the Intelligence Index",
    "url": "https://artificialanalysis.ai/articles/nanbeige-has-released-nanbeige4-3-33b-scoring-20-on-the-intelligence-index",
    "published": "2026-11-05T00:00:00+00:00",
@@ -5499,16 +5571,6 @@
    "countries": [
     "China"
    ]
-  },
-  {
-   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-   "url": "https://huggingface.co/blog/phonon-tts",
-   "published": "2026-11-05T00:00:00+00:00",
-   "preview": "",
-   "id": "89209ab642b1",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-05T12:19:03+00:00",
-   "countries": []
   },
   {
    "title": "Centcom Benefits From Project Agincourt, Drone Dominance Efforts",
@@ -7577,16 +7639,6 @@
    ]
   },
   {
-   "title": "Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models",
-   "url": "https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks",
-   "published": "2026-10-23T00:00:00+00:00",
-   "preview": "",
-   "id": "279499f839a3",
-   "source": "artificial-analysis",
-   "fetched": "2026-10-23T18:26:49+00:00",
-   "countries": []
-  },
-  {
    "title": "Does Your Model Run on AWS Trainium? Look It Up",
    "url": "https://huggingface.co/blog/torch-neuronx-model-support",
    "published": "2026-10-23T00:00:00+00:00",
@@ -7594,6 +7646,16 @@
    "id": "6430909168b5",
    "source": "hugging-face-blog",
    "fetched": "2026-10-23T13:33:10+00:00",
+   "countries": []
+  },
+  {
+   "title": "Kimi K3.1 Pro launches at 4th on the Intelligence Index and will lead open weights models",
+   "url": "https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks",
+   "published": "2026-10-23T00:00:00+00:00",
+   "preview": "",
+   "id": "279499f839a3",
+   "source": "artificial-analysis",
+   "fetched": "2026-10-23T18:26:49+00:00",
    "countries": []
   },
   {
@@ -7894,26 +7956,6 @@
    "id": "439ebc99cd92",
    "source": "fyi-this-week-aip",
    "fetched": "2026-10-21T16:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1-system-level-profilin",
-   "published": "2026-10-21T16:04:43+00:00",
-   "preview": "",
-   "id": "2dc9813e5c8c",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-21T16:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-   "published": "2026-10-21T16:04:43+00:00",
-   "preview": "",
-   "id": "f9b499debdda",
-   "source": "hugging-face-blog",
-   "fetched": "2026-10-21T18:18:50+00:00",
    "countries": []
   },
   {
@@ -9802,16 +9844,6 @@
    "published": "2026-10-08T09:00:00+00:00",
    "preview": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped…",
    "id": "7e0548f31e36",
-   "source": "mit-technology-review-ai",
-   "fetched": "2026-10-08T10:18:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "Building a safer path to autonomous industrial AI",
-   "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-   "published": "2026-10-08T08:17:32+00:00",
-   "preview": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex…",
-   "id": "48f3042078ba",
    "source": "mit-technology-review-ai",
    "fetched": "2026-10-08T10:18:12+00:00",
    "countries": []
@@ -11879,16 +11911,6 @@
    "preview": "In gory detail: reliability, performance, support, pricing—and, of course, security—in our most thorough analysis of GPU cloud providers globally.",
    "id": "064a94516eac",
    "source": "semianalysis",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "Claude Opus 5.5: The System Card",
-   "url": "https://thezvi.wordpress.com/2026/09/23/claude-opus-5-5-the-system-card/",
-   "published": "2026-09-23T21:09:04+00:00",
-   "preview": "Introducing the world’s most powerful model, at least by some measures like Artificial Analysis or any standard benchmark list, which is now Claude Opus 5.5. Anthropic is claiming Opus 5.5 is outright as good or better…",
-   "id": "73aa01c695c1",
-   "source": "don-t-worry-about-the-vase-zvi",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
@@ -15914,18 +15936,6 @@
    "source": "ai-safety-newsletter-cais",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
-  },
-  {
-   "title": "NCCoE Cybersecurity Connections Event: Accelerating the Adoption of Mobile Driver's Licenses",
-   "url": "https://www.nist.gov/news-events/events/2026/07/nccoe-cybersecurity-connections-event-accelerating-adoption-mobile",
-   "published": "2026-07-21T15:00:00+00:00",
-   "preview": "Event Date: July 21, 2026 Event Time: 11:00 A.M. – 1:30 P.M. EDT The NIST National Cybersecurity Center of Excellence (NCCoE) is proud to host a quarterly Cybersecurity Connections event and networking lunch in…",
-   "id": "7268d339f477",
-   "source": "nist-information-technology",
-   "fetched": "2026-07-21T15:00:00+00:00",
-   "countries": [
-    "United States"
-   ]
   },
   {
    "title": "Anecdotes Everywhere, Evidence Almost Nowhere",
