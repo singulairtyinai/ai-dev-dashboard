@@ -1,68 +1,64 @@
 {
- "generated_at": "2026-11-18T05:55:00+00:00",
+ "generated_at": "2026-11-19T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "The DOJ and Commerce Department are investigating Megaspeed, the firm at the center of Nvidia's spy scandal, as Jensen Huang agreed to testify before Congress and UNIDIR warned of open-source AI's risks to international security.",
+ "headline": "Nvidia stopped selling advanced AI chips to China entirely as Trump's chip crackdown heated up, while Anthropic went public at over $1 trillion and researchers updated AI timelines after a new acceleration report.",
  "points": [
   {
-   "text": "The Justice and Commerce Departments said they are investigating Megaspeed, the Singapore-based data center company intertwined with former Nvidia CEO Jensen Huang's resignation.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["cb8293f821d9"]
-  },
-  {
-   "text": "Jensen Huang and Nvidia general counsel Tim Teter will testify before Congress in early December, as lawmakers seek answers on whether Nvidia's AI chips reached China improperly.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["5d47aab2d4b8"]
-  },
-  {
-   "text": "ChinaTalk asked whether the Bureau of Industry and Security's crackdown means the era of 'compute leakage' to China is over.",
+   "text": "Nvidia has stopped sending its advanced AI chips to China, despite approval it received from the White House in December, interim CEO Colette Kress announced.",
    "cats": ["geo", "hw"],
-   "item_ids": ["ddf94e2e5e78"]
+   "item_ids": ["ce416493dbd7"]
   },
   {
-   "text": "UNIDIR warned that open-source AI remains an under-addressed international security issue, with proliferation risks among malicious non-state actors growing rapidly.",
-   "cats": ["peace", "risk"],
-   "item_ids": ["533e81016721"]
+   "text": "The Trump administration's plans to clamp down on China's access to AI chips are heating up, motivated in part by the Nvidia spy scandal, as officials say they doubt Trump's China trip will yield progress on AI.",
+   "cats": ["geo", "hw"],
+   "item_ids": ["d1d45343ebee", "66a7c55dd51c"]
   },
   {
-   "text": "UNIDIR helped Cabo Verde conduct a national weapons and ammunition management baseline assessment, in partnership with the Economic Community of West African States.",
-   "cats": ["peace"],
-   "item_ids": ["462358f6a23b"]
+   "text": "Anthropic went public, raising over $81 billion in an IPO that valued the Claude maker at over $1 trillion.",
+   "cats": ["geo"],
+   "item_ids": ["9e95a87976f9", "909b75797cd1"]
   },
   {
-   "text": "OpenAI gave NATO access to its most advanced cybersecurity AI, which operators used this month to build and deploy AI agents in an exercise.",
-   "cats": ["mil"],
-   "item_ids": ["a52d147c841b"]
+   "text": "Axios and Wired warned of a 'terrifying rise' in widely available AI hacking tools, including one called Artex, that let even unsophisticated attackers breach networks within hours.",
+   "cats": ["risk"],
+   "item_ids": ["ec035efde6d9", "c0bdf578bee4"]
   },
   {
-   "text": "Wired reported on two ex-Google and Apple executives who say AI guided them in building a billion-dollar lethal munitions manufacturing business.",
-   "cats": ["mil", "risk"],
-   "item_ids": ["ba3cf84247ee"]
+   "text": "The AI Futures Project and a separate newsletter proposed concrete ways to 'pace' frontier AI development through compute reallocation.",
+   "cats": ["risk", "gov"],
+   "item_ids": ["0690809afcd5", "c2b18dbba494"]
+  },
+  {
+   "text": "Commentators reacted to a new METR report on AI R&D acceleration by updating their AI timelines, including new predictions from Paul Christiano.",
+   "cats": ["risk"],
+   "item_ids": ["1a9d28096346"]
+  },
+  {
+   "text": "The ITU's AI for Good discussed global challenges in making AI telecommunications standards more accessible, and how AI is reshaping the pharmaceutical value chain.",
+   "cats": ["multi"],
+   "item_ids": ["91792125cf15", "9e9bef71b055"]
   }
  ],
  "categories": {
   "geo": [
-   "The DOJ and Commerce Department are investigating Megaspeed, the firm tied to Nvidia's spy scandal.",
-   "Jensen Huang agreed to testify before Congress in December.",
-   "ChinaTalk asked whether the era of 'compute leakage' to China is over."
-  ],
-  "gov": [
-   "The DOJ and Commerce Department are investigating Megaspeed.",
-   "Jensen Huang agreed to testify before Congress in December."
+   "Nvidia stopped selling advanced AI chips to China entirely.",
+   "Trump's chip crackdown on China heated up amid the Nvidia scandal.",
+   "Anthropic went public at over $1 trillion."
   ],
   "hw": [
-   "ChinaTalk asked whether the era of 'compute leakage' to China is over."
-  ],
-  "peace": [
-   "UNIDIR warned of open-source AI's proliferation risks to international security.",
-   "UNIDIR helped Cabo Verde conduct a weapons and ammunition management assessment."
+   "Nvidia stopped selling advanced AI chips to China entirely.",
+   "Trump's chip crackdown on China heated up amid the Nvidia scandal."
   ],
   "risk": [
-   "UNIDIR warned of open-source AI's proliferation risks to international security.",
-   "AI guided ex-Google and Apple executives in building a lethal munitions business."
+   "A terrifying rise in widely available AI hacking tools was reported.",
+   "Proposals emerged to pace frontier AI via compute reallocation.",
+   "Commentators updated AI timelines after a new AI R&D acceleration report."
   ],
-  "mil": [
-   "OpenAI gave NATO access to its most advanced cybersecurity AI.",
-   "AI guided ex-Google and Apple executives in building a lethal munitions business."
+  "gov": [
+   "Proposals emerged to pace frontier AI via compute reallocation."
+  ],
+  "multi": [
+   "The ITU's AI for Good discussed AI telecom standards and pharmaceutical AI."
   ]
  }
 }
