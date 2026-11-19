@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-19T08:17:48+00:00",
+  "checked_at": "2026-11-19T10:18:05+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-19T08:17:49+00:00",
+  "checked_at": "2026-11-19T10:18:06+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-19T08:17:49+00:00",
+  "checked_at": "2026-11-19T10:18:06+00:00",
   "hash": "5a7ffde4604dbee9fed267cd9eae0f0cc2cdc8c7",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -93,7 +93,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-19T08:17:49+00:00",
+  "checked_at": "2026-11-19T10:18:06+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -107,7 +107,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-19T08:17:51+00:00",
+  "checked_at": "2026-11-19T10:18:08+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-19T08:17:52+00:00",
+  "checked_at": "2026-11-19T10:18:07+00:00",
   "hash": "25eca1f784696b38b3511d2f1eb2cdab42552f49",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -153,12 +153,15 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-19T08:17:51+00:00",
-  "hash": "b75c6d3a611614f67c92d28b589fc995154572d5",
+  "checked_at": "2026-11-19T10:18:08+00:00",
+  "hash": "82fc3b9e4f3e9689ac1893bb8159da5ab9f278cc",
   "known": [
    "A Foundation Model to Measure and Predict Human Behaviour",
    "ALIVE: Making Streaming Video Models Interactive",
+   "BiCAT: Bimanual Coordination Action Tokenization",
+   "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
    "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+   "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
    "Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers",
    "DrawScore: Evaluating Generated CAD Models against Engineering Drawings",
    "Evidence-Based Credit Assignment for Search-Augmented Language Models",
@@ -170,6 +173,7 @@
    "Late Entry in Looped Language Models",
    "Learning Anisotropic Prediction Targets for Flow Models",
    "Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus",
+   "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
    "LogT: Logically Think with Images for Visual Search",
    "Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration",
    "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
@@ -177,6 +181,7 @@
    "National University of Singapore",
    "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
    "Out of Sight, Still in Mind: Token Compression for Omni-LLMs",
+   "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
    "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
    "PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling",
    "PReMind: When Personal Memory Meets Visual Hazards",
@@ -185,7 +190,9 @@
    "Recurrent Domain Incremental Adaptation of Time-Series Foundation Models",
    "RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models",
    "Seoul National University",
+   "Technion Israel institute of technology",
    "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+   "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
    "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
    "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
    "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
@@ -194,32 +201,36 @@
    "WorldRuler: Interactive World Modeling under Configurable Rules",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-19T08:17:51+00:00",
+  "changed_at": "2026-11-19T10:18:08+00:00",
   "added": [
    {
-    "text": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+    "text": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+    "text": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+    "text": "Technion Israel institute of technology",
+    "url": "https://huggingface.co/Technion"
+   },
+   {
+    "text": "BiCAT: Bimanual Coordination Action Tokenization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+    "text": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+    "text": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-19T08:17:53+00:00",
+  "checked_at": "2026-11-19T10:18:11+00:00",
   "hash": "47818ba45cdc4438da6def3b743c7d87d6c0afbe",
   "known": [
    "AI and human rights for youth",
@@ -249,7 +260,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-19T08:17:54+00:00",
+  "checked_at": "2026-11-19T10:18:11+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -347,7 +358,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-19T08:17:53+00:00",
+  "checked_at": "2026-11-19T10:18:10+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
