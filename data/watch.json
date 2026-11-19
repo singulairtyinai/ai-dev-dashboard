@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-19T02:17:36+00:00",
+  "checked_at": "2026-11-19T04:18:14+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-19T02:17:37+00:00",
+  "checked_at": "2026-11-19T04:18:14+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-19T02:17:37+00:00",
+  "checked_at": "2026-11-19T04:18:15+00:00",
   "hash": "5a7ffde4604dbee9fed267cd9eae0f0cc2cdc8c7",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -93,7 +93,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-19T02:17:38+00:00",
+  "checked_at": "2026-11-19T04:18:16+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -107,7 +107,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-19T02:17:40+00:00",
+  "checked_at": "2026-11-19T04:18:18+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-19T02:17:40+00:00",
+  "checked_at": "2026-11-19T04:18:17+00:00",
   "hash": "25eca1f784696b38b3511d2f1eb2cdab42552f49",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -153,71 +153,57 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-19T02:17:40+00:00",
-  "hash": "49c075d97ee2ade275a5972910986485df051993",
+  "checked_at": "2026-11-19T04:18:18+00:00",
+  "hash": "1ba2c8c84f3ec21223d8a2af4ddfc290b60ef5d6",
   "known": [
-   "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
-   "Algorithms and Optimization Group - ETH Zurich",
-   "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
-   "Attention at Absolute Zero",
-   "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
-   "Beyond Answering: Learning to Speak First and Act in Streaming Video",
-   "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
-   "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
-   "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
-   "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
-   "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-   "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
-   "FastFrames: Video Generation at Interactive Latency",
-   "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
-   "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
-   "GameRealm: Grounding Visual Learning in Interactive Games",
-   "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
-   "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-   "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
-   "Lab of Efficient AI and Data",
-   "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
-   "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
-   "MPEG-Diffusion: Mixed-Resolution Video Generation",
-   "Massachusetts Institute of Technology",
-   "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
-   "MillBill: A Machining Agent with Geometric Feedback",
-   "Mohamed Bin Zayed University of Artificial Intelligence",
-   "PanDWM: Panoramic 4D Driving World Models",
-   "Pohang University of Science and Technology",
-   "Regularized Score Centering",
-   "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
-   "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
-   "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
-   "TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates",
-   "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-   "The Chinese University of Hong Kong",
-   "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
-   "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
+   "ALIVE: Making Streaming Video Models Interactive",
+   "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+   "Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers",
+   "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+   "IDEA: Intent-Dominance Evidence Audit for Inference-Time Backdoor Detection in GUI Agents",
+   "Learning Anisotropic Prediction Targets for Flow Models",
+   "Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus",
+   "LogT: Logically Think with Images for Visual Search",
+   "Nanyang Technological University",
+   "PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling",
+   "QDA: Closed-Loop LLM Quantization Design with Agents",
+   "Recurrent Domain Incremental Adaptation of Time-Series Foundation Models",
+   "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+   "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
    "University of Illinois at Urbana-Champaign",
-   "University of Southern California",
-   "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
-   "VideoNexus: Video Perception Beyond the Reasoning Context",
-   "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
-   "Weight-Space Programming Doesn't Need Transformers",
-   "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-   "by AK and the research community",
-   "π^4: A Foundation Model for 4D Scene Geometry and Motion"
+   "VAE Rhythm: Temporal Decoding Traces for AI-Generated Video Detection",
+   "by AK and the research community"
   ],
-  "changed_at": "2026-11-19T02:17:40+00:00",
+  "changed_at": "2026-11-19T04:18:18+00:00",
   "added": [
    {
-    "text": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+    "text": "PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Mohamed Bin Zayed University of Artificial Intelligence",
-    "url": "https://huggingface.co/MBZUAI"
+    "text": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ALIVE: Making Streaming Video Models Interactive",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers",
+    "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-19T02:17:42+00:00",
+  "checked_at": "2026-11-19T04:18:22+00:00",
   "hash": "47818ba45cdc4438da6def3b743c7d87d6c0afbe",
   "known": [
    "AI and human rights for youth",
@@ -247,7 +233,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-19T02:17:43+00:00",
+  "checked_at": "2026-11-19T04:18:23+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -345,7 +331,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-19T02:17:42+00:00",
+  "checked_at": "2026-11-19T04:18:22+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
