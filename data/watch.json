@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-19T10:28:07+00:00",
+  "checked_at": "2026-11-19T12:18:28+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-19T10:28:08+00:00",
+  "checked_at": "2026-11-19T12:18:28+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-19T10:28:08+00:00",
+  "checked_at": "2026-11-19T12:18:29+00:00",
   "hash": "5a7ffde4604dbee9fed267cd9eae0f0cc2cdc8c7",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -93,7 +93,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-19T10:28:09+00:00",
+  "checked_at": "2026-11-19T12:18:29+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -107,7 +107,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-19T10:28:11+00:00",
+  "checked_at": "2026-11-19T12:18:31+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-19T10:28:10+00:00",
+  "checked_at": "2026-11-19T12:18:30+00:00",
   "hash": "25eca1f784696b38b3511d2f1eb2cdab42552f49",
   "known": [
    "CNAS Insights | National Security Agenda in the New Congress: A 10-Item To-Do List",
@@ -153,11 +153,12 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-19T10:28:12+00:00",
-  "hash": "82fc3b9e4f3e9689ac1893bb8159da5ab9f278cc",
+  "checked_at": "2026-11-19T12:18:31+00:00",
+  "hash": "8ba1ce8fb8c02c3133c7e4ee2637b46166c588d8",
   "known": [
    "A Foundation Model to Measure and Predict Human Behaviour",
    "ALIVE: Making Streaming Video Models Interactive",
+   "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
    "BiCAT: Bimanual Coordination Action Tokenization",
    "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
    "Code World Model 2.0: Towards Infinite Controllable Video Generation",
@@ -170,6 +171,7 @@
    "HINT-WAM: Hindsight-Informed Training for World Action Models",
    "IDEA: Intent-Dominance Evidence Audit for Inference-Time Backdoor Detection in GUI Agents",
    "Jeveration: System One Models Now Generate",
+   "Karlsruhe Institute of Technology",
    "Late Entry in Looped Language Models",
    "Learning Anisotropic Prediction Targets for Flow Models",
    "Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus",
@@ -190,6 +192,8 @@
    "Recurrent Domain Incremental Adaptation of Time-Series Foundation Models",
    "RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models",
    "Seoul National University",
+   "Shanghai Jiao Tong University",
+   "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
    "Technion Israel institute of technology",
    "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
    "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
@@ -197,40 +201,42 @@
    "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
    "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
    "University of Illinois at Urbana-Champaign",
+   "University of Science and Technology of China",
    "VAE Rhythm: Temporal Decoding Traces for AI-Generated Video Detection",
+   "WaveView: The Novel View Is in the Noise",
    "WorldRuler: Interactive World Modeling under Configurable Rules",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-19T10:18:08+00:00",
+  "changed_at": "2026-11-19T12:18:31+00:00",
   "added": [
    {
-    "text": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+    "text": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+    "text": "Shanghai Jiao Tong University",
+    "url": "https://huggingface.co/SJTU"
+   },
+   {
+    "text": "University of Science and Technology of China",
+    "url": "https://huggingface.co/ustc-community"
+   },
+   {
+    "text": "WaveView: The Novel View Is in the Noise",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Technion Israel institute of technology",
-    "url": "https://huggingface.co/Technion"
+    "text": "Karlsruhe Institute of Technology",
+    "url": "https://huggingface.co/KIT-Karlsruhe"
    },
    {
-    "text": "BiCAT: Bimanual Coordination Action Tokenization",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+    "text": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-19T10:18:11+00:00",
+  "checked_at": "2026-11-19T12:18:33+00:00",
   "hash": "47818ba45cdc4438da6def3b743c7d87d6c0afbe",
   "known": [
    "AI and human rights for youth",
@@ -260,7 +266,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-19T10:28:16+00:00",
+  "checked_at": "2026-11-19T12:18:34+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -358,7 +364,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-19T10:28:15+00:00",
+  "checked_at": "2026-11-19T12:18:33+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
