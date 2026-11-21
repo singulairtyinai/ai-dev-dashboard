@@ -1,39 +1,39 @@
 {
  "geo": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
+  "generated_at": "2026-11-21T12:46:35+00:00",
   "method": "extractive",
   "bullets": [
-   "Trump floats major tax on U.S.",
    "companies constructing data centers overseas",
+   "Trump floats major tax on U.S.",
    "Scoop: Trump names Kirsten Davies as new national cyber director",
-   "President Trump on Friday said he would block U.S."
+   "Why it matters: Trump's push to keep AI infrastructure in the country…"
+  ],
+  "based_on": 9
+ },
+ "gov": {
+  "generated_at": "2026-11-21T12:46:35+00:00",
+  "method": "extractive",
+  "bullets": [
+   "Effective Altruism is Too Tied to the AI Industry to Stop It",
+   "The movement has grown too close to AI companies and too open to handing the future to AI.",
+   "Legislative proposals to address broadband rollout in leasehold flats",
+   "This consultation seeks views on legislative proposals to address broadband in leasehold flats."
+  ],
+  "based_on": 6
+ },
+ "risk": {
+  "generated_at": "2026-11-21T12:46:35+00:00",
+  "method": "extractive",
+  "bullets": [
+   "Backtracking Agent Applications Security Incidents",
+   "ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models",
+   "Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them.",
+   "These attacks inject malicious messages…"
   ],
   "based_on": 12
  },
- "gov": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
-  "method": "extractive",
-  "bullets": [
-   "Mobile driver’s licenses could help U.S.",
-   "Updated Guidelines: Accelerating the Adoption of Mobile Driver’s Licenses (mDL)",
-   "Effective Altruism is Too Tied to the AI Industry to Stop It",
-   "NIST Project Aims to Accelerate Mobile Driver’s License Adoption"
-  ],
-  "based_on": 8
- },
- "risk": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
-  "method": "extractive",
-  "bullets": [
-   "ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models",
-   "Mobile driver’s licenses could help U.S.",
-   "While prior cache-based side-channel attacks target the locally deployed models,…",
-   "These attacks inject malicious messages…"
-  ],
-  "based_on": 18
- },
  "mil": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
+  "generated_at": "2026-11-21T12:46:35+00:00",
   "method": "extractive",
   "bullets": [
    "The Army wants its units to use more data, but many aren’t built to do so",
@@ -44,18 +44,18 @@
   "based_on": 2
  },
  "tech": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
+  "generated_at": "2026-11-21T12:46:35+00:00",
   "method": "extractive",
   "bullets": [
-   "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
    "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints.",
-   "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+   "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+   "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
    "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost"
   ],
   "based_on": 25
  },
  "models": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
+  "generated_at": "2026-11-21T12:46:35+00:00",
   "method": "extractive",
   "bullets": [
    "Gemini on Mac can now use your computer",
@@ -66,7 +66,7 @@
   "based_on": 25
  },
  "hw": {
-  "generated_at": "2026-11-21T03:15:58+00:00",
+  "generated_at": "2026-11-21T12:46:35+00:00",
   "method": "extractive",
   "bullets": [
    "The Genesis Mission aims to harness artificial intelligence to supercharge scientific innovation and support the United States’ technological leadership, including in biotechnology.",

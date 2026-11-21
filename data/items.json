@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-21T03:15:30+00:00",
+ "updated": "2026-11-21T12:46:07+00:00",
  "items": [
+  {
+   "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+   "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+   "published": "2026-11-21T12:13:50+00:00",
+   "preview": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified. The post Meet Thinking…",
+   "id": "cc5c5c9af1c5",
+   "source": "marktechpost",
+   "fetched": "2026-11-21T12:46:07+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+   "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+   "published": "2026-11-21T11:46:17+00:00",
+   "preview": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $0.05. The post…",
+   "id": "1be0cb9ade49",
+   "source": "marktechpost",
+   "fetched": "2026-11-21T12:46:07+00:00",
+   "countries": []
+  },
+  {
+   "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+   "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+   "published": "2026-11-21T04:01:04+00:00",
+   "preview": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4. bison-1 scores 76 on the AA Decision Index v2.1, and both models support 128k context and image input. The post Baseten Releases…",
+   "id": "cdc6e41e5553",
+   "source": "marktechpost",
+   "fetched": "2026-11-21T12:46:07+00:00",
+   "countries": []
+  },
   {
    "title": "Trump, UFC President Gift Half-Million Dollars to Marine Corps Band",
    "url": "https://www.war.gov/News/News-Stories/Article/Article/4657727/trump-ufc-president-gift-half-million-dollars-to-marine-corps-band/",
@@ -5037,16 +5067,6 @@
    "countries": []
   },
   {
-   "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
-   "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
-   "published": "2026-11-10T23:20:19+00:00",
-   "preview": "Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters. The post Meta FAIR Releases…",
-   "id": "03a27d01d5e8",
-   "source": "marktechpost",
-   "fetched": "2026-11-11T00:17:46+00:00",
-   "countries": []
-  },
-  {
    "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
    "url": "https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/",
    "published": "2026-11-10T22:00:00+00:00",
@@ -5184,26 +5204,6 @@
    "preview": "We wanted to get this post out quickly given the urgency of the topic.",
    "id": "f9adcb20139d",
    "source": "ai-futures-project",
-   "fetched": "2026-11-10T16:19:49+00:00",
-   "countries": []
-  },
-  {
-   "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
-   "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
-   "published": "2026-11-10T15:42:55+00:00",
-   "preview": "Zyphra released ZONOS3-Mini, an Apache 2.0 text-to-speech model with 800M total and 100M active parameters. It clones voices, steers delivery word by word and runs in real time in the browser The post Zyphra Releases…",
-   "id": "8e7275213196",
-   "source": "marktechpost",
-   "fetched": "2026-11-10T16:19:49+00:00",
-   "countries": []
-  },
-  {
-   "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-   "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
-   "published": "2026-11-10T14:59:09+00:00",
-   "preview": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The…",
-   "id": "978008989f5d",
-   "source": "marktechpost",
    "fetched": "2026-11-10T16:19:49+00:00",
    "countries": []
   },
@@ -16055,36 +16055,6 @@
    "preview": "Across the world, despots and and wannabe dictators are deploying new tools, both legal and technological, to stifle dissent and oppress. Today’s guest is Jonathon W. Penney , the author of Chilling Effects: Repression,…",
    "id": "e062f531a8f6",
    "source": "tech-policy-press-podcast",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "AI Risk Management Newsletter #42",
-   "url": "https://jonasfreund.substack.com/p/ai-risk-management-newsletter-42",
-   "published": "2026-07-24T09:43:41+00:00",
-   "preview": "Highlights: Moonshot AI releases open-weight model Kimi K3. OpenAI and Hugging Face report serious security incident. GovAI is looking for Research Scholars and Research Fellows.",
-   "id": "9c4b4b34def9",
-   "source": "jonas-freund",
-   "fetched": "2026-09-26T13:31:18+00:00",
-   "countries": []
-  },
-  {
-   "title": "AI Risk Management Newsletter #42",
-   "url": "https://rss2json.com/to/PMpi8d-HuRINhylt1svchKOm_w",
-   "published": "2026-07-24T09:43:41+00:00",
-   "preview": "Highlights: Moonshot AI releases open-weight model Kimi K3. OpenAI and Hugging Face report serious security incident. GovAI is looking for Research Scholars and Research Fellows.",
-   "id": "d3fac37801a7",
-   "source": "jonas-freund",
-   "fetched": "2026-11-16T16:19:34+00:00",
-   "countries": []
-  },
-  {
-   "title": "Metrics of Agent Ability",
-   "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
-   "published": "2026-07-24T07:00:00+00:00",
-   "preview": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical…",
-   "id": "bc2a465fd347",
-   "source": "metr",
    "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
