@@ -1,64 +1,51 @@
 {
- "generated_at": "2026-11-19T05:55:00+00:00",
+ "generated_at": "2026-11-22T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Nvidia stopped selling advanced AI chips to China entirely as Trump's chip crackdown heated up, while Anthropic went public at over $1 trillion and researchers updated AI timelines after a new acceleration report.",
+ "headline": "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons, as Trump threatened a 'tremendous tax' on AI data centers built outside the US and new reporting detailed Jensen Huang's 'lack of candor' before his ouster.",
  "points": [
   {
-   "text": "Nvidia has stopped sending its advanced AI chips to China, despite approval it received from the White House in December, interim CEO Colette Kress announced.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["ce416493dbd7"]
+   "text": "UN diplomats meeting in Geneva this week failed to agree on rules regulating autonomous weapons, or so-called 'killer robots.'",
+   "cats": ["peace", "mil"],
+   "item_ids": ["234da3fc1867"]
   },
   {
-   "text": "The Trump administration's plans to clamp down on China's access to AI chips are heating up, motivated in part by the Nvidia spy scandal, as officials say they doubt Trump's China trip will yield progress on AI.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["d1d45343ebee", "66a7c55dd51c"]
+   "text": "President Trump said he would block US companies from building data centers overseas or impose a 'tremendous tax' on them if they do, as part of a push to keep AI infrastructure in the country.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["1de069dddb7d", "3a0cb236fd32"]
   },
   {
-   "text": "Anthropic went public, raising over $81 billion in an IPO that valued the Claude maker at over $1 trillion.",
+   "text": "Wired reported that Nvidia's board was most alarmed by former CEO Jensen Huang's 'lack of candor,' rather than the affairs themselves, ahead of his resignation.",
    "cats": ["geo"],
-   "item_ids": ["9e95a87976f9", "909b75797cd1"]
+   "item_ids": ["cd728ceea767"]
   },
   {
-   "text": "Axios and Wired warned of a 'terrifying rise' in widely available AI hacking tools, including one called Artex, that let even unsophisticated attackers breach networks within hours.",
+   "text": "A new METR report updated AI's capability trajectory, finding some capabilities still improving exponentially while models lag on tasks requiring other skills.",
    "cats": ["risk"],
-   "item_ids": ["ec035efde6d9", "c0bdf578bee4"]
+   "item_ids": ["01449c61c8b8"]
   },
   {
-   "text": "The AI Futures Project and a separate newsletter proposed concrete ways to 'pace' frontier AI development through compute reallocation.",
-   "cats": ["risk", "gov"],
-   "item_ids": ["0690809afcd5", "c2b18dbba494"]
-  },
-  {
-   "text": "Commentators reacted to a new METR report on AI R&D acceleration by updating their AI timelines, including new predictions from Paul Christiano.",
+   "text": "Wired warned that internet outages are just getting started, as AI forces companies to patch systems faster while attackers race to exploit newly discovered vulnerabilities.",
    "cats": ["risk"],
-   "item_ids": ["1a9d28096346"]
-  },
-  {
-   "text": "The ITU's AI for Good discussed global challenges in making AI telecommunications standards more accessible, and how AI is reshaping the pharmaceutical value chain.",
-   "cats": ["multi"],
-   "item_ids": ["91792125cf15", "9e9bef71b055"]
+   "item_ids": ["9dd04be51f1d"]
   }
  ],
  "categories": {
+  "peace": [
+   "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons."
+  ],
+  "mil": [
+   "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons."
+  ],
   "geo": [
-   "Nvidia stopped selling advanced AI chips to China entirely.",
-   "Trump's chip crackdown on China heated up amid the Nvidia scandal.",
-   "Anthropic went public at over $1 trillion."
-  ],
-  "hw": [
-   "Nvidia stopped selling advanced AI chips to China entirely.",
-   "Trump's chip crackdown on China heated up amid the Nvidia scandal."
-  ],
-  "risk": [
-   "A terrifying rise in widely available AI hacking tools was reported.",
-   "Proposals emerged to pace frontier AI via compute reallocation.",
-   "Commentators updated AI timelines after a new AI R&D acceleration report."
+   "Trump threatened a 'tremendous tax' on AI data centers built outside the US.",
+   "New reporting detailed Jensen Huang's 'lack of candor' before his ouster."
   ],
   "gov": [
-   "Proposals emerged to pace frontier AI via compute reallocation."
+   "Trump threatened a 'tremendous tax' on AI data centers built outside the US."
   ],
-  "multi": [
-   "The ITU's AI for Good discussed AI telecom standards and pharmaceutical AI."
+  "risk": [
+   "A new METR report updated AI's capability trajectory.",
+   "Internet outages are just getting started as attackers race to exploit vulnerabilities."
   ]
  }
 }
