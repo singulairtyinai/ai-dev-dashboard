@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-23T02:18:38+00:00",
+  "checked_at": "2026-11-23T02:53:24+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-23T02:18:39+00:00",
+  "checked_at": "2026-11-23T02:53:24+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-23T02:18:40+00:00",
+  "checked_at": "2026-11-23T02:53:25+00:00",
   "hash": "844777972f4b3025f0ceeb6871c20ad796119c84",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -93,7 +93,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-23T02:18:40+00:00",
+  "checked_at": "2026-11-23T02:53:25+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -107,7 +107,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-23T02:18:42+00:00",
+  "checked_at": "2026-11-23T02:53:26+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -124,7 +124,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-23T02:18:41+00:00",
+  "checked_at": "2026-11-23T02:53:26+00:00",
   "hash": "5bba8e1e7cce1a4710faea10f76867fca9bf446f",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -153,81 +153,27 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-23T02:18:43+00:00",
-  "hash": "cd940b69745fd4e2df5ab009939caf75976859cf",
+  "checked_at": "2026-11-23T02:53:26+00:00",
+  "hash": "1d9ac642cea13e2ac36c6438560abbab93ab8c8b",
   "known": [
-   "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-   "AURA: AUdio-dRiven streaming Avatar",
-   "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-   "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-   "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-   "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
-   "Clemson University School of Computing",
-   "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-   "CompoundingKernel: Self-Improving from Zero to First",
-   "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
-   "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-   "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-   "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
-   "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
-   "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
-   "Fraunhofer Institute for Intelligent Analysis and Information Systems",
-   "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
-   "Huazhong University of Science and Technology",
-   "In Situ Training of Optical Neural Networks by Coding Agents",
-   "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
-   "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-   "Language Models Can Rewrite Their Own Weights",
-   "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-   "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-   "Mohamed Bin Zayed University of Artificial Intelligence",
-   "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-   "National University of Singapore",
-   "On-Policy Morphing into Hybrid Attention Models",
-   "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-   "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-   "PAD: Policy-Aware Data Valuation for Autonomous Driving",
-   "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
-   "PlayCraft: Designing Engaging Games from Agent Play Experience",
-   "Posterior Matching Distillation",
-   "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-   "RL Post-Training in Diffusion Transformers Is Activation Steering",
-   "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-   "SpecWM: Turning Verification into Refinement for Streaming World Models",
-   "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-   "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
-   "System 1 agents: a method for local, reliable and fast agentic AI",
-   "Teaching Vision-Language-Action Models to Stop Safely",
-   "Technion Israel institute of technology",
-   "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
-   "Time Series Structure Learning with Local Causal Parent Discovery",
-   "Training Vision Models for LLM-Driven Weight-Space Programming",
-   "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
-   "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-   "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-   "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
-   "University College London",
-   "University of Notre Dame DM2 Lab",
-   "UniversityofIllinoisUrbanaChampaign",
-   "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
-   "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
-   "WM^MLLM: Turning MLLMs into World Models",
-   "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-   "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
-   "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
-   "by AK and the research community",
-   "high-quality llm benchmarks"
+   "Alibaba multimodal & industrial AI",
+   "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+   "by AK and the research community"
   ],
-  "changed_at": "2026-11-22T16:18:16+00:00",
+  "changed_at": "2026-11-23T02:53:26+00:00",
   "added": [
    {
-    "text": "UniversityofIllinoisUrbanaChampaign",
-    "url": "https://huggingface.co/UIUC"
+    "text": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Alibaba multimodal & industrial AI",
+    "url": "https://huggingface.co/alibaba-multimodal-industrial-ai"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-23T02:18:47+00:00",
+  "checked_at": "2026-11-23T02:53:29+00:00",
   "hash": "47818ba45cdc4438da6def3b743c7d87d6c0afbe",
   "known": [
    "AI and human rights for youth",
@@ -257,7 +203,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-23T02:18:48+00:00",
+  "checked_at": "2026-11-23T02:53:30+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -355,7 +301,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-23T02:18:47+00:00",
+  "checked_at": "2026-11-23T02:53:29+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
