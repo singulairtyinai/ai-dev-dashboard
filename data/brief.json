@@ -1,51 +1,41 @@
 {
- "generated_at": "2026-11-22T05:55:00+00:00",
+ "generated_at": "2026-11-23T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons, as Trump threatened a 'tremendous tax' on AI data centers built outside the US and new reporting detailed Jensen Huang's 'lack of candor' before his ouster.",
+ "headline": "Axios reported that 50-plus leaders across government, AI and cyber unanimously expect worsening cyberattacks on critical infrastructure through 2027, as major US banks banned third-party AI agents and experts warned more major tech outages are coming.",
  "points": [
   {
-   "text": "UN diplomats meeting in Geneva this week failed to agree on rules regulating autonomous weapons, or so-called 'killer robots.'",
-   "cats": ["peace", "mil"],
-   "item_ids": ["234da3fc1867"]
+   "text": "Axios reported that more than 50 leaders across government, AI, business and cyber were unanimous that cyberattacks on businesses and critical infrastructure will worsen through 2027.",
+   "cats": ["risk", "geo"],
+   "item_ids": ["9fffc85d9ad1"]
   },
   {
-   "text": "President Trump said he would block US companies from building data centers overseas or impose a 'tremendous tax' on them if they do, as part of a push to keep AI infrastructure in the country.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["1de069dddb7d", "3a0cb236fd32"]
-  },
-  {
-   "text": "Wired reported that Nvidia's board was most alarmed by former CEO Jensen Huang's 'lack of candor,' rather than the affairs themselves, ahead of his resignation.",
+   "text": "ChinaTalk examined AI's role in enforcing China's Ethnic Unity Law.",
    "cats": ["geo"],
-   "item_ids": ["cd728ceea767"]
+   "item_ids": ["99d3eeb024fd"]
   },
   {
-   "text": "A new METR report updated AI's capability trajectory, finding some capabilities still improving exponentially while models lag on tasks requiring other skills.",
-   "cats": ["risk"],
-   "item_ids": ["01449c61c8b8"]
+   "text": "Major US banks are banning third-party AI agents from logging into customer accounts, warning that any costly bot mistakes are the customer's problem.",
+   "cats": ["risk", "gov"],
+   "item_ids": ["31c336541238"]
   },
   {
-   "text": "Wired warned that internet outages are just getting started, as AI forces companies to patch systems faster while attackers race to exploit newly discovered vulnerabilities.",
+   "text": "The Verge reported that experts expect more major tech outages, following a nationwide FAA ground stop, a multi-day Outlook outage, and a banking outage at JPMorgan Chase.",
    "cats": ["risk"],
-   "item_ids": ["9dd04be51f1d"]
+   "item_ids": ["e7090200216e"]
   }
  ],
  "categories": {
-  "peace": [
-   "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons."
-  ],
-  "mil": [
-   "UN diplomats in Geneva failed to agree on rules regulating autonomous weapons."
+  "risk": [
+   "Leaders unanimously expect worsening cyberattacks on critical infrastructure through 2027.",
+   "Major US banks banned third-party AI agents from customer accounts.",
+   "Experts warned more major tech outages are coming."
   ],
   "geo": [
-   "Trump threatened a 'tremendous tax' on AI data centers built outside the US.",
-   "New reporting detailed Jensen Huang's 'lack of candor' before his ouster."
+   "Leaders unanimously expect worsening cyberattacks on critical infrastructure through 2027.",
+   "ChinaTalk examined AI's role in China's Ethnic Unity Law."
   ],
   "gov": [
-   "Trump threatened a 'tremendous tax' on AI data centers built outside the US."
-  ],
-  "risk": [
-   "A new METR report updated AI's capability trajectory.",
-   "Internet outages are just getting started as attackers race to exploit vulnerabilities."
+   "Major US banks banned third-party AI agents from customer accounts."
   ]
  }
 }
