@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-24T06:17:58+00:00",
+  "checked_at": "2026-11-24T08:18:34+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-24T06:17:59+00:00",
+  "checked_at": "2026-11-24T08:18:35+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-24T06:17:59+00:00",
+  "checked_at": "2026-11-24T08:18:35+00:00",
   "hash": "50c7dcccbae09ca5260a156354ff3c3ccdd153d1",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-24T06:18:00+00:00",
+  "checked_at": "2026-11-24T08:18:35+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-24T06:18:02+00:00",
+  "checked_at": "2026-11-24T08:18:37+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-24T06:18:01+00:00",
+  "checked_at": "2026-11-24T08:18:36+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-24T06:18:02+00:00",
-  "hash": "772e918d4e95b11d4b4d51da468438e2628ff0cc",
+  "checked_at": "2026-11-24T08:18:38+00:00",
+  "hash": "eaa8b173d9c206c2229cfaad5372c82018443100",
   "known": [
    "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
    "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
@@ -166,53 +166,76 @@
    "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
    "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
    "Carnegie Mellon University",
+   "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
+   "Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
+   "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
    "Distilling Visual Agents from Limited Interaction Experience",
+   "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
    "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
    "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+   "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
    "GameAnything: From Any Inspirations to Playable Game Worlds",
+   "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+   "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
    "How Complete Must an Environment Be to Train a Capable GUI Agent?",
+   "Huazhong University of Science and Technology",
+   "Institute of Foundation Models",
    "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "National University of Singapore",
+   "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
    "Plan4D: Generative Plannable 4D Worlds",
+   "Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?",
+   "Prism: Hierarchical Text Detection with Minimalist Design",
+   "RUIBench: What Makes a Good Robot-Use Interface?",
    "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
    "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
+   "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
    "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
    "Shanghai Jiao Tong University",
+   "The norm axiom and factor hyperfields",
+   "Tsinghua Spatial Intelligence Lab",
+   "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
+   "UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation",
    "University of Illinois at Urbana-Champaign",
    "University of Science and Technology of China",
+   "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
    "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+   "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+   "WorldLeague: Benchmarking Physical Agency",
+   "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-24T06:18:02+00:00",
+  "changed_at": "2026-11-24T08:18:38+00:00",
   "added": [
    {
-    "text": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+    "text": "WorldLeague: Benchmarking Physical Agency",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+    "text": "National University of Singapore",
+    "url": "https://huggingface.co/NationalUniversityofSingapore"
+   },
+   {
+    "text": "RUIBench: What Makes a Good Robot-Use Interface?",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Distilling Visual Agents from Limited Interaction Experience",
+    "text": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+    "text": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "A Pipeline-Parallel System for Depth-Recurrent Models",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+    "text": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-24T04:18:06+00:00",
-  "hash": "47818ba45cdc4438da6def3b743c7d87d6c0afbe",
+  "checked_at": "2026-11-24T08:18:40+00:00",
+  "hash": "7fa7e139de4def607ce7f3a46061d53bca9c53c9",
   "known": [
    "AI and human rights for youth",
    "Artificial Intelligence and emerging technologies",
@@ -223,25 +246,25 @@
    "Green digital transformation",
    "Help Us Improve Your UNESCO Website Experience",
    "Internet Universality Indicators This tool helps countries assess their Internet landscape, guide evidence-based policies, and foster inclusive, future-ready digital governance.",
-   "News AI Answers. You Decide: UNESCO launches a new Media and Information Literacy curriculum 10 November 2026",
    "News Small AI models widen access to learning in low-resource settings 17 November 2026",
    "News UNESCO joins EU-funded CULTURAI project to advance responsible AI in the cultural and creative sectors 10 November 2026",
    "News UNESCO promotes stronger data governance in Latin America and the Caribbean 16 November 2026",
    "Recommendation on the Ethics of Artificial Intelligence",
    "Recommendation on the Ethics of Neurotechnology",
+   "Story Preparing Thailand's future judicial leaders for the age of AI 24 November 2026",
    "Sustainable AI and Climate Action at COP31",
    "UN Global Dialogue on AI Governance"
   ],
-  "changed_at": "2026-11-18T14:19:55+00:00",
+  "changed_at": "2026-11-24T08:18:40+00:00",
   "added": [
    {
-    "text": "News Small AI models widen access to learning in low-resource settings 17 November 2026",
-    "url": "https://www.unesco.org/en/articles/small-ai-models-widen-access-learning-low-resource-settings"
+    "text": "Story Preparing Thailand's future judicial leaders for the age of AI 24 November 2026",
+    "url": "https://www.unesco.org/en/articles/preparing-thailands-future-judicial-leaders-age-ai"
    }
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-24T06:18:05+00:00",
+  "checked_at": "2026-11-24T08:18:42+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -339,7 +362,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-24T06:18:03+00:00",
+  "checked_at": "2026-11-24T08:18:40+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
