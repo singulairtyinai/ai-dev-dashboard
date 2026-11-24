@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-24T10:17:45+00:00",
+  "checked_at": "2026-11-24T12:18:29+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-24T10:17:47+00:00",
+  "checked_at": "2026-11-24T12:18:30+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-24T10:17:47+00:00",
+  "checked_at": "2026-11-24T12:18:30+00:00",
   "hash": "50c7dcccbae09ca5260a156354ff3c3ccdd153d1",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-24T10:17:48+00:00",
+  "checked_at": "2026-11-24T12:18:31+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-24T10:17:50+00:00",
+  "checked_at": "2026-11-24T12:18:32+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-24T10:17:49+00:00",
+  "checked_at": "2026-11-24T12:18:33+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-24T10:17:51+00:00",
-  "hash": "7efdf05510711e11fca16605d31b18dc3f9fb98b",
+  "checked_at": "2026-11-24T12:18:32+00:00",
+  "hash": "1b8468045fa715623418817217f6b8b0aae81144",
   "known": [
    "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
    "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
@@ -168,6 +168,7 @@
    "Carnegie Mellon University",
    "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
    "Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
+   "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
    "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
    "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
    "Distilling Visual Agents from Limited Interaction Experience",
@@ -185,6 +186,7 @@
    "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
    "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
    "MORSE: Optimizing Streaming Memory Design via Open-World Auto-Research",
+   "Mohamed Bin Zayed University of Artificial Intelligence",
    "MomentMem: Memorizing Key Moments for Robot Manipulation",
    "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
    "National University of Singapore",
@@ -202,6 +204,7 @@
    "Shanghai Jiao Tong University",
    "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
    "The norm axiom and factor hyperfields",
+   "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
    "Tsinghua Spatial Intelligence Lab",
    "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
    "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
@@ -220,31 +223,19 @@
    "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-24T10:17:51+00:00",
+  "changed_at": "2026-11-24T12:18:32+00:00",
   "added": [
    {
-    "text": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+    "text": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+    "text": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "World Models as Native Latent Action Models",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Open Vision Banana: An Open Framework for Unified Visual Perception through Generation in RGB Space",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
-    "url": "https://huggingface.co/papers"
+    "text": "Mohamed Bin Zayed University of Artificial Intelligence",
+    "url": "https://huggingface.co/MBZUAI"
    }
   ]
  },
@@ -279,7 +270,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-24T10:17:56+00:00",
+  "checked_at": "2026-11-24T12:18:37+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -377,7 +368,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-24T10:17:55+00:00",
+  "checked_at": "2026-11-24T12:18:35+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
