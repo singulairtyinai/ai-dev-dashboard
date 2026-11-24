@@ -1,41 +1,62 @@
 {
- "generated_at": "2026-11-23T05:55:00+00:00",
+ "generated_at": "2026-11-24T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Axios reported that 50-plus leaders across government, AI and cyber unanimously expect worsening cyberattacks on critical infrastructure through 2027, as major US banks banned third-party AI agents and experts warned more major tech outages are coming.",
+ "headline": "Jensen Huang was reinstated as Nvidia CEO after Trump pushed for his return, sparking bipartisan backlash over national security concerns, as War on the Rocks warned AI poses the biggest challenge to civil-military relations since the nuclear bomb.",
  "points": [
   {
-   "text": "Axios reported that more than 50 leaders across government, AI, business and cyber were unanimous that cyberattacks on businesses and critical infrastructure will worsen through 2027.",
-   "cats": ["risk", "geo"],
-   "item_ids": ["9fffc85d9ad1"]
+   "text": "Nvidia's board reinstated Jensen Huang as CEO after President Trump pushed for his return, with allies arguing he was 'too big to fail'; the move sparked bipartisan backlash on Capitol Hill, with Senate Minority Leader Schumer warning Congress is coming for answers on national security risks.",
+   "cats": ["geo", "gov"],
+   "item_ids": ["09afcc847896", "049542555c2c", "3f18993f1432", "4ab2d002625b", "48ab4f104b81"]
   },
   {
-   "text": "ChinaTalk examined AI's role in enforcing China's Ethnic Unity Law.",
-   "cats": ["geo"],
-   "item_ids": ["99d3eeb024fd"]
+   "text": "CSET argued the 'cyber apocalypse' should be judged by data, not headlines, finding that recent AI advances are enabling cyberattackers more than defenders.",
+   "cats": ["geo", "hw", "risk"],
+   "item_ids": ["993c1394d1bd"]
   },
   {
-   "text": "Major US banks are banning third-party AI agents from logging into customer accounts, warning that any costly bot mistakes are the customer's problem.",
-   "cats": ["risk", "gov"],
-   "item_ids": ["31c336541238"]
+   "text": "War on the Rocks warned that AI poses the greatest challenge to American civil-military relations since the advent of the nuclear bomb.",
+   "cats": ["mil"],
+   "item_ids": ["b478381ff73d"]
   },
   {
-   "text": "The Verge reported that experts expect more major tech outages, following a nationwide FAA ground stop, a multi-day Outlook outage, and a banking outage at JPMorgan Chase.",
-   "cats": ["risk"],
-   "item_ids": ["e7090200216e"]
+   "text": "AI data centers' surging energy demand added another complication to already-chaotic UN climate talks.",
+   "cats": ["geo", "multi"],
+   "item_ids": ["0cd17937bdc8"]
+  },
+  {
+   "text": "AI Policy Bulletin argued the UK should back a 'Bellingcat for AI incidents' to help independent researchers find AI incidents companies haven't disclosed.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["649e547c6055"]
+  },
+  {
+   "text": "The ITU's AI for Good discussed building shared global standards for brain-computer interfaces.",
+   "cats": ["multi"],
+   "item_ids": ["d760c83396c5"]
   }
  ],
  "categories": {
-  "risk": [
-   "Leaders unanimously expect worsening cyberattacks on critical infrastructure through 2027.",
-   "Major US banks banned third-party AI agents from customer accounts.",
-   "Experts warned more major tech outages are coming."
-  ],
   "geo": [
-   "Leaders unanimously expect worsening cyberattacks on critical infrastructure through 2027.",
-   "ChinaTalk examined AI's role in China's Ethnic Unity Law."
+   "Jensen Huang was reinstated as Nvidia CEO after Trump pushed for his return, sparking bipartisan backlash.",
+   "CSET warned AI cybersecurity metrics favor attackers over defenders.",
+   "AI data centers complicated UN climate talks."
   ],
   "gov": [
-   "Major US banks banned third-party AI agents from customer accounts."
+   "Jensen Huang's reinstatement sparked bipartisan Capitol Hill backlash over national security.",
+   "AI Policy Bulletin argued for a 'Bellingcat for AI incidents.'"
+  ],
+  "hw": [
+   "CSET warned AI cybersecurity metrics favor attackers over defenders."
+  ],
+  "risk": [
+   "CSET warned AI cybersecurity metrics favor attackers over defenders.",
+   "AI Policy Bulletin argued for a 'Bellingcat for AI incidents.'"
+  ],
+  "mil": [
+   "War on the Rocks warned AI poses the biggest challenge to civil-military relations since the nuclear bomb."
+  ],
+  "multi": [
+   "AI data centers complicated UN climate talks.",
+   "The ITU's AI for Good discussed global standards for brain-computer interfaces."
   ]
  }
 }
