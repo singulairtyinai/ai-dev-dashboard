@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-24T20:18:54+00:00",
+  "checked_at": "2026-11-24T22:18:33+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-24T20:18:55+00:00",
+  "checked_at": "2026-11-24T22:18:34+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,8 +59,8 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-24T20:18:56+00:00",
-  "hash": "50c7dcccbae09ca5260a156354ff3c3ccdd153d1",
+  "checked_at": "2026-11-24T22:18:35+00:00",
+  "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
    "AI accountability in practice: What privacy leaders need to show in 2027",
@@ -74,10 +74,10 @@
    "Getting your organization PETs ready",
    "Global AI Law and Policy Tracker",
    "Inside the EU KIDS Act proposal",
-   "Mentor Q&A: Breaking into privacy, early career development, and AI",
    "Privacy Salary Benchmark: Europe",
    "Privacy, AI and the new rules of recruitment",
    "Proactive AI privacy – Leveraging PETs throughout the AI life cycle",
+   "Quantifying and mitigating third-party script risk: What carriers, brokers and insureds need to know about privacy and security exposure on websites and mobile apps",
    "The future of privacy: What changes, what’s hype, and what matters now!",
    "The privacy pressure map: Building a defensible program in 2027",
    "The right to keep vs. the obligation to delete: Navigating data retention, data minimization and legal holds",
@@ -85,16 +85,16 @@
    "What CalPrivacy wants to see in 2027: A conversation with Executive Director Tom Kemp and Captain Compliance",
    "Your website scan flagged a privacy risk. Now what?"
   ],
-  "changed_at": "2026-11-23T16:18:23+00:00",
+  "changed_at": "2026-11-24T22:18:35+00:00",
   "added": [
    {
-    "text": "Privacy Salary Benchmark: Europe",
-    "url": "https://iapp.org/resources/article/privacy-salary-benchmark-europe"
+    "text": "Quantifying and mitigating third-party script risk: What carriers, brokers and insureds need to know about privacy and security exposure on websites and mobile apps",
+    "url": "https://iapp.org/resources/article/quantifying-and-mitigating-third-party-script-risk"
    }
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-24T20:18:57+00:00",
+  "checked_at": "2026-11-24T22:18:35+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-24T20:18:59+00:00",
+  "checked_at": "2026-11-24T22:18:37+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-24T20:18:57+00:00",
+  "checked_at": "2026-11-24T22:18:36+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-24T20:19:00+00:00",
-  "hash": "c37e8c022911a5a2deb532b41bcae99ec2ba56d7",
+  "checked_at": "2026-11-24T22:18:39+00:00",
+  "hash": "b00c5f4c366f5452c512780e7bd0c2aa9b87e1f2",
   "known": [
    "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
    "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
@@ -232,6 +232,7 @@
    "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
    "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
    "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+   "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
    "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
    "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
    "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
@@ -243,20 +244,16 @@
    "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-24T20:19:00+00:00",
+  "changed_at": "2026-11-24T22:18:39+00:00",
   "added": [
    {
-    "text": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-    "url": "https://huggingface.co/papers"
-   },
-   {
-    "text": "Frontier models need only one text to unmask its human or AI author",
+    "text": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-24T20:19:03+00:00",
+  "checked_at": "2026-11-24T22:18:41+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -286,7 +283,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-24T20:19:04+00:00",
+  "checked_at": "2026-11-24T22:18:43+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -384,7 +381,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-24T20:19:03+00:00",
+  "checked_at": "2026-11-24T22:18:41+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
