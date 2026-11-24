@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-24T16:18:14+00:00",
+  "checked_at": "2026-11-24T18:18:40+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-24T16:18:15+00:00",
+  "checked_at": "2026-11-24T18:18:41+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-24T16:18:16+00:00",
+  "checked_at": "2026-11-24T18:18:42+00:00",
   "hash": "50c7dcccbae09ca5260a156354ff3c3ccdd153d1",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-24T16:18:17+00:00",
+  "checked_at": "2026-11-24T18:18:42+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-24T16:18:19+00:00",
+  "checked_at": "2026-11-24T18:18:44+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-24T16:18:18+00:00",
+  "checked_at": "2026-11-24T18:18:43+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,16 +157,18 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-24T16:18:21+00:00",
-  "hash": "48c1f8ee941e3e6bd3335de4b250e600bfeedd29",
+  "checked_at": "2026-11-24T18:18:44+00:00",
+  "hash": "0f99e7f4e97b16a46a1744020a7c329811070e9b",
   "known": [
    "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
    "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
    "A Pipeline-Parallel System for Depth-Recurrent Models",
    "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
    "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+   "Beam Model Technical Report",
    "Beijing Academy of Artificial Intelligence",
    "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
+   "CCFinance: Reconstructing Financial News Samples from Web Archives",
    "Can Latent Reasoning Drive LLM Outputs Without a Trace?",
    "Carnegie Mellon University",
    "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
@@ -182,6 +184,7 @@
    "From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning",
    "GameAnything: From Any Inspirations to Playable Game Worlds",
    "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
+   "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
    "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
    "How Complete Must an Environment Be to Train a Capable GUI Agent?",
    "Huazhong University of Science and Technology",
@@ -194,6 +197,7 @@
    "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
    "MORSE: Optimizing Streaming Memory Design via Open-World Auto-Research",
    "Made In Alexandria AI Team",
+   "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
    "Mohamed Bin Zayed University of Artificial Intelligence",
    "MomentMem: Memorizing Key Moments for Robot Manipulation",
    "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
@@ -208,6 +212,7 @@
    "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
    "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
    "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
+   "Self-Supervised Dataset Distillation via Mutual Information Maximization",
    "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
    "Shanghai Jiao Tong University",
    "Single-Transformer Latent Diffusion",
@@ -222,6 +227,7 @@
    "University of Illinois at Urbana-Champaign",
    "University of Science and Technology of China",
    "University of Technology Sydney",
+   "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
    "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
    "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
    "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
@@ -235,36 +241,36 @@
    "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-24T16:18:21+00:00",
+  "changed_at": "2026-11-24T18:18:44+00:00",
   "added": [
    {
-    "text": "Can Latent Reasoning Drive LLM Outputs Without a Trace?",
+    "text": "Beam Model Technical Report",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Technion Israel institute of technology",
-    "url": "https://huggingface.co/Technion"
-   },
-   {
-    "text": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
+    "text": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
+    "text": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Beijing Academy of Artificial Intelligence",
-    "url": "https://huggingface.co/BAAI"
+    "text": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
+    "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+    "text": "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CCFinance: Reconstructing Financial News Samples from Web Archives",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-24T14:57:47+00:00",
+  "checked_at": "2026-11-24T18:18:46+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -294,7 +300,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-24T16:18:25+00:00",
+  "checked_at": "2026-11-24T18:18:48+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -392,7 +398,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-24T16:18:24+00:00",
+  "checked_at": "2026-11-24T18:18:46+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
