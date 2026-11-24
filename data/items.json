@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-23T22:18:00+00:00",
+ "updated": "2026-11-24T00:17:55+00:00",
  "items": [
+  {
+   "title": "The Final Goalpost",
+   "url": "https://secondthoughts.ai/p/is-rsi-imminent",
+   "published": "2026-11-24T00:03:10+00:00",
+   "preview": "Is learning to do the things AI is bad at something AI can be good at?",
+   "id": "5ff5686d3469",
+   "source": "second-thoughts-steve-newman",
+   "fetched": "2026-11-24T00:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+   "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+   "published": "2026-11-24T00:02:39+00:00",
+   "preview": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise. The post…",
+   "id": "1306bce61e3e",
+   "source": "marktechpost",
+   "fetched": "2026-11-24T00:17:55+00:00",
+   "countries": []
+  },
+  {
+   "title": "Policy paper: Digital Inclusion Innovation Fund: evaluation report",
+   "url": "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-evaluation-report",
+   "published": "2026-11-24T00:01:02+00:00",
+   "preview": "An evaluation report of the Digital Inclusion Innovation Fund assessing the process, impact and value for money.",
+   "id": "3c589e600ea1",
+   "source": "uk-dsit",
+   "fetched": "2026-11-24T00:17:55+00:00",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
   {
    "title": "Nvidia CEO Jensen Huang is back. What happens next?",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
@@ -19,6 +51,16 @@
    "id": "8ab70d6f89cf",
    "source": "the-verge-ai",
    "fetched": "2026-11-23T22:18:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "published": "2026-11-23T21:20:00+00:00",
+   "preview": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "id": "1d0c151fefed",
+   "source": "openai-news",
+   "fetched": "2026-11-24T00:17:55+00:00",
    "countries": []
   },
   {
@@ -1652,26 +1694,6 @@
    "countries": []
   },
   {
-   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-   "url": "https://huggingface.co/blog/inkling2mini",
-   "published": "2026-11-20T00:00:00+00:00",
-   "preview": "",
-   "id": "80d31a6dee29",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-20T21:51:45+00:00",
-   "countries": []
-  },
-  {
-   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-   "published": "2026-11-20T00:00:00+00:00",
-   "preview": "",
-   "id": "211fbe8009a4",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-20T21:51:45+00:00",
-   "countries": []
-  },
-  {
    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
    "url": "https://openai.com/business/customer-stories/hebbia",
    "published": "2026-11-20T00:00:00+00:00",
@@ -1688,6 +1710,26 @@
    "preview": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
    "id": "f4784c304003",
    "source": "openai-news",
+   "fetched": "2026-11-20T21:51:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "url": "https://huggingface.co/blog/inkling2mini",
+   "published": "2026-11-20T00:00:00+00:00",
+   "preview": "",
+   "id": "80d31a6dee29",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-20T21:51:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20T00:00:00+00:00",
+   "preview": "",
+   "id": "211fbe8009a4",
+   "source": "hugging-face-blog",
    "fetched": "2026-11-20T21:51:45+00:00",
    "countries": []
   },
@@ -3406,26 +3448,6 @@
    ]
   },
   {
-   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-   "url": "https://huggingface.co/blog/rumble-2-flash",
-   "published": "2026-11-18T00:00:00+00:00",
-   "preview": "",
-   "id": "679cee5ea146",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-18T16:17:45+00:00",
-   "countries": []
-  },
-  {
-   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-   "url": "https://huggingface.co/blog/moe-expert-streaming",
-   "published": "2026-11-18T00:00:00+00:00",
-   "preview": "",
-   "id": "af1852b4c46d",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-18T17:19:48+00:00",
-   "countries": []
-  },
-  {
    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
    "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
    "published": "2026-11-18T00:00:00+00:00",
@@ -3453,6 +3475,26 @@
    "id": "e683d40fba10",
    "source": "openai-news",
    "fetched": "2026-11-18T18:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "published": "2026-11-18T00:00:00+00:00",
+   "preview": "",
+   "id": "679cee5ea146",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-18T16:17:45+00:00",
+   "countries": []
+  },
+  {
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "published": "2026-11-18T00:00:00+00:00",
+   "preview": "",
+   "id": "af1852b4c46d",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-18T17:19:48+00:00",
    "countries": []
   },
   {
@@ -4346,16 +4388,6 @@
    "countries": []
   },
   {
-   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-   "url": "https://huggingface.co/blog/openrouter",
-   "published": "2026-11-16T00:00:00+00:00",
-   "preview": "",
-   "id": "853b24ff0d6e",
-   "source": "hugging-face-blog",
-   "fetched": "2026-11-16T18:18:07+00:00",
-   "countries": []
-  },
-  {
    "title": "The King’s Trust and OpenAI launch £1m partnership",
    "url": "https://openai.com/index/the-kings-trust-and-openai",
    "published": "2026-11-16T00:00:00+00:00",
@@ -4373,6 +4405,16 @@
    "id": "3899b6e8ee3c",
    "source": "openai-news",
    "fetched": "2026-11-16T22:18:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16T00:00:00+00:00",
+   "preview": "",
+   "id": "853b24ff0d6e",
+   "source": "hugging-face-blog",
+   "fetched": "2026-11-16T18:18:07+00:00",
    "countries": []
   },
   {
@@ -4846,16 +4888,6 @@
    "countries": []
   },
   {
-   "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-   "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
-   "published": "2026-11-12T22:43:26+00:00",
-   "preview": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU…",
-   "id": "0ee9f88dcb6a",
-   "source": "marktechpost",
-   "fetched": "2026-11-12T23:13:54+00:00",
-   "countries": []
-  },
-  {
    "title": "Silicon Valley Is Still Defending Jensen Huang",
    "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
    "published": "2026-11-12T22:29:43+00:00",
@@ -5100,16 +5132,6 @@
    "countries": [
     "United States"
    ]
-  },
-  {
-   "title": "Gondola doubles revenue as its team builds more with Codex",
-   "url": "https://openai.com/business/customer-stories/gondola",
-   "published": "2026-11-12T12:00:00+00:00",
-   "preview": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-   "id": "90d79223706e",
-   "source": "openai-news",
-   "fetched": "2026-11-13T00:17:52+00:00",
-   "countries": []
   },
   {
    "title": "NCCoE Update: Change to CRADA Consortium Announcements",
@@ -11756,18 +11778,6 @@
    ]
   },
   {
-   "title": "Research: Digital inclusion for connection: digital inclusion for disabled adults",
-   "url": "https://www.gov.uk/government/publications/digital-inclusion-for-connection-digital-inclusion-for-disabled-adults",
-   "published": "2026-09-29T08:30:03+00:00",
-   "preview": "Findings from a pilot on digital inclusion for disabled adults, focusing on confidence, skills and social connection.",
-   "id": "d6cdd2c0d191",
-   "source": "uk-dsit",
-   "fetched": "2026-09-29T08:39:41+00:00",
-   "countries": [
-    "United Kingdom"
-   ]
-  },
-  {
    "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
    "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
    "published": "2026-09-29T00:00:00+00:00",
@@ -16111,16 +16121,6 @@
    "id": "c92e40dea930",
    "source": "ieee-spectrum-semiconductors",
    "fetched": "2026-07-27T11:00:01+00:00",
-   "countries": []
-  },
-  {
-   "title": "Anecdotes Everywhere, Evidence Almost Nowhere",
-   "url": "https://secondthoughts.ai/p/impact-of-ai",
-   "published": "2026-07-20T21:08:05+00:00",
-   "preview": "The state of AI in mid 2026, part 3",
-   "id": "2175ba93e772",
-   "source": "second-thoughts-steve-newman",
-   "fetched": "2026-09-26T13:31:18+00:00",
    "countries": []
   },
   {
