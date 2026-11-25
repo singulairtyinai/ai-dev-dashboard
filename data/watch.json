@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-25T02:18:02+00:00",
+  "checked_at": "2026-11-25T04:18:22+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-25T02:18:03+00:00",
+  "checked_at": "2026-11-25T04:18:23+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-25T02:18:04+00:00",
+  "checked_at": "2026-11-25T04:18:24+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-25T02:18:04+00:00",
+  "checked_at": "2026-11-25T04:18:23+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-25T02:18:06+00:00",
+  "checked_at": "2026-11-25T04:18:25+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-25T02:18:05+00:00",
+  "checked_at": "2026-11-25T04:18:24+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,116 +157,66 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-25T02:18:06+00:00",
-  "hash": "4f72cdb1dca4d80850807d35f856f0ad2fd11b52",
+  "checked_at": "2026-11-25T04:18:25+00:00",
+  "hash": "3ed7d13d96ab0c69cf726bb58d04b02e9b3e17c1",
   "known": [
-   "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
-   "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
-   "A Pipeline-Parallel System for Depth-Recurrent Models",
-   "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
-   "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-   "Beam Model Technical Report",
-   "Beijing Academy of Artificial Intelligence",
-   "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
-   "CCFinance: Reconstructing Financial News Samples from Web Archives",
-   "Can Latent Reasoning Drive LLM Outputs Without a Trace?",
-   "Carnegie Mellon University",
-   "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
-   "Context-Grounded Skill Internalization for Vision-Language Agents",
-   "Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
-   "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
-   "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
-   "Distill the Correction, Not the Rewrite: Hindsight Twins for Self-Improving Text-to-Image Models",
-   "Distilling Visual Agents from Limited Interaction Experience",
-   "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
-   "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
-   "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
-   "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
-   "From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning",
-   "Frontier models need only one text to unmask its human or AI author",
-   "GameAnything: From Any Inspirations to Playable Game Worlds",
-   "GameDojo: Benchmarking Real-Time Interactive Agents in Video Games",
-   "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-   "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
-   "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
-   "How Complete Must an Environment Be to Train a Capable GUI Agent?",
-   "Huazhong University of Science and Technology",
-   "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
-   "Institute of Foundation Models",
-   "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
-   "LLMs Memorize Their Own Hallucinations During Post-Training",
-   "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
-   "Let Vision-Language Models Generate Images through Their Representations",
-   "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
-   "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
-   "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
-   "MORSE: Optimizing Streaming Memory Design via Open-World Auto-Research",
-   "Made In Alexandria AI Team",
-   "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
-   "Mohamed Bin Zayed University of Artificial Intelligence",
-   "MomentMem: Memorizing Key Moments for Robot Manipulation",
-   "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
-   "National University of Singapore",
-   "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-   "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
-   "Open Vision Banana: An Open Framework for Unified Visual Perception through Generation in RGB Space",
-   "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
-   "Plan4D: Generative Plannable 4D Worlds",
-   "Polytropos: What Do Vision-Language Model Descriptions Make of a Cultural Object?",
-   "Prism: Hierarchical Text Detection with Minimalist Design",
-   "RUIBench: What Makes a Good Robot-Use Interface?",
-   "ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and Cross-Task Meta-Distillation",
-   "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
-   "SWEEP-Bench: Do Embodied Policies Act on the Speed They See?",
-   "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
-   "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-   "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
-   "Shanghai Jiao Tong University",
-   "Single-Transformer Latent Diffusion",
-   "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
-   "Technion Israel institute of technology",
-   "The norm axiom and factor hyperfields",
-   "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-   "Tsinghua Spatial Intelligence Lab",
-   "Typhoon OCR 2: From Thai Document Transcription to Multilingual, Multi-Task OCR",
-   "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
-   "UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation",
-   "University of Illinois at Urbana-Champaign",
-   "University of Science and Technology of China",
-   "University of Technology Sydney",
-   "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
-   "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
-   "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
-   "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
-   "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
-   "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
-   "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
-   "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
-   "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
-   "World Models as Native Latent Action Models",
-   "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
-   "WorldLeague: Benchmarking Physical Agency",
-   "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+   "3D Language & Generation Research Group",
+   "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+   "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
+   "Antom 3-in-1 Transformer: A Payment Foundation Model",
+   "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
+   "Center for Research in Computer Vision, University of Central Florida",
+   "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
+   "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+   "EEGJev: A System One Decision Model and Benchmark for Multi-Task EEG Question Answering",
+   "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
+   "GVC Lab at Great Bay University",
+   "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting",
+   "KMed-31B Technical Report",
+   "LeadVLA: Learning Follower-Aware Route Execution for Robot Leading",
+   "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+   "LoopedWAM: Looped World Action Models for Elastic Inference",
+   "Nanyang Technological University",
+   "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+   "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+   "PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics",
+   "Rewirable Circuits in Transformers with Loom Attention",
+   "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
+   "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+   "Self-Evolving Evaluation Environments for Computer-Use Agents",
+   "The Hong Kong University of Science and Technology",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-25T02:18:06+00:00",
+  "changed_at": "2026-11-25T04:18:25+00:00",
   "added": [
    {
-    "text": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "text": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Context-Grounded Skill Internalization for Vision-Language Agents",
+    "text": "Nanyang Technological University",
+    "url": "https://huggingface.co/NanyangTechnologicalUniversity"
+   },
+   {
+    "text": "Antom 3-in-1 Transformer: A Payment Foundation Model",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
+    "text": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Rewirable Circuits in Transformers with Loom Attention",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "KMed-31B Technical Report",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-25T02:18:09+00:00",
+  "checked_at": "2026-11-25T04:18:27+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -296,7 +246,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-25T02:18:10+00:00",
+  "checked_at": "2026-11-25T04:18:28+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -394,7 +344,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-25T02:18:08+00:00",
+  "checked_at": "2026-11-25T04:18:27+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
