@@ -1,62 +1,68 @@
 {
- "generated_at": "2026-11-24T05:55:00+00:00",
+ "generated_at": "2026-11-25T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Jensen Huang was reinstated as Nvidia CEO after Trump pushed for his return, sparking bipartisan backlash over national security concerns, as War on the Rocks warned AI poses the biggest challenge to civil-military relations since the nuclear bomb.",
+ "headline": "Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release, as SIPRI mapped the military AI industry's influence and Congress moved to tighten chip export controls amid the Nvidia scandal.",
  "points": [
   {
-   "text": "Nvidia's board reinstated Jensen Huang as CEO after President Trump pushed for his return, with allies arguing he was 'too big to fail'; the move sparked bipartisan backlash on Capitol Hill, with Senate Minority Leader Schumer warning Congress is coming for answers on national security risks.",
+   "text": "More than two dozen Anthropic and OpenAI employees said internal, unreleased AI models are becoming so powerful that many no longer believe they can be safely released.",
+   "cats": ["risk"],
+   "item_ids": ["f5aad627bf95"]
+  },
+  {
+   "text": "SIPRI mapped the actors, influence, and policymaking role of the military artificial intelligence industry.",
+   "cats": ["peace", "mil"],
+   "item_ids": ["a0d43e3f7537"]
+  },
+  {
+   "text": "ChinaTalk examined how a 'Remote Access Rule,' if enforced by Commerce Secretary Lutnick, would buy the US roughly six months of compute lead over China.",
+   "cats": ["geo", "hw"],
+   "item_ids": ["73483bb7294a"]
+  },
+  {
+   "text": "Policy Gradients detailed the export control bills most likely to pass tightening AI chip exports during the lame-duck congressional session.",
+   "cats": ["gov", "geo"],
+   "item_ids": ["3fdd0114ac37"]
+  },
+  {
+   "text": "National security and foreign policy experts said Nvidia's centrality to the US economy outweighed concerns about former CEO Jensen Huang's ties to a suspected Chinese intelligence asset, as Trump effectively inherited the unresolved scandal by securing his return.",
    "cats": ["geo", "gov"],
-   "item_ids": ["09afcc847896", "049542555c2c", "3f18993f1432", "4ab2d002625b", "48ab4f104b81"]
+   "item_ids": ["c380f1e9589a", "1cc1246e11e8"]
   },
   {
-   "text": "CSET argued the 'cyber apocalypse' should be judged by data, not headlines, finding that recent AI advances are enabling cyberattackers more than defenders.",
-   "cats": ["geo", "hw", "risk"],
-   "item_ids": ["993c1394d1bd"]
+   "text": "Anthropic built a honeypot test to see whether AI agents would resist temptation to misbehave when given the opportunity to go rogue.",
+   "cats": ["risk"],
+   "item_ids": ["4cccc58426de"]
   },
   {
-   "text": "War on the Rocks warned that AI poses the greatest challenge to American civil-military relations since the advent of the nuclear bomb.",
-   "cats": ["mil"],
-   "item_ids": ["b478381ff73d"]
-  },
-  {
-   "text": "AI data centers' surging energy demand added another complication to already-chaotic UN climate talks.",
-   "cats": ["geo", "multi"],
-   "item_ids": ["0cd17937bdc8"]
-  },
-  {
-   "text": "AI Policy Bulletin argued the UK should back a 'Bellingcat for AI incidents' to help independent researchers find AI incidents companies haven't disclosed.",
-   "cats": ["gov", "risk"],
-   "item_ids": ["649e547c6055"]
-  },
-  {
-   "text": "The ITU's AI for Good discussed building shared global standards for brain-computer interfaces.",
-   "cats": ["multi"],
-   "item_ids": ["d760c83396c5"]
+   "text": "The AI Safety Newsletter reported that Anthropic faces accusations of recklessness as it went public, alongside growing loss-of-control lawsuits against AI companies.",
+   "cats": ["risk", "gov"],
+   "item_ids": ["2207c8f526bb"]
   }
  ],
  "categories": {
-  "geo": [
-   "Jensen Huang was reinstated as Nvidia CEO after Trump pushed for his return, sparking bipartisan backlash.",
-   "CSET warned AI cybersecurity metrics favor attackers over defenders.",
-   "AI data centers complicated UN climate talks."
-  ],
-  "gov": [
-   "Jensen Huang's reinstatement sparked bipartisan Capitol Hill backlash over national security.",
-   "AI Policy Bulletin argued for a 'Bellingcat for AI incidents.'"
-  ],
-  "hw": [
-   "CSET warned AI cybersecurity metrics favor attackers over defenders."
-  ],
   "risk": [
-   "CSET warned AI cybersecurity metrics favor attackers over defenders.",
-   "AI Policy Bulletin argued for a 'Bellingcat for AI incidents.'"
+   "Anthropic and OpenAI employees fear unreleased models are too unsafe to release.",
+   "Anthropic built a honeypot to test whether AI agents would misbehave.",
+   "Anthropic faces accusations of recklessness as it went public."
+  ],
+  "peace": [
+   "SIPRI mapped the military AI industry's actors, influence and policymaking."
   ],
   "mil": [
-   "War on the Rocks warned AI poses the biggest challenge to civil-military relations since the nuclear bomb."
+   "SIPRI mapped the military AI industry's actors, influence and policymaking."
   ],
-  "multi": [
-   "AI data centers complicated UN climate talks.",
-   "The ITU's AI for Good discussed global standards for brain-computer interfaces."
+  "geo": [
+   "ChinaTalk examined the Remote Access Rule's compute-lead implications.",
+   "Congress is moving to tighten chip export controls.",
+   "National security experts say Nvidia's centrality outweighed the Huang scandal."
+  ],
+  "hw": [
+   "ChinaTalk examined the Remote Access Rule's compute-lead implications."
+  ],
+  "gov": [
+   "Congress is moving to tighten chip export controls.",
+   "National security experts say Nvidia's centrality outweighed the Huang scandal.",
+   "Anthropic faces accusations of recklessness as it went public."
   ]
  }
 }
