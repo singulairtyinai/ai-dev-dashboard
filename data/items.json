@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T00:51:01+00:00",
+ "updated": "2026-11-25T02:18:02+00:00",
  "items": [
   {
    "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
@@ -388,6 +388,56 @@
    "countries": []
   },
   {
+   "title": "The Oracle Is Not Enough: Secure Settlement for Prediction Markets",
+   "url": "https://arxiv.org/abs/2611.31866v1",
+   "published": "2026-11-24T03:08:15+00:00",
+   "preview": "Prediction markets are becoming an important mechanism for aggregating information and forecasting uncertain real-world events. As they grow in scale and value, reliable settlement becomes critical because settlement…",
+   "id": "75c94ded759c",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
+   "url": "https://arxiv.org/abs/2611.31813v1",
+   "published": "2026-11-24T02:06:23+00:00",
+   "preview": "Rust crates confine unsafe code, such as calls into C or C++ libraries or system calls, behind safe interfaces that must uphold Rust's invariants. If an interface encodes one rule of the code beneath it too weakly, a…",
+   "id": "9d4a165eaf69",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "Where Did My Tokens Go? Verifiable Token Billing for LLM Services",
+   "url": "https://arxiv.org/abs/2611.31806v1",
+   "published": "2026-11-24T01:57:53+00:00",
+   "preview": "Users of large language model (LLM) services receive token bills with limited evidence of which calls incurred their charges. In broker-mediated agent workflows, calls arise after authorization and billing evidence…",
+   "id": "b5147af73508",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "TopoCryptoEEG: End-to-End Encrypted Framework for Brainprint Authentication",
+   "url": "https://arxiv.org/abs/2611.31801v1",
+   "published": "2026-11-24T01:53:30+00:00",
+   "preview": "Brainprint authentication enables continuous identity verification, but EEG data are privacy-sensitive. Existing feature-level encrypted authentication (FLEA) schemes protect extracted features under a trusted-client…",
+   "id": "9a1c0b1193bd",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?",
+   "url": "https://arxiv.org/abs/2611.31791v1",
+   "published": "2026-11-24T01:43:42+00:00",
+   "preview": "LLM agents increasingly collaborate in group chats while holding tool access to confidential records, which makes the shared chat an attack surface. It remains unclear whether several colluding attackers extract such…",
+   "id": "61c81ba090b0",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
    "title": "Jensen Returns",
    "url": "https://www.chinatalk.media/p/jensen-returns",
    "published": "2026-11-24T01:41:25+00:00",
@@ -398,6 +448,26 @@
    "countries": []
   },
   {
+   "title": "HDMark: Holographic Multi-Bit Model Watermarking for Intellectual Property Protection in Hyperdimensional Computing",
+   "url": "https://arxiv.org/abs/2611.31781v1",
+   "published": "2026-11-24T01:31:48+00:00",
+   "preview": "Hyperdimensional computing (HDC) models deployed on edge hardware are valuable intellectual property that is easy to steal, since a trained classifier consolidates its learned knowledge into a compact set of class…",
+   "id": "6ba0fa67b2ba",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "BODYBENCH: Evaluating Adversarial Image Defenses Against AI Nudification Inpainting",
+   "url": "https://arxiv.org/abs/2611.31774v1",
+   "published": "2026-11-24T01:27:26+00:00",
+   "preview": "Adversarial perturbation defenses protect images from unauthorized edits by adding imperceptible noise. Yet none of these methods have been evaluated against nudification, despite AI-generated non-consensual intimate…",
+   "id": "8bc355edd635",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
    "title": "The Final Goalpost – Supplementary Material",
    "url": "https://secondthoughts.ai/p/the-final-goalpost-supplementary",
    "published": "2026-11-24T01:25:31+00:00",
@@ -405,6 +475,46 @@
    "id": "53d306ee0adf",
    "source": "second-thoughts-steve-newman",
    "fetched": "2026-11-24T02:18:23+00:00",
+   "countries": []
+  },
+  {
+   "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
+   "url": "https://arxiv.org/abs/2611.31756v1",
+   "published": "2026-11-24T01:01:49+00:00",
+   "preview": "The growing autonomy of AI agents in using external tools and making decisions has created an urgent need for comprehensive safety benchmarks. Existing benchmarks test compromised tool channels or adaptive multi-turn…",
+   "id": "a340e3d66453",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
+   "url": "https://arxiv.org/abs/2611.31752v1",
+   "published": "2026-11-24T01:00:20+00:00",
+   "preview": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a…",
+   "id": "c8c31a59784e",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "Mixed-Initiative Mining of Root-Cause Analyses into Audit Priors for C/C++ Vulnerability Hunting",
+   "url": "https://arxiv.org/abs/2611.31744v1",
+   "published": "2026-11-24T00:56:32+00:00",
+   "preview": "Vulnerability auditing of large C/C++ codebases is constrained by limited review attention. Human auditors and LLM-based agents need operational priors that indicate where to look first and what to suspect, but such…",
+   "id": "ed8219350980",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "SigK: rPPG-based key agreement scheme for mHealth",
+   "url": "https://arxiv.org/abs/2611.31721v1",
+   "published": "2026-11-24T00:24:32+00:00",
+   "preview": "As mobile health advances, the use of biomedical sensors for disease monitoring, diagnosis, and treatment is increasing. These sensors often need to be connected through wireless communication technologies to process…",
+   "id": "cc6f7e797ed4",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
    "countries": []
   },
   {
@@ -470,6 +580,26 @@
    "countries": []
   },
   {
+   "title": "Harvesting Apple's Orchard: A Security Analysis of On-Device CoreML Models Across the Apple Ecosystem",
+   "url": "https://arxiv.org/abs/2611.31688v1",
+   "published": "2026-11-23T23:22:07+00:00",
+   "preview": "Apple ships hundreds of task-specific machine-learning models inside iOS, iPadOS, macOS, and tvOS. We present, to our knowledge, the first systematic security analysis of this on-device surface. We harvested 1,137…",
+   "id": "db71638fd5ac",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
+   "title": "Your bids are showing: re-identifying power plants in anonymized market data, and a differentially private alternative",
+   "url": "https://arxiv.org/abs/2611.31681v1",
+   "published": "2026-11-23T23:13:06+00:00",
+   "preview": "ERCOT publishes every generator's hourly offer curve 60 days after the operating day. Market monitors, researchers and traders use these records to study the merit order and check for withholding. PJM publishes the same…",
+   "id": "b2eceb928856",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
+  },
+  {
    "title": "Trump engineered a risky comeback for Jensen Huang",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
    "published": "2026-11-23T22:25:12+00:00",
@@ -480,6 +610,16 @@
    "countries": [
     "China"
    ]
+  },
+  {
+   "title": "Open-Set Radio Frequency Fingerprint Identification with Feature Fusion and Vision Transformer",
+   "url": "https://arxiv.org/abs/2611.31636v1",
+   "published": "2026-11-23T22:24:04+00:00",
+   "preview": "Radio frequency fingerprint identification (RFFI) is a promising device authentication technique for the Internet of Things (IoT) that leverages hardware impairments to uniquely identify devices. However, most existing…",
+   "id": "4f6b3489607f",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
+   "countries": []
   },
   {
    "title": "Nvidia CEO Jensen Huang is back. What happens next?",
@@ -499,6 +639,16 @@
    "id": "8ab70d6f89cf",
    "source": "the-verge-ai",
    "fetched": "2026-11-23T22:18:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Internal inconsistencies and unresolved experimental evidence in a quantum neurosecurity framework",
+   "url": "https://arxiv.org/abs/2611.31622v1",
+   "published": "2026-11-23T22:09:17+00:00",
+   "preview": "This article presents a technical and theoretical assessment of the Quantum-Entangled Neuro-Symbolic Swarm Federation (QENSSF), a framework intended for privacy-preserving, quantum-secure, AI-powered, multimodal…",
+   "id": "599aa7ed5c33",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-25T02:18:02+00:00",
    "countries": []
   },
   {
@@ -1774,26 +1924,6 @@
    "countries": []
   },
   {
-   "title": "Conartist: Adaptive Agentic Red-Teaming of Computer-Using Agents against Multi-Step Prompt Injection",
-   "url": "https://arxiv.org/abs/2611.29977v1",
-   "published": "2026-11-23T03:41:22+00:00",
-   "preview": "Harnesses secure Computer-Using Agents by enforcing security constraints and defending against prompt injection attacks. However, we find that two core security mechanisms of agent harnesses remain vulnerable. First,…",
-   "id": "1a169130d39d",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T06:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "IDSMorph: Self-Adaptive Malicious Traffic Detection through Consistency-Guided Dynamic Decision Boundaries",
-   "url": "https://arxiv.org/abs/2611.29964v1",
-   "published": "2026-11-23T03:26:31+00:00",
-   "preview": "Anomaly-based malicious traffic detection learns decision boundaries for normal behavior and identifies deviations as anomalies. However, normal behavior varies across networks and changes dynamically, limiting…",
-   "id": "7b7066133b56",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T06:17:58+00:00",
-   "countries": []
-  },
-  {
    "title": "How to build and maintain an agentic evaluation",
    "url": "https://huggingface.co/blog/agentic-evals",
    "published": "2026-11-23T00:00:00+00:00",
@@ -1974,32 +2104,12 @@
    "countries": []
   },
   {
-   "title": "Persistent Jailbreak Backdoor Attack",
-   "url": "https://arxiv.org/abs/2611.29217v1",
-   "published": "2026-11-22T04:34:29+00:00",
-   "preview": "Safety alignment is widely used to align large language models (LLMs) to produce helpful and harmless responses. However, an attacker can plant a jailbreak backdoor in an LLM such that adding a universal trigger word or…",
-   "id": "8cdb8b390793",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
    "title": "Direct Feedback Policy Optimization for AI Coding Agents",
    "url": "https://arxiv.org/abs/2611.29193v1",
    "published": "2026-11-22T03:36:09+00:00",
    "preview": "AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate…",
    "id": "6cf04f000f8d",
    "source": "arxiv-cs-ai",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Ziv Meets Sumcheck: Zero-Knowledge Proofs of Floating-Point LLM Inference",
-   "url": "https://arxiv.org/abs/2611.29188v1",
-   "published": "2026-11-22T03:29:13+00:00",
-   "preview": "Zero-knowledge proofs can show that a neural network produced a given output without revealing the network, but current systems for language models prove integer approximations of the model rather than the…",
-   "id": "19ad54abc9e3",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-11-24T04:17:58+00:00",
    "countries": []
   },
@@ -2020,16 +2130,6 @@
    "preview": "Many deep reinforcement learning (RL) algorithms store agent-environment interactions in a replay buffer and later learn by sampling transitions from it. However, this approach can be memory-inefficient and can delay…",
    "id": "05edb257daff",
    "source": "arxiv-cs-ai",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Rateless Lattice Codes over Fading Wiretap Channels: Finite-Length Secrecy and the Secret-Key Capacity of Degraded Sessions",
-   "url": "https://arxiv.org/abs/2611.29177v1",
-   "published": "2026-11-22T03:14:54+00:00",
-   "preview": "In rateless transmission the transmitter keeps sending until the legitimate receiver (Bob) can decode. Over a wiretap channel this has a useful side effect: the eavesdropper (Eve) sees only as many symbols as Bob needs,…",
-   "id": "7a23aa59d46e",
-   "source": "arxiv-cs-cr",
    "fetched": "2026-11-24T04:17:58+00:00",
    "countries": []
   },
@@ -2134,16 +2234,6 @@
    "countries": []
   },
   {
-   "title": "HiPerfCC-StateReuse: Ciphertext Reuse for Fast Confidential GPU Data Movement",
-   "url": "https://arxiv.org/abs/2611.29067v1",
-   "published": "2026-11-21T22:12:45+00:00",
-   "preview": "Confidential GPUs offer near-native on-device compute performance, but transfers between CPU and GPU TEEs through untrusted host memory require bulk CPU encryption and decryption, even for unchanged data. Existing…",
-   "id": "0ef87a7f24d7",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
    "title": "RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling",
    "url": "https://arxiv.org/abs/2611.29066v1",
    "published": "2026-11-21T22:10:33+00:00",
@@ -2187,66 +2277,6 @@
    "countries": []
   },
   {
-   "title": "Watermark Claims Under Test: Lessons from Auditing a Production LLM",
-   "url": "https://arxiv.org/abs/2611.29018v1",
-   "published": "2026-11-21T19:59:16+00:00",
-   "preview": "Can we tell whether an LLM is watermarked without knowing its secret key? Published black-box tests suggest that carefully designed prompts can reveal the statistical footprint of a watermark. This paper examines what…",
-   "id": "db5059fc79c6",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Consumer-Time Validity in Stateful AI Runtimes: Verifying Recovered State and Deferred Authority",
-   "url": "https://arxiv.org/abs/2611.29004v1",
-   "published": "2026-11-21T19:31:58+00:00",
-   "preview": "Stateful LLM serving engines and agent runtimes reuse execution state and deferred permissions across components and sessions. A cancellation, rollback, or approval is recorded by one component and relied on by another,…",
-   "id": "16181fcea841",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Q-TRACE: Physics-based zero-day attack detection for decoy-state quantum key distribution",
-   "url": "https://arxiv.org/abs/2611.28945v1",
-   "published": "2026-11-21T17:28:17+00:00",
-   "preview": "Practical quantum key distribution (QKD) is secure only while its devices match the assumptions of the security proof, and implementation attacks exploit mismatches while keeping the quantum bit error rate (QBER) low.…",
-   "id": "1450f0d5444d",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "ActWithin: Bounding Wrong-Payment Risk in Delegated Payment Batches",
-   "url": "https://arxiv.org/abs/2611.28941v1",
-   "published": "2026-11-21T17:18:39+00:00",
-   "preview": "A delegated payment agent can hold valid rights for incompatible revisions of a batch. We study the window in which the selected revision cannot be verified by the execution deadline. For batches that permit every…",
-   "id": "0c446c78a1c1",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Intrinsic Value Modules: Trusted-Hardware Support for Locally Final Offline Asset Transfer",
-   "url": "https://arxiv.org/abs/2611.28928v1",
-   "published": "2026-11-21T17:03:50+00:00",
-   "preview": "Consensus lets distributed participants agree on a common state, but it makes monetary validity depend on network connectivity and collective acceptance. We explore making validity intrinsic to a digital coin. We…",
-   "id": "575b592ea2c5",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "Ads for Agents: Measuring Ad-Serving MCP Servers",
-   "url": "https://arxiv.org/abs/2611.28911v1",
-   "published": "2026-11-21T16:38:08+00:00",
-   "preview": "AI agents call external tools through protocols such as the Model Context Protocol (MCP). Some MCP servers return paid advertisements (ads) into the model's context. The model then decides whether these ads and their…",
-   "id": "e7a69301789a",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
    "title": "GPT-6.2 Astra and Sol: The System Card",
    "url": "https://thezvi.wordpress.com/2026/11/21/gpt-6-2-astra-and-sol-the-system-card/",
    "published": "2026-11-21T15:12:13+00:00",
@@ -2264,36 +2294,6 @@
    "id": "a9f34b76fcc6",
    "source": "the-verge-ai",
    "fetched": "2026-11-21T20:19:12+00:00",
-   "countries": []
-  },
-  {
-   "title": "Operational Assurance for LLM-Based Systems under Governance Opacity",
-   "url": "https://arxiv.org/abs/2611.28834v1",
-   "published": "2026-11-21T14:36:48+00:00",
-   "preview": "In the contemporary artificial intelligence ecosystem, foundation models are increasingly deployed under AI-as-a-Service (AIaaS) schemes characterized by high technical opacity, technological concentration, and limited…",
-   "id": "dd747bca2868",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "More Is Never Less: Affordable Robustness to Additive Attacks via Monotone Multiple-Instance Learning",
-   "url": "https://arxiv.org/abs/2611.28825v1",
-   "published": "2026-11-21T14:19:14+00:00",
-   "preview": "Static malware detectors that represent each sample as a bag of extracted features, such as permissions, API calls, or imported functions, are cheap to deploy and remain state-of-the-art under temporal drift and in…",
-   "id": "3cc99afa6061",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
-   "countries": []
-  },
-  {
-   "title": "When Being Wrong Is Right: Reverse-Capability Audio CAPTCHAs through Psychoacoustic Design",
-   "url": "https://arxiv.org/abs/2611.28823v1",
-   "published": "2026-11-21T14:16:14+00:00",
-   "preview": "Large audio-language models (LALMs) have recently been shown to bypass audio CAPTCHAs designed around limitations of automatic speech recognition. To address this threat, we introduce reverse-capability verification, a…",
-   "id": "cfad59fbaeb5",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-24T04:17:58+00:00",
    "countries": []
   },
   {
