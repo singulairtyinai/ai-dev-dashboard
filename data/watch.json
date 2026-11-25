@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-25T08:18:51+00:00",
+  "checked_at": "2026-11-25T10:18:19+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-25T08:18:53+00:00",
+  "checked_at": "2026-11-25T10:18:20+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-25T08:18:53+00:00",
+  "checked_at": "2026-11-25T10:18:20+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-25T08:18:53+00:00",
+  "checked_at": "2026-11-25T10:18:21+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-25T08:18:55+00:00",
+  "checked_at": "2026-11-25T10:18:23+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-25T08:18:54+00:00",
+  "checked_at": "2026-11-25T10:18:22+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-25T08:18:55+00:00",
-  "hash": "a6c527bd14f7786e7b1e7c35f31c4f581833d87e",
+  "checked_at": "2026-11-25T10:18:23+00:00",
+  "hash": "d9b2d408d621ecef238a73eb3e893a03a53bb500",
   "known": [
    "3D Language & Generation Research Group",
    "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
@@ -168,6 +168,7 @@
    "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
    "Center for Research in Computer Vision, University of Central Florida",
    "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
+   "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
    "Coding4Games: Can Modern Coding Agents Play Modern Video Games?",
    "Do learned image captioning metrics generalize? Auditing duplicated samples in human-judgment benchmarks",
    "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
@@ -175,6 +176,8 @@
    "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
    "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
    "Factorized Context Attention: From Emulated to Native Grid Probing",
+   "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+   "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
    "GVC Lab at Great Bay University",
    "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting",
    "KMed-31B Technical Report",
@@ -191,6 +194,8 @@
    "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
    "PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics",
    "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+   "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+   "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
    "Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching",
    "Residual Guidance for Real-Time Interactive Video Generation",
    "Rewirable Circuits in Transformers with Loom Attention",
@@ -198,6 +203,8 @@
    "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
    "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
    "Self-Evolving Evaluation Environments for Computer-Use Agents",
+   "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+   "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
    "The Hong Kong University of Science and Technology",
    "The University of Melbourne",
    "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
@@ -205,20 +212,36 @@
    "VenusOCR2.0: Towards Efficient and Effective Document Parsing",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-25T08:18:55+00:00",
+  "changed_at": "2026-11-25T10:18:23+00:00",
   "added": [
    {
-    "text": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+    "text": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "LingSante MedGuard Technical Report",
+    "text": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-25T08:18:57+00:00",
+  "checked_at": "2026-11-25T10:18:25+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -248,7 +271,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-25T08:18:59+00:00",
+  "checked_at": "2026-11-25T10:18:27+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -346,7 +369,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-25T08:18:57+00:00",
+  "checked_at": "2026-11-25T10:18:25+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
