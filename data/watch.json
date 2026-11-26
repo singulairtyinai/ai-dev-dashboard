@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-26T16:18:38+00:00",
+  "checked_at": "2026-11-26T18:18:14+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-26T16:18:39+00:00",
+  "checked_at": "2026-11-26T18:18:14+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-26T16:18:39+00:00",
+  "checked_at": "2026-11-26T18:18:15+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-26T16:18:39+00:00",
+  "checked_at": "2026-11-26T18:18:15+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-26T16:18:42+00:00",
+  "checked_at": "2026-11-26T18:18:17+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-26T16:18:40+00:00",
+  "checked_at": "2026-11-26T18:18:16+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-26T16:18:41+00:00",
-  "hash": "d8a0a79c9fdeebbf096a4a75ca1ff630298dc95c",
+  "checked_at": "2026-11-26T18:18:17+00:00",
+  "hash": "bb6e99d64349488af8c662c38d2e469eddfe34b1",
   "known": [
    "3D CoCa v3: Contrastive Learners with Scene Graphs for Urban Scene Understanding",
    "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
@@ -171,6 +171,7 @@
    "Carnegie Mellon University School of Computer Science",
    "Change the Base, Change the Game: Rethinking Pan-sharpening",
    "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+   "Counterfactual SQL Rewards",
    "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
    "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
    "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
@@ -179,6 +180,7 @@
    "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
    "Efficient Video Retrieval Augmented Generation via Token Allocation",
    "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+   "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
    "Evaluation-Free Recursive Self-Improvement for Coding Agents",
    "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
    "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
@@ -211,6 +213,7 @@
    "Shanghai Jiao Tong University",
    "Simulator-as-Proxy World Model for Robot Manipulation",
    "Singapore Management University",
+   "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
    "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
    "Target-Part Preference Optimization for Part-Aware 3D Generation",
    "The Hong Kong Polytechnic University",
@@ -223,28 +226,24 @@
    "by AK and the research community",
    "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control"
   ],
-  "changed_at": "2026-11-26T16:18:41+00:00",
+  "changed_at": "2026-11-26T18:18:17+00:00",
   "added": [
    {
-    "text": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+    "text": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+    "text": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "National University of Singapore",
-    "url": "https://huggingface.co/NationalUniversityofSingapore"
-   },
-   {
-    "text": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-    "url": "https://huggingface.co/papers"
+    "text": "Counterfactual SQL Rewards",
+    "url": "https://huggingface.co/counterfactual-sql"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-26T16:18:44+00:00",
+  "checked_at": "2026-11-26T18:18:19+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -274,7 +273,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-26T16:18:45+00:00",
+  "checked_at": "2026-11-26T18:18:21+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -372,7 +371,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-26T16:18:43+00:00",
+  "checked_at": "2026-11-26T18:18:18+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
