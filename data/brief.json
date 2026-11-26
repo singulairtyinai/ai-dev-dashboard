@@ -1,68 +1,67 @@
 {
- "generated_at": "2026-11-25T05:55:00+00:00",
+ "generated_at": "2026-11-26T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release, as SIPRI mapped the military AI industry's influence and Congress moved to tighten chip export controls amid the Nvidia scandal.",
+ "headline": "UNIDIR examined fault lines since the NPT Review Conference and called for strengthening the Biological Weapons Convention, as Congress pressed its Nvidia national-security probe and the FCC approved SpaceX's plan for up to 1 million AI satellites.",
  "points": [
   {
-   "text": "More than two dozen Anthropic and OpenAI employees said internal, unreleased AI models are becoming so powerful that many no longer believe they can be safely released.",
-   "cats": ["risk"],
-   "item_ids": ["f5aad627bf95"]
+   "text": "UNIDIR took stock of the fault lines that persist six months after the 2026 Non-Proliferation Treaty Review Conference closed in New York.",
+   "cats": ["peace"],
+   "item_ids": ["8830ad40df1c"]
   },
   {
-   "text": "SIPRI mapped the actors, influence, and policymaking role of the military artificial intelligence industry.",
-   "cats": ["peace", "mil"],
-   "item_ids": ["a0d43e3f7537"]
+   "text": "UNIDIR argued for strengthening the Biological Weapons Convention to address the full biothreat spectrum, as the Working Group on Strengthening the BWC concludes its activities at the end of 2026.",
+   "cats": ["peace", "risk"],
+   "item_ids": ["431a57e3e18e"]
   },
   {
-   "text": "ChinaTalk examined how a 'Remote Access Rule,' if enforced by Commerce Secretary Lutnick, would buy the US roughly six months of compute lead over China.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["73483bb7294a"]
-  },
-  {
-   "text": "Policy Gradients detailed the export control bills most likely to pass tightening AI chip exports during the lame-duck congressional session.",
-   "cats": ["gov", "geo"],
-   "item_ids": ["3fdd0114ac37"]
-  },
-  {
-   "text": "National security and foreign policy experts said Nvidia's centrality to the US economy outweighed concerns about former CEO Jensen Huang's ties to a suspected Chinese intelligence asset, as Trump effectively inherited the unresolved scandal by securing his return.",
+   "text": "Congressional committees are set to question Nvidia executives next week about AI chip exports and potential national security breaches.",
    "cats": ["geo", "gov"],
-   "item_ids": ["c380f1e9589a", "1cc1246e11e8"]
+   "item_ids": ["13d6000fc773"]
   },
   {
-   "text": "Anthropic built a honeypot test to see whether AI agents would resist temptation to misbehave when given the opportunity to go rogue.",
+   "text": "Prominent Democrats demanded new restrictions on AI development after reports that OpenAI and Anthropic employees increasingly fear their most powerful models cannot be safely released.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["a8b01bc4ee4c"]
+  },
+  {
+   "text": "Top AI executives are increasingly pushing back against a view inside Anthropic that humanity should surrender some decision-making power to superintelligent AI systems.",
    "cats": ["risk"],
-   "item_ids": ["4cccc58426de"]
+   "item_ids": ["ace489d1ee32"]
   },
   {
-   "text": "The AI Safety Newsletter reported that Anthropic faces accusations of recklessness as it went public, alongside growing loss-of-control lawsuits against AI companies.",
-   "cats": ["risk", "gov"],
-   "item_ids": ["2207c8f526bb"]
+   "text": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into orbit as part of its 'Starmind' initiative.",
+   "cats": ["geo", "hw"],
+   "item_ids": ["6359c2ce0900"]
+  },
+  {
+   "text": "The ITU's AI for Good discussed building shared global standards for foundation model evaluation.",
+   "cats": ["multi"],
+   "item_ids": ["28e61a4842f3"]
   }
  ],
  "categories": {
-  "risk": [
-   "Anthropic and OpenAI employees fear unreleased models are too unsafe to release.",
-   "Anthropic built a honeypot to test whether AI agents would misbehave.",
-   "Anthropic faces accusations of recklessness as it went public."
-  ],
   "peace": [
-   "SIPRI mapped the military AI industry's actors, influence and policymaking."
+   "UNIDIR examined fault lines persisting six months after the 2026 NPT Review Conference.",
+   "UNIDIR called for strengthening the Biological Weapons Convention."
   ],
-  "mil": [
-   "SIPRI mapped the military AI industry's actors, influence and policymaking."
+  "risk": [
+   "UNIDIR called for strengthening the Biological Weapons Convention.",
+   "Democrats demanded new AI restrictions after reports employees fear models are unsafe.",
+   "AI executives pushed back against Anthropic's vision of surrendering human agency."
   ],
   "geo": [
-   "ChinaTalk examined the Remote Access Rule's compute-lead implications.",
-   "Congress is moving to tighten chip export controls.",
-   "National security experts say Nvidia's centrality outweighed the Huang scandal."
-  ],
-  "hw": [
-   "ChinaTalk examined the Remote Access Rule's compute-lead implications."
+   "Congress pressed ahead with national security investigations into Nvidia.",
+   "The FCC approved SpaceX's plan for up to 1 million AI satellites in orbit."
   ],
   "gov": [
-   "Congress is moving to tighten chip export controls.",
-   "National security experts say Nvidia's centrality outweighed the Huang scandal.",
-   "Anthropic faces accusations of recklessness as it went public."
+   "Congress pressed ahead with national security investigations into Nvidia.",
+   "Democrats demanded new AI restrictions after reports employees fear models are unsafe."
+  ],
+  "hw": [
+   "The FCC approved SpaceX's plan for up to 1 million AI satellites in orbit."
+  ],
+  "multi": [
+   "The ITU's AI for Good discussed building shared standards for foundation model evaluation."
   ]
  }
 }
