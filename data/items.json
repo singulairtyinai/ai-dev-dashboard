@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:18:52+00:00",
+ "updated": "2026-11-26T02:19:00+00:00",
  "items": [
   {
    "title": "Evaluating Recent Model Releases on GDPx",
@@ -328,6 +328,56 @@
    "countries": []
   },
   {
+   "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+   "url": "https://arxiv.org/abs/2611.33741v1",
+   "published": "2026-11-25T04:01:37+00:00",
+   "preview": "Clients of closed-weight LLM APIs cannot verify whether a provider ran the advertised model, precision, hidden prompt, and reasoning budget. Existing approaches either trust hardware or third parties, or re-prove every…",
+   "id": "bb5a015b4ef3",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Node Differential Privacy via Node-Stable Graph Projections",
+   "url": "https://arxiv.org/abs/2611.33672v1",
+   "published": "2026-11-25T02:37:05+00:00",
+   "preview": "Node-differentially private algorithms enable learning on network-structured datasets in which records reflect interactions among individuals. They protect the privacy of each individual's information, including all…",
+   "id": "5ccd3bb73a23",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Bounding the security of the FALCON signature scheme in the quantum random oracle model",
+   "url": "https://arxiv.org/abs/2611.33666v1",
+   "published": "2026-11-25T02:28:08+00:00",
+   "preview": "In 2016, the National Institute of Standards and Technology (NIST) announced their invitation for proposals of public key encryption and signature schemes that are resistant to attacks by quantum computers. Since then,…",
+   "id": "7fb47dbe776c",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+   "url": "https://arxiv.org/abs/2611.33605v1",
+   "published": "2026-11-25T01:23:57+00:00",
+   "preview": "LLM agents increasingly rely on external tools and reusable Skills to execute complex workflows, autonomously replanning when operations fail. However, such recovery may preserve task functionality while silently…",
+   "id": "e1d05bb5d811",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Small Leaks Sink Great Ships: Automated Analysis of Protocols That Tolerate Low-Entropy Keys",
+   "url": "https://arxiv.org/abs/2611.33595v1",
+   "published": "2026-11-25T01:13:11+00:00",
+   "preview": "Modern cryptographic protocols such as WPA2-PSK, Bluetooth Low Energy (BLE), and Bluetooth Classic (BC) tolerate low-entropy keys for user-friendliness, backward compatibility, or resource-constrained deployment, yet…",
+   "id": "f3056a9aa7dc",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
    "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
    "published": "2026-11-25T00:00:00+00:00",
@@ -370,6 +420,16 @@
    "countries": []
   },
   {
+   "title": "PRECEPT: Security Self-Improvement of Coding Agents via Evolving Principles",
+   "url": "https://arxiv.org/abs/2611.33519v1",
+   "published": "2026-11-24T22:52:27+00:00",
+   "preview": "AI coding agents increasingly write and submit code with limited human review, and much of it passes functional tests while remaining insecure. We show that these failures persist. Across 14 task sequences, Codex,…",
+   "id": "847c05c40c7a",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
    "title": "Jensen Huang Reinstated As Nvidia CEO at Behest of President Trump",
    "url": "https://thezvi.wordpress.com/2026/11/24/jensen-huang-reinstated-as-nvidia-ceo-at-behest-of-president-trump/",
    "published": "2026-11-24T22:42:26+00:00",
@@ -377,6 +437,86 @@
    "id": "611c8e892cce",
    "source": "don-t-worry-about-the-vase-zvi",
    "fetched": "2026-11-25T00:18:19+00:00",
+   "countries": []
+  },
+  {
+   "title": "Merkle Trees Minimize Verifier Complexity in the ROM",
+   "url": "https://arxiv.org/abs/2611.33508v1",
+   "published": "2026-11-24T22:35:22+00:00",
+   "preview": "Nearly five decades after their introduction, Merkle trees remain the most efficient hash-based vector commitments. They compress a vector $x \\in \\{0,1\\}^n$ into a commitment whose size is independent of $n$, such that…",
+   "id": "83c55b5c6cdf",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
+   "url": "https://arxiv.org/abs/2611.33486v1",
+   "published": "2026-11-24T22:07:13+00:00",
+   "preview": "Frontier models are increasingly used to discover real-world security vulnerabilities, making it critical to systematically evaluate their cybersecurity capabilities. However, existing security benchmarks primarily…",
+   "id": "9a42f38c228c",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+   "url": "https://arxiv.org/abs/2611.33470v1",
+   "published": "2026-11-24T21:48:03+00:00",
+   "preview": "We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage…",
+   "id": "d55af5a882ad",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "SecID: An LLM-Guided Framework for Threat-Aware Secondary Asset Identification with Quantitative RTL Analysis",
+   "url": "https://arxiv.org/abs/2611.33453v1",
+   "published": "2026-11-24T21:20:28+00:00",
+   "preview": "The growing complexity of modern hardware designs is making security assurance increasingly difficult. One of the foundational steps in pre-silicon security verification is identifying security assets. While primary…",
+   "id": "dd45c23407e3",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "WADJET: Whole-Job Authorization and Dispatch for Job Execution Trust on FPGA System-on-Chip Accelerators",
+   "url": "https://arxiv.org/abs/2611.33406v1",
+   "published": "2026-11-24T20:31:55+00:00",
+   "preview": "On an FPGA system-on-chip, the software that submits work to an accelerator also decides what the accelerator does. It writes the registers one by one, and the hardware runs whatever it finds, so faulty or compromised…",
+   "id": "186076be14c8",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+   "url": "https://arxiv.org/abs/2611.33385v1",
+   "published": "2026-11-24T20:10:12+00:00",
+   "preview": "Self-evolving defenses improve LLM-agent security by learning reusable policies from observed attacks. However, we demonstrate that this learning process itself can become an attack surface. Using SED (Self-Evolving…",
+   "id": "f060dd5c9260",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "From Conversations to Commitments: A Design Study of Shared Records for Agent-to-Business Coordination",
+   "url": "https://arxiv.org/abs/2611.33373v1",
+   "published": "2026-11-24T20:02:56+00:00",
+   "preview": "Business commitments require accepted terms to be linked to delegated authority, reserved resources and durable evidence. We examine how a shared, attributable interaction record can support these links across…",
+   "id": "01b51d108474",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "RegionAlign: Manipulating Parameter Layouts for Localized Fault Injection on LLMs and VLMs",
+   "url": "https://arxiv.org/abs/2611.33370v1",
+   "published": "2026-11-24T20:02:22+00:00",
+   "preview": "Physical fault injection can flip stored weight bits, degrading LLMs and VLMs. Existing work largely overlooks how supply-chain manipulation affects fault vulnerability. We introduce RegionAlign, which allows a…",
+   "id": "60a5d3cabd6e",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
    "countries": []
   },
   {
@@ -585,6 +725,16 @@
    "id": "35838f9b25f6",
    "source": "arxiv-cs-ai",
    "fetched": "2026-11-25T08:18:51+00:00",
+   "countries": []
+  },
+  {
+   "title": "Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection",
+   "url": "https://arxiv.org/abs/2611.33262v1",
+   "published": "2026-11-24T18:11:00+00:00",
+   "preview": "AI models are increasingly being deployed at the edge. Since these models often require significant research and development to produce, are often deployed in potentially hostile environments, and downstream systems…",
+   "id": "41afc40a33ff",
+   "source": "arxiv-cs-cr",
+   "fetched": "2026-11-26T02:19:00+00:00",
    "countries": []
   },
   {
@@ -1699,66 +1849,6 @@
    "countries": []
   },
   {
-   "title": "MALET & Katalina: A Large-Scale Dataset and Static Analysis of macOS Malware",
-   "url": "https://arxiv.org/abs/2611.31949v1",
-   "published": "2026-11-24T04:56:37+00:00",
-   "preview": "While malware on platforms such as Windows and Android has been extensively studied, the macOS ecosystem remains comparatively understudied. To address this gap, we present MALET, a large-scale public dataset for macOS…",
-   "id": "f5447a90df2b",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T04:18:21+00:00",
-   "countries": []
-  },
-  {
-   "title": "The Oracle Is Not Enough: Secure Settlement for Prediction Markets",
-   "url": "https://arxiv.org/abs/2611.31866v1",
-   "published": "2026-11-24T03:08:15+00:00",
-   "preview": "Prediction markets are becoming an important mechanism for aggregating information and forecasting uncertain real-world events. As they grow in scale and value, reliable settlement becomes critical because settlement…",
-   "id": "75c94ded759c",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
-   "url": "https://arxiv.org/abs/2611.31813v1",
-   "published": "2026-11-24T02:06:23+00:00",
-   "preview": "Rust crates confine unsafe code, such as calls into C or C++ libraries or system calls, behind safe interfaces that must uphold Rust's invariants. If an interface encodes one rule of the code beneath it too weakly, a…",
-   "id": "9d4a165eaf69",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "Where Did My Tokens Go? Verifiable Token Billing for LLM Services",
-   "url": "https://arxiv.org/abs/2611.31806v1",
-   "published": "2026-11-24T01:57:53+00:00",
-   "preview": "Users of large language model (LLM) services receive token bills with limited evidence of which calls incurred their charges. In broker-mediated agent workflows, calls arise after authorization and billing evidence…",
-   "id": "b5147af73508",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "TopoCryptoEEG: End-to-End Encrypted Framework for Brainprint Authentication",
-   "url": "https://arxiv.org/abs/2611.31801v1",
-   "published": "2026-11-24T01:53:30+00:00",
-   "preview": "Brainprint authentication enables continuous identity verification, but EEG data are privacy-sensitive. Existing feature-level encrypted authentication (FLEA) schemes protect extracted features under a trusted-client…",
-   "id": "9a1c0b1193bd",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?",
-   "url": "https://arxiv.org/abs/2611.31791v1",
-   "published": "2026-11-24T01:43:42+00:00",
-   "preview": "LLM agents increasingly collaborate in group chats while holding tool access to confidential records, which makes the shared chat an attack surface. It remains unclear whether several colluding attackers extract such…",
-   "id": "61c81ba090b0",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
    "title": "Jensen Returns",
    "url": "https://www.chinatalk.media/p/jensen-returns",
    "published": "2026-11-24T01:41:25+00:00",
@@ -1769,26 +1859,6 @@
    "countries": []
   },
   {
-   "title": "HDMark: Holographic Multi-Bit Model Watermarking for Intellectual Property Protection in Hyperdimensional Computing",
-   "url": "https://arxiv.org/abs/2611.31781v1",
-   "published": "2026-11-24T01:31:48+00:00",
-   "preview": "Hyperdimensional computing (HDC) models deployed on edge hardware are valuable intellectual property that is easy to steal, since a trained classifier consolidates its learned knowledge into a compact set of class…",
-   "id": "6ba0fa67b2ba",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "BODYBENCH: Evaluating Adversarial Image Defenses Against AI Nudification Inpainting",
-   "url": "https://arxiv.org/abs/2611.31774v1",
-   "published": "2026-11-24T01:27:26+00:00",
-   "preview": "Adversarial perturbation defenses protect images from unauthorized edits by adding imperceptible noise. Yet none of these methods have been evaluated against nudification, despite AI-generated non-consensual intimate…",
-   "id": "8bc355edd635",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
    "title": "The Final Goalpost – Supplementary Material",
    "url": "https://secondthoughts.ai/p/the-final-goalpost-supplementary",
    "published": "2026-11-24T01:25:31+00:00",
@@ -1796,46 +1866,6 @@
    "id": "53d306ee0adf",
    "source": "second-thoughts-steve-newman",
    "fetched": "2026-11-24T02:18:23+00:00",
-   "countries": []
-  },
-  {
-   "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
-   "url": "https://arxiv.org/abs/2611.31756v1",
-   "published": "2026-11-24T01:01:49+00:00",
-   "preview": "The growing autonomy of AI agents in using external tools and making decisions has created an urgent need for comprehensive safety benchmarks. Existing benchmarks test compromised tool channels or adaptive multi-turn…",
-   "id": "a340e3d66453",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-   "url": "https://arxiv.org/abs/2611.31752v1",
-   "published": "2026-11-24T01:00:20+00:00",
-   "preview": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a…",
-   "id": "c8c31a59784e",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "Mixed-Initiative Mining of Root-Cause Analyses into Audit Priors for C/C++ Vulnerability Hunting",
-   "url": "https://arxiv.org/abs/2611.31744v1",
-   "published": "2026-11-24T00:56:32+00:00",
-   "preview": "Vulnerability auditing of large C/C++ codebases is constrained by limited review attention. Human auditors and LLM-based agents need operational priors that indicate where to look first and what to suspect, but such…",
-   "id": "ed8219350980",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "SigK: rPPG-based key agreement scheme for mHealth",
-   "url": "https://arxiv.org/abs/2611.31721v1",
-   "published": "2026-11-24T00:24:32+00:00",
-   "preview": "As mobile health advances, the use of biomedical sensors for disease monitoring, diagnosis, and treatment is increasing. These sensors often need to be connected through wireless communication technologies to process…",
-   "id": "cc6f7e797ed4",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
    "countries": []
   },
   {
@@ -1901,26 +1931,6 @@
    "countries": []
   },
   {
-   "title": "Harvesting Apple's Orchard: A Security Analysis of On-Device CoreML Models Across the Apple Ecosystem",
-   "url": "https://arxiv.org/abs/2611.31688v1",
-   "published": "2026-11-23T23:22:07+00:00",
-   "preview": "Apple ships hundreds of task-specific machine-learning models inside iOS, iPadOS, macOS, and tvOS. We present, to our knowledge, the first systematic security analysis of this on-device surface. We harvested 1,137…",
-   "id": "db71638fd5ac",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
-   "title": "Your bids are showing: re-identifying power plants in anonymized market data, and a differentially private alternative",
-   "url": "https://arxiv.org/abs/2611.31681v1",
-   "published": "2026-11-23T23:13:06+00:00",
-   "preview": "ERCOT publishes every generator's hourly offer curve 60 days after the operating day. Market monitors, researchers and traders use these records to study the merit order and check for withholding. PJM publishes the same…",
-   "id": "b2eceb928856",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
-  },
-  {
    "title": "Trump engineered a risky comeback for Jensen Huang",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
    "published": "2026-11-23T22:25:12+00:00",
@@ -1931,16 +1941,6 @@
    "countries": [
     "China"
    ]
-  },
-  {
-   "title": "Open-Set Radio Frequency Fingerprint Identification with Feature Fusion and Vision Transformer",
-   "url": "https://arxiv.org/abs/2611.31636v1",
-   "published": "2026-11-23T22:24:04+00:00",
-   "preview": "Radio frequency fingerprint identification (RFFI) is a promising device authentication technique for the Internet of Things (IoT) that leverages hardware impairments to uniquely identify devices. However, most existing…",
-   "id": "4f6b3489607f",
-   "source": "arxiv-cs-cr",
-   "fetched": "2026-11-25T02:18:02+00:00",
-   "countries": []
   },
   {
    "title": "Nvidia CEO Jensen Huang is back. What happens next?",

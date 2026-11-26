@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-26T00:18:52+00:00",
+  "checked_at": "2026-11-26T02:19:01+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-26T00:18:54+00:00",
+  "checked_at": "2026-11-26T02:19:02+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-26T00:18:54+00:00",
+  "checked_at": "2026-11-26T02:19:02+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-26T00:18:54+00:00",
+  "checked_at": "2026-11-26T02:19:02+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-26T00:18:57+00:00",
+  "checked_at": "2026-11-26T02:19:04+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-26T00:18:56+00:00",
+  "checked_at": "2026-11-26T02:19:03+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,8 +157,8 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-26T00:18:58+00:00",
-  "hash": "f9eeb3d6c1238cfcafc5267da8ce435444b6e606",
+  "checked_at": "2026-11-26T02:19:05+00:00",
+  "hash": "c7748d5d1715c7884fb3bab640339fac8cbdd536",
   "known": [
    "3D Language & Generation Research Group",
    "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
@@ -166,6 +166,7 @@
    "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
    "Antom 3-in-1 Transformer: A Payment Foundation Model",
    "Beijing Academy of Artificial Intelligence",
+   "CRUISE Research Group (UNSW)",
    "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
    "Center for Research in Computer Vision, University of Central Florida",
    "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
@@ -192,11 +193,14 @@
    "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
    "LeadVLA: Learning Follower-Aware Route Execution for Robot Leading",
    "LingSante MedGuard Technical Report",
+   "LookAnything: A Foundation Model for Holistic Gaze Following",
    "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
    "LoopedWAM: Looped World Action Models for Elastic Inference",
    "MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
+   "Massachusetts Institute of Technology",
    "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
    "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+   "Model Carving: Training Transformers That Optimize Their Own Topology",
    "Nanyang Technological University",
    "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
    "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
@@ -214,11 +218,13 @@
    "RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset",
    "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
    "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+   "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
    "Self-Evolving Evaluation Environments for Computer-Use Agents",
    "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
    "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
    "SpatialArena: Where Do Geometric Foundation Models Stand?",
    "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
+   "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
    "The Chinese University of Hongkong,Shenzhen",
    "The Hong Kong University of Science and Technology",
    "The University of Melbourne",
@@ -228,16 +234,36 @@
    "Virginia Polytechnic Institute and State University",
    "by AK and the research community"
   ],
-  "changed_at": "2026-11-25T21:48:33+00:00",
+  "changed_at": "2026-11-26T02:19:05+00:00",
   "added": [
    {
-    "text": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
+    "text": "Model Carving: Training Transformers That Optimize Their Own Topology",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Massachusetts Institute of Technology",
+    "url": "https://huggingface.co/MIT"
+   },
+   {
+    "text": "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "CRUISE Research Group (UNSW)",
+    "url": "https://huggingface.co/CRUISEResearchGroup"
+   },
+   {
+    "text": "LookAnything: A Foundation Model for Holistic Gaze Following",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-26T00:19:01+00:00",
+  "checked_at": "2026-11-26T02:19:07+00:00",
   "hash": "f6cdfa5a0ce91465fa70089cc414a1c3a4ff7814",
   "known": [
    "AI and human rights for youth",
@@ -267,7 +293,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-26T00:19:02+00:00",
+  "checked_at": "2026-11-26T02:19:08+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -365,7 +391,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-26T00:19:01+00:00",
+  "checked_at": "2026-11-26T02:19:07+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
