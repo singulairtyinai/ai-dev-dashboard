@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:11:57+00:00",
+ "updated": "2026-11-26T04:18:25+00:00",
  "items": [
   {
    "title": "Evaluating Recent Model Releases on GDPx",
@@ -658,6 +658,36 @@
    "countries": []
   },
   {
+   "title": "Teaching Students to Stand on Their Own: Distilling Vision Foundation Models for Fine-Grained Few-Shot Class-Incremental Learning",
+   "url": "https://arxiv.org/abs/2611.33749v1",
+   "published": "2026-11-25T04:10:53+00:00",
+   "preview": "Fine-grained few-shot class-incremental learning (FG-FSCIL) aims to incrementally learn visually similar new classes from limited images without catastrophic forgetting. Prior work typically learns strong…",
+   "id": "c3e22eed5a00",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+   "url": "https://arxiv.org/abs/2611.33748v1",
+   "published": "2026-11-25T04:08:43+00:00",
+   "preview": "Large language models (LLMs) can write and repair RTL, but successful compilation or testbench execution does not establish defect removal, behavioral preservation, security, or implementation feasibility. Existing…",
+   "id": "e1001ad509c0",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "WhatIf: Counterfactual World Models over Action-Grounded Causal Graphs for Robotic Manipulation",
+   "url": "https://arxiv.org/abs/2611.33745v1",
+   "published": "2026-11-25T04:06:11+00:00",
+   "preview": "World models predict what happens under an action, but choosing between actions requires comparing their outcomes in the same physical situation. Factual transitions alone determine action-wise marginal futures and…",
+   "id": "a0c2c9867005",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
    "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
    "url": "https://arxiv.org/abs/2611.33741v1",
    "published": "2026-11-25T04:01:37+00:00",
@@ -665,6 +695,116 @@
    "id": "bb5a015b4ef3",
    "source": "arxiv-cs-cr",
    "fetched": "2026-11-26T02:19:00+00:00",
+   "countries": []
+  },
+  {
+   "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+   "url": "https://arxiv.org/abs/2611.33735v1",
+   "published": "2026-11-25T03:54:21+00:00",
+   "preview": "Recent advances in large language models (LLMs) and LLM based agents have expanded the capabilities of AI glasses, enabling egocentric visual question answering, memory retrieval, and proactive assistance. These…",
+   "id": "21a6bf1c9f6c",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Asset4D-Bench: Benchmarking Coding Agents for Editable 3D and 4D Reconstruction",
+   "url": "https://arxiv.org/abs/2611.33728v1",
+   "published": "2026-11-25T03:47:00+00:00",
+   "preview": "A cart can follow its reference trajectory while its cargo floats above the deck. Asset4D-Bench tests whether coding agents recover objects, motion and interactions from visual references as editable Blender scenes. Its…",
+   "id": "c428e002488e",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Practice Makes Fluent: Learning to Use Earlier Predictions in Looped Models",
+   "url": "https://arxiv.org/abs/2611.33722v1",
+   "published": "2026-11-25T03:36:01+00:00",
+   "preview": "People become faster at a task through practice, but models that improve with experience do not necessarily learn to use less computation. We train looped models, whose intermediate predictions allow earlier exits, to…",
+   "id": "54a347f533eb",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "KeyDeck: Multi-Paper-to-Slide Generation via Cross-Paper Synthesis and Reference-Guided Personalization",
+   "url": "https://arxiv.org/abs/2611.33715v1",
+   "published": "2026-11-25T03:28:11+00:00",
+   "preview": "Multi-paper-to-slide generation (multi-PTSG) is the task of constructing a unified presentation from multiple research papers by selecting, organizing, and synthesizing information across sources. This task introduces…",
+   "id": "24fc8ec2a101",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "PowerFix: Physics-Guided Iterative Repair for LLM-Assisted Power Converter Design",
+   "url": "https://arxiv.org/abs/2611.33712v1",
+   "published": "2026-11-25T03:27:22+00:00",
+   "preview": "Large language model (LLM) agents are increasingly being explored for automated engineering design. However, repairing power-converter designs that fail engineering validation remains challenging: the system must…",
+   "id": "dbe3ae8d9e62",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity",
+   "url": "https://arxiv.org/abs/2611.33707v1",
+   "published": "2026-11-25T03:20:47+00:00",
+   "preview": "Skill learning has become an important way to improve agent performance. However, agent trajectories often contain sensitive information and cannot be shared across clients, hindering collaborative skill learning. To…",
+   "id": "e3682b36ad29",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning",
+   "url": "https://arxiv.org/abs/2611.33706v1",
+   "published": "2026-11-25T03:19:42+00:00",
+   "preview": "Hallucinations in multimodal large language models (MLLMs) often arise from visual assumptions that go unchecked. Self-reflection, multi-agent debate, and counterfactual verification can reinforce erroneous conclusions…",
+   "id": "f5fff84dfde7",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Sports Agent: A Self-Evolving System for Conversational Data Analytics",
+   "url": "https://arxiv.org/abs/2611.33700v1",
+   "published": "2026-11-25T03:08:42+00:00",
+   "preview": "Conversational sports analytics requires accurate, evidence-based responses with low latency. Changes in query distributions, data resources, and model behavior can degrade static agent configurations, motivating…",
+   "id": "c3ad06d085bf",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Rethinking Sequential Locate-Then-Edit: Optimality and Stability",
+   "url": "https://arxiv.org/abs/2611.33692v1",
+   "published": "2026-11-25T02:58:13+00:00",
+   "preview": "The Locate-Then-Edit framework enables efficient knowledge updates in large language models without requiring full retraining. Recent research has increasingly focused on sequential editing, where knowledge arrives…",
+   "id": "50bcb4ad8342",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Read Before You Use: Improving Visual Memory Utilization in Vision-Language Models",
+   "url": "https://arxiv.org/abs/2611.33687v1",
+   "published": "2026-11-25T02:53:43+00:00",
+   "preview": "Multimodal memory enables long-horizon vision-language agents to preserve and retrieve past experiences. While prior research has focused on memory construction and retrieval, effectively using the provided memory…",
+   "id": "10acb5b31bcb",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
+   "countries": []
+  },
+  {
+   "title": "Faster and Better Query (FBQ): Learning Future-Position Probes from the First Generated Token",
+   "url": "https://arxiv.org/abs/2611.33679v1",
+   "published": "2026-11-25T02:45:29+00:00",
+   "preview": "When a large language model (LLM) evicts prompt keys and values at the end of prefill, it must decide what to keep before it sees the queries from subsequent decoding steps. Generating a draft continuation can…",
+   "id": "a644a680acdf",
+   "source": "arxiv-cs-ai",
+   "fetched": "2026-11-26T04:18:25+00:00",
    "countries": []
   },
   {
@@ -1168,16 +1308,6 @@
    "countries": []
   },
   {
-   "title": "RecordRoute: Auditing Agent Failures with Localization-Guided Diagnosis",
-   "url": "https://arxiv.org/abs/2611.33022v1",
-   "published": "2026-11-24T17:37:25+00:00",
-   "preview": "Auditing failed agent executions requires identifying the responsible actor, the earliest decisive step, and the error mode. Representative supervised methods either focus on step localization or predict multiple…",
-   "id": "58dd50c13d0b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T08:18:51+00:00",
-   "countries": []
-  },
-  {
    "title": "PORTA: Systematic Discovery of Vulnerabilities in Identity Brokers",
    "url": "https://arxiv.org/abs/2611.33015v1",
    "published": "2026-11-24T17:33:24+00:00",
@@ -1240,96 +1370,6 @@
    ]
   },
   {
-   "title": "Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving",
-   "url": "https://arxiv.org/abs/2611.32964v1",
-   "published": "2026-11-24T17:01:37+00:00",
-   "preview": "Reliable driving VLMs must do more than answer correctly or localize relevant scene actors: they must determine whether the available visual evidence is sufficient to support an answer. Existing evaluations largely…",
-   "id": "f618849870d2",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents",
-   "url": "https://arxiv.org/abs/2611.32958v1",
-   "published": "2026-11-24T16:57:12+00:00",
-   "preview": "AI agents are beginning to automate data analysis, orchestration, and simulation steering in HPC environments, but they introduce a security problem that existing cluster defenses do not address: the hijacked authorized…",
-   "id": "0ea151c28dd9",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
-   "url": "https://arxiv.org/abs/2611.32957v1",
-   "published": "2026-11-24T16:56:34+00:00",
-   "preview": "Online fraud is traditionally limited by the cost of the human labor needed to talk to potential victims. We ask whether hosted large language models will now supply that labor. We prompted ten off-the-shelf models to…",
-   "id": "d7fc41c230eb",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
-   "url": "https://arxiv.org/abs/2611.32954v1",
-   "published": "2026-11-24T16:54:37+00:00",
-   "preview": "Large language model (LLM) serving engines offload the key/value (KV) cache from GPU memory to host DRAM and SSD so multi-turn and agent requests can reuse prompt prefixes. Capacity then limits service at two levels:…",
-   "id": "cae0bbabd157",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Beyond Expected Value: PPO with Distributional Critics for Systematic Conservation Planning",
-   "url": "https://arxiv.org/abs/2611.32948v1",
-   "published": "2026-11-24T16:52:05+00:00",
-   "preview": "Systematic conservation planning must allocate limited protection budgets sequentially under ecological and climatic uncertainty. Static tools cannot adapt as conditions change, and policies optimised only for expected…",
-   "id": "fe3cfb54eb76",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
-   "url": "https://arxiv.org/abs/2611.32946v1",
-   "published": "2026-11-24T16:48:06+00:00",
-   "preview": "The use of AI agents among the general public has been increasing exponentially throughout 2026, though it is often hard for users to determine which configuration is most effective for their personal use. To help…",
-   "id": "58e11e684e1b",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition",
-   "url": "https://arxiv.org/abs/2611.32940v1",
-   "published": "2026-11-24T16:46:34+00:00",
-   "preview": "Metacognition includes knowing one's own strengths and weaknesses across kinds of tasks, not only judging whether a single answer is correct. We test whether vision-language models (VLMs) know in advance which kinds of…",
-   "id": "a4003254e258",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-   "url": "https://arxiv.org/abs/2611.32938v1",
-   "published": "2026-11-24T16:43:31+00:00",
-   "preview": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame…",
-   "id": "ed1ff831509d",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Reading Decisions Before Spans: Efficient Generative Verification",
-   "url": "https://arxiv.org/abs/2611.32931v1",
-   "published": "2026-11-24T16:38:25+00:00",
-   "preview": "A developer checking an assistant's report may need only an alarm that a claim is unsupported. A generative verifier, however, can continue decoding to quote and classify the errors. We study how much of that output is…",
-   "id": "0638e2e11c7a",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
    "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
    "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
    "published": "2026-11-24T16:34:13+00:00",
@@ -1340,16 +1380,6 @@
    "countries": []
   },
   {
-   "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
-   "url": "https://arxiv.org/abs/2611.32918v1",
-   "published": "2026-11-24T16:33:20+00:00",
-   "preview": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average,…",
-   "id": "a428d5b32fb0",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
    "title": "Jensen Huang deepfakes are the hot new AI slop",
    "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
    "published": "2026-11-24T16:30:00+00:00",
@@ -1357,36 +1387,6 @@
    "id": "c82ab5c57408",
    "source": "the-verge-ai",
    "fetched": "2026-11-24T18:18:40+00:00",
-   "countries": []
-  },
-  {
-   "title": "Motion Conditioned World Modeling for Embodied Visual Tracking",
-   "url": "https://arxiv.org/abs/2611.32900v1",
-   "published": "2026-11-24T16:25:49+00:00",
-   "preview": "World models support embodied decision-making by predicting future environment states. In embodied visual tracking, uncertain target motion and robot-induced viewpoint changes jointly affect visual observations, making…",
-   "id": "5155f5400db1",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Joint Detection of Constructive Speech, Hate Speech and Agreement in Online Conversations",
-   "url": "https://arxiv.org/abs/2611.32889v1",
-   "published": "2026-11-24T16:20:38+00:00",
-   "preview": "Online hate speech is an ever-growing issue with negative impacts on both groups and individuals, potentially causing users to withdraw from online conversations and debate. With some prominent social media platforms…",
-   "id": "92ba480be950",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
-   "countries": []
-  },
-  {
-   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-   "url": "https://arxiv.org/abs/2611.32884v1",
-   "published": "2026-11-24T16:17:51+00:00",
-   "preview": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several…",
-   "id": "c6eff975936e",
-   "source": "arxiv-cs-ai",
-   "fetched": "2026-11-25T06:18:28+00:00",
    "countries": []
   },
   {
