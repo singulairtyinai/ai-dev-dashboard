@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-26T06:18:20+00:00",
+  "checked_at": "2026-11-26T08:17:58+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-26T06:18:21+00:00",
+  "checked_at": "2026-11-26T08:17:59+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-26T06:18:21+00:00",
+  "checked_at": "2026-11-26T08:18:00+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-26T06:18:21+00:00",
+  "checked_at": "2026-11-26T08:17:59+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-26T06:18:23+00:00",
+  "checked_at": "2026-11-26T08:18:01+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-26T06:18:22+00:00",
+  "checked_at": "2026-11-26T08:18:00+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,25 +157,33 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-26T06:18:23+00:00",
-  "hash": "bfe6952a2369f23b9f0ca8984c3e79a4c1b0730c",
+  "checked_at": "2026-11-26T08:18:02+00:00",
+  "hash": "ede3ae3c5d1724a26d9a445bb3af3152146db9a2",
   "known": [
    "3D CoCa v3: Contrastive Learners with Scene Graphs for Urban Scene Understanding",
    "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
    "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
    "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
    "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+   "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
    "CONCOR: Benchmarking Contrastive Decoding for Visual Hallucination Mitigation Beyond Final-Output Performance",
    "Carnegie Mellon University School of Computer Science",
+   "Change the Base, Change the Game: Rethinking Pan-sharpening",
+   "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
    "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+   "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
    "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
    "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
    "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
    "Improving and Expanding Video Editing Capabilities Without Videos",
+   "KAIST VIClab (Prof. Munchurl Kim)",
+   "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
    "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
+   "Mixture-of-Loops Transformer",
    "Nanyang Technological University",
    "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
    "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
+   "Playfulness as Feedback for Agentic Game Development",
    "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
    "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
    "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
@@ -183,8 +191,11 @@
    "RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
    "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
    "SIA: Selective Image Analogy",
+   "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
+   "SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation",
    "Sage-Med: Scaling Medical Multimodal Intelligence",
    "Singapore Management University",
+   "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
    "Target-Part Preference Optimization for Part-Aware 3D Generation",
    "The Hong Kong Polytechnic University",
    "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
@@ -192,30 +203,30 @@
    "by AK and the research community",
    "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control"
   ],
-  "changed_at": "2026-11-26T06:18:23+00:00",
+  "changed_at": "2026-11-26T08:18:02+00:00",
   "added": [
    {
-    "text": "Sage-Med: Scaling Medical Multimodal Intelligence",
+    "text": "Mixture-of-Loops Transformer",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Improving and Expanding Video Editing Capabilities Without Videos",
+    "text": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Carnegie Mellon University School of Computer Science",
-    "url": "https://huggingface.co/CMU-SCS"
-   },
-   {
-    "text": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+    "text": "Playfulness as Feedback for Agentic Game Development",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+    "text": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration",
+    "text": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "Change the Base, Change the Game: Rethinking Pan-sharpening",
     "url": "https://huggingface.co/papers"
    }
   ]
@@ -251,7 +262,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-26T06:18:27+00:00",
+  "checked_at": "2026-11-26T08:18:05+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -349,7 +360,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-26T06:18:25+00:00",
+  "checked_at": "2026-11-26T08:18:03+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
