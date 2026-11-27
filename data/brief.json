@@ -1,67 +1,40 @@
 {
- "generated_at": "2026-11-26T05:55:00+00:00",
+ "generated_at": "2026-11-27T05:55:00+00:00",
  "model": "Claude (Pro plan)",
- "headline": "UNIDIR examined fault lines since the NPT Review Conference and called for strengthening the Biological Weapons Convention, as Congress pressed its Nvidia national-security probe and the FCC approved SpaceX's plan for up to 1 million AI satellites.",
+ "headline": "SIPRI warned of regulatory-capture risks in military AI policy as ControlAI highlighted warnings that humanity may not control AI on its 'default path,' while the UK's financial watchdog complained Meta refused joint testing of its Muse AI agent.",
  "points": [
   {
-   "text": "UNIDIR took stock of the fault lines that persist six months after the 2026 Non-Proliferation Treaty Review Conference closed in New York.",
+   "text": "SIPRI examined industry engagement in military AI policy, warning of the risk of regulatory capture in multilateral policy processes and suggesting how states can mitigate it.",
    "cats": ["peace"],
-   "item_ids": ["8830ad40df1c"]
+   "item_ids": ["4174c29bc4d3"]
   },
   {
-   "text": "UNIDIR argued for strengthening the Biological Weapons Convention to address the full biothreat spectrum, as the Working Group on Strengthening the BWC concludes its activities at the end of 2026.",
-   "cats": ["peace", "risk"],
-   "item_ids": ["431a57e3e18e"]
-  },
-  {
-   "text": "Congressional committees are set to question Nvidia executives next week about AI chip exports and potential national security breaches.",
-   "cats": ["geo", "gov"],
-   "item_ids": ["13d6000fc773"]
-  },
-  {
-   "text": "Prominent Democrats demanded new restrictions on AI development after reports that OpenAI and Anthropic employees increasingly fear their most powerful models cannot be safely released.",
-   "cats": ["gov", "risk"],
-   "item_ids": ["a8b01bc4ee4c"]
-  },
-  {
-   "text": "Top AI executives are increasingly pushing back against a view inside Anthropic that humanity should surrender some decision-making power to superintelligent AI systems.",
+   "text": "ControlAI highlighted warnings, including from Meta's AI chief, that it is hard to imagine humanity can maintain control over AI if development stays on the 'default path,' even as AI helps solve one of mathematics' hardest open problems.",
    "cats": ["risk"],
-   "item_ids": ["ace489d1ee32"]
+   "item_ids": ["d9b02b0bd331"]
   },
   {
-   "text": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into orbit as part of its 'Starmind' initiative.",
-   "cats": ["geo", "hw"],
-   "item_ids": ["6359c2ce0900"]
+   "text": "The UK's Financial Conduct Authority complained that Meta refused a request to jointly test its Muse AI agent ahead of its UK rollout, warning of 'another force of attack' from agents.",
+   "cats": ["gov"],
+   "item_ids": ["40603fc3c1ac"]
   },
   {
-   "text": "The ITU's AI for Good discussed building shared global standards for foundation model evaluation.",
-   "cats": ["multi"],
-   "item_ids": ["28e61a4842f3"]
+   "text": "A coalition of 42 state attorneys general moved to stop Character.AI from selling users' chat data as the company navigates bankruptcy proceedings.",
+   "cats": ["gov", "risk"],
+   "item_ids": ["c0f2de19f056"]
   }
  ],
  "categories": {
   "peace": [
-   "UNIDIR examined fault lines persisting six months after the 2026 NPT Review Conference.",
-   "UNIDIR called for strengthening the Biological Weapons Convention."
+   "SIPRI warned of regulatory-capture risks in military AI policy."
   ],
   "risk": [
-   "UNIDIR called for strengthening the Biological Weapons Convention.",
-   "Democrats demanded new AI restrictions after reports employees fear models are unsafe.",
-   "AI executives pushed back against Anthropic's vision of surrendering human agency."
-  ],
-  "geo": [
-   "Congress pressed ahead with national security investigations into Nvidia.",
-   "The FCC approved SpaceX's plan for up to 1 million AI satellites in orbit."
+   "ControlAI highlighted warnings about AI's 'default path' risking loss of control.",
+   "42 state AGs moved to stop Character.AI from selling users' chat data."
   ],
   "gov": [
-   "Congress pressed ahead with national security investigations into Nvidia.",
-   "Democrats demanded new AI restrictions after reports employees fear models are unsafe."
-  ],
-  "hw": [
-   "The FCC approved SpaceX's plan for up to 1 million AI satellites in orbit."
-  ],
-  "multi": [
-   "The ITU's AI for Good discussed building shared standards for foundation model evaluation."
+   "The UK's financial watchdog complained Meta refused joint testing of Muse.",
+   "42 state AGs moved to stop Character.AI from selling users' chat data."
   ]
  }
 }
