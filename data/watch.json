@@ -1,6 +1,6 @@
 {
  "belfer-center-tech-public-purpose": {
-  "checked_at": "2026-11-27T02:18:25+00:00",
+  "checked_at": "2026-11-27T04:18:31+00:00",
   "hash": "93db3baec8d04870fa54a8729b00477f5d4137c6",
   "known": [
    "Analyzing the Landscape of Solutions to Social Media’s Harms",
@@ -17,7 +17,7 @@
   "added": []
  },
  "oecd-ai-policy-observatory": {
-  "checked_at": "2026-11-27T02:18:26+00:00",
+  "checked_at": "2026-11-27T04:18:32+00:00",
   "hash": "ce94d614d4baea66a83bb1f08c67895388d4449e",
   "known": [
    "AI & Health AI can help health systems overcome their most urgent challenges.",
@@ -59,7 +59,7 @@
   ]
  },
  "iapp-ai-governance": {
-  "checked_at": "2026-11-27T02:18:27+00:00",
+  "checked_at": "2026-11-27T04:18:32+00:00",
   "hash": "14522baaeae4a12c3f3d0610d92da8a8eb9e7b70",
   "known": [
    "AI Legal Ethics and Responsibilities Tracker",
@@ -94,7 +94,7 @@
   ]
  },
  "nist-caisi-formerly-aisi": {
-  "checked_at": "2026-11-27T02:18:27+00:00",
+  "checked_at": "2026-11-27T04:18:33+00:00",
   "hash": "e80e4f048c7eb0716028ea9aa42dc35409bf4c1c",
   "known": [
    "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)"
@@ -108,7 +108,7 @@
   ]
  },
  "nato-ccdcoe": {
-  "checked_at": "2026-11-27T02:18:30+00:00",
+  "checked_at": "2026-11-27T04:18:36+00:00",
   "hash": "556f0de6d14dfb95ea67095029f99573072e1f84",
   "known": [
    "CCDCOE contributes to military communications experimentation at DiBaX 2026",
@@ -125,7 +125,7 @@
   ]
  },
  "cnas-defense": {
-  "checked_at": "2026-11-27T02:18:28+00:00",
+  "checked_at": "2026-11-27T04:18:35+00:00",
   "hash": "6fc4bd3f0407ac15800f64834f9f6e0ad3db92e5",
   "known": [
    "Appropriators Slash Trump’s $17B Golden Dome Request in Draft Bill",
@@ -157,94 +157,52 @@
   ]
  },
  "hugging-face-papers": {
-  "checked_at": "2026-11-27T02:18:31+00:00",
-  "hash": "c4d9f4cad4d836f4495543c6543aca540633fc52",
+  "checked_at": "2026-11-27T04:18:36+00:00",
+  "hash": "085e8c4c2b70779327fde6f0d4aa9c323d72cbb2",
   "known": [
-   "3D CoCa v3: Contrastive Learners with Scene Graphs for Urban Scene Understanding",
-   "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-   "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
-   "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
-   "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-   "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
-   "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
-   "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-   "CONCOR: Benchmarking Contrastive Decoding for Visual Hallucination Mitigation Beyond Final-Output Performance",
-   "Carnegie Mellon University School of Computer Science",
-   "Change the Base, Change the Game: Rethinking Pan-sharpening",
-   "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
-   "Counterfactual SQL Rewards",
-   "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
-   "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-   "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-   "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-   "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
-   "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
-   "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-   "Efficient Video Retrieval Augmented Generation via Token Allocation",
-   "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
-   "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-   "Evaluating Memanto on DolphinBench for AI Agents",
-   "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-   "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
-   "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-   "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
-   "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
-   "Improving and Expanding Video Editing Capabilities Without Videos",
-   "KAIST VIClab (Prof. Munchurl Kim)",
-   "Let Vision-Language Models Generate Images through Their Representations",
-   "Letting Models Manage Their Own Context: Where We Stand",
-   "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
-   "Look Back: Reinforcement Learning with Counterfactual World Models",
-   "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-   "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
-   "Mixture-of-Loops Transformer",
-   "Nanyang Technological University",
-   "National University of Singapore",
-   "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
-   "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
-   "POSTECH Computer Vision Lab",
-   "Playfulness as Feedback for Agentic Game Development",
-   "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
-   "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
-   "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-   "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
-   "RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
-   "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
-   "SIA: Selective Image Analogy",
-   "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
-   "SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation",
-   "Sage-Med: Scaling Medical Multimodal Intelligence",
-   "Shanghai Jiao Tong University",
-   "Simulator-as-Proxy World Model for Robot Manipulation",
-   "Singapore Management University",
-   "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
-   "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
-   "Target-Part Preference Optimization for Part-Aware 3D Generation",
-   "The Hong Kong Polytechnic University",
-   "University of Illinois at Urbana-Champaign",
-   "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-   "What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration",
-   "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-   "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-   "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
-   "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-   "by AK and the research community",
-   "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control"
+   "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+   "Carnegie Mellon University",
+   "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+   "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+   "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+   "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+   "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+   "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+   "by AK and the research community"
   ],
-  "changed_at": "2026-11-27T02:18:31+00:00",
+  "changed_at": "2026-11-27T04:18:36+00:00",
   "added": [
    {
-    "text": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+    "text": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
     "url": "https://huggingface.co/papers"
    },
    {
-    "text": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+    "text": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+    "url": "https://huggingface.co/papers"
+   },
+   {
+    "text": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
     "url": "https://huggingface.co/papers"
    }
   ]
  },
  "unesco-ai": {
-  "checked_at": "2026-11-27T02:18:33+00:00",
+  "checked_at": "2026-11-27T04:18:40+00:00",
   "hash": "601ac8b748b60bea5cd6688cd6f624832aa679ea",
   "known": [
    "AI and human rights for youth",
@@ -274,7 +232,7 @@
   ]
  },
  "unoosa": {
-  "checked_at": "2026-11-27T02:18:35+00:00",
+  "checked_at": "2026-11-27T04:18:41+00:00",
   "hash": "32bcec7919cd292e390905fc9caefab41e39efb5",
   "known": [
    "2024 UN Conference on Space Law and Policy",
@@ -372,7 +330,7 @@
   "added": []
  },
  "secure-world-foundation": {
-  "checked_at": "2026-11-27T02:18:34+00:00",
+  "checked_at": "2026-11-27T04:18:40+00:00",
   "hash": "49658e05c475a2f78a27f4a201ad02af8611dd8f",
   "known": [
    "04 NOV 8th Summit for Space Sustainability Brasília, Brazil",
